@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MI/RGlWMW3u8Aqem/ism6g
-! Title: Ublock filter for Via(2024-11-16 09:24:48)
-! Version: 20241116092449
+! Checksum: f0hCzLKeNhW1W9l8G1oXUg
+! Title: Ublock filter for Via(2024-11-17 00:11:26)
+! Version: 20241117001126
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-16 09:24:49
-! Total Count: 13543
-! Blocked Filters: 13543
+! Last modified: 2024-11-17 00:11:26
+! Total Count: 13549
+! Blocked Filters: 13549
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5192
+!<<<<<域名规则>>>>>5194
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1726,6 +1726,8 @@
 ||fscleopon.com^
 ||ft-flower.com^
 ||ft-sou.com^
+||ftuapps.dev^
+||ftuapps.io^
 ||ftx.onlyfuns.win^
 ||fuckandcdn.com/*/ads/
 ||fuckandcdn.com/*/frms/
@@ -5206,7 +5208,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5636
+!<<<<<网站单独规则>>>>>5639
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6781,6 +6783,8 @@ examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscribe-truncate:style(
 examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscriber-hider:style(display:inherit!important)
 exee.io,exe.app##.banner-page > .short
 exeo.app##.actions, .earning-steps ~*, .earning-steps, header, footer, .ad-element
+exploader.net##article > div[style="display: flex;align-items: center;margin-bottom: 5px;"] > div[data-pr="1"][style^="min-height: 20px;"]
+exploader.net##article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"]:style(position: absolute !important; clip:rect(1px,1px,1px,1px) !important;)
 express.de,mopo.de###nativendo-marginal
 express.de,mopo.de##.dm_ad
 expresscrypto.io,gratispaste.com,megapastes.com,pastepvp.org##.content > center
@@ -7824,6 +7828,7 @@ japannews.yomiuri.co.jp##div[class^="ad_background"]
 japscan.lol##.navbar-nav > li#navpromo2.nav-item > a[href^="http://www.toueapo.shop/"]:not(:empty):style(clip-path: circle(0) !important;)
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
+japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 jardima.com##.g1-slideup-wrap
 jav.guru###text-76
@@ -10845,7 +10850,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>587
+!<<<<<通配符规则>>>>>588
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11026,6 +11031,7 @@ $script,domain=zdnet.fr,third-party
 /a/na/js/*$third-party
 /a/pop/js/*
 /ab/thejsfile.js
+/aclib.js?v=$script
 /aclib.js|$script
 /ad-m.js$script,~third-party
 /adblock.php$script,domain=daddylivehd.*|dlhd.sx|freelivetvon.com|poscitech.click|tvpclive.com
