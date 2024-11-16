@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
-! Checksum: lnSl27+nRTJxjZOhtgCjVw
-! Title: Ublock filter for Via(2024-11-15 20:50:29)
-! Version: 20241115205029
+! Checksum: MI/RGlWMW3u8Aqem/ism6g
+! Title: Ublock filter for Via(2024-11-16 09:24:48)
+! Version: 20241116092449
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-15 20:50:29
+! Last modified: 2024-11-16 09:24:49
 ! Total Count: 13543
 ! Blocked Filters: 13543
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
-! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/Ublock_filter_for_via.txt
+! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
 !<<<<<域名规则>>>>>5192
