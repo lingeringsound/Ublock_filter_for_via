@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: TUc2gKaZOCiB6jPougyuvw
-! Title: Ublock filter for Via(2024-11-18 00:11:05)
-! Version: 20241118001105
+! Checksum: CENEYHuj1OM92Z/GnBQlJw
+! Title: Ublock filter for Via(2024-11-18 06:34:38)
+! Version: 20241118063438
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-18 00:11:05
-! Total Count: 13563
-! Blocked Filters: 13563
+! Last modified: 2024-11-18 06:34:38
+! Total Count: 13575
+! Blocked Filters: 13575
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5202
+!<<<<<域名规则>>>>>5205
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -85,6 +85,7 @@
 ||411medias.com^
 ||4151.biz^
 ||4151.tv^
+||43478y.online^
 ||45tu1c0.com^
 ||4gay.fans/fans.js
 ||4kx3a.com^
@@ -2282,6 +2283,7 @@
 ||imp2.com^
 ||implarededeensino.com.br^
 ||impoverishedordealscrutinize.com^
+||impressexaltsculptor.com^
 ||incorcg.com^
 ||indi-ana.jp^
 ||indiatimes.com/detector$script
@@ -4524,6 +4526,7 @@
 ||tokuyama-kaiun.com^
 ||tokyo-get-business.jp^
 ||tokyobag.shop^
+||tomarnamki.shop^
 ||tomikuji.com^
 ||tomodachixoxo.wixsite.com^
 ||tomorrowwillbehotmaybe.com^
@@ -5216,7 +5219,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5642
+!<<<<<网站单独规则>>>>>5651
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5353,7 +5356,7 @@ $script,domain=zdnet.fr,third-party
 4funbox.com,nephobox.com,1024tera.com,terabox.*##.ad-eggplant, .operate-box
 4hu.tv##.wrap > #btmBox
 4j.com###bio_ep, #bio_ep_bg
-4j.com,abczdrowie.pl,advertiserandtimes.co.uk,autocentrum.pl,autokult.pl,bccondos.net,beaumontenterprise.com,beautypackaging.com,benchmark.pl,bigrapidsnews.com,cinema.maalaimalar.com,cmphost.com,coatingsworld.com,contractpharma.com,ctinsider.com,ctpost.com,cybernews.com,darientimes.com,deliciousmagazine.pl,dmzj.com,dobreprogramy.pl,drinkspartner.com,eltiempo.es,expressnews.com,fansonlinehub.com,fotoblogia.pl,gadzetomania.pl,genialne.pl,greenwichtime.com,happi.com,headlinerpost.com,hindustantimes.com,hotmediahub.com,houstonchronicle.com,ifenpaidy.com,inkworldmagazine.com,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,labelandnarrowweb.com,leechpremium.link,linkneverdie.net,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,money.pl,moviesjoy.*,mpo-mag.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,nutraceuticalsworld.com,o2.pl,odtmag.com,ourmidland.com,palatifini.it,parenting.pl,petri.com,polygamia.pl,posterify.net,primeos.in,printedelectronicsnow.com,publish0x.com,pudelek.pl,pysznosci.pl,registercitizen.com,review.firstround.com,schools.snap.app,sfchronicle.com,sheltonherald.com,sna3talaflam.com,snapinsta.app,soft3arbi.com,sportstiger.com,stamfordadvocate.com,techishant.in,terabox.fun,teraearn.com,teralink.me,terashare.me,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,top.gg,tribuna.com,trumbulltimes.com,uploadsoon.com,viralxns.com,vuinsider.com,walletinvestor.com,wiltonbulletin.com,wp.pl,wp.uploadfiles.in,yourconroenews.com##body:style(overflow: auto !important;)
+4j.com,abczdrowie.pl,advertiserandtimes.co.uk,autocentrum.pl,autokult.pl,bccondos.net,beaumontenterprise.com,beautypackaging.com,benchmark.pl,bigrapidsnews.com,carbonite.co.za,cinema.maalaimalar.com,cmphost.com,coatingsworld.com,contractpharma.com,ctinsider.com,ctpost.com,cybernews.com,darientimes.com,deliciousmagazine.pl,dmzj.com,dobreprogramy.pl,drinkspartner.com,eltiempo.es,expressnews.com,fansonlinehub.com,fotoblogia.pl,gadzetomania.pl,genialne.pl,greenwichtime.com,happi.com,headlinerpost.com,hindustantimes.com,hotmediahub.com,houstonchronicle.com,ifenpaidy.com,inkworldmagazine.com,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,labelandnarrowweb.com,leechpremium.link,linkneverdie.net,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,money.pl,moviesjoy.*,mpo-mag.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,nutraceuticalsworld.com,o2.pl,odtmag.com,ourmidland.com,palatifini.it,parenting.pl,petri.com,polygamia.pl,posterify.net,primeos.in,printedelectronicsnow.com,publish0x.com,pudelek.pl,pysznosci.pl,registercitizen.com,review.firstround.com,schools.snap.app,sfchronicle.com,sheltonherald.com,sna3talaflam.com,snapinsta.app,soft3arbi.com,sportstiger.com,stamfordadvocate.com,techishant.in,terabox.fun,teraearn.com,teralink.me,terashare.me,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,top.gg,tribuna.com,trumbulltimes.com,uploadsoon.com,viralxns.com,vuinsider.com,walletinvestor.com,wiltonbulletin.com,wp.pl,wp.uploadfiles.in,yourconroenews.com##body:style(overflow: auto !important;)
 4movierulz.*,4movierulz1.*,7movierulzfree.*,movieruls.*,movierulz4k.*,movierulzfree.*,movierulz2free.*,movierulzwatch.*,movierulzs.*##.ad_btn-white
 4movierulz1.*##[href^="https://api.whatsapp.com/send"]
 4wank.com###pause-ads
@@ -6125,6 +6128,7 @@ capital.fr##.cap-ads
 capital.fr##.pmd-ads
 captureflag.io###dAB
 cararegistrasi.com##a[href="https://bahasteknologi.com/"]
+carbonite.co.za##.samSupportUsOverlay
 carbuzz.com##.cb-comments__create-form:style(margin-top: 30px !important;)
 carbuzz.com##.cb-post-block-images-swiper .cb-post-block__comments .collapseable-comments__collapse:style(margin-bottom: 0px !important;)
 carbuzz.com##.cb-post-block-images-swiper .cb-post-block__comments:style(margin-bottom: 0 !important; top: -97px !important;)
@@ -7632,6 +7636,7 @@ hqporner.com##.uvb_wrapper
 hqporner.top##.box_b > small
 hqq.*,justswallows.net,multiup.us,player.tabooporns.com,player.tormalayalamhd.*,yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.*,justswallows.net,player.tabooporns.com,player.tormalayalamhd.*,yandexcdn.com##a[onclick="openAuc();"]
+hubcloud.*##.ads-btns
 hubcloud.*##.img-fluid
 hubcloud.*,movies4u.*,movies4u3.*,xcloud.*,xcloud.mom,xfile.store,xprime4u.*##.ads-btns
 hubu.cloud##.mn
@@ -8462,6 +8467,7 @@ movies123.*##.vip.server-item.le-server:first-child
 movies123.*##[href^="//himekingrow.com/"]
 movies18.net##[href*="/go/"]
 movies4u.*##[href^="https://cutt.ly/"]
+movies4u.*,movies4u3.*##.ads-btns
 moviesflix.*##[href^="https://multipledrawers.com/"]
 moviesjoy.*###fcnbox
 moviesjoy.*##.premodal.modal
@@ -10723,11 +10729,16 @@ xanimu.com##.alrt-ver2
 xbabe.com##.bnnrs-bottom
 xbjav.com##.poplayer
 xbooru.com##a[href^="https://xbooru.com/c.html"]
+xcloud.*##.ads-btns
 xcloud.*##a[onclick^="OPEN_NEW_LINK"]:remove-attr(onclick)
+xcloud.mom##.ads-btns
 xda-developers.com##.ad-current
 xe.com##.advertSlot
 xemales.com##[href="https://myteenwebcam.com/"]
 xenvn.com##.ad_block:style(visibility: hidden !important;)
+xfile.*##.ads-btns
+xfile.*##.downloads-btns-div
+xfile.*##[href^="https://is.gd/"]
 xfile.store##.text-center > center
 xfile.store##[href="https://is.gd/xdownload2024"]
 xfreehd.com##.nvheader > span:has-text(Advertisement)
@@ -10756,6 +10767,7 @@ xnxx.com,xvideos.*###ad-footer
 xnxx.com,xvideos.com###ad-header-mobile
 xnxxcom.xyz##[id^="fluid-on"] > h3
 xnxxjapon.com###asg-inplayer-block:upward(4)
+xprime4u.*##.ads-btns
 xrares.com###linkedblok
 xrares.com##.absd-body:not(.row + .well)
 xrares.com##[href^="/plugout.php"]:upward([class^="col-sm"])
