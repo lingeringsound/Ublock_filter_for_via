@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: f0hCzLKeNhW1W9l8G1oXUg
-! Title: Ublock filter for Via(2024-11-17 00:11:26)
-! Version: 20241117001126
+! Checksum: vco9r36rTJPMaLUFiKnDkQ
+! Title: Ublock filter for Via(2024-11-17 08:54:19)
+! Version: 20241117085419
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-17 00:11:26
-! Total Count: 13549
-! Blocked Filters: 13549
+! Last modified: 2024-11-17 08:54:19
+! Total Count: 13552
+! Blocked Filters: 13552
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5194
+!<<<<<域名规则>>>>>5195
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -847,6 +847,7 @@
 ||cdn777.net/site/binance-banner.jpg$image
 ||cdn777.net/site/usagoals/sitelinks/xpopme_in.js^
 ||cdnjs-storage.com^
+||cdnpk.net/sponsor/
 ||cdnpk.net^$domain=flaticon.com
 ||cdnstaticpr.com^$third-party
 ||cdnstatics.net^
@@ -5208,7 +5209,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5639
+!<<<<<网站单独规则>>>>>5640
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9786,6 +9787,7 @@ stream4free.*##.vjs-poster-onscreen:style(visibility: hidden !important;)
 streamango.*###ad_buts
 streamfare.com##[id^="wb_AdText"]
 streamhub.*##center > a[href][target="_blank"]
+streamingcommunity.computer##div.centered.modal
 streamingsites.com##.OUTBRAIN:upward(2)
 streamporn.pw,watchpornx.com###overlays
 streamtape.*##.play-overlay
@@ -11648,7 +11650,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1924
+!<<<<<放行白名单>>>>>1925
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12298,6 +12300,7 @@ thepiratebay3.com^
 @@||eccmp.com/*/conversen-SDK.js$script,domain=citi.com
 @@||edge.permutive.app^$script,domain=watch.globaltv.com
 @@||edgedatg.com/aws/assets/cp/web/assets/js/*/AppMeasurement.js$script,domain=disneynow.go.com
+@@||edumail.icu/storage/js/frontend_loader.js^$script,~third-party
 @@||eestatic.com/*/adsbygoogle.js$script,domain=elespanol.com
 @@||einthusan.*/prebid.js$script,~third-party
 @@||elahmad.com/tv/videojs/packages/blockadblock.min.js$script,~third-party
