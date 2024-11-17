@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: vco9r36rTJPMaLUFiKnDkQ
-! Title: Ublock filter for Via(2024-11-17 08:54:19)
-! Version: 20241117085419
+! Checksum: TUc2gKaZOCiB6jPougyuvw
+! Title: Ublock filter for Via(2024-11-18 00:11:05)
+! Version: 20241118001105
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-17 08:54:19
-! Total Count: 13552
-! Blocked Filters: 13552
+! Last modified: 2024-11-18 00:11:05
+! Total Count: 13563
+! Blocked Filters: 13563
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5195
+!<<<<<域名规则>>>>>5202
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -779,6 +779,7 @@
 ||cartepak.online^
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm
 ||casino-ice.fun^
+||casinousagevacant.com^
 ||casting-porno-tube.com/old-frog-d67e/
 ||catchmetalk.com^
 ||catsnbootsncats2020.com^
@@ -1024,6 +1025,7 @@
 ||connect-jumbo.com^
 ||connect-wp.net^
 ||conohawing.com/*/outlook-
+||constellationbedriddenexams.com^
 ||consumerproductsusa.com^
 ||content-voilation-
 ||content.gorapidcdn.com^
@@ -1675,6 +1677,7 @@
 ||foretheure.jp^
 ||forimg.net^
 ||formatch.co.jp^
+||formilenter.space^
 ||formspark.rongviet.com.vn^
 ||fortuna-destiny.com^
 ||fortune-crystal.com^
@@ -1805,6 +1808,7 @@
 ||gayxxxtube.net/img_bnnrs/
 ||gazzettaobjects.it/rcs_anti-adblocker/$third-party
 ||geekotg.com^
+||geekupdates.notion.site/Ultra-Security
 ||gegenhartz.de^
 ||geh.jp^
 ||geheimerseitensprung.com^
@@ -2083,6 +2087,7 @@
 ||high-incomes.com^
 ||higher-mainnd.jp^
 ||highmanapts.com^
+||highperformanceformat.com^
 ||highporn.net/js/aapp.js
 ||highrevenuecpm.com^
 ||highstream.tv/twos.js
@@ -2166,7 +2171,7 @@
 ||html-load.cc^
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com^$domain=manta.com|tportal.hr|tvtropes.org|wouldurather.io|convertcase.net
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|petitfute.com|picrew.me|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|petitfute.com|picrew.me|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -4158,6 +4163,7 @@
 ||sonixgvn.net/wp-content/plugins/adrotate/$script,~third-party
 ||sos-bg-sof-*.exo.io^
 ||sotemnovinhas.com/*.gif$image
+||souhoazapee.net^
 ||soul-ft.com^
 ||soundcloud.com/audio-ad$~third-party,xmlhttprequest
 ||soundcloud.com/promoted$~third-party,xmlhttprequest
@@ -4632,6 +4638,7 @@
 ||tusfiles.com/sw.js$script,~third-party
 ||tusser.site^
 ||tutamail.net^
+||tvaplus.ca/api/log^
 ||tvngrq6yat.com^
 ||tvs-widget.com/rcl/
 ||tvs-widget.com/sticker.jpg$image
@@ -5209,7 +5216,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5640
+!<<<<<网站单独规则>>>>>5642
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5414,7 +5421,7 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,kashmirstudentsinformation.in,kisantime.com,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
+abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
@@ -6353,7 +6360,7 @@ creativebloq.com##.listingResult:has(> .sponsored-post)
 crewbase.net,phineypet.com###content > form[id]:has(> center > button):style(display: block !important;)
 crichdplays.ru,player102.top###floated
 cricstream.*##.w-100.position-absolute.h-100
-crictime.is,freehit.eu,mobilecric.com##[href*="?key"][target="_blank"]:remove-attr(href)
+crictime.is,freehit.eu,live-sport.duktek.pro,mobilecric.com##[href*="?key"][target="_blank"]:remove-attr(href)
 crictracker.com##article > div[style="height:270px"]
 crictracker.com##div[id^="div-ad-desk-"]
 crictracker.com##div[id^="div-ad-gpt-"]
@@ -6969,7 +6976,7 @@ finevids.xxx##.spot3-holder
 firefaucet.win##[class^="sticky-ad"]
 fitdynamos.com##.col-auto:has(> div[style] > [data-placement-id])
 fitdynamos.com##.d-md-block:has(> div[style] > [data-placement-id])
-fitnessbr.click,freexcafe.com,journaldemontreal.com,minhareceita.xyz###banner
+fitnessbr.click,freexcafe.com,journaldemontreal.com,live-sport.duktek.pro,minhareceita.xyz###banner
 fivemturk.com##[src^="https://i.hizliresim.com/"]
 flashingjungle.com##.advertising:upward(2)
 flaticon.com##.soul-p-nsba
@@ -8120,6 +8127,7 @@ liquipedia.net##body.mobile-sticky-ad-is-active .main-nav:style(top: 0 !importan
 liquipedia.net##body.mobile-sticky-ad-is-active:style(padding: 3.125rem 0 0 0 !important;)
 listen2.ai##.backdrop-blur-sm
 listen2.ai##article > div:has(> ins.adsbygoogle)
+live-sport.duktek.pro###cloudUrl
 live-tv-channels.org##.adsense-player
 live-tv-channels.org##.adsense-player-2
 live-tv-channels.org##[class^="_ads-"]
@@ -9509,6 +9517,7 @@ serienjunkies.de###sj-ad-wrapper
 series-d.com##.mb-3.text-center.container-fluid
 series9.*##div[style="padding:15px 0;text-align:right;"]
 seriesflv.*##.adx > a[href]
+seriu.jp##body > .site-footer + div[id][class*=" "]
 servedez.com##[id^="ad_"]
 set.seturl.in##.popSc
 sexjobs.es##.topBanners
@@ -10852,7 +10861,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>588
+!<<<<<通配符规则>>>>>589
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11038,6 +11047,7 @@ $script,domain=zdnet.fr,third-party
 /ad-m.js$script,~third-party
 /adblock.php$script,domain=daddylivehd.*|dlhd.sx|freelivetvon.com|poscitech.click|tvpclive.com
 /adblocker.js$domain=gameophobias.com|hindimearticles.net|solution-hub.com
+/adc-ads-lib|$script
 /adlead.$domain=~adlead.com|~adlead.pro|~adlead.ru|~adlead.immo
 /adpia_click_popup_after.js
 /adpup/*.js$script,third-party
@@ -11443,7 +11453,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>204
+!<<<<<通用Css规则>>>>>205
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -11485,6 +11495,7 @@ thepiratebay3.com^
 ###stop_ad
 ###stop_ad2
 ###tabVideo > .rmedia
+###target.pk-page-ready > #pk-status-message
 ###topBannerAd:not(:empty)
 ###topbannerad:not(:empty)
 ###vidcloud-player > #overlay-container
