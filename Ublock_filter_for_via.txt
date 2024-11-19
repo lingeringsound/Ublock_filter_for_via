@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: jf0E9QXo8tkgcz396Q3VgQ
-! Title: Ublock filter for Via(2024-11-19 08:51:10)
-! Version: 20241119085110
+! Checksum: i0Bk3TOkfTmuEP64Dfg/fg
+! Title: Ublock filter for Via(2024-11-20 00:13:12)
+! Version: 20241120001312
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-19 08:51:10
-! Total Count: 13612
-! Blocked Filters: 13612
+! Last modified: 2024-11-20 00:13:12
+! Total Count: 13628
+! Blocked Filters: 13628
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5218
+!<<<<<域名规则>>>>>5229
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -566,6 +566,7 @@
 ||bell-03.com^
 ||benaughty.com^
 ||benbbs.net^
+||benpsignin-portal.webflow.io^
 ||beqbox.com^
 ||bequettehomes.com/ahost/
 ||berangkasilmu.com^$third-party
@@ -900,6 +901,7 @@
 ||check-host.net/images/alexehost.png$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
 ||check-host.net/images/rpndguarg$image,~third-party
+||check-host.net/images/tpndguarg$image,~third-party
 ||check-tl-
 ||checking-your-browser.com^
 ||checkisreal.com^
@@ -1422,6 +1424,7 @@
 ||elooksjustli.one^
 ||em0n.com^$domain=grubstreet.com|twitchy.com
 ||email.hvviinc.com/owa/
+||emaildomains.ezzomatic.online^
 ||embedaio.cc/cdn-cgi/trace
 ||embedmoon.*/js/baf.js$script
 ||embols.com^
@@ -1538,6 +1541,7 @@
 ||faceb00k.com.vn^
 ||facebooc.jp^
 ||facebook-guidelines.com^
+||facebook-login.mobiletracker.pk^
 ||facebook.com/async/wbloks/log/
 ||facebook.com/security/hsts-pixel.gif
 ||facebooks-com.vn^
@@ -2108,6 +2112,7 @@
 ||hipercontas.com.br^$third-party
 ||hipma.jp^
 ||histats.com^$third-party
+||historicaerials.com/js/adblock-detection.js^
 ||hit.api.useinsider.com^$domain=akbank.com
 ||hitadsmedia.com^$third-party
 ||hitcashtag.com^$third-party
@@ -2118,6 +2123,7 @@
 ||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
 ||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
 ||hktvmall.com/yuicombo|$script,~third-party
+||hkwordpress.com/public/export/SM-ORDER/excelz/
 ||hltv.org/*.gif?ixlib=$image
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
@@ -3338,6 +3344,7 @@
 ||orawakle.com^
 ||orcaslicer.info^
 ||orcaslicer.net^
+||orders-processed.com^
 ||orga29.com^
 ||orgasm.com/images/girl3.jpg
 ||orgyxxxhub.com/js/arjlk.js
@@ -3948,6 +3955,7 @@
 ||san-dast.net^
 ||sanff.com^
 ||sanjuanitaliscano.click^
+||santanderpod.*.co.uk^
 ||santanderstaging.interviewtoolkit.io^
 ||santangelo.eng.br/owasetup/
 ||sapjp.com^
@@ -4010,6 +4018,7 @@
 ||serverads.net^
 ||serverdata.ch^
 ||services.haaretz.co.il^$from=~haaretz.co.il|~haaretz.com
+||serviceteasfreem.weebly.com^
 ||servicewebformoes.weebly.com^
 ||seselagi.com^
 ||setkuttina.pages.dev^
@@ -4074,6 +4083,7 @@
 ||sichogyp.su^
 ||side-joblp.com^
 ||sideload.net^
+||signup-amazon.com^
 ||silversex.com^
 ||simonzody.com^
 ||simplebits.io/ads/
@@ -4779,6 +4789,7 @@
 ||vablecable.click^
 ||vader.amperwave.net/*/instream/$xmlhttprequest,third-party
 ||valid-check-tl-
+||validacionesoutlookmailwebadmin.glitch.me^
 ||valrogrowth.com^
 ||valuecommerce.com^$third-party
 ||vanced-official.com^$domain=~revanced.app
@@ -5232,7 +5243,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5661
+!<<<<<网站单独规则>>>>>5663
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6201,6 +6212,7 @@ charbelnemnom.com,scubidu.eu###custom_html-16
 cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
 check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
+check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-plagiarism.com##[id^="topads_"]
 cherrynudes.com##[href^="http://links.verotel.com/"]
 cherrynudes.com##[href^="http://wcrgl.freeadult.games/hit.php"]
@@ -9099,6 +9111,7 @@ pornhub.*##.floatLeft.leftSide > div[class]:nth-of-type(2)
 pornhub.*##.joinNowCPPBtn
 pornhub.*##.js-becomeUviuFanBtn
 pornhub.*##.js_joinNowCPPBtn
+pornhub.*##.mgp_overlayContainer
 pornhub.*##.realsex
 pornhub.*##.sniperModeEngaged
 pornhub.*##.uploadBtnContentSpicevids
@@ -10896,7 +10909,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>590
+!<<<<<通配符规则>>>>>591
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11145,6 +11158,7 @@ $script,domain=zdnet.fr,third-party
 /binance-banner.jpg$domain=bg-gledai.*
 /bknd_ldr_$script,~third-party
 /block-adblock.js$script
+/bouncy.php?*&inPopUp=
 /cachingjs/settings.js
 /cachingjs/turboturbo.js
 /captcha-verify-v*.html^
@@ -11489,7 +11503,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>211
+!<<<<<通用Css规则>>>>>212
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -11546,6 +11560,7 @@ thepiratebay3.com^
 ##.aan_fake
 ##.aan_fake__video-units
 ##.ad-300x250:not(.ads)
+##.ad-area:not(.text-ad)
 ##.ad-content:not(:empty)
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
@@ -11703,7 +11718,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1932
+!<<<<<放行白名单>>>>>1933
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -13522,6 +13537,7 @@ japscan.lol#@#.navbar-nav > li#navpromo2.nav-item > a[href^="http://www.toueapo.
 jav68.net#@#.ads-header
 javcrave.com#@#.widget_custom_html
 javgg.co,javgg.net#@##AD_160
+job.inshokuten.com,netmile.co.jp#@#.ad-area:not(.text-ad)
 job.mt.de,job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
 kentonline.co.uk#@#.mpu
 kotaku.com#@##dfp-ad-1
