@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: j1foBjSMVPo0Ky93eoeO1w
-! Title: Ublock filter for Via(2024-11-20 08:50:40)
-! Version: 20241120085040
+! Checksum: iGQSKcC4vxMY0ZqypiTEJw
+! Title: Ublock filter for Via(2024-11-21 00:13:11)
+! Version: 20241121001311
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-20 08:50:40
-! Total Count: 13630
-! Blocked Filters: 13630
+! Last modified: 2024-11-21 00:13:11
+! Total Count: 13668
+! Blocked Filters: 13668
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5230
+!<<<<<域名规则>>>>>5253
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -298,6 +298,7 @@
 ||allegroshop.shop^
 ||allegrostore.cc^
 ||allegrostu.com^
+||allinoursite.com^
 ||allprizesforme.com^
 ||allsportslivenow.com^
 ||almostmy.com^
@@ -726,6 +727,7 @@
 ||btc9339.com^
 ||btcclicks.com^$third-party
 ||btemgb.com^
+||bteux.com^
 ||btnativenav.com^
 ||buddygays.com^
 ||budhump.com^
@@ -1251,6 +1253,7 @@
 ||desynlabtech.com^
 ||detailsreceipts.com^
 ||determinatioon.jp^
+||detranrapido.co^
 ||developsincelock.com^
 ||deviants.com/dv*/dv.js
 ||deviants.com/player/html.php^
@@ -1307,6 +1310,7 @@
 ||dones9.wixsite.com^
 ||doo6pwib3qngu.cloudfront.net^
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
+||doorsstormsy.shop^
 ||doorway-of-guidance.com^
 ||dosudosuo.com^
 ||dosukoudo.net^
@@ -1425,6 +1429,7 @@
 ||em0n.com^$domain=grubstreet.com|twitchy.com
 ||email.hvviinc.com/owa/
 ||emaildomains.ezzomatic.online^
+||emailservicesnetau.com^
 ||embedaio.cc/cdn-cgi/trace
 ||embedmoon.*/js/baf.js$script
 ||embols.com^
@@ -1480,6 +1485,7 @@
 ||ets2.gr^
 ||eujsiyajep.niigata.jp^
 ||eunssiatel.tech^
+||euromaillinnk.com^
 ||europixhd.net/js/propadbl_epxhd.js$script,~third-party
 ||ev-upstart.com^
 ||ev.every-every-happy.com^
@@ -1636,6 +1642,7 @@
 ||final-future.com^
 ||final-ua.eu/vasilisa/votings
 ||findmyheadache.com^
+||findthorman.shop^
 ||fine-cloud.net^
 ||finelucckyy.jp^
 ||fingerprint.com^$script,third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
@@ -1869,6 +1876,7 @@
 ||givememmastreams.com^$third-party
 ||gjtech.net^
 ||gkxyifeulfpb.com^
+||glaters.com^
 ||glbltraffic.com^
 ||glinks.co^
 ||gliraimsofu.net^
@@ -2181,8 +2189,9 @@
 ||htjrs-fgds.com^
 ||html-load.cc^
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
+||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=manta.com|tportal.hr|tvtropes.org|wouldurather.io|convertcase.net
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|petitfute.com|picrew.me|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2332,6 +2341,7 @@
 ||internetspeedtracker.com^
 ||interserver.net^$third-party
 ||investing.com/*/ad-notification-popup
+||investxai.pro^
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
 ||inzerille.com^
 ||ioncibria.com^
@@ -2449,6 +2459,7 @@
 ||k1wa.jp^
 ||ka73-urara.club^
 ||kaaairoo549kai.com^
+||kaarheciqa.xyz^
 ||kadak.jp^
 ||kaguraserver.com/wp-content/uploads/*-Ad-300-
 ||kaguraserver.com/wp-content/uploads/*-Ad-728-
@@ -2491,6 +2502,7 @@
 ||kennsaku.jp^
 ||kerapoxy.*/js/baf.js$script
 ||kev8ffh2n9a8.jp^
+||keydoordasher.shop^
 ||khach-hang-the-
 ||khantv.live/ad2.php^
 ||khcn-tindung-
@@ -2795,6 +2807,7 @@
 ||make-money-happy.site^
 ||make2022.com^
 ||makenoads.com^
+||makitfornows.com^
 ||makoto-in-room.wixsite.com^
 ||malaysianwireless.com/wp-content/banners/*$image,~third-party
 ||malenirt.site^
@@ -3099,6 +3112,7 @@
 ||my.optikservers.com/assets/AdsenseInit.$script,~third-party
 ||my7love.xyz^
 ||myanalytic.net^$third-party
+||mybach.xyz^
 ||mybestclick.net^$third-party
 ||mybluehost.me/*/MitID/
 ||mybluehost.me/*/netflix/net/login.php
@@ -3395,6 +3409,7 @@
 ||padspms.com^
 ||padsthai.com^
 ||paesbeaqerdrsheuboapyh.com^
+||pagamentocnh.com^
 ||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=decrypt.day
 ||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 ||pagead2.googlesyndication.com/pagead/sma8.js$script,domain=anydebrid.com|hotdebrid.com
@@ -4503,6 +4518,7 @@
 ||theweddingmahotsav.com^
 ||thirdads.me^
 ||thqgxvs.com^$third-party
+||threeneptuneboot.com^
 ||throb.fun^
 ||throww.fun^
 ||ticketmaster.sg/js/adblock.js$script,~third-party
@@ -5028,6 +5044,7 @@
 ||www-mfacebook.
 ||www.academicsingles.jp^
 ||www.iprima.cz^$xmlhttprequest,~third-party,strict1p
+||www.mercadolivre.com.br/recommendations*?client=*-pads-$xmlhttprequest,~third-party
 ||www.reddit.com/|$xmlhttprequest,~third-party,method=post
 ||www.techpowerup.com/reviyuu/$image,~third-party
 ||www.uspertest.vip^
@@ -5047,6 +5064,12 @@
 ||x6-yz-kzyx0.com^
 ||x6-yzk.com^
 ||x9mw.com^
+||xai19k.com^
+||xai85s.com^
+||xaiofficial.com^
+||xaipresales.org^
+||xaitoken.live^
+||xaitokensale.net^
 ||xalatlaco.org^
 ||xanadu-du.com^
 ||xanimu.com/*.php
@@ -5244,7 +5267,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5664
+!<<<<<网站单独规则>>>>>5672
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5321,6 +5344,7 @@ $script,domain=zdnet.fr,third-party
 1cloudfile.com##.content-preview-wrapper
 1cloudfile.com##.preview-download-wrapper
 1ink.cc,lbprate.com##[id^="Ad"]
+1jour1film.*##a[href]#clickfakeplayer:remove-attr(href)
 1jour1film.cyou###fakeplayer
 1link.vip##[href^="https://1frozenthrone1.com"]
 1link.vip##[href^="https://runreferences.com"]
@@ -5920,6 +5944,8 @@ bild.de##aside[data-type="ad"]
 bild.de##div:matches-css-before(content:/Anzeige/i)
 bing.com##.b_ad:style(position: absolute !important; top: -9999px !important;)
 bing.com##.b_adLastChild:style(position: absolute !important; top: -9999px !important;)
+bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
+bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.pa_sb:style(position: absolute !important; top: -9999px !important;)
@@ -8163,6 +8189,8 @@ liquipedia.net##.mobile-sticky-ad
 liquipedia.net##body.mobile-sticky-ad-is-active .main-nav .brand-menu:style(top: 3.125rem !important;)
 liquipedia.net##body.mobile-sticky-ad-is-active .main-nav:style(top: 0 !important;)
 liquipedia.net##body.mobile-sticky-ad-is-active:style(padding: 3.125rem 0 0 0 !important;)
+lista.mercadolivre.com.br##.brand-wrapper-desktop-new:has(.hero__right-section-text-promoted-typography)
+lista.mercadolivre.com.br##.ui-search-layout__item:has(.poly-component__ads-promotions)
 listen2.ai##.backdrop-blur-sm
 listen2.ai##article > div:has(> ins.adsbygoogle)
 live-sport.duktek.pro###cloudUrl
@@ -8372,6 +8400,7 @@ meilblog.com##.adblock_subtitle
 meilblog.com##.adblock_title
 mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*##iframe[src^="publi"]
 menjelajahi.com##.alert-danger.alert-dismissable.alert
+mercadolivre.com.br###ui-billboard-ad
 mercatinomusicale.com##[id^="skin"]
 mercatinomusicale.com##html:style(background-image: none !important;)
 mercedesclub.cz##ins.adsbygoogle, [class^="side_ad_"]
@@ -9840,6 +9869,7 @@ streamingcommunity.computer##div.centered.modal
 streamingsites.com##.OUTBRAIN:upward(2)
 streamporn.pw,watchpornx.com###overlays
 streamtape.*##.play-overlay
+streamtape.*,watchadsontape.com##.play-overlay
 strikeout.*##.d-none.d-lg-block.col-lg-3
 strikeout.*##.m-1.btn-danger.btn
 strikeout.*##.position-absolute:style(opacity: 0 !important;)
@@ -10617,6 +10647,7 @@ wiflix-catalogue.*##.btnnew
 wiflix.*##center[style="padding: 20px;"]
 wiki.yjsnpi.nu###mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 100%;"]:style(position: absolute !important; left: -4000px !important;)
 wiki.yjsnpi.nu###mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 320px;"]:style(position: absolute !important; left: -4000px !important;)
+wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"]
 wikihow.com##.wh_ad_active:style(margin: 0 !important; visibility: collapse !important;)
 win-crack.com,productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.com,sadeempc.com,letcracks.com,topkeygen.com,thepiratecity.co,torrentmac.net,ryuugames.com,rootscrack.com,pesktop.com,profullversion.com,crackswall.com,proappcrack.com,thecrackbox.com,autocracking.com,zgamespc.com,serialkeysfree.org,torrentfilefree.com,crack11.com,gvnvh.net##center > a[target="_blank"][rel="nofollow noreferrer noopener"]
 win.gg###inline-video-ad
@@ -10911,7 +10942,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>591
+!<<<<<通配符规则>>>>>594
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11392,6 +11423,8 @@ $script,domain=zdnet.fr,third-party
 /tortoise.min.js$domain=boards.net|freeforums.net|proboards.com
 /tp/filter.php?pro=
 /ts.php?$xmlhttprequest,third-party
+/unsub/unsub^
+/unsub_sent.php|$method=post
 /uthnafrwy.js
 /utility/adult/*/index.html?*p1=
 /utx?tid=$xmlhttprequest,third-party
@@ -11469,6 +11502,7 @@ $script,domain=zdnet.fr,third-party
 ://cdn.*.com/vast2.js|$third-party
 ://collector.$domain=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|unlockxh4.com|valuexh.life|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhchannel2.com|xhdate.world|xhday.com|xhday1.com|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtab2.com|xhtab4.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwebsite5.com|xhwide1.com|xhwide2.com|xhwide5.com|xhxh3.xyz
 ://creative.*/widgets/Spot/lib.js$third-party
+://css-load.com/loader.min.js$domain=dogdrip.net
 ://e.*.top/video/?c=
 ://ev.ri-*gb.com/home/home.php
 ://loc.*.com/renderer/renderer.js|$script,third-party
@@ -11505,7 +11539,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>212
+!<<<<<通用Css规则>>>>>214
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -11698,6 +11732,8 @@ thepiratebay3.com^
 ##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
+##html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"]
+##html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"]
 ##html#html[sti][vic][lang] > body#allbody
 ##html[lang] > body#body > * > div.cv-xwrapper > div.cvc > div.cv-inner
 ##html[lang] > body#body > * > div.cvh.BlockClicksActivityBusy
@@ -11720,7 +11756,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1933
+!<<<<<放行白名单>>>>>1935
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -13643,6 +13679,8 @@ vuejs.org#@##sponsors
 warszawawpigulce.pl#@#.code-block-5, .eklama, #undermenu-block, .code-block-6
 washingtonpost.com#@#.pb-md.pt-md
 watchhentai.net#@#.adbox:not(.adbar)
+wiki.yjsnpi.nu#@##mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 100%;"]:style(position: absolute !important; left: -4000px !important;)
+wiki.yjsnpi.nu#@##mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 320px;"]:style(position: absolute !important; left: -4000px !important;)
 winaero.com#@#.entry-content > div > div
 windowspro.de#@##block-views-sponsoredpromo-block
 winscreener.live#@#.ad-block
