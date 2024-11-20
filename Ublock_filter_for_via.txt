@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: i0Bk3TOkfTmuEP64Dfg/fg
-! Title: Ublock filter for Via(2024-11-20 00:13:12)
-! Version: 20241120001312
+! Checksum: j1foBjSMVPo0Ky93eoeO1w
+! Title: Ublock filter for Via(2024-11-20 08:50:40)
+! Version: 20241120085040
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-20 00:13:12
-! Total Count: 13628
-! Blocked Filters: 13628
+! Last modified: 2024-11-20 08:50:40
+! Total Count: 13630
+! Blocked Filters: 13630
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5229
+!<<<<<域名规则>>>>>5230
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4742,6 +4742,7 @@
 ||upload4earn.org^
 ||uploadbank.com/js/abcode.js
 ||uploader-rars.com^
+||uploadfox.net^$inline-script
 ||uploadhaven.com/sw.js$script,~third-party
 ||uploadingsite.info/sw.js$script,~third-party
 ||uploadraja.com/sw.js$script,~third-party
@@ -5243,7 +5244,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5663
+!<<<<<网站单独规则>>>>>5664
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -10338,6 +10339,7 @@ uploadbank.com###iframeCore____
 uploadbox.cc##.hopa
 uploadbox.cc##.soundy
 uploadever.in##.adownload-button
+uploadfox.net###ad-gs-05
 uploadfree.info###at-btn-download
 uploadraja.com##a[href^="https://so-gr3at3.com/"]
 uploadroot.com##.buttonDownload
