@@ -425,7 +425,7 @@ https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/refs/head
 \`\`\`
 - 镜像链接
 \`\`\`
-https://raw.githubmirror.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
+https://raw.gitmirror.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 \`\`\`
 
 ### 上游规则
