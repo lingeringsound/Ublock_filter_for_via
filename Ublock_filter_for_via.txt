@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: iGQSKcC4vxMY0ZqypiTEJw
-! Title: Ublock filter for Via(2024-11-21 00:13:11)
-! Version: 20241121001311
+! Checksum: nkUmcS353HeOX6eJhsFHKQ
+! Title: Ublock filter for Via(2024-11-21 08:50:35)
+! Version: 20241121085035
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-21 00:13:11
-! Total Count: 13668
-! Blocked Filters: 13668
+! Last modified: 2024-11-21 08:50:35
+! Total Count: 13671
+! Blocked Filters: 13671
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5253
+!<<<<<域名规则>>>>>5255
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1288,6 +1288,7 @@
 ||displayoptoffers.com^
 ||disproveknob.com^
 ||ditenudedittaditenud.z7.web.core.windows.net^
+||diteringion.com^
 ||divination-truth.com^
 ||diwapa3051.wixsite.com^
 ||djin.site^
@@ -2413,6 +2414,7 @@
 ||jiosaavn.com/stats.php^
 ||jivo-ce.jp^
 ||jizz.us/loco/$script
+||jjmrmeovo.world^
 ||jjvkbzdungkop.com^
 ||jkoi.jp^
 ||jl63v3fp1.com^
@@ -11756,7 +11758,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1935
+!<<<<<放行白名单>>>>>1936
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12406,6 +12408,7 @@ thepiratebay3.com^
 @@||eccmp.com/*/conversen-SDK.js$script,domain=citi.com
 @@||edge.permutive.app^$script,domain=watch.globaltv.com
 @@||edgedatg.com/aws/assets/cp/web/assets/js/*/AppMeasurement.js$script,domain=disneynow.go.com
+@@||edumail.icu/storage/js/*.js^$script,~third-party
 @@||edumail.icu/storage/js/frontend_loader.js^$script,~third-party
 @@||eestatic.com/*/adsbygoogle.js$script,domain=elespanol.com
 @@||einthusan.*/prebid.js$script,~third-party
