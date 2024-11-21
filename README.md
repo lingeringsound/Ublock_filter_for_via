@@ -1,5 +1,5 @@
 # Ublock filter for Via
-> (2024-11-21 08:50:35)
+> (2024-11-22 00:13:09)
 > 将Ublock规则转为Via可用的规则，每12小时更新一次。
 
 ### 订阅规则
@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/refs/head
 ```
 - 镜像链接
 ```
-https://raw.githubmirror.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
+https://raw.gitmirror.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 ```
 
 ### 上游规则

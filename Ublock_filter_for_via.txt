@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: nkUmcS353HeOX6eJhsFHKQ
-! Title: Ublock filter for Via(2024-11-21 08:50:35)
-! Version: 20241121085035
+! Checksum: xPCZbYUbWnKSukrKl1Txuw
+! Title: Ublock filter for Via(2024-11-22 00:13:09)
+! Version: 20241122001309
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-21 08:50:35
-! Total Count: 13671
-! Blocked Filters: 13671
+! Last modified: 2024-11-22 00:13:09
+! Total Count: 13678
+! Blocked Filters: 13678
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5255
+!<<<<<域名规则>>>>>5257
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1078,6 +1078,7 @@
 ||crazyegg.com^$third-party
 ||creativeslim.com^
 ||creatls.com^
+||creditcable.info^
 ||creditcardchase.click^$document
 ||crentgate.com^
 ||criticismdramavein.com^
@@ -4424,6 +4425,7 @@
 ||tapad.com^$domain=~crportal.tapad.com
 ||tapi2.jp^
 ||taradinhos.com^$third-party
+||tarjetarojaenvivo.lat/lib.js^
 ||tarto.net^
 ||tatikhale.xyz^
 ||tb.fuckandcdn.com/tbstatic*/tryboobs/compiled/script.
@@ -5269,7 +5271,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5672
+!<<<<<网站单独规则>>>>>5676
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8191,8 +8193,10 @@ liquipedia.net##.mobile-sticky-ad
 liquipedia.net##body.mobile-sticky-ad-is-active .main-nav .brand-menu:style(top: 3.125rem !important;)
 liquipedia.net##body.mobile-sticky-ad-is-active .main-nav:style(top: 0 !important;)
 liquipedia.net##body.mobile-sticky-ad-is-active:style(padding: 3.125rem 0 0 0 !important;)
+lista.mercadolivre.com.br##.brand-wrapper-desktop-new
 lista.mercadolivre.com.br##.brand-wrapper-desktop-new:has(.hero__right-section-text-promoted-typography)
 lista.mercadolivre.com.br##.ui-search-layout__item:has(.poly-component__ads-promotions)
+lista.mercadolivre.com.br##.ui-search-layout__item:nth-child(-n+3):has(.poly-component__ads-promotions)
 listen2.ai##.backdrop-blur-sm
 listen2.ai##article > div:has(> ins.adsbygoogle)
 live-sport.duktek.pro###cloudUrl
@@ -10650,6 +10654,8 @@ wiflix.*##center[style="padding: 20px;"]
 wiki.yjsnpi.nu###mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 100%;"]:style(position: absolute !important; left: -4000px !important;)
 wiki.yjsnpi.nu###mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 320px;"]:style(position: absolute !important; left: -4000px !important;)
 wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"]
+wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"] img:style(height: 0 !important;)
+wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"]:style(font-size: 0 !important;)
 wikihow.com##.wh_ad_active:style(margin: 0 !important; visibility: collapse !important;)
 win-crack.com,productkeyfree.org,productkeyforfree.com,wazusoft.com,piratesfile.com,kalicrack.com,sadeempc.com,letcracks.com,topkeygen.com,thepiratecity.co,torrentmac.net,ryuugames.com,rootscrack.com,pesktop.com,profullversion.com,crackswall.com,proappcrack.com,thecrackbox.com,autocracking.com,zgamespc.com,serialkeysfree.org,torrentfilefree.com,crack11.com,gvnvh.net##center > a[target="_blank"][rel="nofollow noreferrer noopener"]
 win.gg###inline-video-ad
@@ -11758,7 +11764,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1936
+!<<<<<放行白名单>>>>>1937
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -13684,6 +13690,7 @@ washingtonpost.com#@#.pb-md.pt-md
 watchhentai.net#@#.adbox:not(.adbar)
 wiki.yjsnpi.nu#@##mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 100%;"]:style(position: absolute !important; left: -4000px !important;)
 wiki.yjsnpi.nu#@##mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 320px;"]:style(position: absolute !important; left: -4000px !important;)
+wiki.yjsnpi.nu#@##mw-content-text div[style] a[href*="contents.fc2.com"]
 winaero.com#@#.entry-content > div > div
 windowspro.de#@##block-views-sponsoredpromo-block
 winscreener.live#@#.ad-block
