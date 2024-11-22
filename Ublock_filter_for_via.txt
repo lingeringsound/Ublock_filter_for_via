@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xPCZbYUbWnKSukrKl1Txuw
-! Title: Ublock filter for Via(2024-11-22 00:13:09)
-! Version: 20241122001309
+! Checksum: L4dnWUTK6hgVdfh5s/AlOw
+! Title: Ublock filter for Via(2024-11-22 08:51:31)
+! Version: 20241122085131
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-22 00:13:09
-! Total Count: 13678
-! Blocked Filters: 13678
+! Last modified: 2024-11-22 08:51:31
+! Total Count: 13679
+! Blocked Filters: 13679
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -11547,7 +11547,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>214
+!<<<<<通用Css规则>>>>>215
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -11748,6 +11748,7 @@ thepiratebay3.com^
 ##html[lang] > body.ishome > div.adult + main.main
 ##html[lang] > body.startnew > div#sections > section#section_uname
 ##html[lang] > body:not([style]) > div.captchaBody
+##html[lang][style^="--main-bg-color"] > body:not([class]):not([id]) > div#container[style="visibility: visible;"] > div#banner[style="opacity:0"] ~ main:not([class]):not([id]) > div#message
 ##iframe.lazyloaded[data-src^="https://rcm-fe.amazon-adsystem.com/"]
 ~cinelatino.net,*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
@@ -13394,7 +13395,7 @@ thepiratebay3.com^
 @@||widget-provider.production.ippen.space/widget-components/widget-quiz.bundle.js$script,domain=buzzfeed.de
 @@||widget.spoods.io/loader.js$script,domain=winfuture.de
 @@||widgets.outbrain.com/outbrain.js$script,domain=nypost.com|pagesix.com|welt.de
-@@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
+@@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|cursomecanet.com|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.categoryTree$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.cite.ux-enhancements$script,~third-party
