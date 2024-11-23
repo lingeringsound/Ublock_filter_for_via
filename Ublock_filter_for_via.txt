@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Y19Hxd+TGbuCWVSGCf2pvQ
-! Title: Ublock filter for Via(2024-11-23 08:49:07)
-! Version: 20241123084907
+! Checksum: WmJYayuvXRLbRt4jWMVtRQ
+! Title: Ublock filter for Via(2024-11-24 00:11:15)
+! Version: 20241124001115
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-23 08:49:07
-! Total Count: 13691
-! Blocked Filters: 13691
+! Last modified: 2024-11-24 00:11:15
+! Total Count: 13699
+! Blocked Filters: 13699
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5260
+!<<<<<域名规则>>>>>5262
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -57,6 +57,7 @@
 ||1st-mail.jp^
 ||1ts11.top^
 ||1win-17545.com^
+||1xzf53lo.xyz^
 ||2.87.160.7^
 ||2226wurpatw.tokyo^
 ||23.109.87.170^
@@ -5001,6 +5002,7 @@
 ||wifekai.net^
 ||wifi4games.com/sw.js$script,~third-party
 ||wiilberedmodels.com^
+||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=jquery&skin=vector-2022&version$script,~third-party
 ||wiki.yjsnpi.nu^$script
 ||wildmeets.com^
 ||will-kantei.com^
@@ -5274,7 +5276,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5683
+!<<<<<网站单独规则>>>>>5688
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5574,7 +5576,7 @@ allfaucet.xyz,bitcotasks.com##[src^="https://cryptocoinsad.com/ads/"]
 allgamesejogos.*,bemestarglobal.*,gamesgo.*,lojadebicicleta.com.br,redecanais.*##[id="colunas"]:style(display: block !important;)
 allgemeine-zeitung.de,buerstaedter-zeitung.de,echo-online.de,lampertheimer-zeitung.de,lauterbacher-anzeiger.de,main-spitze.de,oberhessische-zeitung.de,wiesbadener-kurier.de,wormser-zeitung.de##.adSlot, .loadingBanner
 alliptvlinks.com###arlinablock
-alliptvlinks.com,beermoneyforum.com,greensboro.com,investing.com,ndtv.com,photobucket.com,techysnap.com,web2.0calc.*,web2.0rechner.de,yusepjaelani.blogspot.com##body:style(overflow: auto !important)
+alliptvlinks.com,beermoneyforum.com,greensboro.com,investing.com,ndtv.com,photobucket.com,streamingcommunity.*,techysnap.com,web2.0calc.*,web2.0rechner.de,yusepjaelani.blogspot.com##body:style(overflow: auto !important)
 allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mplay.*,streamp1ay.*,streanplay.*,supersextube.pro,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomic.com,lowendbox.com##iframe
@@ -6372,6 +6374,7 @@ conservativebrief.com###main-box-7
 conservativebrief.com###vuukle-powerbar
 conservativebrief.com##[id^="vuukle-ad-"]
 conservativebrief.com,otakukan.com,secondlifetranslations.com,tutcourse.com##.ai-attributes
+content-loader.com,css-load.com,html-load.com,img-load.com##html,body:style(height: 0 !important; overflow: hidden !important;)
 content-loader.com,css-load.com,html-load.com,img-load.com##html:style(visibility: collapse !important;)
 controlc.com##[href^="http://redact.dev"]
 convallariaslibrary.com,gourmetscans.net##.widget_custom_html ins:upward(.widget_custom_html)
@@ -7907,6 +7910,8 @@ jacquieetmicheltv.net,porno-baguette.com##.espace-cam
 jalshamoviezhd.*##[href^="https://usounoul.com/"]
 japannews.yomiuri.co.jp##.pr_custom2
 japannews.yomiuri.co.jp##div[class^="ad_background"]
+japscan.lol##.justify-content-center div[id][class]:has(+ div[id]:not(#reader)):remove-attr(class)
+japscan.lol##.nav ~ div[id][class]:has(+ div[id]:not(#chapters)):remove-attr(class)
 japscan.lol##.navbar-nav > li#navpromo2.nav-item > a[href^="http://www.toueapo.shop/"]:not(:empty):style(clip-path: circle(0) !important;)
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
@@ -10663,6 +10668,8 @@ wiflix-catalogue.*##.btnnew
 wiflix.*##center[style="padding: 20px;"]
 wiki.yjsnpi.nu###mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 100%;"]:style(position: absolute !important; left: -4000px !important;)
 wiki.yjsnpi.nu###mw-content-text > div[style="text-align: center; margin: 1rem auto; max-width: 320px;"]:style(position: absolute !important; left: -4000px !important;)
+wiki.yjsnpi.nu###mw-content-text div[style] a:is([href*="contents.fc2.com"],[href*="dmm.co.jp"]) img:style(height: 0 !important;)
+wiki.yjsnpi.nu###mw-content-text div[style] a:is([href*="contents.fc2.com"],[href*="dmm.co.jp"]):style(font-size: 0 !important;)
 wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"]
 wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"] img:style(height: 0 !important;)
 wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"]:style(font-size: 0 !important;)
@@ -10960,7 +10967,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>594
+!<<<<<通配符规则>>>>>595
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11334,6 +11341,7 @@ $script,domain=zdnet.fr,third-party
 /local_ssu.js|
 /log/*$xmlhttprequest,domain=vizcloud.*|vizcloud2.*
 /lp/?lID=*&zone=
+/lv/esnk/*$script,third-party,domain=japscan.lol
 /lvesnk.html?zoneid=$third-party
 /ma.js^$script,domain=1337x.*|x1337x.*
 /main.js$script,third-party,domain=criptologico.com
