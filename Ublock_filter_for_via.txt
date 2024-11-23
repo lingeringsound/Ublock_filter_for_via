@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 6QapZYRzLByfPx6+x69knQ
-! Title: Ublock filter for Via(2024-11-23 00:13:42)
-! Version: 20241123001342
+! Checksum: Y19Hxd+TGbuCWVSGCf2pvQ
+! Title: Ublock filter for Via(2024-11-23 08:49:07)
+! Version: 20241123084907
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-23 00:13:42
-! Total Count: 13689
-! Blocked Filters: 13689
+! Last modified: 2024-11-23 08:49:07
+! Total Count: 13691
+! Blocked Filters: 13691
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5274,7 +5274,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5682
+!<<<<<网站单独规则>>>>>5683
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9860,6 +9860,7 @@ steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: f
 stiflersmoms.com##.line3
 stocktwits.com##.LazyLoad.is-visible:has([data-aa-adunit])
 stocktwits.com##[class^="FooterAd_container"]
+stocktwits.com##[class^="Primis_container"]
 stocktwits.com##div[class*="AdBanner_"]
 stocktwits.com##p[class^="Disclosure_disclosure"]:has(a[href="https://stocktwits.com/about/legal/disclosures/3rd-party-ads/"])
 stomp.straitstimes.com##.content:has(> div:has-text(Branded Content))
@@ -11774,7 +11775,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1938
+!<<<<<放行白名单>>>>>1939
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -13646,6 +13647,7 @@ raidrush.net#@##top_ga
 raidrush.net#@#.funbox
 readmng.com#@#.scroll_target_top
 realmadryt.pl#@#fieldset
+redtube.com#@#svg
 reshare.pm#@#.showads
 reuters.com#@#[class^="primary-video__container_"]
 reyada.com#@#.ads_area
