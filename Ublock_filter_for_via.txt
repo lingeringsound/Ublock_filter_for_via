@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 4koGLST1vNXbCTy89evfew
-! Title: Ublock filter for Via(2024-11-24 08:54:47)
-! Version: 20241124085447
+! Checksum: uS7TOA1zGvxbWiP+mRHukQ
+! Title: Ublock filter for Via(2024-11-25 00:12:03)
+! Version: 20241125001203
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-24 08:54:47
-! Total Count: 13720
-! Blocked Filters: 13720
+! Last modified: 2024-11-25 00:12:03
+! Total Count: 13730
+! Blocked Filters: 13730
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5269
+!<<<<<域名规则>>>>>5274
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -382,6 +382,7 @@
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xmlhttprequest,third-party
 ||api.baomoi.com/*/w/$script,xmlhttprequest,~third-party
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xmlhttprequest,~third-party
+||api.busuu.com/ads/
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
 ||api.gogoanime.zip/promo
 ||api.lhkmedia.in^$third-party
@@ -1405,6 +1406,7 @@
 ||ebortbide.com^
 ||ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com^
 ||echeloncheats.space^
+||ecoedgeinnovations.xyz^
 ||ecommrce-web-amazon.netlify.app^
 ||ecotrackings.com^$third-party
 ||ed-blissful.com^
@@ -2914,6 +2916,7 @@
 ||mediafire.com/folder/u2is2eo3euyqd/
 ||mediafire.com/folder/v6itahr4p07b1/
 ||mediapass.com^$third-party
+||medlafire.eu^
 ||meet-flirts.com^
 ||meet-up.jp^
 ||meetamate.site^
@@ -3756,6 +3759,7 @@
 ||qik.cc^$third-party
 ||qip.ru^
 ||qiwi.gg/sw.js$script,~third-party
+||qsshc.xyz^
 ||qualityhealth.com^
 ||qualzz.com/assets/trackingScript/webtracking.js
 ||quantunnquest.com^
@@ -4277,7 +4281,7 @@
 ||static.sunmedia.tv/AdBlockDetection/$script
 ||static.tvtropes.org/design/js/google-adblock.js$script
 ||static.vocento.com/dab/*.js
-||static.zhihu.com/heifetz/main.signflow.*.js$script,domain=www.zhihu.com
+||static.zhihu.com/heifetz/main.signflow.*.js$script,domain=www.zhihu.com|zhihu.com
 ||staticfile.net^
 ||staticfile.org^
 ||statify.online^
@@ -5010,6 +5014,7 @@
 ||wifi4games.com/sw.js$script,~third-party
 ||wiilberedmodels.com^
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=jquery&skin=vector-2022&version$script,~third-party
+||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=startup&only=scripts&raw=1&skin=|$script,~third-party
 ||wiki.yjsnpi.nu^$script
 ||wildmeets.com^
 ||will-kantei.com^
@@ -5283,7 +5288,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5701
+!<<<<<网站单独规则>>>>>5703
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7356,6 +7361,8 @@ getsexgames.com##.menuAff
 getsexgames.com##.menuPointPic
 gifmagic.com###logoContainer:style(top: 0px !important;)
 gigantti.fi##.mat-drawer-container:style(overflow-x: auto !important)
+giphy.com##.cNDPHQ, .fKCJyZ:style(top: 0px !important; transform: unset !important;)
+giphy.com##div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="htlad-"][class$="top_leaderboard_detail"])
 girlscanner.cc##[href*="/check.php"]
 girlscanner.cc##div.side-box
 girlsofdesire.org###box_896
@@ -10987,7 +10994,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>595
+!<<<<<通配符规则>>>>>596
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11031,6 +11038,7 @@ $script,domain=zdnet.fr,third-party
 *.gif$domain=nekopoi.*,image
 *.gif$domain=oploverz.*,image
 *.gif$domain=otakudesu.*,image
+*.gif$domain=visionias.net,image
 *.gif$domain=www.visionias.net,image
 *.gif$domain=ytlarge.com,image
 *.gif$image,domain=cricfree.*|hentaifreak.org|stream1688.com
@@ -11585,7 +11593,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>215
+!<<<<<通用Css规则>>>>>216
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -11672,6 +11680,7 @@ thepiratebay3.com^
 ##.blocker-overlay
 ##.bottom-hor-block
 ##.brs-block
+##.buttonautocl
 ##.exo-horizontal
 ##.ez-sidebar-wall
 ##.fints-block__row
@@ -11803,7 +11812,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1940
+!<<<<<放行白名单>>>>>1941
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -11908,7 +11917,7 @@ thepiratebay3.com^
 @@/components/js/analytics.js|$xmlhttprequest,~third-party
 @@/evergage.min.js^$script,domain=pvrcinemas.com
 @@/gtm.js$script,domain=subscriptions.amd.com
-@@/init.js|$script,xmlhttprequest,~third-party,domain=www.crunchbase.com
+@@/init.js|$script,xmlhttprequest,~third-party,domain=crunchbase.com|www.crunchbase.com
 @@/isomorphic/system/modules/ISC_Analytics.js$script,~third-party
 @@/js/prebid-ads.js$script,~third-party
 @@/libs/advertisement.js?ad_ids=*&show_ad=$script,~third-party
@@ -12100,7 +12109,7 @@ thepiratebay3.com^
 @@||assets.adobedtm.com/*/satelliteLib-$script,domain=chegg.com|mitelcel.com
 @@||assets.adobedtm.com/*source.min.js$script,domain=msds.open.ac.uk
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it|trygghansa.se
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.com|video.eurosport.com|www.nbc.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.com|nbc.com|video.eurosport.com|www.nbc.com
 @@||assets.adobedtm.com^$script,domain=rogers.com|sky.de
 @@||assets.adobedtm.com^$xmlhttprequest,domain=atresplayer.com
 @@||assets.adobedtm.com^*/mbox-contents-$script,domain=nsat.collegeboard.org
@@ -12126,7 +12135,7 @@ thepiratebay3.com^
 @@||azarplus.com/wp-content/uploads/*Publicidad*.jpg$image,~third-party
 @@||azarplus.com/wp-content/uploads/*Publicidad*.png$image,~third-party
 @@||b-cdn.net^*-adap.jpg$image,domain=techxplore.com
-@@||b.cdnst.net/javascript/prebid*.min.js$script,third-party,domain=www.speedtest.net
+@@||b.cdnst.net/javascript/prebid*.min.js$script,third-party,domain=speedtest.net|www.speedtest.net
 @@||babiato.co/conversations/$~third-party
 @@||backend.worldoftulo.com/$script,domain=barometern.se
 @@||bamgrid.com^$domain=disneyplus.com|starplus.com
@@ -12237,7 +12246,7 @@ thepiratebay3.com^
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*|meucdn.vip
 @@||cdn.jsdelivr.net^$script,domain=appsbull.com|diudemy.com|maqal360.com
 @@||cdn.jsdelivr.net^*/js/analytics.min.js$script,domain=starfiles.co|starfiles.ml
-@@||cdn.logly.co.jp^$image,domain=www.asahi.com
+@@||cdn.logly.co.jp^$image,domain=asahi.com|www.asahi.com
 @@||cdn.logrocket.io/LogRocket.min.js$script,domain=webappui.jobnimbus.com
 @@||cdn.logrocket.io/logger-1.min.js$script,domain=webappui.jobnimbus.com
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,~third-party
@@ -12307,6 +12316,7 @@ thepiratebay3.com^
 @@||cimanow.cc/wp-content/themes/Cima%20Now%20New/Assets/js/openads.js$script,~third-party
 @@||cinemaclock.com^$script,~third-party
 @@||citi.com/cards/*/tracking.js$script
+@@||click.allkeyshop.com/*&source=allkeyshop.com
 @@||click.allkeyshop.com/*&source=www.allkeyshop.com
 @@||click.redditmail.com^*ref_source=email
 @@||client.perimeterx.net/PXzYvFOXaC/main.min.js$script,domain=chegg.com
@@ -12338,7 +12348,7 @@ thepiratebay3.com^
 @@||coinzillatag.com/lib/display.js$script,domain=ad-doge.com|viefaucet.com
 @@||coinzillatag.com/lib/fp.js$script,domain=bitcotasks.com
 @@||collect.mopinion.com/assets/surveys/*/js/survey.min.js$script,domain=findmystreet.co.uk
-@@||collector-*.px-cloud.net/b/$xmlhttprequest,domain=www.crunchbase.com
+@@||collector-*.px-cloud.net/b/$xmlhttprequest,domain=crunchbase.com|www.crunchbase.com
 @@||colonist.io^$script,~third-party
 @@||commentsmodule.com/js/js.load.1.js$xmlhttprequest,domain=reproductor.telenovelas-turcas.com.es
 @@||components2.rcsobjects.it/rcs_adv/*/distro/dfp/common/prebid$script,domain=video.gazzetta.it
@@ -12620,8 +12630,8 @@ thepiratebay3.com^
 @@||googletagmanager.com/gtag/js$third-party,script,domain=trinket.io
 @@||googletagmanager.com/gtag/js$xmlhttprequest,domain=quackr.io|streamingcommunity.*
 @@||googletagmanager.com/gtag/js?id=G$script,domain=riteaid.com
-@@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
-@@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
+@@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|radiox.co.uk|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|shockwave.com|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=bela.gifts|corsair.com|lingvolive.com|mf-realty.jp|rocketnews24.com|simon.com|soranews24.com
 @@||googletagmanager.com/gtm.js$script,third-party,domain=al.com|cleveland.com|eu.community.samsung.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
 @@||googletagmanager.com/gtm.js$script,third-party,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
@@ -12699,7 +12709,7 @@ thepiratebay3.com^
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest,domain=spiele.bild.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10play.com.au|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|telecinco.es|wcvb.com|winknews.com|wsls.com|yaktrinews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10play.com.au|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|telecinco.es|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js^$script,domain=timesnownews.com|virginmediatelevision.ie
@@ -12836,7 +12846,7 @@ thepiratebay3.com^
 @@||micro.rubiconproject.com/prebid/dynamic/*$script,domain=unilad.co.uk
 @@||microcat-america.superservice.com/content/microcat-dist/js/$script,~third-party
 @@||microsoft.com/*/aria-web-telemetry$script,~third-party
-@@||mindbodygreen.com/ads-leaderboard-ad-$script,domain=www.mindbodygreen.com
+@@||mindbodygreen.com/ads-leaderboard-ad-$script,domain=mindbodygreen.com|www.mindbodygreen.com
 @@||minnanokaigo.com/img/page/ad-navi/parts/$image,~third-party
 @@||miraculous.to/global_data/gtag/js$xmlhttprequest,~third-party
 @@||mirror.co.uk^$script,xmlhttprequest,~third-party
@@ -12934,7 +12944,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|heim.jp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
@@ -12942,7 +12952,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,third-party,domain=fplstatistics.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=etoday.co.kr|dogdrip.net|infinityfree.com|smsonline.cloud
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=busuu.com|cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_$script,domain=rekidai-info.github.io
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense^$script,third-party,domain=fplstatistics.co.uk
 @@||pagead2.googlesyndication.com^$script,domain=chromeactions.com|mixesoft.com|mycinema.pro|next-episode.net
@@ -13067,7 +13077,7 @@ thepiratebay3.com^
 @@||redfin.com/rift$xmlhttprequest,~third-party
 @@||register.drupal.org/ga*.js$xmlhttprequest,~third-party
 @@||registerdisney.go.com/*/responder/responder.js$script,domain=espn.com
-@@||relay-client-c01.iocnt.net^$script,domain=www.businessinsider.de
+@@||relay-client-c01.iocnt.net^$script,domain=businessinsider.de|www.businessinsider.de
 @@||relay-client-c03.iocnt.net^$script,domain=derstandard.at|derstandard.de|sportdeutschland.tv
 @@||request.dqst.pl/*/reader$xmlhttprequest,domain=namasce.pl
 @@||research.de.com/bb-mx/prime$xmlhttprequest,domain=joyn.de
@@ -13128,10 +13138,10 @@ thepiratebay3.com^
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/$script,domain=smsonline.cloud
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*$script,domain=moviepilot.de
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,third-party,domain=w3schools.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt|mediaite.com|scotsman.com|today.line.me|www.wikihow.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt|mediaite.com|scotsman.com|today.line.me|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,third-party,domain=journaldemontreal.com
 @@||securepubads.g.doubleclick.net/pcs/view/*$xmlhttprequest,domain=joyn.de
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|voici.fr|www.wikihow.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|voici.fr|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
