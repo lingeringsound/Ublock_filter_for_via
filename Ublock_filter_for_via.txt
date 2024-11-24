@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: WmJYayuvXRLbRt4jWMVtRQ
-! Title: Ublock filter for Via(2024-11-24 00:11:15)
-! Version: 20241124001115
+! Checksum: 4koGLST1vNXbCTy89evfew
+! Title: Ublock filter for Via(2024-11-24 08:54:47)
+! Version: 20241124085447
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-24 00:11:15
-! Total Count: 13699
-! Blocked Filters: 13699
+! Last modified: 2024-11-24 08:54:47
+! Total Count: 13720
+! Blocked Filters: 13720
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5262
+!<<<<<域名规则>>>>>5269
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -901,9 +901,12 @@
 ||cheaterboss.com^
 ||cheatworld.site^
 ||check-host.net/images/aezaelogo.svg$image,~third-party
+||check-host.net/images/aezarlogo.svg$image,~third-party
 ||check-host.net/images/alexehost.png$image,~third-party
+||check-host.net/images/alexrhost.png$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
 ||check-host.net/images/rpndguarg$image,~third-party
+||check-host.net/images/tmpndguarg$image,~third-party
 ||check-host.net/images/tpndguarg$image,~third-party
 ||check-tl-
 ||checking-your-browser.com^
@@ -1130,6 +1133,7 @@
 ||cursorltd.com^
 ||curverainstorm.website^
 ||curvyfemales.com/*.php$script,~third-party
+||cvgto-akmk.fun^
 ||cviezjsg.com^
 ||cwa-2020.com^
 ||cxbvnmyeruw.com^
@@ -2537,6 +2541,7 @@
 ||kisstvshow.*/api/pop.php$xmlhttprequest,~third-party
 ||klclick1.com^$third-party
 ||klh3j19w.xyz^
+||klingxai.com^
 ||klinikmrc.com^
 ||kmnvwjrbskybh.com^
 ||kms-full.com^
@@ -4868,6 +4873,8 @@
 ||videovak.com/log/
 ||videovard.*/api/front/view^$xmlhttprequest
 ||vidhd.*/sw.js$script,~third-party
+||vidhidefast.com/assets/jquery/css.js
+||vidhidefast.com/player/jw8/vast.js
 ||vidlii.com/js/main.js^$script,~third-party
 ||vidlink.pro/api/adcash
 ||vidmoly.to/static/vastAD.js$script
@@ -5276,7 +5283,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5688
+!<<<<<网站单独规则>>>>>5701
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5289,12 +5296,17 @@ $script,domain=zdnet.fr,third-party
 01fmovies.com##.ico.close
 01fmovies.com##.jw-logo
 01fmovies.com##[src^="/addons/"]
+1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/"][src*="_"])
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/images/"])
+1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/images/"])
+1001tracklists.com###left > div:not(div[id="artworkLeft"][class="c bgArt"], div[class="fTab"], div[class="aMenu"], [id="lSt"].border, div[class="boxBg rB c mb10"]):has(a img[src^="/"][src*="_"])
 1001tracklists.com###left > div:not(div[id="artworkLeft"][class="c bgArt"], div[class="fTab"], div[class="aMenu"], [id="lSt"].border, div[class="boxBg rB c mb10"]):has(a img[src^="/images/"])
 1001tracklists.com###top > [style]:not(a[id="topLogo"][href="//www.1001tracklists.com"], div[id="pageTitle"], script, div[id="hInfo"]):has(a img[src^="/images/artworks/"])
+1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/"][src*="_"])
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/images/"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/images/"])
 1001tracklists.com##div[id]:has(> [data-freestar-ad])
+1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/"][src*="_"])
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/images/artworks/"]):has(a img[src^="/images/"]), div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/images/artworks/"]):has(a img[src^="/images/"])
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 101soundboards.com##[id^="rewarded_ad_"]:not(#rewarded_ad_blocker):style(display: block !important; visibility: visible !important;)
@@ -10758,17 +10770,25 @@ wuxia.click##.mantine-Center-root + br + div[class^="mantine-"]:has(> .adsbygoog
 wuxia.click##.mantine-Container-root + .mantine-Container-root + br + br + div[class^="mantine-"]:last-of-type:has([alt~="Ad"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) .ar-1-1.bg-gray-l[style*="width"]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > .mt-md > section [class]:has(> div > ul.is-separated a img[src^="data:image"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-lg"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-charts"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de###dlcharts-list + .mt-md:has(> div > h2:has-text(/Gesponsert|Bezahlte Empfehlung/) + a[href^="https://www.chip.de/downloads/"])
+www.chip.de###dlcharts-list + div[class]:has(> h2:has-text(/Gesponsert|Bezahlte Empfehlung/) + a[href^="https://www.chip.de/downloads/"])
 www.chip.de##.fb > .Listing > div:has(> h2:has-text(/Gesponsert|Bezahlte Empfehlung/) + a[href^="https://www.chip.de/downloads/"])
+www.chip.de##body[class="l-DownloadListing is-sticky"] .wrapper-safe.mt-sm > .fb > section:not(.Listing) > *:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] .wrapper-safe.mt-sm > .fb > section:not(.Listing) > div:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] > [class="Main Main--Skyscraper"] > .Main__Container > [class]:not([class^="Downloads DownloadListing"]) > div > ul.List.is-separated:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] > [class="Main Main--Skyscraper"] > .Main__Container > main[class="Downloads DownloadListing bg-white mt-xs"] > [class="mt-sm wrapper-bleed bg-blue"] + [class="wrapper-safe"]:has(a img[src*="https://im.chip.de/ii/"])
@@ -11783,7 +11803,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1939
+!<<<<<放行白名单>>>>>1940
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12700,6 +12720,7 @@ thepiratebay3.com^
 @@||independent.co.uk/*prebid$script,domain=the-independent.com
 @@||independent.co.uk/js/third-party/prebid.js$script,~third-party
 @@||index.hr/thirdparty/brid/*$script,~third-party
+@@||infinityscans.xyz^$script,domain=infinityscans.xyz|infinityscans.net
 @@||inside-graph.com^$domain=bergdorfgoodman.com|horchow.com|lastcall.com|lenovo.com|neimanmarcus.com
 @@||insights-collector.newrelic.com/*/events$xmlhttprequest,domain=diariosur.es|diariovasco.com|elcorreo.com
 @@||iocnt.net^$script,domain=rtl.de
