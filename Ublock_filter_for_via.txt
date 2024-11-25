@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: a2XJGHMemo/fFtRS6NmOvQ
-! Title: Ublock filter for Via(2024-11-25 08:53:01)
-! Version: 20241125085301
+! Checksum: OeCnI2ZPv7eod2oX0zTDzw
+! Title: Ublock filter for Via(2024-11-26 00:13:12)
+! Version: 20241126001312
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-25 08:53:01
-! Total Count: 13732
-! Blocked Filters: 13732
+! Last modified: 2024-11-26 00:13:12
+! Total Count: 13745
+! Blocked Filters: 13745
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5274
+!<<<<<域名规则>>>>>5278
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2412,6 +2412,7 @@
 ||javseen.tv/fire2/popup*$script,~third-party
 ||javtsunami.com/crimson-unit-$script
 ||jayabaji3.com/bn-bd?aff=
+||jayan-uvl.com^
 ||jdoasjfojuhod.com^
 ||jdownloader.fr^
 ||jeengweb.com^$third-party
@@ -3656,6 +3657,7 @@
 ||postyourlife.com^
 ||poweredbyliquidfire.mobi^
 ||powr.io^$third-party,script
+||ppcent.org^
 ||ppo.re9t-hmd0.com^
 ||ppstatic.pl/*/reklama.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 ||pr-0m.link^
@@ -4321,6 +4323,7 @@
 ||stream.cz/*/v2/vast$xmlhttprequest
 ||stream2watch.*/sw.js$script,~third-party
 ||streameast.*/*.gif$image
+||streamingcommunity.*/slide-banner/
 ||streamingsplays.com^
 ||streamingszone.com^
 ||streamrail.com^$script,domain=linkvertise.*
@@ -5013,6 +5016,7 @@
 ||wifekai.net^
 ||wifi4games.com/sw.js$script,~third-party
 ||wiilberedmodels.com^
+||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles|$script,~third-party
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=jquery&skin=vector-2022&version$script,~third-party
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=startup&only=scripts&raw=1&skin=|$script,~third-party
 ||wiki.yjsnpi.nu^$script
@@ -5288,7 +5292,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5705
+!<<<<<网站单独规则>>>>>5713
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5835,7 +5839,11 @@ avxhm.se##[data-localize]:has(a[href^="https://icerbox.com/"])
 avxhm.se##center:has(a[href^="https://canv.ai/"])
 avxhm.se##center:has(a[href^="https://canv.ai/"]) ~ span:has(a[href^="https://canv.ai/"])
 awgrow.com##.text-center:style(display: block !important;)
+aylink.co##[href^="https://aylink.co/smart/click.php"]
+aylink.co,cpmlink.pro##.adult-chat
 aylink.co,gitlink.pro,gitizle.vip,shtms.co##.alternative-ad
+aylink.co,tr.link##.sweet-alert
+aylink.co,tr.link##.sweet-overlay
 azaleasdolls.com##[class^="style"]:has-text(Advertisement)
 azaleasdolls.com##td[height="279"]
 azaleasdolls.com##td[width="154"][bgcolor="#FCDCE4"]
@@ -6423,6 +6431,8 @@ cpmlink.net##.__web-inspector-hide-shortcut__
 cpmlink.net,fitdynamos.com,uploadydl.com,webhostingpost.com##iframe[src="about:blank"]
 cpmlink.net,vermangasporno.com##[href^="https://bit.ly"]
 cpmlink.pro###toasts, .alternative-ad
+cpmlink.pro##.download-buttons
+cpmlink.pro##.download-file
 cpuid.com##.widget-block[class*="widget-advert"]
 crack-status.com##.bg-dark:has(> :is([href^="https://startgaming.net/"], ins))
 cracka2zsoft.com,skiplink.me##center > a
@@ -9904,6 +9914,7 @@ stream4free.*##.vjs-poster-onscreen:style(visibility: hidden !important;)
 streamango.*###ad_buts
 streamfare.com##[id^="wb_AdText"]
 streamhub.*##center > a[href][target="_blank"]
+streamingcommunity.*##.slide-banner
 streamingcommunity.computer##div.centered.modal
 streamingsites.com##.OUTBRAIN:upward(2)
 streamporn.pw,watchpornx.com###overlays
@@ -10234,8 +10245,6 @@ tourbobit.com,tourbobit.net,turbobeet.net,turbobi.pw,turbobif.com,turbobita.net,
 tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
 tr.ign.com##.articleBody:style(margin-top: 80px !important;)
-tr.link##.sweet-alert
-tr.link##.sweet-overlay
 trakt.tv##.snigel
 trakt.tv##:xpath("//*[(text()='Advertisement')]"):upward(1)
 trakt.tv##a[target="_blank"][style]:has(img[src])
@@ -10669,6 +10678,7 @@ welt.de##.c-ad-container
 welt.de##.q-advertisement-banner
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src] > .ob-widget > .ob-cards > [id^="outbrain_widget_"].OUTBRAIN[data-src]
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src] > .ob-widget > .ob-widget-header:has(> span.ob-widget-text:has-text(MEHR AUS DEM NETZ))
+welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src]:has(> .ob-widget > .ob-widget-header > span.ob-grid-header-text:has-text(/^MEHR AUS DEM WEB|MEHR AUS DEM NETZ|AUCH INTERESSANT$/))
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src]:has(> .ob-widget > .ob-widget-items-container > .ob-dynamic-rec-container > a[data-adv-id][rel*="sponsored"])
 westmanga.fun,westmanga.org##[src*=".gif"]
 westword.com##.AirBillboardInlineContentresponsive
@@ -10780,7 +10790,9 @@ wuxia.click##.mantine-Container-root + .mantine-Container-root + br + br + div[c
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) .ar-1-1.bg-gray-l[style*="width"]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
@@ -10996,7 +11008,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>596
+!<<<<<通配符规则>>>>>597
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11072,6 +11084,7 @@ $script,domain=zdnet.fr,third-party
 *banner$domain=beforeitsnews.com,image
 *preRoll$xmlhttprequest,domain=porngo.com
 -google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
+-load.com/loader.min.js|$domain=dogdrip.net|infinityfree.com|smsonline.cloud
 ./M5q5.js$script
 .at/bilder/*.jpg|$script,~third-party
 .biz/sw/w1s.js|$script,third-party
