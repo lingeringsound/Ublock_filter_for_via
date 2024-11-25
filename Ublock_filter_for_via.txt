@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uS7TOA1zGvxbWiP+mRHukQ
-! Title: Ublock filter for Via(2024-11-25 00:12:03)
-! Version: 20241125001203
+! Checksum: a2XJGHMemo/fFtRS6NmOvQ
+! Title: Ublock filter for Via(2024-11-25 08:53:01)
+! Version: 20241125085301
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-25 00:12:03
-! Total Count: 13730
-! Blocked Filters: 13730
+! Last modified: 2024-11-25 08:53:01
+! Total Count: 13732
+! Blocked Filters: 13732
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5288,7 +5288,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5703
+!<<<<<网站单独规则>>>>>5705
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -10667,6 +10667,8 @@ webzeni.com##header
 welovestream.xyz##.video-fake
 welt.de##.c-ad-container
 welt.de##.q-advertisement-banner
+welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src] > .ob-widget > .ob-cards > [id^="outbrain_widget_"].OUTBRAIN[data-src]
+welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src] > .ob-widget > .ob-widget-header:has(> span.ob-widget-text:has-text(MEHR AUS DEM NETZ))
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src]:has(> .ob-widget > .ob-widget-items-container > .ob-dynamic-rec-container > a[data-adv-id][rel*="sponsored"])
 westmanga.fun,westmanga.org##[src*=".gif"]
 westword.com##.AirBillboardInlineContentresponsive
