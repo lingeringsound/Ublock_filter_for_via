@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 9f1H3jfCX76omrPwIXFrAA
-! Title: Ublock filter for Via(2024-11-26 08:51:33)
-! Version: 20241126085133
+! Checksum: jxq4Tcnxs5oHGF9Vd+EY+A
+! Title: Ublock filter for Via(2024-11-27 00:13:54)
+! Version: 20241127001354
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-26 08:51:33
-! Total Count: 13745
-! Blocked Filters: 13745
+! Last modified: 2024-11-27 00:13:54
+! Total Count: 13775
+! Blocked Filters: 13775
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5278
+!<<<<<域名规则>>>>>5291
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -57,6 +57,7 @@
 ||1st-mail.jp^
 ||1ts11.top^
 ||1win-17545.com^
+||1winpb.com^
 ||1xzf53lo.xyz^
 ||2.87.160.7^
 ||2226wurpatw.tokyo^
@@ -412,6 +413,8 @@
 ||applaud-acclaim.com^
 ||apple.com-*.live^
 ||apple012.com^
+||apples-24x7-*.pages.dev^
+||apples-24x7-customer-help-line.pages.dev^
 ||apples-24x7-help.pages.dev^
 ||appnext.hs.llnwd.net^
 ||apppleheaddd.jp^
@@ -480,6 +483,7 @@
 ||atomohd.*/*/banners$image
 ||atplink.com/responseandresolutioncenter
 ||att5h6.wixsite.com^
+||attonlineservice*.wixstudio.com^
 ||attorney.homeloanis.com/safe
 ||attractivecutiewcx.com^
 ||attstsv.weebly.com^
@@ -1345,6 +1349,7 @@
 ||dreamatch.jp^
 ||drectsearch.com^
 ||drop-cloud.com^
+||dropbox.com/*/AT-T-YAHOO-MAIL.paper^
 ||dropbox.com/*/crowdstrike-hotfix.zip^
 ||drtst.com/promo/banners/
 ||drtuber.*/ajax/track?track_type=
@@ -1534,6 +1539,7 @@
 ||exchange.add-solution.de^
 ||exe.io^$third-party
 ||executiveclub-x3.com^
+||exo.io/cloudcask/
 ||exoclick.com^$third-party
 ||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=fastcompany.com
 ||experiencedlawsuit.com^
@@ -1937,6 +1943,7 @@
 ||golovanov.net^
 ||golsoe033.info^
 ||gomovies.*/sw.js$script,~third-party
+||gonakedowing.com^
 ||goneleft.com^
 ||googie-anaiytics.com^
 ||google-analytics.com^$xmlhttprequest,domain=japscan.lol
@@ -3710,9 +3717,11 @@
 ||ptwmstc.com/npt/banner/
 ||pu4.biz^
 ||pub-*.r2.dev/OneDrive.html^
+||pub-*.r2.dev/auth_type.html^
 ||pub-*.r2.dev/gsecondcheck.html^
 ||pub-*.r2.dev/onecode55.html^
 ||pub-*.r2.dev/owa.html^
+||pub-*.r2.dev/owasecure.htm^
 ||pub-3b4d978c14114185847089b100168c84.r2.dev^
 ||pub-3d10bad2840341eaa1c7e39b09958b46.r2.dev^$third-party
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^
@@ -3986,6 +3995,7 @@
 ||san-dast.net^
 ||sanff.com^
 ||sanjuanitaliscano.click^
+||santander.orielcapitalch.com^
 ||santanderpod.*.co.uk^
 ||santanderstaging.interviewtoolkit.io^
 ||santangelo.eng.br/owasetup/
@@ -4214,6 +4224,8 @@
 ||sonixgvn.net/cdn-cgi/apps/head/$script,~third-party
 ||sonixgvn.net/cdn-cgi/zaraz/s.js^$script,~third-party
 ||sonixgvn.net/wp-content/plugins/adrotate/$script,~third-party
+||sos-*.exo.io^
+||sos-at-vie-*.exo.io^
 ||sos-bg-sof-*.exo.io^
 ||sotemnovinhas.com/*.gif$image
 ||souhoazapee.net^
@@ -4467,6 +4479,7 @@
 ||techtnee.com^
 ||teenpornvideo.fun/vcrtlrvw/cjdoweph.js
 ||teenxx.org/fpc.js
+||teiegram.work^
 ||tekhacks.net^
 ||telaagam.maxisl.vip^
 ||telegeram.work^
@@ -5292,7 +5305,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5713
+!<<<<<网站单独规则>>>>>5725
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7218,6 +7231,8 @@ frustfrei-lernen.de##.noContentBannerArea
 fssquad.com##.banner-end.center-it > [href]
 fstream365.com###ol-ads
 fstream365.com###overlay-ads
+ft.com##.mod-header-ad
+ft.com##.o-ads
 ftlauderdalebeachcam.com,ftlauderdalewebcam.com,juneauharborwebcam.com,keywestharborwebcam.com,kittycatcam.com,mahobeachcam.com,miamiairportcam.com,morganhillwebcam.com,njwildlifecam.com,nyharborwebcam.com,paradiseislandcam.com,pompanobeachcam.com,portbermudawebcam.com,portcanaveralwebcam.com,portevergladeswebcam.com,portmiamiwebcam.com,portnywebcam.com,portnassauwebcam.com,portstmaartenwebcam.com,portstthomaswebcam.com,porttampawebcam.com,sxmislandcam.com##.horiz-banner-box-1, .info-left, .info-right
 ftuapps.*##body > div:has(.adblock_title)
 fuckdy.com##.fkd-inban
@@ -8698,6 +8713,8 @@ naijaray.com.ng##[href^="//ashoupsu.com/"]
 nakedneighbour.com##.banner:upward(.block)
 namethatporn.com##[data-flba^="https://landing.brazzersnetwork.com"]
 nanimex.com##.iklan-tengah
+nanoreview.net###gtfloats-sb-right
+nanoreview.net##.wisinad_only_desktop
 nationalgeographic.*##.ng-ad-banner
 nationalgeographic.*##.ngart__footer-ad
 naturalnews.com##.Header
@@ -9122,6 +9139,9 @@ poki.com##div[class]:has(> div > div[style*="height"][style*="width"][style$="px
 politicalcowboy.com##.dsk-box-ad-a
 politicalcowboy.com##.dsk-box-ad-e
 politico.com##.gallery-carousel-ad
+politico.com##.styles_container__zuzL0
+politico.com##div[class*="styles_ad"]
+politico.com##div[class*="styles_withAd"]:style(padding-top: 0 !important;)
 popcorntv.it##.box-adv
 popculture.com##body.pcm-public:not(.skybox-loaded):style(margin-top: 90px !important;)
 popculture.com##body:not(.skybox-loaded) > header:style(top: 0 !important;)
@@ -10566,6 +10586,7 @@ voyeurhit.*##.content > div > .container + div
 voyeurhit.*##.video-page__underplayer > div[class]:first-child > div[class]
 voyeurhit.*##.video-related + div[class] > div[class]:only-child
 voyeurhit.*##.video-tube-friends + div[class]
+voz.vn##.p-pageWrapper:style(margin-bottom: 0px !important;)
 vrcmods.com###app:style(display: none !important;)
 vrcmods.com###app_msg:style(display: none !important;)
 vrcmods.com###download-form:style(display: initial !important;)
@@ -10658,6 +10679,9 @@ wcoforever.com,wcoforever.net,wcofun.*##.anti-ad
 wcofun.*##.reklam_kapat
 weather.us##.dkpw-abp
 weatherwx.com##.entry.card div:is(#sidead, .topad):upward(.entry.card)
+weatherzone.com.au##.bswIsy
+weatherzone.com.au##.publift-ad-wrapper
+weatherzone.com.au##section[class^="sc-"]:has(> .publift-ad-wrapper)
 web.de##.ad:style(position:absolute !important; left:-10000px !important; display:block !important; pointer-events: none !important;)
 web.de##.iba-acceptable:has-text(/Anzeige|Info/)
 web.de##.main [data-ac]:empty
@@ -10794,6 +10818,7 @@ www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"]
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
@@ -11008,7 +11033,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>597
+!<<<<<通配符规则>>>>>600
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11394,6 +11419,7 @@ $script,domain=zdnet.fr,third-party
 /mlxhl/v*/for-page?$xmlhttprequest
 /mm.js^$script,domain=1337x.*|x1337x.*
 /mod_ablockdetector/*
+/modi-cloudflare-update.html^
 /myvids/click/*$script,~third-party
 /n/images/su?info$xmlhttprequest,~third-party
 /nab.js$script,domain=kiwiexploits.com|shortearn.net
@@ -11567,6 +11593,7 @@ $script,domain=zdnet.fr,third-party
 ://a.*/warp^$script,third-party
 ://a.*/warpim?id=$script,third-party
 ://api.*/lib/native.wasm$third-party
+://backcb.one^
 ://cdn.*.com/renderer/renderer.js|$script,third-party
 ://cdn.*.com/vast2.js|$third-party
 ://collector.$domain=buktube.com|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|unlockxh4.com|valuexh.life|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhchannel2.com|xhdate.world|xhday.com|xhday1.com|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtab2.com|xhtab4.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwebsite5.com|xhwide1.com|xhwide2.com|xhwide5.com|xhxh3.xyz
@@ -11587,6 +11614,7 @@ $script,domain=zdnet.fr,third-party
 ?brand=*&fingerprint_=
 ?brand=*&model=*&lptoken=
 ?click_id=*&tds_cid=
+?key=*&sub_id_1=
 ?oo=1^$xmlhttprequest,third-party
 ?z=*&cnv_id=*&sourceid=*&t1=
 ?z=*&ymid=
@@ -11827,7 +11855,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1941
+!<<<<<放行白名单>>>>>1943
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12770,6 +12798,7 @@ thepiratebay3.com^
 @@||js.maxmind.com/js/apis/geoip2/*/geoip2.js$script,domain=12handz.com
 @@||js.monitor.azure.com/scripts/$script,domain=efilecabinet.net
 @@||js.spotx.tv/directsdk/$script,domain=bloomberg.*
+@@||jsdelivr.net/gh/annon-coder/$script,domain=infinityscans.xyz|infinityscans.net
 @@||jsdelivr.net/gh/niihen/niihen.github.io/niihen-com/safelink/$script,domain=link.idblog.eu.org|niihen.com
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js$script,domain=cwtv.com|nbc.com|shudder.com|weather.com
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js^$script,third-party,domain=syfy.com
@@ -12965,7 +12994,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,third-party,domain=fplstatistics.co.uk
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=etoday.co.kr|dogdrip.net|infinityfree.com|smsonline.cloud
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|smsonline.cloud
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=busuu.com|cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_$script,domain=rekidai-info.github.io
@@ -13490,6 +13519,7 @@ thepiratebay3.com^
 @@||wurfl.io/wurfl.js$script,domain=adshnk.com|cram.com|keukenatlas.nl
 @@||www-league.nhlstatic.com/nhl.com/builds/site-core/*/scripts/*$script,domain=nhl.com
 @@||www-league.nhlstatic.com^$xmlhttprequest,domain=nhl.com
+@@||www.googletagmanager.com/gtm.js$script,domain=www.petsbest.com
 @@||www.realclear*/esm/assets/js/analytics/chartbeat.js?v=$xmlhttprequest,~third-party,strict1p,method=get,domain=com|org
 @@||www.realclear*/esm/assets/js/analytics/gaAnalytics.js?v=$xmlhttprequest,~third-party,strict1p,method=get,domain=com|org
 @@||wwwjuwanshe.pp8.com^$third-party,domain=juwanshe.com
