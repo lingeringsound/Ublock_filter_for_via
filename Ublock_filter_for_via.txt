@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 5iNiGzAkLQTWj0/VJcj1kg
-! Title: Ublock filter for Via(2024-11-27 08:52:37)
-! Version: 20241127085237
+! Checksum: F8BeFivGxbvPz/IWYWylYQ
+! Title: Ublock filter for Via(2024-11-28 00:13:24)
+! Version: 20241128001324
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-27 08:52:37
-! Total Count: 13782
-! Blocked Filters: 13782
+! Last modified: 2024-11-28 00:13:24
+! Total Count: 13792
+! Blocked Filters: 13792
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5293
+!<<<<<域名规则>>>>>5301
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -338,6 +338,7 @@
 ||amazoul.xyz^
 ||amboya6.com^
 ||ambrkx.click^
+||amentsmodder.com^
 ||americanoverlook.com^
 ||americass.net/interstice-ad
 ||amernamproa.com^
@@ -2037,6 +2038,7 @@
 ||hager.com/*/youtubeblocker.js$script,~third-party
 ||hallway.netnaija.app/deliver.1.5.js$script,third-party
 ||halowasus.com^
+||hamantaipei.com^
 ||handbrake.es^
 ||handbrake.it^
 ||handelsblatt.com/*/empty.js$script,~third-party
@@ -2158,6 +2160,7 @@
 ||hmhm.jp^
 ||hn-mizuki.com^
 ||hneeeixuyivwg.com^
+||hoarsecoupons.top^
 ||hobidoch.store^
 ||hoca4u.com/z-$script,~third-party
 ||hocklahro.ru^
@@ -2568,6 +2571,7 @@
 ||kmspicoativador.org^
 ||kmspicoofficial.com^
 ||kmspicoportable.com^
+||knackedphoned.com^
 ||kochava.com^
 ||kogaqmlci.com^
 ||koi-chat.net^
@@ -3302,6 +3306,7 @@
 ||office.org^
 ||officesoftcn.com^
 ||officialkmspico.com^
+||officialxai.com^
 ||oficial-kmspico.com^
 ||oficialinesp.wixsite.com^
 ||ofsetvideofre.click^
@@ -4163,6 +4168,7 @@
 ||skiptheadz.com^
 ||skmedix.pl/cdn-cgi/zaraz/$script,~third-party
 ||skollett.site^
+||skvxbool.xyz^
 ||sky567o.fun^
 ||skymods.net^
 ||skype-com.cn^
@@ -4898,6 +4904,7 @@
 ||vidhidefast.com/assets/jquery/css.js
 ||vidhidefast.com/player/jw8/vast.js
 ||vidlii.com/js/main.js^$script,~third-party
+||vidlink.pro/api/*cash
 ||vidlink.pro/api/adcash
 ||vidmoly.to/static/vastAD.js$script
 ||vidomo.xyz/assets/js/devtools-detector.js
@@ -5031,6 +5038,7 @@
 ||wifekai.net^
 ||wifi4games.com/sw.js$script,~third-party
 ||wiilberedmodels.com^
+||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles$script,~third-party
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles|$script,~third-party
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=jquery&skin=vector-2022&version$script,~third-party
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=startup&only=scripts&raw=1&skin=|$script,~third-party
@@ -5307,7 +5315,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5730
+!<<<<<网站单独规则>>>>>5731
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9943,6 +9951,7 @@ streamango.*###ad_buts
 streamfare.com##[id^="wb_AdText"]
 streamhub.*##center > a[href][target="_blank"]
 streamingcommunity.*##.slide-banner
+streamingcommunity.*##.slide-banner:has(> .slide-banner__container)
 streamingcommunity.computer##div.centered.modal
 streamingsites.com##.OUTBRAIN:upward(2)
 streamporn.pw,watchpornx.com###overlays
@@ -11862,7 +11871,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1943
+!<<<<<放行白名单>>>>>1944
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -13497,6 +13506,7 @@ thepiratebay3.com^
 @@||widgets.outbrain.com/outbrain.js$script,domain=nypost.com|pagesix.com|welt.de
 @@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|cursomecanet.com|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles$script,~third-party
+@@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles%2Cjquery%2Coojs%2*&skin=vector-2022&version=$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.categoryTree$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.cite.ux-enhancements$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.visualEditor$script,~third-party
