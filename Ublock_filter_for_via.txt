@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: jxq4Tcnxs5oHGF9Vd+EY+A
-! Title: Ublock filter for Via(2024-11-27 00:13:54)
-! Version: 20241127001354
+! Checksum: 5iNiGzAkLQTWj0/VJcj1kg
+! Title: Ublock filter for Via(2024-11-27 08:52:37)
+! Version: 20241127085237
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-27 00:13:54
-! Total Count: 13775
-! Blocked Filters: 13775
+! Last modified: 2024-11-27 08:52:37
+! Total Count: 13782
+! Blocked Filters: 13782
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5291
+!<<<<<域名规则>>>>>5293
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1135,6 +1135,7 @@
 ||curioushingefast.com^
 ||currentlyatt*.weebly.com^
 ||curryfielddistribution.com^
+||cursomecanet.com/registro$xmlhttprequest,~third-party
 ||cursorltd.com^
 ||curverainstorm.website^
 ||curvyfemales.com/*.php$script,~third-party
@@ -1877,6 +1878,7 @@
 ||giftcardhero.net^
 ||gifyu.com/*.gif$image,domain=masahub.net
 ||giga.de/special/gutscheine/*.png$script,~third-party
+||gigachadlitics.b-cdn.net^
 ||gigaleecher.com/templates/plugmod/giga.js$script,~third-party
 ||gimkax.com^
 ||gimp.es^
@@ -5305,7 +5307,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5725
+!<<<<<网站单独规则>>>>>5730
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9745,6 +9747,12 @@ shuajota.com###HTML14
 shuajota.com###HTML9
 siamblockchain.com##.headerad-desk
 sidereel.com###netaktion_ad
+simpcity.su##.nav-bonga
+simpcity.su##.nav-dfake
+simpcity.su##.nav-faze
+simpcity.su##.nav-tpd
+simpcity.su##[src="https://simpcity.su/custom/catto.png"]
+simpcity.su,thethothub.com,thothub.*##.prm-wrapper
 simplebits.io##div[class][style="min-height: 250px; height: 250px;"]
 simplebits.io##div[class][style="min-height: 60px;"]
 simplebits.io##div[class][style="min-height: 90px;"]
@@ -10161,7 +10169,6 @@ thingiverse.com##[class*="ThingPage__topAd"]
 thingiverse.com##[class^="ItemCardContainer__itemCard"]:has(> [title="Advertisement"])
 thizissam.in###Dbtn
 thizissam.in##[id^="AT-Download"]:style(display: block !important;)
-thothub.*,thethothub.com##.prm-wrapper
 thotpacks.xyz###popconlkr
 thotvids.com##.fade.top.text.fp-logo
 thotvids.com##[href^="https://go.mshago.com"]
