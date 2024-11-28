@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: NSoQEhr5vjskzLXmXLnRtw
-! Title: Ublock filter for Via(2024-11-28 08:52:06)
-! Version: 20241128085207
+! Checksum: 1ewqYMyBCUAFuDueQPbZ/A
+! Title: Ublock filter for Via(2024-11-29 00:12:46)
+! Version: 20241129001246
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-28 08:52:07
-! Total Count: 13792
-! Blocked Filters: 13792
+! Last modified: 2024-11-29 00:12:46
+! Total Count: 13818
+! Blocked Filters: 13818
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5301
+!<<<<<域名规则>>>>>5316
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -414,6 +414,7 @@
 ||applaud-acclaim.com^
 ||apple.com-*.live^
 ||apple012.com^
+||applecenter.info.vn^
 ||apples-24x7-*.pages.dev^
 ||apples-24x7-customer-help-line.pages.dev^
 ||apples-24x7-help.pages.dev^
@@ -462,6 +463,7 @@
 ||assets.vlitag.com/plugins/*$script,domain=orbispatches.com
 ||assets.vlitag.com/prebid/*$script,domain=orbispatches.com
 ||assitechnique.net^
+||astirduller.com^
 ||astraeus-star.site^
 ||astrolivesports.com^
 ||astrosphere.world^
@@ -609,6 +611,7 @@
 ||bgmateriali.com/js/detector.js$script,~third-party
 ||bhplay.me/player/assets/devtools-detector/*$script,~third-party
 ||bibian4k.com^
+||bidster.net^
 ||bigosext69.com^
 ||bigpixel.cn/libs/plugins/blocker.js^
 ||biguz.net/vast$xmlhttprequest,~third-party
@@ -1137,6 +1140,7 @@
 ||currentlyatt*.weebly.com^
 ||curryfielddistribution.com^
 ||cursomecanet.com/registro$xmlhttprequest,~third-party
+||cursomecanet.com^$inline-script,~third-party
 ||cursorltd.com^
 ||curverainstorm.website^
 ||curvyfemales.com/*.php$script,~third-party
@@ -2065,6 +2069,7 @@
 ||harmonic-serenity.space^
 ||harzfriends.de^
 ||haupsoti.net^
+||havenclick.com^
 ||havenworks.com^
 ||hawaktv.com/sw.js$script
 ||haxsoft.com^
@@ -2212,7 +2217,7 @@
 ||html-load.cc^
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
-||html-load.com^$domain=manta.com|tportal.hr|tvtropes.org|wouldurather.io|convertcase.net
+||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
 ||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
@@ -2527,6 +2532,7 @@
 ||kerapoxy.*/js/baf.js$script
 ||kev8ffh2n9a8.jp^
 ||keydoordasher.shop^
+||khach-hang-
 ||khach-hang-the-
 ||khantv.live/ad2.php^
 ||khcn-tindung-
@@ -2538,6 +2544,7 @@
 ||kiktu.com/wp-content/plugins/azee-safelink/img/play*.jpg$image,~third-party
 ||kiktu.com/wp-json/wp-statistics/$xmlhttprequest
 ||kin-un2023.com^
+||kind-lecture.com^
 ||king-sweepstakes.com^
 ||kinhako-m02.com^
 ||kinkbook.com/ad_media/
@@ -2799,6 +2806,7 @@
 ||ma-rry.site^
 ||ma-t-chy.link^
 ||ma-tching.com^
+||ma3ion.com^
 ||macgsapptrck.com^
 ||machi-match.info^
 ||machimatch.jp^
@@ -3113,6 +3121,7 @@
 ||msk.su^
 ||msn.com/advertisement.ad.js$script,~third-party
 ||msnoauth*.com/office-
+||msoftupdate.*.linodeobjects.com^
 ||msstatic.com/huya/*/p2plib.js$script
 ||msubplix.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||mtl.metel-x-x-x.com^
@@ -3171,6 +3180,7 @@
 ||mysecurify.com^
 ||mystery-forest.com^
 ||mytemp.website/amazon-prime-video-com-br/
+||mytemp.website/safetyfileaccess.htm^
 ||mywatchseries.*/sw.js$script,~third-party
 ||myway.com^
 ||n.fcd.su^
@@ -3248,6 +3258,7 @@
 ||nfkd2ug8d9.com^
 ||nfxktxuwx.com^
 ||ngazi.co.tz^
+||nhantienquocte*.vercel.app^
 ||nice.par-even.com^
 ||nicking-unding.com^
 ||nihongirl.online^
@@ -3332,6 +3343,7 @@
 ||olymptrade.com^$third-party
 ||ombrewa.space^
 ||omeda.com^$third-party
+||omegatoki.com^
 ||omtrdc.net^$xmlhttprequest,domain=pccomponentes.com
 ||on-glamour.xyz^
 ||on-li-ne.net^
@@ -3478,6 +3490,7 @@
 ||pajalusta.club/cdn-cgi/trace^$xmlhttprequest
 ||pakistaniporn2.com/js/friends.minz.js
 ||pakok.net^
+||pal-24x7-support.xyz^
 ||panacota.net^
 ||pandanetwork.club^$third-party,script
 ||panel.freemcserver.net/*YouUblockAnd$script,~third-party
@@ -4164,6 +4177,7 @@
 ||sitio-interno.com^
 ||sk3-renew.com^
 ||skae3299.top^
+||skeatrighter.com^
 ||skipalos.xyz^
 ||skiptheadz.com^
 ||skmedix.pl/cdn-cgi/zaraz/$script,~third-party
@@ -4177,6 +4191,7 @@
 ||sldg02.com^
 ||sleetposition.website^
 ||slimhealth.us^
+||slobeg.com^
 ||slugmefilehos.xyz^
 ||sm-bt.net^
 ||sm-heaven.com^
@@ -5315,7 +5330,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5731
+!<<<<<网站单独规则>>>>>5735
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5537,7 +5552,7 @@ accesousa.com,bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlot
 accordo.it###bglink
 accuweather.com##body:remove-class(ads-not-loaded)
 acefile.co###btmx
-acefile.co,kisahdunia.com##.textwidget
+acefile.co,filma24.band,kisahdunia.com##.textwidget
 acetack.com,androidquest.com,apklox.com,cambb.xxx,chhaprawap.in,gujarativyakaran.com,kashmirstudentsinformation.in,kisantime.com,nudecams.xxx,pastescript.com,shetkaritoday.in,trimorspacks.com,updrop.link###adb
 acetack.com,androidquest.com,apklox.com,chhaprawap.in,gujarativyakaran.com,kashmirstudentsinformation.in,kisantime.com,shetkaritoday.in,pastescript.com,trimorspacks.com,updrop.link###wpsafe-generate, #wpsafelink-landing, #wpsafe-link:style(display: block !important;)
 actionviewphotography.com,exporntoons.net,freepornvideo.sex,mat6tube.*,noodlemagazine.com,sibtok.com,tyler-brown.com,ukdevilz.com,whatisareverseauction.com##noindex
@@ -6386,6 +6401,7 @@ cnnamador.com##.is-ad-visible
 cnx-software.com##div[class*="-single "]:has(img)
 cockmeter.com,jizz.us,spycock.com###alfa_promo_parent
 code2care.org##.right-content
+codepromo.ouest-france.fr##t1-ad-side-bars
 codesnail.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,readytechflip.com,romadd.com,studydhaba.com,taoruseitai.com,taradinhos.com,towelstretches.com##.widget_custom_html
 codesnse.com###paras-devgenerate ~ *
 codesnse.com,cravesandflames.com,games4king.com##[href^="https://play.google.com/"]
@@ -7640,6 +7656,7 @@ hentaidude.com,miohentai.com###idtop
 hentaigo.com##a[href*="//www.nutaku.net/signup/"]
 hentaihaven.vip,nhentaihaven.org##.script_manager_video_master
 hentaihaven.xxx##.hhzt
+hentaihaven.xxx##.popecrazy
 hentaihd.net##.active-item
 hentaihere.com##.js-adzone
 hentaihere.com##[href^="https://goo.gl"]
@@ -8284,6 +8301,7 @@ livesport24.net##[href^="https://b-partner.xyz/"]
 livingincebuforums.com##[data-blockid*="AdsWidget"]
 livingincebuforums.com##[id^="nbAdWidget"]
 lk21official.my##[id^="btop-"] > [href^="https://kredit-mobil-dp-murah.pages.dev/"]
+lk21official.pics###top-b
 lnk.news,lnk.parts##.child-centered.display-300x250
 loadout.tf##.header:has(> div[data-i18n^="#ad"])
 loadout.tf##.header:has(> div[data-i18n^="#ad"]) + div:empty:last-child
@@ -8744,6 +8762,7 @@ ndtv.com##[id^="adslot"]
 needgayporn.com##[href="https://www.onlyhentaistuff.com/"]
 needgayporn.com##[src^="https://www.needgayporn.com/player/html.php"]
 nekochan.jp###main > aside:has(> div.OUTBRAIN)
+nekopoi.*##.leftarea
 nekopoi.*##[href^="http://bit.ly/"]
 nensaysubs.net###outerdiv
 netfapx.com##[id^="ads-position"]
@@ -11049,7 +11068,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>600
+!<<<<<通配符规则>>>>>603
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11158,6 +11177,7 @@ $script,domain=zdnet.fr,third-party
 .com/v.js?v=3|$~third-party
 .de/bilder/*.jpg|$script,~third-party
 .de/image/*.gif|$script,~third-party
+.gif$domain=nekopoi.*,image
 .gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
@@ -11291,6 +11311,7 @@ $script,domain=zdnet.fr,third-party
 /assets/jquery/app0.js?type=$~third-party
 /assets/jquery/app100.js?type=$~third-party
 /assets/jquery/main100.js?v=$script,~third-party
+/assets/jquery/p2anime.js?v=
 /assets/jwplayer-*/vast.js$script,~third-party
 /axad/?lpkey=
 /bab.min.js$script,~third-party
@@ -11457,6 +11478,7 @@ $script,domain=zdnet.fr,third-party
 /p13n/batch/action/*$image
 /panel\.freemcserver\.net\/.{90,}\?v=17/$script,~third-party,domain=panel.freemcserver.net
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com
+/player/jw8/vast.js|$script,~third-party
 /please-verify-z.html^
 /pmc-plugins/pmc-social-share-bar/*/tracking.js
 /pop-click?sid=*&data=
@@ -11652,7 +11674,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>216
+!<<<<<通用Css规则>>>>>218
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -11698,6 +11720,7 @@ thepiratebay3.com^
 ###stop_ad
 ###stop_ad2
 ###tabVideo > .rmedia
+###target.pk-page-ready #pk-status-message
 ###target.pk-page-ready > #pk-status-message
 ###topBannerAd:not(:empty)
 ###topbannerad:not(:empty)
@@ -11764,6 +11787,7 @@ thepiratebay3.com^
 ##.overlay-advertising-new
 ##.player-bns-block
 ##.preroll-blocker
+##.reklama:not(.ads)
 ##.rkads
 ##.rps_player_ads
 ##.samBannerUnit
@@ -11871,7 +11895,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1944
+!<<<<<放行白名单>>>>>1946
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12356,6 +12380,7 @@ thepiratebay3.com^
 @@||cdnperf.com/js/rollbar.js$script,~third-party
 @@||cdnqq.net^$script,~third-party
 @@||cdns.brsrvr.com/v1/br-trk-*.js^$script,third-party,domain=uncommongoods.com
+@@||cdnt.netcoresmartech.com/smartechclient.js^$script,domain=selfcare.unifi.com.my
 @@||cdntvn.pl/*/advert.js$xmlhttprequest,domain=tvn.pl|tvn24.pl
 @@||cdntvn.pl^$script,domain=player.pl
 @@||cds.connatix.com/*/elLoader.$third-party,script
@@ -13728,6 +13753,7 @@ neos-easygames.com,synk-casualgames.com#@##ad_block
 nieru.net#@#.ad-space:not(.textads):not(.adbox)
 nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
+offmoto.com#@#.reklama:not(.ads)
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
 pcgamer.com#@#.hawk-widget
