@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1ewqYMyBCUAFuDueQPbZ/A
-! Title: Ublock filter for Via(2024-11-29 00:12:46)
-! Version: 20241129001246
+! Checksum: 9p5UJJhEqe/Uu1YLu9ve2w
+! Title: Ublock filter for Via(2024-11-29 08:52:21)
+! Version: 20241129085221
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-29 00:12:46
-! Total Count: 13818
-! Blocked Filters: 13818
+! Last modified: 2024-11-29 08:52:21
+! Total Count: 13825
+! Blocked Filters: 13825
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5316
+!<<<<<域名规则>>>>>5321
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1038,6 +1038,7 @@
 ||computer-bild.de/_static-assets/homad/homad.js
 ||conackmar.com^
 ||confiant-integrations.global.ssl.fastly.net/*/gpt_and_prebid$script,domain=seeitlive.co
+||config-factory.com^$third-party
 ||config.fp.measure.office.com/conf/v*/*/fpconfig.min.json$script
 ||congbac.com^
 ||connatix.com^$script,domain=rmweb.co.uk
@@ -1047,6 +1048,7 @@
 ||conohawing.com/*/outlook-
 ||constellationbedriddenexams.com^
 ||consumerproductsusa.com^
+||content-settings.com^$third-party
 ||content-voilation-
 ||content.gorapidcdn.com^
 ||content.streamfastcdn.com^
@@ -1140,6 +1142,7 @@
 ||currentlyatt*.weebly.com^
 ||curryfielddistribution.com^
 ||cursomecanet.com/registro$xmlhttprequest,~third-party
+||cursomecanet.com^$inline-script,script,~third-party
 ||cursomecanet.com^$inline-script,~third-party
 ||cursorltd.com^
 ||curverainstorm.website^
@@ -4155,6 +4158,7 @@
 ||sirokataldea.com^
 ||sishedra.com^
 ||sishui.site^
+||site-config.com^$third-party
 ||sitefilme.com/*.php$script,~third-party
 ||sites.google.com/l0gin-microsoftwebonlne.app/
 ||sites.google.com/mwhite55.appquestss.com/
@@ -4289,6 +4293,7 @@
 ||sqrt-5041.de^$xmlhttprequest,domain=joyn.at|joyn.de
 ||srt.am/sw.js$script,~third-party
 ||srvy.ninja/assets/adb/js/detector.min.js
+||srvy.ninja/assets/property/js/ads.js
 ||ss-mndsrv.b-cdn.net^
 ||ssgalaxy-sysgold.jp^
 ||ssiadnweb.securenetsystems.net^
@@ -5330,7 +5335,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5735
+!<<<<<网站单独规则>>>>>5737
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5807,7 +5812,9 @@ aruble.net,faucethero.com,faucetpot.me,krypto-trend.de###middle-adspace
 ashemaletube.com###site-wrapper:style(padding-top: 0 !important;)
 ashemaletube.com##.ads-wrapper
 ashemaletube.com##.header-ads-wrapper
+ashemaletube.com##.js-toggle-content-wrapper a[href^="https://shemale.show/"]:upward(.js-toggle-content-wrapper)
 ashemaletube.com##.js-toggle-content-wrapper a[href^="https://shemale.show/"][rel="sponsored"]:upward(.js-toggle-content-wrapper)
+ashemaletube.com##.no-popup:has(> a[href^="https://shemale.show/"])
 ashemaletube.com##.video-end-overlay
 ashemaletube.com##li[class]:has(a[href^="https://shemale.show/"][rel="sponsored"])
 ashemaletube.com,boyfriendtv.com##.ads-block-rightside
@@ -6286,7 +6293,7 @@ cdn.htmlgames.com###afgContainer
 cdn1.link###adholder
 cdn77.org,olinevid.com###layerName_preroll, #layerName_postroll
 cdnfinder.xyz###poster
-cdnfinder.xyz,ezjav.com,hextank.io,indavideo.hu,javdragon.com,player.javqd.*,player.javtc.*,player.javwide.*,taming.io,wowescape.com###preroll
+cdnfinder.xyz,ezjav.com,hextank.io,indavideo.hu,javdragon.com,javdragon.org,player.javqd.*,player.javtc.*,player.javwide.*,taming.io,wowescape.com###preroll
 cdromance.com###custom_html-8
 cdromance.com##.widget_custom_html #myVideo:upward(.widget_custom_html)
 cdromance.com,custommapposter.com,dirrty.remix.es,emailregex.com,fernsehzone.online,hax.co.id,leechpremium.net,rangerboard.com,scanurl.net,wallpaperplay.com##.adsbygoogle
