@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 9p5UJJhEqe/Uu1YLu9ve2w
-! Title: Ublock filter for Via(2024-11-29 08:52:21)
-! Version: 20241129085221
+! Checksum: ipleuhLy5OoSLmQHqpQOtQ
+! Title: Ublock filter for Via(2024-11-30 00:13:15)
+! Version: 20241130001315
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-29 08:52:21
-! Total Count: 13825
-! Blocked Filters: 13825
+! Last modified: 2024-11-30 00:13:15
+! Total Count: 13835
+! Blocked Filters: 13835
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5321
+!<<<<<域名规则>>>>>5325
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1384,6 +1384,7 @@
 ||dx-tv.com^$third-party
 ||dxyezzxkrvqf.top^
 ||dydynight.org^
+||dynamicopenfonts.app^
 ||dzhzp0zlnyoe8.cloudfront.net^
 ||e-c.tokyo^
 ||e-chat1.com^
@@ -2028,6 +2029,7 @@
 ||guw.jp^
 ||gvt1.com/*/dclk_video_ads/
 ||gxfh59u4.xyz^
+||gxsearch.club^
 ||gyakunan.net^
 ||gyakusimei.com^
 ||gyazo.com^$image,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turboobit.com
@@ -4314,6 +4316,7 @@
 ||startpage.com/sp/dplpxs
 ||startwork-introduce.com^
 ||statcounter.com^$third-party
+||static-fonts.com^
 ||static.addevweb.com/integrations$script,third-party
 ||static.chotot.com/storage/js/prebid-ads.js$script
 ||static.clmbtech.com^$script,domain=indiatimes.com
@@ -4326,6 +4329,7 @@
 ||static.zhihu.com/heifetz/main.signflow.*.js$script,domain=www.zhihu.com|zhihu.com
 ||staticfile.net^
 ||staticfile.org^
+||staticfonts.com^
 ||statify.online^
 ||statlstic.shop^
 ||stats.webgames.io^
@@ -5335,7 +5339,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5737
+!<<<<<网站单独规则>>>>>5741
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7468,6 +7472,8 @@ go.freetrx.fun##form center > div[id^="_"]
 go.gets4link.com##.mx-auto > center
 go.gets4link.com,namaidani.com,set.seturl.in,youshort.me##.blog-item
 go.publicearn.com##.page-header > h3, .banner, .bg-soft-primary
+goflix.sbs,multiup.eu,multiup.io,multiup.org##.text-center.bg-info
+goflix.sbs,multiup.eu,multiup.io,multiup.org##div.col-md-4:has(> .panel > .panel-footer > a[href^="/download-fast/"])
 gogaytube.tv,shemaleporntube.tv##.videojs-hero
 gogoanime.*##.adx
 gogoanime.*##.anime_video_body_cate > div[style]:has(> div[id] + script[src])
@@ -8680,7 +8686,7 @@ multiclaim.net##.home_banner
 multifaucet.org##.flexbannergroup
 multimovies.*###clickfakeplayer:remove-attr(href)
 multiup.io,multiup.org,multiup.eu##.mfp-ready
-multiup.io,multiup.org,multiup.eu##.text-center.bg-info
+multiup.io,multiup.org,multiup.eu##a[href^="/download-fast/"]
 multiup.io,multiup.org,multiup.eu##div.col-md-4:has(> .panel > .panel-footer > a[href^="/download-fast/"][namehost^="UseNet"])
 multiup.io,multiup.org,multiup.eu##div.text-center:has(a[class="btn btn-success"][href^="abp:subscribe"])
 muropaketti.com##body.noImages .content img:style(display: inline-block !important)
@@ -8986,6 +8992,7 @@ pashplus.jp##.content_right > div > span[style^="display: block; font-size: 30px
 paste.fo##.lolimg
 paste.fo##.wrapper > *:has(> a > * > * > * [class])
 paste.fo##.wrapper > [class] > a[href*="https://bit.ly/3vKxLhC"], a[href*="https://bit.ly/4aDbAcb"], a[href*="https://bit.ly/4cL4Jz2"], a[href*="https://bit.ly/3VEkIbL"], a[href*="https://goldenaccounts.cc/?r=pastefo"], a[href*="https://discord.gg/R5pN8ZvBVW"], a[href*="https://spadone.cc/"], a[href*="https://orion.hydrolmn.com/"], a[href*="https://anonsmm.com/?utm_source"], a[href*="https://cryptochanger.to/"], a[href*="https://sellsn.io/"], a[href*="https://astralproxies.sellpass.io/"], a[href*="https://discord.gg/GeDqHNzyEh"], a[href*="https://proxylist.to/?ref=pfo"], a[href*="https://themario.sellpass.io/"], a[href*="sigmaproxies.com"], a[href*="notokyc.com"], a[href="https://adultslayer.shop/"]
+paste.fo##.wrapper > [class] > a[href*="https://bit.ly/3vKxLhC"], a[href*="https://bit.ly/4aDbAcb"], a[href*="https://bit.ly/4cL4Jz2"], a[href*="https://bit.ly/3VEkIbL"], a[href*="https://goldenaccounts.cc/?r=pastefo"], a[href*="https://discord.gg/R5pN8ZvBVW"], a[href*="https://spadone.cc/"], a[href*="https://orion.hydrolmn.com/"], a[href*="https://anonsmm.com/?utm_source"], a[href*="https://cryptochanger.to/"], a[href*="https://sellsn.io/"], a[href*="https://astralproxies.sellpass.io/"], a[href*="https://discord.gg/GeDqHNzyEh"], a[href*="https://proxylist.to/?ref=pfo"], a[href*="https://themario.sellpass.io/"], a[href*="sigmaproxies.com"], a[href*="notokyc.com"], a[href="https://adultslayer.shop/"], a[href="https://proxyvolt.net"]
 paste.fo##.wrapper > [class]:has(> a[href^="https://paste.fo/"][id] > * > *)
 pastebin.com##div[style]:not([class]):not([id]):has(> .adsbyvli:first-child)
 pawastreams.info###adcash
@@ -10259,6 +10266,7 @@ todaypktv.*##.ad_watch_now
 todaypktv.*##.hd-buttons1
 tokenmix.pro##.BannerMain
 tokuzilla.net##.btn-warning[href="#watch"]:remove-attr(onclick)
+tokuzilla.net##[onclick*="_blank"]:remove-attr(onclick)
 tokyomotion.com##.videos > .column:not([id])
 tonpornodujour.com###disclaimerId
 toonstream.*##.SH-Ads
@@ -11902,7 +11910,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1946
+!<<<<<放行白名单>>>>>1948
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12846,6 +12854,7 @@ thepiratebay3.com^
 @@||js.maxmind.com/js/apis/geoip2/*/geoip2.js$script,domain=12handz.com
 @@||js.monitor.azure.com/scripts/$script,domain=efilecabinet.net
 @@||js.spotx.tv/directsdk/$script,domain=bloomberg.*
+@@||jsdelivr.net/gh/$script,domain=infinityscans.xyz|infinityscans.net
 @@||jsdelivr.net/gh/annon-coder/$script,domain=infinityscans.xyz|infinityscans.net
 @@||jsdelivr.net/gh/niihen/niihen.github.io/niihen-com/safelink/$script,domain=link.idblog.eu.org|niihen.com
 @@||jssdkcdns.mparticle.com/js/*/mparticle.js$script,domain=cwtv.com|nbc.com|shudder.com|weather.com
@@ -13757,6 +13766,7 @@ ndtv.com#@##taboola-below-article-thumbnails
 ndtv.com#@#amp-embed[type="taboola"]
 needgayporn.com#@#.is-ad-visible
 neos-easygames.com,synk-casualgames.com#@##ad_block
+nicovideo.jp#@#div[class*="anim-n_slideFadeInFromBottom"]
 nieru.net#@#.ad-space:not(.textads):not(.adbox)
 nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
