@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: TXKg1hAIs20LL4rAUo2S9A
-! Title: Ublock filter for Via(2024-11-30 08:50:34)
-! Version: 20241130085034
+! Checksum: 71aCoGzV6XYTH2NiP5bJ6g
+! Title: Ublock filter for Via(2024-12-01 00:11:20)
+! Version: 20241201001120
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-30 08:50:34
-! Total Count: 13839
-! Blocked Filters: 13839
+! Last modified: 2024-12-01 00:11:20
+! Total Count: 13844
+! Blocked Filters: 13844
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5327
+!<<<<<域名规则>>>>>5332
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1852,6 +1852,7 @@
 ||gayxxxtube.net/img_bnnrs/
 ||gazzettaobjects.it/rcs_anti-adblocker/$third-party
 ||geekotg.com^
+||geeksprosoftwareprints.org^
 ||geekupdates.notion.site/Ultra-Security
 ||gegenhartz.de^
 ||geh.jp^
@@ -2953,6 +2954,7 @@
 ||meetpie.net^
 ||meetshorny.link^
 ||meetsworldsm.link^
+||megadrive.solutions^
 ||megatube.xxx/atrm/*$script,~third-party
 ||megaurl.win/js/full.js$third-party
 ||megayoungsex.com/func.js
@@ -3711,6 +3713,7 @@
 ||primewire.*/sw$script,~third-party
 ||princess2022.com^
 ||printablecreative.com/wp-content/uploads/pixel.gif
+||printcaretech.com^
 ||privacyguides.io^
 ||privacyharbor.net^
 ||privatedates.link^
@@ -4065,6 +4068,7 @@
 ||see.xxx/nr.js
 ||seed69.com/wp-content/uploads/*.gif$image
 ||seekingalpha.com/boot_data.js
+||select-easy123print.com^
 ||selfservesenpai.*^
 ||sellerstat.site^
 ||sellifypro.com^
@@ -4935,6 +4939,7 @@
 ||vidmoly.to/static/vastAD.js$script
 ||vidomo.xyz/assets/js/devtools-detector.js
 ||vidop.*/sw.js$script,~third-party
+||vidsrc.cc/saas/js/script.all.js
 ||vidsrc.net/*.js?_=$script,~third-party
 ||vidsrc.pro/uwu-js^$script
 ||vidsvidsvids.com/go/
