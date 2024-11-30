@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ipleuhLy5OoSLmQHqpQOtQ
-! Title: Ublock filter for Via(2024-11-30 00:13:15)
-! Version: 20241130001315
+! Checksum: TXKg1hAIs20LL4rAUo2S9A
+! Title: Ublock filter for Via(2024-11-30 08:50:34)
+! Version: 20241130085034
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-11-30 00:13:15
-! Total Count: 13835
-! Blocked Filters: 13835
+! Last modified: 2024-11-30 08:50:34
+! Total Count: 13839
+! Blocked Filters: 13839
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5325
+!<<<<<域名规则>>>>>5327
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -382,6 +382,7 @@
 ||aphrodite-astrology.net^
 ||api.*.com/v1/videos?channel_handle=$xmlhttprequest,~third-party
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xmlhttprequest,third-party
+||api.app.dfbplay.tv/V1/Adverts/GetVast$xmlhttprequest,~third-party
 ||api.baomoi.com/*/w/$script,xmlhttprequest,~third-party
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xmlhttprequest,~third-party
 ||api.busuu.com/ads/
@@ -719,6 +720,7 @@
 ||bride1be.com^
 ||bridgetrack.com^$third-party
 ||brightadnetwork.com^
+||brinifcall.com^
 ||brkbk.202226.net/jump/index.html
 ||brotherorgan.com^
 ||browimeto.click^
@@ -11910,7 +11912,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1948
+!<<<<<放行白名单>>>>>1950
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12003,6 +12005,7 @@ thepiratebay3.com^
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json$~third-party
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
 @@/adpartner.min.js$script,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
+@@/adsAPI.js$script,third-party,domain=infinityscans.xyz|infinityscans.net
 @@/advertisements-$image,domain=jennifer-lawrence.com
 @@/advertisements_$image,domain=jessica-biel.at
 @@/advertising_$image,domain=timfahlbusch.com
@@ -12014,6 +12017,7 @@ thepiratebay3.com^
 @@/cdn-cgi/pe/bag2?*optimizely.com$domain=coindesk.com
 @@/components/js/analytics.js|$xmlhttprequest,~third-party
 @@/evergage.min.js^$script,domain=pvrcinemas.com
+@@/gh/*$script,third-party,domain=infinityscans.xyz|infinityscans.net
 @@/gtm.js$script,domain=subscriptions.amd.com
 @@/init.js|$script,xmlhttprequest,~third-party,domain=crunchbase.com|www.crunchbase.com
 @@/isomorphic/system/modules/ISC_Analytics.js$script,~third-party
