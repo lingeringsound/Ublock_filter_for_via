@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: exHImBH6mM7ia3rylVDVuQ
-! Title: Ublock filter for Via(2024-12-01 09:01:20)
-! Version: 20241201090120
+! Checksum: 7J4mtUTeLF/UlerYF5MoIQ
+! Title: Ublock filter for Via(2024-12-02 00:11:31)
+! Version: 20241202001131
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-01 09:01:20
-! Total Count: 13849
-! Blocked Filters: 13849
+! Last modified: 2024-12-02 00:11:31
+! Total Count: 13869
+! Blocked Filters: 13869
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5332
+!<<<<<域名规则>>>>>5340
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -745,6 +745,7 @@
 ||budhump.com^
 ||bughter.com^
 ||builder.hufs.ac.kr/goLink.jsp?url=xn-
+||bulkagetufas.com^
 ||bulksms.services/*/NetFlxinc/
 ||bulksms.services/NetFxs/
 ||bunkr-cache.se/js/script.js$script,domain=bunkr.*
@@ -832,6 +833,7 @@
 ||cdn.jsdelivr.net/gh/RockBlogger/SpiderAdBlocker
 ||cdn.jsdelivr.net/gh/cnmseo/LookMother$third-party
 ||cdn.jsdelivr.net/gh/itspro-dev/*/js/main.js$script
+||cdn.jsdelivr.net/gh/lookatdons/gasak^
 ||cdn.jsdelivr.net/gh/magiclen/adblock-checker
 ||cdn.jsdelivr.net/gh/ourtecads/AntiAdblock$script
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
@@ -1240,6 +1242,7 @@
 ||dattter.shop^
 ||datumdellago.com^
 ||dauhunecoag.net^
+||dauntssquills.com^
 ||daylighteel.com^
 ||days-neighborhood.com^
 ||dcs-mcdn.mp.lura.live/prod/*$xmlhttprequest,third-party
@@ -2211,6 +2214,7 @@
 ||house.comikey.com/unw.gif?$image,~third-party
 ||hp-dy.net^
 ||hphp-dy.net^
+||hpilzison-r.online^
 ||hprofits.com^$domain=gogaytube.tv|shemaleporntube.tv
 ||hqbang.com/n/
 ||hqbang.com/neverb/
@@ -2853,6 +2857,7 @@
 ||makoto-in-room.wixsite.com^
 ||malaysianwireless.com/wp-content/banners/*$image,~third-party
 ||malenirt.site^
+||malurusoenone.top^
 ||mama-piece.com^
 ||mamagathering.org^
 ||mamak.jp^
@@ -3096,6 +3101,7 @@
 ||more-followers.com^
 ||moremorelove.net^
 ||moremoremail.net^
+||mostream.us/popuv.js^
 ||mother-sku.jp^
 ||motherguitar.com^
 ||mothersmilk.jp^
@@ -3394,6 +3400,7 @@
 ||oolontya.com^
 ||ooppnm.com^
 ||oortech.com/onedrive.-html^
+||op3xdork.xyz^
 ||open-office.fr^
 ||open-project.org^
 ||openoffice.de^
@@ -4118,6 +4125,7 @@
 ||sfsrch.com^
 ||sfxmgzhaeeguq.com^
 ||sg1first-syspro.jp^
+||sgeiruehou.cfd^
 ||sgoke0333.info^
 ||sgua.jp^
 ||shacsda.name^$third-party
@@ -5346,7 +5354,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5746
+!<<<<<网站单独规则>>>>>5755
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5552,6 +5560,10 @@ abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
 ableitungsrechner.net##a.extern[href^="//www.amazon.de/"]:upward(2)
+abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q:has(div[class^="imp-adSlot"])
+abs-cbn.com##div[id^="div-articleOOP"] ~ div:has(.imp-adSlot-0)
+abs-cbn.com##div[style*="2147483647"]:has(.imp-adSlot-0)
+abs-cbn.com##div[style*="999999"]:has(div[style^="background-color:#ECEDEF;"] > p)
 abxxx.com##.video-page__content > div.left > section
 abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
@@ -5748,6 +5760,7 @@ anybunny.com,hotntubes.com##td[width="360"]
 anysex.com###content > .naf_dd
 anysex.com##[class^="content"] > .no_pop
 aol.com##.maas-item:has-text(our Partners)
+aov-news.com,summonersky.com##[id^="ads_vertical_reader_"]
 apk4all.com##.control.field > .is-danger.button
 apkandroidhub.in,babymodz.com##.g-recaptcha:style(margin-top:60px !important)
 apkandroidhub.in,babymodz.com,deezloaded.com,dulichkhanhhoa.net,gamepure.in,isi7.net,jardima.com,mad.gplpalace.one,modmakers.xyz,motorantik.store,noithatmyphu.vn,studyis.xyz,teknomuda.com,theconomy.me,visflakes.com,warrenrahul.in###wpsafe-generate:style(display: block !important;)
@@ -6037,6 +6050,7 @@ bing.com##.b_ad:style(position: absolute !important; top: -9999px !important;)
 bing.com##.b_adLastChild:style(position: absolute !important; top: -9999px !important;)
 bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com##.b_algo:has(p[class^="b_lineclamp2 b_algoSlug "])
 bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.pa_sb:style(position: absolute !important; top: -9999px !important;)
@@ -7470,6 +7484,9 @@ glosbe.com##.dictionary-grid:matches-media((min-width: 1280px)):style(grid-templ
 glosbe.com##.dictionary-grid:matches-media((min-width: 768px)):style(grid-template-rows: 0 auto !important;)
 glosbe.com##.right-sidebar-trufle-container
 glosbe.com,heise.de###topBannerContainer
+gmanetwork.com###leaderboard
+gmanetwork.com##.latest_mrec_ad
+gmanetwork.com##.mrec_ad
 gmx.*###adservice-top
 gmx.*###container:style(width:100%!important)
 gmx.*##.ad-content
@@ -11095,7 +11112,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>603
+!<<<<<通配符规则>>>>>604
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11337,6 +11354,7 @@ $script,domain=zdnet.fr,third-party
 /assets/jquery/api100.js?type=$~third-party
 /assets/jquery/app0.js?type=$~third-party
 /assets/jquery/app100.js?type=$~third-party
+/assets/jquery/css.js^$script,~third-party,strict1p
 /assets/jquery/main100.js?v=$script,~third-party
 /assets/jquery/p2anime.js?v=
 /assets/jwplayer-*/vast.js$script,~third-party
@@ -11922,7 +11940,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1950
+!<<<<<放行白名单>>>>>1952
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12620,6 +12638,7 @@ thepiratebay3.com^
 @@||fapxl.com/skins/blank/js/blockadblock.js$script,~third-party
 @@||fark.com/js/$~third-party,script
 @@||fastlane.rubiconproject.com/a/api/fastlane.json?$xmlhttprequest,domain=aternos.org
+@@||fastlycdn.com/ajax/libs/react/*/cjs/react.production.min.js^$script,third-party
 @@||fastream.to^$script,~third-party
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||file4go.*/ads.js$script,~third-party
@@ -13519,6 +13538,7 @@ thepiratebay3.com^
 @@||veekyforums.com/js/adcash.js$xmlhttprequest,~third-party
 @@||venatusmedia-d.openx.net/w/1.0/arj$xmlhttprequest,domain=aternos.org
 @@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=tf1.fr
+@@||vexby.xyz^$script,domain=infinityscans.xyz|infinityscans.net
 @@||viafoura.*^$script,domain=20minutes.fr
 @@||viafoura.co^$domain=masslive.com
 @@||vice.com/*/AdobeAnalyticsSDK$script,~third-party
@@ -13751,7 +13771,7 @@ japscan.lol#@#.navbar-nav > li#navpromo2.nav-item > a[href^="http://www.toueapo.
 jav68.net#@#.ads-header
 javcrave.com#@#.widget_custom_html
 javgg.co,javgg.net#@##AD_160
-job.inshokuten.com,netmile.co.jp#@#.ad-area:not(.text-ad)
+job.inshokuten.com,kurukura.jp,netmile.co.jp#@#.ad-area:not(.text-ad)
 job.mt.de,job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
 kentonline.co.uk#@#.mpu
 kotaku.com#@##dfp-ad-1
