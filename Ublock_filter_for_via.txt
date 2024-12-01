@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 71aCoGzV6XYTH2NiP5bJ6g
-! Title: Ublock filter for Via(2024-12-01 00:11:20)
-! Version: 20241201001120
+! Checksum: exHImBH6mM7ia3rylVDVuQ
+! Title: Ublock filter for Via(2024-12-01 09:01:20)
+! Version: 20241201090120
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-01 00:11:20
-! Total Count: 13844
-! Blocked Filters: 13844
+! Last modified: 2024-12-01 09:01:20
+! Total Count: 13849
+! Blocked Filters: 13849
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5346,7 +5346,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5741
+!<<<<<网站单独规则>>>>>5746
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5816,6 +5816,7 @@ ariva.de##.werb_textlink
 arkadium.com##div[class^="Ad-adContainer"]:style(min-height:1px!important;min-width:1px!important;)
 arkadium.com##span[class*=Ad-caption-]
 arrowos.net##.card-content:has(> .adsbygoogle)
+arrowos.net##body:style(visibility:visible !important)
 arrowos.net,blog.aming.info,tvshows4mobile.*##body:style(visibility:visible !important)
 art19.com##.art19-notifications-list
 aruble.net###top-ads
@@ -8063,6 +8064,7 @@ javsister.com###footer-widgets
 javsister.com##.boxzilla-center-container
 javsister.com##.boxzilla-overlay
 javsubindo.one###btm_banner
+javtiful.com##body > div[style*="z-index:"]
 javtrailers.com###cta
 javynow.com##.videos-ad__wrap:style(background-color: transparent !important)
 jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
@@ -9294,6 +9296,7 @@ pornohans.com,pornojenny.com###wa_10
 pornojenny.com##.spc_height_80
 pornojenny.com##[href^="https://www.handy-sextreffen.info/"]:upward(.grid_box)
 pornojenny.com##div[id="wrapper_content"] > aside
+pornojenny.net,pornolisa.com##.adsbyexoclick:upward(1)
 pornoman.pl###porno_accept
 pornoman.pl##[src*="bannery"]
 pornomovies.com##.twocolumns > .viewlist + .aside
@@ -9995,6 +9998,7 @@ streamingcommunity.*##.slide-banner:has(> .slide-banner__container)
 streamingcommunity.computer##div.centered.modal
 streamingsites.com##.OUTBRAIN:upward(2)
 streamporn.pw,watchpornx.com###overlays
+streamsb.*##body > div[style*="z-index:"]
 streamtape.*##.play-overlay
 streamtape.*,watchadsontape.com##.play-overlay
 strikeout.*##.d-none.d-lg-block.col-lg-3
@@ -10410,6 +10414,7 @@ tvnation.me##td[style="width:160px;"]
 tvnation.me##td[style="width:165px;"]
 tvshows4mobile.*##.prop_native1
 tvshows4mobile.*##[href="http://bit.ly/indianwebseriesv2"]
+tvshows4mobile.*##body:style(visibility:visible !important)
 tvspielfilm.de##.promo-box
 tvtv.ca,tvtv.us###app > .MuiBox-root + .MuiPaper-elevation
 tvtv.ca,tvtv.us##.MuiBox-root > div.MuiPaper-root.MuiPaper-elevation.mui-fixed:not([id])
