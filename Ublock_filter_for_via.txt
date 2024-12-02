@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 7J4mtUTeLF/UlerYF5MoIQ
-! Title: Ublock filter for Via(2024-12-02 00:11:31)
-! Version: 20241202001131
+! Checksum: ytRPbmGaGquY6zA4nL9Hbw
+! Title: Ublock filter for Via(2024-12-02 08:54:22)
+! Version: 20241202085422
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-02 00:11:31
-! Total Count: 13869
-! Blocked Filters: 13869
+! Last modified: 2024-12-02 08:54:22
+! Total Count: 13873
+! Blocked Filters: 13873
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5340
+!<<<<<域名规则>>>>>5344
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1030,6 +1030,7 @@
 ||coinad.*^$third-party
 ||coincodex.com/*/position/ccx_pos-min2.php^$script
 ||cointiply.com^$third-party
+||collapsesteroid.space^
 ||collect.media.jio.com^
 ||colorfullouderremnant.com^
 ||colorfulromance.com^
@@ -2942,6 +2943,7 @@
 ||mediafiire.com^
 ||mediafire.com/folder/10ejpiwio2gfh/
 ||mediafire.com/folder/24w1fswggsv41/
+||mediafire.com/folder/3x67gs8tbyxdx/
 ||mediafire.com/folder/5ablaa1bmr2sb/
 ||mediafire.com/folder/5mm90sz4nz0ui/
 ||mediafire.com/folder/90qj06387ezr8/
@@ -4183,6 +4185,7 @@
 ||sites.google.com/view/awesome-themes-desktop^
 ||sites.google.com/view/blue-softs^
 ||sites.google.com/view/ex1aucnh3r/
+||sites.google.com/view/ex1aucnh3r1/
 ||sites.google.com/view/flechh|
 ||sites.google.com/view/hubgames|
 ||sites.google.com/view/kostsoft|
@@ -5135,6 +5138,7 @@
 ||www.reddit.com/|$xmlhttprequest,~third-party,method=post
 ||www.techpowerup.com/reviyuu/$image,~third-party
 ||www.uspertest.vip^
+||www.youtube.com/@melonitysoft/
 ||www.youtube.com/@pengwincheat/
 ||www.youtube.com/channel/UCEMJ0wTeQgvyyvQTil7tteQ/
 ||www.youtube.com/channel/UCNLgP9j7dK6tvEiZC2wZp5Q/
