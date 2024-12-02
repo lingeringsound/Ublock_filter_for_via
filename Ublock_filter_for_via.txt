@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ytRPbmGaGquY6zA4nL9Hbw
-! Title: Ublock filter for Via(2024-12-02 08:54:22)
-! Version: 20241202085422
+! Checksum: WhTwFv5LS8zwoXBjKHpQzw
+! Title: Ublock filter for Via(2024-12-03 00:13:48)
+! Version: 20241203001348
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-02 08:54:22
-! Total Count: 13873
-! Blocked Filters: 13873
+! Last modified: 2024-12-03 00:13:48
+! Total Count: 13886
+! Blocked Filters: 13886
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5344
+!<<<<<域名规则>>>>>5354
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -652,6 +652,7 @@
 ||bitzite.com/dtban.jpg
 ||bizerba-dot-azure-projectfiles.uk.r.appspot.com^
 ||blackandwhite-temporary.com^
+||blackfriday-shoe.top^
 ||blackknocckk.jp^
 ||blacksaltys.com^
 ||blackstunners.com^
@@ -858,6 +859,8 @@
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script
 ||cdn.staticmoly.me/*.php$domain=vidmoly.*
 ||cdn.streamroot.io/dna-client/$script,domain=prod-player.tf1.fr
+||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
+||cdn.tiesraides.lv/app/viblast/*/videojs.vast.
 ||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
 ||cdn.wendycode.com/blogger/antiAdb$script
 ||cdn.wendycode.com/blogger/globalAdb.js$script
@@ -1339,6 +1342,7 @@
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
 ||doorsstormsy.shop^
 ||doorway-of-guidance.com^
+||dopeblackfriday.shop^
 ||dosudosuo.com^
 ||dosukoudo.net^
 ||dot-acc.xyz^
@@ -2550,6 +2554,7 @@
 ||khantv.live/ad2.php^
 ||khcn-tindung-
 ||khrbuumwcntfx.com^
+||khuyenmaidacbiet-
 ||kiktu.com/wp-content/plugins/azee-safelink/img/Download*.png$image,~third-party
 ||kiktu.com/wp-content/plugins/azee-safelink/img/StartDownload*.gif$image,~third-party
 ||kiktu.com/wp-content/plugins/azee-safelink/img/clickheretodownload*.png$image,~third-party
@@ -2662,6 +2667,7 @@
 ||lererikal.org^
 ||lernehat.com^
 ||lesbian8.com/nb/
+||lesivs.com^
 ||let.attract1v3.com^
 ||letaikay.net^
 ||letmejerk.com/*.php$script,~third-party
@@ -3729,6 +3735,7 @@
 ||privatelife.jp^
 ||privatesinglesmeet.com^
 ||prizegift.top^
+||proai.club^
 ||procdnvids.net^
 ||profileclub.info^
 ||projectglbl.lol^
@@ -4877,6 +4884,7 @@
 ||utubeworkers.com/Campaigns/$script,xmlhttprequest,domain=vivud.com
 ||uu-charisma.jp^
 ||uudai-tructuyen-
+||uudaidacbiet-
 ||uudaikhachhang-
 ||uudauthekhachhanh-
 ||uusshmhmba.com^
@@ -5157,6 +5165,7 @@
 ||x9mw.com^
 ||xai19k.com^
 ||xai85s.com^
+||xaicrypto.org^
 ||xaiofficial.com^
 ||xaipresales.org^
 ||xaitoken.live^
@@ -5270,6 +5279,7 @@
 ||yourube.com^
 ||youtuba.com^
 ||youtube.com/@Tesla.debate_live2024^
+||youtube.com/@jesseeckel5^
 ||youtube.com/@tesla.Iive.officiaI.24^
 ||youtube.com/@tesla24official^
 ||youtube.com/embed/*$domain=1shortlink.com
@@ -5358,7 +5368,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5755
+!<<<<<网站单独规则>>>>>5758
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5441,7 +5451,7 @@ $script,domain=zdnet.fr,third-party
 1cloudfile.com##.preview-download-wrapper
 1ink.cc,lbprate.com##[id^="Ad"]
 1jour1film.*##a[href]#clickfakeplayer:remove-attr(href)
-1jour1film.cyou###fakeplayer
+1jour1film.cyou,hds-streaming.*,vumoo.cc###fakeplayer
 1link.vip##[href^="https://1frozenthrone1.com"]
 1link.vip##[href^="https://runreferences.com"]
 1link.vip,bingsport.xyz##[href^="https://www.highrevenuegate.com/"]
@@ -6332,6 +6342,7 @@ cefirates.com##.most-top-bar
 celeb.gate.cc##[href^="https://goo.gl/"]
 celebjared.net###text-10
 celebjared.net##[href^="https://minepi.com/"]
+celebjihad.com##.theme_article.sidebar_increase:style(height:0px !important)
 celebmasta.com##img.size-medium
 celebritymovieblog.com##.banner_top
 celebritynakeds.com##.show-over-1000.async-reklam-placeholder
@@ -7326,6 +7337,7 @@ fulltip.net##.penci-google-adsense
 fulltip.net##.penci-google-adsense-2
 fulltube.*##.mvic-btn
 funnyand.com##.ad-unit-desktop
+funnywifiname.net###clickfakeplayer[href]:remove-attr(href)
 funnywifiname.net,hdmovie2.*,hdmovie20.com,hdmovie22.com,jattfilms.*###clickfakeplayer[href]:remove-attr(href)
 fuqer.com##.right > .text
 fuqer.com##.spot-thumbs > .right:style(height:1px !important)
@@ -7641,7 +7653,6 @@ hdhub4u.*##.watch-hd
 hdjavonline.com##.happy-inside-player
 hdmotori.it##body:style(background: none !important; overflow: auto !important;)
 hdporn.net##[href^="http://www.hdporn.net/site.php"]
-hds-streaming.*###fakeplayer
 hds-streaming.*##.asgdc
 hdsex.org##.player__inline
 hdss.*##.btnsa
@@ -8032,6 +8043,7 @@ japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .car
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 jardima.com##.g1-slideup-wrap
+jattfilms.*###clickfakeplayer[href]:remove-attr(href)
 jav.guru###text-76
 jav.guru###text-92
 jav.guru###text-93
@@ -10675,6 +10687,7 @@ vrcmods.com###app_msg:style(display: none !important;)
 vrcmods.com###download-form:style(display: initial !important;)
 vrcmods.com##.show.fade.modal
 vsco.co##.page-wrap > section:has-text(Download the free)
+vumoo.cc##a.btn-adv.btn
 vxxx.com###player-1 > div[style="display:flex !important"]
 vxxx.com##.video-page-content + div[class]
 vxxx.com##.video-page-content-left + div[class]:last-child
