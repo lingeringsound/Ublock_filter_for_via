@@ -21,6 +21,8 @@ download_link "${Download_Folder}"
 # Ublock for via
 #预处理规则
 Combine_adblock_original_file "`pwd`/Ublock_filter_for_via.txt" "${Download_Folder}"
+#去除badfilter
+wipe_badfilter "`pwd`/Ublock_filter_for_via.txt"
 #转换via规则
 Ublock_to_adblock "`pwd`/Ublock_filter_for_via.txt"
 #净化去重规则

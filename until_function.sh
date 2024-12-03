@@ -348,6 +348,18 @@ function fixed_Rules_error(){
 	gawk -i inplace '{ while (match($0, /^##[A-Z]+\[/)) { $0 = substr($0, 1, RSTART-1) tolower(substr($0, RSTART, RLENGTH)) substr($0, RSTART+RLENGTH) } print }' "${file}"
 }
 
+#去除badfilter对应规则
+function wipe_badfilter(){
+local file="${1}"
+test ! -f "${file}" && return 0
+grep -E '(\$|\,)badfilter' "${file}" | while read fitter
+do
+	select_after=$(echo ${fitter} | busybox sed -E 's/\,badfilter$//g;s/\,badfilter\,/\,/g;s/\$badfilter//g')
+	selector=$(escape_special_chars ${select_after})
+	busybox sed -i -E "/^${selector}$/d" "${file}"
+done
+}
+
 #转换成原生has规则
 function add_has_fiter(){
 local file="${1}"
@@ -366,7 +378,7 @@ echo "${has_fiter}" > "${target_folder}/${file##*/}_has.txt"
 function Ublock_to_adblock(){
 local target_file="${1}"
 test ! -f "${target_file}" && return 0
-local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|#\?#|##\^|#\+js\(|#\%#\/\/scriptlet|redirect=|\,replace=|\$replace=|\$urlskip=|\,urlskip=|\$uritransform=|\,uritransform=|redirect-rule=|to=|^/(\^|\\|\[|\(\?)|\$badfilter|\$cname|\$css|\$empty|\$frame|\$generichide|\$ghide|\$match-case|\$media|\$object|\$object-subrequest|\$ping|\$popunder|\$popup|\$~badfilter|\$~cname|\$~css|\$~empty|\$~frame|\$~generichide|\$~ghide|\$~match-case|\$~media|\$~object|\$~object-subrequest|\$~ping|\$~popunder|\$~popup|\,badfilter$|\,badfilter\,|\,cname$|\,cname\,|\,css$|\,css\,|\,empty$|\,empty\,|\,frame$|\,frame\,|\,generichide$|\,generichide\,|\,ghide$|\,ghide\,|\,match-case$|\,match-case\,|\,media$|\,media\,|\,object$|\,object-subrequest$|\,object-subrequest\,|\,object\,|\,ping$|\,ping\,|\,popunder$|\,popunder\,|\,popup$|\,popup\,|\,~badfilter$|\,~badfilter\,|\,~cname$|\,~cname\,|\,~css$|\,~css\,|\,~empty$|\,~empty\,|\,~frame$|\,~frame\,|\,~generichide$|\,~generichide\,|\,~ghide$|\,~ghide\,|\,~match-case$|\,~match-case\,|\,~media$|\,~media\,|\,~object$|\,~object-subrequest$|\,~object-subrequest\,|\,~object\,|\,~ping$|\,~ping\,|\,~popunder$|\,~popunder\,|\,~popup$|\,~popup\,|\$csp|\,csp=|\,denyallow=|permissions=|removeparam=|\:matches-path|:remove\(\)' "${target_file}" | busybox sed -e '/^\!/d;/^[[:space:]]*$/d' \
+local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|#\?#|##\^|#\+js\(|#\%#\/\/scriptlet|redirect=|\,replace=|\$replace=|\$urlskip=|\,urlskip=|\$uritransform=|\,uritransform=|redirect-rule=|to=|^/(\^|\\|\[|\(\?)|^\*\$|\$badfilter|\$cname|\$css|\$empty|\$frame|\$generichide|\$ghide|\$match-case|\$media|\$object|\$object-subrequest|\$ping|\$popunder|\$popup|\$~badfilter|\$~cname|\$~css|\$~empty|\$~frame|\$~generichide|\$~ghide|\$~match-case|\$~media|\$~object|\$~object-subrequest|\$~ping|\$~popunder|\$~popup|\,badfilter$|\,badfilter\,|\,cname$|\,cname\,|\,css$|\,css\,|\,empty$|\,empty\,|\,frame$|\,frame\,|\,generichide$|\,generichide\,|\,ghide$|\,ghide\,|\,match-case$|\,match-case\,|\,media$|\,media\,|\,object$|\,object-subrequest$|\,object-subrequest\,|\,object\,|\,ping$|\,ping\,|\,popunder$|\,popunder\,|\,popup$|\,popup\,|\,~badfilter$|\,~badfilter\,|\,~cname$|\,~cname\,|\,~css$|\,~css\,|\,~empty$|\,~empty\,|\,~frame$|\,~frame\,|\,~generichide$|\,~generichide\,|\,~ghide$|\,~ghide\,|\,~match-case$|\,~match-case\,|\,~media$|\,~media\,|\,~object$|\,~object-subrequest$|\,~object-subrequest\,|\,~object\,|\,~ping$|\,~ping\,|\,~popunder$|\,~popunder\,|\,~popup$|\,~popup\,|\$csp|\,csp=|\,denyallow=|permissions=|removeparam=|\:matches-path|:remove\(\)|:-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath' "${target_file}" | busybox sed -e '/^\!/d;/^[[:space:]]*$/d' \
  -e 's/\$3p/\$third-party/g' \
  -e 's/\$1p/\$~third-party/g' \
  -e 's/\,1p$/\,~third-party/g' \
