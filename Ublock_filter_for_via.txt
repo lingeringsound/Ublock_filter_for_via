@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: SbxCySyvJv51Zm37UJnK2Q
-! Title: Ublock filter for Via(2024-12-04 08:53:50)
-! Version: 20241204085350
+! Checksum: CAEZ9wY93WvpjuxMC8K91A
+! Title: Ublock filter for Via(2024-12-05 00:14:16)
+! Version: 20241205001416
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-04 08:53:50
-! Total Count: 12811
-! Blocked Filters: 12811
+! Last modified: 2024-12-05 00:14:16
+! Total Count: 12814
+! Blocked Filters: 12814
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5359
+!<<<<<域名规则>>>>>5363
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -231,6 +231,7 @@
 ||adsrt.*/sw.js$script,~third-party
 ||adsrt.com^$third-party
 ||adstructor.com^
+||adsux.com^
 ||adswip.com^
 ||adswizz.com^$third-party
 ||adsyou.pro^$third-party
@@ -2235,7 +2236,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2381,6 +2382,7 @@
 ||instapass.fr^
 ||instapornvideos.com/back.js
 ||instogromv.com^
+||insurecarrot.com^
 ||interest.co.nz/modules/custom/presspatron/js/pp-ablock-banner.js$script
 ||intern0120.com^
 ||internetspeedtracker.com^
@@ -4405,6 +4407,7 @@
 ||strpjmp.com^
 ||studiogiamberardino.it^
 ||studyeffect.com^
+||substack.com/api/v1/firehose/batch
 ||succeedscene.com^$~script
 ||success-dream.jp^
 ||sudonull.com/stop-ru.js
@@ -4881,6 +4884,7 @@
 ||user.fm/files/v2-*/Refundnotice.html^
 ||userload.*/maroc.js$script,~third-party
 ||userscloud.com/js/de.min.js$script,~third-party
+||usersworkshoparts.com^
 ||usmlematerials.net^$image,domain=micloudfiles.com
 ||usmusk.net^
 ||utahpolicetraining.*.mybluehost.me^
@@ -5373,7 +5377,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4713
+!<<<<<网站单独规则>>>>>4712
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7225,6 +7229,7 @@ hdfilmcehennemi1.net##.money-text
 hdhub4u.*##.hd-links
 hdhub4u.*##.watch-hd
 hdjavonline.com##.happy-inside-player
+hdmp4mania1.net,mp4mania1.net,tvshows4mobile.*##.prop_native1
 hdporn.net##[href^="http://www.hdporn.net/site.php"]
 hds-streaming.*##.asgdc
 hdsex.org##.player__inline
@@ -8096,7 +8101,6 @@ moviezaddiction.icu##[href="https://dedispot.com"]
 moviezwap.*##[style^=" width: 305px;"][type^="button"][onclick^="window.location.href"]
 mp3juices.*##[class^="result_two__"][target="_blank"]
 mp4-porn.space##.href_
-mp4mania1.net,hdmp4mania1.net##.prop_native1
 mp4upload.com###lay.lay
 mphealth.online###yuidea-btn-after, #yuidea-btmbtn:others()
 mrgay.com###und_ban
@@ -9535,7 +9539,6 @@ tvn.pl##.on-top.ad-ph
 tvnation.me##div[style="float:left;text-align:center; width:300px; height:300px"]
 tvnation.me##td[style="width:160px;"]
 tvnation.me##td[style="width:165px;"]
-tvshows4mobile.*##.prop_native1
 tvshows4mobile.*##[href="http://bit.ly/indianwebseriesv2"]
 tvspielfilm.de##.promo-box
 tvtv.ca,tvtv.us###app > .MuiBox-root + .MuiPaper-elevation
