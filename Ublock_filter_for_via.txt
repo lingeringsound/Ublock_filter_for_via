@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: CAEZ9wY93WvpjuxMC8K91A
-! Title: Ublock filter for Via(2024-12-05 00:14:16)
-! Version: 20241205001416
+! Checksum: KY9I/0sUfKIHHbm45gp/HA
+! Title: Ublock filter for Via(2024-12-05 08:53:24)
+! Version: 20241205085324
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-05 00:14:16
-! Total Count: 12814
-! Blocked Filters: 12814
+! Last modified: 2024-12-05 08:53:24
+! Total Count: 12816
+! Blocked Filters: 12816
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5377,7 +5377,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4712
+!<<<<<网站单独规则>>>>>4714
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8101,6 +8101,7 @@ moviezaddiction.icu##[href="https://dedispot.com"]
 moviezwap.*##[style^=" width: 305px;"][type^="button"][onclick^="window.location.href"]
 mp3juices.*##[class^="result_two__"][target="_blank"]
 mp4-porn.space##.href_
+mp4mania1.net##.prop_native1
 mp4upload.com###lay.lay
 mphealth.online###yuidea-btn-after, #yuidea-btmbtn:others()
 mrgay.com###und_ban
@@ -9539,6 +9540,7 @@ tvn.pl##.on-top.ad-ph
 tvnation.me##div[style="float:left;text-align:center; width:300px; height:300px"]
 tvnation.me##td[style="width:160px;"]
 tvnation.me##td[style="width:165px;"]
+tvshows4mobile.*##.prop_native1
 tvshows4mobile.*##[href="http://bit.ly/indianwebseriesv2"]
 tvspielfilm.de##.promo-box
 tvtv.ca,tvtv.us###app > .MuiBox-root + .MuiPaper-elevation
