@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: KY9I/0sUfKIHHbm45gp/HA
-! Title: Ublock filter for Via(2024-12-05 08:53:24)
-! Version: 20241205085324
+! Checksum: Y861fFNHeu/axSW7wYHFSw
+! Title: Ublock filter for Via(2024-12-05 16:01:58)
+! Version: 20241205160158
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-05 08:53:24
-! Total Count: 12816
-! Blocked Filters: 12816
+! Last modified: 2024-12-05 16:01:58
+! Total Count: 12822
+! Blocked Filters: 12822
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5363
+!<<<<<域名规则>>>>>5366
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -935,6 +935,7 @@
 ||chervindi.com^
 ||chesscheckersvariation.com^
 ||chi-yo-1807chiyo.com^
+||childrenoftheclouds.com^
 ||chip.de/*&$script,~third-party
 ||chl3.net^
 ||chn-allegroshopac.one^
@@ -1238,6 +1239,7 @@
 ||datenaughtysingles.click^
 ||datesmart.link^
 ||datifyny.com^
+||dating-express.com^
 ||dating.hdxvideos.ru^
 ||dating.service2u.shop^
 ||dating365.link^
@@ -2195,6 +2197,7 @@
 ||home-22-time.com^
 ||home4ugoog10you.com^
 ||homemoviestube.com/b4b8.js
+||homtail.shop^
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|
 ||hope-for-shiningday.com^
 ||hori-hori.xyz^
@@ -5377,7 +5380,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4714
+!<<<<<网站单独规则>>>>>4715
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5954,6 +5957,7 @@ bing.com##.b_algo:has(p[class^="b_lineclamp2 b_algoSlug "])
 bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.tob_calcontainer > .slide:has(.rtb_ad_caritem_mvtr)
+bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
 bingotingo.com###please-wait
 birdurls.com###bg_popup
@@ -10684,7 +10688,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>217
+!<<<<<通用Css规则>>>>>219
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -10881,6 +10885,8 @@ thepiratebay3.com^
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 ##html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"]
+##html > body > div.content > dl > dd.dd1 > div.min_sider > form#form1[action="unsubscribe.php"]
+##html > body.body > div.container > div.content > form > table.optoutForm
 ##html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"]
 ##html#html[sti][vic][lang] > body#allbody
 ##html[lang] > body#body > * > div.cv-xwrapper > div.cvc > div.cv-inner
