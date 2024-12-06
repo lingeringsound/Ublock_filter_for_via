@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mWdPx+qVtk5TE5vUALZPKw
-! Title: Ublock filter for Via(2024-12-06 00:13:45)
-! Version: 20241206001345
+! Checksum: y3OpKHHHRuBltasBltm6LA
+! Title: Ublock filter for Via(2024-12-06 08:52:59)
+! Version: 20241206085259
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-06 00:13:45
-! Total Count: 12840
-! Blocked Filters: 12840
+! Last modified: 2024-12-06 08:52:59
+! Total Count: 12845
+! Blocked Filters: 12845
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5372
+!<<<<<域名规则>>>>>5373
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1763,6 +1763,7 @@
 ||free-ren.com^
 ||free-ren.jp^
 ||freeadd.me^
+||freecomiconline.me/*.gif^$image
 ||freediscordnitro.
 ||freedom-garden.com^
 ||freedom.send.cm/s.js$script,~third-party
@@ -5386,7 +5387,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4727
+!<<<<<网站单独规则>>>>>4731
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8056,6 +8057,7 @@ mmorpg.com##[onclick^="trackClick"]
 mmorpg.com##a[href^="http://v2.g.99.com/"]
 mmorpg.org.pl##div.bABcMb.sc-5odcub-0
 mmtv01.xyz,spankbang.mov###pop.div_pop
+moappmovies.blogspot.com##.sy-adblock
 mobile.de##.sticky-billboard
 moddedguru.com##div.banner
 moddingzone.in,model-tas-terbaru.com,therootdroid.com,worldappsstore.xyz###wpsafe-wait2
@@ -8849,6 +8851,7 @@ review.firstround.com##.tp-active.tp-backdrop
 review.firstround.com##.tp-modal
 ricettafitness.com###saudacao
 rizzfables.com,mgeko.cc,flamecomics.me###radio_content.abierto
+rjno1.com##body > style + div div[id][style]
 rmcmv.*##[class*="ads"]
 rmdown.com##.container td[bgcolor="white"] > a[target="_blank"]
 robofight.io##.home-banner
@@ -9211,10 +9214,12 @@ startpage.com###main > div[style]:not([class]):has(path)
 steamcrackedgames.com##[href^="https://startgaming.net/"]
 steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 stiflersmoms.com##.line3
+stocktwits.com###ad_sidebar_top_offset
 stocktwits.com##.LazyLoad.is-visible:has([data-aa-adunit])
 stocktwits.com##[class^="FooterAd_container"]
 stocktwits.com##[class^="Primis_container"]
 stocktwits.com##div[class*="AdBanner_"]
+stocktwits.com##p[class^="Disclosure_disclosure"]:has([class^="Disclosure_removeAdsLink"])
 stocktwits.com##p[class^="Disclosure_disclosure"]:has(a[href="https://stocktwits.com/about/legal/disclosures/3rd-party-ads/"])
 stooq.*###f13 > table > tbody > tr > td > .f13
 stooq.*##div[style="position:relative;width:300px;height:250px"]
