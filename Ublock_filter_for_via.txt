@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: y3OpKHHHRuBltasBltm6LA
-! Title: Ublock filter for Via(2024-12-06 08:52:59)
-! Version: 20241206085259
+! Checksum: UJb2bTlHTIiPvY37kPlG9A
+! Title: Ublock filter for Via(2024-12-07 00:13:34)
+! Version: 20241207001334
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-06 08:52:59
-! Total Count: 12845
-! Blocked Filters: 12845
+! Last modified: 2024-12-07 00:13:34
+! Total Count: 12847
+! Blocked Filters: 12847
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5373
+!<<<<<域名规则>>>>>5374
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1867,6 +1867,7 @@
 ||gaytail.com/fancy-mode-7abe/
 ||gayxxxtube.net/img_bnnrs/
 ||gazzettaobjects.it/rcs_anti-adblocker/$third-party
+||gd2sfh.infinityscans.net^
 ||geekotg.com^
 ||geeksprosoftwareprints.org^
 ||geekupdates.notion.site/Ultra-Security
@@ -5387,7 +5388,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4731
+!<<<<<网站单独规则>>>>>4732
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5971,6 +5972,7 @@ bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.tob_calcontainer > .slide:has(.rtb_ad_caritem_mvtr)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
+bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
 bingotingo.com###please-wait
 birdurls.com###bg_popup
