@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: msN4F6rNyX2X8x/+7r0etA
-! Title: Ublock filter for Via(2024-12-07 08:52:39)
-! Version: 20241207085239
+! Checksum: GPp5Fr+Z1ydAR4r+tPXKAw
+! Title: Ublock filter for Via(2024-12-08 00:11:48)
+! Version: 20241208001148
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-07 08:52:39
-! Total Count: 12850
-! Blocked Filters: 12850
+! Last modified: 2024-12-08 00:11:48
+! Total Count: 12867
+! Blocked Filters: 12867
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5374
+!<<<<<域名规则>>>>>5383
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -531,6 +531,7 @@
 ||b2g57ds.com^
 ||b2ujcm.com^
 ||b3g6f86.com^
+||b5rh0rt.infinityscans.net^$xmlhttprequest
 ||b90.yahoo.co.jp^
 ||b9good.*/block-ads/
 ||ba.afl.rakuten.co.jp^$third-party
@@ -922,10 +923,13 @@
 ||check-host.net/images/aezarlogo.svg$image,~third-party
 ||check-host.net/images/alexehost.png$image,~third-party
 ||check-host.net/images/alexrhost.png$image,~third-party
+||check-host.net/images/baeza-$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
 ||check-host.net/images/rpndguarg$image,~third-party
 ||check-host.net/images/tmpndguarg$image,~third-party
 ||check-host.net/images/tpndguarg$image,~third-party
+||check-host.net/images/ympndguarg$image,~third-party
+||check-host.net/images/ypndguarg$image,~third-party
 ||check-tl-
 ||checking-your-browser.com^
 ||checkisreal.com^
@@ -1627,6 +1631,7 @@
 ||fapnow.xxx/bump/
 ||fapp.work^
 ||faptitans.com^*/rc/logo.jpg
+||farlad.com^
 ||fast.quickcontentnetwork.com^
 ||fastandslut.com^
 ||fasterfiles.net^
@@ -1703,6 +1708,7 @@
 ||fitgirltorrent.*^$domain=~fitgirl-repacks.site
 ||fl-0wer685hjdp300.com^
 ||fl.floriittee.com^
+||flanneldatedly.com^
 ||flash.cn^
 ||flaticon.com/_ga?
 ||flaxdescale.com^
@@ -2818,6 +2824,7 @@
 ||lutherinfo2.com^
 ||luuce.jp^
 ||luxury-dream.site^
+||lv9qr0g0.xyz^
 ||lvli.jp^
 ||lvmeet.net^
 ||lwjrudzmzygol.com^
@@ -3229,6 +3236,7 @@
 ||nah-versorger.de^$third-party
 ||naja59jg.com^
 ||nakayama.chikarakosopower.com^
+||nakedanalytics.net^
 ||name0fbestway.com^
 ||nang-cap-
 ||nang-hang-
@@ -4793,6 +4801,7 @@
 ||tw-happy.space^
 ||tw-lucky.site^
 ||tweitter.com^
+||twiebayed.com^
 ||twincdn.com^$third-party,script,image
 ||twitch.tv^$xmlhttprequest,third-party,domain=controlc.com
 ||twitob.com^
@@ -5388,7 +5397,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4734
+!<<<<<网站单独规则>>>>>4742
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5971,6 +5980,7 @@ bing.com##.b_algo:has(p[class^="b_lineclamp2 b_algoSlug "])
 bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.tob_calcontainer > .slide:has(.rtb_ad_caritem_mvtr)
+bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
@@ -6201,6 +6211,7 @@ channel4.com##.block--mpu
 charbelnemnom.com,scubidu.eu###custom_html-16
 cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
+check-host.net###hostabq, .hostavq, #antkeayvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeayvhaeaalexhost, #antkeayvhaeapp-juiaryt, #antkeayvhaeapp-juiaryt2, .ry-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-plagiarism.com##[id^="topads_"]
@@ -6372,6 +6383,7 @@ currentrecruitment.com,investorveda.com###hometimerstartbtn, #hometimer, #yuidea
 curs-germana.com,freewebcart.com,pervertgirlsvideos.com,techhelpbd.com##.pum-overlay
 curseforge.com##:is(.project-description,div.project-detail__content) [href^="/linkout?remoteUrl=http"]:is([href*="fxco.ca"]) > img
 cursomecanet.com##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+cursomecanet.com##[style="display: none;"] + div[id][style*="color:"]
 curvyfemales.com##.im-show
 customercareal.com##a[id^="actionlinkid_"]
 cutearn.net##[src^="https://i.ibb.co/"]
@@ -6697,6 +6709,7 @@ eurosport.tvn24.pl##.ad, .fake
 exactpay.online##iframe[src^="https://cryptocoinsad.com/"]
 exee.io,exe.app##.banner-page > .short
 exeo.app##.actions, .earning-steps ~*, .earning-steps, header, footer, .ad-element
+exploader.net##a[style*="display:"][href^="https://al.dmm.co.jp"]
 exploader.net##a[style^="display:"][href^="https://al.dmm.co.jp"]
 exploader.net##article > div[style="display: flex;align-items: center;margin-bottom: 5px;"] > div[data-pr="1"][style^="min-height: 20px;"]
 express.de,mopo.de###nativendo-marginal
@@ -6755,6 +6768,7 @@ fapdrop.com##[href^="https://t.crdefault1.com/"]
 fapeza.com##.azz_iframe
 fapnado.*##.pause-ad-pullup
 fapnado.*##[class^="zpot"]
+fapomania.com##.menuraduo2
 faptitans.com,pussysaga.com##.cross-promo-bnr
 faselhd.*##.alert-danger.alert
 faselhd.*,heidibemvindaacasabrasil.blogspot.com,mamahawa.com,pornstargold.com###popup
@@ -7570,6 +7584,7 @@ jalshamoviezhd.*##[href^="https://usounoul.com/"]
 japannews.yomiuri.co.jp##.pr_custom2
 japannews.yomiuri.co.jp##div[class^="ad_background"]
 japscan.lol##.FjZoRa
+japscan.lol##.navbar-nav > li#navpromo2.nav-item
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
@@ -8378,6 +8393,8 @@ outlook.live.com##.Ogt7j
 outlook.live.com##div[data-app-section="MessageList"] div[class][id*="-"]:has(> div:not([class]) > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] + .ms-Button--hasMenu.ms-Button--icon)
 oxy.*###divdownload > div[data-template][data-source_url]
 oxy.*##[href*=".info"]
+oxy.*,~oxy.edu###divdownload > div[data-template][data-source_url]
+oxy.*,~oxy.edu##[href*=".info"]
 pages.lazada.co.id##.lzd-call-app-download-popup
 paginadanoticia.com.br##.banner-img
 paid4.link##.box > div[align="center"] > .card
@@ -11009,7 +11026,7 @@ thepiratebay3.com^
 @@*$xmlhttprequest,method=head|get,domain=app.axenthost.com,third-party
 @@*$xmlhttprequest,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
 @@*$xmlhttprequest,script,~third-party,domain=allcryptoz.net|batmanfactor.com|crewbase.net|crewus.net|documentaryplanet.xyz|gametechreviewer.com|midebalonu.net|misterio.ro|seory.xyz|shinbhu.net|shinchu.net|substitutefor.com|talkforfitness.com|thefitbrit.co.uk|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
-@@*$xmlhttprequest,third-party,domain=infinityscans.xyz|infinityscans.net
+@@*$xmlhttprequest,third-party,domain=infinityscans.net|infinityscans.org|infinityscans.xyz
 @@*$xmlhttprequest,~third-party,domain=cookiewebplay.xyz|ilovetoplay.xyz|quest4play.xyz|streamcaster.live|topembed.pw
 @@*/assets/prebid/$script,xmlhttprequest,~third-party,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad2.$image,domain=sophiabushfan.net
