@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UJb2bTlHTIiPvY37kPlG9A
-! Title: Ublock filter for Via(2024-12-07 00:13:34)
-! Version: 20241207001334
+! Checksum: msN4F6rNyX2X8x/+7r0etA
+! Title: Ublock filter for Via(2024-12-07 08:52:39)
+! Version: 20241207085239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-07 00:13:34
-! Total Count: 12847
-! Blocked Filters: 12847
+! Last modified: 2024-12-07 08:52:39
+! Total Count: 12850
+! Blocked Filters: 12850
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5388,7 +5388,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4732
+!<<<<<网站单独规则>>>>>4734
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6697,6 +6697,7 @@ eurosport.tvn24.pl##.ad, .fake
 exactpay.online##iframe[src^="https://cryptocoinsad.com/"]
 exee.io,exe.app##.banner-page > .short
 exeo.app##.actions, .earning-steps ~*, .earning-steps, header, footer, .ad-element
+exploader.net##a[style^="display:"][href^="https://al.dmm.co.jp"]
 exploader.net##article > div[style="display: flex;align-items: center;margin-bottom: 5px;"] > div[data-pr="1"][style^="min-height: 20px;"]
 express.de,mopo.de###nativendo-marginal
 express.de,mopo.de##.dm_ad
@@ -8787,6 +8788,7 @@ radiosupernova.pl##.zpr_combo
 radiosupernova.pl##.zpr_inside_2
 radiosupernova.pl##[id^="placement"]
 raenonx.cc##div[class="flex flex-col place-content-center place-items-center items-center text-center w-full h-[100px]"]:has(> div[id^="nitro-"])
+ragnarokscanlation.opchapters.com,twobluescans.com###ad-container
 raider.io##.rio-zone--wrapper
 rain-alarm.com###main_canvas > div[id^="google"]
 rainanime.*##.fake_player
@@ -9579,7 +9581,6 @@ tw-calc.net##.vertical_large.container
 tw-calc.net##.vertical_large_2.container
 twi-fans.com##.fixed.data-\[state\=open\]\:animate-in
 twitch.tv##.stream-display-ad__wrapper
-twobluescans.com###ad-container
 txxx.*##.index-page > .wrapper > .row + div[class]
 txxx.*##.jw-atitle.nopop:has(> [href*="g2fame.com"][href*="&campaign"])
 txxx.*##.pwa-ad
@@ -9943,6 +9944,7 @@ www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"]
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
@@ -10935,7 +10937,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1935
+!<<<<<放行白名单>>>>>1936
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12708,6 +12710,7 @@ energy.de#@##ad_home
 eslint.org#@#.sponsor-link
 ewrc-models.com,ewrc-results.com#@#.cardAd
 ewybory.eu#@#.advertisment
+exploader.net#@#a[href^="https://al.dmm.co"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
 fapeza.com#@#.azz_div
 forbes.it#@#.ad-row
