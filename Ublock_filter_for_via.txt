@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: zl/HJCf2J48vf05JzvIFGw
-! Title: Ublock filter for Via(2024-12-08 08:57:32)
-! Version: 20241208085732
+! Checksum: A1gUyrZxExxH5MQx4j2/IQ
+! Title: Ublock filter for Via(2024-12-09 00:11:33)
+! Version: 20241209001133
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-08 08:57:32
-! Total Count: 12872
-! Blocked Filters: 12872
+! Last modified: 2024-12-09 00:11:33
+! Total Count: 12885
+! Blocked Filters: 12885
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5384
+!<<<<<域名规则>>>>>5387
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -545,6 +545,7 @@
 ||backblazeb2.com/*.gif$image,domain=moviehdkh.com
 ||backblazeb2.com/securescriptindustriusfinanceprivate99.HTML^
 ||backend.dna-delivery.com^$domain=france.tv|rt.com
+||backend.store.eset.co.il/pub/*/ESETUnleashed_*.zip^
 ||badana.me^
 ||badshores.com^
 ||baeldung.com/*recovery.min.js^$script,~third-party
@@ -827,6 +828,7 @@
 ||cdn.ay.gy/js/$script,third-party
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
 ||cdn.contentsitesrv.com/js/push/subscribe.js$script
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$script,domain=embed.sportsline.com
 ||cdn.cuty.io/fps.js$script
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 ||cdn.discordapp.com/attachments/916391647955279943/*^
@@ -3679,6 +3681,7 @@
 ||ponselharian.com/img/download_
 ||popcashjs.b-cdn.net^
 ||popcdn.day/magnitude.js^
+||popcdn.day/stream/floating.js^
 ||popcent.org^$third-party
 ||popsads.link^
 ||poptival.com^
@@ -5398,7 +5401,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4744
+!<<<<<网站单独规则>>>>>4752
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5418,15 +5421,21 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com###left > div:not(div[id="artworkLeft"][class="c bgArt"], div[class="fTab"], div[class="aMenu"], [id="lSt"].border, div[class="boxBg rB c mb10"]):has(a img[src*="/"][src*="_"])
 1001tracklists.com###left > div:not(div[id="artworkLeft"][class="c bgArt"], div[class="fTab"], div[class="aMenu"], [id="lSt"].border, div[class="boxBg rB c mb10"]):has(a img[src^="/"][src*="_"])
 1001tracklists.com###left > div:not(div[id="artworkLeft"][class="c bgArt"], div[class="fTab"], div[class="aMenu"], [id="lSt"].border, div[class="boxBg rB c mb10"]):has(a img[src^="/images/"])
+1001tracklists.com###root > div[id] > div:first-child:not([id], [class]):has(a[target][rel]:has(img[src*="/"][src*="_"]))
+1001tracklists.com###root > div[id]:first-child > [style] a[target][rel]:has(img[src*="/"][src*="_"])
+1001tracklists.com###root > div[id]:last-child > [style] a[target][rel]:has(img[src*="/"][src*="_"])
 1001tracklists.com###top > [style]:not(a[id="topLogo"][href="//www.1001tracklists.com"], div[id="pageTitle"], script, div[id="hInfo"]):has(a img[src*="/"][src*="_"])
 1001tracklists.com###top > [style]:not(a[id="topLogo"][href="//www.1001tracklists.com"], div[id="pageTitle"], script, div[id="hInfo"]):has(a img[src^="/images/artworks/"])
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src*="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src*="/"][src*="_"])
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/"][src*="_"])
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/images/"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/images/"])
+1001tracklists.com##[target="_blank"][rel*="noopener"][rel*="noreferrer"]:has(> img[src*="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src*="/"][src*="_"])
 1001tracklists.com##div[id]:has(> [data-freestar-ad])
+1001tracklists.com##div[style^="margin: 10px 0px; text-align: center;"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/"][src*="_"])
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/images/artworks/"]):has(a img[src^="/images/"]), div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/images/artworks/"]):has(a img[src^="/images/"])
+1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px;"]:has(a img[src*="/"][src*="_"])
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 103.70.114.35###idmuvi-popup
 10play.com.au##.content__ad__content
@@ -5581,6 +5590,7 @@ a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
 abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
+abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht:has(div[class^="imp-adSlot"])
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q:has(div[class^="imp-adSlot"])
 abs-cbn.com##div[id^="div-articleOOP"] ~ div:has(.imp-adSlot-0)
 abs-cbn.com##div[style*="2147483647"]:has(.imp-adSlot-0)
@@ -5986,6 +5996,7 @@ bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
 bing.com##li.b_algo:has(> [class="b_caption"] > p[class*=" "])
+bing.com##li.b_algo:has(> h2 > a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
 bingotingo.com###please-wait
 birdurls.com###bg_popup
@@ -6824,13 +6835,13 @@ film01stream.ws##.f-inner
 filma24.*###vidad
 filma24.*##[href="https://codeit.al/services/"]
 filmi7.net##[href="https://vin-checker.com"]
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc###rekgecyen
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc##.footer_fad
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc##.r_filmbaslik-alti_0
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc##.r_header_0
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc##.r_header_2
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc##a.play_ust_txt
-filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc##a[onclick^="tiklakapat"]
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net###rekgecyen
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.footer_fad
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_filmbaslik-alti_0
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_header_0
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_header_2
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##a.play_ust_txt
+filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##a[onclick^="tiklakapat"]
 filmpertutti.*##.no_pop
 filmweb.pl###mainSkyBanner-pl_PL
 filmweb.pl##.HomePromotedSection
@@ -10959,7 +10970,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1936
+!<<<<<放行白名单>>>>>1938
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -11109,6 +11120,7 @@ thepiratebay3.com^
 @@||a.realsrv.com/video-slider.js$script,domain=verhentai.top
 @@||a.trk-imps.com/oauth2$script,domain=lewdninja.com|new.lewd.ninja
 @@||abcmouse.com/*/analytics.js$script,~third-party
+@@||ac.cnstrc.com^$xmlhttprequest,domain=bjs.com
 @@||academia.edu/*/users/*/stats/*$xmlhttprequest,~third-party
 @@||acceptable.a-ads.com/1^$xmlhttprequest,domain=gainl.ink
 @@||acdn.adnxs.com/video/mediation/$script,domain=thechive.com
@@ -12010,6 +12022,7 @@ thepiratebay3.com^
 @@||modules-prod.franklyinc.com/cml.js$script,domain=news9.com|newson6.com
 @@||moja-ostroleka.pl/mapa/sensorsData.json$xmlhttprequest,~third-party
 @@||monetate.net^$script,xmlhttprequest,domain=fingerhut.com
+@@||monetize-static.viralize.tv/*viralize_player_content.min.$script,domain=abs-cbn.com
 @@||monetize-static.viralize.tv/prebid.min.$domain=automoto.it|moto.it
 @@||moondoge.co.in/js/fingerprint2.js$script,~third-party
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/$xmlhttprequest,~third-party
