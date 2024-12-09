@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1ptpuEFRTG5h7Gy0e5daPA
-! Title: Ublock filter for Via(2024-12-09 08:55:24)
-! Version: 20241209085524
+! Checksum: 77Cs0aGd4RdjbLaWUJiXeQ
+! Title: Ublock filter for Via(2024-12-10 00:14:24)
+! Version: 20241210001424
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-09 08:55:24
-! Total Count: 12885
-! Blocked Filters: 12885
+! Last modified: 2024-12-10 00:14:24
+! Total Count: 12899
+! Blocked Filters: 12899
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5387
+!<<<<<域名规则>>>>>5396
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -43,6 +43,7 @@
 ||123456789login.weebly.com^
 ||123link.*/push/
 ||123movie.*/sw.js$script
+||1312stealer.ru^
 ||1337x.*/sw.js^
 ||135buy.com^
 ||164.132.74.156^
@@ -1439,6 +1440,7 @@
 ||ebd.cda-hd.cc^
 ||ebifri.com^
 ||ebnays.xyz^
+||ebook-hell.to/jquery/jspololife.js
 ||ebortbide.com^
 ||ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com^
 ||echeloncheats.space^
@@ -2205,6 +2207,7 @@
 ||hoct.cc^
 ||hodllane.com^
 ||hohshops.com^
+||hoicksfq.xyz^
 ||holancha.com^
 ||hologydeno.info^
 ||holy-kantei.com^
@@ -2253,7 +2256,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -3362,6 +3365,7 @@
 ||ofereome.com^
 ||office.org^
 ||officesoftcn.com^
+||official-xai.com^
 ||officialkmspico.com^
 ||officialxai.com^
 ||oficial-kmspico.com^
@@ -5173,6 +5177,8 @@
 ||www-facebooks.
 ||www-facebooks.com.vn^
 ||www-mfacebook.
+||www.*.icu^$ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
+||www.*.vip^$ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
 ||www.academicsingles.jp^
 ||www.iprima.cz^$xmlhttprequest,~third-party,strict1p
 ||www.mercadolivre.com.br/recommendations*?client=*-pads-$xmlhttprequest,~third-party
@@ -5197,8 +5203,10 @@
 ||x6-yzk.com^
 ||x9mw.com^
 ||xai19k.com^
+||xai62f.com^
 ||xai85s.com^
 ||xaicrypto.org^
+||xaiofficial.ai^
 ||xaiofficial.com^
 ||xaipresales.org^
 ||xaitoken.live^
@@ -5312,6 +5320,7 @@
 ||yourube.com^
 ||youtuba.com^
 ||youtube.com/@Tesla.debate_live2024^
+||youtube.com/@TheCryptoLarkCrypto^
 ||youtube.com/@jesseeckel5^
 ||youtube.com/@tesla.Iive.officiaI.24^
 ||youtube.com/@tesla24official^
@@ -5401,7 +5410,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4752
+!<<<<<网站单独规则>>>>>4755
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6724,6 +6733,8 @@ exactpay.online##iframe[src^="https://cryptocoinsad.com/"]
 exee.io,exe.app##.banner-page > .short
 exeo.app##.actions, .earning-steps ~*, .earning-steps, header, footer, .ad-element
 exploader.net##a[style*="display:"][href^="https://al.dmm.co.jp"]
+exploader.net##a[style*="display:"][href^="https://al.dmm.co.jp"] img
+exploader.net##a[style*="display:"][href^="https://al.dmm.co.jp"] span
 exploader.net##a[style^="display:"][href^="https://al.dmm.co.jp"]
 exploader.net##article > div[style="display: flex;align-items: center;margin-bottom: 5px;"] > div[data-pr="1"][style^="min-height: 20px;"]
 express.de,mopo.de###nativendo-marginal
@@ -8648,6 +8659,7 @@ pornhub.*###relatedVideosCenter > .wrapVideoBlock
 pornhub.*##.floatLeft.leftSide > div[class]:nth-of-type(2)
 pornhub.*##.joinNowCPPBtn
 pornhub.*##.js-becomeUviuFanBtn
+pornhub.*##.js-liveCam
 pornhub.*##.js_joinNowCPPBtn
 pornhub.*##.mgp_overlayContainer
 pornhub.*##.realsex
@@ -10970,7 +10982,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1938
+!<<<<<放行白名单>>>>>1940
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12241,6 +12253,7 @@ thepiratebay3.com^
 @@||redditstatic.com^*/xads.js$script,domain=reddit.com
 @@||redefineadpl.hit.gemius.pl^$xmlhttprequest,domain=polsatsport.pl
 @@||redfin.com/rift$xmlhttprequest,~third-party
+@@||redketchup.io^$script,~third-party
 @@||register.drupal.org/ga*.js$xmlhttprequest,~third-party
 @@||registerdisney.go.com/*/responder/responder.js$script,domain=espn.com
 @@||relay-client-c01.iocnt.net^$script,domain=businessinsider.de|www.businessinsider.de
@@ -12746,6 +12759,7 @@ eslint.org#@#.sponsor-link
 ewrc-models.com,ewrc-results.com#@#.cardAd
 ewybory.eu#@#.advertisment
 exploader.net#@#a[href^="https://al.dmm.co"]
+exploader.net#@#a[style*="display:"][href^="https://al.dmm.co.jp"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
 fapeza.com#@#.azz_div
 forbes.it#@#.ad-row
