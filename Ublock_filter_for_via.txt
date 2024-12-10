@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: IPHKIQ7NwbQhvbXHwG777g
-! Title: Ublock filter for Via(2024-12-10 08:54:32)
-! Version: 20241210085432
+! Checksum: oAHpe2kZkUNILLxBSfjZdA
+! Title: Ublock filter for Via(2024-12-11 00:14:10)
+! Version: 20241211001410
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-10 08:54:32
-! Total Count: 12900
-! Blocked Filters: 12900
+! Last modified: 2024-12-11 00:14:10
+! Total Count: 12909
+! Blocked Filters: 12909
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5396
+!<<<<<域名规则>>>>>5397
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5266,6 +5266,7 @@
 ||xvideos.com/lvcsm/abck-banners/
 ||xwdplfo.com^
 ||xxa.uji8979erd77.jp^
+||xxkingkatumiwirutakayy-secondary.z23.web.core.windows.net^
 ||xxvideoss.org/wp-content/uploads/*/bannerrtx.jpg$image,~third-party
 ||xxx18.uno/*-code.js
 ||xxxadd.com/js/hrqst.js
@@ -5410,7 +5411,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4756
+!<<<<<网站单独规则>>>>>4763
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8661,12 +8662,15 @@ pornhub.*##.joinNowCPPBtn
 pornhub.*##.js-becomeUviuFanBtn
 pornhub.*##.js-liveCam
 pornhub.*##.js_joinNowCPPBtn
+pornhub.*##.livesex
 pornhub.*##.mgp_overlayContainer
 pornhub.*##.realsex
 pornhub.*##.sniperModeEngaged
 pornhub.*##.uploadBtnContentSpicevids
 pornhub.*##.video-wrapper > #player ~ .hd.clear
 pornhub.*##a[href^="http://ads.trafficjunky.net/"]
+pornhub.*##a[href^="https://landing.spicevids.com"]
+pornhub.*##a[href^="https://www.uviu.com"]
 pornhub.*##div[id^="customSkin"]
 pornicom.com##.bottom.thumb_aside
 pornicom.com##.thumbs-holder > .thumb_aside
@@ -9988,17 +9992,20 @@ www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"]
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > .mt-md > section [class]:has(> div > ul.is-separated a img[src^="data:image"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
@@ -10045,6 +10052,7 @@ www.yahoo.com##.sticky[class*="top-"]:has(style)
 www.yahoo.com##[id^="mid-center-ad"]
 www.yahoo.com##body#news-content-app li:has(.inset-0)
 www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
+www.yahoo.com##div[id]:has(> div[id^="top_center-frontpage_"])
 x1337x.eu##.mgbox
 xanimu.com##.alrt-ver2
 xbabe.com##.bnnrs-bottom
@@ -10983,7 +10991,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1940
+!<<<<<放行白名单>>>>>1941
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -11818,6 +11826,7 @@ thepiratebay3.com^
 @@||googletagmanager.com/gtm.js^$script,third-party,domain=accounts.mailerlite.com
 @@||googletagmanager.com^$redirect-rule,domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com
 @@||googletagmanager.com^$script,domain=dropgalaxy.*|financemonk.net|shrinkforearn.in|subscriptions.amd.com
+@@||googletagmanager.com^$script,redirect-rule,domain=charleyharper.com|charleyharperartstudio.com|charleyharperwholesale.com|fabframes.com|fabulousframesandart.com
 @@||googletagservices.com/tag/js/gpt.js$script,domain=abola.pt|arcai.com|blastingnews.com|gentside.*|maxisciences.com|ohmymag.*|phonearena.com|pitchfork.com|satoshi-win.xyz|viz.com
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
 @@||govbusi.info^$script,domain=satoshi-win.xyz
