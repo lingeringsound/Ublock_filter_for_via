@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oAHpe2kZkUNILLxBSfjZdA
-! Title: Ublock filter for Via(2024-12-11 00:14:10)
-! Version: 20241211001410
+! Checksum: GdT2ncuGb+VRaBnt483hIQ
+! Title: Ublock filter for Via(2024-12-11 08:53:21)
+! Version: 20241211085321
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-11 00:14:10
-! Total Count: 12909
-! Blocked Filters: 12909
+! Last modified: 2024-12-11 08:53:21
+! Total Count: 12915
+! Blocked Filters: 12915
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5411,7 +5411,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4763
+!<<<<<网站单独规则>>>>>4767
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6002,6 +6002,7 @@ bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.tob_calcontainer > .slide:has(.rtb_ad_caritem_mvtr)
 bing.com##li.b_algo:has(> .b_title a[href^="https://www.bing.com/aclk?"])
+bing.com##li.b_algo:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
@@ -9905,6 +9906,9 @@ westmanga.fun,westmanga.org##[src*=".gif"]
 westword.com##.AirBillboardInlineContentresponsive
 weszlo.com##.ad-placeholder-bg
 wetpussy.sexy##.mansonry-item
+wetter.com##.layout:has(.advert-notice)
+wetter.com##[class*="adSlot"]
+wetter.com##[style="display: block !important; bottom: 0px; top: unset !important;"]
 wetter.de##.outbrain-ad-slot
 wetteronline.*###topcontainer
 wetteronline.de###woCsiAdContent
@@ -10991,7 +10995,9 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1941
+!<<<<<放行白名单>>>>>1943
+#@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
+#@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
 #@##adSpecial
 #@##ad_300
