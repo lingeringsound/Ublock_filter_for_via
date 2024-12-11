@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GdT2ncuGb+VRaBnt483hIQ
-! Title: Ublock filter for Via(2024-12-11 08:53:21)
-! Version: 20241211085321
+! Checksum: Oe+MEfJJyl1hQe5n+coAvg
+! Title: Ublock filter for Via(2024-12-12 00:13:57)
+! Version: 20241212001357
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-11 08:53:21
-! Total Count: 12915
-! Blocked Filters: 12915
+! Last modified: 2024-12-12 00:13:57
+! Total Count: 12940
+! Blocked Filters: 12940
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5397
+!<<<<<域名规则>>>>>5406
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -118,6 +118,7 @@
 ||6xy-zg.com^
 ||71l0b.com^
 ||777.funnyy.net^
+||77jjxx.com^
 ||78b78ff8.xyz^
 ||79180284.xyz^
 ||7wbb.com^
@@ -617,6 +618,7 @@
 ||bgmateriali.com/js/detector.js$script,~third-party
 ||bhplay.me/player/assets/devtools-detector/*$script,~third-party
 ||bibian4k.com^
+||biblio.sviluppo.host^
 ||bidster.net^
 ||bigosext69.com^
 ||bigpixel.cn/libs/plugins/blocker.js^
@@ -1176,6 +1178,7 @@
 ||cyberduck.es^
 ||cyberduck.fr^
 ||cyberduck.it^
+||d*wsapp.icu^
 ||d-hiyori.com^
 ||d-position.com^
 ||d-position.shop^
@@ -1237,6 +1240,7 @@
 ||data-saver-cindi.herokuapp.com^
 ||data.cheatography.com^
 ||datacheap.io/vue.min.js
+||datadropspot.pro^
 ||datahub.center^
 ||dataprovider.biz^
 ||datawav.club/*.php
@@ -1733,6 +1737,7 @@
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||flymylife.info^
+||flyshare.cfd^
 ||fmovies.co/sw.js
 ||fo4nz.com^
 ||footyhunter3.xyz/papahd/myblock.php$script
@@ -4170,6 +4175,7 @@
 ||shacsda.name^$third-party
 ||share.notizie.it^
 ||sharecast.ws^$script,~third-party
+||sharecube.pro^
 ||shareease.link^
 ||shareno1wish.net^
 ||sharesharemail.net^
@@ -4404,6 +4410,7 @@
 ||steamrip.click^
 ||steamtopup.ru^
 ||steamxiazai.cn^
+||steeamcommnity.com^
 ||steemcommuntiy.com^
 ||stellarium.es^
 ||stellarium.fr^
@@ -4575,6 +4582,7 @@
 ||telegeram.work^
 ||telegerasm.work^
 ||telegr.am/user_mgt/login
+||telegram-*.com/login/index.html^
 ||telegram-zhongwen.com^
 ||telegrambotsolution.pages.dev^
 ||telegramhcn.com^
@@ -4587,6 +4595,7 @@
 ||telergaom.top^
 ||telergctm.vip^
 ||telet.me^
+||telezelm-*.icu^
 ||teltarif.de/img/$script,~third-party
 ||tempisite.com^
 ||templatesearch.org^
@@ -5411,7 +5420,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4767
+!<<<<<网站单独规则>>>>>4782
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5425,6 +5434,8 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src*="/"][src*="_"])
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/"][src*="_"])
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/images/"])
+1001tracklists.com###head + [id] > div:first-child > [style]:has(a img[src*="/"][src*="_"][alt][title])
+1001tracklists.com###head + [id] > div:first-child > div:first-child:has(a img[src*="/"][src*="_"][alt][title])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/images/"])
@@ -5441,6 +5452,7 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/images/"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/images/"])
 1001tracklists.com##[target="_blank"][rel*="noopener"][rel*="noreferrer"]:has(> img[src*="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src*="/"][src*="_"])
 1001tracklists.com##div[id]:has(> [data-freestar-ad])
+1001tracklists.com##div[style^="margin: 10px 0;"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com##div[style^="margin: 10px 0px; text-align: center;"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px; margin-top: 10px;"]:has(a img[src^="/"][src*="_"])
@@ -5600,8 +5612,10 @@ a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
 abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
+abs-cbn.com##.MuiGrid-root.MuiGrid-item:not([data-testid="test-grid-item"]):has(> div.MuiBox-root > div[style] > div > div[style] > div[class^="imp-adSlot"])
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht:has(div[class^="imp-adSlot"])
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q:has(div[class^="imp-adSlot"])
+abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht):has(div[class^="imp-adSlot"])
 abs-cbn.com##div[id^="div-articleOOP"] ~ div:has(.imp-adSlot-0)
 abs-cbn.com##div[style*="2147483647"]:has(.imp-adSlot-0)
 abs-cbn.com##div[style*="999999"]:has(div[style^="background-color:#ECEDEF;"] > p)
@@ -7167,7 +7181,11 @@ glosbe.com###topTrufleContainer
 glosbe.com##.right-sidebar-trufle-container
 glosbe.com,heise.de###topBannerContainer
 gmanetwork.com###leaderboard
+gmanetwork.com###mrect
+gmanetwork.com###theater_mobile_mrec
+gmanetwork.com##.grid_extras_holder
 gmanetwork.com##.latest_mrec_ad
+gmanetwork.com##.mrec-add-container
 gmanetwork.com##.mrec_ad
 gmx.*###adservice-top
 gmx.*##.ad-content
@@ -8469,6 +8487,7 @@ pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##.sidebar_download_
 pcseguro.es,sauguspc.lt,sichernpc.de,ugetfix.com,wyleczpc.pl##div.attention-button-box-green
 pcworld.com###amazon-bottom-widget
 pcworld.es##.stickyAdWrapper
+peachprintable.com###popID
 pearsonclinical.com##.aligner
 peliculas-dvdrip.*##[class*="col-"] > p > [href] > img.alignnone
 peliculas24.*##[href^="http://refpadsm.host/"]
@@ -8888,6 +8907,7 @@ redtube.*##.remove_ads
 redtube.*##li:has(.adsbytrafficjunky)
 reidoplacar.com###divactioncheck > .mb-3
 remodelista.com##[data-advert]
+rentry.co##article:has(#download-your-archive-file)
 repack-games.com,warezcrack.net,freeprosoftz.com,vcracks.com,crackthere.com,keygenfile.net,scracked.com,cyberspc.com,softzcrack.com,crackintopc.com,zslicensekey.com,procrackpc.com,crackshere.com,crackdj.com,cracktopc.com,serialsofts.com,prosoftlink.com,zscracked.com,crackvip.com,windowcrack.com,softsnew.com,licensecrack.net,vstpatch.net,newcrack.info,topkeygen.com,vsthomes.com,vstserial.com,procrackerz.com,pcfullcrack.org,keygenpc.com,bicfic.com,ikcrack.com,downloadcracker.com,karancrack.com,piratesfile.com,activatorwin.com,starcrack.net,crackproduct.com,dgkcrack.com,crackglobal.com,crackcan.com,keygendownloads.com,crackpatched.com,windowsactivators.org,serialsoft.org,crackit.org,productscrack.com,crackurl.info,crackroot.net,crackmak.com,seeratpc.com,crackmix.com,piratepc.me,activators4windows.com,letcracks.com,latestcracked.com,proproductkey.com,fullversionforever.com,vlsoft.net,topcracked.com,goharpc.com,crackeado.net,freecrackdownload.com,assadpc.com,fileoye.com,f4file.com,crackpcsoft.net,crackwinz.com,excrack.com,mahcrack.com,get4pcs.com,keygenwin.com,mycrackfree.com,crackfullpro.com,crackkey4u.com,fileserialkey.com,cracksdat.com,crackgrid.com,licensekeysfree.com,crackkeymac.com,freecrack4u.com,getintomac.net,crackreview.com,activatorskey.com,kuyhaa.cc,cracktel.com,up4crack.com,cracksmat.com,crackbros.com,pcfullversion.com,crackcut.com,game-repack.site,dodi-repacks.download,yasir-252.net,getpcsofts.net,keystool.com,rootcracks.org,procracks.net,newproductkey.com,greencracks.com,zeemalcrack.com,macfiles.org,softzspot.com##div[class^="code-block code-block-"]
 repelisgoo.*,repelisgooo.*,repelisgt.*,repelisxd.*,pelisplusgo.*,pelisplusxd.*##div[class]:has(> div[class] > iframe[src*="/srv-pv/tag-"])
 repuls.io###partnerAd_letter
@@ -9897,6 +9917,7 @@ webnovelworld.org##:is(#chapter-container, .comment-list, .container, .rank-nove
 webtor.io##.alerts
 webtor.io##.me-ad-container
 webzeni.com##header
+weloma.*###welcome-bar
 welovestream.xyz##.video-fake
 welt.de##.c-ad-container
 welt.de##.q-advertisement-banner
@@ -9996,6 +10017,7 @@ www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"]
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
@@ -10003,12 +10025,14 @@ www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [clas
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > .mt-md > section [class]:has(> div > ul.is-separated a img[src^="data:image"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
@@ -10771,7 +10795,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>221
+!<<<<<通用Css规则>>>>>222
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 ###adContext:not(:empty)
@@ -10891,6 +10915,7 @@ thepiratebay3.com^
 ##.rps_player_ads
 ##.samBannerUnit
 ##.samCodeUnit
+##.sharethis-inline-share-buttons.st-hidden
 ##.sidebar-ad:not(.adsbygoogle)
 ##.stream-item-widget
 ##.trafficjunky-float-right
@@ -12139,7 +12164,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|heim.jp
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|heim.jp|radioviainternet.nl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
