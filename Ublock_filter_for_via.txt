@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Oe+MEfJJyl1hQe5n+coAvg
-! Title: Ublock filter for Via(2024-12-12 00:13:57)
-! Version: 20241212001357
+! Checksum: 0K9CScbgROTY2+O1kctwUA
+! Title: Ublock filter for Via(2024-12-12 08:53:22)
+! Version: 20241212085322
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-12 00:13:57
-! Total Count: 12940
-! Blocked Filters: 12940
+! Last modified: 2024-12-12 08:53:22
+! Total Count: 12945
+! Blocked Filters: 12945
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5420,7 +5420,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4782
+!<<<<<网站单独规则>>>>>4787
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5435,7 +5435,9 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/"][src*="_"])
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/images/"])
 1001tracklists.com###head + [id] > div:first-child > [style]:has(a img[src*="/"][src*="_"][alt][title])
+1001tracklists.com###head + [id] > div:first-child > div:first-child:has(a img[src*="/"][src*="_"][alt])
 1001tracklists.com###head + [id] > div:first-child > div:first-child:has(a img[src*="/"][src*="_"][alt][title])
+1001tracklists.com###head + [id] > div:first-child > div:not([id="topLogo"], [id="pageTitle"], [id="hInfo"]):has(> a > img[src*="/"][src*="_"][alt])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/images/"])
@@ -9241,8 +9243,11 @@ sourceforge.net###mirror
 sourceforge.net###nels
 sourceforge.net##.can-truncate
 sourceforge.net##.sterling
+spankbang.*###shorts-frame
+spankbang.*##.ad_button
 spankbang.*##.download-promo
 spankbang.*##.lv_cm_int_come_on
+spankbang.*##.ptgncdn_holder
 spankbang.*##.ttaa2v3
 spankbang.*##.video-list-with-ads > .video-item[data-id="0"]
 spankbang.*##[id^="interstitial_div"]
