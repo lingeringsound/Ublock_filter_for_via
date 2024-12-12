@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0K9CScbgROTY2+O1kctwUA
-! Title: Ublock filter for Via(2024-12-12 08:53:22)
-! Version: 20241212085322
+! Checksum: ODIvFCBP3ibCx+Gt8RoSIw
+! Title: Ublock filter for Via(2024-12-13 00:14:53)
+! Version: 20241213001453
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-12 08:53:22
-! Total Count: 12945
-! Blocked Filters: 12945
+! Last modified: 2024-12-13 00:14:53
+! Total Count: 12954
+! Blocked Filters: 12954
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5406
+!<<<<<域名规则>>>>>5412
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1055,6 +1055,7 @@
 ||comicspornow.com/*.php$script,~third-party
 ||comixporn.net/js/nvrblck.js
 ||community-flagged-
+||communitystudionart.com^
 ||compass-holding.com^
 ||computer-bild.de/_static-assets/homad/homad.js
 ||conackmar.com^
@@ -1469,6 +1470,7 @@
 ||eir.tdhg7ppa.com^
 ||eisasbeau.buzz^
 ||ekdj30.com^
+||elamigosedition.com/templates/games/js/blocker.js^
 ||elamoto.com^
 ||elevisions.biz^
 ||elitepaysites.com/photos/*.gif$image
@@ -2261,7 +2263,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2570,6 +2572,7 @@
 ||keepass.it^
 ||keepassxc.com^
 ||keepo.io/loginatt/
+||keepo.io/opddater-spotifykonto-informas/
 ||keepsclean.com^
 ||keiunkan.com^
 ||kemono.party/js/script.js
@@ -3196,6 +3199,7 @@
 ||mustwork.work^
 ||mw19c3mi5a.com^$third-party
 ||mwcvu.com^$third-party
+||my-bitbank.cc^
 ||my-cleaner.info^
 ||my.optikservers.com/assets/AdsenseInit.$script,~third-party
 ||my7love.xyz^
@@ -4087,6 +4091,7 @@
 ||sbfw.work^
 ||scandichotels.com/Static/js/tracking/tracking-data-init.js^$script,~third-party
 ||scane.click^
+||scearmcommnymnlty.com^
 ||scene7goal3.work^
 ||schneesommer.de^$third-party
 ||scnv.jp^
@@ -5121,6 +5126,7 @@
 ||westpace-support.freewebhostmost.com^
 ||wetpussy.sexy/js/index-nb.js
 ||wgplayer.com^
+||whatsapp*.icu^
 ||whatsapp-32w.pages.dev^
 ||wheelwheel.space^$third-party
 ||whentai.com/*.gif$image
@@ -5420,7 +5426,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4787
+!<<<<<网站单独规则>>>>>4788
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9890,6 +9896,7 @@ watchfree.*###vpnvpn
 watchfreejavonline.co##[href*="affpa.top"]
 watchfreexxx.net##.order-1:has(.video-block-happy-absolute)
 watchgameofthrones.*###keeper2
+watchhentai.net##.minlinks-links
 watchhouseonline.net,watchonlyfoolsandhorses.com,watchtheofficeonline.net##.module_single_ads
 watchhouseonline.net,watchtheofficeonline.net##.h_content
 watchmdh.to##a[style^="position: absolute; inset: 0px;"][target="_blank"]
@@ -11025,7 +11032,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1943
+!<<<<<放行白名单>>>>>1945
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12729,6 +12736,7 @@ abczdrowie.pl#@#[class^="content-aside__"], div[class^="article "], div[class^="
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,bild.de,deliciousmagazine.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl#@#.ads
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,docer.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,vod.tvp.pl,wp.pl#@#[class^="ad-"]
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,pl,polygamia.pl,pudelek.pl,pysznosci.pl,soranews24.com,uflash.tv,web.de,wp.pl#@#.ad
+abysscdn.com,hihihaha1.xyz#@#.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info#@#.adb-top
 addictinggames.com#@#.ad_container
@@ -12852,6 +12860,7 @@ iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 iwin.com#@##sponsorText
 japan-webike.*,webike.*,webike-china.cn#@#.ad_box
 japan-webike.*,webike.*,webike-china.cn#@#.ad_title
+japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
 jav68.net#@#.ads-header
 javcrave.com#@#.widget_custom_html
 javgg.co,javgg.net#@##AD_160
