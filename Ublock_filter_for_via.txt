@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: bAXj3uV3rmwcDl4O8Y5vnA
-! Title: Ublock filter for Via(2024-12-13 08:54:04)
-! Version: 20241213085404
+! Checksum: 6gPo1Ov+BJfAvnXFKuMopg
+! Title: Ublock filter for Via(2024-12-14 00:13:17)
+! Version: 20241214001317
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-13 08:54:04
-! Total Count: 12955
-! Blocked Filters: 12955
+! Last modified: 2024-12-14 00:13:17
+! Total Count: 12965
+! Blocked Filters: 12965
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5413
+!<<<<<域名规则>>>>>5417
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1314,6 +1314,7 @@
 ||digiseller.ru^$third-party,domain=leechall.com
 ||digital-mail.jp^
 ||digitalxnetwork.com^
+||diligentcloset.com^
 ||dinosaur-crown.com^
 ||direct-link.net^$xmlhttprequest,~third-party
 ||direct2hr.click^$document
@@ -2189,6 +2190,7 @@
 ||hipma.jp^
 ||histats.com^$third-party
 ||historicaerials.com/js/adblock-detection.js^
+||historicaerials.com/js/testuserad.js^
 ||hit.api.useinsider.com^$domain=akbank.com
 ||hitadsmedia.com^$third-party
 ||hitcashtag.com^$third-party
@@ -2263,7 +2265,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -3844,6 +3846,7 @@
 ||pvrtx.net^
 ||pwrtds.com^
 ||pxmmm23.net^
+||q.stripe.com/?domain=$image
 ||qaghoz.com^
 ||qakzfubfozaj.com^
 ||qbittorrent.com^
@@ -4784,6 +4787,7 @@
 ||trfcbooost.com^
 ||trfrc.com^
 ||triangle123.com^
+||tributeparticle.com^
 ||trifms.com^
 ||tritinia.org/wp-content/plugins/from-grave-and-back-hidden/js/custom.js
 ||tritondigital.com^$domain=accuradio.com
@@ -5427,7 +5431,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4788
+!<<<<<网站单独规则>>>>>4792
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5444,7 +5448,9 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com###head + [id] > div:first-child > [style]:has(a img[src*="/"][src*="_"][alt][title])
 1001tracklists.com###head + [id] > div:first-child > div:first-child:has(a img[src*="/"][src*="_"][alt])
 1001tracklists.com###head + [id] > div:first-child > div:first-child:has(a img[src*="/"][src*="_"][alt][title])
+1001tracklists.com###head + [id] > div:first-child > div:not([id="topLogo"], [id="pageTitle"], [id="hInfo"]):has(> a > :is(img[src*="/"][src*="_"][alt], div[style*="background"]))
 1001tracklists.com###head + [id] > div:first-child > div:not([id="topLogo"], [id="pageTitle"], [id="hInfo"]):has(> a > img[src*="/"][src*="_"][alt])
+1001tracklists.com###head + div[id] > div:last-child > div > a:has(> img[src*="/"][src*="_"][alt])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/"][src*="_"])
 1001tracklists.com###left + div[style*="grid"][style*="place-content"]:has(a img[src^="/images/"])
@@ -5460,6 +5466,7 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/"][src*="_"])
 1001tracklists.com##[target="_blank"][rel$=" noopener noreferrer"]:has(> img[src^="/images/"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/images/"])
 1001tracklists.com##[target="_blank"][rel*="noopener"][rel*="noreferrer"]:has(> img[src*="/"][src*="_"]), [target="_blank"][rel^="noopener noreferrer"]:has(> img[src*="/"][src*="_"])
+1001tracklists.com##div[class="nav tabTop"] + div > div:first-child > div:first-child > a:has(> img[src*="/"][src*="_"][alt])
 1001tracklists.com##div[id]:has(> [data-freestar-ad])
 1001tracklists.com##div[style^="margin: 10px 0;"]:has(a img[src*="/"][src*="_"])
 1001tracklists.com##div[style^="margin: 10px 0px; text-align: center;"]:has(a img[src*="/"][src*="_"])
@@ -7192,6 +7199,7 @@ glosbe.com,heise.de###topBannerContainer
 gmanetwork.com###leaderboard
 gmanetwork.com###mrect
 gmanetwork.com###theater_mobile_mrec
+gmanetwork.com##.cbox:has(> :is(ads, .skyscraper))
 gmanetwork.com##.grid_extras_holder
 gmanetwork.com##.latest_mrec_ad
 gmanetwork.com##.mrec-add-container
@@ -11033,7 +11041,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1945
+!<<<<<放行白名单>>>>>1947
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11541,6 +11549,7 @@ thepiratebay3.com^
 @@||choralia.net/popu.js$script
 @@||chronicle.com/dg/default/rest/$xmlhttprequest,~third-party
 @@||cimanow.cc/wp-content/themes/Cima%20Now%20New/Assets/js/openads.js$script,~third-party
+@@||cimanow.cc^$script,~third-party
 @@||cinemaclock.com^$script,~third-party
 @@||citi.com/cards/*/tracking.js$script
 @@||click.allkeyshop.com/*&source=allkeyshop.com
@@ -12254,6 +12263,7 @@ thepiratebay3.com^
 @@||prebid.a-mo.net/a/c$xmlhttprequest,domain=aternos.org
 @@||prebid.smilewanted.com^$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||premid.app/ads/ads$xmlhttprequest,~third-party
+@@||premium.services.zam.com/v1/api/$xmlhttprequest,domain=wowhead.com
 @@||prg.smartadserver.com/prebid/v1$xmlhttprequest,domain=aternos.org
 @@||prismamedia-com.videoplayerhub.com/galleryplayer.js$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||privacy-mgmt.com^$script,domain=bild.de|chip.de|cmp.netzwelt.de|faz.net|focus.de|golem.de|handelsblatt.com|n-tv.de|praxisvita.de|stern.de|wunderweib.de
