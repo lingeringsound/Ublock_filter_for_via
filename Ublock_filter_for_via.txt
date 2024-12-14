@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 6gPo1Ov+BJfAvnXFKuMopg
-! Title: Ublock filter for Via(2024-12-14 00:13:17)
-! Version: 20241214001317
+! Checksum: Bv5me/Ru4v4/4QQ3S/1QRw
+! Title: Ublock filter for Via(2024-12-14 08:51:51)
+! Version: 20241214085151
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-14 00:13:17
-! Total Count: 12965
-! Blocked Filters: 12965
+! Last modified: 2024-12-14 08:51:51
+! Total Count: 12967
+! Blocked Filters: 12967
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5417
+!<<<<<域名规则>>>>>5419
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3810,6 +3810,7 @@
 ||pub-*.r2.dev/owasecure.htm^
 ||pub-3b4d978c14114185847089b100168c84.r2.dev^
 ||pub-3d10bad2840341eaa1c7e39b09958b46.r2.dev^$third-party
+||pub-549d59daefd74f7583e1766800fe7b07.r2.dev^
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^
 ||pub.contexthub.net^
 ||pub.javwide.com^
@@ -3932,6 +3933,7 @@
 ||red12flyw2.site^$third-party
 ||reddishpurple.com^
 ||reddit.com/api/jail^$xmlhttprequest,~third-party
+||redditsoccerstreams.watch/wp-content/uploads/2024/10/watch-live-stream.gif$image
 ||redditstatic.com/shreddit/sentry-$domain=reddit.com
 ||reddriko.site^
 ||redhdtube.xxx/tmp/
@@ -12186,7 +12188,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|heim.jp|radioviainternet.nl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|cursomecanet.com|heim.jp|radioviainternet.nl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
