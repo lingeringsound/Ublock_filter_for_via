@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0hqnH5Z5I+2mcHSgiqOVmA
-! Title: Ublock filter for Via(2024-12-15 08:57:33)
-! Version: 20241215085733
+! Checksum: YA3cyuVu2W8Y10FtnwYwMA
+! Title: Ublock filter for Via(2024-12-16 00:11:53)
+! Version: 20241216001153
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-15 08:57:33
-! Total Count: 12976
-! Blocked Filters: 12976
+! Last modified: 2024-12-16 00:11:53
+! Total Count: 13034
+! Blocked Filters: 13034
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5420
+!<<<<<域名规则>>>>>5475
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -164,6 +164,7 @@
 ||abpnow.xyz^
 ||abrhsuoamrnrx.com^
 ||abukss.com^
+||abusive-isolate.com^
 ||accept.bar^
 ||accord-adoration.com^
 ||accordo.it/cloud-assets/x/sfondi/
@@ -188,6 +189,7 @@
 ||ad.tradertimerz.media^
 ||ad4point.nyc3.digitaloceanspaces.com^
 ||ad7mylo.com^
+||adak.adm1r3.com^
 ||adating.link^
 ||adbetnetwork.com^$third-party
 ||adblock.fr^
@@ -273,6 +275,7 @@
 ||ai3tu.com^
 ||aiai-talk.com^
 ||aiaitalk.com^
+||aibeautia1.jp^
 ||aii.sh/sw$script,~third-party
 ||aikatuz.jp^
 ||aikotoba2020.com^
@@ -349,6 +352,7 @@
 ||amigosdetuciudad.com^
 ||amocha.xyz^
 ||amourplace.jp^
+||amschat.top^
 ||amserva.com^
 ||analytics.google.com^$third-party
 ||analytics.strapi.io^
@@ -657,6 +661,7 @@
 ||bittrafficads.com^$third-party
 ||bitupsss.com^
 ||bitzite.com/dtban.jpg
+||bizdizorganization.com^
 ||bizerba-dot-azure-projectfiles.uk.r.appspot.com^
 ||blackandwhite-temporary.com^
 ||blackfriday-shoe.top^
@@ -713,6 +718,7 @@
 ||boobsrealm.com/wp-content/uploads/*-banner$image,~third-party
 ||book234h.fun^
 ||bookofsex.com^
+||booshoatoocotez.net^
 ||bootcdn.net^
 ||bootcss.com^
 ||boring-tesla.149-102-231-176.plesk.page^
@@ -770,6 +776,7 @@
 ||bustymeets.com^
 ||butya.top^
 ||buyvisblog.com^
+||buzz-gric.com^
 ||buzzadnetwork.com^
 ||bvwozybuqztvg.com^
 ||bwtsrv.com^$third-party
@@ -790,6 +797,7 @@
 ||cagrievi.com^
 ||cajewar736.wixsite.com^
 ||calibre.it^
+||call-chieftain.com^
 ||cam/secured/host/*.php|$xmlhttprequest,third-party,domain=r2.dev
 ||camcaps.*/vsx.js
 ||camgirlbang.com/crimson-$script,~third-party
@@ -1052,6 +1060,7 @@
 ||colorfulromance.com^
 ||com/|$xmlhttprequest,third-party,method=head,domain=nsw2u.com
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
+||comfortablepossibilitycarlos.com^
 ||comicspornow.com/*.php$script,~third-party
 ||comixporn.net/js/nvrblck.js
 ||community-flagged-
@@ -1066,6 +1075,7 @@
 ||connatix.com^$script,domain=rmweb.co.uk
 ||connatix.com^$third-party
 ||connect-jumbo.com^
+||connect-s2-chat.com^
 ||connect-wp.net^
 ||conohawing.com/*/outlook-
 ||constellationbedriddenexams.com^
@@ -1097,6 +1107,7 @@
 ||counter2.blog.livedoor.com^$image
 ||coup-ling-dm.net^
 ||coup-ling.net^
+||coupletalk2024.com^
 ||coursecopy.com^
 ||coursera.org/*/eventing/
 ||cpanel12wh.bkk1.cloud.z.com^
@@ -1122,6 +1133,7 @@
 ||critomiron.click^
 ||cross-customer.com^
 ||crostol.com^
+||crowd-nrgt.com^
 ||crowdpass.live^
 ||crowdstrike-cloudtrail-storage-bb-126d5e.s3.us-west-1.amazonaws.com^
 ||crowdstrike-falcon.online^
@@ -1160,6 +1172,7 @@
 ||cumshots.com^
 ||cupid-chat.net^
 ||curalate.com/api/v1/metrics/
+||curious-deplete.com^
 ||curioushingefast.com^
 ||currentlyatt*.weebly.com^
 ||curryfielddistribution.com^
@@ -1278,12 +1291,14 @@
 ||declk.com^
 ||dedestin0.jp^
 ||deenveerww.wixsite.com^
+||deep-dealings.com^
 ||deepfakeporn.net/contents/rest/player/deepswap_japanese
 ||defendeerrpro.jp^
 ||degmq5l23.jp^
 ||dek5iqd53g59a.cloudfront.net^
 ||delivery.r2b2.cz^$third-party
 ||delivery.sexyxxx.biz^
+||dem94jfdmn3d.net^
 ||dembuon.vn/lib/flies/flier.js$script,domain=vinaurl.*
 ||derriks.site^
 ||descarga.pw^
@@ -1378,6 +1393,7 @@
 ||downloadpirate.com/sw.js$script
 ||downloadsbeta.com^
 ||downloadstep.com^
+||dr-sapuri.jp^
 ||dr5rmdxa.com^
 ||drakecomic.*/wp-content/themes/mangareader/script.js
 ||drct-match.com^
@@ -1385,6 +1401,7 @@
 ||dream901o.fun^
 ||dreamatch.jp^
 ||drectsearch.com^
+||drg-mcre.com^
 ||drop-cloud.com^
 ||dropbox.com/*/AT-T-YAHOO-MAIL.paper^
 ||dropbox.com/*/crowdstrike-hotfix.zip^
@@ -1416,6 +1433,7 @@
 ||dzhzp0zlnyoe8.cloudfront.net^
 ||e-c.tokyo^
 ||e-chat1.com^
+||e-manager-kanri.com^
 ||e-messsage.com^
 ||e-outlook-online.com^
 ||e-stat.huya.com^
@@ -1429,6 +1447,7 @@
 ||earnload.*/sw.js$script,~third-party
 ||earovit.dk^
 ||earth-ling.org^
+||easy-elation.com^
 ||easy-way-system.sbs^
 ||easyads28.*^
 ||easyads29.*^
@@ -1695,6 +1714,7 @@
 ||filma24.*/*.gif$image
 ||filmeserialehd.biz^$third-party
 ||filmshngjbzix.blogspot.com^
+||filter-zgzy.com^
 ||final-claim.pages.dev^
 ||final-future.com^
 ||final-ua.eu/vasilisa/votings
@@ -1855,6 +1875,7 @@
 ||fx640b4a8v2n.net^
 ||fzj3v7sch2xg5gosh60vpkrth5c6cngvj5ivd9kg5ajcdl2vlp2ocj5fjbto.me^
 ||g.doubleclick.net/gampad/ads?env=$xmlhttprequest,domain=wunderground.com
+||g5chat.com^
 ||g5u.pw/sw.js$script,~third-party
 ||g6-gonight.org^
 ||ga.cdzanalytics.com^
@@ -1931,6 +1952,7 @@
 ||gimp.es^
 ||ginsaitchosheer.net^
 ||girhub.com^
+||girl-ewun.com^
 ||girls.a-makeup.com^
 ||girlscanner.cc/check.php
 ||girlscanner.online/ph_co.js$script
@@ -2137,6 +2159,8 @@
 ||heartmatch.jp^
 ||heartmedia.biz^
 ||heat.tsu-bas.com^
+||hebiichigo.com^$third-party
+||heed-mvor.com^
 ||hellrider.live^$third-party
 ||help-for-work-*.pages.dev^
 ||helps-center-page-number-
@@ -2394,6 +2418,7 @@
 ||infinityweet.com^
 ||infinityweet.me^
 ||info-meta-noreply.com^
+||info-top-letter.com^
 ||infomessagehappy.com^
 ||infos4.yolasite.com^
 ||infozoomplus.biz^
@@ -2785,6 +2810,10 @@
 ||lone1y.com^
 ||long.xxx^$third-party
 ||loto-chance.com^
+||loto7-diamond-club.com^
+||lotochance-vip.com^
+||lotochance.hp.peraichi.com^
+||loudly-xipt.com^
 ||love-fit.jp^
 ||love-letter-dm.com^
 ||love-letter.info^
@@ -2885,8 +2914,10 @@
 ||mai-tel.jp^
 ||mai1b0x.com^
 ||maiil-myatt.weeblysite.com^
+||mail-m-m.com^
 ||mail.pages.exchange-midasbuy.com^
 ||mail.sorbeadindias.com^
+||mailtherapyask.com^
 ||mait.inhhome.top^
 ||maiwa12.jp^
 ||maiwai2.jp^
@@ -2950,6 +2981,7 @@
 ||matching364.com^
 ||matchingsite.jp^
 ||matchmix.jp^
+||matchtap.site^
 ||matchx2.com^
 ||matectord.com^
 ||mathcrave.com/core/modules/*/assets/vendor/css/abdetector.style.css
@@ -2966,6 +2998,7 @@
 ||mc-aoyama.com^
 ||mc.yandex.ru/metrika/tag.js|$script,domain=hotdebrid.com
 ||mcbien.net^
+||mcdonal.fujicandy-balibalione.net^
 ||mciun.com^
 ||mct-niger.com^
 ||mcteirx.click^
@@ -3019,6 +3052,8 @@
 ||meltylove.jp^
 ||mem44.com^
 ||members.hanime.tv/*/preroll_ad_event$xmlhttprequest
+||memorial-mem0ria1.com^
+||memory-storage.net^
 ||menkaralpheratz.com^
 ||mercurial.cointelegraph.com^$xmlhttprequest
 ||mercury.akamaized.net/cm/
@@ -3330,6 +3365,7 @@
 ||nnggo.com^
 ||noaa.maps.arcgis.com/apps/instant/*/AppMeasurement.js$~third-party
 ||nohat.me^$third-party
+||noi9va4ewa.com^
 ||noitons.net^
 ||nokiseitjnemnew.jp^
 ||noohapou.com^
@@ -3362,12 +3398,14 @@
 ||nwch.az-cdn.ch^$script,domain=solothurnerzeitung.ch
 ||nxbrew.com/sw.js$script,~third-party
 ||ny4yze.com^
+||nyancokuji.xyz^
 ||nydlaepytwuekwhfyvivsf.com^
 ||nyeeiye2.click^
 ||nysoctieotion.tech^
 ||nzbstars.com/*.gif$image
 ||o-cean-fortune.biz^
 ||o-cean-fortune.com^
+||o-ka-pilina.com^
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
 ||obs-software.cc^
 ||ocalam.com:8443/impact^
@@ -3603,6 +3641,8 @@
 ||pecuniatrck.com^
 ||pelastorl.com^
 ||pelispedia.*/*sw.js$script,~third-party
+||penst-hap9p-chat.com^
+||penst3-hap11o-chat.com^
 ||pepzk-community.xyz^
 ||peraichi.com/landing_pages/view/s8j8k/
 ||perazxcs.com^
@@ -3898,6 +3938,7 @@
 ||rapidgator.net/images/pics/36_300%D1%85250_$third-party
 ||rapidsend.cfd^
 ||rarz-uploader.com^
+||raspberrysliceq.jp^
 ||rat.xxx/xdman/*
 ||ratexchange.net^
 ||raw.githack.com/*/SpiderBlogging/main/antiadblock/$third-party
@@ -3919,6 +3960,7 @@
 ||readytosinglesmeet.com^
 ||real-women-online.com^
 ||realgfporn.com/sw.js$script,~third-party
+||realm-foym.com^
 ||realnetnews.com^
 ||reasonable5786mi4n3srxq.jp^
 ||receivedachest.com^
@@ -3989,6 +4031,7 @@
 ||rhsrthrtjhe.com^
 ||ri11que-za.com^
 ||riarialuvluv2023.com^
+||rice-iten.com^
 ||rich-cash.fun^
 ||rich-cash.site^
 ||richheart.completelifetime.com^
@@ -4107,6 +4150,7 @@
 ||scribus.fr^
 ||scribus.it^
 ||script-at.iocnt.net/iam.js$domain=oe24.at
+||scrutinizeordealscrutinize.com^
 ||sdhjak.com^
 ||sdlbtwi3lr.com^
 ||sea-into-53426l1.com^
@@ -4307,6 +4351,7 @@
 ||soccerinhd.com/live1/$script,~third-party
 ||soccerinhd.com/z12.js?$script,~third-party
 ||socialbars-web5.com/*/notifications/$script
+||sodium-icft.com^
 ||softlab.fun^
 ||softronline.click^
 ||softs-download.com^
@@ -4331,6 +4376,7 @@
 ||sotemnovinhas.com/*.gif$image
 ||souhoazapee.net^
 ||soul-ft.com^
+||soul-of-compass.com^
 ||soundcloud.com/audio-ad$~third-party,xmlhttprequest
 ||soundcloud.com/promoted$~third-party,xmlhttprequest
 ||soyte.cc^
@@ -4384,6 +4430,7 @@
 ||staemcomunnutty.com^
 ||stalkforx.ru^
 ||star-fortune.com^
+||star789h.fun^
 ||starbits.io/libs/check.js$script,~third-party
 ||startpage.com/sp/dplpxs
 ||startwork-introduce.com^
@@ -4433,6 +4480,7 @@
 ||stopundstart.de^$third-party
 ||storage.de.cloud.ovh.net^*/sarsor/avikingdynamic.js$script,third-party
 ||storageapi-new.fleek.co/*/yss/ind.html
+||story-story.life^
 ||stowers-service.com^
 ||straightmenu.com^
 ||strategyarbitrages.pro^
@@ -4502,6 +4550,7 @@
 ||swarm.video/tutelehd.js
 ||swarmmanga.com/*/custom.js
 ||swe.sweet-sweet-sweets.com^
+||sweet-1ove.jp^
 ||sweet-hot-lady.top^
 ||sweetmemo.net^
 ||sweetmemoryy.com^
@@ -4635,6 +4684,7 @@
 ||tgram.ru^
 ||tgwidget.com^$third-party
 ||thaiairways.com/static/common/js/wt_js/webtrends.min.js$script,~third-party
+||thanksgift-special.com^
 ||thatav.net/sw.js$script,~third-party
 ||thbstvd.com^
 ||the-latest-version.com^
@@ -4843,6 +4893,9 @@
 ||txtx.jp^
 ||tyotto.jp^
 ||tyotyo.biz^
+||u--to-u.com^
+||u-to--u.com^
+||u-to-u.com^
 ||u3ig.com^
 ||u87yuo9ojh.world^
 ||ube71ki83.com^
@@ -5031,6 +5084,7 @@
 ||vincaolet.xyz^
 ||vintagenudes.pro/js/aQCeo5xWBGKc6Uv0xe.js
 ||violation-*.surge.sh^
+||vip-money2024.com^
 ||vip-salon.net^
 ||virtualbox.es^
 ||virtualbox.pl^
@@ -5273,6 +5327,7 @@
 ||xoty55.cfd^
 ||xqfefdkey.xyz^
 ||xrares.com/sw.js$script,~third-party
+||xs525890.xsrv.jp^
 ||xs5rur1she7eyry.jpn.com^
 ||xsharenode.com^
 ||xsph.ru/*/netfi2k/
@@ -5434,7 +5489,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4798
+!<<<<<网站单独规则>>>>>4799
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6035,6 +6090,7 @@ bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.ins_exp.vsp
 bing.com##.tob_calcontainer > .slide:has(.rtb_ad_caritem_mvtr)
 bing.com##li.b_algo:has(> .b_title a[href^="https://www.bing.com/aclk?"])
+bing.com##li.b_algo:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
 bing.com##li.b_algo:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2)
 bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
@@ -10235,7 +10291,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>586
+!<<<<<通配符规则>>>>>587
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10443,6 +10499,7 @@ $script,domain=zdnet.fr,third-party
 /api/spots/*^fill=$xmlhttprequest
 /api/users/*&ev=$script
 /api/users/*^fill=$xmlhttprequest
+/api/v2/items/*$xmlhttprequest
 /apis-2.js^$~third-party
 /app/apx14.js
 /app/x12.js
@@ -10824,7 +10881,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>225
+!<<<<<通用Css规则>>>>>226
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 ###adContext:not(:empty)
@@ -11049,6 +11106,7 @@ thepiratebay3.com^
 ~theporndude.com##a[href^="https://theporndude.com"]
 ~www.wp.pl,wp.pl##header + div[data-reactid]:has(> div:only-child > div:first-child > div:only-child > a > div:only-child:empty)
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
+~xcloud.host,xcloud.*##.ads-btns
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
