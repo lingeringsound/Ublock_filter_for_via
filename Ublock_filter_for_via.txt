@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YA3cyuVu2W8Y10FtnwYwMA
-! Title: Ublock filter for Via(2024-12-16 00:11:53)
-! Version: 20241216001153
+! Checksum: 2QGaiu5b54kuxU9jdeoX1Q
+! Title: Ublock filter for Via(2024-12-16 08:56:04)
+! Version: 20241216085604
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-16 00:11:53
-! Total Count: 13034
-! Blocked Filters: 13034
+! Last modified: 2024-12-16 08:56:04
+! Total Count: 13037
+! Blocked Filters: 13037
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5489,7 +5489,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4799
+!<<<<<网站单独规则>>>>>4801
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8768,8 +8768,10 @@ pornhub.*##.livesex
 pornhub.*##.mgp_overlayContainer
 pornhub.*##.realsex
 pornhub.*##.sniperModeEngaged
+pornhub.*##.topAdContainter
 pornhub.*##.uploadBtnContentSpicevids
 pornhub.*##.video-wrapper > #player ~ .hd.clear
+pornhub.*##[data-event="header_paid_tabs"]
 pornhub.*##a[href^="http://ads.trafficjunky.net/"]
 pornhub.*##a[href^="https://landing.spicevids.com"]
 pornhub.*##a[href^="https://www.uviu.com"]
@@ -11110,7 +11112,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1947
+!<<<<<放行白名单>>>>>1948
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12363,6 +12365,7 @@ thepiratebay3.com^
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=sbs.com.au
 @@||publicwww.com/images/labels$image,~third-party
+@@||publisher.linkvertise.com/cdn/linkvertise.js$script,domain=uploadmall.com
 @@||puch-ersatzteile.at/static/*/Magento_GoogleAnalytics/*$script,~third-party
 @@||putlockerhd.co/js/showads.js$xmlhttprequest,~third-party
 @@||px.staticfiles.at/dst-bi-px.js$script,domain=derstandard.at|derstandard.de
