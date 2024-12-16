@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 2QGaiu5b54kuxU9jdeoX1Q
-! Title: Ublock filter for Via(2024-12-16 08:56:04)
-! Version: 20241216085604
+! Checksum: fcxnFcfTnO6yDYRPjnOaQg
+! Title: Ublock filter for Via(2024-12-17 00:14:01)
+! Version: 20241217001401
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-16 08:56:04
-! Total Count: 13037
-! Blocked Filters: 13037
+! Last modified: 2024-12-17 00:14:01
+! Total Count: 13046
+! Blocked Filters: 13046
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5475
+!<<<<<域名规则>>>>>5481
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -494,6 +494,7 @@
 ||atom-ds.com^$third-party
 ||atomohd.*/*/banners$image
 ||atplink.com/responseandresolutioncenter
+||atropinestatuarylandleaper.com^
 ||att5h6.wixsite.com^
 ||attonlineservice*.wixstudio.com^
 ||attorney.homeloanis.com/safe
@@ -654,6 +655,7 @@
 ||bitcotasks.com//files/banners/banner-
 ||bitfly.io/js/nt.js
 ||bitfun.co^$third-party
+||bithow.com^
 ||bitlk.com^$third-party
 ||bitporno.to/popup18.js
 ||bitsroll.com^$third-party
@@ -1687,6 +1689,7 @@
 ||female-good.work^
 ||fervidpopsyk.com^
 ||festinus.xyz^
+||festivalcasketfrench.com^
 ||fetishpartner.com^
 ||feve-r.com^
 ||fevertime.com/wasop/
@@ -3610,6 +3613,7 @@
 ||partner.googleadservices.com/gampad/cookie.js?domain=$script,domain=anydebrid.com|hotdebrid.com
 ||partner.pcloud.com/media/banners/*300250.png
 ||partners2.das-onlinespiel.de^$third-party
+||partyroll.xyz^
 ||paste.fo/*?as=*&tkn=$xmlhttprequest
 ||paste.fo^$image,~third-party
 ||pastelism02.jpn.com^
@@ -4598,8 +4602,10 @@
 ||tagcommander.com/*/tc_$script,domain=n-tv.de
 ||tagecoin.com/ads/
 ||tags.crwdcntrl.net^$script,domain=indiatimes.com
+||tags.tiqcdn.com/utag/*/utag.sync.js$domain=visible.com
 ||tags.tiqcdn.com/utag/aaa/main/prod/utag.js$script,domain=aaa.com
 ||tags.tiqcdn.com^$domain=nickjr.com
+||tairdalwaly.click^
 ||taitlastwebegan.com^
 ||take-money-happy.fun^
 ||take-money-happy.site^
@@ -5489,7 +5495,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4801
+!<<<<<网站单独规则>>>>>4804
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6362,7 +6368,7 @@ cimanow.*,cnvids.com,fc.lc,indavideo.hu,totv.org###ad
 cimanow.cc,forum.gigabyte.us,forums.lostmediawiki.com,proboards.com,romspedia.com###ad1
 cine-calidad.*##.links
 cine24.online###publicidad-video
-cinedesi.in,thevouz.in,tejtime24.com,techishant.in##.quads-location,.pro_btn:others()
+cinedesi.in,techishant.in,tejtime24.com,thevouz.in##.quads-location,.pro_btn:others()
 cinedesi.in,thevouz.in,tejtime24.com,techishant.in##.remove-sticky
 cinedetodo.*##.alignnone
 cinedetodo.*##.bnr
@@ -6960,7 +6966,7 @@ filmweb.pl##.faScreening--clickable
 filmweb.pl##[href*="smartadserver.com/click"]
 filmweb.pl##[style*="-ad-"]
 filmy-hit.stream##.dwn-btn
-filmy4wap.co.in##[href^="https://www.highcpmrevenuegate.com/"]
+filmy4wap.co.in,filmy4waps.org##[href^="https://www.highcpmrevenuegate.com/"]
 filmy4web.*##[href^="https://wapsing.com/"]
 filmyhitlink.xyz###sidebar-primary > .widget_custom_html
 filmyhitlink.xyz###sidebar-secondary > .widget_custom_html
@@ -7745,6 +7751,7 @@ javguru.top##a[href^="https://media.r18.com/"]
 javhay.net###logoplayer
 javhay.net##.title-most-views:first-child
 javhdo.net##.preload
+javhdporn.net##iframe[title="offer"]
 javher.com##.affiliate-card-container
 javher.com,javtrailers.com###popunderLink
 javhoho.com###text-7
@@ -8765,6 +8772,7 @@ pornhub.*##.js-becomeUviuFanBtn
 pornhub.*##.js-liveCam
 pornhub.*##.js_joinNowCPPBtn
 pornhub.*##.livesex
+pornhub.*##.menuLinkDiv:has(a[href^="https://www.spicevids.com/"])
 pornhub.*##.mgp_overlayContainer
 pornhub.*##.realsex
 pornhub.*##.sniperModeEngaged
@@ -10280,6 +10288,7 @@ zdnet.com##.c-adDisplay_container
 zdnet.com##.c-adSkyBox
 zefoy.com##.vfx-loader
 zemporn.com##.player-aside-banners
+zeroupload.com##[href="https://301alldomain.xyz/"]
 zippyshare.day##.vr-adv-unit
 zlut.com##.add-bottom
 zona-leros.com##.store_fondo
