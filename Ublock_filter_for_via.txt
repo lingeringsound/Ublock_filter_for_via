@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wz/qmQTcTHGGixFGQ4gRrQ
-! Title: Ublock filter for Via(2024-12-17 08:53:28)
-! Version: 20241217085328
+! Checksum: PDSVasQajgzZ2yul+fwUmw
+! Title: Ublock filter for Via(2024-12-18 00:13:54)
+! Version: 20241218001354
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-17 08:53:28
-! Total Count: 13046
-! Blocked Filters: 13046
+! Last modified: 2024-12-18 00:13:54
+! Total Count: 13082
+! Blocked Filters: 13082
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5481
+!<<<<<域名规则>>>>>5499
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -287,6 +287,7 @@
 ||aitai.biz^
 ||aitoolnet.com^$image,domain=novelhall.com
 ||aitradx.com/js/$script,third-party
+||ajmaboxanherulv*.b-cdn.net^
 ||ajv06.com^
 ||akamaihd.net/*&affid
 ||aksia.co^
@@ -378,6 +379,7 @@
 ||aniwave.*/assets/_bnx/$image,~third-party
 ||ann.tess1.top^
 ||annotationsincereexistence.com^
+||anti-automation-v*.b-cdn.net^
 ||antivirus.landerhd.com^
 ||antoiew.com^
 ||antonellapouncedcrewels.com^
@@ -532,7 +534,10 @@
 ||azbzcz.com^
 ||azureus.es^
 ||b-7.jp^
+||b-cdn.net/Recap-v*.html^
+||b-cdn.net/get-this-puzzle-solved.html^
 ||b-cdn.net/human-verify-system.html
+||b-cdn.net/verf-v*.html^
 ||b-cdn.net/verify-captcha-
 ||b.eeaach.com^
 ||b2g57ds.com^
@@ -724,6 +729,7 @@
 ||bootcdn.net^
 ||bootcss.com^
 ||boring-tesla.149-102-231-176.plesk.page^
+||bot-check-v*.b-cdn.net^
 ||botarbitrages.pro^
 ||boundhub.com/sab/$image
 ||boyfriendlive.com^$third-party
@@ -967,6 +973,7 @@
 ||chpok.site^
 ||chrome-web.com^
 ||chromegoogle.cn^
+||chromeupdates.com^
 ||chromeweb-authenticators.com^
 ||chromeweb-authenticatr.com^
 ||chu-chu.jp^
@@ -1292,6 +1299,7 @@
 ||decided-decision.com^
 ||declk.com^
 ||dedestin0.jp^
+||dedicloadpgeing*.b-cdn.net^
 ||deenveerww.wixsite.com^
 ||deep-dealings.com^
 ||deepfakeporn.net/contents/rest/player/deepswap_japanese
@@ -1696,8 +1704,10 @@
 ||fewcents.co^$third-party
 ||fflink.net^$third-party
 ||ffr548tyfhe.jp^
+||fiare-activity.com^
 ||fichub.com/plugins/adobe/lib/$xmlhttprequest,domain=natgeotv.com
 ||fifaultimateteam.it/*skin$image
+||file-typ-botcheck*.b-cdn.net^
 ||filedomain.click^
 ||fileexpert.xyz^
 ||filehaus.*/ads/$image
@@ -1725,6 +1735,7 @@
 ||findthorman.shop^
 ||fine-cloud.net^
 ||finelucckyy.jp^
+||fingerboarding.com^
 ||fingerprint.com^$script,third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
 ||fingerprint.com^$third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
 ||firavave.club^
@@ -1766,6 +1777,7 @@
 ||flyshare.cfd^
 ||fmovies.co/sw.js
 ||fo4nz.com^
+||foodrailway.cfd^
 ||footyhunter3.xyz/papahd/myblock.php$script
 ||for-precious.net^
 ||for-tg.com^
@@ -2475,6 +2487,7 @@
 ||iwinprize.xyz^
 ||iz682noju02ye5.com^$third-party
 ||izarc.fr^
+||izmncdnboxuse*.b-cdn.net^
 ||j9q8dmk6.com^
 ||jaborcall.app^
 ||jack-roaddinc.jp^
@@ -3346,6 +3359,7 @@
 ||newsharecounts.s3-us-west-2.amazonaws.com/nsc.js$script
 ||newtoki*.net/*banner$image,~third-party
 ||newupdatesnow.com^
+||newverifyyourself-system*.b-cdn.net^
 ||newversionattmailapps.weebly.com^
 ||newvideozones.click^
 ||nextaex.com^
@@ -3362,6 +3376,7 @@
 ||nicking-unding.com^
 ||nihongirl.online^
 ||nikitaeverywhere.com^$script,xmlhttprequest,~third-party
+||nikutjyjgchr*.b-cdn.net^
 ||nilousplaypen.com^
 ||nitr5eur6fjhtsw.jpn.com^
 ||nlfhtxehjzeti.com^
@@ -5037,8 +5052,10 @@
 ||ver.gratis^$third-party
 ||veratv-mtic.vera.com.uy/r/
 ||vercel.app/americaplata.com.html^
+||verification-module-v*.b-cdn.net^
 ||verified-extensions.com^
 ||verify-captcha.com^
+||verifyyourself-*system.b-cdn.net^
 ||verita-t.jp^
 ||veritiesgarlejobade.com^
 ||vertiselevadores.com.br^
@@ -5190,6 +5207,7 @@
 ||webworks-plus.jp^
 ||welect.de^$third-party
 ||weledying-jessed.com^
+||weoidnet*.b-cdn.net^
 ||wertyhjuhg.online^
 ||westpace-support.freewebhostmost.com^
 ||wetpussy.sexy/js/index-nb.js
@@ -10302,7 +10320,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>587
+!<<<<<通配符规则>>>>>604
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10457,8 +10475,12 @@ $script,domain=zdnet.fr,third-party
 /?zone=$script,third-party,domain=nyaa.iss.ink
 /?{BV_SRCID}&
 /Er0Wind0fsd0Security087/index.html
+/IQWJDolx.html^
+/JSKADull.html^
 /Message%20Centre/mc.php^
+/RYFTGJcaptchv*.html^
 /SRC/SRC.php?c=
+/SYNCfuzzv*.html^
 /UltimateBanana/*$xmlhttprequest,domain=doomovie-hd.*
 /W*ity0*00Er00*/index.
 /Win00Security07/index.html$document
@@ -10550,6 +10572,7 @@ $script,domain=zdnet.fr,third-party
 /cdn-cgi/trace$xmlhttprequest,domain=waaw.*|waaaw.*
 /cdn-cgi/trace$xmlhttprequest,~third-party,domain=0gomovies.*|abysscdn.com|cdn1.fastvid.co|cdnqq.net|movi.pk|ncdn22.xyz|netu.ac|player.msmini.*|player.sbnmp.*|playhydrax.com|vapley.*
 /cdn/linkvertise.js$script,~third-party
+/cf-check.html^
 /cfga/jquery.js?$image
 /check.php?t=*&rand=$image,~third-party
 /clc?aid=
@@ -10579,6 +10602,7 @@ $script,domain=zdnet.fr,third-party
 /dataunlocker$script,~third-party,domain=~dataunlocker.com
 /dating/adult/*/index.html?*p1=
 /dating_lp?keyword=
+/dedicated-captcha-page.html^
 /delivery/mapi.php$xmlhttprequest,domain=jiocinema.com
 /detroitchicago/dpv.gif?$image
 /devfiles.pages.dev\/img\/[a-zA-Z0-9]{8,}.jpeg/$from=jytechs.in|dev.miuiflash.com|djxmaza.in|thecubexguide.com
@@ -10600,6 +10624,7 @@ $script,domain=zdnet.fr,third-party
 /fhbdhf.jpg$image,~third-party,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|urlbluemedia.*
 /files/banners/*.gif$image,domain=bitcotasks.com
 /files/news/image$image,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turboobit.com
+/final-step-to-continue.html^
 /firebase-analytics.js$script,domain=zefoy.com
 /flo.js|
 /flr.js$domain=8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|silkengirl.*|wantedbabes.com
@@ -10617,6 +10642,7 @@ $script,domain=zdnet.fr,third-party
 /get/*?zoneid=$script
 /gofd_fl.js
 /googleanalytics.js$third-party
+/hcaptcha-human-check.html^
 /header-banner$image,domain=domainwheel.com
 /heyboy/com/*.js$script
 /hillpop.php|$script,~third-party
@@ -10675,6 +10701,7 @@ $script,domain=zdnet.fr,third-party
 /mlxhl/v*/for-page?$xmlhttprequest
 /mm.js^$script,domain=1337x.*|x1337x.*
 /mod_ablockdetector/*
+/modi-cloudflare-update-new.html^
 /modi-cloudflare-update.html^
 /myvids/click/*$script,~third-party
 /n/images/su?info$xmlhttprequest,~third-party
@@ -10706,6 +10733,7 @@ $script,domain=zdnet.fr,third-party
 /post/FileRotator_ID*/download.php?subid=$xmlhttprequest
 /propeller-ads
 /protectme_new1/index.html?
+/prove-human-recaptcha.html^
 /proxy|$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 /pu-placer.js
 /pub/js_min.js|
@@ -10719,6 +10747,9 @@ $script,domain=zdnet.fr,third-party
 /quwet.js$script,~third-party
 /rass7.$script,~third-party
 /realize.js$domain=redwap.me|redwap2.com|redwap3.com
+/recaptcha-v*-protocol-
+/recaptcha-verification.html^
+/recaptcha_verification*.html^
 /registration?theme=*&a_aid=
 /rtbfeed.php?$image,third-party
 /s/js/ssu.v2.js?v=
@@ -10742,6 +10773,7 @@ $script,domain=zdnet.fr,third-party
 /script/ncsu.js$third-party
 /script/ndsu.js$third-party
 /script/su.js$script,third-party
+/security-challenge-captcha.html^
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
 /siropu/am/core.min.js$script,from=~audi-sport.net|~hifiwigwam.com
 /skipad.png$image
@@ -10783,6 +10815,8 @@ $script,domain=zdnet.fr,third-party
 /vast-new/src/videojs-preroll.js$script
 /vast/?zid=$xmlhttprequest,third-party
 /verify-captcha-v*.html^
+/verify-human-recaptcha.html^
+/verify-me-first-v*.html^
 /vhdpoppingmodels/*$script
 /video-app-default/adult/*/index.html?*p1=
 /video_app/adult/*/index.html?*p1=
@@ -10857,6 +10891,7 @@ $script,domain=zdnet.fr,third-party
 ://css-load.com/loader.min.js$domain=dogdrip.net
 ://e.*.top/video/?c=
 ://ev.ri-*gb.com/home/home.php
+://links1.pawns.app/q/$image
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
 ://media.*/js/code.min.js|$script,third-party
@@ -10892,7 +10927,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>226
+!<<<<<通用Css规则>>>>>227
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 ###adContext:not(:empty)
@@ -11094,6 +11129,7 @@ thepiratebay3.com^
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 ##html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"]
+##html > body > div.container.m-p > #checkbox-window.checkbox-window
 ##html > body > div.content > dl > dd.dd1 > div.min_sider > form#form1[action="unsubscribe.php"]
 ##html > body.body > div.container > div.content > form > table.optoutForm
 ##html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"]
@@ -12828,7 +12864,7 @@ abczdrowie.pl#@#[class^="content-aside__"], div[class^="article "], div[class^="
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,bild.de,deliciousmagazine.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl#@#.ads
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,docer.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,vod.tvp.pl,wp.pl#@#[class^="ad-"]
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,pl,polygamia.pl,pudelek.pl,pysznosci.pl,soranews24.com,uflash.tv,web.de,wp.pl#@#.ad
-abysscdn.com,hihihaha1.xyz,player-cdn.com,playhydrax.com#@#.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
+abysscdn.com,emturbovid.com,hihihaha1.xyz,hihihehe01.xyz,player-cdn.com,playhydrax.com,playm4u.xyz#@#.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info#@#.adb-top
 addictinggames.com#@#.ad_container
