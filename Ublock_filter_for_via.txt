@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: o48DHvNLl+k0sVguzl+Kfw
-! Title: Ublock filter for Via(2024-12-18 08:51:22)
-! Version: 20241218085122
+! Checksum: KIbFiFfeSptOrDBqZvlJ8Q
+! Title: Ublock filter for Via(2024-12-19 00:13:15)
+! Version: 20241219001315
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-18 08:51:22
-! Total Count: 13083
-! Blocked Filters: 13083
+! Last modified: 2024-12-19 00:13:15
+! Total Count: 13085
+! Blocked Filters: 13085
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5499
+!<<<<<域名规则>>>>>5501
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1254,6 +1254,7 @@
 ||dalobatter.com^
 ||dancewave.online/js/dwab.js$script,~third-party
 ||dandelion-horsetail.work^
+||daotag.com/tag/$script,domain=exploader.net
 ||daporn.com/*banner$image
 ||daque.cn^
 ||dareka4te.shop^
@@ -3142,6 +3143,7 @@
 ||mirtiat.com^
 ||mirusiru.online^
 ||mirusiru.site^
+||misdeedtucked.shop^
 ||mithu02s.com^
 ||mityneedn.com^
 ||mixdrop.*/sw.js$script,~third-party
@@ -11232,7 +11234,7 @@ thepiratebay3.com^
 @@*$xmlhttprequest,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
 @@*$xmlhttprequest,script,~third-party,domain=allcryptoz.net|batmanfactor.com|crewbase.net|crewus.net|documentaryplanet.xyz|gametechreviewer.com|midebalonu.net|misterio.ro|seory.xyz|shinbhu.net|shinchu.net|substitutefor.com|talkforfitness.com|thefitbrit.co.uk|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
 @@*$xmlhttprequest,third-party,domain=infinityscans.net|infinityscans.org|infinityscans.xyz
-@@*$xmlhttprequest,~third-party,domain=cookiewebplay.xyz|ilovetoplay.xyz|quest4play.xyz|streamcaster.live|topembed.pw
+@@*$xmlhttprequest,~third-party,domain=cookiewebplay.xyz|cursomecanet.com|ilovetoplay.xyz|quest4play.xyz|streamcaster.live|topembed.pw
 @@*/assets/prebid/$script,xmlhttprequest,~third-party,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad2.$image,domain=sophiabushfan.net
 @@-ad0.$domain=azure.com
