@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PDSVasQajgzZ2yul+fwUmw
-! Title: Ublock filter for Via(2024-12-18 00:13:54)
-! Version: 20241218001354
+! Checksum: o48DHvNLl+k0sVguzl+Kfw
+! Title: Ublock filter for Via(2024-12-18 08:51:22)
+! Version: 20241218085122
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-18 00:13:54
-! Total Count: 13082
-! Blocked Filters: 13082
+! Last modified: 2024-12-18 08:51:22
+! Total Count: 13083
+! Blocked Filters: 13083
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -11157,7 +11157,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1948
+!<<<<<放行白名单>>>>>1949
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12010,6 +12010,7 @@ thepiratebay3.com^
 @@||gum.criteo.com/sid/json$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||gvl.ezodn.com/gvlcache/GVL.json$xmlhttprequest
 @@||h-microsoft.online-metrix.net^$xmlhttprequest,domain=ave9858.github.io|docs.atlasos.net|massgrave.dev|msdl.gravesoft.dev
+@@||h-usps.online-metrix.net^$script,domain=ips.usps.com
 @@||hanimesubth.com/assets/js/ads.core.js$script,~third-party
 @@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/prebid/*$script,domain=html5.gamedistribution.com
