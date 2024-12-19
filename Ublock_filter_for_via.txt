@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: TuCkqvtnPt5SWvzpsjkd3Q
-! Title: Ublock filter for Via(2024-12-19 08:51:49)
-! Version: 20241219085149
+! Checksum: /lQIaKG7xIMxds8JdJQ1pw
+! Title: Ublock filter for Via(2024-12-20 00:11:51)
+! Version: 20241220001151
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-19 08:51:49
-! Total Count: 13088
-! Blocked Filters: 13088
+! Last modified: 2024-12-20 00:11:51
+! Total Count: 13093
+! Blocked Filters: 13093
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5502
+!<<<<<域名规则>>>>>5506
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1945,6 +1945,7 @@
 ||getkmspico.com^
 ||getm.site^
 ||getmackeepersoftpro.xyz^
+||getmagic.moe^
 ||getmatch.jp^
 ||getnaughty.com^
 ||getsecurify.com^
@@ -4307,11 +4308,13 @@
 ||sites.google.com/view/blue-softs^
 ||sites.google.com/view/ex1aucnh3r/
 ||sites.google.com/view/ex1aucnh3r1/
+||sites.google.com/view/exlauncher11|
 ||sites.google.com/view/flechh|
 ||sites.google.com/view/hubgames|
 ||sites.google.com/view/kostsoft|
 ||sites.google.com/view/newtaskbar-themes^
 ||sites.google.com/view/nexol|
+||sites.google.com/view/projectxx1|
 ||sites.google.com/view/softs-download^
 ||sites.google.com/view/sora-ai-v2^
 ||sites.google.com/view/taskbar-themes^
@@ -5263,6 +5266,7 @@
 ||woman-busi.com^
 ||woman-good-job.work^
 ||wontent.powvideo.net^
+||wooflix.tv/api/block^
 ||wooqi.win^
 ||woowebtools.com/*.png$image
 ||workerz1.com^
@@ -11162,7 +11166,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1949
+!<<<<<放行白名单>>>>>1950
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11535,6 +11539,7 @@ thepiratebay3.com^
 @@||burzowo.info^$~third-party,script
 @@||businessinsider.in/analytics_js/*$script,~third-party
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
+@@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
 @@||c.adsco.re/|$script,domain=hotfrog.*
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|video.gazzetta.it
