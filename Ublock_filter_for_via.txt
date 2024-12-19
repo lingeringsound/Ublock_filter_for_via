@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: KIbFiFfeSptOrDBqZvlJ8Q
-! Title: Ublock filter for Via(2024-12-19 00:13:15)
-! Version: 20241219001315
+! Checksum: TuCkqvtnPt5SWvzpsjkd3Q
+! Title: Ublock filter for Via(2024-12-19 08:51:49)
+! Version: 20241219085149
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-19 00:13:15
-! Total Count: 13085
-! Blocked Filters: 13085
+! Last modified: 2024-12-19 08:51:49
+! Total Count: 13088
+! Blocked Filters: 13088
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5501
+!<<<<<域名规则>>>>>5502
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2230,6 +2230,7 @@
 ||hipma.jp^
 ||histats.com^$third-party
 ||historicaerials.com/js/adblock-detection.js^
+||historicaerials.com/js/checkuser.js^
 ||historicaerials.com/js/testuserad.js^
 ||hit.api.useinsider.com^$domain=akbank.com
 ||hitadsmedia.com^$third-party
@@ -5515,7 +5516,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4804
+!<<<<<网站单独规则>>>>>4806
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7563,6 +7564,7 @@ hotmovs.*##.videos-tube-friends
 hotmovs.*,pornclassic.tube,senzuri.tube,thegay.*,tubepornclassic.com,vjav.*,voyeurhit.*##.video-page__content > div.left + div[class]:last-child
 hotscope.tv##[style^="transform"]:has(#videoHolder)
 hotscope.tv##ul[style^="padding-top:"]
+hotscopes.*##.ml-auto.navbar-nav
 hotstar.com##div [data-testid^="bbtype-video"]
 hotxxxpussy.com,openxxxporn.com,xxxlargeporn.com,xxxpussyclips.com,xxxpussysextube.com##.imbar
 howtoremove.guide###gray_de
@@ -9432,6 +9434,7 @@ streamtape.*,watchadsontape.com##.play-overlay
 strikeout.*##.d-none.d-lg-block.col-lg-3
 strikeout.*##.m-1.btn-danger.btn
 strikeout.*##.w-100.position-absolute.h-100
+studwiz.com###KySENPmBUJDe
 studyflix.de##.huge-notification
 studylib.net##div[class]:has(> ins)
 stuff.tv##.wp-block-kelseymedia-blocks-block-squirrel-embed
@@ -11229,7 +11232,7 @@ thepiratebay3.com^
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|infinityscans.net|infinityscans.xyz|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|poqzn.xyz|promo-visits.site|quesignifi.ca|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|solvetube.*|starkroboticsfrc.com|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz
-@@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|designtagebuch.de|kiktu.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com
+@@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|cursomecanet.com|designtagebuch.de|kiktu.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com
 @@*$xmlhttprequest,method=head|get,domain=app.axenthost.com,third-party
 @@*$xmlhttprequest,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
 @@*$xmlhttprequest,script,~third-party,domain=allcryptoz.net|batmanfactor.com|crewbase.net|crewus.net|documentaryplanet.xyz|gametechreviewer.com|midebalonu.net|misterio.ro|seory.xyz|shinbhu.net|shinchu.net|substitutefor.com|talkforfitness.com|thefitbrit.co.uk|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
