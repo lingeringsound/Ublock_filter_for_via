@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 3NsPGNOR8MRy9bwkYWmmKg
-! Title: Ublock filter for Via(2024-12-20 08:48:31)
-! Version: 20241220084831
+! Checksum: LgU97YG6sI3skTdWcip7zQ
+! Title: Ublock filter for Via(2024-12-21 00:12:14)
+! Version: 20241221001214
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-20 08:48:31
-! Total Count: 13093
-! Blocked Filters: 13093
+! Last modified: 2024-12-21 00:12:14
+! Total Count: 13099
+! Blocked Filters: 13099
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5506
+!<<<<<域名规则>>>>>5511
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -224,6 +224,7 @@
 ||ads-verification-for-pay.vercel.app^
 ||ads.adrise.tv^$third-party
 ||ads.pinterest.com^$third-party
+||ads.the.tube^
 ||ads.youtube.com^$domain=~ads.youtube.com
 ||adservice.google.*/adsid/integrator.js?domain=$script,domain=anydebrid.com|hotdebrid.com
 ||adshort.tech^$third-party
@@ -1517,6 +1518,7 @@
 ||embedaio.cc/cdn-cgi/trace
 ||embedmoon.*/js/baf.js$script
 ||embols.com^
+||embroiderynaturalistsfighter.com^
 ||emorasp8.com^
 ||emoti-on.com^
 ||emovies.si/api/pop.php
@@ -1757,6 +1759,7 @@
 ||flanneldatedly.com^
 ||flash.cn^
 ||flaticon.com/_ga?
+||flatrelentlessperspective.com^
 ||flaxdescale.com^
 ||fle652.net^
 ||flexytalk.net^
@@ -2307,7 +2310,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2798,6 +2801,7 @@
 ||linksprf.com^$third-party
 ||linkvertise.net^$third-party
 ||liq27qbf.monster^
+||litaudrootsa.net^
 ||litlink.site^
 ||live.streamtheworld.com/ondemand/ars?$xmlhttprequest,third-party
 ||livechatlove.store^
@@ -4717,6 +4721,7 @@
 ||the-latest-version.com^
 ||the-match.jp^
 ||the-north-face.gr^
+||the.tube/js/simpleblocker.js^
 ||theannoyingsite.com^
 ||thebestoffers4you.net^
 ||thecartoonporntube.com/*.gif$image
@@ -11166,7 +11171,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1950
+!<<<<<放行白名单>>>>>1951
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12451,6 +12456,7 @@ thepiratebay3.com^
 @@||relay-client-c01.iocnt.net^$script,domain=businessinsider.de|www.businessinsider.de
 @@||relay-client-c03.iocnt.net^$script,domain=derstandard.at|derstandard.de|sportdeutschland.tv
 @@||request.dqst.pl/*/reader$xmlhttprequest,domain=namasce.pl
+@@||res.ads.nicovideo.jp/assets/js/ads2.js$domain=sp.nicovideo.jp
 @@||research.de.com/bb-mx/prime$xmlhttprequest,domain=joyn.de
 @@||reutersmedia.net/*/js/rcom-scroll-tracker.js$script,domain=reuters.com
 @@||rmwilliams.com/on/demandware.static/Sites-rmwINTL-Site/*/modules/app/app.tealium.js$script,~third-party
