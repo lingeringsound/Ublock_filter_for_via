@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lH6emH1ee/83wnGwaUREPQ
-! Title: Ublock filter for Via(2024-12-21 08:47:20)
-! Version: 20241221084720
+! Checksum: pEjkw/B046jlbKB6En1hJA
+! Title: Ublock filter for Via(2024-12-22 00:10:59)
+! Version: 20241222001059
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-21 08:47:20
-! Total Count: 13100
-! Blocked Filters: 13100
+! Last modified: 2024-12-22 00:10:59
+! Total Count: 13104
+! Blocked Filters: 13104
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5512
+!<<<<<域名规则>>>>>5516
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -437,6 +437,7 @@
 ||appxfree.com^
 ||appxfree.top^
 ||aqmessage.jp^
+||arabs.alarbda.com^
 ||arabseed.*/sw.js$script,~third-party
 ||aragontrack.com^$third-party
 ||arakusus.com^
@@ -2483,6 +2484,7 @@
 ||iscidine.com^
 ||ishort.in^$script,third-party
 ||island-vanity.com^
+||isolatedovercomepasted.com^
 ||italianlottery.com^
 ||iteparyleb.com^
 ||itsaol.com^
@@ -2524,6 +2526,7 @@
 ||javrave.club/ads/
 ||javseen.tv/fire2/popup*$script,~third-party
 ||javtsunami.com/crimson-unit-$script
+||javx.cc/terra.js^
 ||jayabaji3.com/bn-bd?aff=
 ||jayan-uvl.com^
 ||jdoasjfojuhod.com^
@@ -3259,6 +3262,7 @@
 ||muskevent.info^
 ||musktrump.io^
 ||muskusa.com^
+||mustersvyrnwy.top^
 ||mustwork.work^
 ||mw19c3mi5a.com^$third-party
 ||mwcvu.com^$third-party
