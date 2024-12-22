@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 7ilgkbnYpZ8Gtc2Ti9hYLw
-! Title: Ublock filter for Via(2024-12-22 08:53:14)
-! Version: 20241222085314
+! Checksum: WdyM2A2/IS41IiacpFzeiw
+! Title: Ublock filter for Via(2024-12-23 00:10:49)
+! Version: 20241223001049
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-22 08:53:14
-! Total Count: 13106
-! Blocked Filters: 13106
+! Last modified: 2024-12-23 00:10:49
+! Total Count: 13114
+! Blocked Filters: 13114
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5518
+!<<<<<域名规则>>>>>5523
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -586,6 +586,8 @@
 ||bdupload.*/sw.js$script,~third-party
 ||be-loaded.com^
 ||be-well.es^
+||beacons.ai/api/public_actions
+||beacons.ai/api/rtanalytics/
 ||beatstars.com/promos?
 ||beatstars.com/v3/promote/
 ||bebayb.cc^
@@ -2391,6 +2393,7 @@
 ||iirrrrrrii.wixsite.com^
 ||ija.xwi.mybluehost.me^
 ||ilil.in^
+||illinformed-imagination.com^
 ||ilovu.store^
 ||im-excellent.com^
 ||ima55notice.biz^
@@ -4516,6 +4519,7 @@
 ||stopundstart.de^$third-party
 ||storage.de.cloud.ovh.net^*/sarsor/avikingdynamic.js$script,third-party
 ||storageapi-new.fleek.co/*/yss/ind.html
+||store.steampowered.com/app/usabilitytracking/
 ||story-story.life^
 ||stowers-service.com^
 ||straightmenu.com^
@@ -4689,6 +4693,7 @@
 ||telegramkp.com^
 ||telegramkv.com^
 ||telegramm.site^
+||telegramtn.com^
 ||telegremapp.me^
 ||telemetry*.transcend.io^
 ||telergaom.top^
@@ -5532,7 +5537,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4806
+!<<<<<网站单独规则>>>>>4808
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5733,8 +5738,10 @@ abs-cbn.com##.MuiGrid-root.MuiGrid-item:not([data-testid="test-grid-item"]):has(
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht:has(div[class^="imp-adSlot"])
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q:has(div[class^="imp-adSlot"])
 abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht):has(div[class^="imp-adSlot"])
+abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht, .css-1d3bbye):has(div[class^="imp-adSlot"])
 abs-cbn.com##div[id^="div-articleOOP"] ~ div:has(.imp-adSlot-0)
 abs-cbn.com##div[style*="2147483647"]:has(.imp-adSlot-0)
+abs-cbn.com##div[style*="2147483647"]:has(> div[style$="z-index: 999;"])
 abs-cbn.com##div[style*="999999"]:has(div[style^="background-color:#ECEDEF;"] > p)
 abxxx.com##.video-page__content > div.left > section
 abxxx.com##.video__wrapper > div.wrapper > section
@@ -11178,7 +11185,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1951
+!<<<<<放行白名单>>>>>1952
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12702,6 +12709,7 @@ thepiratebay3.com^
 @@||thewizardsmanse.com^$script,~third-party
 @@||thgss.com^$script,~third-party
 @@||tierlists.com/detroitchicago/tulsa.js^$script,~third-party
+@@||titulky.com^$script,~third-party
 @@||tlx.3lift.com/header/auction?$xmlhttprequest,domain=aternos.org
 @@||tmp.a2zapk.com^$xmlhttprequest,domain=smartkhabrinews.com
 @@||tn.voyeurhit.com/contents/$image,domain=voyeurhit.tube
