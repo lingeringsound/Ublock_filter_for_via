@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MIFd64CH4mSQnT+YNXX0ow
-! Title: Ublock filter for Via(2024-12-23 08:50:28)
-! Version: 20241223085028
+! Checksum: mHwuRH0LQ7QtTTvstwyHdg
+! Title: Ublock filter for Via(2024-12-24 00:12:23)
+! Version: 20241224001223
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-23 08:50:28
-! Total Count: 13114
-! Blocked Filters: 13114
+! Last modified: 2024-12-24 00:12:23
+! Total Count: 13125
+! Blocked Filters: 13125
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5523
+!<<<<<域名规则>>>>>5528
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -869,6 +869,7 @@
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
 ||cdn.jsdelivr.net/npm/maari/dist/maari.min.js$script,third-party
 ||cdn.jsdelivr.net^*/arlinablock.js$script
+||cdn.jwplayer.com/libraries/QSNV25sR.js^$script,domain=www.ratemyprofessors.com
 ||cdn.mekobre.com/ads^$image,domain=mekobre.com
 ||cdn.metricastats.com^
 ||cdn.nsimg.net/cache/landing^
@@ -2551,6 +2552,7 @@
 ||jmdinfotechs.com^
 ||jnjn.jp^
 ||joinads.me^$third-party
+||joinhoney.com/evs
 ||jootizud.net^
 ||jorpetz.com/kahitano/banner.gif
 ||jourl.live^
@@ -3537,6 +3539,7 @@
 ||orga29.com^
 ||orgasm.com/images/girl3.jpg
 ||orgyxxxhub.com/js/arjlk.js
+||origincracknerves.com^
 ||orownsdow.com^
 ||orundompes.com^
 ||oshleofurts.com^
@@ -4590,6 +4593,7 @@
 ||swarm.video/tutelehd.js
 ||swarmmanga.com/*/custom.js
 ||swe.sweet-sweet-sweets.com^
+||sweatypositive.com^
 ||sweet-1ove.jp^
 ||sweet-hot-lady.top^
 ||sweetmemo.net^
@@ -5262,6 +5266,7 @@
 ||windows.net/*/flscn.js
 ||windows.net/*?bcda=
 ||windowspro.de/stats/
+||winfreebigwindeal.top^
 ||wired.com/ams/page-ads.js$script
 ||wishhoree1890.com^
 ||wisoper.click^
@@ -5537,7 +5542,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4808
+!<<<<<网站单独规则>>>>>4813
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5735,10 +5740,12 @@ abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
 abs-cbn.com##.MuiGrid-root.MuiGrid-item:not([data-testid="test-grid-item"]):has(> div.MuiBox-root > div[style] > div > div[style] > div[class^="imp-adSlot"])
+abs-cbn.com##.css-15j76c0:has(> div[style*="z-index: 99999"])
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht:has(div[class^="imp-adSlot"])
 abs-cbn.com##.css-168qn5i, .css-1slfery, .css-xcd31q:has(div[class^="imp-adSlot"])
 abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht):has(div[class^="imp-adSlot"])
 abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht, .css-1d3bbye):has(div[class^="imp-adSlot"])
+abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht, .css-1d3bbye, .css-ob4cto):has(div[class^="imp-adSlot"])
 abs-cbn.com##div[id^="div-articleOOP"] ~ div:has(.imp-adSlot-0)
 abs-cbn.com##div[style*="2147483647"]:has(.imp-adSlot-0)
 abs-cbn.com##div[style*="2147483647"]:has(> div[style$="z-index: 999;"])
@@ -6148,6 +6155,8 @@ bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2[class*="b_algo"][
 bing.com##li.b_algo:has(> [class="b_caption"] > p[class*=" "])
 bing.com##li.b_algo:has(> h2 > a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
+bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
+bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bingotingo.com###please-wait
 birdurls.com###bg_popup
 birdurls.com###link-view > br
@@ -10153,6 +10162,7 @@ wupfile.com##[id*=ScriptRoot]
 wuxia.click###chapterText + div.mantine-Container-root
 wuxia.click##.mantine-Center-root + br + div[class^="mantine-"]:has(> .adsbygoogle)
 wuxia.click##.mantine-Container-root + .mantine-Container-root + br + br + div[class^="mantine-"]:last-of-type:has([alt~="Ad"])
+wvt.free.nf##.tracking-btn
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) .ar-1-1.bg-gray-l[style*="width"]:has(a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
@@ -11185,7 +11195,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1952
+!<<<<<放行白名单>>>>>1953
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11250,6 +11260,7 @@ thepiratebay3.com^
 #@#a[href^="https://www.sheetmusicplus.com/?aff_id="]
 #@#div[id^="div-gpt-"]
 1cloudfile.com#@#.advert-wrapper
+9db.jp#@##footer
 @@*$image,domain=a2zupload.com|rtxkeeda.com
 @@*$image,xmlhttprequest,script,domain=japscan.lol
 @@*$redirect-rule,domain=d3ward.github.io
