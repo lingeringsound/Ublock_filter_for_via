@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: t8c3uRx+aq1ojNlAUQwUYQ
-! Title: Ublock filter for Via(2024-12-24 08:48:13)
-! Version: 20241224084813
+! Checksum: ZR6vZOH7itfLzpDhFsZklw
+! Title: Ublock filter for Via(2024-12-25 00:11:56)
+! Version: 20241225001156
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-24 08:48:13
-! Total Count: 13127
-! Blocked Filters: 13127
+! Last modified: 2024-12-25 00:11:56
+! Total Count: 13132
+! Blocked Filters: 13132
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5529
+!<<<<<域名规则>>>>>5532
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -629,6 +629,7 @@
 ||bethivetranh2024.weebly.com^
 ||beverfood.com/immagini/*1920$image
 ||beyourxfriend.com^
+||bg-mania.jp/assets/js/anymanagerrecover.js^
 ||bgmateriali.com/js/detector.js$script,~third-party
 ||bhplay.me/player/assets/devtools-detector/*$script,~third-party
 ||bibian4k.com^
@@ -1898,6 +1899,8 @@
 ||fx640b4a8v2n.net^
 ||fzj3v7sch2xg5gosh60vpkrth5c6cngvj5ivd9kg5ajcdl2vlp2ocj5fjbto.me^
 ||g.doubleclick.net/gampad/ads?env=$xmlhttprequest,domain=wunderground.com
+||g.doubleclick.net/gpt/pubads_impl_$domain=cornwalllive.com
+||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=cornwalllive.com
 ||g5chat.com^
 ||g5u.pw/sw.js$script,~third-party
 ||g6-gonight.org^
@@ -2314,7 +2317,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|wetteronline.de|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -5543,7 +5546,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4814
+!<<<<<网站单独规则>>>>>4816
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5841,6 +5844,8 @@ alphaporno.com,hellmoms.com,hellporno.*,tubewolf.com,zedporn.com##.bnnrs-player
 alphaporno.com,katestube.com,pornwhite.com,zedporn.com##.bottom-banners
 alphaporno.com,zedporn.com##.block-banner
 alrakoba.net,ispazio.net,scrapywar.com##.stream-item-widget
+altema.jp###sidebar-in > div.widget_text:has(.tuika-widget > a[href*="utm_"])
+altema.jp##.koukoku_common_tag
 alternativeto.net##div[style]:has(> div[class^="Adsense"])
 alternativeto.net##li[data-testid]:has([href^="/outgoing/"])
 alvinreports.com##.stream-item-above-post-content
