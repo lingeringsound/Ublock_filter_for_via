@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mHwuRH0LQ7QtTTvstwyHdg
-! Title: Ublock filter for Via(2024-12-24 00:12:23)
-! Version: 20241224001223
+! Checksum: t8c3uRx+aq1ojNlAUQwUYQ
+! Title: Ublock filter for Via(2024-12-24 08:48:13)
+! Version: 20241224084813
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-24 00:12:23
-! Total Count: 13125
-! Blocked Filters: 13125
+! Last modified: 2024-12-24 08:48:13
+! Total Count: 13127
+! Blocked Filters: 13127
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5528
+!<<<<<域名规则>>>>>5529
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2722,6 +2722,7 @@
 ||kuronekoyamato-jp.com^
 ||kuronekoyamzyato.top^
 ||kvador.com/images/*.gif$image
+||kvkmodule.4dq.com^
 ||kvv.jxc.mybluehost.me^
 ||l-chat.jp^
 ||l-one-one.com^
@@ -5542,7 +5543,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4813
+!<<<<<网站单独规则>>>>>4814
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8459,6 +8460,7 @@ nhl.com##.ad-centered
 nhl.com##.ad-responsive-slot
 nhl.com##.native-ad-slot
 nichapk.com,easyworldbusiness.com,riveh.com##center, [src*="google.com/recaptcha/"]:others()
+nicomanga.com###welcome-bar
 nifty.com##dd[class^="Setsuzoku_servicePromo"]
 nifty.com##div[class^="Setsuzoku_ourServicesDList"] > dl > dt:first-child
 nightdreambabe.com##.banner_place
