@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Qiq6NQ5WFfdafgbAdP0LKQ
-! Title: Ublock filter for Via(2025-01-01 08:54:04)
-! Version: 20250101085404
+! Checksum: jcZGtbeOv/fkF9JaDv9wNw
+! Title: Ublock filter for Via(2025-01-02 00:11:47)
+! Version: 20250102001147
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-01 08:54:04
-! Total Count: 13192
-! Blocked Filters: 13192
+! Last modified: 2025-01-02 00:11:47
+! Total Count: 13194
+! Blocked Filters: 13194
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5567
+!<<<<<域名规则>>>>>5568
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2577,6 +2577,7 @@
 ||jourl.live^
 ||jp-helplineweb-chrsmjinfgtizonedswebs-01.s3.ap-southeast-2.amazonaws.com^
 ||jp.rian-rian.com^
+||jplivestreamhd.live^
 ||jpopsingles.eu/*.php
 ||jqbwhhxvcytgh.com^
 ||jqueri.at^
@@ -10414,7 +10415,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>611
+!<<<<<通配符规则>>>>>612
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10990,6 +10991,7 @@ $script,domain=zdnet.fr,third-party
 ://creative.*/widgets/Spot/lib.js$third-party
 ://css-load.com/loader.min.js$domain=dogdrip.net
 ://e.*.top/video/?c=
+://email-analytics.meetup.com/$image
 ://ev.ri-*gb.com/home/home.php
 ://links1.pawns.app/q/$image
 ://loc.*.com/renderer/renderer.js|$script,third-party
