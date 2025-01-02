@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ctTNMxxBBAcJbM5OveiqFQ
-! Title: Ublock filter for Via(2025-01-02 08:47:49)
-! Version: 20250102084749
+! Checksum: Y1GQXnJswXA49LUjln8WOQ
+! Title: Ublock filter for Via(2025-01-03 00:12:29)
+! Version: 20250103001229
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-02 08:47:49
-! Total Count: 13208
-! Blocked Filters: 13208
+! Last modified: 2025-01-03 00:12:29
+! Total Count: 13217
+! Blocked Filters: 13217
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5570
+!<<<<<域名规则>>>>>5578
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -595,6 +595,7 @@
 ||be-well.es^
 ||beacons.ai/api/public_actions
 ||beacons.ai/api/rtanalytics/
+||beakpee.com^
 ||beatstars.com/promos?
 ||beatstars.com/v3/promote/
 ||bebayb.cc^
@@ -1729,6 +1730,7 @@
 ||fichub.com/plugins/adobe/lib/$xmlhttprequest,domain=natgeotv.com
 ||fifaultimateteam.it/*skin$image
 ||file-typ-botcheck*.b-cdn.net^
+||filecrypt.co/*.php^$~third-party
 ||filedomain.click^
 ||fileexpert.xyz^
 ||filehaus.*/ads/$image
@@ -1999,6 +2001,7 @@
 ||girlscanner.online/ph_co.js$script
 ||girlsml.com^
 ||gitbook.com/v1/integrations/googleanalytics/
+||github.com/_private/browser/errors
 ||github.com/linarweloper/Blumfarmbot^
 ||github.io/health-records-x-ray
 ||givememmastreams.com^$third-party
@@ -2015,6 +2018,7 @@
 ||gll.metricaga.com^
 ||global-riward77.com^
 ||globalreward77.com^
+||glocmaift.net^
 ||gloria-divination.
 ||glysinew.com^
 ||gmatch.jp^
@@ -2518,6 +2522,7 @@
 ||iz682noju02ye5.com^$third-party
 ||izarc.fr^
 ||izmncdnboxuse*.b-cdn.net^
+||j-mxponyz.love^
 ||j9q8dmk6.com^
 ||jaborcall.app^
 ||jack-roaddinc.jp^
@@ -2760,6 +2765,7 @@
 ||layer-pj.com^
 ||lazada.bbc6666.com^
 ||lazada.gg^
+||lcskincarecenter.com^
 ||lcwpaketleme.com^
 ||le.tter99.com^
 ||leadnote.me^
@@ -2845,6 +2851,7 @@
 ||lm-mousey-happy.com^
 ||lmoox5.net^
 ||lnkr.us^
+||loadingfreerar.top^
 ||local-bang.com^
 ||locals.dating^
 ||localsgowild.com^
@@ -5458,6 +5465,7 @@
 ||xyg.application-sns.com^
 ||xylentura.su^
 ||xypthe.com^
+||xyz/script/www.dolldivine.com.js
 ||xyz/|$xmlhttprequest,third-party,method=head,domain=nsw2u.com
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
@@ -5584,7 +5592,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4838
+!<<<<<网站单独规则>>>>>4839
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6644,6 +6652,7 @@ darsalam.net##body > #overover[style*="silver;"]
 darsalam.net##body > #overover[style*="silver;"] ~ #obrazek
 datanodes.to##[href^="https://cinemaunlocked.com"]
 datanodes.to##[href^="https://fmovies-hd.to"]
+datanodes.to##div[class] > center > a[href][rel="nofollow"][target="_blank"]
 dausel.co,onle.co,pastpapers.papacambridge.com##[id^="aswift"]
 dbsmanga.com,demonslayermanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readjujutsukaisen.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.justify-center > div > b:first-child, .justify-center > div > br:nth-of-type(-n+5), .justify-center > div > center
 dbsmanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.js-a-container
@@ -11386,7 +11395,7 @@ thepiratebay3.com^
 @@/isomorphic/system/modules/ISC_Analytics.js$script,~third-party
 @@/js/prebid-ads.js$script,~third-party
 @@/libs/advertisement.js?ad_ids=*&show_ad=$script,~third-party
-@@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|thestar.co.uk|yorkshirepost.co.uk|smsonline.cloud
+@@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|smsonline.cloud|thestar.co.uk|webdesignledger.com|yorkshirepost.co.uk
 @@/mma/?t$image,domain=newsblaze.com
 @@/popup*$script,~third-party,domain=streamingcommunity.*
 @@/signup.php?mode=async&action=show_security_code$image,~third-party
@@ -12428,7 +12437,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,third-party,domain=fplstatistics.co.uk
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|smsonline.cloud
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|smsonline.cloud|webdesignledger.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=busuu.com|cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_$script,domain=rekidai-info.github.io
@@ -12627,7 +12636,7 @@ thepiratebay3.com^
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js|$script,domain=dogdrip.net|infinityfree.com|smsonline.cloud
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js|$script,domain=dogdrip.net|infinityfree.com|smsonline.cloud|webdesignledger.com
 @@||securepubads.g.doubleclick.net^$script,domain=bearteach.com|mope.io
 @@||securepubads.g.doubleclick.net^$xmlhttprequest,domain=krunker.io
 @@||seekingalpha.com/*/captcha/$script,~third-party
@@ -12716,7 +12725,7 @@ thepiratebay3.com^
 @@||static.adsnative.com/static/js/render.*.js$script,domain=streamable.com
 @@||static.bbc.co.uk/radio/player/*/script/logger.js$script,domain=bbc.co.uk
 @@||static.chartbeat.com^$domain=repubblica.it
-@@||static.criteo.net/js/ld/publishertag.prebid.js|$xmlhttprequest,domain=dogdrip.net|infinityfree.com|smsonline.cloud
+@@||static.criteo.net/js/ld/publishertag.prebid.js|$xmlhttprequest,domain=dogdrip.net|infinityfree.com|smsonline.cloud|webdesignledger.com
 @@||static.goolive.de/media/static/images/smileys/ad.gif$image
 @@||static.iqiyi.com/js/player_v1/sdk/*$script,~third-party
 @@||static.knowledgehub.com/global/images/ping.gif?$xmlhttprequest,~third-party
