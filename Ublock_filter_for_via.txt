@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: jcZGtbeOv/fkF9JaDv9wNw
-! Title: Ublock filter for Via(2025-01-02 00:11:47)
-! Version: 20250102001147
+! Checksum: ctTNMxxBBAcJbM5OveiqFQ
+! Title: Ublock filter for Via(2025-01-02 08:47:49)
+! Version: 20250102084749
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-02 00:11:47
-! Total Count: 13194
-! Blocked Filters: 13194
+! Last modified: 2025-01-02 08:47:49
+! Total Count: 13208
+! Blocked Filters: 13208
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5568
+!<<<<<域名规则>>>>>5570
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4283,6 +4283,8 @@
 ||sexyaporno.com/chat_$script
 ||sez-pr.com^
 ||sez.jp^
+||seznam.cz/*/static/js/ssp.js
+||seznam.cz/*/v2/vast?
 ||sf.ezoiccdn.com/ezossp/https/neurotray.com/?local_ga_js=$script,third-party,domain=neurotray.com
 ||sfc.bz^
 ||sfg.jp^
@@ -5582,7 +5584,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4830
+!<<<<<网站单独规则>>>>>4838
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9299,6 +9301,12 @@ sexvideos.host###ontop_spots
 sexvideos.host,xnxxcom.xyz##.fluid-spots
 sexykittenporn.com##.hr.babes
 sexywomeninlingerie.com##[href^="http://join.wearehairy.com/track/"]
+seznam.cz##.atm-ad-label
+seznam.cz##.mol-ssp-advert-content--responsive
+seznam.cz##.ssp-advert
+seznam.cz##div[data-dot="gadgetCommercial"]
+seznam.cz##div[data-dot^="reklama"]
+seznam.cz##li[data-analytics-entity-type="nativeSspAdvert"]
 seznam.cz,seznamzpravy.cz##[class*="advert"]
 sfirmware.com##.buy_on_amazon
 sfirmware.com##.cc-window
@@ -9390,6 +9398,8 @@ slideshare.net##[class^="StickyVerticalInterstitialAd"]
 slideshare.net##[data-freestar-ad]
 slideshare.net##[data-testid="freestar-video-ad"]
 slideshare.net##[id^="between-recs-ad-"]
+slovnik.seznam.cz##.BannerSSP
+slovnik.seznam.cz##.TextSSP
 slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streampiay.*,streanplay.*###uverlay
 sluttyrat.com###under_player_button
 sluttyrat.com##.topRightSquare
@@ -10415,7 +10425,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>612
+!<<<<<通配符规则>>>>>613
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10699,6 +10709,7 @@ $script,domain=zdnet.fr,third-party
 /css/jquerymin*$script,~third-party,domain=assia.tv|assia4.com|assia24.com
 /css/jquerymin-adstera.js^$script
 /cuid/?f=https%$xmlhttprequest,third-party
+/cwl.js$domain=seznam.cz|seznamzpravy.cz|novinky.cz|super.cz|sport.cz|prozeny.cz|garaz.cz|nasezahrada.com|forum24.cz
 /dao/dao-fel.js$script,~third-party
 /dataunlocker$script,~third-party,domain=~dataunlocker.com
 /dating/adult/*/index.html?*p1=
@@ -11261,7 +11272,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1956
+!<<<<<放行白名单>>>>>1959
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11429,6 +11440,7 @@ thepiratebay3.com^
 @@||ad.admitad.com/g/*&ulp=http
 @@||ad.doubleclick.net/clk*travel*&destinationURL=
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it
+@@||ad.plus/cdn-cgi/trace|$xmlhttprequest,method=head,domain=opentunnel.net
 @@||addthis.com/js/*/addthis_widget.js$script,domain=sainsburys.jobs
 @@||adengine.snigelweb.com/w3schools.com/*/adngin.js^$script,third-party,domain=w3schools.com
 @@||adinplay.com/libs/aiptag/assets/adsbygoogle.js^$xmlhttprequest,domain=devast.io
@@ -12118,6 +12130,7 @@ thepiratebay3.com^
 @@||gvl.ezodn.com/gvlcache/GVL.json$xmlhttprequest
 @@||h-microsoft.online-metrix.net^$xmlhttprequest,domain=ave9858.github.io|docs.atlasos.net|massgrave.dev|msdl.gravesoft.dev
 @@||h-usps.online-metrix.net^$script,domain=ips.usps.com
+@@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||hanimesubth.com/assets/js/ads.core.js$script,~third-party
 @@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/prebid/*$script,domain=html5.gamedistribution.com
@@ -13166,6 +13179,7 @@ saltspringexchange.com#@#.single-ad
 sankakucomplex.com#@#.scad
 saveinsta.cam#@#.aplvideo
 search.crowdsearch.net#@##adslot1
+seznam.cz#@#.adMiddle
 shiropro-re.net#@##ad_link
 si.com#@#.is-below-header-ad
 smartadserver.*#@#[href*=".smartadserver.com"]
