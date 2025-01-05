@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: rTSldi5s03AZi3S8X1BQfA
-! Title: Ublock filter for Via(2025-01-05 08:53:26)
-! Version: 20250105085326
+! Checksum: XBrHDueZWMH1rmv3hNTbdQ
+! Title: Ublock filter for Via(2025-01-06 00:11:36)
+! Version: 20250106001136
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-05 08:53:26
-! Total Count: 13226
-! Blocked Filters: 13226
+! Last modified: 2025-01-06 00:11:36
+! Total Count: 13232
+! Blocked Filters: 13232
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5581
+!<<<<<域名规则>>>>>5583
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3056,6 +3056,7 @@
 ||maturewomenevm5.com^
 ||max-adserv.com^$third-party
 ||maxerotica.com^
+||maxsecurityultimate.com^
 ||maytail.jp^
 ||mc-aoyama.com^
 ||mc.yandex.ru/metrika/tag.js|$script,domain=hotdebrid.com
@@ -3565,6 +3566,7 @@
 ||optimizely.com^$domain=mindbodygreen.com
 ||orangeclickmedia.com/api/adserver/
 ||orawakle.com^
+||orcaslicer.co^
 ||orcaslicer.info^
 ||orcaslicer.net^
 ||orders-processed.com^
@@ -5595,7 +5597,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4842
+!<<<<<网站单独规则>>>>>4845
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7845,6 +7847,8 @@ japannews.yomiuri.co.jp##div[class^="ad_background"]
 japscan.lol##.FjZoRa
 japscan.lol##.navbar-nav > li#navpromo2.nav-item
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
+japscan.lol##body > div.container > #blare-inter[style*="position"]
+japscan.lol##body > div.container > #interstitial[style*="display"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
@@ -9939,6 +9943,7 @@ uploadroot.com##.buttonDownload
 uploadshare.net##.advert-wrapper
 uploady.io###dlnk
 uploady.io###downloadbtn[style$="z-index: 99999;"]
+upns.ink,upns.one,upns.xyz##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01; cursor: pointer;"]
 upornia.*##.intwo__img
 upornia.*##.jw-title-secondary
 upornia.*##.video-videos-slider
@@ -11287,7 +11292,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1962
+!<<<<<放行白名单>>>>>1963
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11353,7 +11358,7 @@ thepiratebay3.com^
 #@#div[id^="div-gpt-"]
 1cloudfile.com#@#.advert-wrapper
 9db.jp#@##footer
-@@*$image,domain=a2zupload.com|rtxkeeda.com
+@@*$image,domain=a2zupload.com|cursomecanet.com|rtxkeeda.com
 @@*$image,xmlhttprequest,script,domain=japscan.lol
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
@@ -11999,6 +12004,7 @@ thepiratebay3.com^
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||fiches-auto.fr^$script,~third-party
 @@||file4go.*/ads.js$script,~third-party
+@@||filecrypt.co/captcha/captcha.php$image,~third-party
 @@||filegrade.com^$script,~third-party
 @@||firestonecompleteautocare.com/*/VisitorAPI.js$script,~third-party
 @@||flightapi.travix.com/flight$xmlhttprequest,domain=cheaptickets.nl|vayama.com
