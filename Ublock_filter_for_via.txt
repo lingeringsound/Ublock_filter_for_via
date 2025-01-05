@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: z9JkVwWuj4wiCZGFsN4E0Q
-! Title: Ublock filter for Via(2025-01-05 00:11:06)
-! Version: 20250105001107
+! Checksum: rTSldi5s03AZi3S8X1BQfA
+! Title: Ublock filter for Via(2025-01-05 08:53:26)
+! Version: 20250105085326
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-05 00:11:07
-! Total Count: 13225
-! Blocked Filters: 13225
+! Last modified: 2025-01-05 08:53:26
+! Total Count: 13226
+! Blocked Filters: 13226
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5595,7 +5595,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4841
+!<<<<<网站单独规则>>>>>4842
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5762,6 +5762,7 @@ $script,domain=zdnet.fr,third-party
 85videos.com##.haha-body
 85videos.com,alphaporno.com,anon-v.com,cartoonvideos247.com,crazyporn.xxx,daporn.com,ebony8.com,familyporn.tv,heavyfetish.com,lesbian8.com,lolhentai.net,love4porn.com,mangovideo.*,maturetubehere.com,nudogram.com,pornachi.com,pornfd.com,pornhits.com,shemalesin.com,thethothub.com,thothub.*,watchmdh.to,webcamsdolls.com,zedporn.com##.sponsor
 85videos.com,emturbovid.com###pop
+88z.io##body > iframe[style^="left: 0px; bottom:"]
 8muses.com###content > div > .gallery > a.t-hover.c-tile:has(iframe[src^="/banner/"])
 8muses.com##.a-image
 8muses.com,anoboy.*,filma24.*,latesthdmovies.*,netpornix.*,nsw2u.*,teamos-hkrg.com##[href^="https://bit.ly/"]
