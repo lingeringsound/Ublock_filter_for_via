@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XBrHDueZWMH1rmv3hNTbdQ
-! Title: Ublock filter for Via(2025-01-06 00:11:36)
-! Version: 20250106001136
+! Checksum: ad6uwfNupGjA4r9DDHVcjA
+! Title: Ublock filter for Via(2025-01-06 08:52:22)
+! Version: 20250106085222
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-06 00:11:36
+! Last modified: 2025-01-06 08:52:22
 ! Total Count: 13232
 ! Blocked Filters: 13232
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -10572,7 +10572,7 @@ $script,domain=zdnet.fr,third-party
 .xyz/ddos/1tn.html?clickid=
 .xyz/event|$xmlhttprequest,third-party
 /$.min.js|$script,third-party
-/*.php$domain=maxstream.video|maxlinks.online|maxstreams.site
+/*.php$domain=maxlinks.online|maxstream.video|maxstreams.site
 //images\/(?:Banner\d{1,2}\.|[a-z]{3}\/)/$image,~third-party,domain=thesquarshers.com
 /1/index.html?c=
 /1/index.html?p1=
@@ -11477,8 +11477,8 @@ thepiratebay3.com^
 @@||ads.adthrive.com/sites/*/ads.min.js$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
 @@||ads.bdcraft.net/js/interstitial.js$script,~third-party
 @@||ads.hausbau-forum.de/openad.js$script,~third-party
-@@||ads.host-cdn.net/*.js|$script,domain=maxstream.video|maxlinks.online|maxstreams.site|uprot.net
-@@||ads.host-cdn.net/ads2.js$script,domain=maxstream.video|maxlinks.online|maxstreams.site|uprot.net
+@@||ads.host-cdn.net/*.js|$script,domain=maxlinks.online|maxstream.video|maxstreams.site|uprot.net
+@@||ads.host-cdn.net/ads2.js$script,domain=maxlinks.online|maxstream.video|maxstreams.site|uprot.net
 @@||ads.imprezzer.com/js/imprezzer2.min.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
