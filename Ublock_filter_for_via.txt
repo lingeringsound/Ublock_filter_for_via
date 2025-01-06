@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ad6uwfNupGjA4r9DDHVcjA
-! Title: Ublock filter for Via(2025-01-06 08:52:22)
-! Version: 20250106085222
+! Checksum: aLR+BU3zBvFGSCN6k3jV4g
+! Title: Ublock filter for Via(2025-01-07 00:12:38)
+! Version: 20250107001238
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-06 08:52:22
-! Total Count: 13232
-! Blocked Filters: 13232
+! Last modified: 2025-01-07 00:12:38
+! Total Count: 13241
+! Blocked Filters: 13241
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5583
+!<<<<<域名规则>>>>>5589
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1095,6 +1095,8 @@
 ||compass-holding.com^
 ||computer-bild.de/_static-assets/homad/homad.js
 ||conackmar.com^
+||conceivesaucerfalcon.com^
+||condemnfundraiserjune.com^
 ||confiant-integrations.global.ssl.fastly.net/*/gpt_and_prebid$script,domain=seeitlive.co
 ||config-factory.com^$third-party
 ||config.fp.measure.office.com/conf/v*/*/fpconfig.min.json$script
@@ -2337,7 +2339,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|game8.jp|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|tvtv.us|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -3091,6 +3093,7 @@
 ||mediafire.com/folder/u2is2eo3euyqd/
 ||mediafire.com/folder/v6itahr4p07b1/
 ||mediapass.com^$third-party
+||medlafire.co^
 ||medlafire.eu^
 ||meet-flirts.com^
 ||meet-up.jp^
@@ -4777,6 +4780,7 @@
 ||texto.click^$third-party
 ||tfehmsag.xyz^
 ||tg.sv/panggahokeee^
+||tgk-me.pro^
 ||tgram.ru^
 ||tgwidget.com^$third-party
 ||thaiairways.com/static/common/js/wt_js/webtrends.min.js$script,~third-party
@@ -4942,6 +4946,7 @@
 ||tritinia.org/wp-content/plugins/from-grave-and-back-hidden/js/custom.js
 ||tritondigital.com^$domain=accuradio.com
 ||tron-free.com/banner/$image,~third-party
+||tronkwintun.com^
 ||trripwire.com^
 ||truecrypt.fr^
 ||truecrypt.it^
@@ -5019,6 +5024,7 @@
 ||unafei-kokusai.com^
 ||unblocked.name/zpp/*$script,domain=unblocked.name
 ||unbrick.id^$third-party
+||uncotorture.com^
 ||unetbootin.net^
 ||unetbootin.org^
 ||uni-setup.media^
@@ -5597,7 +5603,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4845
+!<<<<<网站单独规则>>>>>4847
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6963,6 +6969,7 @@ exploader.net##a[style*="display:"][href^="https://al.dmm.co.jp"] img
 exploader.net##a[style*="display:"][href^="https://al.dmm.co.jp"] span
 exploader.net##a[style^="display:"][href^="https://al.dmm.co.jp"]
 exploader.net##article > div[style="display: flex;align-items: center;margin-bottom: 5px;"] > div[data-pr="1"][style^="min-height: 20px;"]
+express.co.uk###web-strip-banner
 express.de,mopo.de###nativendo-marginal
 express.de,mopo.de##.dm_ad
 expresscrypto.io,gratispaste.com,megapastes.com,pastepvp.org##.content > center
@@ -9405,6 +9412,7 @@ skidrowcodex.net##.widget_text:has(script[src$="/invoke.js"])
 skidrowcodexgames.com##[class^="aligncenter wp-image-"]
 skmedix.pl###aswift_4_host
 skyblock.bz##.card[style]
+slashgear.com##.before-ad
 slate.com##.slate-ad
 sleazyneasy.com##.container-aside > .item
 sleazyneasy.com##.remove-spots
@@ -11061,7 +11069,8 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>228
+!<<<<<通用Css规则>>>>>229
+###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 ###adContext:not(:empty)
