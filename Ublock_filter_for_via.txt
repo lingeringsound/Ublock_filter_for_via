@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aLR+BU3zBvFGSCN6k3jV4g
-! Title: Ublock filter for Via(2025-01-07 00:12:38)
-! Version: 20250107001238
+! Checksum: ZqsL/HnhQLnSMdTdtoXUsw
+! Title: Ublock filter for Via(2025-01-07 08:48:57)
+! Version: 20250107084857
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-07 00:12:38
+! Last modified: 2025-01-07 08:48:57
 ! Total Count: 13241
 ! Blocked Filters: 13241
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
