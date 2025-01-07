@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZqsL/HnhQLnSMdTdtoXUsw
-! Title: Ublock filter for Via(2025-01-07 08:48:57)
-! Version: 20250107084857
+! Checksum: nXnyrUdul6yj2hZwaT+jiQ
+! Title: Ublock filter for Via(2025-01-08 00:28:14)
+! Version: 20250108002814
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-07 08:48:57
-! Total Count: 13241
-! Blocked Filters: 13241
+! Last modified: 2025-01-08 00:28:14
+! Total Count: 13245
+! Blocked Filters: 13245
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5589
+!<<<<<域名规则>>>>>5591
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -795,6 +795,7 @@
 ||business-help-temp-
 ||business-manager-report.com^
 ||business-manange.com^
+||businesslnstagram.zya.me^
 ||bustymeets.com^
 ||butya.top^
 ||buyvisblog.com^
@@ -3937,6 +3938,7 @@
 ||pubgxbest.com^
 ||publicationgroup.substack.com^
 ||publicbot.pro^
+||publicrecords.netronline.com/js/checkuser.js$script,~third-party
 ||publisher.linkvertise.com^$third-party,domain=~linkvertise.*
 ||pugliain.net/wp-content/uploads/*.gif$image
 ||punemirror.com/api/v1$xmlhttprequest,~third-party
@@ -11301,7 +11303,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1963
+!<<<<<放行白名单>>>>>1965
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12458,6 +12460,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|cursomecanet.com|heim.jp|radioviainternet.nl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ord=$xmlhttprequest,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,third-party,domain=fplstatistics.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|smsonline.cloud|webdesignledger.com
@@ -12622,6 +12625,7 @@ thepiratebay3.com^
 @@||sawlive.tv^$script,~third-party
 @@||sbs.com.au/ondemand/ad/peel1.js$script,domain=sbs.com.au
 @@||sbs.com.au^$xmlhttprequest,~third-party
+@@||sbs.demdex.net/dest5.html?d_nsid=0&ord=$xmlhttprequest,domain=sbs.com.au
 @@||scatfap.com/scat-porn/modules/vids/misc_static/adverts.js
 @@||scdn.co/cdn/js/gtag.$script,domain=spotify.com
 @@||scdn.cxense.com/cx.$script,domain=wsj.com
