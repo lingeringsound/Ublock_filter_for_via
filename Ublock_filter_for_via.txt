@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: nXnyrUdul6yj2hZwaT+jiQ
-! Title: Ublock filter for Via(2025-01-08 00:28:14)
-! Version: 20250108002814
+! Checksum: UTKoCuGnb3kFFD9ZvBAimQ
+! Title: Ublock filter for Via(2025-01-08 08:48:53)
+! Version: 20250108084853
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-08 00:28:14
-! Total Count: 13245
-! Blocked Filters: 13245
+! Last modified: 2025-01-08 08:48:53
+! Total Count: 13256
+! Blocked Filters: 13256
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5591
+!<<<<<域名规则>>>>>5600
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -388,6 +388,7 @@
 ||antoiew.com^
 ||antonellapouncedcrewels.com^
 ||any2st777fhy.com^
+||anydebrid.com^$document
 ||anyporn.com/if2/
 ||aolcdn.com/ads/adswrappermsni.js$script,domain=msn.com
 ||ap-ple.biz^
@@ -648,6 +649,7 @@
 ||biguz.net/vast$xmlhttprequest,~third-party
 ||bigwank.com/extension/aine/
 ||bigwank.com/sw.js$script,~third-party
+||bigwarp.io/images/close.png$image
 ||bilbocine.com^$document
 ||bilsevvakfi.org^
 ||binance.org^$xmlhttprequest,domain=animexin.vip
@@ -1318,6 +1320,7 @@
 ||deaimatch.jp^
 ||deaisaito.jp^
 ||dealhunt.website^
+||debridlink.com^$document
 ||decided-decision.com^
 ||declk.com^
 ||dedestin0.jp^
@@ -1359,6 +1362,7 @@
 ||di-ana.jp^
 ||di02.biz^
 ||diamond-line.net^
+||difficultyanthonymode.com^
 ||digiseller.ru^$third-party,domain=leechall.com
 ||digital-mail.jp^
 ||digitalxnetwork.com^
@@ -2315,7 +2319,9 @@
 ||hostingcloud.*^$third-party
 ||hostpdf.co^
 ||hotabis.com/*/ads$image
+||hotbgapare.com^
 ||hotdeals360.com^$third-party
+||hotdebrid.com^$document
 ||hotpornfile.org/wp-content/themes/hpf-theme/assets/img/search-ash.gif$image
 ||hotrokhachhang-
 ||hotscope.tv/_next/static/chunks/pages/go-$script,~third-party
@@ -3058,6 +3064,7 @@
 ||maturedating.com^
 ||maturewomenevm5.com^
 ||max-adserv.com^$third-party
+||maxdebrid.com^$document
 ||maxerotica.com^
 ||maxsecurityultimate.com^
 ||maytail.jp^
@@ -3683,6 +3690,7 @@
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partner.googleadservices.com/gampad/cookie.js?domain=$script,domain=anydebrid.com|hotdebrid.com
 ||partner.pcloud.com/media/banners/*300250.png
+||partners-show.com^
 ||partners-tds.com^
 ||partners2.das-onlinespiel.de^$third-party
 ||partyroll.xyz^
@@ -4079,6 +4087,7 @@
 ||relish.com^$domain=seriouseats.com
 ||reminderasking.com^
 ||remor.xyz^
+||remotescout24.com/static/plugins/publicSpace/detect-adblocker/
 ||remp.nv.ua/assets/lib/js/remplib.js
 ||rencontres-coquines.jacquieetmichel.net^
 ||renewalsuspiciousrattle.com^
@@ -5605,7 +5614,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4847
+!<<<<<网站单独规则>>>>>4848
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8451,6 +8460,7 @@ myabandonware.com##a[target="_top"]:has(img)
 myanimelist.net##[class*="-malside"]
 myanimelist.net##[class*="-pdatla"]
 mycinema.pro##[fdo]
+mydaddy.cc###adc
 mydaddy.cc###ovrl_ad
 mydownloadtube.*##.movie-box > .vert-add
 mydramalist.com##.is-desktop-ads
@@ -11303,7 +11313,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1965
+!<<<<<放行白名单>>>>>1966
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13188,6 +13198,7 @@ nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
+outletarredamento.it#@#.ad-link:not(.adsbox)
 pcgamer.com#@#.hawk-widget
 pcwelt.de#@#a[href^="https://pvn.mediamarkt.de/"]
 pcwelt.de#@#a[href^="https://pvn.saturn.de/"]
