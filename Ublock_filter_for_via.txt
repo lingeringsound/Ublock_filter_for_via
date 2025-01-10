@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: rshpAMNxBvbRvHHbBve66A
-! Title: Ublock filter for Via(2025-01-10 08:50:44)
-! Version: 20250110085044
+! Checksum: y3IFW9huC7Xhk5gQ7z6WFA
+! Title: Ublock filter for Via(2025-01-11 00:12:38)
+! Version: 20250111001238
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-10 08:50:44
-! Total Count: 13269
-! Blocked Filters: 13269
+! Last modified: 2025-01-11 00:12:38
+! Total Count: 13273
+! Blocked Filters: 13273
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5604
+!<<<<<域名规则>>>>>5606
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2349,7 +2349,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.us|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2568,6 +2568,7 @@
 ||javseen.tv/fire2/popup*$script,~third-party
 ||javtsunami.com/crimson-unit-$script
 ||javx.cc/terra.js^
+||jaya9.app/?af=
 ||jayabaji3.com/bn-bd?aff=
 ||jayan-uvl.com^
 ||jdoasjfojuhod.com^
@@ -4915,6 +4916,7 @@
 ||tr.link/push/push.js$script,~third-party
 ||tr1net.com^
 ||track.bcvc.mobi^
+||track.chkr7.com^
 ||track.link-tds.com^
 ||track.opt-tds.com^
 ||track.torarymor.world^
@@ -5618,7 +5620,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4851
+!<<<<<网站单独规则>>>>>4852
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -10199,6 +10201,7 @@ wetter.de##.outbrain-ad-slot
 wetteronline.*###topcontainer
 wetteronline.de###woCsiAdContent
 wetteronline.de###woRect
+wh40k.lexicanum.com##.vm-placement
 whathifi.com###ultimedia_wrapper
 whathifi.com##.dfp-leaderboard-container
 whatsappmods.net##.fa-clock-o
@@ -11324,7 +11327,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1968
+!<<<<<放行白名单>>>>>1969
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12463,6 +12466,7 @@ thepiratebay3.com^
 @@||omggamer.com/detroitchicago/dayton.js$script,~third-party
 @@||onasider.top/tc$xmlhttprequest,domain=free-content.pro
 @@||onceagain.mooo.com/prebid.js$script,domain=bigbtc.win
+@@||onelink.me/*://app/
 @@||onelinksmartscript.appsflyer.com/onelink-smart-script-latest.js$script,domain=timesnownews.com
 @@||oninet.ne.jp/sakigakesoft/s/holmes-geojson.js$~third-party,strict1p
 @@||oninet.ne.jp/sakigakesoft/s/leaf_main.js$script,~third-party,strict1p
