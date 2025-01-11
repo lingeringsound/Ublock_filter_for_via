@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: elgIWR9zfQVAyKGROsbyaQ
-! Title: Ublock filter for Via(2025-01-11 08:49:51)
-! Version: 20250111084952
+! Checksum: LWuICiknYLiANLdLePpamg
+! Title: Ublock filter for Via(2025-01-12 00:11:13)
+! Version: 20250112001113
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-11 08:49:52
-! Total Count: 13279
-! Blocked Filters: 13279
+! Last modified: 2025-01-12 00:11:13
+! Total Count: 13284
+! Blocked Filters: 13284
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5611
+!<<<<<域名规则>>>>>5615
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1124,6 +1124,7 @@
 ||convertwithwave.com^
 ||conveyancingportal.com^
 ||coolcast2.com/z-$script
+||copeescan.es^
 ||copyhomework.com^
 ||copynet.com.mx/Message%20Centre/
 ||copyrightcontent.org/ub/ub.js
@@ -1968,6 +1969,7 @@
 ||geheimerseitensprung.com^
 ||gekkei-jyu-gekkei-jyu.com^
 ||gekkeijyu-gekkeijyu.com^
+||gellyte.es^
 ||genetick4zwtf6c8mh5.jp^
 ||genoanime.tv/block-ads/
 ||geoflix.me^
@@ -2396,6 +2398,7 @@
 ||icelz.to/lib.js
 ||icetraff.com^
 ||ichlnk.com^
+||icloud.apple-*.cn^
 ||iconstaff.top^
 ||icontent.us^
 ||icpkw0333.info^
@@ -4043,6 +4046,7 @@
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 ||rawgit.com/Pocketart/$script,third-party
 ||rawgit.com/fahimraza/FK/master/ad-unblocker.js^$script
+||razorpay.com/v1/track
 ||rbchidraulica.com.br/info/verify^
 ||rblx.land^
 ||rcestershir.com^
@@ -7780,8 +7784,8 @@ imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com,steamcrackedgames.com##.blin
 imgadult.com,imgdrive.net,imgwallet.com##.bottom_abs
 imgadult.com,imgdrive.net,imgwallet.com,minioppai.org##.centered
 imgair.net,imgbaex.store,imgbah.online,imgbahxg.sbs,imgbaie.online,imgbake.cfd,imgbango.store,imgbbfg.pics,imgbbnhi.shop,imgbcxs.store,imgbcxsb.store,imgbdl.store,imgbier.store,imgbimn.store,imgblaze.net,imgbncvnv.sbs,imgbnwe.shop,imgbqb.sbs,imgbqw.store,imgbty.store,imgbuba.online,imgbutrt.store,imgbvdf.sbs,imgbwe.store,imgbxs.online,imgbyrev.sbs,imgcao.store,imgcssd.shop,imgcsxx.shop,imgezx.sbs,imgfa.store,imgfrost.net,imggune.shop,imghqqbg.shop,imgiruyw.online,imgjajhe.sbs,imgjbxzjv.shop,imgjhrjjr.pics,imgjjtr.sbs,imgjmgfgm.shop,imgjvmbbm.shop,imgkkabm.shop,imgleko.pics,imgluki.pics,imgmffg.sbs,imgmffgtr.sbs,imgmffmv.sbs,imgmgf.sbs,imgmjj.store,imgmyqbm.shop,imgnbg.sbs,imgnbii.shop,imgnffe.pics,imgngc.sbs,imgngh.sbs,imgnmh.cfd,imgnngr.sbs,imgnnnf.pics,imgnnnvbrf.sbs,imgnwe.online,imgoebn.sbs,imgolemn.sbs,imgpaiki.online,imgpaiou.online,imgpke.sbs,imgqazx.sbs,imgqbbds.sbs,imgqec.online,imgqge.store,imgqklw.shop,imgqnnnebrf.sbs,imgqte.sbs,imgqxb.online,imgrei.online,imgrwqz.pics,imgteq.online,imgtex.online,imgtgd.shop,imgthbm.shop,imgtuta.online,imgtweqz.pics,imgubfd.online,imguee.sbs,imgutbbn.online,imguthes.sbs,imgutiyu.online,imgutry.online,imguwjsd.sbs,imgwag.cfd,imgwak.online,imgwang.cfd,imgwbfh.online,imgwekr.online,imgwety.sbs,imgwia.buzz,imgwqr.online,imgwwqbm.shop,imgwww.store,imgxabm.shop,imgxhs.store,imgxuh.cfd,imgxune.sbs,imgxxbdf.sbs,imgxytw.cfd,imgxza.store,imgxzgf.pics,imgycgey.sbs,imgyer.store,imgyhq.shop,imgyruy.cfd,imgyusa.cfd,imgyyeryt.pics,imgyyqey.sbs,picbbbde.cfd,picbbc.one,picbbdr.one,picbbeq.cfd,picbcxvxa.sbs,picbdd.cfd,picbest.one,picbhrt.one,picbqqa.sbs,pichfer.cfd,picjbet.shop,picjgfjet.shop,pickjsn.cfd,picmsh.sbs,picnerr.cfd,picnft.shop,picngt.shop,picnrrt.one,picnwqez.sbs,picqaxs.cfd,picqqw.one,picqr.one,picqtwe.one,picqweff.cfd,picsjre.one,pictbbf.shop,pictryhab.shop,picuenr.sbs,picxnkjkhdf.sbs,picxxdd.cfd,piczzaq.one,piczzxsw.cfd,pixbkghxa.sbs,pixbnab.shop,pixbryexa.sbs,pixdfdj.shop,pixdfdjkkr.shop,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixlev.*,pixmos.shop,pixnbrqw.sbs,pixnbrqwg.sbs,pixqbngg.shop,pixqkhgrt.shop,pixqwet.shop,pixrqqz.shop,pixsera.net,pixtryab.shop,vestimage.site##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgair.net,imgblaze.net,imgfrost.net,vestimage.site,imgwia.buzz,pixlev.*,imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd,imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd,imgwang.cfd,imgwety.sbs,imgxuh.cfd,imgxytw.cfd,imgycgey.sbs,imgyruy.cfd,imgyusa.cfd,imgyyqey.sbs,imgyer.store,imgxhs.store,imgwekr.online,imgwbfh.online,imgwak.online,imgutry.online,imgutiyu.online,imgutbbn.online,imgubfd.online,imgrei.online,imgqec.online,imgpaiou.online,imgpaiki.online,imgmjj.store,imgfa.store,imgbutrt.store,imgbty.store,imgbdl.store,imgngh.sbs,imgbbfg.pics,imgjhrjjr.pics,imgleko.pics,imgluki.pics,imgnffe.pics,imgnnnf.pics,imgrwqz.pics,imgtweqz.pics,imgxzgf.pics,imgyyeryt.pics,picbbc.one,picbbdr.one,picbest.one,picbhrt.one,picnrrt.one,picqqw.one,picqr.one,picqtwe.one,picsjre.one,piczzaq.one,imgqazx.sbs,imgiruyw.online,picnerr.cfd,pichfer.cfd,picbbeq.cfd,picqaxs.cfd,picxxdd.cfd,picqweff.cfd,pickjsn.cfd,piczzxsw.cfd,picbbbde.cfd,picbdd.cfd,imgbahxg.sbs,imgxune.sbs,imgqklw.shop,pixqkhgrt.shop,pixqbngg.shop,pixqwet.shop,pixmos.shop,imgtgd.shop,imgcsxx.shop,imgqklw.shop,pixqkhgrt.shop,pixqbngg.shop,pixqwet.shop,pixmos.shop,imgtgd.shop,imgcsxx.shop,imgcssd.shop,imguwjsd.sbs,pictbbf.shop,pixbryexa.sbs,picbqqa.sbs,pixbkghxa.sbs,imgmgf.sbs,picbcxvxa.sbs,imguee.sbs,imgmffmv.sbs,imgbqb.sbs,imgbyrev.sbs,imgbncvnv.sbs,pixtryab.shop,imggune.shop,pictryhab.shop,pixbnab.shop,imgbnwe.shop,imgbbnhi.shop,imgnbii.shop,imghqqbg.shop,imgyhq.shop,pixnbrqwg.sbs,pixnbrqw.sbs,picmsh.sbs,imgpke.sbs,picuenr.sbs,imgolemn.sbs,imgoebn.sbs,picnwqez.sbs,imgjajhe.sbs,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixdfdjkkr.shop,pixdfdj.shop,picnft.shop,pixrqqz.shop,picngt.shop,picjgfjet.shop,picjbet.shop,imgkkabm.shop,imgxabm.shop,imgthbm.shop,imgmyqbm.shop,imgwwqbm.shop,imgjvmbbm.shop,imgjbxzjv.shop,imgjmgfgm.shop,picxnkjkhdf.sbs,imgxxbdf.sbs,imgnngr.sbs,imgjjtr.sbs,imgqbbds.sbs,imgbvdf.sbs,imgqnnnebrf.sbs,imgnnnvbrf.sbs##div[class][style="display: block;"]
-imgair.net,imgblaze.net,imgfrost.net,vestimage.site,imgwia.buzz,pixlev.*,imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd,imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd,imgwang.cfd,imgwety.sbs,imgxuh.cfd,imgxytw.cfd,imgycgey.sbs,imgyruy.cfd,imgyusa.cfd,imgyyqey.sbs,imgyer.store,imgxhs.store,imgwekr.online,imgwbfh.online,imgwak.online,imgutry.online,imgutiyu.online,imgutbbn.online,imgubfd.online,imgrei.online,imgqec.online,imgpaiou.online,imgpaiki.online,imgmjj.store,imgfa.store,imgbutrt.store,imgbty.store,imgbdl.store,imgngh.sbs,imgbbfg.pics,imgjhrjjr.pics,imgleko.pics,imgluki.pics,imgnffe.pics,imgnnnf.pics,imgrwqz.pics,imgtweqz.pics,imgxzgf.pics,imgyyeryt.pics,picbbc.one,picbbdr.one,picbest.one,picbhrt.one,picnrrt.one,picqqw.one,picqr.one,picqtwe.one,picsjre.one,piczzaq.one,imgqazx.sbs,imgiruyw.online,picnerr.cfd,pichfer.cfd,picbbeq.cfd,picqaxs.cfd,picxxdd.cfd,picqweff.cfd,pickjsn.cfd,piczzxsw.cfd,picbbbde.cfd,picbdd.cfd,imgbahxg.sbs,imgxune.sbs,imgqklw.shop,pixqkhgrt.shop,pixqbngg.shop,pixqwet.shop,pixmos.shop,imgtgd.shop,imgcsxx.shop,imgqklw.shop,pixqkhgrt.shop,pixqbngg.shop,pixqwet.shop,pixmos.shop,imgtgd.shop,imgcsxx.shop,imgcssd.shop,imguwjsd.sbs,pictbbf.shop,pixbryexa.sbs,picbqqa.sbs,pixbkghxa.sbs,imgmgf.sbs,picbcxvxa.sbs,imguee.sbs,imgmffmv.sbs,imgbqb.sbs,imgbyrev.sbs,imgbncvnv.sbs,pixtryab.shop,imggune.shop,pictryhab.shop,pixbnab.shop,imgbnwe.shop,imgbbnhi.shop,imgnbii.shop,imghqqbg.shop,imgyhq.shop,pixnbrqwg.sbs,pixnbrqw.sbs,picmsh.sbs,imgpke.sbs,picuenr.sbs,imgolemn.sbs,imgoebn.sbs,picnwqez.sbs,imgjajhe.sbs,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixdfdjkkr.shop,pixdfdj.shop,picnft.shop,pixrqqz.shop,picngt.shop,picjgfjet.shop,picjbet.shop,imgkkabm.shop,imgxabm.shop,imgthbm.shop,imgmyqbm.shop,imgwwqbm.shop,imgjvmbbm.shop,imgjbxzjv.shop,imgjmgfgm.shop,picxnkjkhdf.sbs,imgxxbdf.sbs,imgnngr.sbs,imgjjtr.sbs,imgqbbds.sbs,imgbvdf.sbs,imgqnnnebrf.sbs,imgnnnvbrf.sbs##div[style="width:100%;height:110px"]
+imgair.net,imgbaex.store,imgbah.online,imgbahxg.sbs,imgbaie.online,imgbake.cfd,imgbango.store,imgbbfg.pics,imgbbnhi.shop,imgbcxs.store,imgbcxsb.store,imgbdl.store,imgbier.store,imgbimn.store,imgblaze.net,imgbncvnv.sbs,imgbnwe.shop,imgbqb.sbs,imgbqw.store,imgbty.store,imgbuba.online,imgbutrt.store,imgbvdf.sbs,imgbwe.store,imgbxs.online,imgbyrev.sbs,imgcao.store,imgcssd.shop,imgcsxx.shop,imgezx.sbs,imgfa.store,imgfrost.net,imggune.shop,imghqqbg.shop,imgiruyw.online,imgjajhe.sbs,imgjbxzjv.shop,imgjhrjjr.pics,imgjjtr.sbs,imgjmgfgm.shop,imgjvmbbm.shop,imgkkabm.shop,imgleko.pics,imgluki.pics,imgmffg.sbs,imgmffgtr.sbs,imgmffmv.sbs,imgmgf.sbs,imgmjj.store,imgmyqbm.shop,imgnbg.sbs,imgnbii.shop,imgnffe.pics,imgngc.sbs,imgngh.sbs,imgnmh.cfd,imgnngr.sbs,imgnnnf.pics,imgnnnvbrf.sbs,imgnwe.online,imgoebn.sbs,imgolemn.sbs,imgpaiki.online,imgpaiou.online,imgpke.sbs,imgqazx.sbs,imgqbbds.sbs,imgqec.online,imgqge.store,imgqklw.shop,imgqnnnebrf.sbs,imgqte.sbs,imgqxb.online,imgrei.online,imgrwqz.pics,imgteq.online,imgtex.online,imgtgd.shop,imgthbm.shop,imgtuta.online,imgtweqz.pics,imgubfd.online,imguee.sbs,imgutbbn.online,imguthes.sbs,imgutiyu.online,imgutry.online,imguwjsd.sbs,imgwag.cfd,imgwak.online,imgwang.cfd,imgwbfh.online,imgwekr.online,imgwety.sbs,imgwia.buzz,imgwqr.online,imgwwqbm.shop,imgwww.store,imgxabm.shop,imgxhs.store,imgxuh.cfd,imgxune.sbs,imgxxbdf.sbs,imgxytw.cfd,imgxza.store,imgxzgf.pics,imgycgey.sbs,imgyer.store,imgyhq.shop,imgyruy.cfd,imgyusa.cfd,imgyyeryt.pics,imgyyqey.sbs,picbbbde.cfd,picbbc.one,picbbdr.one,picbbeq.cfd,picbcxvxa.sbs,picbdd.cfd,picbest.one,picbhrt.one,picbqqa.sbs,pichfer.cfd,picjbet.shop,picjgfjet.shop,pickjsn.cfd,picmsh.sbs,picnerr.cfd,picnft.shop,picngt.shop,picnrrt.one,picnwqez.sbs,picqaxs.cfd,picqqw.one,picqr.one,picqtwe.one,picqweff.cfd,picsjre.one,pictbbf.shop,pictryhab.shop,picuenr.sbs,picxnkjkhdf.sbs,picxxdd.cfd,piczzaq.one,piczzxsw.cfd,pixbkghxa.sbs,pixbnab.shop,pixbryexa.sbs,pixdfdj.shop,pixdfdjkkr.shop,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixlev.*,pixmos.shop,pixnbrqw.sbs,pixnbrqwg.sbs,pixqbngg.shop,pixqkhgrt.shop,pixqwet.shop,pixrqqz.shop,pixtryab.shop,vestimage.site##div[class][style="display: block;"]
+imgair.net,imgbaex.store,imgbah.online,imgbahxg.sbs,imgbaie.online,imgbake.cfd,imgbango.store,imgbbfg.pics,imgbbnhi.shop,imgbcxs.store,imgbcxsb.store,imgbdl.store,imgbier.store,imgbimn.store,imgblaze.net,imgbncvnv.sbs,imgbnwe.shop,imgbqb.sbs,imgbqw.store,imgbty.store,imgbuba.online,imgbutrt.store,imgbvdf.sbs,imgbwe.store,imgbxs.online,imgbyrev.sbs,imgcao.store,imgcssd.shop,imgcsxx.shop,imgezx.sbs,imgfa.store,imgfrost.net,imggune.shop,imghqqbg.shop,imgiruyw.online,imgjajhe.sbs,imgjbxzjv.shop,imgjhrjjr.pics,imgjjtr.sbs,imgjmgfgm.shop,imgjvmbbm.shop,imgkkabm.shop,imgleko.pics,imgluki.pics,imgmffg.sbs,imgmffgtr.sbs,imgmffmv.sbs,imgmgf.sbs,imgmjj.store,imgmyqbm.shop,imgnbg.sbs,imgnbii.shop,imgnffe.pics,imgngc.sbs,imgngh.sbs,imgnmh.cfd,imgnngr.sbs,imgnnnf.pics,imgnnnvbrf.sbs,imgnwe.online,imgoebn.sbs,imgolemn.sbs,imgpaiki.online,imgpaiou.online,imgpke.sbs,imgqazx.sbs,imgqbbds.sbs,imgqec.online,imgqge.store,imgqklw.shop,imgqnnnebrf.sbs,imgqte.sbs,imgqxb.online,imgrei.online,imgrwqz.pics,imgteq.online,imgtex.online,imgtgd.shop,imgthbm.shop,imgtuta.online,imgtweqz.pics,imgubfd.online,imguee.sbs,imgutbbn.online,imguthes.sbs,imgutiyu.online,imgutry.online,imguwjsd.sbs,imgwag.cfd,imgwak.online,imgwang.cfd,imgwbfh.online,imgwekr.online,imgwety.sbs,imgwia.buzz,imgwqr.online,imgwwqbm.shop,imgwww.store,imgxabm.shop,imgxhs.store,imgxuh.cfd,imgxune.sbs,imgxxbdf.sbs,imgxytw.cfd,imgxza.store,imgxzgf.pics,imgycgey.sbs,imgyer.store,imgyhq.shop,imgyruy.cfd,imgyusa.cfd,imgyyeryt.pics,imgyyqey.sbs,picbbbde.cfd,picbbc.one,picbbdr.one,picbbeq.cfd,picbcxvxa.sbs,picbdd.cfd,picbest.one,picbhrt.one,picbqqa.sbs,pichfer.cfd,picjbet.shop,picjgfjet.shop,pickjsn.cfd,picmsh.sbs,picnerr.cfd,picnft.shop,picngt.shop,picnrrt.one,picnwqez.sbs,picqaxs.cfd,picqqw.one,picqr.one,picqtwe.one,picqweff.cfd,picsjre.one,pictbbf.shop,pictryhab.shop,picuenr.sbs,picxnkjkhdf.sbs,picxxdd.cfd,piczzaq.one,piczzxsw.cfd,pixbkghxa.sbs,pixbnab.shop,pixbryexa.sbs,pixdfdj.shop,pixdfdjkkr.shop,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixlev.*,pixmos.shop,pixnbrqw.sbs,pixnbrqwg.sbs,pixqbngg.shop,pixqkhgrt.shop,pixqwet.shop,pixrqqz.shop,pixtryab.shop,vestimage.site##div[style="width:100%;height:110px"]
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
 imgbaron.com##div[style^="display: block; position: fixed; z-index"]
 imgbaron.com##p.newsbar_b
@@ -10481,7 +10485,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>616
+!<<<<<通配符规则>>>>>617
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10541,6 +10545,7 @@ $script,domain=zdnet.fr,third-party
 *preRoll$xmlhttprequest,domain=porngo.com
 -google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
 -load.com/loader.min.js|$domain=dogdrip.net|infinityfree.com|smsonline.cloud
+-load.com/script/$xmlhttprequest,domain=dogdrip.net|infinityfree.com|smsonline.cloud
 .*%2Fwf%2Fopen%3Fupn%3D$image
 ./M5q5.js$script
 .at/bilder/*.jpg|$script,~third-party
