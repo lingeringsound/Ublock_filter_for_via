@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 4fr93Emh7iymkL+5u9bhtw
-! Title: Ublock filter for Via(2025-01-12 08:54:29)
-! Version: 20250112085429
+! Checksum: JjMyNT5RJ8Imf7qWwR3zsw
+! Title: Ublock filter for Via(2025-01-13 00:10:50)
+! Version: 20250113001050
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-12 08:54:29
-! Total Count: 13284
-! Blocked Filters: 13284
+! Last modified: 2025-01-13 00:10:50
+! Total Count: 13286
+! Blocked Filters: 13286
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5615
+!<<<<<域名规则>>>>>5617
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -458,6 +458,7 @@
 ||ariabcon.com^
 ||ariva.de/js/fcm-sw.js$script,~third-party
 ||arkadiumhosted.com/*/adsBlob/$xmlhttprequest,domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|miamiherald.com|standard.co.uk|word.tips
+||arousalx.com^
 ||artofxxx.net^$image,domain=watchjavonline.com
 ||aruble.net^$third-party
 ||arvgroup.az/hash/
@@ -5346,6 +5347,7 @@
 ||willalland.info^
 ||windows.net/*/esc.js
 ||windows.net/*/flscn.js
+||windows.net/*/media/beep.mp3
 ||windows.net/*?bcda=
 ||windows.net/js/jsd1.js
 ||windows.net/js/jsd2.js
@@ -10961,7 +10963,7 @@ $script,domain=zdnet.fr,third-party
 /strip_ngn_2020_august$script,domain=porcore.com
 /sum.js?i=*&v=
 /sw-vodlocker.to.js$script
-/sw.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|blademaster666.com|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|culonas.com.ve|d0000d.com|d000d.com|d0o0d.com|desktophut.com|do0od.com|dood.*|doods.pro|dooood.*|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ds2play.com|ds2video.com|ebooksite.org|emulatorsite.com|filechan.org|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|hotfile.io|isosite.org|lolabits.se|luchoedu.org|lupaste.com|macsite.info|mangasite.org|megamovies.org|megaupload.nz|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|openload.cc|patchsite.net|pdfsite.net|play1002.com|pornovenezolano.com.ve|productkeysite.com|qeylo.net|rapidshare.nu|romsite.org|seriale-po-polsku.pl|seriesite.net|share-online.is|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|venezporn.com|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
+/sw.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|blademaster666.com|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|culonas.com.ve|d0000d.com|d000d.com|d0o0d.com|desktophut.com|do0od.com|dood.*|doods.pro|dooodster.com|dooood.*|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ds2play.com|ds2video.com|ebooksite.org|emulatorsite.com|filechan.org|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|hotfile.io|isosite.org|lolabits.se|luchoedu.org|lupaste.com|macsite.info|mangasite.org|megamovies.org|megaupload.nz|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|openload.cc|patchsite.net|pdfsite.net|play1002.com|pornovenezolano.com.ve|productkeysite.com|qeylo.net|rapidshare.nu|romsite.org|seriale-po-polsku.pl|seriesite.net|share-online.is|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|venezporn.com|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /sw.js$script,~third-party,domain=eio.io|exe.app|exee.io|strcloud.*|streamta.*|streamtape.*|strtape.*|strtapeadblock.*|strtpe.*
 /sw.js?puid=$script,~third-party
 /systemerror-mac/?
