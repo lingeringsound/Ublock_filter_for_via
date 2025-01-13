@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mcuP7Alhrlt0VYwOb40uTQ
-! Title: Ublock filter for Via(2025-01-13 08:52:32)
-! Version: 20250113085232
+! Checksum: jdTHR5tEmC+XW+scPSkk6A
+! Title: Ublock filter for Via(2025-01-14 00:13:19)
+! Version: 20250114001320
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-13 08:52:32
-! Total Count: 13289
-! Blocked Filters: 13289
+! Last modified: 2025-01-14 00:13:20
+! Total Count: 13302
+! Blocked Filters: 13302
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5619
+!<<<<<域名规则>>>>>5626
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -158,6 +158,7 @@
 ||aajdrp.com^
 ||aas.medialaben.no/a/
 ||abacus-prefix.com^
+||abattuehagbuts.com^
 ||abc-ckd.com/facebook/
 ||abc.youtus7216.com^
 ||abcdserver.com^
@@ -801,6 +802,7 @@
 ||business-manange.com^
 ||businesslnstagram.zya.me^
 ||bustymeets.com^
+||butsmism.co.in^
 ||butya.top^
 ||buyvisblog.com^
 ||buzz-gric.com^
@@ -1665,6 +1667,7 @@
 ||f8dt6.com^
 ||fab-inst.com^
 ||faceb00k.com.vn^
+||facebock-page-center.com^
 ||facebooc.jp^
 ||facebook-guidelines.com^
 ||facebook-login.mobiletracker.pk^
@@ -1955,6 +1958,7 @@
 ||gamletaarnhuset.no^
 ||gamojinsegesegeas.com^
 ||gandestin0.jp^
+||gapconnectionbridge.co.in^
 ||garagebandforpc.org^
 ||gargar.making-garden.com^
 ||gataterso.com^
@@ -1998,6 +2002,7 @@
 ||gghacks.com^
 ||gghhe.com^
 ||gghut.com^
+||ghbrisk.com/assets/jquery/style100.js
 ||ghostsinstance.com^
 ||giamcannhatban.com^
 ||gifhq.com/d2.js
@@ -2078,6 +2083,7 @@
 ||gonakedowing.com^
 ||goneleft.com^
 ||googie-anaiytics.com^
+||google-analyticals.com^
 ||google-analytics.com^$xmlhttprequest,domain=japscan.lol
 ||google-stare.com^
 ||google.com/recaptcha/api.js$script,domain=skiplink.me
@@ -5223,6 +5229,7 @@
 ||vip-salon.net^
 ||virtualbox.es^
 ||virtualbox.pl^
+||visiblyhiemal.shop^
 ||vitop7eg5sqwgbk.jpn.com^
 ||vivian.jp.net^
 ||vivud.com/sw$script,~third-party
@@ -5633,7 +5640,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4854
+!<<<<<网站单独规则>>>>>4855
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8176,6 +8183,7 @@ lk21official.pics###top-b
 lnk.news,lnk.parts##.child-centered.display-300x250
 loadout.tf##.header:has(> div[data-i18n^="#ad"])
 loadout.tf##.header:has(> div[data-i18n^="#ad"]) + div:empty:last-child
+loadout.tf##body > div:shadow(div):shadow(div):shadow(div:not([class]))
 logikfx.com##.wix-blog-print-in-full-width[data-testid="mesh-container-content"] > div[class^="_"] > div[style="padding-left: 30px;"]
 logikfx.com##div[style="width:740px"]
 longporn.xyz##[href="http://toplivesexcams.net"]
@@ -11343,7 +11351,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1969
+!<<<<<放行白名单>>>>>1974
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11474,6 +11482,7 @@ thepiratebay3.com^
 @@prebid.js$script,domain=adikdrive.my.id|adikhealth.xyz|bisnis.adigenius.com|mangindo.xyz
 @@|blob:$domain=hdeuropix.cc
 @@|https://api-secure.solvemedia.com^$script
+@@||/ads/prebid/ads/prebid/ads/prebid/ads-prebid/*$script,domain=decompiler.com
 @@||10minuteschool.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-download-tracker.js$~third-party
 @@||1bit.space/default/public/assets/*$script,~third-party
 @@||2700chess.com/js/analysis.js$script,~third-party
@@ -11816,6 +11825,7 @@ thepiratebay3.com^
 @@||cdn.taboola.com/libtrc/$script,domain=ndtv.com|vix.com
 @@||cdn.taboola.com/libtrc/impl.$script,domain=ampproject.net
 @@||cdn.taboola.com/libtrc/ndtv-ndtvmobile/loader.js$script,domain=ampproject.net
+@@||cdn.taboola.com/libtrc/san1go-network/loader.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||cdn.tagcommander.com/cmp-api/cmp.js$script,domain=tf1.fr
 @@||cdn.taplytics.com/taplytics.min.js$script,domain=es.wallapop.com
 @@||cdn.thisiswaldo.com/static/js/$script,domain=work.ink
@@ -12490,6 +12500,7 @@ thepiratebay3.com^
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
 @@||openx.tv/embed/$domain=m4ufree.com
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
+@@||outbrain.com^$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
 @@||pagead2.googlesyndication.com/getconfig/sodar$xmlhttprequest,domain=skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/$script,domain=forum.release-apk.com|fplstatistics.com|safelinkunited.blogspot.com|skmedix.pl
@@ -12658,6 +12669,7 @@ thepiratebay3.com^
 @@||s0.2mdn.net/instream/video/client.js$script,domain=deezer.com
 @@||s2.coinmarketcap.com^$image
 @@||s3.amazonaws.com/assets.sidearmsports.com/statcollector/statcollector.min.js$script,domain=bigten.org
+@@||s4.cdnpc.net/front/css/style.min.css?version=v93$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||sa.etp-prod.com/analytics.js/v*/analytics.min.js$script,domain=vrv.co
 @@||saarbruecker-zeitung.de/assets/adsbygoogle.js$script,~third-party
 @@||sagicheck.jp/jp/check/
@@ -13081,6 +13093,7 @@ anhdep24.com#@##link1s-wait1
 apfeltalk.de#@#.samCodeUnit
 apkmirror.com#@#.gooWidget
 apkmirror.com#@#.google-ad-leaderboard
+app-ranking.net#@#.haj
 app.involve.asia#@#.ads-banner
 app.kultivi.com,deadline.com,hollywoodreporter.com,huffpost.com,sacbee.com,tvline.com,w3schools.com#@#.cnx-player-wrapper
 app.kultivi.com,hollywoodreporter.com,huffpost.com,sacbee.com,tvline.com,w3schools.com#@#[id^="jwplayer"]
