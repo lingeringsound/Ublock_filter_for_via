@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: JjMyNT5RJ8Imf7qWwR3zsw
-! Title: Ublock filter for Via(2025-01-13 00:10:50)
-! Version: 20250113001050
+! Checksum: mcuP7Alhrlt0VYwOb40uTQ
+! Title: Ublock filter for Via(2025-01-13 08:52:32)
+! Version: 20250113085232
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-13 00:10:50
-! Total Count: 13286
-! Blocked Filters: 13286
+! Last modified: 2025-01-13 08:52:32
+! Total Count: 13289
+! Blocked Filters: 13289
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5617
+!<<<<<域名规则>>>>>5619
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1575,6 +1575,7 @@
 ||eporner.com/dotm/
 ||eporner.com/js/bowser.php
 ||epson.com.cn/common/new/js/tracking_code.js$~third-party
+||epubgleagues.com^
 ||equation-of-happiness.com^
 ||eraberu.jp^
 ||erdfkhxrnanm.top^
@@ -3956,6 +3957,7 @@
 ||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams/*/time-events.json$domain=cbs.com|paramountplus.com
 ||pubg-arena.top^
 ||pubgm-zing-vn.com^
+||pubgrlxvote.top^
 ||pubgxbest.com^
 ||publicationgroup.substack.com^
 ||publicbot.pro^
@@ -5631,7 +5633,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4853
+!<<<<<网站单独规则>>>>>4854
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9838,6 +9840,7 @@ tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 10
 tousatu-club.com###text-9
 trakt.tv##.snigel
 trakt.tv##a[target="_blank"][style]:has(img[src])
+trakt.tv##div[id*="-wrapper"]:has(a[href="/vip/advertising"])
 tralhasvarias.blogspot.com##.cellAd
 tranny.one##.adsFirst
 tranny.one##.adsSecond
