@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: jGiWlYVyktabeBGXPDRDXA
-! Title: Ublock filter for Via(2025-01-14 08:45:51)
-! Version: 20250114084551
+! Checksum: FwIC+lhaaN+2O9zCUMhy6Q
+! Title: Ublock filter for Via(2025-01-15 00:12:14)
+! Version: 20250115001214
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-14 08:45:51
-! Total Count: 13306
-! Blocked Filters: 13306
+! Last modified: 2025-01-15 00:12:14
+! Total Count: 13308
+! Blocked Filters: 13308
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5626
+!<<<<<域名规则>>>>>5627
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3138,6 +3138,7 @@
 ||mein-organizer.de^$third-party
 ||mejortorrent.*/bannner
 ||mejp.net^
+||melbournedistillery.com^
 ||melodydownloader.com^
 ||meltiest.jp^
 ||meltiness.jp^
@@ -5859,7 +5860,7 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
+abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 ac24.cz,nsfwyoutube.com,th-cam.com,thodkyaat.com,ultimasnoticias.com.ve##pp
@@ -8369,7 +8370,7 @@ miniurl.*##div[style="width:970px;height:90px;display: inline-block;margin: 0 au
 minnyuu.jp##div[class$="BlockBase"]:has(> div > div > div.plugin-freearea > div.ninja-recommend-block)
 miohentai.com##.in.paused-ad-container
 mirrorace.*##[href*="search/"]
-missav.*,missav123.com,missav789.com,myav.com##div[x-show="showBanner"]
+missav.*,missav123.com,missav789.com,missav888.com,myav.com##div[x-show="showBanner"]
 mitly.us##[href^="http://deloplen.com/"]
 mittelhessen.de##.adSlot
 mittelhessen.de##[class*="Banner"]
@@ -11355,7 +11356,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1974
+!<<<<<放行白名单>>>>>1975
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11451,6 +11452,7 @@ thepiratebay3.com^
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json$~third-party
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
 @@/adpartner.min.js$script,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
+@@/ads/prebid/ads/prebid/ads/prebid/ads-prebid/*$script,domain=decompiler.com
 @@/adsAPI.js$script,third-party,domain=infinityscans.xyz|infinityscans.net
 @@/advertisements-$image,domain=jennifer-lawrence.com
 @@/advertisements_$image,domain=jessica-biel.at
@@ -11469,7 +11471,7 @@ thepiratebay3.com^
 @@/isomorphic/system/modules/ISC_Analytics.js$script,~third-party
 @@/js/prebid-ads.js$script,~third-party
 @@/libs/advertisement.js?ad_ids=*&show_ad=$script,~third-party
-@@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|smsonline.cloud|thestar.co.uk|webdesignledger.com|yorkshirepost.co.uk
+@@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|thestar.co.uk|webdesignledger.com|yorkshirepost.co.uk
 @@/mma/?t$image,domain=newsblaze.com
 @@/popup*$script,~third-party,domain=streamingcommunity.*
 @@/signup.php?mode=async&action=show_security_code$image,~third-party
@@ -12519,7 +12521,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ord=$xmlhttprequest,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,third-party,domain=fplstatistics.co.uk
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|smsonline.cloud|webdesignledger.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|slashdot.org|smsonline.cloud|webdesignledger.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=busuu.com|cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_$script,domain=rekidai-info.github.io
@@ -12721,7 +12723,7 @@ thepiratebay3.com^
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js|$script,domain=dogdrip.net|infinityfree.com|smsonline.cloud|webdesignledger.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js|$script,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|webdesignledger.com
 @@||securepubads.g.doubleclick.net^$script,domain=bearteach.com|mope.io
 @@||securepubads.g.doubleclick.net^$xmlhttprequest,domain=krunker.io
 @@||seekingalpha.com/*/captcha/$script,~third-party
@@ -12810,7 +12812,7 @@ thepiratebay3.com^
 @@||static.adsnative.com/static/js/render.*.js$script,domain=streamable.com
 @@||static.bbc.co.uk/radio/player/*/script/logger.js$script,domain=bbc.co.uk
 @@||static.chartbeat.com^$domain=repubblica.it
-@@||static.criteo.net/js/ld/publishertag.prebid.js|$xmlhttprequest,domain=dogdrip.net|infinityfree.com|smsonline.cloud|webdesignledger.com
+@@||static.criteo.net/js/ld/publishertag.prebid.js|$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|webdesignledger.com
 @@||static.goolive.de/media/static/images/smileys/ad.gif$image
 @@||static.iqiyi.com/js/player_v1/sdk/*$script,~third-party
 @@||static.knowledgehub.com/global/images/ping.gif?$xmlhttprequest,~third-party
