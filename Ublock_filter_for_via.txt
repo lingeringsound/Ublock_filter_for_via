@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: jdTHR5tEmC+XW+scPSkk6A
-! Title: Ublock filter for Via(2025-01-14 00:13:19)
-! Version: 20250114001320
+! Checksum: jGiWlYVyktabeBGXPDRDXA
+! Title: Ublock filter for Via(2025-01-14 08:45:51)
+! Version: 20250114084551
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-14 00:13:20
-! Total Count: 13302
-! Blocked Filters: 13302
+! Last modified: 2025-01-14 08:45:51
+! Total Count: 13306
+! Blocked Filters: 13306
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -2360,7 +2360,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -5640,7 +5640,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4855
+!<<<<<网站单独规则>>>>>4859
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5832,9 +5832,12 @@ a-hentai.tv##.support-frame
 a-hentai.tv,javhoho.com,nukigazo.com###text-2
 a8ix.*,atishmkv.*###custom_html-21
 a8ix.*,atishmkv.*##.idmuvi-footerbanner
+a8ix.*,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.*##.inner-floatbanner-bottom
 a8ix.*,atishmkv.*,atishmkv.marathi.vip,marathi.love,marathimovies.online,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,atishmkv.marathi.vip,marathi.love,marathimovies.online,mkv.*,vipmarathi.xyz##.idmuvi-bannerplayer
+a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
+a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
 a8ix.*,atishmkv.marathi.vip,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
 abczdrowie.pl##div[data-element="s3-placeholder"]
@@ -5906,9 +5909,9 @@ adweek.com##.widget-adweek-sticky-next:has(> .htl-ad-wrapper)
 adz7short.space###banner_slider_right
 adz7short.space,short.croclix.me##.leaderboard
 adzz.in,note1s.com,paste1s.com##.countdown
-aemenstore.com,byboe.com,cazzette.com,dreamcheeky.com,fidlarmusic.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nguyenvanbao.com,nousdecor.com,pennbookcenter.com,publicananker.com,restorbio.com,rezence.com,staaker.com,uebnews.online,thegoneapp.com###link1s-generate
-aemenstore.com,byboe.com,cazzette.com,dreamcheeky.com,fidlarmusic.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nguyenvanbao.com,nousdecor.com,pennbookcenter.com,publicananker.com,restorbio.com,rezence.com,staaker.com,uebnews.online,thegoneapp.com###link1s-link
-aemenstore.com,byboe.com,cazzette.com,dreamcheeky.com,fidlarmusic.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nguyenvanbao.com,nousdecor.com,pennbookcenter.com,publicananker.com,restorbio.com,rezence.com,staaker.com,uebnews.online,thegoneapp.com###link1s-wait1
+aemenstore.com,byboe.com,cazzette.com,dreamcheeky.com,fidlarmusic.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nguyenvanbao.com,nousdecor.com,pennbookcenter.com,publicananker.com,restorbio.com,rezence.com,staaker.com,thegoneapp.com,uebnews.online###link1s-generate
+aemenstore.com,byboe.com,cazzette.com,dreamcheeky.com,fidlarmusic.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nguyenvanbao.com,nousdecor.com,pennbookcenter.com,publicananker.com,restorbio.com,rezence.com,staaker.com,thegoneapp.com,uebnews.online###link1s-link
+aemenstore.com,byboe.com,cazzette.com,dreamcheeky.com,fidlarmusic.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nguyenvanbao.com,nousdecor.com,pennbookcenter.com,publicananker.com,restorbio.com,rezence.com,staaker.com,thegoneapp.com,uebnews.online###link1s-wait1
 aeroxplorer.com##.iaad
 afasiaarchzine.com##.afasia_sidebar_ad_group
 afly.pro##.g-recaptcha, iframe[src*="google.com/recaptcha"], .btn-captcha, .btn-black-outline:others()
@@ -8183,6 +8186,7 @@ lk21official.pics###top-b
 lnk.news,lnk.parts##.child-centered.display-300x250
 loadout.tf##.header:has(> div[data-i18n^="#ad"])
 loadout.tf##.header:has(> div[data-i18n^="#ad"]) + div:empty:last-child
+loadout.tf##body > div:shadow(div):shadow(div):has(:shadow(div:not([class])):has(:shadow(ins.adsbygoogle[data-ad-client])))
 loadout.tf##body > div:shadow(div):shadow(div):shadow(div:not([class]))
 logikfx.com##.wix-blog-print-in-full-width[data-testid="mesh-container-content"] > div[class^="_"] > div[style="padding-left: 30px;"]
 logikfx.com##div[style="width:740px"]
@@ -10558,7 +10562,7 @@ $script,domain=zdnet.fr,third-party
 *preRoll$xmlhttprequest,domain=porngo.com
 -google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
 -load.com/loader.min.js|$domain=dogdrip.net|infinityfree.com|smsonline.cloud
--load.com/script/$xmlhttprequest,domain=dogdrip.net|infinityfree.com|smsonline.cloud
+-load.com/script/$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud
 .*%2Fwf%2Fopen%3Fupn%3D$image
 ./M5q5.js$script
 .at/bilder/*.jpg|$script,~third-party
