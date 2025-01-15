@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: FwIC+lhaaN+2O9zCUMhy6Q
-! Title: Ublock filter for Via(2025-01-15 00:12:14)
-! Version: 20250115001214
+! Checksum: Db83UxSsbxZ7dwtzLouRbA
+! Title: Ublock filter for Via(2025-01-15 08:48:18)
+! Version: 20250115084818
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-15 00:12:14
-! Total Count: 13308
-! Blocked Filters: 13308
+! Last modified: 2025-01-15 08:48:18
+! Total Count: 13321
+! Blocked Filters: 13321
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5627
+!<<<<<域名规则>>>>>5640
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -260,6 +260,7 @@
 ||aeru.tv^
 ||affairdating.com^
 ||affilixxl.de^$third-party
+||affluentarmyequator.com^
 ||afiletoget.click^
 ||after-7.net^
 ||after-noon.jp^
@@ -531,6 +532,7 @@
 ||autotradeguide.pro^
 ||auubslxxi.com^
 ||avantajados.com^$third-party
+||avatarthree.lol^
 ||avjamack.com/data/by_banner/
 ||avjamak.net/data/by_banner/
 ||avsakrcapna.com^
@@ -739,8 +741,10 @@
 ||bokarsolutions.co.uk^$third-party
 ||bollywoodporn.name/js/PfV5GLKSF5S5md5LwPUPY.js
 ||bondagevalley.cc/upload/photos/kcs.webp
+||bonnetgoblet.com^
 ||bontruth.com^
 ||bonzi.link^
+||boobausauhipsa.net^
 ||boobsrealm.com/wp-content/uploads/*-banner$image,~third-party
 ||book234h.fun^
 ||bookofsex.com^
@@ -1023,6 +1027,7 @@
 ||clc-link.me^
 ||clean-2-clean.club^
 ||cleanphonefast.com^
+||cleanupharm.com^
 ||cleardexchange.com^
 ||clearnetfab.net^
 ||clenchedyouthmatching.com^
@@ -1720,6 +1725,7 @@
 ||fate-15.com^
 ||faucettrx.store/default.php
 ||fbgajrlmjiotb.com^
+||fbmediafor.com^
 ||fbs.com^$third-party
 ||fc.lc/sw.js$script,~third-party
 ||fc.lc^$third-party,script
@@ -2053,6 +2059,7 @@
 ||go-ld-li-ne.site^
 ||go-to-zlibrary.com^
 ||go.bundlebyte.net^
+||go.errpgrt.com^
 ||go.xlirdr.com^$xmlhttprequest,removeparam
 ||go2click.online^
 ||go4kora.tv/assets/js/script_antiAdBlock_*.js$script,~third-party
@@ -2474,6 +2481,7 @@
 ||imobileporn.com/premium/
 ||imp2.com^
 ||implarededeensino.com.br^
+||impliednauseous.com^
 ||impoverishedordealscrutinize.com^
 ||impressexaltsculptor.com^
 ||incorcg.com^
@@ -3975,6 +3983,7 @@
 ||punosy.top^$third-party
 ||pupok.link^
 ||purpleiyvf.com^
+||purplex.app/js/gqad.js$script
 ||pururin.to/assets/js/pop.js$script
 ||push-sdk.$third-party
 ||push.zhanzhang.baidu.com/push.js$script,domain=huim.com
@@ -4981,6 +4990,7 @@
 ||trifms.com^
 ||tritinia.org/wp-content/plugins/from-grave-and-back-hidden/js/custom.js
 ||tritondigital.com^$domain=accuradio.com
+||trkabfbmedia.eu^
 ||tron-free.com/banner/$image,~third-party
 ||tronkwintun.com^
 ||trripwire.com^
@@ -5034,6 +5044,7 @@
 ||u--to-u.com^
 ||u-to--u.com^
 ||u-to-u.com^
+||u.send.now/m.js$script,~third-party
 ||u3ig.com^
 ||u87yuo9ojh.world^
 ||ube71ki83.com^
@@ -5392,6 +5403,7 @@
 ||workshop-users.com^
 ||world.ex-advantage.jp^
 ||worlddating365.com^
+||worthyboxersympathy.com^
 ||wow-site.site^
 ||wp.com*/banner$image,domain=komikmama.net
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
@@ -5634,6 +5646,7 @@
 ||zone-annuaire.hair/main.js?v=$script
 ||zone-telechargement.*/main.js?v=$script,~third-party
 ||zontent.powvideo.net^
+||zoologyfibre.com^
 ||zoosk.online^
 ||zqvee2re50mr.com^
 ||zvogo.com^
@@ -10812,7 +10825,7 @@ $script,domain=zdnet.fr,third-party
 /eropics\.to\/[a-zA-Z0-9]{8}\.js$/$script,~third-party,domain=eropics.to
 /exort7.$script,~third-party
 /fag/js/lol.js$domain=comohoy.com|pornleaks.in|leak.sx|paste.bin.sx
-/favicon.ico|$image,third-party,domain=abysscdn.com|hihihaha1.xyz|hihihaha2.xyz|player-cdn.com|playhydrax.com
+/favicon.ico|$image,third-party,domain=abysscdn.com|hihihaha1.xyz|hihihaha2.xyz|imagelovers.com|player-cdn.com|playhydrax.com
 /fb_video_googleplay/*/index.html?*p1=
 /fhbdhf.jpg$image,~third-party,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|urlbluemedia.*
 /files/banners/*.gif$image,domain=bitcotasks.com
