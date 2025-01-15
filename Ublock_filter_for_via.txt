@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Db83UxSsbxZ7dwtzLouRbA
-! Title: Ublock filter for Via(2025-01-15 08:48:18)
-! Version: 20250115084818
+! Checksum: RCuMYVPixuYxZP2W2dkzUw
+! Title: Ublock filter for Via(2025-01-16 00:12:13)
+! Version: 20250116001213
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-15 08:48:18
-! Total Count: 13321
-! Blocked Filters: 13321
+! Last modified: 2025-01-16 00:12:13
+! Total Count: 13334
+! Blocked Filters: 13334
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5640
+!<<<<<域名规则>>>>>5645
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -828,6 +828,7 @@
 ||c930lhsivns1b.jp^
 ||cache.cloudswiftcdn.com^
 ||cagrievi.com^
+||caitlin.top/counter.php
 ||cajewar736.wixsite.com^
 ||calibre.it^
 ||call-chieftain.com^
@@ -1419,6 +1420,7 @@
 ||dogehype.com^
 ||dojy0dg181308.cloudfront.net^
 ||domnovrek.com^$third-party
+||donasi.lk21.de^
 ||dones9.wixsite.com^
 ||doo6pwib3qngu.cloudfront.net^
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
@@ -2034,6 +2036,7 @@
 ||givememmastreams.com^$third-party
 ||gjtech.net^
 ||gkxyifeulfpb.com^
+||glashanburg.com^
 ||glaters.com^
 ||glbltraffic.com^
 ||glinks.co^
@@ -3634,6 +3637,8 @@
 ||oussouveem.com^
 ||outdoorvzk6la39o7r8.jp^
 ||outheelrelict.com^
+||outloksupport*.glitch.me^
+||outloksupportbuzoningreso.glitch.me^
 ||outratela.com^
 ||outwhirlipedeer.com^
 ||ovflixx.fun/ancient-frog-abc7/
@@ -5654,7 +5659,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4859
+!<<<<<网站单独规则>>>>>4866
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6289,6 +6294,9 @@ bitchesgirls.com##.ADDED
 bitchesgirls.com##.a-d-block
 bitchesgirls.com##.also
 bitchesgirls.com##div[title="webcam sluts"]
+bitchute.com###advertisement-banner
+bitchute.com##.q-dialog__backdrop
+bitchute.com##.q-dialog__inner
 bitcointalk.org##.fpcontainer
 bitcotasks.com##body > iframe#frame
 bithub.win,faucetcrypto.net##ins
@@ -7835,6 +7843,8 @@ in-porn.com,inporn.com,xjav.tube##.jw-channel-btn.nopop
 in.search.yahoo.com##.reg:has([href*="aclick"])
 in.search.yahoo.com##.reg:has([href*="clk"])
 incestflix.com,javtiful.com,sbembed.com,streamsb.*##body > div[style*="z-index:"]
+incgrepacks.com##.incgr-before-content_2
+incgrepacks.com##[href^="https://candy.ai"]
 indiansexstories2.net##[href="https://www.theporndude.com/"]
 indiansexstories2.net##[href^="https://a.videobaba.xyz/geoip/link.php"]
 indianshortner.com##a[href^="https://t.me/"]
@@ -8135,8 +8145,10 @@ lightnovelpub.*##.sticky-body
 lightnovelpub.com##div[class]:has(> .cnx-player)
 lightnovelworld.*##.uaxcKxir
 lightnovelworld.*##div[data-mobid]
+lightnovelworld.com###vn-slot-top
 lightnovelworld.com##.adsbox
 lightnovelworld.com##.vl-ad
+lightnovelworld.com##.vnad-in
 likecs.com##.contentbef
 limerickleader.ie###abr_purchase_div
 limetorrents.*##[href^="/fast.php"]
@@ -11136,7 +11148,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>230
+!<<<<<通用Css规则>>>>>231
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -11166,6 +11178,7 @@ thepiratebay3.com^
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
 ###bt-ads
 ###buy-sell-ads:not(:empty)
+###donate > a[href][style][onclick="thank_you()"][target="_blank"][rel="nofollow"]
 ###dontfoid
 ###downloadAd:not(:empty)
 ###go-to-top + div[id][class*=" "]
