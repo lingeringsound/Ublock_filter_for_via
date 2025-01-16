@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: STqLRMxHn0Jw9Tcf7PORXA
-! Title: Ublock filter for Via(2025-01-16 08:46:57)
-! Version: 20250116084657
+! Checksum: tYlw6d79XHie+ghZMdfHPg
+! Title: Ublock filter for Via(2025-01-17 00:12:11)
+! Version: 20250117001211
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-16 08:46:57
-! Total Count: 13335
-! Blocked Filters: 13335
+! Last modified: 2025-01-17 00:12:11
+! Total Count: 13342
+! Blocked Filters: 13342
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5645
+!<<<<<域名规则>>>>>5650
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -361,6 +361,7 @@
 ||amourplace.jp^
 ||amschat.top^
 ||amserva.com^
+||analytics.bitchute.com^
 ||analytics.google.com^$third-party
 ||analytics.strapi.io^
 ||analytics.tiendaenoferta.com^
@@ -674,6 +675,7 @@
 ||birth-bravery.com^
 ||bit.ly/47P0Nvo
 ||bitchesgirls.com/libs/adLoaders/
+||bitchute.com/data/1
 ||bitcoinadvertise.net^$third-party
 ||bitcoines.com^$third-party
 ||bitcoinsports.org^$third-party
@@ -697,6 +699,7 @@
 ||blackstunners.com^
 ||blcnder.org^
 ||bleachbit.com^
+||blearspellaea.shop^
 ||blender3d.es^
 ||blender3d.fr^
 ||blexad.shop^
@@ -1772,6 +1775,7 @@
 ||filezilla.it^
 ||filezilla.net^
 ||filezilla.pl^
+||filletfiguredconstrain.com^
 ||filma24.*/*.gif$image
 ||filmeserialehd.biz^$third-party
 ||filmshngjbzix.blogspot.com^
@@ -1863,6 +1867,7 @@
 ||fp.msedge.net/r.gif
 ||fr-instagram.com^
 ||fralstamp-genglyric.icu^
+||frankerreedits.com^
 ||free-ren.com^
 ||free-ren.jp^
 ||freeadd.me^
@@ -5659,7 +5664,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4866
+!<<<<<网站单独规则>>>>>4867
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6295,6 +6300,7 @@ bitchesgirls.com##.a-d-block
 bitchesgirls.com##.also
 bitchesgirls.com##div[title="webcam sluts"]
 bitchute.com###advertisement-banner
+bitchute.com##.fit.no-shadow.q-card--flat.q-card:has(iframe[id="spoSide"])
 bitchute.com##.q-dialog__backdrop
 bitchute.com##.q-dialog__inner
 bitcointalk.org##.fpcontainer
@@ -11382,7 +11388,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1976
+!<<<<<放行白名单>>>>>1977
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11474,6 +11480,7 @@ thepiratebay3.com^
 @@/VisitorAPI.js$script,domain=abc.go.com
 @@/\.oninet\.ne\.jp\/sakigakesoft\/(?!sakigake)[a-z]{5,}-[a-z]{4,}-?[a-z]?\.js$/$script,~third-party,strict1p,domain=oninet.ne.jp
 @@/^https:\/\/www\.puzzle-[a-z]+\.com\//$script,from=puzzle-loop.com|puzzle-words.com|puzzle-chess.com|puzzle-thermometers.com|puzzle-norinori.com|puzzle-minesweeper.com|puzzle-slant.com|puzzle-lits.com|puzzle-galaxies.com|puzzle-tents.com|puzzle-battleships.com|puzzle-pipes.com|puzzle-hitori.com|puzzle-heyawake.com|puzzle-shingoki.com|puzzle-masyu.com|puzzle-stitches.com|puzzle-aquarium.com|puzzle-tapa.com|puzzle-star-battle.com|puzzle-kakurasu.com|puzzle-skyscrapers.com|puzzle-futoshiki.com|puzzle-shakashaka.com|puzzle-kakuro.com|puzzle-jigsaw-sudoku.com|puzzle-killer-sudoku.com|puzzle-binairo.com|puzzle-nonograms.com|puzzle-sudoku.com|puzzle-light-up.com|puzzle-bridges.com|puzzle-shikaku.com|puzzle-nurikabe.com|puzzle-dominosa.com
+@@/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to
 @@/ad.min.js$script,domain=icutlink.com|zegtrends.com
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json$~third-party
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
