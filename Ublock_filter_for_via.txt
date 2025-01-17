@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: STaciC16t0Ki8UO4nZpk9A
-! Title: Ublock filter for Via(2025-01-17 08:46:33)
-! Version: 20250117084633
+! Checksum: u33pQnrmfyP3yysbR+x++g
+! Title: Ublock filter for Via(2025-01-18 00:11:51)
+! Version: 20250118001151
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-17 08:46:33
-! Total Count: 13342
-! Blocked Filters: 13342
+! Last modified: 2025-01-18 00:11:51
+! Total Count: 13350
+! Blocked Filters: 13350
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5650
+!<<<<<域名规则>>>>>5656
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -405,6 +405,7 @@
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xmlhttprequest,~third-party
 ||api.busuu.com/ads/
 ||api.cryptorank.io/v0/banners^
+||api.flipkart.com/4/data/collector/business
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
 ||api.gogoanime.zip/promo
 ||api.lhkmedia.in^$third-party
@@ -892,6 +893,7 @@
 ||cdn.jsdelivr.net/gh/magiclen/adblock-checker
 ||cdn.jsdelivr.net/gh/ourtecads/AntiAdblock$script
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
+||cdn.jsdelivr.net/npm/as-essential^
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
 ||cdn.jsdelivr.net/npm/maari/dist/maari.min.js$script,third-party
 ||cdn.jsdelivr.net^*/arlinablock.js$script
@@ -1222,6 +1224,7 @@
 ||curious-deplete.com^
 ||curioushingefast.com^
 ||currentlyatt*.weebly.com^
+||currentlymail*.weebly.com^
 ||curryfielddistribution.com^
 ||cursomecanet.com/registro$xmlhttprequest,~third-party
 ||cursomecanet.com^$inline-script,script,~third-party
@@ -1711,6 +1714,7 @@
 ||fanta-stic.net^
 ||fantastic-salamander-c721cb.netlify.app^
 ||fantasy-federation.com^
+||fap.bar/p.js
 ||fapdig.com/sw.js$script,~third-party
 ||fapello.xyz^
 ||fapfappy.com/*.php$script,~third-party
@@ -2375,7 +2379,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kompasiana.com|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|mariowiki.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -4031,6 +4035,7 @@
 ||qualzz.com/assets/trackingScript/webtracking.js
 ||quantunnquest.com^
 ||quebecormedia.com/infojdem/lib/cheezwhiz/$script
+||questioningcomplimentarypotato.com^
 ||quickdomainfwd.com^
 ||quickflirt.com^
 ||quinporn.com^$third-party
@@ -4874,6 +4879,7 @@
 ||tickovent.com^
 ||tiger.qnews.media^$third-party
 ||tiktikshopvn.com^
+||tiktok18.porn/livewire/update
 ||tilersforums.com/js/xf/$script,~third-party
 ||tim.time-time-zyunizi.com^
 ||tin-dung-
@@ -5664,7 +5670,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4867
+!<<<<<网站单独规则>>>>>4869
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6040,6 +6046,7 @@ anon-v.com,bravoerotica.net,cambabe.*,caminspector.net,camsclips.*,camvideos.org
 anon-v.com,purelyceleb.com##.embed-container
 anongamez.com##.vc_row-fluid.wpb_row.vc_row:has(.vc_btn3-icon.fa.fa-gamepad):has(.vc_btn3-icon.fa.fa-download)
 anongamez.com##[href^="https://descargarjuegospc.net/"]
+answers.com##.aunit
 anybunny.com,hotntubes.com##td[width="360"]
 anysex.com###content > .naf_dd
 anysex.com##[class^="content"] > .no_pop
@@ -6621,6 +6628,7 @@ comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: aut
 comidoc.net##div[style="text-align:center;margin-left:auto;margin-right:auto;min-height:266px;max-width:90vw"]
 comidoc.net,tricksplit.io##div:has(> .adsbygoogle)
 comousarzararadio.blogspot.com###HTML10, #HTML9
+complex.com##.base__header-ad
 compucalitv.com##.botondescarga
 compucalitv.com,crackllc.com,designmodo.com,hackstore.*,hitproversion.com,megawarez.org##.onp-sl-social-locker
 conservativebrief.com###main-box-3
