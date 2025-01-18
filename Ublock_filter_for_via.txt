@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: u33pQnrmfyP3yysbR+x++g
-! Title: Ublock filter for Via(2025-01-18 00:11:51)
-! Version: 20250118001151
+! Checksum: CpszxRNyCdSLQ8p3dAYPmA
+! Title: Ublock filter for Via(2025-01-18 08:44:53)
+! Version: 20250118084453
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-18 00:11:51
-! Total Count: 13350
-! Blocked Filters: 13350
+! Last modified: 2025-01-18 08:44:53
+! Total Count: 13351
+! Blocked Filters: 13351
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -11396,7 +11396,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1977
+!<<<<<放行白名单>>>>>1978
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11738,6 +11738,7 @@ thepiratebay3.com^
 @@||bat.bing.com/bat.js$script,domain=northwell.edu
 @@||bazaarvoice.com/prod/static/*/bv-analytics.js$script,domain=chemistwarehouse.com.au
 @@||bcp.crwdcntrl.net/*/data$xmlhttprequest
+@@||bcvc.ink/prebid-ads.js$script,~third-party
 @@||benkhouya.com^$script,domain=anonymousemail.me
 @@||besthdgayporn.com/wp-content/plugins/$script,~third-party
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
