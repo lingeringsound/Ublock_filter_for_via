@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: CpszxRNyCdSLQ8p3dAYPmA
-! Title: Ublock filter for Via(2025-01-18 08:44:53)
-! Version: 20250118084453
+! Checksum: VWP9Jb7ajRweuewiTy8BbQ
+! Title: Ublock filter for Via(2025-01-19 00:10:40)
+! Version: 20250119001040
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-18 08:44:53
-! Total Count: 13351
-! Blocked Filters: 13351
+! Last modified: 2025-01-19 00:10:40
+! Total Count: 13357
+! Blocked Filters: 13357
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5656
+!<<<<<域名规则>>>>>5659
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -872,8 +872,9 @@
 ||cdn-telegram.com^
 ||cdn-webstats.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
-||cdn.adsninja.ca/adsninja_worker.js^$domain=xda-developers.com
-||cdn.adsninja.ca/biddertypelibrary/$script,domain=xda-developers.com
+||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/an_sn.js^$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 ||cdn.ay.gy/js/$script,third-party
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
 ||cdn.contentsitesrv.com/js/push/subscribe.js$script
@@ -2379,7 +2380,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kompasiana.com|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|mariowiki.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|dailydot.com|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|javatpoint.com|jin115.com|joemonster.org|kompasiana.com|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|mariowiki.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2532,6 +2533,7 @@
 ||insurecarrot.com^
 ||interest.co.nz/modules/custom/presspatron/js/pp-ablock-banner.js$script
 ||intern0120.com^
+||internal-api.prolific.com/api/v1/statistics/
 ||internetspeedtracker.com^
 ||interserver.net^$third-party
 ||investing.com/*/ad-notification-popup
@@ -5070,6 +5072,7 @@
 ||uggstore.online^
 ||uhdmovies.*/onewinpop.js
 ||uhsee.com^
+||uicdn.com/uimag/*/assets/_sn_/vendor/homad.min.js
 ||uii.io^$third-party
 ||uiporn.com/ai/*$script,~third-party
 ||uiporn.com/sw.js$script,~third-party
@@ -11396,7 +11399,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1978
+!<<<<<放行白名单>>>>>1981
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11609,6 +11612,8 @@ thepiratebay3.com^
 @@||adsco.re/p$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||adserver.iprom.net/adserver7$xmlhttprequest,domain=rtl.hr
 @@||adserver.pandora.com/haymaker/api/v1/serve/$xmlhttprequest,~third-party
+@@||adsninja.ca/api/cached/$xmlhttprequest,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+@@||adsninja.ca/urlmap?$xmlhttprequest,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 @@||adsynth-ofx-quotewidget-prod.herokuapp.com/api/$xmlhttprequest,domain=widget-yahoo.ofx.com
 @@||adtech.de/dt/common/DAC.js$domain=ekstrabladet.dk
 @@||advnetwork.net/advertising/*/advertising.js$xmlhttprequest,domain=bsshotel.it
@@ -11873,7 +11878,7 @@ thepiratebay3.com^
 @@||cdn.taboola.com/libtrc/$script,domain=ndtv.com|vix.com
 @@||cdn.taboola.com/libtrc/impl.$script,domain=ampproject.net
 @@||cdn.taboola.com/libtrc/ndtv-ndtvmobile/loader.js$script,domain=ampproject.net
-@@||cdn.taboola.com/libtrc/san1go-network/loader.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
+@@||cdn.taboola.com/libtrc/san1go-network/loader.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|file4go.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||cdn.tagcommander.com/cmp-api/cmp.js$script,domain=tf1.fr
 @@||cdn.taplytics.com/taplytics.min.js$script,domain=es.wallapop.com
 @@||cdn.thisiswaldo.com/static/js/$script,domain=work.ink
@@ -12718,6 +12723,7 @@ thepiratebay3.com^
 @@||s0.2mdn.net/instream/video/client.js$script,domain=deezer.com
 @@||s2.coinmarketcap.com^$image
 @@||s3.amazonaws.com/assets.sidearmsports.com/statcollector/statcollector.min.js$script,domain=bigten.org
+@@||s4.cdnpc.net/*.css$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|file4go.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||s4.cdnpc.net/front/css/style.min.css?version=v93$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||sa.etp-prod.com/analytics.js/v*/analytics.min.js$script,domain=vrv.co
 @@||saarbruecker-zeitung.de/assets/adsbygoogle.js$script,~third-party
@@ -13068,7 +13074,7 @@ thepiratebay3.com^
 @@||widget-provider.production.ippen.space/widget-components/widget-quiz.bundle.js$script,domain=buzzfeed.de
 @@||widget.spoods.io/loader.js$script,domain=winfuture.de
 @@||widgets.outbrain.com/outbrain.js$script,domain=nypost.com|pagesix.com|welt.de
-@@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|cursomecanet.com|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
+@@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|cursomecanet.com|dattebayo-br.com|drstonebr.com|file4go.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles%2Cjquery%2Coojs%2*&skin=vector-2022&version=$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.categoryTree$script,~third-party
