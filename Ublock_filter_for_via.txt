@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: c9XOyCiBoYTXbcKK3sCRzQ
-! Title: Ublock filter for Via(2025-01-19 08:51:33)
-! Version: 20250119085133
+! Checksum: y4K9mYihxYloC76F6890oA
+! Title: Ublock filter for Via(2025-01-20 00:10:46)
+! Version: 20250120001046
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-19 08:51:33
-! Total Count: 13357
-! Blocked Filters: 13357
+! Last modified: 2025-01-20 00:10:46
+! Total Count: 13361
+! Blocked Filters: 13361
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5659
+!<<<<<域名规则>>>>>5662
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -510,6 +510,7 @@
 ||atomohd.*/*/banners$image
 ||atplink.com/responseandresolutioncenter
 ||atropinestatuarylandleaper.com^
+||att-currently-*.weeblysite.com^
 ||att5h6.wixsite.com^
 ||attonlineservice*.wixstudio.com^
 ||attorney.homeloanis.com/safe
@@ -1174,6 +1175,7 @@
 ||cracksway.com^
 ||cractica.xyz^
 ||crazyegg.com^$third-party
+||creative.nangilive.com^
 ||creativeslim.com^
 ||creatls.com^
 ||creditcable.info^
@@ -3805,6 +3807,7 @@
 ||pilixiaoshuo.com^
 ||pimlm.com^
 ||pineapplecake-yummy.com^
+||pingergauss.com^
 ||pingit.*/sw.js$script,~third-party,domain=~pingit.com|~pingit.me
 ||pink-sluts.net/adver/$script
 ||pinponpaipan.com^
@@ -5673,7 +5676,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4869
+!<<<<<网站单独规则>>>>>4870
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5892,7 +5895,7 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
+abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 ac24.cz,nsfwyoutube.com,th-cam.com,thodkyaat.com,ultimasnoticias.com.ve##pp
@@ -7862,6 +7865,7 @@ in.search.yahoo.com##.reg:has([href*="clk"])
 incestflix.com,javtiful.com,sbembed.com,streamsb.*##body > div[style*="z-index:"]
 incgrepacks.com##.incgr-before-content_2
 incgrepacks.com##[href^="https://candy.ai"]
+indianporngirl10.com###preroll_placeholder
 indiansexstories2.net##[href="https://www.theporndude.com/"]
 indiansexstories2.net##[href^="https://a.videobaba.xyz/geoip/link.php"]
 indianshortner.com##a[href^="https://t.me/"]
@@ -10854,7 +10858,7 @@ $script,domain=zdnet.fr,third-party
 /eropics\.to\/[a-zA-Z0-9]{8}\.js$/$script,~third-party,domain=eropics.to
 /exort7.$script,~third-party
 /fag/js/lol.js$domain=comohoy.com|pornleaks.in|leak.sx|paste.bin.sx
-/favicon.ico|$image,third-party,domain=abysscdn.com|hihihaha1.xyz|hihihaha2.xyz|imagelovers.com|player-cdn.com|playhydrax.com
+/favicon.ico|$image,third-party,domain=abysscdn.com|fullfreeimage.com|hihihaha1.xyz|hihihaha2.xyz|imagelovers.com|player-cdn.com|playhydrax.com
 /fb_video_googleplay/*/index.html?*p1=
 /fhbdhf.jpg$image,~third-party,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|urlbluemedia.*
 /files/banners/*.gif$image,domain=bitcotasks.com
