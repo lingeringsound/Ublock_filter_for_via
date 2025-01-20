@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: y4K9mYihxYloC76F6890oA
-! Title: Ublock filter for Via(2025-01-20 00:10:46)
-! Version: 20250120001046
+! Checksum: aHAmOrxPvHi9WmEQ0uDNXQ
+! Title: Ublock filter for Via(2025-01-20 08:48:23)
+! Version: 20250120084823
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-20 00:10:46
-! Total Count: 13361
-! Blocked Filters: 13361
+! Last modified: 2025-01-20 08:48:23
+! Total Count: 13363
+! Blocked Filters: 13363
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5662
+!<<<<<域名规则>>>>>5664
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -725,6 +725,7 @@
 ||bloxplay.com^
 ||bloxstrapmenu.com^
 ||blozoo.info/js/inouttool/
+||blsplayer.com/player/assets/js/jquery.js
 ||blue-could.com^
 ||blue-softs.com^
 ||blue-uranai.com^
@@ -5096,6 +5097,7 @@
 ||uncotorture.com^
 ||unetbootin.net^
 ||unetbootin.org^
+||unhesiss.shop^
 ||uni-setup.media^
 ||uni-trading.pro^
 ||uniformdating.com^
@@ -6359,6 +6361,7 @@ blograffo.net##[href^="https://amzn.to/"]
 blogspot.com,web.app##img[onclick="kemana()"]
 blogterest.net##.blockSide > div.blockWrapper:has(> div > div.ninja-recommend-block)
 blogx.almontsf.com###adxbox
+blsplayer.com,brbeast.com,flyplayer.xyz##.pppx
 bluedollar.net##div[id^="aub"]
 bluemediadownload.*,bluemediafile.*,bluemedialink.*,bluemediastorage.*,bluemediaurls.*,urlbluemedia.*###ads-centter
 bluemoon-mcfc.co.uk##[id^="snack_"]
@@ -6394,7 +6397,6 @@ brainly.*,eodev.com##[data-testid="brainly_ads_placeholder"]
 bravoporn.com##.box-left
 bravoporn.com##.undrplban
 bravoteens.com##.inplb3x2
-brbeast.com,flyplayer.xyz##.pppx
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
 britannica.com###md-media-overlay-ad
