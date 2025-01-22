@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: olO13CE29OMAsXthrbl5yQ
-! Title: Ublock filter for Via(2025-01-22 08:48:59)
-! Version: 20250122084859
+! Checksum: do1ZZ+4jsZKpWjD7hEt6Zg
+! Title: Ublock filter for Via(2025-01-23 00:12:49)
+! Version: 20250123001249
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-22 08:48:59
-! Total Count: 13376
-! Blocked Filters: 13376
+! Last modified: 2025-01-23 00:12:49
+! Total Count: 13382
+! Blocked Filters: 13382
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5675
+!<<<<<域名规则>>>>>5676
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2070,6 +2070,7 @@
 ||globalreward77.com^
 ||glocmaift.net^
 ||gloria-divination.
+||glousism.co.in^
 ||glysinew.com^
 ||gmatch.jp^
 ||gmboxx.com^
@@ -10564,7 +10565,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>617
+!<<<<<通配符规则>>>>>620
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11151,7 +11152,10 @@ $script,domain=zdnet.fr,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
 ://media.*/js/code.min.js|$script,third-party
+://myanimelist.net/pixel?$image
+://myanimelist.net/static/logging.gif?$image
 ://ply.*/?v=$image,third-party
+://rd.remove.bg/CI0/$image
 ://vip.*/?pge=$image,third-party
 ://www.*.com/js/css/$script,xmlhttprequest,third-party
 ://www.wattpad.com/et?$image
@@ -11418,7 +11422,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1981
+!<<<<<放行白名单>>>>>1983
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12274,6 +12278,7 @@ thepiratebay3.com^
 @@||googletagmanager.com^$script,redirect-rule,domain=charleyharper.com|charleyharperartstudio.com|charleyharperwholesale.com|fabframes.com|fabulousframesandart.com
 @@||googletagservices.com/tag/js/gpt.js$script,domain=abola.pt|arcai.com|blastingnews.com|gentside.*|maxisciences.com|ohmymag.*|phonearena.com|pitchfork.com|satoshi-win.xyz|viz.com
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
+@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 @@||govbusi.info^$script,domain=satoshi-win.xyz
 @@||gplinks.in/track/$script,xmlhttprequest,domain=gplinks.*|mastharyana.com|quickimageconverter.com|techipop.com|remixbass.com|techyember.com
 @@||graph.facebook.com^$xmlhttprequest,domain=merriam-webster.com
@@ -12881,6 +12886,7 @@ thepiratebay3.com^
 @@||static.bbc.co.uk/radio/player/*/script/logger.js$script,domain=bbc.co.uk
 @@||static.chartbeat.com^$domain=repubblica.it
 @@||static.criteo.net/js/ld/publishertag.prebid.js|$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|webdesignledger.com
+@@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=sportnews.to
 @@||static.goolive.de/media/static/images/smileys/ad.gif$image
 @@||static.iqiyi.com/js/player_v1/sdk/*$script,~third-party
 @@||static.knowledgehub.com/global/images/ping.gif?$xmlhttprequest,~third-party
