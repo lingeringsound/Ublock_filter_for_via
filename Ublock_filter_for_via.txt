@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kuKARDcdnjHcvVhWSUEZSw
-! Title: Ublock filter for Via(2025-01-22 00:12:24)
-! Version: 20250122001224
+! Checksum: olO13CE29OMAsXthrbl5yQ
+! Title: Ublock filter for Via(2025-01-22 08:48:59)
+! Version: 20250122084859
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-22 00:12:24
-! Total Count: 13369
-! Blocked Filters: 13369
+! Last modified: 2025-01-22 08:48:59
+! Total Count: 13376
+! Blocked Filters: 13376
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5669
+!<<<<<域名规则>>>>>5675
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1258,12 +1258,14 @@
 ||d135aysof2oufc.cloudfront.net^
 ||d13jhr4vol1304.cloudfront.net^
 ||d13nu0oomnx5ti.cloudfront.net^
+||d13uyjvmsvkesh.cloudfront.net^
 ||d19f0dp1dh77jq.cloudfront.net^
 ||d1b0fk9ns6n0w9.cloudfront.net^
 ||d1ftkft7iiluq6.cloudfront.net^
 ||d1i1d9hx0883rq.cloudfront.net^
 ||d1ieffz9zqrn09.cloudfront.net^
 ||d1k3dpebxhgqjc.cloudfront.net^
+||d1mikxzr3lp4va.cloudfront.net^
 ||d1myn4ixnn41tz.cloudfront.net^
 ||d1pozdfelzfhyt.cloudfront.net^
 ||d1q4kshf6f0axi.cloudfront.net/main/prebid-$script
@@ -1277,6 +1279,8 @@
 ||d3bch4rrbnbe5n.cloudfront.net/pxl.png^
 ||d3d52lhoy0sh2w.cloudfront.net^
 ||d3ept9mddcbuhi.cloudfront.net^
+||d3gi4w10ruedfh.cloudfront.net^
+||d3lwdybbvxc4v9.cloudfront.net^
 ||d3mw273ubcaiex.cloudfront.net/images/ad/$image
 ||d3srxd2wvksmqd.cloudfront.net^
 ||d3t9nyds4ufoqz.cloudfront.net^
@@ -1878,6 +1882,7 @@
 ||fr-instagram.com^
 ||fralstamp-genglyric.icu^
 ||frankerreedits.com^
+||fransize-veryf.com^
 ||free-ren.com^
 ||free-ren.jp^
 ||freeadd.me^
@@ -4934,6 +4939,7 @@
 ||tomodachixoxo.wixsite.com^
 ||tomorrowwillbehotmaybe.com^
 ||tomtom.pages.dev^
+||too-gle.com^
 ||toolss.net^$third-party
 ||toonvideos.me^$third-party
 ||top-official-app.com^
@@ -5683,7 +5689,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4871
+!<<<<<网站单独规则>>>>>4872
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7952,6 +7958,7 @@ japscan.lol##.FjZoRa
 japscan.lol##.navbar-nav > li#navpromo2.nav-item
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > div.container > #blare-inter[style*="position"]
+japscan.lol##body > div.container > #blare-inter[style*="position"]:not(:empty)
 japscan.lol##body > div.container > #interstitial[style*="display"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
