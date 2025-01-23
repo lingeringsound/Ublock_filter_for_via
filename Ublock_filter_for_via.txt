@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: HT2FbXkos8IizJez00rZRw
-! Title: Ublock filter for Via(2025-01-23 08:47:04)
-! Version: 20250123084704
+! Checksum: cix9doW4G9gvuq3IJyGaeg
+! Title: Ublock filter for Via(2025-01-24 00:12:53)
+! Version: 20250124001253
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-23 08:47:04
-! Total Count: 13387
-! Blocked Filters: 13387
+! Last modified: 2025-01-24 00:12:53
+! Total Count: 13392
+! Blocked Filters: 13392
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5680
+!<<<<<域名规则>>>>>5684
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5412,6 +5412,10 @@
 ||windows.net/*?bcda=
 ||windows.net/js/jsd1.js
 ||windows.net/js/jsd2.js
+||windows.net/js/jupiter.js
+||windows.net/js/noir.js
+||windows.net/js/nvidia.js
+||windows.net/media/_Fm7-alert.mp3
 ||windows.net/media/beep.mp3
 ||windowspro.de/stats/
 ||winfreebigwindeal.top^
@@ -5694,7 +5698,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4873
+!<<<<<网站单独规则>>>>>4874
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7986,6 +7990,7 @@ javbake.com,javcensored.net,javdoge.com,javsexfree.com,javuncensored.watch##.ite
 javbest.xyz,javbix.com##.adsvideo
 javbix.com##.content_movie > div[style="padding:10px; margin-top:15px; text-align:center"]
 javbix.com##.letterLi:last-of-type
+javboys.upn.one##body > iframe[style*=" position: absolute;"][style*="overflow: hidden;"]:not([src])
 javbull.tv,javsaga.ninja##.pb-3.text-center
 javedit.com##.ads_video_overlay_mobile
 javfindx.com###previewBox
@@ -8391,8 +8396,8 @@ mega4upload.com##center > [href], .text-center > [href]
 megadede.*##.fake_player, #tab-ad
 megadede.*##[href="#tab-ad"]
 megadrive-emulator.com##.generalgames_box_home ul > div
-megalink.*###__bgd_link
 megalink.*##[href^="https://mob1ledev1ces.com/r/"]
+megalink.*,tourbobit.com,tourbobit.net,turbobeet.net,turbobi.pw,turbobif.com,turbobita.net,turboobit.com,videzz.net###__bgd_link
 megapaste.xyz,promo-visits.site###newlayercontent
 megaplayer.bokracdn.run##.blockingAd, .popBannerTeaser
 megawarez.org##[id^="text-"] > .textwidget > p > [href][target="_blank"] > .size-full.alignnone
@@ -9915,7 +9920,6 @@ torresette.news###skinlink
 torresette.news##.content-banner-right
 totalcsgo.com##[alt="Ad"]
 touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,m.facebook.com,b-m.facebook.com,mobile.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,touch.beta.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
-tourbobit.com,tourbobit.net,turbobeet.net,turbobi.pw,turbobif.com,turbobita.net,turboobit.com###__bgd_link
 tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
 trakt.tv##.snigel
@@ -10127,6 +10131,7 @@ video.sibnet.ru###vjs-overlayclip-box
 video.sibnet.ru##.vjs-overlayclip-box-close
 videoszoofiliahd.com##[href^="https://redirect.ero-advertising.com/"]
 videovard.*###nux > div > div > div[id]
+videzz.net##.asg-vjs-overlay
 videzz.net##.prevent-first-click
 vidlink.org##[target="_blank"]
 vidlox.*##A[href$=".html"][rel="nofollow norefferer noopener"]
