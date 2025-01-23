@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: do1ZZ+4jsZKpWjD7hEt6Zg
-! Title: Ublock filter for Via(2025-01-23 00:12:49)
-! Version: 20250123001249
+! Checksum: HT2FbXkos8IizJez00rZRw
+! Title: Ublock filter for Via(2025-01-23 08:47:04)
+! Version: 20250123084704
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-23 00:12:49
-! Total Count: 13382
-! Blocked Filters: 13382
+! Last modified: 2025-01-23 08:47:04
+! Total Count: 13387
+! Blocked Filters: 13387
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5676
+!<<<<<域名规则>>>>>5680
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -972,6 +972,7 @@
 ||chartbeat.net^$third-party
 ||chartismart.com^
 ||chat-search.com^
+||chat.deepseek.com/api/v0/events$xmlhttprequest,method=post
 ||chat111room-09.com^
 ||chatchu.jp^
 ||cheaterboss.com^
@@ -1040,6 +1041,7 @@
 ||cleardexchange.com^
 ||clearnetfab.net^
 ||clenchedyouthmatching.com^
+||cleverjumper.com^
 ||click-allow.top^
 ||clickhereecraigslist.tripod.com^
 ||clickrotate.net^
@@ -1540,6 +1542,7 @@
 ||ecommrce-web-amazon.netlify.app^
 ||ecotrackings.com^$third-party
 ||ed-blissful.com^
+||edeetion.com^
 ||edfringe.com/*.php
 ||edge-campaign-japan.com^
 ||edugrampromo.com^$third-party
@@ -2447,6 +2450,7 @@
 ||identente.com^
 ||idhnochalter.wixsite.com^
 ||iemcan.com^
+||ieztoskbcoalf.z13.web.core.windows.net^
 ||if-eku3a-fp.com^
 ||ifbsmetaiidentiityconfirms.com^
 ||iflirts.com^
@@ -5690,7 +5694,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4872
+!<<<<<网站单独规则>>>>>4873
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6551,6 +6555,7 @@ chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
 channel4.com##.advertsMpu
 channel4.com##.block--mpu
 charbelnemnom.com,scubidu.eu###custom_html-16
+chat.deepseek.com##.ds-modal-overlay
 cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
 check-host.net###hostabq, .hostavq, #antkeayvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeayvhaeaalexhost, #antkeayvhaeapp-juiaryt, #antkeayvhaeapp-juiaryt2, .ry-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
