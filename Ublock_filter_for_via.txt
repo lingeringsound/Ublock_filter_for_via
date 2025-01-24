@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: n7HEBh40mPRO2/OTiFATCA
-! Title: Ublock filter for Via(2025-01-24 08:48:02)
-! Version: 20250124084802
+! Checksum: 9beNFaoc9i1nYkf1VsKk8Q
+! Title: Ublock filter for Via(2025-01-25 00:12:11)
+! Version: 20250125001211
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-24 08:48:02
-! Total Count: 13393
-! Blocked Filters: 13393
+! Last modified: 2025-01-25 00:12:11
+! Total Count: 13403
+! Blocked Filters: 13403
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5685
+!<<<<<域名规则>>>>>5692
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -214,6 +214,7 @@
 ||adn.porndig.com^
 ||adnotbad.com^
 ||adnxs.com^$domain=bz-berlin.de|metal-hammer.de|musikexpress.de|rollingstone.de|stylebook.de
+||adnxs.com^$xmlhttprequest,domain=welt.de
 ||ado.wish-best.com^
 ||adobedownloader.info^
 ||adobedtm.com^*-source.min.js$script,domain=plasticsnews.com
@@ -468,6 +469,7 @@
 ||arvgroup.az/hash/
 ||aryapaketleme.com^
 ||as25ap.com^
+||asadcdn.com^$script,domain=welt.de
 ||asap15.com^
 ||asdmcm.com^
 ||asianmilfhub.com/wp-content/uploads/ad/
@@ -874,9 +876,9 @@
 ||cdn-telegram.com^
 ||cdn-webstats.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
-||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
-||cdn.adsninja.ca/an_sn.js^$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
-||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/an_sn.js^$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 ||cdn.ay.gy/js/$script,third-party
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
 ||cdn.contentsitesrv.com/js/push/subscribe.js$script
@@ -4288,6 +4290,7 @@
 ||san-dast.net^
 ||sanff.com^
 ||sanjuanitaliscano.click^
+||santander.*.fino.digital^
 ||santander.orielcapitalch.com^
 ||santanderpod.*.co.uk^
 ||santanderstaging.interviewtoolkit.io^
@@ -4362,6 +4365,8 @@
 ||setkuttina.pages.dev^
 ||setupbot.info^
 ||sevensmooon.com^
+||sex-empire.org/templates/*/js/add.js
+||sex-empire.org/templates/*/js/metrika.js
 ||sex-is-here.com/*.shtml
 ||sexall.net/*.shtml
 ||sexasia.net/wp-content/uploads/2022/03/subyshare.gif
@@ -4472,6 +4477,7 @@
 ||sky567o.fun^
 ||skymods.net^
 ||skype-com.cn^
+||skyscrapertowel.com^
 ||skysportspro.com^
 ||slb3cr9dx9.jp^
 ||sldg02.com^
@@ -5108,6 +5114,7 @@
 ||ultra-rv.com^$third-party
 ||ultratime.info^
 ||um-bredirect.com^
+||unactkiosk.com^
 ||unafei-kokusai.com^
 ||unblocked.name/zpp/*$script,domain=unblocked.name
 ||unbrick.id^$third-party
@@ -6038,10 +6045,10 @@ androidauthority.com##main > div:last-child > div:has(> .ad)
 androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
 androidauthority.com##main > script + div:has(> div:only-child:empty)
 androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.van_taboola
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##.adsninja-ad-zone-container-with-set-height
+androidpolice.com,carbuzz.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##.adsninja-ad-zone-container-with-set-height
+androidpolice.com,carbuzz.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##[class*="ad-zone-container-content-character-count-repeatable"]
+androidpolice.com,carbuzz.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##.adzone-above-latest
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##[class*="ad-zone-container-content-character-count-repeatable"]
-androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.com,makeuseof.com,movieweb.com,screenrant.com,thegamer.com,xda-developers.com##[id^="adsninja-ad-zone-div-gpt-ad"]
 androidweblog.com##[class^="andro-random-paragraph"]
 androidweblog.com,azhar-c.info,concienciaradio.com,ispazio.net,kontasas.gr##.stream-item
@@ -10576,7 +10583,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>620
+!<<<<<通配符规则>>>>>621
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10663,6 +10670,7 @@ $script,domain=zdnet.fr,third-party
 .com/dating/*/index.html?lang=
 .com/f_lo.js|$script,~third-party
 .com/fr.js|$~third-party
+.com/go/*?clickid=
 .com/ipp.js?id=$third-party
 .com/lp*.html?zoneid=
 .com/pl?o=
@@ -11433,7 +11441,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1983
+!<<<<<放行白名单>>>>>1985
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12289,7 +12297,7 @@ thepiratebay3.com^
 @@||googletagmanager.com^$script,redirect-rule,domain=charleyharper.com|charleyharperartstudio.com|charleyharperwholesale.com|fabframes.com|fabulousframesandart.com
 @@||googletagservices.com/tag/js/gpt.js$script,domain=abola.pt|arcai.com|blastingnews.com|gentside.*|maxisciences.com|ohmymag.*|phonearena.com|pitchfork.com|satoshi-win.xyz|viz.com
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
-@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 @@||govbusi.info^$script,domain=satoshi-win.xyz
 @@||gplinks.in/track/$script,xmlhttprequest,domain=gplinks.*|mastharyana.com|quickimageconverter.com|techipop.com|remixbass.com|techyember.com
 @@||graph.facebook.com^$xmlhttprequest,domain=merriam-webster.com
@@ -13296,7 +13304,9 @@ iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 iwin.com#@##sponsorText
 japan-webike.*,webike.*,webike-china.cn#@#.ad_box
 japan-webike.*,webike.*,webike-china.cn#@#.ad_title
+japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
+japscan.lol#@#div.container > [href]
 jav68.net#@#.ads-header
 javcrave.com#@#.widget_custom_html
 javgg.co,javgg.net#@##AD_160
