@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: vwHYlKwQjUVZwUKVlvDRSQ
-! Title: Ublock filter for Via(2025-01-25 08:44:52)
-! Version: 20250125084452
+! Checksum: f+uMXWwf/WpFsONJbvn33Q
+! Title: Ublock filter for Via(2025-01-26 00:11:54)
+! Version: 20250126001154
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-25 08:44:52
-! Total Count: 13403
-! Blocked Filters: 13403
+! Last modified: 2025-01-26 00:11:54
+! Total Count: 13410
+! Blocked Filters: 13410
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5692
+!<<<<<域名规则>>>>>5694
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2044,6 +2044,7 @@
 ||giga.de/special/gutscheine/*.png$script,~third-party
 ||gigachadlitics.b-cdn.net^
 ||gigaleecher.com/templates/plugmod/giga.js$script,~third-party
+||gillspaste.com^
 ||gimkax.com^
 ||gimp.es^
 ||ginsaitchosheer.net^
@@ -2576,6 +2577,7 @@
 ||ishort.in^$script,third-party
 ||island-vanity.com^
 ||isolatedovercomepasted.com^
+||it12.infinityscans.net^
 ||italianlottery.com^
 ||iteparyleb.com^
 ||itsaol.com^
@@ -5706,7 +5708,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4874
+!<<<<<网站单独规则>>>>>4878
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6064,6 +6066,7 @@ anime7.download,bitview.cloud,bolly4u.*,convallariaslibrary.com,fast-dl.*,hentai
 animedao.*##.ab
 animedao.*##.gads
 animedao.*##hr
+animefire.plus##.divSection3:has(iframe[src^="//ad.a-ads.com/"])
 animeid.tv##[href^="http://play.leadzupc.com/"]
 animekuro.org##.mks_ads_widget
 animesanka.*##[id*="-ads-"]
@@ -10034,6 +10037,9 @@ txxxporn.tube##.video-content > div[class]:first-child > div[class]:has(> div > 
 txxxporn.tube##.video-videos-slider
 u.gg###af-header-link
 udvl.com###adv4-wrap
+uexpress.com##.aditude-ad-placeholder
+uexpress.com##[class*="AdvertisingWrapper"]
+uexpress.com##[class^="Header_adContainer"]
 uflash.tv##[id^="ad-float"]
 ufreegames.com##.spo
 uii.io##a[href^="http://mob1ledev1ces.com/"]
@@ -11441,7 +11447,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1985
+!<<<<<放行白名单>>>>>1986
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12076,6 +12082,7 @@ thepiratebay3.com^
 @@||displayvertising.com^$script,domain=promo-visits.site|shorterall.com
 @@||djnf6e5yyirys.cloudfront.net/js/friendbuy.min.js$script,domain=imperfectfoods.com|imperfectproduce.com
 @@||dl.a2zapk.*/getred.php$xmlhttprequest,domain=a2zapk.*|educatiocenter.online
+@@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
 @@||dlvid.*/prebid.js$domain=bigbtc.win|shrink.icu
 @@||dn0qt3r0xannq.cloudfront.net/nowgg-$script
 @@||documaniatv.com^$script,xmlhttprequest,~third-party
