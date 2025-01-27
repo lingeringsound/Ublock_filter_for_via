@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: FjJ7+tCJGCc+OpgoLOnpcA
-! Title: Ublock filter for Via(2025-01-27 08:48:47)
-! Version: 20250127084847
+! Checksum: XIzD/owpaA4/dQEKsbgX5g
+! Title: Ublock filter for Via(2025-01-28 00:13:21)
+! Version: 20250128001321
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-27 08:48:47
-! Total Count: 13440
-! Blocked Filters: 13440
+! Last modified: 2025-01-28 00:13:21
+! Total Count: 13445
+! Blocked Filters: 13445
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5720
+!<<<<<域名规则>>>>>5724
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1150,6 +1150,7 @@
 ||convertwithwave.com^
 ||conveyancingportal.com^
 ||coolcast2.com/z-$script
+||coomer.su/api/v1/creators|
 ||copeescan.es^
 ||copyhomework.com^
 ||copynet.com.mx/Message%20Centre/
@@ -2738,6 +2739,7 @@
 ||keepsclean.com^
 ||keiunkan.com^
 ||kemono.party/js/script.js
+||kemono.su/api/v1/creators|
 ||kennsaku.jp^
 ||kentiaabolish.com^
 ||kerapoxy.*/js/baf.js$script
@@ -3449,6 +3451,7 @@
 ||nakayama.chikarakosopower.com^
 ||nakedanalytics.net^
 ||name0fbestway.com^
+||nanai-clw.com^
 ||nang-cap-
 ||nang-hang-
 ||nanime.biz^$third-party
@@ -5540,6 +5543,7 @@
 ||xceteu.com^
 ||xclusivejams.*/sw.js$script
 ||xczzfvxknafgoawjtv.com^
+||xdgeslibgbim.icu^popup
 ||xdowl0adxd0wnloadx.com^
 ||xdpiwrx7ub.net^
 ||xdxg.xyz^
@@ -10615,7 +10619,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>622
+!<<<<<通配符规则>>>>>623
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11204,6 +11208,7 @@ $script,domain=zdnet.fr,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
 ://media.*/js/code.min.js|$script,third-party
+://mg.mail.notion.so/$image
 ://myanimelist.net/pixel?$image
 ://myanimelist.net/static/logging.gif?$image
 ://ply.*/?v=$image,third-party
