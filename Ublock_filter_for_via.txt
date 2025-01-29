@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 6WHGpwnKDMsHeD/JapBDBQ
-! Title: Ublock filter for Via(2025-01-29 00:12:37)
-! Version: 20250129001237
+! Checksum: sI2p93rXns0qy8mxZCbtWg
+! Title: Ublock filter for Via(2025-01-29 08:47:04)
+! Version: 20250129084704
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-29 00:12:37
-! Total Count: 13448
-! Blocked Filters: 13448
+! Last modified: 2025-01-29 08:47:04
+! Total Count: 13450
+! Blocked Filters: 13450
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -11481,7 +11481,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1990
+!<<<<<放行白名单>>>>>1992
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11866,7 +11866,7 @@ thepiratebay3.com^
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
 @@||c.adsco.re/|$script,domain=hotfrog.*
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
-@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|video.gazzetta.it
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
 @@||c.tmyzer.com^$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||cache.marieclaire.fr/media/videojs/videojs.ads.min.js$script,domain=marieclaire.fr
@@ -12203,6 +12203,7 @@ thepiratebay3.com^
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||fiches-auto.fr^$script,~third-party
 @@||file4go.*/ads.js$script,~third-party
+@@||filecrypt.co/captcha/
 @@||filecrypt.co/captcha/captcha.php$image,~third-party
 @@||filegrade.com^$script,~third-party
 @@||firestonecompleteautocare.com/*/VisitorAPI.js$script,~third-party
@@ -12616,6 +12617,7 @@ thepiratebay3.com^
 @@||nowgoal.com/Control/GetAd.aspx$script,~third-party
 @@||npttech.com/advertising.js$domain=independent.co.uk
 @@||npttech.com/advertising.js$script,domain=derstandard.at|derstandard.de
+@@||npttech.com/advertising.js$xmlhttprequest,domain=the-independent.com
 @@||nqs.nice264.com/data?system=golt&plugin$xmlhttprequest,domain=goltelevision.com
 @@||nr-data.net^$domain=chaturbate.com
 @@||ntv.io/serve/load.js$script,domain=titantv.com
