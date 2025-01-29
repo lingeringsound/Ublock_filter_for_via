@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: sI2p93rXns0qy8mxZCbtWg
-! Title: Ublock filter for Via(2025-01-29 08:47:04)
-! Version: 20250129084704
+! Checksum: O+2ggM6+RWYjvF//2Dj7Fg
+! Title: Ublock filter for Via(2025-01-30 00:13:16)
+! Version: 20250130001317
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-29 08:47:04
-! Total Count: 13450
-! Blocked Filters: 13450
+! Last modified: 2025-01-30 00:13:17
+! Total Count: 13455
+! Blocked Filters: 13455
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5725
+!<<<<<域名规则>>>>>5728
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -677,6 +677,7 @@
 ||bio.site/atttt^
 ||bioparquemonterrey.net^
 ||biqle.ru/swp.js$script,~third-party
+||bird567o.fun^
 ||birdconnection.site^
 ||biroads.com^$third-party
 ||birth-bravery.com^
@@ -5395,6 +5396,7 @@
 ||web-instruction.team^
 ||web-telegram.net^
 ||web-telegvm.org^
+||web.core.windows.net/?zpbid=
 ||web.fe-vrier.com^
 ||web3connectfix.pages.dev^
 ||web3mainnetdapp.pages.dev^
@@ -5450,6 +5452,7 @@
 ||windows.net/*/flscn.js
 ||windows.net/*/media/beep.mp3
 ||windows.net/*?bcda=
+||windows.net/*_Fm7-alert.mp3
 ||windows.net/js/jsd1.js
 ||windows.net/js/jsd2.js
 ||windows.net/js/jupiter.js
@@ -5739,7 +5742,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4879
+!<<<<<网站单独规则>>>>>4880
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7898,6 +7901,7 @@ ilpuntotecnico.com##[style^="text-align:center; height:"][style$="px;"]
 imagecolorpicker.com##[class^="leftAds-"]
 imagecolorpicker.com##[class^="rightAds-"]
 imagehaha.com,imagenpic.com,imageshimage.com,imagetwist.com##video
+imagehaha.com,imagenpic.com,imageshimage.com,imagetwist.com,picshick.com##a[href^="https://candy.ai/"]
 imagehaha.com,imagenpic.com,imageshimage.com,imagetwist.com,picshick.com,picturelol.com,vipr.im###rang2
 imeteo.sk##.page-container__ad-container
 imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com##.sidebar > div:first-of-type
@@ -11481,7 +11485,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1992
+!<<<<<放行白名单>>>>>1993
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13353,6 +13357,7 @@ japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][targ
 japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
+japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#div.container > [href]
 jav68.net#@#.ads-header
 javcrave.com#@#.widget_custom_html
