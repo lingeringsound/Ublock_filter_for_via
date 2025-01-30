@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: S2hQxBw4zs2w/hUMd/J1HQ
-! Title: Ublock filter for Via(2025-01-30 08:47:10)
-! Version: 20250130084710
+! Checksum: oyMeUEZvYhuPa5mX9ORrqQ
+! Title: Ublock filter for Via(2025-01-31 00:12:39)
+! Version: 20250131001239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-30 08:47:10
-! Total Count: 13455
-! Blocked Filters: 13455
+! Last modified: 2025-01-31 00:12:39
+! Total Count: 13467
+! Blocked Filters: 13467
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5728
+!<<<<<域名规则>>>>>5732
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1817,6 +1817,7 @@
 ||findthorman.shop^
 ||fine-cloud.net^
 ||finelucckyy.jp^
+||finessebaitsupply.com^
 ||fingerboarding.com^
 ||fingerprint.com^$script,third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
 ||fingerprint.com^$third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
@@ -2572,6 +2573,7 @@
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
 ||inzerille.com^
 ||ioncibria.com^
+||ipify.org^$domain=realmoasis.com
 ||ipultcbpgbs.com^
 ||ipvertnet.com/clickunder/
 ||iqpoll.cn^
@@ -5375,6 +5377,7 @@
 ||watch-my-gf.com/images/bear.png
 ||watch-series.*/sw.js$script,~third-party
 ||watchadsfree.com^
+||watchdjav.online^
 ||watchfreejavonline.co/*.gif$image,~third-party
 ||watchfreexxx.net/*.php$script,~third-party
 ||watchliveon24.com^
@@ -5448,6 +5451,7 @@
 ||will-kantei.com^
 ||will-lucky-will.com^
 ||willalland.info^
+||windows.net*/esc.js
 ||windows.net/*/esc.js
 ||windows.net/*/flscn.js
 ||windows.net/*/media/beep.mp3
@@ -5742,7 +5746,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4880
+!<<<<<网站单独规则>>>>>4886
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5860,7 +5864,7 @@ $script,domain=zdnet.fr,third-party
 21porno.com###s-title
 22pixx.xyz##[class^="resp-container"]
 24game.stream##.ad-modal
-25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,jetseotools.com,key-hub.eu,kwamkidhen.com,leechpremium.link,letmeread.net,lightnovelworld.com,listatv.pl,logaritmo.org,lootdb.com,loveawake.com,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vidlii.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,worldaide.fr,yoursavegames.com,zikloud.com##ins.adsbygoogle
+25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,jetseotools.com,key-hub.eu,kwamkidhen.com,leechpremium.link,letmeread.net,lightnovelworld.*,lightnovelworld.com,listatv.pl,logaritmo.org,lootdb.com,loveawake.com,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vidlii.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,worldaide.fr,yoursavegames.com,zikloud.com##ins.adsbygoogle
 2conv.com,flvto.biz##.content-right-bar
 2conv.com,flvto.biz##.horizontal-area
 2th.me##.pc-container
@@ -8237,7 +8241,12 @@ lightnovelcave.com###lnvidcontainer
 lightnovelcave.com##[data-defid]
 lightnovelpub.*##.sticky-body
 lightnovelpub.com##div[class]:has(> .cnx-player)
+lightnovelworld.*###vn-slot-top
+lightnovelworld.*##.adsbox
 lightnovelworld.*##.uaxcKxir
+lightnovelworld.*##.vl-ad
+lightnovelworld.*##.vnad-in
+lightnovelworld.*##[id^="vn-slot-"]
 lightnovelworld.*##div[data-mobid]
 lightnovelworld.com###vn-slot-top
 lightnovelworld.com##.adsbox
@@ -9576,6 +9585,7 @@ skidrowcodex.net##.blog-content.wcontainer:has(> .premium)
 skidrowcodex.net##.widget_text:has(script[src$="/invoke.js"])
 skidrowcodexgames.com##[class^="aligncenter wp-image-"]
 skmedix.pl###aswift_4_host
+skmedix.pl##div[align="center"][style="height:250px;"]:has(> ins.adsbygoogle)
 skyblock.bz##.card[style]
 slashgear.com##.before-ad
 slate.com##.slate-ad
@@ -11485,7 +11495,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1993
+!<<<<<放行白名单>>>>>1995
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12389,6 +12399,7 @@ thepiratebay3.com^
 @@||huzungozlum.de^$script,~third-party
 @@||hyundaiusa.com/js/analytics/analytics.js$script,~third-party
 @@||ib.adnxs.com/favicon.ico$xmlhttprequest,domain=dyktanda.pl
+@@||icanhazip.com^$xmlhttprequest,domain=dnscheck.tools
 @@||id.flybuys.com.au/assets/scripts/fingerprint2.min.js$script,domain=id.flybuys.com.au
 @@||identity.mparticle.com/v1/login$xmlhttprequest,domain=discoveryplus.*
 @@||idolbucks.com^$script,domain=idols69.com|ocreampies.com
@@ -13355,6 +13366,7 @@ japan-webike.*,webike.*,webike-china.cn#@#.ad_box
 japan-webike.*,webike.*,webike-china.cn#@#.ad_title
 japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
+japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
