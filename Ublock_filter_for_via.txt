@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0Y86ySgos3U98KlJBotrfw
-! Title: Ublock filter for Via(2025-01-31 08:47:30)
-! Version: 20250131084730
+! Checksum: EhYvjqNTP+z7rXnbYkRLMA
+! Title: Ublock filter for Via(2025-02-01 00:12:33)
+! Version: 20250201001233
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-31 08:47:30
-! Total Count: 13468
-! Blocked Filters: 13468
+! Last modified: 2025-02-01 00:12:33
+! Total Count: 13470
+! Blocked Filters: 13470
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5732
+!<<<<<域名规则>>>>>5734
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -729,7 +729,7 @@
 ||blogspot.com/*/s336/Upshrink336x280.jpg
 ||blogtopsites.com^$third-party
 ||bloxplay.com^
-||bloxstrapmenu.com^
+||bloxstrapmenu.com^$domain=~bloxstraplabs.com
 ||blozoo.info/js/inouttool/
 ||blsplayer.com/player/assets/js/jquery.js
 ||blue-could.com^
@@ -1825,6 +1825,7 @@
 ||firebase.googleapis.com^$domain=hotmediahub.com
 ||firebasestorage.googleapis.com/v0/b/gosyndication.appspot.com^
 ||firefaucet.win/*.gif$image
+||fishstrap.com^$domain=~fishstrap.app
 ||fitgirl-repack.*^$domain=~fitgirl-repacks.site
 ||fitgirl-repacks-site.org^$domain=~fitgirl-repacks.site
 ||fitgirl.cc^$domain=~fitgirl-repacks.site
@@ -5125,6 +5126,7 @@
 ||u-to-u.com^
 ||u.send.now/m.js$script,~third-party
 ||u3ig.com^
+||u5lddcsi.xyz^
 ||u87yuo9ojh.world^
 ||ube71ki83.com^
 ||ublockpop.com^
