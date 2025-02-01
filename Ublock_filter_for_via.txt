@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EhYvjqNTP+z7rXnbYkRLMA
-! Title: Ublock filter for Via(2025-02-01 00:12:33)
-! Version: 20250201001233
+! Checksum: NWd/EDAdTqs4Q3yWZ5sCPg
+! Title: Ublock filter for Via(2025-02-01 08:51:23)
+! Version: 20250201085123
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-01 00:12:33
-! Total Count: 13470
-! Blocked Filters: 13470
+! Last modified: 2025-02-01 08:51:23
+! Total Count: 13471
+! Blocked Filters: 13471
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -11498,7 +11498,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1995
+!<<<<<放行白名单>>>>>1996
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13371,6 +13371,7 @@ japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][targ
 japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
 japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
+japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#div.container > [href]
