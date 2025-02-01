@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: NWd/EDAdTqs4Q3yWZ5sCPg
-! Title: Ublock filter for Via(2025-02-01 08:51:23)
-! Version: 20250201085123
+! Checksum: mYJCNpz7shqgMolpivCOnQ
+! Title: Ublock filter for Via(2025-02-02 00:10:42)
+! Version: 20250202001042
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-01 08:51:23
-! Total Count: 13471
-! Blocked Filters: 13471
+! Last modified: 2025-02-02 00:10:42
+! Total Count: 13480
+! Blocked Filters: 13480
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5734
+!<<<<<域名规则>>>>>5739
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -62,6 +62,7 @@
 ||1winpb.com^
 ||1xzf53lo.xyz^
 ||2.87.160.7^
+||2025*maintenance.weebly.com^
 ||2226wurpatw.tokyo^
 ||23.109.87.170^
 ||2349.jp^
@@ -881,8 +882,10 @@
 ||cdn-telegram.com^
 ||cdn-webstats.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
-||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+||cdn.adsninja.ca/an_sn.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/an_sn.js^$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/biddertypelibrary/$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 ||cdn.ay.gy/js/$script,third-party
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
@@ -3435,6 +3438,7 @@
 ||mymymy.net^
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||myocean.jp^
+||myreadingmanga.info/vjs/mrm_
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
 ||mysecurify.com^
 ||mystery-forest.com^
@@ -5742,13 +5746,14 @@
 ||zontent.powvideo.net^
 ||zoologyfibre.com^
 ||zoosk.online^
+||zoroalteedrich.net^
 ||zqvee2re50mr.com^
 ||zvogo.com^
 ||zwuucugezzjhhi.com^
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4887
+!<<<<<网站单独规则>>>>>4889
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6704,6 +6709,7 @@ comdotgame.com##[src^="https://a.adtng.com/"]
 comdotgame.com##div[style]:has(> a[href^="https://tm-offers.gamingadult.com/"])
 comic.pixiv.net##iframe.ad-content
 comichara.com,javhoho.com,javporn.tv,movient.net,nekomeowmeow.com,serialeonlinesubtitrate.ro###text-6
+comicsvalley.com###custom_html-19
 comicxxx.eu,pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*,watchfreexxx.net,youwatchporn.com###tracking-url
 comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: auto; min-height: 266px; max-width: 100vw;"]
 comidoc.net##div[style="text-align:center;margin-left:auto;margin-right:auto;min-height:266px;max-width:90vw"]
@@ -9450,6 +9456,7 @@ senpa.io###ad-slot-left-panel
 senpa.io###banner_ad_bottom
 senpa.io##.adsPanel
 senpa.io##.advertisement-informer
+senpai-stream.net##div[x-show="!cf_turnstile_response"]
 sensualgirls.org##.cbox_cont > div[style="text-align: center;"]
 sensualgirls.org##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 senzuri.tube##.content-block + .video-tube-friends + div[class]
@@ -11498,7 +11505,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1996
+!<<<<<放行白名单>>>>>1998
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11569,7 +11576,7 @@ thepiratebay3.com^
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|infinityscans.net|infinityscans.xyz|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|poqzn.xyz|promo-visits.site|quesignifi.ca|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|solvetube.*|starkroboticsfrc.com|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz
-@@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|cursomecanet.com|designtagebuch.de|kiktu.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com
+@@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|cursomecanet.com|designtagebuch.de|kiktu.com|poophq.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com|veev.to
 @@*$xmlhttprequest,method=head|get,domain=app.axenthost.com,third-party
 @@*$xmlhttprequest,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
 @@*$xmlhttprequest,script,~third-party,domain=allcryptoz.net|batmanfactor.com|crewbase.net|crewus.net|documentaryplanet.xyz|gametechreviewer.com|midebalonu.net|misterio.ro|seory.xyz|shinbhu.net|shinchu.net|substitutefor.com|talkforfitness.com|thefitbrit.co.uk|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
@@ -11713,6 +11720,7 @@ thepiratebay3.com^
 @@||adserver.pandora.com/haymaker/api/v1/serve/$xmlhttprequest,~third-party
 @@||adsninja.ca/api/cached/$xmlhttprequest,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 @@||adsninja.ca/urlmap?$xmlhttprequest,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+@@||adsninja.ca^$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adsynth-ofx-quotewidget-prod.herokuapp.com/api/$xmlhttprequest,domain=widget-yahoo.ofx.com
 @@||adtech.de/dt/common/DAC.js$domain=ekstrabladet.dk
 @@||advnetwork.net/advertising/*/advertising.js$xmlhttprequest,domain=bsshotel.it
@@ -12357,7 +12365,7 @@ thepiratebay3.com^
 @@||googletagmanager.com^$script,redirect-rule,domain=charleyharper.com|charleyharperartstudio.com|charleyharperwholesale.com|fabframes.com|fabulousframesandart.com
 @@||googletagservices.com/tag/js/gpt.js$script,domain=abola.pt|arcai.com|blastingnews.com|gentside.*|maxisciences.com|ohmymag.*|phonearena.com|pitchfork.com|satoshi-win.xyz|viz.com
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
-@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+@@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||govbusi.info^$script,domain=satoshi-win.xyz
 @@||gplinks.in/track/$script,xmlhttprequest,domain=gplinks.*|mastharyana.com|quickimageconverter.com|techipop.com|remixbass.com|techyember.com
 @@||graph.facebook.com^$xmlhttprequest,domain=merriam-webster.com
@@ -13369,6 +13377,7 @@ japan-webike.*,webike.*,webike-china.cn#@#.ad_box
 japan-webike.*,webike.*,webike-china.cn#@#.ad_title
 japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
+japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > .text-center > a.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
