@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 7AR71NT1TQJQ8YSqZEFmUA
-! Title: Ublock filter for Via(2025-02-02 08:51:33)
-! Version: 20250202085133
+! Checksum: IXgU1rbs8ZJS5GIOQzf45w
+! Title: Ublock filter for Via(2025-02-03 00:11:32)
+! Version: 20250203001132
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-02 08:51:33
-! Total Count: 13482
-! Blocked Filters: 13482
+! Last modified: 2025-02-03 00:11:32
+! Total Count: 13495
+! Blocked Filters: 13495
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5739
+!<<<<<域名规则>>>>>5743
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -270,6 +270,7 @@
 ||ag.palmtube.net^
 ||again-agreement.com^
 ||aghtag.tech^
+||aging3.co^
 ||agoke0333.info^
 ||agqycbadbofog.com^
 ||ahentai.top/counter.php
@@ -2567,6 +2568,7 @@
 ||instapornvideos.com/back.js
 ||instogromv.com^
 ||insurecarrot.com^
+||intended9.com^
 ||interest.co.nz/modules/custom/presspatron/js/pp-ablock-banner.js$script
 ||intern0120.com^
 ||internal-api.prolific.com/api/v1/statistics/
@@ -4049,6 +4051,7 @@
 ||publicrecords.netronline.com/js/checkuser.js$script,~third-party
 ||publisher.linkvertise.com^$third-party,domain=~linkvertise.*
 ||pugliain.net/wp-content/uploads/*.gif$image
+||pulseapp-24x7-service.github.io^
 ||punemirror.com/api/v1$xmlhttprequest,~third-party
 ||punosy.top^$third-party
 ||pupok.link^
@@ -4222,6 +4225,7 @@
 ||rhsrthrtjhe.com^
 ||ri11que-za.com^
 ||riarialuvluv2023.com^
+||ricarvort.com^
 ||rice-iten.com^
 ||rich-cash.fun^
 ||rich-cash.site^
@@ -5753,7 +5757,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4890
+!<<<<<网站单独规则>>>>>4895
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5798,6 +5802,7 @@ $script,domain=zdnet.fr,third-party
 1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px;"]:has(a img[src*="/"][src*="_"])
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 103.70.114.35###idmuvi-popup
+10crack.com,activators4windows.com,allsoftwarekeys.com,cracklabel.com,crackpcsoft.net,crackproductkey.com,cracksole.com,crackwinz.com,datanodes.to,f4file.com,filedownloads.store,freecrackdownload.com,freelicensekey.org,fullcrackedpc.com,genuineactivator.com,goharpc.com,idmfullcrack.info,idmpatched.com,patchcracks.com,pccrackbox.com,pcsoftz.net,pcwarezbox.com,procrackhere.com,productkeyforfree.com,productkeyfree.org,proproductkey.com,rootscrack.com,serialkey360.com,softwar2crack.com,topcracked.com,wazusoft.com,zuketcreation.net##[onclick*="open"]
 10play.com.au##.content__ad__content
 10short.*,droplink.co,lollty.pro,mamahawa.com,solarchaine.com##.text-left
 111.90.150.10###secondary > .widget_custom_html
@@ -6242,6 +6247,7 @@ av01.tv##div[style="width: 100%; height: 100%; top: 0px; position: fixed; z-inde
 av01.tv##iframe[width="728"]
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##article.postlist__item:has(.meta__network)
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
+avforums.com##.m2n-ads-slot
 avjamack.com,avjamak.net##.widget-img
 avoiderrors.com##.ai-viewport-1.code-block-3.code-block
 avoiderrors.com##[href^="https://www.avoiderrors.com/robinhood"]
@@ -6554,6 +6560,8 @@ camclips.tv##[src^="https://camclips.tv/player/html.php?aid"]
 camclips.tv##div.cbchat
 camclips.tv,camflow.tv,camhoes.tv##.box.rltd
 camhub.*##.popunder-opener
+camhub.cc##.asside-link
+camhub.cc##.link-offer
 caminspector.net,mangovideo.*,watchmdh.to##.top
 camseek.tv##div[style$="height: 240px; background: white"]
 camsexvideo.net##.list-spots
@@ -7589,7 +7597,6 @@ gogaytube.tv,shemaleporntube.tv##.videojs-hero
 gogoanime.*##.adx
 gogoanime.*##.anime_video_body_cate > div[style]:has(> div[id] + script[src])
 gogoanime.*##.banner_center
-goharpc.com,pccrackbox.com,cracklabel.com,pcwarezbox.com,10crack.com,crackproductkey.com,crackpcsoft.net,crackwinz.com,genuineactivator.com,topcracked.com,fullcrackedpc.com,idmfullcrack.info,idmpatched.com,productkeyfree.org,patchcracks.com,cracksole.com,allsoftwarekeys.com,softwar2crack.com,productkeyforfree.com,wazusoft.com,rootscrack.com,activators4windows.com,procrackhere.com,proproductkey.com,freelicensekey.org,pcsoftz.net,freecrackdownload.com,f4file.com,serialkey360.com,zuketcreation.net,filedownloads.store##[onclick*="open"]
 golem.de##[href^="https://ads.golem.de/"]
 golinuxcloud.com##.adtag_250
 golinuxcloud.com##.adtag_600
@@ -8299,8 +8306,8 @@ lista.mercadolivre.com.br##.brand-wrapper-desktop-new
 lista.mercadolivre.com.br##.brand-wrapper-desktop-new:has(.hero__right-section-text-promoted-typography)
 lista.mercadolivre.com.br##.ui-search-layout__item:has(.poly-component__ads-promotions)
 lista.mercadolivre.com.br##.ui-search-layout__item:nth-child(-n+3):has(.poly-component__ads-promotions)
-listen2.ai##.backdrop-blur-sm
-listen2.ai##article > div:has(> ins.adsbygoogle)
+listen2.ai,quik.news##.backdrop-blur-sm
+listen2.ai,quik.news##article > div:has(> ins.adsbygoogle)
 live-sport.duktek.pro###cloudUrl
 live-tv-channels.org##.adsense-player
 live-tv-channels.org##.adsense-player-2
@@ -9730,6 +9737,8 @@ store.petvalu.com##.store_locator_loading
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
 strdef.world###stream-banner
 strdef.world##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
+stream.offidocs.com##.image-container:has(> a[href^="https://amzn.to/"])
+stream.offidocs.com##.image-container:has(> a[href^="https://track.flexlinkspro.com/"])
 stream2watch.*##.min-test
 stream2watch.*##p[style="color:white;"]
 stream4free.*###promo
@@ -10646,7 +10655,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>623
+!<<<<<通配符规则>>>>>624
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10711,6 +10720,7 @@ $script,domain=zdnet.fr,third-party
 ./M5q5.js$script
 .at/bilder/*.jpg|$script,~third-party
 .at/bilder/*.jpg|$script,~third-party,domain=at
+.avforums.com/b/image.gif?$image
 .biz/sw/w1s.js|$script,third-party
 .cfd/?aD*HlwZT1jJnRtcD01JmFkY29kZT0x$script,third-party
 .cfd/?h=*&user=$script,third-party
@@ -11272,7 +11282,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>231
+!<<<<<通用Css规则>>>>>232
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -11287,6 +11297,7 @@ thepiratebay3.com^
 ###ad_img:not(:empty)
 ###ad_slot:not([style^="position: absolute; left: -5000px"])
 ###ad_space:not([style^="position: absolute; left: -5000px"])
+###adbd.overdiv
 ###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ###adheader:not([style^="position: absolute; left: -5000px"])
 ###ads-1:not([style^="position: absolute; left: -5000px"])
@@ -11506,7 +11517,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1999
+!<<<<<放行白名单>>>>>2001
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12602,6 +12613,7 @@ thepiratebay3.com^
 @@||mssl.fwmrm.net/p/abc_live/$script,domain=abc.go.com
 @@||muzlan.top^$xmlhttprequest,image,~third-party
 @@||mv.outbrain.com/Multivac/api/get?url=$script,domain=welt.de
+@@||mwstats.info^$script,~third-party
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=barracudanetworks.com
 @@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,~third-party
 @@||my.petinsurance.com/assets/js/new-relic.js$script,~third-party
@@ -13383,6 +13395,7 @@ japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto
 japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
+japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > #chapters.tab-content > .row.justify-content-center.align-items-center > a.image-box.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#div.container > [href]
