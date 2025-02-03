@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IXgU1rbs8ZJS5GIOQzf45w
-! Title: Ublock filter for Via(2025-02-03 00:11:32)
-! Version: 20250203001132
+! Checksum: oOhDdpNQQuNkdBXkriO+jQ
+! Title: Ublock filter for Via(2025-02-03 08:49:32)
+! Version: 20250203084932
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-03 00:11:32
-! Total Count: 13495
-! Blocked Filters: 13495
+! Last modified: 2025-02-03 08:49:32
+! Total Count: 13496
+! Blocked Filters: 13496
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -11517,7 +11517,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2001
+!<<<<<放行白名单>>>>>2002
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12154,6 +12154,7 @@ thepiratebay3.com^
 @@||djnf6e5yyirys.cloudfront.net/js/friendbuy.min.js$script,domain=imperfectfoods.com|imperfectproduce.com
 @@||dl.a2zapk.*/getred.php$xmlhttprequest,domain=a2zapk.*|educatiocenter.online
 @@||dlswbr.baidu.com/heicha/mw/abclite-$script,domain=map.baidu.com
+@@||dlvi.my/prebid.js$script,domain=bigbtc.win
 @@||dlvid.*/prebid.js$domain=bigbtc.win|shrink.icu
 @@||dn0qt3r0xannq.cloudfront.net/nowgg-$script
 @@||documaniatv.com^$script,xmlhttprequest,~third-party
