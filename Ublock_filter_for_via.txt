@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oOhDdpNQQuNkdBXkriO+jQ
-! Title: Ublock filter for Via(2025-02-03 08:49:32)
-! Version: 20250203084932
+! Checksum: FXvp2FDLQGJQrf5XL7esTQ
+! Title: Ublock filter for Via(2025-02-04 00:12:56)
+! Version: 20250204001256
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-03 08:49:32
-! Total Count: 13496
-! Blocked Filters: 13496
+! Last modified: 2025-02-04 00:12:56
+! Total Count: 13505
+! Blocked Filters: 13505
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5743
+!<<<<<域名规则>>>>>5749
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1500,6 +1500,7 @@
 ||duden.de/aab/assets/js/
 ||duh0b8nl8uhfn.cloudfront.net^
 ||dulge9.com^
+||dummymerchandise.com^
 ||dump.xxx/sw.js$script,~third-party
 ||dunabear.com^
 ||duplichecker.com/asets/img/logo.svg$image,~third-party
@@ -2230,6 +2231,7 @@
 ||hallway.netnaija.app/deliver.1.5.js$script,third-party
 ||halowasus.com^
 ||hamantaipei.com^
+||hammamnotself.com^
 ||handbrake.es^
 ||handbrake.it^
 ||handelsblatt.com/*/empty.js$script,~third-party
@@ -2415,7 +2417,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|dailydot.com|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|jablickar.cz|javatpoint.com|jin115.com|jmty.jp|joemonster.org|kompasiana.com|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|mariowiki.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|quefaire.be|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|dailydot.com|demotywatory.pl|dnevno.hr|dziennik.pl|ff14net.2chblog.jp|forsal.pl|game8.jp|gazetaprawna.pl|gloria.hr|golf-live.at|heureka.cz|horairesdouverture24.fr|hoyme.jp|itainews.com|j-cast.com|j-town.net|jablickar.cz|javatpoint.com|jin115.com|jmty.jp|joemonster.org|kompasiana.com|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|m.economictimes.com|mamastar.jp|mariowiki.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|news4vip.livedoor.biz|nikkansports.com|nyitvatartas24.hu|oeffnungszeitenbuch.de|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|palabr.as|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|quefaire.be|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|rostercon.com|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|verkaufsoffener-sonntag.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -2548,6 +2550,7 @@
 ||infinitytweet.me^
 ||infinityweet.com^
 ||infinityweet.me^
+||inflectionoverdorenovate.com^
 ||info-meta-noreply.com^
 ||info-top-letter.com^
 ||infomessagehappy.com^
@@ -2664,6 +2667,7 @@
 ||jl63v3fp1.com^
 ||jmdinfotechs.com^
 ||jnjn.jp^
+||jobnib.com/wp-content/plugins/*?ver=6
 ||joinads.me^$third-party
 ||joinhoney.com/evs
 ||jootizud.net^
@@ -4713,6 +4717,7 @@
 ||strpjmp.com^
 ||studiogiamberardino.it^
 ||studyeffect.com^
+||stylish-knife.com^
 ||substack.com/api/v1/firehose/batch
 ||succeedscene.com^$~script
 ||success-dream.jp^
@@ -5475,6 +5480,7 @@
 ||windows.net/media/_Fm7-alert.mp3
 ||windows.net/media/beep.mp3
 ||windowspro.de/stats/
+||winfr-wtc.com^
 ||winfreebigwindeal.top^
 ||wired.com/ams/page-ads.js$script
 ||wishhoree1890.com^
@@ -5757,7 +5763,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4895
+!<<<<<网站单独规则>>>>>4896
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8115,6 +8121,7 @@ jizzbunker.com##.banner-popup
 jizzbunker.com##.panel-body
 jizzbunker.com##.panel-rklcontent-wide
 jizzbunker2.com##.partner-site
+jobnib.com##.kln.mlb.blox
 jockantv.com###toasts
 jockantv.com##.modal-content
 jockantv.com##.modal.fade.show
@@ -10655,7 +10662,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>624
+!<<<<<通配符规则>>>>>625
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10848,6 +10855,7 @@ $script,domain=zdnet.fr,third-party
 /ads.js?api_key=*&header=
 /adsensebase.js$script
 /adus.js|$script,domain=metrolagu.cam|poop.*
+/advertising/ad-shield.js$script
 /aff.php?*&data2=
 /afon7.$script,~third-party
 /ajax/banner/list?page=$xmlhttprequest,~third-party
@@ -11517,7 +11525,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2002
+!<<<<<放行白名单>>>>>2003
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11711,6 +11719,7 @@ thepiratebay3.com^
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
+@@||ads.poshtata.online/loader.js^$script,domain=seir-sanduk.com
 @@||ads.pubmatic.com/AdServer/*/pwt.js$script,domain=ondemandkorea.com
 @@||ads.pubmatic.com/AdServer/js/pwt$script,domain=zeenews.india.com
 @@||ads.pubmatic.com/AdServer/js/pwt/$script,domain=cdn.thepublive.com
@@ -11827,7 +11836,7 @@ thepiratebay3.com^
 @@||assets.adobedtm.com/*.js$script,domain=accounts.o2.co.uk
 @@||assets.adobedtm.com/*/satelliteLib-$script,domain=chegg.com|mitelcel.com
 @@||assets.adobedtm.com/*source.min.js$script,domain=msds.open.ac.uk
-@@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it|trygghansa.se
+@@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=conad.it|medscape.com|trygghansa.se
 @@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$script,domain=los40.com|nbc.com|video.eurosport.com|www.nbc.com
 @@||assets.adobedtm.com^$script,domain=rogers.com|sky.de
 @@||assets.adobedtm.com^$xmlhttprequest,domain=atresplayer.com
