@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: U7iLLEPsmK7UBO9ZoFEqKA
-! Title: Ublock filter for Via(2025-02-04 08:47:38)
-! Version: 20250204084738
+! Checksum: akE8k/Bv8Db/g8FAUttX0A
+! Title: Ublock filter for Via(2025-02-05 00:12:52)
+! Version: 20250205001252
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-04 08:47:38
-! Total Count: 13507
-! Blocked Filters: 13507
+! Last modified: 2025-02-05 00:12:52
+! Total Count: 13513
+! Blocked Filters: 13513
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5750
+!<<<<<域名规则>>>>>5752
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3154,6 +3154,7 @@
 ||matomenever.com^
 ||maturedating.com^
 ||maturewomenevm5.com^
+||maweresibanda.co.zw/portal.support/
 ||max-adserv.com^$third-party
 ||maxdebrid.com^
 ||maxdebrid.com^$document
@@ -4647,6 +4648,7 @@
 ||star-fortune.com^
 ||star789h.fun^
 ||starbits.io/libs/check.js$script,~third-party
+||starmeetonline.com^
 ||startpage.com/sp/dplpxs
 ||startwork-introduce.com^
 ||stash.adcat.moe/script.js$script
@@ -5764,7 +5766,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4896
+!<<<<<网站单独规则>>>>>4900
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6812,6 +6814,7 @@ currencyconverterx.com##.block-inside-blocks
 currentrecruitment.com,investorveda.com###hometimerstartbtn, #hometimer, #yuidea-btmbtn, #btn6:others()
 curs-germana.com,freewebcart.com,pervertgirlsvideos.com,techhelpbd.com##.pum-overlay
 curseforge.com##:is(.project-description,div.project-detail__content) [href^="/linkout?remoteUrl=http"]:is([href*="fxco.ca"]) > img
+curseforge.com##:is(.project-description,div.project-detail__content) p > img[alt^="Use code"]
 cursomecanet.com##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 cursomecanet.com##[style="display: none;"] + div[id][style*="color:"]
 curvyfemales.com##.im-show
@@ -8554,6 +8557,7 @@ moderngyan.com,sattakingcharts.in,freshbhojpuri.com,bgmi32bitapk.in,bankshiksha.
 modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) > img
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"][href*="?r="] img
 modrinth.com##section.normal-page__content a[href*="/redirect/"] img
+modrinth.com##section.normal-page__content p > img[alt^="Use code"]
 momondo.*##div[data-resultid$="-sponsored"]
 momondo.*##div[id$=-list] div[role=tab]
 momondo.com##[onclick*="inline.ad"]
@@ -8798,6 +8802,8 @@ nzbstars.com##[href="usenetbucket.php"]
 o2.pl##.w-full:has(> div:not([class]) > div > div > a > img[src^="https://v.wpimg.pl/"])
 o2.pl##div[data-testid="homePageView"] > div[style="box-shadow: none;"]:has(> div[data-testid^="ad-placeholder-"])
 o2.pl,www.wp.pl##div:is([style="width:100%"], [style="width:100%;height:100%"]):has(> div[class] > img[src^="https://v.wpimg.pl/"][role="presentation"])
+o2tvseries.com##[href*="starmeetonline.com/"]
+o2tvseries.com##[href^="https://oabaubsutha.com/"]
 obf-io.deobfuscate.io##.self-center.overflow-hidden:has(> img[src="/nexus_banner.webp"]:only-child)
 ocregister.com##a[href^="http://www.webpublished.com"]
 odisha-remix.com,themoviesradar.in,forexsalary.com,dailywebsite.in,mamatamusicbanaras.com,missionupsc.com###wpsafe-link, .wpsafelink-multiple-pages:others()
