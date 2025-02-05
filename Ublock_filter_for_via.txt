@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: YH72IpP/+wkLzHVDG4WZiw
-! Title: Ublock filter for Via(2025-02-05 08:47:59)
-! Version: 20250205084759
+! Checksum: gpKFeE7ZA11aAYNsTeOzSA
+! Title: Ublock filter for Via(2025-02-06 00:13:43)
+! Version: 20250206001343
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-05 08:47:59
-! Total Count: 13515
-! Blocked Filters: 13515
+! Last modified: 2025-02-06 00:13:43
+! Total Count: 13525
+! Blocked Filters: 13525
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5752
+!<<<<<域名规则>>>>>5757
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -230,6 +230,7 @@
 ||ads.pinterest.com^$third-party
 ||ads.the.tube^
 ||ads.youtube.com^$domain=~ads.youtube.com
+||adsco.re^$xmlhttprequest,domain=poophq.com|veev.to
 ||adservice.google.*/adsid/integrator.js?domain=$script,domain=anydebrid.com|hotdebrid.com
 ||adshort.tech^$third-party
 ||adshrink.it^$third-party
@@ -237,6 +238,7 @@
 ||adsloboclick.com^
 ||adslop.com^$third-party
 ||adsmoloco.com^$xmlhttprequest,domain=jiocinema.com
+||adsok.co^$third-party
 ||adspy.javrank.com^
 ||adsrt.*/sw.js$script,~third-party
 ||adsrt.com^$third-party
@@ -1498,6 +1500,8 @@
 ||dsxwcas.com^
 ||du0.jp^
 ||du002iv2rxh4h.cloudfront.net^
+||duckdns.org/FAMOUS/Gens/
+||duckdns.org/security-check/
 ||duden.de/aab/assets/js/
 ||duh0b8nl8uhfn.cloudfront.net^
 ||dulge9.com^
@@ -2852,6 +2856,7 @@
 ||l-two-two.com^
 ||l0vekatsu.com^
 ||l2db.info/uploads/banners/$image
+||lacqplus.tests.step.eco^
 ||lalielynaualish.com^
 ||lamilagq.com^
 ||landings.namapper.com^
@@ -5766,7 +5771,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4902
+!<<<<<网站单独规则>>>>>4904
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8747,6 +8752,7 @@ nhl.com##.ad-responsive-slot
 nhl.com##.native-ad-slot
 nichapk.com,easyworldbusiness.com,riveh.com##center, [src*="google.com/recaptcha/"]:others()
 nicomanga.com###welcome-bar
+nicomanga.com##[href^="https://www.polybuzz.ai/"]
 nifty.com##dd[class^="Setsuzoku_servicePromo"]
 nifty.com##div[class^="Setsuzoku_ourServicesDList"] > dl > dt:first-child
 nightdreambabe.com##.banner_place
@@ -10401,6 +10407,7 @@ whathifi.com##.dfp-leaderboard-container
 whatsappmods.net##.fa-clock-o
 wheelofgold.com##span[style*="z-index:"][onclick$="fadeOut();"]
 whiskypreisvergleich.de,whiskyprices.co.uk,whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be,whiskyprix.fr##.blocker
+whoisnovel.com##[data-placement-id^="revbid-"]
 wiadomosci.wp.pl##div:has(> div:first-child > img[src^="https://v.wpimg.pl/"][height="45"][width="56"])
 wiadomosci.wp.pl##div:has(> div[data-native-adv] > a[href*="utm_"])
 wiflix-catalogue.*##.btnnew
@@ -11534,7 +11541,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2004
+!<<<<<放行白名单>>>>>2007
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11919,7 +11926,7 @@ thepiratebay3.com^
 @@||businessinsider.in/analytics_js/*$script,~third-party
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
-@@||c.adsco.re/|$script,domain=hotfrog.*
+@@||c.adsco.re/|$script,domain=hotfrog.*|poophq.com|veev.to
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
@@ -12289,6 +12296,7 @@ thepiratebay3.com^
 @@||frosmo.com/tally-weijl-product-listing/$xmlhttprequest,domain=tally-weijl.com
 @@||ftb.ca.gov/js/webtrends.min.js$script,~third-party
 @@||ftse.com/Products/*/scripts/analytics_$script,~third-party
+@@||fundingchoicesmessages.google.com$script,xmlhttprequest,domain=kledgeb.blogspot.com
 @@||fundingchoicesmessages.google.com/f/$script,domain=adshnk.com|fanatik.com.tr|milliyet.com.tr|posta.com.tr|soranews24.com
 @@||fundingchoicesmessages.google.com/f^$script,domain=teve2.com.tr
 @@||fundingchoicesmessages.google.com/i/$script,domain=fplstatistics.com|sudokugame.org
@@ -12525,6 +12533,7 @@ thepiratebay3.com^
 @@||kickasstorrents.*/static/js/all.js$script,~third-party
 @@||kikiers.com^$script,~third-party
 @@||kingarthurbaking.com/sites/default/files/google_tag/$script,~third-party
+@@||kledgeb.github.io/UbuntuKledgeb/JavaScript/GoogleAnalytics.js$script,domain=kledgeb.blogspot.com
 @@||knightlobby.com/js/$script,~third-party
 @@||kolumbus.fi/cgi-bin/counter.cgi$image,~third-party
 @@||koshien-live.net/*/adtag.xml$xmlhttprequest,domain=vk.sportsbull.jp
@@ -13413,6 +13422,7 @@ japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
 japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > .text-center > a.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol#@#body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > .container.text-center > div.mt-3[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][href^="https://www."][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]):not([href^="https://www.example"]) > img.img-fluid[src^="/imgs/onc/"]
+japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 250px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol#@#body > style + .container > .row > #main.col-md-9 > .card > #chapters.tab-content > .row.justify-content-center.align-items-center > a.image-box.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
