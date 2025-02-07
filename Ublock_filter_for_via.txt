@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Os4xOnq/R0YlKCZo0Na3lQ
-! Title: Ublock filter for Via(2025-02-07 00:11:13)
-! Version: 20250207001113
+! Checksum: N4bHYe469shqqA7l0X+FTg
+! Title: Ublock filter for Via(2025-02-07 08:48:19)
+! Version: 20250207084819
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-07 00:11:13
-! Total Count: 13535
-! Blocked Filters: 13535
+! Last modified: 2025-02-07 08:48:19
+! Total Count: 13540
+! Blocked Filters: 13540
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5764
+!<<<<<域名规则>>>>>5768
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -535,6 +535,7 @@
 ||audacity.it^
 ||audacity.pl^
 ||audiobooks4soul.com/*.custom-ads-block-detector.
+||auraloads.com^
 ||authority-uspser.top^
 ||authsignonstaff*.softr.app^
 ||auto-bild.de/_static-assets/homad/homad.js
@@ -3198,6 +3199,7 @@
 ||mediafire.com/folder/5ablaa1bmr2sb/
 ||mediafire.com/folder/5mm90sz4nz0ui/
 ||mediafire.com/folder/90qj06387ezr8/
+||mediafire.com/folder/hm0b7x2593fh1/
 ||mediafire.com/folder/oagotlqizjthi/
 ||mediafire.com/folder/ofa1qju50ffaz/
 ||mediafire.com/folder/oljsfjvzr13f2/
@@ -4451,6 +4453,7 @@
 ||sgoke0333.info^
 ||sgua.jp^
 ||shacsda.name^$third-party
+||shadowinject.com^
 ||share.notizie.it^
 ||sharecast.ws^$script,~third-party
 ||sharecube.pro^
@@ -5099,6 +5102,7 @@
 ||tritondigital.com^$domain=accuradio.com
 ||trkabfbmedia.eu^
 ||tron-free.com/banner/$image,~third-party
+||tronexcheats.space^
 ||tronkwintun.com^
 ||trripwire.com^
 ||truecrypt.fr^
@@ -5778,7 +5782,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4907
+!<<<<<网站单独规则>>>>>4908
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6639,7 +6643,7 @@ celebjared.net##[href^="https://minepi.com/"]
 celebmasta.com##img.size-medium
 celebritymovieblog.com##.banner_top
 celebritynakeds.com##.show-over-1000.async-reklam-placeholder
-cety.app,exego.app,cutlink.net,cutsy.net,cutyurls.com,cutty.app,cutnet.net##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions
+cety.app,cutlink.net,cutnet.net,cutsy.net,cutty.app,cutyurls.com,exego.app,jixo.online##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions
 cfake.com###over
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
 channel4.com##.advertsMpu
@@ -10119,6 +10123,7 @@ tw-calc.net##.vertical_large.container
 tw-calc.net##.vertical_large_2.container
 twi-fans.com##.fixed.data-\[state\=open\]\:animate-in
 twitch.tv##.stream-display-ad__wrapper
+twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
 txxx.*##.index-page > .wrapper > .row + div[class]
 txxx.*##.jw-atitle.nopop:has(> [href*="g2fame.com"][href*="&campaign"])
 txxx.*##.pwa-ad
