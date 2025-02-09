@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9MgFK/GiZ2HcJeBEHWVHqA
-! Title: Ublock filter for Via(2025-02-09 00:11:05)
-! Version: 20250209001105
+! Checksum: cbgzRQvwZiRTFTBWgPhVcQ
+! Title: Ublock filter for Via(2025-02-09 08:51:53)
+! Version: 20250209085153
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-09 00:11:05
-! Total Count: 13553
-! Blocked Filters: 13553
+! Last modified: 2025-02-09 08:51:53
+! Total Count: 13555
+! Blocked Filters: 13555
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5787,7 +5787,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4912
+!<<<<<网站单独规则>>>>>4914
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6363,6 +6363,8 @@ behindwoods.com###cboxWrapper
 behindwoods.com###colorbox
 behindwoods.com##.vedio-block
 bembed.net,embedv.net,fslinks.org,giga-uqload.xyz,javguard.xyz,listeamed.net,v6embed.xyz,vembed.*,vgplayer.xyz,vid-guard.com##body > div[class]:empty
+bemyhole.com##.cams-button
+bemyhole.com##.headline-sidebar
 berliner-kurier.de##div[class^="outbrain_outbrain-outer-container"]
 berliner-kurier.de##div[class^="traffective_"]
 berliner-kurier.de,berliner-zeitung.de,express.de,mopo.de##.dm_ad-container
