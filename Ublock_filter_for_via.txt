@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: cbgzRQvwZiRTFTBWgPhVcQ
-! Title: Ublock filter for Via(2025-02-09 08:51:53)
-! Version: 20250209085153
+! Checksum: kGLhbqMPDUFvnhQ77kFmuw
+! Title: Ublock filter for Via(2025-02-10 00:11:08)
+! Version: 20250210001108
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-09 08:51:53
-! Total Count: 13555
-! Blocked Filters: 13555
+! Last modified: 2025-02-10 00:11:08
+! Total Count: 13561
+! Blocked Filters: 13561
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5773
+!<<<<<域名规则>>>>>5775
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2401,6 +2401,7 @@
 ||host.gsslcloud.com^
 ||hostingcloud.*^$third-party
 ||hostpdf.co^
+||hostt.link^
 ||hotabis.com/*/ads$image
 ||hotbgapare.com^
 ||hotdeals360.com^$third-party
@@ -2687,6 +2688,7 @@
 ||jootizud.net^
 ||jorpetz.com/kahitano/banner.gif
 ||jourl.live^
+||jousteevoofooge.net^
 ||jp-helplineweb-chrsmjinfgtizonedswebs-01.s3.ap-southeast-2.amazonaws.com^
 ||jp.rian-rian.com^
 ||jplivestreamhd.live^
@@ -5787,7 +5789,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4914
+!<<<<<网站单独规则>>>>>4918
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6021,7 +6023,7 @@ acetack.com,androidquest.com,apklox.com,cambb.xxx,chhaprawap.in,gujarativyakaran
 actionviewphotography.com,exporntoons.net,freepornvideo.sex,mat6tube.*,noodlemagazine.com,sibtok.com,tyler-brown.com,ukdevilz.com,whatisareverseauction.com##noindex
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> [id*="_ad_native_"])
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> ins)
-activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,goharpc.com,greencracks.com,ikcrack.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,licensecrack.net,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,pcfullcrack.org,pcfullversion.com,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,softgetpc.com,softsnew.com,softzcrack.com,softzspot.com,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
+activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,goharpc.com,greencracks.com,ikcrack.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,pcfullcrack.org,pcfullversion.com,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,softgetpc.com,softsnew.com,softzcrack.com,softzspot.com,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
 adala-news.fr###eazy_ad_unblocker_dialog-message
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,shavetape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
 adbull.*,aii.sh,oko.sh##[src^="https://i.imgur.com/"]
@@ -8216,6 +8218,7 @@ kissasians.org##.btn-success[href*="?key="]
 kisscartoon.*###upgrade_pop
 kisscos.net##[id$="-overlay"]
 kisscos.net##span[id$="related"] > div[id^="container-"]
+kissjav.*##.asside-link
 kissjav.*##.column:has(> .card > .adv)
 kissjav.*##.is-12-touch.is-narrow-desktop.has-text-centered
 kissmaturestube.com,yummysextubes.com##.block-a
@@ -8279,6 +8282,7 @@ letmejerk.com,letmejerk2.com,letmejerk3.com,letmejerk4.com,letmejerk5.com,letmej
 letmejerk.com,letmejerk2.com,letmejerk3.com,letmejerk4.com,letmejerk5.com,letmejerk6.com,letmejerk7.com##[class^="lmj"]
 letras.mus.br,maisonbrico.com##[id^="pub"]
 letsmakeiteasy.tech###quads-myModal
+lewdgames.to##a.downloadLink[data-wpel-link="external"]
 lewdninja.com,new.lewd.ninja##a.navbar-item.is-hidden-desktop-only
 lewdstars.com##.ads-muted-control
 lewdzone.com###ad_vid
@@ -10537,6 +10541,8 @@ www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wra
 www.chip.de###CR[class="download-charts"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-listing"]  > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-listing"]  > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-listing"] > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] .wrapper-safe.mt-sm > .fb > section:not(.Listing) > *:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] .wrapper-safe.mt-sm > .fb > section:not(.Listing) > div:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] > [class="Main Main--Skyscraper"] > .Main__Container > [class]:not([class^="Downloads DownloadListing"]) > div > ul.List.is-separated:has(a img[src*="https://im.chip.de/ii/"])
