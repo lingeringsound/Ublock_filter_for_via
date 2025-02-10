@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qCJJAyHZq699L8DUt9blnw
-! Title: Ublock filter for Via(2025-02-10 08:49:59)
-! Version: 20250210084959
+! Checksum: HmpNzjc1FSi7iiN5qtt2rQ
+! Title: Ublock filter for Via(2025-02-11 00:13:09)
+! Version: 20250211001309
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-10 08:49:59
-! Total Count: 13562
-! Blocked Filters: 13562
+! Last modified: 2025-02-11 00:13:09
+! Total Count: 13577
+! Blocked Filters: 13577
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5775
+!<<<<<域名规则>>>>>5783
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -775,6 +775,7 @@
 ||boundhub.com/sab/$image
 ||boyfriendlive.com^$third-party
 ||boystube.link/ext/systm_fr.js
+||bracketauthorizedportray.com^
 ||brave.com/static-assets/js/analysis.js
 ||brawllstars.ru^
 ||brazz-girls.com/chaturbate/
@@ -1369,6 +1370,7 @@
 ||deaimatch.jp^
 ||deaisaito.jp^
 ||dealhunt.website^
+||debridleech.com^
 ||debridlink.com^
 ||debridlink.com^$document
 ||decided-decision.com^
@@ -1576,6 +1578,7 @@
 ||edugrampromo.com^$third-party
 ||eevblog.com/forum/fp.php
 ||eevblog.com/images/*.gif$image
+||eezy.api.kustomerapp.com/c/v1/tracking/
 ||efficient-election.com^
 ||efljiccdztabg.com^
 ||egisela.com^
@@ -1772,6 +1775,7 @@
 ||fastfilehost.link^
 ||fastlane.rubiconproject.com^$removeparam,domain=aternos.org
 ||fastndio.s3.eu-central-1.amazonaws.com^
+||fastorfar.com^
 ||faststream.xyz^$third-party
 ||fate-15.com^
 ||faucettrx.store/default.php
@@ -2388,6 +2392,7 @@
 ||homtail.shop^
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|
 ||hope-for-shiningday.com^
+||hopgp.com^
 ||hori-hori.xyz^
 ||horlzonhub.com^
 ||hornydateclub.link^
@@ -2437,6 +2442,7 @@
 ||hubu.cloud/app/js/in/
 ||hubu.cloud/app/js/index.php
 ||humane-urgent.com^
+||humiliatingregion.com^
 ||humilityslammedslowing.com^
 ||humpbuds.com^
 ||hushemail.net^
@@ -5089,6 +5095,7 @@
 ||trck.eczyl.com^
 ||trckams.com^
 ||trckhoul.com^
+||trckkkk.com^
 ||trcklks.com^$third-party
 ||trckoja.com^
 ||trckotang.com^
@@ -5327,6 +5334,7 @@
 ||vidazoo.com^$domain=readonepiece.com
 ||vidcdn.co/cdn-cgi/trace$xmlhttprequest,~third-party
 ||vidcrunch.com^$domain=aztravels.net|downfile.site
+||videezy.com/clicks/
 ||video-adblock.com^
 ||video-ads-module.ad-tech.nbcuni.com^
 ||video-watch1.com^
@@ -5789,7 +5797,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4919
+!<<<<<网站单独规则>>>>>4922
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6646,6 +6654,7 @@ cdromance.com###custom_html-8
 cdromance.com,custommapposter.com,dirrty.remix.es,emailregex.com,fernsehzone.online,hax.co.id,leechpremium.net,rangerboard.com,scanurl.net,wallpaperplay.com##.adsbygoogle
 ceesty.com,corneey.com,destyy.com,festyy.com,gestyy.com,sh.st##.skip-advert
 cefirates.com##.most-top-bar
+cehennemstream.click,superembeds.com###adStop
 celeb.gate.cc##[href^="https://goo.gl/"]
 celebjared.net###text-10
 celebjared.net##[href^="https://minepi.com/"]
@@ -6944,6 +6953,9 @@ distrowatch.com##.TablesTitle > div[style*="padding"]
 distrowatch.com##body > h2
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 divxtotal.*,divxtotal1.*###banner_publi
+dizipal4.com##.body-clickable
+dizipal4.com##.videoalt
+dizipal4.com##.videoust
 djqunjab.in,geniussolutions.co###interstitial-container
 dl.gamecopyworld.*##.t2 > tbody > tr:nth-of-type(1) > td
 dl.gamecopyworld.*##td:nth-of-type(2)
@@ -9820,7 +9832,6 @@ sunporno.com##.thumbs-container > .th-ba
 superbgays.com###CloseAd
 superbgays.com###block
 supercomputingonline.com##[class^="ad_prev"]
-superembeds.com###adStop
 superflixapi.dev##.sflix_space
 superherohype.com##a.wp-block-button__link:is([href^="https://amzn.to/"], [href^="https://www.amazon.com/"])
 surfline.com###sl-header-ad
@@ -10711,7 +10722,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>628
+!<<<<<通配符规则>>>>>632
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -10812,7 +10823,7 @@ $script,domain=zdnet.fr,third-party
 .de/image/*.gif|$script,~third-party
 .de/image/*.gif|$script,~third-party,domain=de
 .gif$domain=nekopoi.*,image
-.gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
+.gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
 .html?cep=*&cost=0.
@@ -10908,8 +10919,11 @@ $script,domain=zdnet.fr,third-party
 /aff.php?*&data2=
 /afon7.$script,~third-party
 /ajax/banner/list?page=$xmlhttprequest,~third-party
+/ajax/banner/vpn|$xmlhttprequest,~third-party
 /ajax/banner/vpn|$xmlhttprequest,~third-party,strict1p
+/ajax/banners?page=$xmlhttprequest,~third-party
 /ajax/banners?page=$xmlhttprequest,~third-party,strict1p
+/ajax/embed-4/banners|$xmlhttprequest,~third-party
 /ajax/embed-4/banners|$xmlhttprequest,~third-party,strict1p
 /akamaized.net/ai/gcp/*$xmlhttprequest,domain=jiocinema.com
 /all-for-adsense/*
@@ -11270,6 +11284,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/uploads/play.webp$domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in
 /wp-content/uploads/pum/pum-site-scripts.js^$domain=honghotduongpho.com
 /wpsafelink.js|$script
+/xslot-pageskin-reklam.png$image,domain=dizipal4.com
 /xxx.js|$script,~third-party
 /xxx\/(?:[a-z]+[_-]){1,2}[a-z]+\.(?:gif|jpg)$/$image,~third-party,domain=playsexgames.xxx
 /yep.gif$domain=abellalist.com|doseofporn.com|freyalist.com|lizardporn.com|moozporn.com|zehnporn.com
