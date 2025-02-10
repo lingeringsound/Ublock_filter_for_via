@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kGLhbqMPDUFvnhQ77kFmuw
-! Title: Ublock filter for Via(2025-02-10 00:11:08)
-! Version: 20250210001108
+! Checksum: qCJJAyHZq699L8DUt9blnw
+! Title: Ublock filter for Via(2025-02-10 08:49:59)
+! Version: 20250210084959
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-10 00:11:08
-! Total Count: 13561
-! Blocked Filters: 13561
+! Last modified: 2025-02-10 08:49:59
+! Total Count: 13562
+! Blocked Filters: 13562
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5789,7 +5789,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4918
+!<<<<<网站单独规则>>>>>4919
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7339,6 +7339,7 @@ flaticon.com##.soul-p-nsba
 flickr.com##.sub-photo-submoola-view
 flickr.com##section:has([href*="istockphoto.com"])
 flipkart.com##div[data-id]:has(rect[width="62"][height="18"][fill="white"] + path[d^="M5.82955"][fill="#9E9E9E"])
+flixhouse.com##.bottom-left.jq-toast-wrap
 flixscans.com##.teaser-buttom
 flmods.com##[href^="https://www.flmods.com/index.php"][target="_blank"]
 flsaudio.com##.altumcode-coupon-content
