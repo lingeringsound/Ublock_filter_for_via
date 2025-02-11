@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: vIurQMBRueGzZvovzU+N/Q
-! Title: Ublock filter for Via(2025-02-11 08:49:16)
-! Version: 20250211084916
+! Checksum: qPP+MG/HZWI3h+J7bq7T0A
+! Title: Ublock filter for Via(2025-02-12 00:13:42)
+! Version: 20250212001342
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-11 08:49:16
-! Total Count: 13578
-! Blocked Filters: 13578
+! Last modified: 2025-02-12 00:13:42
+! Total Count: 13583
+! Blocked Filters: 13583
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5784
+!<<<<<域名规则>>>>>5787
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -72,6 +72,7 @@
 ||2chlovers.web.fc2.com^
 ||2cnt.net/j0=$image,domain=s4c.cymru
 ||2d45b3cf2299d8ba038f45cb38aca4f2ecfbcb8d264ba28432ae5c51.com^
+||2dingdian.com/static/idingdian/idd.js
 ||2h1.jp^
 ||2qpk150djf0ri.jp^
 ||2target.net^$third-party
@@ -1132,6 +1133,7 @@
 ||comfortablepossibilitycarlos.com^
 ||comicspornow.com/*.php$script,~third-party
 ||comixporn.net/js/nvrblck.js
+||commoninja.com^$third-party
 ||community-flagged-
 ||communitystudionart.com^
 ||compass-holding.com^
@@ -1665,6 +1667,7 @@
 ||eunssiatel.tech^
 ||euromaillinnk.com^
 ||europixhd.net/js/propadbl_epxhd.js$script,~third-party
+||eurowebmonitortool.com^
 ||ev-upstart.com^
 ||ev.every-every-happy.com^
 ||ev4ev.biz^
@@ -5798,7 +5801,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4922
+!<<<<<网站单独规则>>>>>4923
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5985,6 +5988,7 @@ $script,domain=zdnet.fr,third-party
 ^mh=*&mmid=$script
 ^s1=*&click_id=
 ^s=*&ssk=*&svar=*&z=
+^s=*&z=*&svar=*&ssk=
 a-ads.com##.size300x250
 a-eroland.net,hhmanga.com,nyahentai.re##.__isboostReturnAd
 a-hentai.tv##.support-frame
@@ -10723,7 +10727,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>632
+!<<<<<通配符规则>>>>>633
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11351,6 +11355,7 @@ $script,domain=zdnet.fr,third-party
 ^mh=*&mmid=$script
 ^s1=*&click_id=
 ^s=*&ssk=*&svar=*&z=
+^s=*&z=*&svar=*&ssk=
 _ads.gif$image,domain=movies4u.*|xprime4u.*
 ext=$script,~third-party,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*|slreamplay.*
 pornbraze.com/sw.js$script,~third-party
