@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4hj2IA5JkCoNQ2ybxK2qDg
-! Title: Ublock filter for Via(2025-02-14 08:48:10)
-! Version: 20250214084810
+! Checksum: ZGYcpWJLP0H4x/OjXjLfUw
+! Title: Ublock filter for Via(2025-02-15 00:13:18)
+! Version: 20250215001318
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-14 08:48:10
-! Total Count: 13603
-! Blocked Filters: 13603
+! Last modified: 2025-02-15 00:13:18
+! Total Count: 13606
+! Blocked Filters: 13606
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10745,7 +10745,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>635
+!<<<<<通配符规则>>>>>637
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11221,6 +11221,7 @@ $script,domain=zdnet.fr,third-party
 /script/su.js$script,third-party
 /security-challenge-captcha.html^
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
+/shopifycloud/media-analytics/v*/analytics.js
 /siropu/am/core.min.js$script,from=~audi-sport.net|~hifiwigwam.com
 /skipad.png$image
 /smartlink/?a=
@@ -11308,6 +11309,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/uploads/adb$script,domain=mhdsports.*|mhdsportstv.*|mhdtvsports.*|mhdtvworld.*|mhdtvmax.*|mhdstream.*|mhdtvmax.*
 /wp-content/uploads/play.webp$domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in
 /wp-content/uploads/pum/pum-site-scripts.js^$domain=honghotduongpho.com
+/wpm@*/web-pixel-
 /wpsafelink.js|$script
 /xslot-pageskin-reklam.png$image,domain=dizipal4.com
 /xxx.js|$script,~third-party
@@ -11619,7 +11621,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2007
+!<<<<<放行白名单>>>>>2008
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13542,6 +13544,7 @@ nieru.net#@#.ad-space:not(.textads):not(.adbox)
 nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
+oogiri-chaya.com#@#.adsText
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
 outletarredamento.it#@#.ad-link:not(.adsbox)
