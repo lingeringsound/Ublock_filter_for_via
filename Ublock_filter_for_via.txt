@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZGYcpWJLP0H4x/OjXjLfUw
-! Title: Ublock filter for Via(2025-02-15 00:13:18)
-! Version: 20250215001318
+! Checksum: 3dXpsSnKmKr+xMbBUC0gFw
+! Title: Ublock filter for Via(2025-02-15 08:47:23)
+! Version: 20250215084723
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-15 00:13:18
-! Total Count: 13606
-! Blocked Filters: 13606
+! Last modified: 2025-02-15 08:47:23
+! Total Count: 13609
+! Blocked Filters: 13609
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5794
+!<<<<<域名规则>>>>>5797
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1808,6 +1808,7 @@
 ||fewcents.co^$third-party
 ||fflink.net^$third-party
 ||ffr548tyfhe.jp^
+||fhhgc.infinityscans.net^$xmlhttprequest
 ||fiare-activity.com^
 ||fichub.com/plugins/adobe/lib/$xmlhttprequest,domain=natgeotv.com
 ||fifaultimateteam.it/*skin$image
@@ -2564,6 +2565,7 @@
 ||impoverishedordealscrutinize.com^
 ||impressexaltsculptor.com^
 ||incorcg.com^
+||incorenext.com^
 ||indi-ana.jp^
 ||indiatimes.com/detector$script
 ||indiewears.com^
@@ -3520,6 +3522,7 @@
 ||nbsfmradio.com^
 ||nc2.site^
 ||ndinast.com^
+||ndpxzxyqpwcnz.click^
 ||near-s.com^
 ||needgayporn.com/ohs-180x800.gif
 ||needntrusts.com^
