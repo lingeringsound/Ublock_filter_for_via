@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 3dXpsSnKmKr+xMbBUC0gFw
-! Title: Ublock filter for Via(2025-02-15 08:47:23)
-! Version: 20250215084723
+! Checksum: ZcVVjHDW3o0O4Jaljo8wrQ
+! Title: Ublock filter for Via(2025-02-16 00:11:00)
+! Version: 20250216001100
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-15 08:47:23
-! Total Count: 13609
-! Blocked Filters: 13609
+! Last modified: 2025-02-16 00:11:00
+! Total Count: 13616
+! Blocked Filters: 13616
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5797
+!<<<<<域名规则>>>>>5804
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -317,6 +317,8 @@
 ||allegrocn.shop^
 ||allegrocns.com^
 ||allegrocolombia.com^
+||allegrolokalnie.*.shop^
+||allegrolokalnie.pl-
 ||allegroshop.shop^
 ||allegrostore.cc^
 ||allegrostu.com^
@@ -1206,6 +1208,7 @@
 ||creditcable.info^
 ||creditcardchase.click^
 ||creditcardchase.click^$document
+||creeperplotgrove.com^
 ||creepy-frame.com^
 ||crentgate.com^
 ||criticismdramavein.com^
@@ -1583,6 +1586,7 @@
 ||eevblog.com/images/*.gif$image
 ||eezy.api.kustomerapp.com/c/v1/tracking/
 ||efficient-election.com^
+||efficientdescent.com^
 ||efljiccdztabg.com^
 ||egisela.com^
 ||egnatius-ear.com^$script,domain=ouo.*
@@ -3486,6 +3490,7 @@
 ||mytemp.website/amazon-prime-video-com-br/
 ||mytemp.website/safetyfileaccess.htm^
 ||mywatchseries.*/sw.js$script,~third-party
+||mywatchtones.com^
 ||myway.com^
 ||n.fcd.su^
 ||n06.biz^
@@ -4200,6 +4205,7 @@
 ||reasonable5786mi4n3srxq.jp^
 ||receivedachest.com^
 ||receivefreesms.co.uk^$third-party
+||recessionspeaksanybody.com^
 ||recipe000.tokyo^
 ||recklessdroughtburglar.com^
 ||recompensaszurichsantander.com.mx^
@@ -4360,6 +4366,7 @@
 ||saddlegirls.com/saddlegirls/ph/v/*_video.mp4$~third-party
 ||safelinkconverter.com^$script,third-party
 ||safety-line-message.com^
+||safety-profiles-fb-ads-*.vercel.app^
 ||sakudon293ssp.jp^
 ||sale24-pills.com^
 ||sall.etchat.jp^
@@ -5811,7 +5818,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4934
+!<<<<<网站单独规则>>>>>4933
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9828,8 +9835,7 @@ streamingcommunity.*##.slide-banner:has(> .slide-banner__container)
 streamingcommunity.computer##div.centered.modal
 streamporn.pw,watchpornx.com###overlays
 streamsb.*##body > div[style*="z-index:"]
-streamtape.*##.play-overlay
-streamtape.*,watchadsontape.com##.play-overlay
+streamta.site,streamtape.*,watchadsontape.com##.play-overlay
 strikeout.*##.d-none.d-lg-block.col-lg-3
 strikeout.*##.m-1.btn-danger.btn
 strikeout.*##.w-100.position-absolute.h-100
@@ -11624,7 +11630,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2008
+!<<<<<放行白名单>>>>>2009
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11752,6 +11758,7 @@ thepiratebay3.com^
 @@/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/*/admin$~third-party
 @@/wp-content/themes/mts_ad_sense/*$~third-party
 @@://*.*.*/$script,domain=anydebrid.com|hotdebrid.com
+@@?*=$xmlhttprequest,~third-party,strict1p,method=get,domain=eljgocmn.fun|g8rnyq84.fun|huzi6or1.fun|56m605zk.fun|3a38xmiv.fun|5rr03ujky5me3sjzvfosr6p89hk6wd34qamf.fun|2fb9tsgn.fun|723qrh1p.fun|279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun|ghajini-emtftw1o.lol|0x7jwsog5coxn1e0mk2phcaurtrmbxfpouuz.fun|gorro-ry0ziftc.fun|vdiflcsl.fun|222i8x.lol|l1afav.net|bf0skv.org|1nmnozg1.fun|8rm3l0i9.fun|a-b-c-d-e-fla3m19lerkfex1z9kdr5pd4hx0338uwsvbjx.fun|a-b-f-dd-aa-bb-cc61uyj.fun|a-b-fqmze5gr05g3y4azx9adr9bd2eow7xoqwbuxg-b-d-t-s.fun|anqkdhcm.nl|brr-69xwmut5-moo.com|ccyig2ub.nl|file-1bl9ruic-moon.com|fle-2ggdmu8q-moo.com|fle-rvd0i9o8-moo.com|fu-12qjdjqh.lol|fu-1abozhcd.nl|fu-1fbolpvq.nl|fu-c66heipu.lol|fu-e4nzgj78.nl|fu-hbr4fzp4.lol|fu-hjyo3jqu.lol|fu-l6d0ptc6.lol|fu-m03aenr9.nl|fu-mqsng72r.nl|fu-p6pwkgig.nl|fu-pl1lqloj.nl|fu-v79xn6ct.nl|fu-ys0tjjs1.nl|ghajini-04bl9y7x.lol|ghajini-1fef5bqn.lol|ghajini-1flc3i96.lol|ghajini-8nz2lav9.lol|ghajini-9b3wxqbu.lol|ghajini-jadxelkw.lol|ghajini-vf70yty6.lol|ghajini-y9yq0v8t.lol|go-for-it-wgt1a.fun|gorro-9mqnb7j2.fun|gorro-chfzoaas.fun|jmtv4zqntu5oyprw4seqtn0dmjulf9nebif0.fun|mee-6zeqsgv2.com|mee-s9o6p31p.com|moo-teau4c9h-mkay.com|moon-3uykdl2w-embed.com|moon-fm43w1qv.com|moon-kg83docx.com|moonfile-62es3l9z.com|morgan0928-5386paz2.fun|morgan0928-8ufkpqp8.fun|morgan0928-oqdmw7bl.fun|morgan0928-t9xc5eet.fun|semprefi-2tazedzl.fun|semprefi-8xp7vfr9.fun|semprefi-wdh7eog3.fun|stephenking-3u491ihg.fun|stephenking-7tm3toav.fun|stephenking-c8bxyhnp.fun|stephenking-vy5hgkgu.fun|u26bekrb.fun|ulike-filter-sowe-canplay-rightlets-generate-themrandomlyl89u8.fun|ur70sq6j.fun|y5vx1atg.fun|z1ekv717.fun|z9sayu0m.nl
 @@_advertisement_$image,domain=jennifer-lawrence.com
 @@_advertisment.$image,domain=gorgeouspfeiffer.com
 @@prebid.js$script,domain=adikdrive.my.id|adikhealth.xyz|bisnis.adigenius.com|mangindo.xyz
