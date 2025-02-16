@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZcVVjHDW3o0O4Jaljo8wrQ
-! Title: Ublock filter for Via(2025-02-16 00:11:00)
-! Version: 20250216001100
+! Checksum: mg2SqjYCu9I4ItuULv9Z2Q
+! Title: Ublock filter for Via(2025-02-16 08:53:07)
+! Version: 20250216085307
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-16 00:11:00
-! Total Count: 13616
-! Blocked Filters: 13616
+! Last modified: 2025-02-16 08:53:07
+! Total Count: 13617
+! Blocked Filters: 13617
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5804
+!<<<<<域名规则>>>>>5805
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1130,7 +1130,7 @@
 ||colorfullouderremnant.com^
 ||colorfulromance.com^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
-||com/|$xmlhttprequest,third-party,method=head,domain=movieku.ink|nsw2u.com
+||com/|$xmlhttprequest,third-party,method=head,domain=fbstreams.pm|movieku.ink|nsw2u.com|reliabletv.me
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -2339,6 +2339,7 @@
 ||herkeseuygunisilanlari.com^
 ||herokudns.com^$xmlhttprequest,domain=darkreader.org
 ||hethongvaynhanh247.com^
+||hexagynjewing.top^
 ||hexupload.net/images/Premium_Banners/$third-party
 ||heyoya.com^$script,third-party
 ||hfykmfd1.com^
@@ -6558,7 +6559,7 @@ btdb.*##.alert
 btdb.*##.alert-dismissible
 btv.bg,btvnovinite.bg,btvsport.bg##.vjs-continue-watching-bar
 btv.bg,btvnovinite.bg,btvsport.bg##div[id^="leading_video_player_autoplay_wrapper_"]
-buffsports.me,buffstreams.*,fbstream.*,mlbbox.me,nflstreams.me,vipbox.*,vipboxtv.*,viprow.*,~vipbox.pl##.position-absolute
+buffsports.me,buffstreams.*,fbstream.*,fbstreams.*,mlbbox.me,nflstreams.me,vipbox.*,vipboxtv.*,viprow.*,~vipbox.pl##.position-absolute
 buffsports.stream,sportcast.life###pr
 buffstream.to,buffstreamz.com##.btn
 buffstreams.*##.m-1.fw-bold.btn-danger.btn
@@ -11758,7 +11759,7 @@ thepiratebay3.com^
 @@/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/*/admin$~third-party
 @@/wp-content/themes/mts_ad_sense/*$~third-party
 @@://*.*.*/$script,domain=anydebrid.com|hotdebrid.com
-@@?*=$xmlhttprequest,~third-party,strict1p,method=get,domain=eljgocmn.fun|g8rnyq84.fun|huzi6or1.fun|56m605zk.fun|3a38xmiv.fun|5rr03ujky5me3sjzvfosr6p89hk6wd34qamf.fun|2fb9tsgn.fun|723qrh1p.fun|279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun|ghajini-emtftw1o.lol|0x7jwsog5coxn1e0mk2phcaurtrmbxfpouuz.fun|gorro-ry0ziftc.fun|vdiflcsl.fun|222i8x.lol|l1afav.net|bf0skv.org|1nmnozg1.fun|8rm3l0i9.fun|a-b-c-d-e-fla3m19lerkfex1z9kdr5pd4hx0338uwsvbjx.fun|a-b-f-dd-aa-bb-cc61uyj.fun|a-b-fqmze5gr05g3y4azx9adr9bd2eow7xoqwbuxg-b-d-t-s.fun|anqkdhcm.nl|brr-69xwmut5-moo.com|ccyig2ub.nl|file-1bl9ruic-moon.com|fle-2ggdmu8q-moo.com|fle-rvd0i9o8-moo.com|fu-12qjdjqh.lol|fu-1abozhcd.nl|fu-1fbolpvq.nl|fu-c66heipu.lol|fu-e4nzgj78.nl|fu-hbr4fzp4.lol|fu-hjyo3jqu.lol|fu-l6d0ptc6.lol|fu-m03aenr9.nl|fu-mqsng72r.nl|fu-p6pwkgig.nl|fu-pl1lqloj.nl|fu-v79xn6ct.nl|fu-ys0tjjs1.nl|ghajini-04bl9y7x.lol|ghajini-1fef5bqn.lol|ghajini-1flc3i96.lol|ghajini-8nz2lav9.lol|ghajini-9b3wxqbu.lol|ghajini-jadxelkw.lol|ghajini-vf70yty6.lol|ghajini-y9yq0v8t.lol|go-for-it-wgt1a.fun|gorro-9mqnb7j2.fun|gorro-chfzoaas.fun|jmtv4zqntu5oyprw4seqtn0dmjulf9nebif0.fun|mee-6zeqsgv2.com|mee-s9o6p31p.com|moo-teau4c9h-mkay.com|moon-3uykdl2w-embed.com|moon-fm43w1qv.com|moon-kg83docx.com|moonfile-62es3l9z.com|morgan0928-5386paz2.fun|morgan0928-8ufkpqp8.fun|morgan0928-oqdmw7bl.fun|morgan0928-t9xc5eet.fun|semprefi-2tazedzl.fun|semprefi-8xp7vfr9.fun|semprefi-wdh7eog3.fun|stephenking-3u491ihg.fun|stephenking-7tm3toav.fun|stephenking-c8bxyhnp.fun|stephenking-vy5hgkgu.fun|u26bekrb.fun|ulike-filter-sowe-canplay-rightlets-generate-themrandomlyl89u8.fun|ur70sq6j.fun|y5vx1atg.fun|z1ekv717.fun|z9sayu0m.nl
+@@?*=$xmlhttprequest,~third-party,strict1p,method=get,domain=0x7jwsog5coxn1e0mk2phcaurtrmbxfpouuz.fun|1nmnozg1.fun|222i8x.lol|279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun|2btmc2r0.fun|2fb9tsgn.fun|3a38xmiv.fun|56m605zk.fun|5rr03ujky5me3sjzvfosr6p89hk6wd34qamf.fun|723qrh1p.fun|8rm3l0i9.fun|a-b-c-d-e-fla3m19lerkfex1z9kdr5pd4hx0338uwsvbjx.fun|a-b-f-dd-aa-bb-cc61uyj.fun|a-b-fqmze5gr05g3y4azx9adr9bd2eow7xoqwbuxg-b-d-t-s.fun|anqkdhcm.nl|bf0skv.org|brr-69xwmut5-moo.com|ccyig2ub.nl|eljgocmn.fun|file-1bl9ruic-moon.com|fle-2ggdmu8q-moo.com|fle-rvd0i9o8-moo.com|fu-12qjdjqh.lol|fu-1abozhcd.nl|fu-1fbolpvq.nl|fu-c66heipu.lol|fu-e4nzgj78.nl|fu-hbr4fzp4.lol|fu-hjyo3jqu.lol|fu-l6d0ptc6.lol|fu-m03aenr9.nl|fu-mqsng72r.nl|fu-p6pwkgig.nl|fu-pl1lqloj.nl|fu-v79xn6ct.nl|fu-ys0tjjs1.nl|g8rnyq84.fun|ghajini-04bl9y7x.lol|ghajini-1fef5bqn.lol|ghajini-1flc3i96.lol|ghajini-8nz2lav9.lol|ghajini-9b3wxqbu.lol|ghajini-emtftw1o.lol|ghajini-jadxelkw.lol|ghajini-vf70yty6.lol|ghajini-y9yq0v8t.lol|go-for-it-wgt1a.fun|gorro-9mqnb7j2.fun|gorro-chfzoaas.fun|gorro-ry0ziftc.fun|h8jizwea.fun|huzi6or1.fun|jmtv4zqntu5oyprw4seqtn0dmjulf9nebif0.fun|l1afav.net|mee-6zeqsgv2.com|mee-s9o6p31p.com|moo-teau4c9h-mkay.com|moon-3uykdl2w-embed.com|moon-fm43w1qv.com|moon-kg83docx.com|moonfile-62es3l9z.com|morgan0928-5386paz2.fun|morgan0928-8ufkpqp8.fun|morgan0928-oqdmw7bl.fun|morgan0928-t9xc5eet.fun|semprefi-2tazedzl.fun|semprefi-8xp7vfr9.fun|semprefi-wdh7eog3.fun|stephenking-3u491ihg.fun|stephenking-7tm3toav.fun|stephenking-c8bxyhnp.fun|stephenking-vy5hgkgu.fun|u26bekrb.fun|ulike-filter-sowe-canplay-rightlets-generate-themrandomlyl89u8.fun|ur70sq6j.fun|vdiflcsl.fun|y5vx1atg.fun|z1ekv717.fun|z9sayu0m.nl
 @@_advertisement_$image,domain=jennifer-lawrence.com
 @@_advertisment.$image,domain=gorgeouspfeiffer.com
 @@prebid.js$script,domain=adikdrive.my.id|adikhealth.xyz|bisnis.adigenius.com|mangindo.xyz
