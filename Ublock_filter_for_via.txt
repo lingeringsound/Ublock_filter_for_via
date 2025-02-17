@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: SQBB/v/MV5vZLAGaBnqgqQ
-! Title: Ublock filter for Via(2025-02-17 00:10:59)
-! Version: 20250217001100
+! Checksum: 6JX0hQTtLtIYMl46gN5iaA
+! Title: Ublock filter for Via(2025-02-17 08:52:26)
+! Version: 20250217085226
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-17 00:11:00
-! Total Count: 13618
-! Blocked Filters: 13618
+! Last modified: 2025-02-17 08:52:26
+! Total Count: 13619
+! Blocked Filters: 13619
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5819,7 +5819,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4934
+!<<<<<网站单独规则>>>>>4935
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6299,6 +6299,7 @@ autoscout24.*##div[class^="AdContentBanner"]
 autosport.com,motorsport.com,motorsport.uol.com.br##.ms-ap-native
 autosport.com,motorsport.com,motorsport.uol.com.br##.ms-apb
 autotrader.co.uk##.search-page__products > [data-is-promoted-listing]
+autotrader.co.uk##section[data-testid="desktop-search"] .infinite-scroll-component > ul > li:has(span[data-testid="GPT_LISTING"])
 autotrader.com##.sticky-container
 autotrader.com##[data-cmp="alphaShowcase"][data-qaid="cntnr-alpha"]
 autotrader.com##div[data-qaid="cntnr-listings"] > .row > .display-flex:has(> .bg-periwinkle)
