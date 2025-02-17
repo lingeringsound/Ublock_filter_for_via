@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 6JX0hQTtLtIYMl46gN5iaA
-! Title: Ublock filter for Via(2025-02-17 08:52:26)
-! Version: 20250217085226
+! Checksum: jaNWT5UidfbOWIZZBykmxA
+! Title: Ublock filter for Via(2025-02-18 00:12:49)
+! Version: 20250218001249
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-17 08:52:26
-! Total Count: 13619
-! Blocked Filters: 13619
+! Last modified: 2025-02-18 00:12:49
+! Total Count: 13621
+! Blocked Filters: 13621
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5805
+!<<<<<域名规则>>>>>5807
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1779,6 +1779,7 @@
 ||farlad.com^
 ||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com
 ||fast.quickcontentnetwork.com^
+||fast2cloud.com^
 ||fastandslut.com^
 ||fasterfiles.net^
 ||fastfilehost.link^
@@ -2448,7 +2449,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=2chblog.jp|2monkeys.jp|all-nationz.com|apkmirror.com|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.jp|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|dailydot.com|demotywatory.pl|dnevno.hr|doorblog.jp|dziennik.pl|eikan.liblo.jp|fesoku.net|ff14net.2chblog.jp|fiveslot777.com|forsal.pl|game8.jp|gamejksokuhou.com|gazetaprawna.pl|gekiyaku.com|girlsreport.net|girlsvip-matome.com|gloria.hr|golf-live.at|grasoku.com|gundamlog.com|heureka.cz|horairesdouverture24.fr|hoyme.jp|imas-cg.net|itainews.com|j-cast.com|j-town.net|jablickar.cz|javatpoint.com|jawapos.com|jin115.com|jmty.jp|jnews1.com|joemonster.org|keyakizaka46matomemory.net|kidan-m.com|kijolifehack.com|kijomatomelog.com|kijyomatome-ch.com|kijyomatome.com|kompasiana.com|konoyubitomare.jp|kreuzwortraetsel.de|kurashiru.com|lacuarta.com|laleggepertutti.it|lamire.jp|liblo.jp|livedoor.biz|livenewschat.eu|m.economictimes.com|mamastar.jp|mariowiki.com|matome-tarou.ldblog.jp|matomelotte.com|matometemitatta.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|netatama.net|news4vip.livedoor.biz|nikkansports.com|norisoku.com|nyitvatartas24.hu|ocsoku.com|oeffnungszeitenbuch.de|okusama-kijyo.com|ondemandkorea.com|onecall2ch.com|oraridiapertura24.it|otoko-honne.com|oumaga-times.com|pachinkopachisro.com|palabr.as|paranormal-ch.com|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|quefaire.be|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|recosoku.com|rostercon.com|saikyo-jump.com|samsungmagazine.eu|shuraba-matome.com|ske48matome.net|sourceforge.net|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|uwakich.com|uwakitaiken.com|verkaufsoffener-sonntag.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
+||html-load.com^$script,xmlhttprequest,domain=2chblog.jp|2monkeys.jp|46matome.net|alfalfalfa.com|all-nationz.com|allthetests.com|anihatsu.com|apkmirror.com|aqua2ch.net|autoby.jp|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.jp|blog.livedoor.jp|crosswordsolver.com|cruciverba.it|daily.co.jp|dailydot.com|danseisama.com|dareda.net|demotywatory.pl|digital-thread.com|dnevno.hr|doorblog.jp|dziennik.pl|eikan.liblo.jp|fesoku.net|ff14net.2chblog.jp|fgochaldeas.com|fiveslot777.com|forsal.pl|game8.jp|gamejksokuhou.com|gazetaprawna.pl|gekiyaku.com|girlsreport.net|girlsvip-matome.com|gloria.hr|golf-live.at|golog.jp|grasoku.com|gundamlog.com|heartlife-matome.com|heureka.cz|horairesdouverture24.fr|hoyme.jp|ikarishintou.com|imas-cg.net|imihu.net|infor.pl|inutomo11.com|itainews.com|j-cast.com|j-town.net|jablickar.cz|javatpoint.com|jawapos.com|jin115.com|jmty.jp|jnews1.com|joemonster.org|jyoseisama.com|keyakizaka46matomemory.net|kidan-m.com|kijoden.com|kijolifehack.com|kijomatomelog.com|kijyokatu.com|kijyomatome-ch.com|kijyomatome.com|kitimama-matome.net|kitizawa.com|kompasiana.com|konoyubitomare.jp|kotaro269.com|kreuzwortraetsel.de|kurashiru.com|kyousoku.net|lacuarta.com|laleggepertutti.it|lamire.jp|ldblog.jp|liblo.jp|livedoor.biz|livedoor.blog|livenewschat.eu|m.economictimes.com|mamastar.jp|mariowiki.com|matome-tarou.ldblog.jp|matomeblade.com|matomelotte.com|matometemitatta.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|mojomojo-licarca.com|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|ndtvprofit.com|netatama.net|news-buzz1.com|news4vip.livedoor.biz|nikkansports.com|norisoku.com|nyitvatartas24.hu|ocsoku.com|oeffnungszeitenbuch.de|okusama-kijyo.com|ondemandkorea.com|onecall2ch.com|onihimechan.com|oraridiapertura24.it|orusoku.com|otoko-honne.com|oumaga-times.com|outdoormatome.com|pachinkopachisro.com|palabr.as|paranormal-ch.com|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|quefaire.be|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|recosoku.com|rostercon.com|saikyo-jump.com|samsungmagazine.eu|shuraba-matome.com|ske48matome.net|sourceforge.net|squallchannel.com|sukattojapan.com|sumaburayasan.com|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|trilltrill.jp|tvtv.ca|tvtv.us|uwakich.com|uwakitaiken.com|verkaufsoffener-sonntag.com|vipnews.jp|vtubernews.jp|watarukiti.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -4366,6 +4367,7 @@
 ||sachikru8.com^
 ||saddlegirls.com/saddlegirls/ph/v/*_video.mp4$~third-party
 ||safelinkconverter.com^$script,third-party
+||safesendclub.com^
 ||safety-line-message.com^
 ||safety-profiles-fb-ads-*.vercel.app^
 ||sakudon293ssp.jp^
@@ -11761,7 +11763,7 @@ thepiratebay3.com^
 @@/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/*/admin$~third-party
 @@/wp-content/themes/mts_ad_sense/*$~third-party
 @@://*.*.*/$script,domain=anydebrid.com|hotdebrid.com
-@@?*=$xmlhttprequest,~third-party,strict1p,method=get,domain=0x7jwsog5coxn1e0mk2phcaurtrmbxfpouuz.fun|1nmnozg1.fun|222i8x.lol|279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun|2btmc2r0.fun|2fb9tsgn.fun|3a38xmiv.fun|56m605zk.fun|5rr03ujky5me3sjzvfosr6p89hk6wd34qamf.fun|723qrh1p.fun|8rm3l0i9.fun|a-b-c-d-e-f7011d0w3j3aor0dczs5ctoo2zpz1t6bm5f49.fun|a-b-c-d-e-fla3m19lerkfex1z9kdr5pd4hx0338uwsvbjx.fun|a-b-f-dd-aa-bb-cc61uyj.fun|a-b-fqmze5gr05g3y4azx9adr9bd2eow7xoqwbuxg-b-d-t-s.fun|anqkdhcm.nl|bf0skv.org|brr-69xwmut5-moo.com|ccyig2ub.nl|eljgocmn.fun|file-1bl9ruic-moon.com|fle-2ggdmu8q-moo.com|fle-rvd0i9o8-moo.com|fu-12qjdjqh.lol|fu-1abozhcd.nl|fu-1fbolpvq.nl|fu-c66heipu.lol|fu-e4nzgj78.nl|fu-hbr4fzp4.lol|fu-hjyo3jqu.lol|fu-l6d0ptc6.lol|fu-m03aenr9.nl|fu-mqsng72r.nl|fu-p6pwkgig.nl|fu-pl1lqloj.nl|fu-v79xn6ct.nl|fu-ys0tjjs1.nl|g8rnyq84.fun|ghajini-04bl9y7x.lol|ghajini-1fef5bqn.lol|ghajini-1flc3i96.lol|ghajini-8nz2lav9.lol|ghajini-9b3wxqbu.lol|ghajini-emtftw1o.lol|ghajini-jadxelkw.lol|ghajini-vf70yty6.lol|ghajini-y9yq0v8t.lol|go-for-it-wgt1a.fun|gorro-9mqnb7j2.fun|gorro-chfzoaas.fun|gorro-ry0ziftc.fun|h8jizwea.fun|huzi6or1.fun|jmtv4zqntu5oyprw4seqtn0dmjulf9nebif0.fun|l1afav.net|mee-6zeqsgv2.com|mee-s9o6p31p.com|moo-teau4c9h-mkay.com|moon-3uykdl2w-embed.com|moon-fm43w1qv.com|moon-kg83docx.com|moonfile-62es3l9z.com|morgan0928-5386paz2.fun|morgan0928-8ufkpqp8.fun|morgan0928-oqdmw7bl.fun|morgan0928-t9xc5eet.fun|semprefi-2tazedzl.fun|semprefi-8xp7vfr9.fun|semprefi-wdh7eog3.fun|stephenking-3u491ihg.fun|stephenking-7tm3toav.fun|stephenking-c8bxyhnp.fun|stephenking-vy5hgkgu.fun|u26bekrb.fun|ulike-filter-sowe-canplay-rightlets-generate-themrandomlyl89u8.fun|ur70sq6j.fun|vdiflcsl.fun|y5vx1atg.fun|z1ekv717.fun|z9sayu0m.nl
+@@?*=$xmlhttprequest,~third-party,strict1p,method=get,domain=0x7jwsog5coxn1e0mk2phcaurtrmbxfpouuz.fun|1nmnozg1.fun|222i8x.lol|279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun|2btmc2r0.fun|2fb9tsgn.fun|3a38xmiv.fun|56m605zk.fun|5rr03ujky5me3sjzvfosr6p89hk6wd34qamf.fun|723qrh1p.fun|8mhlloqo.fun|8rm3l0i9.fun|a-b-c-d-e-f7011d0w3j3aor0dczs5ctoo2zpz1t6bm5f49.fun|a-b-c-d-e-fla3m19lerkfex1z9kdr5pd4hx0338uwsvbjx.fun|a-b-f-dd-aa-bb-cc61uyj.fun|a-b-f2muvhnjw63ruyhoxhhrd61eszezz6jdj4jy1-b-d-t-s.fun|a-b-fqmze5gr05g3y4azx9adr9bd2eow7xoqwbuxg-b-d-t-s.fun|anqkdhcm.nl|bf0skv.org|brr-69xwmut5-moo.com|ccyig2ub.nl|eljgocmn.fun|eximeuet.fun|file-1bl9ruic-moon.com|fle-2ggdmu8q-moo.com|fle-rvd0i9o8-moo.com|fu-12qjdjqh.lol|fu-1abozhcd.nl|fu-1fbolpvq.nl|fu-c66heipu.lol|fu-e4nzgj78.nl|fu-hbr4fzp4.lol|fu-hjyo3jqu.lol|fu-l6d0ptc6.lol|fu-m03aenr9.nl|fu-mqsng72r.nl|fu-p6pwkgig.nl|fu-pl1lqloj.nl|fu-v79xn6ct.nl|fu-ys0tjjs1.nl|g8rnyq84.fun|ghajini-04bl9y7x.lol|ghajini-1fef5bqn.lol|ghajini-1flc3i96.lol|ghajini-8nz2lav9.lol|ghajini-9b3wxqbu.lol|ghajini-emtftw1o.lol|ghajini-jadxelkw.lol|ghajini-vf70yty6.lol|ghajini-y9yq0v8t.lol|go-for-it-wgt1a.fun|gorro-9mqnb7j2.fun|gorro-chfzoaas.fun|gorro-ry0ziftc.fun|h8jizwea.fun|huzi6or1.fun|jmtv4zqntu5oyprw4seqtn0dmjulf9nebif0.fun|l1afav.net|mee-6zeqsgv2.com|mee-s9o6p31p.com|moo-teau4c9h-mkay.com|moon-3uykdl2w-embed.com|moon-fm43w1qv.com|moon-kg83docx.com|moonfile-62es3l9z.com|morgan0928-5386paz2.fun|morgan0928-8ufkpqp8.fun|morgan0928-oqdmw7bl.fun|morgan0928-t9xc5eet.fun|semprefi-2tazedzl.fun|semprefi-5ut0d23g.fun|semprefi-8xp7vfr9.fun|semprefi-wdh7eog3.fun|stephenking-3u491ihg.fun|stephenking-7tm3toav.fun|stephenking-c8bxyhnp.fun|stephenking-vy5hgkgu.fun|u26bekrb.fun|ulike-filter-sowe-canplay-rightlets-generate-themrandomlyl89u8.fun|ur70sq6j.fun|vdiflcsl.fun|vqjhqcfk.fun|y5vx1atg.fun|z1ekv717.fun|z9sayu0m.nl
 @@_advertisement_$image,domain=jennifer-lawrence.com
 @@_advertisment.$image,domain=gorgeouspfeiffer.com
 @@prebid.js$script,domain=adikdrive.my.id|adikhealth.xyz|bisnis.adigenius.com|mangindo.xyz
