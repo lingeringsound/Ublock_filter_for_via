@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: zMgu8vdik9tff2LRVHBPWA
-! Title: Ublock filter for Via(2025-02-19 00:13:20)
-! Version: 20250219001320
+! Checksum: kt2W9a7RETLNwIHJ6YP+qg
+! Title: Ublock filter for Via(2025-02-19 08:48:40)
+! Version: 20250219084840
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-19 00:13:20
-! Total Count: 13627
-! Blocked Filters: 13627
+! Last modified: 2025-02-19 08:48:40
+! Total Count: 13628
+! Blocked Filters: 13628
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5809
+!<<<<<域名规则>>>>>5810
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -717,6 +717,7 @@
 ||blackknocckk.jp^
 ||blacksaltys.com^
 ||blackstunners.com^
+||blau-sicherheit.info^
 ||blcnder.org^
 ||bleachbit.com^
 ||blearspellaea.shop^
