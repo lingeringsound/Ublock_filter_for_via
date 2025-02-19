@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kt2W9a7RETLNwIHJ6YP+qg
-! Title: Ublock filter for Via(2025-02-19 08:48:40)
-! Version: 20250219084840
+! Checksum: Tt1iqup6PpeD+TZL2rWdyg
+! Title: Ublock filter for Via(2025-02-20 00:13:24)
+! Version: 20250220001324
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-19 08:48:40
-! Total Count: 13628
-! Blocked Filters: 13628
+! Last modified: 2025-02-20 00:13:24
+! Total Count: 13636
+! Blocked Filters: 13636
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5824,7 +5824,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4936
+!<<<<<网站单独规则>>>>>4944
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -5927,7 +5927,7 @@ $script,domain=zdnet.fr,third-party
 1movies.life##div[id^="___"][style="display: block;"]
 1movietv.com##[target="_blank"][href$=".html"]
 1primewire.com##[id]:has(> [class="close ico"])
-1shorten.com,4cash.me,7r6.com,adcorto.*,adfloz.*,adultasianporn.com,amateur-twink.com,automodeler.com,best18porn.com,blog.linksfire.co,bonedo.de,cblink.crazyblog.in,ccurl.net,cenoteka.rs,charexempire.com,cnnamador.com,coinlyhub.com,cryptolink.trxking.xyz,cryptosh.pro,cutdl.xyz,deutschekanale.com,du-link.in,dz-linkk.com,dz4link.com,encurtandourl.com,go.gets4link.com,gyanlight.com,heavyfetish.com,hiddenobjectgames.com,indianshortner.com,linkfinal.com,linkszia.co,lite-link.*,liveschauen.com,miklpro.com,miniurl.*,mtabrasil.com.br,pkr.pw,pornoreino.com,pureshort.*,recipestutorials.com,shortearn.*,shorteet.com,shortenbuddy.com,shortzzy.*,shrink.*,shrtfly.*,spieleklassiker.com,tmearn.*,tribuna.com,uii.io,uporno.xxx,vidoo.org,xpshort.com,zplayer.live##.banner
+1shorten.com,4cash.me,7r6.com,adcorto.*,adfloz.*,adultasianporn.com,amateur-twink.com,automodeler.com,best18porn.com,blog.linksfire.co,bonedo.de,cblink.crazyblog.in,ccurl.net,cenoteka.rs,charexempire.com,cnnamador.com,coinlyhub.com,cryptolink.trxking.xyz,cryptosh.pro,cutdl.xyz,deutschekanale.com,du-link.in,dz-linkk.com,dz4link.com,encurtandourl.com,go.gets4link.com,go.linkify.ru,gyanlight.com,heavyfetish.com,hiddenobjectgames.com,indianshortner.com,linkfinal.com,linkszia.co,lite-link.*,liveschauen.com,miklpro.com,miniurl.*,mtabrasil.com.br,pkr.pw,pornoreino.com,pureshort.*,recipestutorials.com,shortearn.*,shorteet.com,shortenbuddy.com,shortzzy.*,shrink.*,shrtfly.*,spieleklassiker.com,tmearn.*,tribuna.com,uii.io,uporno.xxx,vidoo.org,xpshort.com,zplayer.live##.banner
 1shortlink.com,dutchycorp.*,kissasian.*,kwamkidhen.com,leechpremium.link,linksly.co,masihbelajar.com,onbatch.my.id,ouo.*,putlocker.*,vidoza.net,watchonlyfoolsandhorses.com,webserver.one,webtvhd.com##[id*="ScriptRoot"]
 1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
 1xxx-tube.com###invideo_3
@@ -6090,7 +6090,7 @@ advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,meetdo
 advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,northern-scot.co.uk,stratford-herald.com##.MPU
 advertisingexcel.com,allcryptoz.net,batmanfactor.com,crewbase.net,crewus.net,documentaryplanet.xyz,gametechreviewer.com,midebalonu.net,misterio.ro,phineypet.com,seory.xyz,shinbhu.net,shinchu.net,substitutefor.com,talkforfitness.com,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
-advicefunda.com,bestloanoffer.net,castmax.live,computerpedia.in,fairyanime.com,is2btc.com,phica.net,swift4claim.com,techconnection.in,universitiesonline.xyz,ustream.to,worldsex.com##.overlay
+advicefunda.com,bestloanoffer.net,castmax.live,computerpedia.in,fairyanime.com,go.linkify.ru,is2btc.com,phica.net,swift4claim.com,techconnection.in,universitiesonline.xyz,ustream.to,worldsex.com##.overlay
 advicefunda.com,bestloanoffer.net,computerpedia.in,cryptonetos.ru,techconnection.inn,universitiesonline.xyz,ustream.to##.popup
 adweek.com##.widget-adweek-sticky-next:has(> .htl-ad-wrapper)
 adz7short.space###banner_slider_right
@@ -8929,6 +8929,7 @@ onworks.net###ja-container-prev-b
 op.gg##div[class^="css-"]:has(> div:not([class], [id]) > .vm-placement:not([style]))
 op.gg##div[class^="css-"]:has(> div:not([class], [id]) > .vm-placement[data-display-type="hybrid-banner"])
 open3dmodel.com##[style]:has(.adsbygoogle)
+open3dmodel.com##[style]:has(>.adsbygoogle),[style]:has(>.adsbygoogle)~.notranslate
 openculture.com##.no-framearound_ad_in_post
 order-order.com###stickyfooterad
 orgasmatrix.com##.card.post:has([href*="landing."])
@@ -10558,6 +10559,8 @@ www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > :not(aside[class="mt-m
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
+www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
@@ -10577,10 +10580,13 @@ www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapp
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div[class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"]:has(table img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > :not([class="WidgetOutbrainFocus wrapper-safe mt-md is-loaded Focus ft-focus-ob"]) + [class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe mt-md ft-alts"]:first-child:has(.Downloads-Alternative a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > .mt-md > section [class]:has(> div > ul.is-separated a img[src^="data:image"])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
@@ -10591,9 +10597,11 @@ www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrappe
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > div:not([class], [id]) > section > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-lg"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-xl"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-charts"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-listing"]  > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-listing"]  > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###CR[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-md"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
 www.chip.de###CR[class="download-listing"] > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.chip.de##body[class="l-DownloadListing is-sticky"] .wrapper-safe.mt-sm > .fb > section:not(.Listing) > *:has(img[src*="https://im.chip.de/ii/"])
