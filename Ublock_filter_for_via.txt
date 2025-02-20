@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Tt1iqup6PpeD+TZL2rWdyg
-! Title: Ublock filter for Via(2025-02-20 00:13:24)
-! Version: 20250220001324
+! Checksum: /Qix2xumjslX6QKO8a1b3g
+! Title: Ublock filter for Via(2025-02-20 08:49:08)
+! Version: 20250220084908
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-20 00:13:24
-! Total Count: 13636
-! Blocked Filters: 13636
+! Last modified: 2025-02-20 08:49:08
+! Total Count: 13638
+! Blocked Filters: 13638
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -4817,7 +4817,7 @@
 ||support-e-n.com^
 ||supportcreatorportal.com^
 ||supreme-ad-blocker.info^
-||surfe.be^
+||surfe.be^$domain=~online-filmek.ac
 ||surgecardinfo.click^
 ||surgecardinfo.click^$document
 ||surinenglish.com/adbd^
@@ -5824,7 +5824,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4944
+!<<<<<网站单独规则>>>>>4945
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9532,6 +9532,7 @@ scrambled.world,shellshock.io##.house-small
 scrambled.world,shellshock.io##.overlay_dark.overlay
 scrambled.world,shellshock.io##.respawn-container > .pauseFiller > .house-wrap
 screenflash.io##.ins-large.adsbygoogle
+scsport.live###ads-back
 scubidu.eu###custom_html-15
 se-ed.com##[id^="banner"]
 searchenginereports.net##[id^="adboxx"]
@@ -10771,7 +10772,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>638
+!<<<<<通配符规则>>>>>639
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11212,6 +11213,7 @@ $script,domain=zdnet.fr,third-party
 /pub?id=$script,third-party
 /public/assets/js/popunder.js^$script
 /public/assets/js/popunderClickadu.js^$script
+/public/js/dublocker.js^$script,~third-party
 /pup.php?$script
 /pus/script$script,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /push/p.js?u=$third-party
