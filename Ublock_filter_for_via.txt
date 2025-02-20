@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: /Qix2xumjslX6QKO8a1b3g
-! Title: Ublock filter for Via(2025-02-20 08:49:08)
-! Version: 20250220084908
+! Checksum: RNnWZt9p3Xt4GU67MAg0DQ
+! Title: Ublock filter for Via(2025-02-21 00:13:42)
+! Version: 20250221001342
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-20 08:49:08
-! Total Count: 13638
-! Blocked Filters: 13638
+! Last modified: 2025-02-21 00:13:42
+! Total Count: 13642
+! Blocked Filters: 13642
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5810
+!<<<<<域名规则>>>>>5812
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2566,6 +2566,7 @@
 ||imgur.com^$image,domain=micloudfiles.com
 ||imilroshoors.com^
 ||immense-owner.com^
+||immeritousscraichingtarumari.monster^
 ||immoweb.be/*/dpg/advertisements^
 ||imobileporn.com/premium/
 ||imp2.com^
@@ -3591,6 +3592,7 @@
 ||noi9va4ewa.com^
 ||noitons.net^
 ||nokiseitjnemnew.jp^
+||nonentrantcrpehibbin.monster^
 ||noohapou.com^
 ||noropianicnephrocytebites.com^
 ||notepad2.com^
@@ -5824,7 +5826,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4945
+!<<<<<网站单独规则>>>>>4947
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7303,7 +7305,7 @@ faupto.com##.shadow.bg-dark
 faupto.com##[href^="https://brave.com"]
 fautsy.com##.coinzilla
 fc-lc.com##.captcha-page .box-main > a[href][target="_blank"] > img
-fc-lc.com,uploady.io###iframe_id
+fc-lc.com,gamezizo.com,oii.io,uploady.io###iframe_id
 feet9.com##.hvr-pulse
 feet9.com##.pup
 feet9.com##[class^="ig"]
@@ -7575,6 +7577,7 @@ games2rule.com##div:has(> div:has(> .adsbygoogle))
 games4king.com##[id^="leaderboard"]
 games4king.com,megawarez.org##[class^="ads"]
 gameshop4u.com,regenzi.site##[href^="https://fulvideozrt.click/"]
+gamezizo.com##[id^="ad"]
 gamezone.cam##.div-over
 gamezop.com##[data-native-ad]
 gamingbible.co.uk##.css-1dgm0zi-Advert
@@ -8273,6 +8276,7 @@ kisstvshow.*##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]
 kiz10.com##.box-advertisement-down
 kleinanzeigen.de###liberty-vip-billboard
 klz9.com##center > center > a[target="_blank"][rel="noopener noreferrer"]
+kmhd.net##.entry-content > div[class^="code-block"] > h4[class][style^="text-align: center;"]
 knowt.com##div[class^="breakpoints_mdDownDisplayNone"]:has(#knowt_sticky_rightrail)
 kobe-np.co.jp##section.sec:has(> #piano_recs_inline_title)
 kochbar.de##.admanager
