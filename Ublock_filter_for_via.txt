@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RNnWZt9p3Xt4GU67MAg0DQ
-! Title: Ublock filter for Via(2025-02-21 00:13:42)
-! Version: 20250221001342
+! Checksum: WAPurlsM/DyfMH468p7AoQ
+! Title: Ublock filter for Via(2025-02-21 08:49:06)
+! Version: 20250221084906
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-21 00:13:42
+! Last modified: 2025-02-21 08:49:06
 ! Total Count: 13642
 ! Blocked Filters: 13642
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -7305,7 +7305,7 @@ faupto.com##.shadow.bg-dark
 faupto.com##[href^="https://brave.com"]
 fautsy.com##.coinzilla
 fc-lc.com##.captcha-page .box-main > a[href][target="_blank"] > img
-fc-lc.com,gamezizo.com,oii.io,uploady.io###iframe_id
+fc-lc.com,gamezizo.com,labgame.io,oii.io,uploady.io###iframe_id
 feet9.com##.hvr-pulse
 feet9.com##.pup
 feet9.com##[class^="ig"]
