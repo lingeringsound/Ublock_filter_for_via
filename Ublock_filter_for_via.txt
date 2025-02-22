@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 9uGGhuLwCuk62Z78SsoTVg
-! Title: Ublock filter for Via(2025-02-22 00:12:46)
-! Version: 20250222001246
+! Checksum: dwbgz47FrA6odXo9Qr/4yg
+! Title: Ublock filter for Via(2025-02-22 08:47:11)
+! Version: 20250222084711
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-22 00:12:46
-! Total Count: 13655
-! Blocked Filters: 13655
+! Last modified: 2025-02-22 08:47:11
+! Total Count: 13659
+! Blocked Filters: 13659
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5815
+!<<<<<域名规则>>>>>5816
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1526,6 +1526,7 @@
 ||dump.xxx/sw.js$script,~third-party
 ||dunabear.com^
 ||duplichecker.com/asets/img/logo.svg$image,~third-party
+||duplichecker.com/qari/$image,~third-party
 ||during-the-holiday.com^
 ||dvd-flix.com/*.gif$image
 ||dvdgayonline.com^$third-party
@@ -5829,7 +5830,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4949
+!<<<<<网站单独规则>>>>>4952
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7074,6 +7075,7 @@ duellinksmeta.com##.advertisement-box
 duellinksmeta.com##div.ad-slot
 duhoctrungquoc.vn##div[style="width:100%; height: 90px !important;text-align: center;;padding:10px 0; "]
 duit.cc##[id*="ScriptRoot"], .adsbygoogle, .amp-unresolved
+duplichecker.com##spavn, spannndx, a[href="https://www.duplichecker.com/cc"], .mt-3:has(> #img7), .mt-3:has(> #img7), div:has(> #img4)
 duplichecker.com##vvv, ccc, spavn, .qwert, .dfdfdf, .nhnhnhn, [class^="alkjhg"], #btnbtnn2, a[href="https://www.duplichecker.com/gcl"], [mv*="grmly"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[href*="grammarly.com"]
 dutchycorp.*###boxes
@@ -9731,6 +9733,8 @@ smallseo.tools##.category_box > .col-md-6 > p
 smallseo.tools##.category_box > p
 smallseo.tools##.text-center.col-md-8 > p
 smallseo.tools##[href^="https://grammarchecker.io/grammarly"]
+smallseotools.com##.mx-auto[style="display:block"]:has(> [max-height] > ._ap_apex_ad)
+smallseotools.com##.my-2[style*="height:"]:has(> ._ap_apex_ad)
 smallseotools.com##span[onclick*="https://smallseotools.com/deep_grammar.html"]
 smallseotools.com##span[onclick*="https://smallseotools.com/deep_pcgrammar.html"]
 smarthomebeginner.com##body > .fb-inst[data-type="popup"]
