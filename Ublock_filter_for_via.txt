@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Z9cvBd+NeIWBvKmgq0pYyQ
-! Title: Ublock filter for Via(2025-02-24 08:51:28)
-! Version: 20250224085128
+! Checksum: oLabiQWXJcSCR+VRGHRwZw
+! Title: Ublock filter for Via(2025-02-25 00:13:50)
+! Version: 20250225001350
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-24 08:51:28
-! Total Count: 13666
-! Blocked Filters: 13666
+! Last modified: 2025-02-25 00:13:50
+! Total Count: 13671
+! Blocked Filters: 13671
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5821
+!<<<<<域名规则>>>>>5825
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -781,6 +781,7 @@
 ||botarbitrages.pro^
 ||boundhub.com/sab/$image
 ||boyfriendlive.com^$third-party
+||boyfriendmeaningless.com^
 ||boystube.link/ext/systm_fr.js
 ||bracketauthorizedportray.com^
 ||brave.com/static-assets/js/analysis.js
@@ -811,6 +812,7 @@
 ||btcclicks.com^$third-party
 ||btemgb.com^
 ||bteux.com^
+||btiatfobkjiv.com^
 ||btnativenav.com^
 ||buddygays.com^
 ||budhump.com^
@@ -1930,6 +1932,7 @@
 ||foundate-core.net^
 ||foundations-x2024.cloud^
 ||foundations-x2024.sbs^
+||foundinggulfsaturate.com^
 ||foxload.com^
 ||foxmods.xyz^
 ||foxymilfspo.com^
@@ -2596,6 +2599,7 @@
 ||info-meta-noreply.com^
 ||info-top-letter.com^
 ||infomessagehappy.com^
+||informationpolicy.cloud^
 ||infos4.yolasite.com^
 ||infozoomplus.biz^
 ||iniupcorporate.com^
@@ -5835,7 +5839,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4953
+!<<<<<网站单独规则>>>>>4954
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6056,7 +6060,7 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
+abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 ac24.cz,nsfwyoutube.com,th-cam.com,thodkyaat.com,ultimasnoticias.com.ve##pp
@@ -6374,7 +6378,7 @@ bangpremier.com##.presentation-bb-wrapper
 bangpremier.com##.presentation-space
 bangpremier.com##.presentation-space-m-panel
 bankbazaar.com###js-one-tap-login-modal
-bankshiksha.in,best-mobilegames.com,bgmi32bitapk.in,bharatsarkarijobalert.com,bkgnews.in,creditsgoal.com,earn.mpscstudyhub.com,earn.quotesopia.com,freshbhojpuri.com,learn.moderngyan.com,moderngyan.com,money.quotesopia.com,ontechhindi.com,quotesopia.com,sattakingcharts.in##.floating-ads-container
+bankshiksha.in,best-mobilegames.com,bgmi32bitapk.in,bharatsarkarijobalert.com,bkgnews.in,creditsgoal.com,earn.mpscstudyhub.com,earn.offerpagehub.fun,earn.quotesopia.com,freshbhojpuri.com,learn.moderngyan.com,moderngyan.com,money.quotesopia.com,ontechhindi.com,quotesopia.com,sattakingcharts.in##.floating-ads-container
 barchart.com##[id^=customAd]
 barfuck.com###im-layer
 barstoolsports.com##.relative:has(> .ad_skeleton)
@@ -7080,6 +7084,7 @@ duellinksmeta.com##.advertisement-box
 duellinksmeta.com##div.ad-slot
 duhoctrungquoc.vn##div[style="width:100%; height: 90px !important;text-align: center;;padding:10px 0; "]
 duit.cc##[id*="ScriptRoot"], .adsbygoogle, .amp-unresolved
+duplichecker.com##ccc, spavn, spannndx, [class^="alkjhg"], a[href="https://www.duplichecker.com/cc"], .mt-3:has(> #img7), .mt-3:has(> #img7), div:has(> #img4)
 duplichecker.com##spavn, spannndx, a[href="https://www.duplichecker.com/cc"], .mt-3:has(> #img7), .mt-3:has(> #img7), div:has(> #img4)
 duplichecker.com##vvv, ccc, spavn, .qwert, .dfdfdf, .nhnhnhn, [class^="alkjhg"], #btnbtnn2, a[href="https://www.duplichecker.com/gcl"], [mv*="grmly"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[href*="grammarly.com"]
