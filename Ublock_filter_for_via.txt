@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ydPO6SafLZuS0PjRJ7TO+Q
-! Title: Ublock filter for Via(2025-02-25 08:50:52)
-! Version: 20250225085052
+! Checksum: fngUbe8eNbulRkABfe6G8g
+! Title: Ublock filter for Via(2025-02-26 00:13:35)
+! Version: 20250226001335
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-25 08:50:52
-! Total Count: 13672
-! Blocked Filters: 13672
+! Last modified: 2025-02-26 00:13:35
+! Total Count: 13678
+! Blocked Filters: 13678
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5825
+!<<<<<域名规则>>>>>5827
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2384,6 +2384,7 @@
 ||hitcashtag.com^$third-party
 ||hjr-wq.com^
 ||hjytu75fro0.jp^
+||hk6vdj4z.click^
 ||hkdk.events/8cjknac3yxdqk4^
 ||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
 ||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
@@ -4141,6 +4142,7 @@
 ||putlocker.*^*banner
 ||puttyconnect.info^
 ||puxmju.top^
+||pvpoke-re.com/actpvpoke.min.js
 ||pvrtx.net^
 ||pwrtds.com^
 ||pxmmm23.net^
@@ -5839,7 +5841,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4954
+!<<<<<网站单独规则>>>>>4955
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7594,7 +7596,7 @@ games2rule.com##div:has(> div:has(> .adsbygoogle))
 games4king.com##[id^="leaderboard"]
 games4king.com,megawarez.org##[class^="ads"]
 gameshop4u.com,regenzi.site##[href^="https://fulvideozrt.click/"]
-gamezizo.com##[id^="ad"]
+gamezizo.com,labgame.io##[id^="ad"]
 gamezone.cam##.div-over
 gamezop.com##[data-native-ad]
 gamingbible.co.uk##.css-1dgm0zi-Advert
@@ -10646,6 +10648,7 @@ www.uol##.content-lightbox
 www.uol##.overlay-lightbox
 www.walmart.com##[data-testid="flex-container"] > div > span:has(a[link-identifier][href^="https://wrd.walmart.com"])
 www.walmart.com##[data-testid="skyline-ad"]
+www.wp.pl###app-content > .relative > .w-full > div:first-child[style^="max-height: "]:has(> div:first-child > div:first-child > a > div:empty)
 www.wp.pl###app-content > div > div > div[class^="sc-"]:first-child:has(> div > div > img[src^="https://v.wpimg.pl/"][role="presentation"])
 www.wp.pl###app-content > div > div:not([class]):not([id]):has(> div > div > img[src^="https://v.wpimg.pl/"][role="presentation"])
 www.wp.pl###glonews > [data-st-area] > [data-st-area]:has(> div:first-child:empty + a[id] + div img[src^="https://v.wpimg.pl/"])
@@ -11684,7 +11687,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2011
+!<<<<<放行白名单>>>>>2014
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13064,6 +13067,7 @@ thepiratebay3.com^
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,third-party,domain=w3schools.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt|mediaite.com|scotsman.com|today.line.me|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,third-party,domain=journaldemontreal.com
+@@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config^$xmlhttprequest,redirect-rule,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pcs/view/*$xmlhttprequest,domain=joyn.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|voici.fr|wikihow.com|www.wikihow.com
@@ -13251,6 +13255,7 @@ thepiratebay3.com^
 @@||toolbaz.com/tardisrocinante/screx.js$script,~third-party
 @@||toolbaz.com/tardisrocinante/vitals.js$script,~third-party
 @@||top.gg/js/$script,~third-party
+@@||toss.onelink.me/*service.toss.im$~third-party
 @@||toweroffantasy-global.com/events/accounttransfer/public/js/fingerprint.js$~third-party
 @@||townnews.com^*/tncms/*/ads/*/tnt.ads.adverts.$script
 @@||tpc.googlesyndication.com/daca_images/simgad/$domain=lover937.net
@@ -13623,6 +13628,7 @@ phineypet.com#@##adsiframe
 pl#@#.advert
 pl#@#[class$="-ads"]
 player.tubia.com#@#.companion-ads
+pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,recensionihot.com,torino2006.it#@#a[href^="https://www.moscarossa.biz/"]
 queerpride.de#@#.category-advertorial
