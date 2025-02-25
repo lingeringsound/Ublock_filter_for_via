@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oLabiQWXJcSCR+VRGHRwZw
-! Title: Ublock filter for Via(2025-02-25 00:13:50)
-! Version: 20250225001350
+! Checksum: ydPO6SafLZuS0PjRJ7TO+Q
+! Title: Ublock filter for Via(2025-02-25 08:50:52)
+! Version: 20250225085052
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-25 00:13:50
-! Total Count: 13671
-! Blocked Filters: 13671
+! Last modified: 2025-02-25 08:50:52
+! Total Count: 13672
+! Blocked Filters: 13672
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10796,7 +10796,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>641
+!<<<<<通配符规则>>>>>642
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11174,6 +11174,7 @@ $script,domain=zdnet.fr,third-party
 /js/fpu3/pu4.min.js
 /js/ppndr.
 /js/static/header/sda/ppsuma*.js$script
+/js/wb_dead.js$script,~third-party
 /jump/next.php?r=
 /klesd7.$script,~third-party
 /kzdh7.$script,~third-party
