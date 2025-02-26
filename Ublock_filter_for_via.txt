@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: pre9lvDciD+tKcp4BFpKPQ
-! Title: Ublock filter for Via(2025-02-26 08:49:45)
-! Version: 20250226084945
+! Checksum: z/voTPpv04P3m4DizFpszQ
+! Title: Ublock filter for Via(2025-02-27 00:13:33)
+! Version: 20250227001333
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-26 08:49:45
-! Total Count: 13678
-! Blocked Filters: 13678
+! Last modified: 2025-02-27 00:13:33
+! Total Count: 13683
+! Blocked Filters: 13683
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5827
+!<<<<<域名规则>>>>>5829
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1325,6 +1325,7 @@
 ||dabaicai.com^
 ||daddyclub.net^
 ||daddylive.*/sw.js$script,~third-party
+||daftmovie.xyz/player/assets/js/jquery.js
 ||dai.google.com/*/id3-events.json
 ||dailycamera.com^$third-party
 ||dailymail.co.uk/*/client/sync/fpc?$image
@@ -3447,6 +3448,7 @@
 ||mtsa.com.my/mtcs.php/pageview/track^$image
 ||mttk2020.jp^
 ||mtvnservices.com/aria/bentojs.js
+||mudacban.com^
 ||mugen-online.com^
 ||mugicom.live^
 ||mult-imgs.cyou/images/*.gif$image,domain=hentaihaven.xxx
@@ -5841,7 +5843,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4955
+!<<<<<网站单独规则>>>>>4958
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6879,7 +6881,7 @@ crockotube.com##div[class*="vision"]
 crockotube.com##div[class^="vis-"]
 crunchyroll.com###template_skin_leaderboard
 crunchyscan.fr##.col-sm-8.col-md-8.main-col > .c-sidebar
-cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,techipop.com,techyember.com,yalifin.xyz##center:others()
+cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,studyfut.com,techipop.com,techyember.com,yalifin.xyz##center:others()
 cryptonetos.ru##.carousel-inner
 cryptorank.io##tbody > tr:not(.init-scroll):has(a[href*="?"][target="_blank"])
 cryptorank.io##tr.sc-a321a998-0:not(.init-scroll)
@@ -9778,6 +9780,8 @@ solarmovie.*##[href*="/4k"]
 solidfiles.com##.remove
 solotrend.net###text-9 > .textwidget > p
 solotrend.net##[href^="https://www.hoster.co.id/"]
+some.porn###native__skeleton
+some.porn##.skeleton
 sonorousporn.com##.on-player-pl
 sonorousporn.com##.vid-ave-pl
 soranews24.com###aw0[on="tap:exit-api.exit(target='landingPage',_googClickLocation='2')"]
@@ -9973,6 +9977,7 @@ televisiongratishd.com###ventana-flotante
 televisionlibre.net##[class^="fkdaop"]
 teltarif.de,kino.de,desired.de,giga.de##img[referrerpolicy="unsafe-url"][src^="/img/"][src$=".jpg"]
 tempr.email###HeaderBanner
+terabox.com##.shadow
 terabox.fun##.short-link-home-bottom
 terafly.me##.qc-cmp2-container
 tetris.com##.horizontalAxContainer
@@ -12553,7 +12558,7 @@ thepiratebay3.com^
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
 @@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||govbusi.info^$script,domain=satoshi-win.xyz
-@@||gplinks.in/track/$script,xmlhttprequest,domain=gplinks.*|mastharyana.com|quickimageconverter.com|techipop.com|remixbass.com|techyember.com
+@@||gplinks.in/track/$script,xmlhttprequest,domain=gplinks.*|mastharyana.com|quickimageconverter.com|remixbass.com|studyfut.com|techipop.com|techyember.com
 @@||graph.facebook.com^$xmlhttprequest,domain=merriam-webster.com
 @@||groove.tapfiliate.com^$~third-party
 @@||gstatic.*/recaptcha/
