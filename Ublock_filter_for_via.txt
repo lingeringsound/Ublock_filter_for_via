@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: z/voTPpv04P3m4DizFpszQ
-! Title: Ublock filter for Via(2025-02-27 00:13:33)
-! Version: 20250227001333
+! Checksum: O0qT16KRATEE0LCqXBmvew
+! Title: Ublock filter for Via(2025-02-27 08:51:04)
+! Version: 20250227085105
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-27 00:13:33
-! Total Count: 13683
-! Blocked Filters: 13683
+! Last modified: 2025-02-27 08:51:05
+! Total Count: 13684
+! Blocked Filters: 13684
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5829
+!<<<<<域名规则>>>>>5830
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2194,6 +2194,7 @@
 ||googletagmanager.com^$script,domain=foxnews.com
 ||googletagservices.com^$domain=pccomponentes.com
 ||googleusercontent.com/*/s320/download-button-gif-$domain=loptelink.com
+||googleusercontent.com/*/wf/open?upn=$image
 ||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 ||goryachie-foto.net^$third-party
