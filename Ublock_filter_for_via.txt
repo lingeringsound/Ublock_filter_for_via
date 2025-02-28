@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: r4n3vUAuN0TaMIIGRpT2uw
-! Title: Ublock filter for Via(2025-02-28 00:13:47)
-! Version: 20250228001348
+! Checksum: 4z1Hu2Lp8bT5HZU9M/Ds0g
+! Title: Ublock filter for Via(2025-02-28 08:51:07)
+! Version: 20250228085107
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-02-28 00:13:48
-! Total Count: 13689
-! Blocked Filters: 13689
+! Last modified: 2025-02-28 08:51:07
+! Total Count: 13692
+! Blocked Filters: 13692
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5833
+!<<<<<域名规则>>>>>5836
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -434,6 +434,7 @@
 ||apimate.net/ads.js^
 ||apis-jiocinema.voot.com/location$xmlhttprequest,domain=jiocinema.com
 ||apkmirror.co^
+||apmplus.volces.com/monitor_web/collect$xmlhttprequest,method=post
 ||app-bitbanlk-cc.weebly.com^
 ||app.adjust.net.in^
 ||app.mediafire.com/29ph7u17caayi
@@ -814,6 +815,7 @@
 ||bteux.com^
 ||btiatfobkjiv.com^
 ||btnativenav.com^
+||btt.community/plugins/discourse-fingerprint/javascripts/fp.js$script,~third-party
 ||buddygays.com^
 ||budhump.com^
 ||bughter.com^
@@ -2051,6 +2053,7 @@
 ||garagebandforpc.org^
 ||gargar.making-garden.com^
 ||gataterso.com^
+||gator.volces.com/list$xmlhttprequest,method=post
 ||gaypornrape.net/js/3LQkZfQVN7mWARVbozLgE.js
 ||gaytail.com/fancy-mode-7abe/
 ||gayxxxtube.net/img_bnnrs/
@@ -11118,7 +11121,7 @@ $script,domain=zdnet.fr,third-party
 /delivery/mapi.php$xmlhttprequest,domain=jiocinema.com
 /detroitchicago/dpv.gif?$image
 /devfiles.pages.dev\/img\/[a-zA-Z0-9]{8,}.jpeg/$from=jytechs.in|dev.miuiflash.com|djxmaza.in|thecubexguide.com
-/discourse-fingerprint-
+/discourse-fingerprint-$domain=~btt.community
 /display/items.php?$script,third-party
 /domredirect?visitid=
 /download11.png$image
