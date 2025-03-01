@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: c7uMuTEgJMo91LtaRH6/Xw
-! Title: Ublock filter for Via(2025-03-01 08:55:33)
-! Version: 20250301085533
+! Checksum: HGDaZqPaxVJGo5kr6y9P/A
+! Title: Ublock filter for Via(2025-03-02 00:11:24)
+! Version: 20250302001124
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-01 08:55:33
-! Total Count: 13747
-! Blocked Filters: 13747
+! Last modified: 2025-03-02 00:11:24
+! Total Count: 13799
+! Blocked Filters: 13799
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5888
+!<<<<<域名规则>>>>>5891
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -151,6 +151,7 @@
 ||a-ro-ma.com^
 ||a.b.napiszar.com^
 ||a.fapcat.com^
+||a.magsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to
 ||a.slashdotmedia.com^
 ||a.streamoupload.$script
 ||a.tlineat.jp^
@@ -1923,6 +1924,7 @@
 ||flymylife.info^
 ||flyshare.cfd^
 ||fmovies.co/sw.js
+||fnkbfrqhwmjzj.xyz^
 ||fo4nz.com^
 ||foodrailway.cfd^
 ||footyhunter3.xyz/papahd/myblock.php$script
@@ -4183,6 +4185,7 @@
 ||pussy-hub.com/*/stat1_$script,~third-party
 ||pussycat1.online^
 ||pussysaga.com^*/footer/logo_ps.jpg
+||pussyspace.$image
 ||pussyspace.*/js/all.js?v=gitcache_gulp_
 ||pussyspace.*/lazyload.im
 ||pussyspace.*/live/meet-and-fuck/
@@ -5902,7 +5905,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4961
+!<<<<<网站单独规则>>>>>4963
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9401,6 +9404,8 @@ pureshort.*###link-view > a[href] > img
 pureshort.*###link-view > br
 purposegames.com##.adlabel
 pussyspace.com,pussyspace.net###alphabet, #channels, #divx-container, #hmenu, #inform, #nowlooking, #playerCamBox, #playerMenu, #qcat, #showPlayer, #tabel_tagslist, #video_content, #web_cam, .BaseRoomContents, .buttons, .carouselTopScroll, .carusel-keys-box-ps, .footerdesc, .in_top, .load_more_rel, .mainBoxTitle, .pagIno, .playerContent100pr, .relatedVideo, .right-160px, .videos-related, footer, header, [href^="/webcams.php"]:others()
+pussyspace.com,pussyspace.net##.left *:not(div):not(span):not(p):not(a):not(video):not(i):not(ul):not(li):not(b):not(button):not(svg):not(g):not(h1):not(h2):not(pjsdiv):not(noindex):not(select) img
+pussyspace.com,pussyspace.net##[style] [style*="cursor"] img
 pussyspace.com,pussyspace.net##a[href$="/live/meet-and-fuck/"]
 pussyspace.com,pussyspace.net##div[class][style="display: inline-block; vertical-align: top;"]
 pussyspot.net,wildpictures.net##[href^="http://ucam.xxx/"]
@@ -11755,7 +11760,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2015
+!<<<<<放行白名单>>>>>2062
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11846,6 +11851,13 @@ thepiratebay3.com^
 @@/DG/DEFAULT/rest/rpc/*$script,~third-party,domain=al.com|cleveland.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
 @@/VisitorAPI.js$script,domain=abc.go.com
 @@/\.oninet\.ne\.jp\/sakigakesoft\/(?!sakigake)[a-z]{5,}-[a-z]{4,}-?[a-z]?\.js$/$script,~third-party,strict1p,domain=oninet.ne.jp
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{0,2}(?:\(m=e[0-9A-Za-z]{5,7}(?:aaaa)?\)\(mh=[-_0-9A-Za-z]{16}\))?\d{0,2}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.puzzle-[a-z]+\.com\//$script,from=puzzle-loop.com|puzzle-words.com|puzzle-chess.com|puzzle-thermometers.com|puzzle-norinori.com|puzzle-minesweeper.com|puzzle-slant.com|puzzle-lits.com|puzzle-galaxies.com|puzzle-tents.com|puzzle-battleships.com|puzzle-pipes.com|puzzle-hitori.com|puzzle-heyawake.com|puzzle-shingoki.com|puzzle-masyu.com|puzzle-stitches.com|puzzle-aquarium.com|puzzle-tapa.com|puzzle-star-battle.com|puzzle-kakurasu.com|puzzle-skyscrapers.com|puzzle-futoshiki.com|puzzle-shakashaka.com|puzzle-kakuro.com|puzzle-jigsaw-sudoku.com|puzzle-killer-sudoku.com|puzzle-binairo.com|puzzle-nonograms.com|puzzle-sudoku.com|puzzle-light-up.com|puzzle-bridges.com|puzzle-shikaku.com|puzzle-nurikabe.com|puzzle-dominosa.com
 @@/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to
 @@/ad.min.js$script,domain=icutlink.com|zegtrends.com
@@ -13220,6 +13232,31 @@ thepiratebay3.com^
 @@||ssl.p.jwpcdn.com/player/plugins/googima/$script,domain=weather.com
 @@||sst.soranews24.com/gtm.js$script,~third-party
 @@||st.dynamicyield.com/st$script,third-party,domain=thewarehouse.co.nz
+@@||st.pussyspace.com/favicon.ico|
+@@||st.pussyspace.com/player/playBTN.png|
+@@||st.pussyspace.com/style/03/img/bg.png|
+@@||st.pussyspace.com/style/03/img/dropmenudownarrow.png|
+@@||st.pussyspace.com/style/03/img/navbg.hover.png|
+@@||st.pussyspace.com/style/03/img/navbg.png|
+@@||st.pussyspace.com/style/03/img/pinkbg.gif|
+@@||st.pussyspace.com/style/03/img/speed-dials.png|
+@@||st.pussyspace.com/style/03/img/x-sprite.png|
+@@||st.pussyspace.com/style/05/img/JhsdsSD221.svg|
+@@||st.pussyspace.com/style/10/img/logo.png|
+@@||st.pussyspace.com/style/10/img/logo_mobile.png|
+@@||st.pussyspace.com/style/webcam.jpg|
+@@||st.pussyspace.net/favicon.ico|
+@@||st.pussyspace.net/player/playBTN.png|
+@@||st.pussyspace.net/style/03/img/bg.png|
+@@||st.pussyspace.net/style/03/img/dropmenudownarrow.png|
+@@||st.pussyspace.net/style/03/img/navbg.hover.png|
+@@||st.pussyspace.net/style/03/img/navbg.png|
+@@||st.pussyspace.net/style/03/img/pinkbg.gif|
+@@||st.pussyspace.net/style/03/img/speed-dials.png|
+@@||st.pussyspace.net/style/03/img/x-sprite.png|
+@@||st.pussyspace.net/style/10/img/logo.png|
+@@||st.pussyspace.net/style/10/img/logo_mobile.png|
+@@||st.pussyspace.net/style/webcam.jpg|
 @@||static-olxeu.akamaized.net/static/olxbg/*/js/tracking/ninja.js$script,domain=olx.bg
 @@||static-ppp.portalcdn.com/$script,domain=pornhub.com
 @@||static-redesign.cnbcfm.com/dist/components-PcmModule-Ads-BoxInline$script,domain=cnbc.com
@@ -13480,6 +13517,21 @@ thepiratebay3.com^
 @@||www-league.nhlstatic.com/nhl.com/builds/site-core/*/scripts/*$script,domain=nhl.com
 @@||www-league.nhlstatic.com^$xmlhttprequest,domain=nhl.com
 @@||www.googletagmanager.com/gtm.js$script,domain=www.petsbest.com
+@@||www.pussyspace.com/ajax/contact/exo-logo.png|
+@@||www.pussyspace.com/class/captcha/arrow.png|
+@@||www.pussyspace.com/class/captcha/captcha.php|
+@@||www.pussyspace.com/favicon.ico|
+@@||www.pussyspace.com/player/loading.gif|
+@@||www.pussyspace.com/style/img/abuse.email.png,@@||www.pussyspace.net/style/img/abuse.email.png#|
+@@||www.pussyspace.com/style/img/navbg.hover.png|
+@@||www.pussyspace.com/upload/no_img.jpg|
+@@||www.pussyspace.net/ajax/contact/exo-logo.png|
+@@||www.pussyspace.net/class/captcha/arrow.png|
+@@||www.pussyspace.net/class/captcha/captcha.php|
+@@||www.pussyspace.net/favicon.ico|
+@@||www.pussyspace.net/player/loading.gif|
+@@||www.pussyspace.net/style/img/navbg.hover.png|
+@@||www.pussyspace.net/upload/no_img.jpg|
 @@||www.realclear*/esm/assets/js/analytics/chartbeat.js?v=$xmlhttprequest,~third-party,strict1p,method=get,domain=com|org
 @@||www.realclear*/esm/assets/js/analytics/gaAnalytics.js?v=$xmlhttprequest,~third-party,strict1p,method=get,domain=com|org
 @@||wwwjuwanshe.pp8.com^$third-party,domain=juwanshe.com
