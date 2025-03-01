@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wqcdzRMlq/qN+1qZHlYwUg
-! Title: Ublock filter for Via(2025-03-01 00:13:08)
-! Version: 20250301001308
+! Checksum: c7uMuTEgJMo91LtaRH6/Xw
+! Title: Ublock filter for Via(2025-03-01 08:55:33)
+! Version: 20250301085533
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-01 00:13:08
-! Total Count: 13697
-! Blocked Filters: 13697
+! Last modified: 2025-03-01 08:55:33
+! Total Count: 13747
+! Blocked Filters: 13747
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5839
+!<<<<<域名规则>>>>>5888
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -49,6 +49,7 @@
 ||164.132.74.156^
 ||165-227-173-120.plesk.page^
 ||19093.jp^
+||1919-chat.tv^
 ||19706903.xyz/script/www.dolldivine.com.js
 ||1980s.click^
 ||1cloudfile.com/sw.js$script
@@ -116,6 +117,7 @@
 ||5y4-hters-765.jp^
 ||64-226-126-114.plesk.page^
 ||64ws9x.com^
+||6969-chat.tv^
 ||6kk2a4t.com^
 ||6xtpke4.com^
 ||6xy-zg.com^
@@ -134,6 +136,7 @@
 ||8senjya.jp^
 ||91.241.60.117^
 ||939l.xyz^
+||9888.st^
 ||99box.com^
 ||9gcpz8hu.com^
 ||9l3s3fnhl.com^
@@ -178,8 +181,10 @@
 ||acortalo.*^$third-party
 ||action0120.com^
 ||activarhotmail.weebly.com^
+||active-achieve.com^
 ||activexsportswear.com^
 ||activistpost.com^$script,~third-party
+||acttas.com^
 ||ad-doge.com^$third-party
 ||ad-shield.cc^
 ||ad.kissasian.*^$script,~third-party
@@ -303,6 +308,7 @@
 ||ajv06.com^
 ||akamaihd.net/*&affid
 ||aksia.co^
+||akuto23.com^
 ||akyr3h9x5mb.com^
 ||alabamaimage.online^$websocket,domain=contentx.me
 ||alaskasworld.cfd^
@@ -330,6 +336,7 @@
 ||almontsf.com/antiproxy.js
 ||almostmy.com^
 ||alnobala.ae/owasetup/
+||aloha.walea-lino.com^
 ||alone-here.online^
 ||alphaporno.com/bravoplayer/custom/alphapornocom/scripts/inplaybn-
 ||alrincon.com/2022/varios/crazyshit.jpg
@@ -398,6 +405,7 @@
 ||aniwave.*/assets/_bnx/$image,~third-party
 ||ann.tess1.top^
 ||annotationsincereexistence.com^
+||another2020.net^
 ||anti-automation-v*.b-cdn.net^
 ||antivirus.landerhd.com^
 ||antoiew.com^
@@ -507,6 +515,7 @@
 ||astrolivesports.com^
 ||astrosphere.world^
 ||at-t-admin.daftpage.com^
+||at.colony-on.id^
 ||at^$script,xmlhttprequest,third-party,ipaddress=185.215.113.111
 ||ataru-loto.com^
 ||atchao.jp^
@@ -557,6 +566,7 @@
 ||avsakrcapna.com^
 ||awagbbxlyqoys.com^
 ||awapp.store^
+||awesome-meeting.jp^
 ||awkwardemergency.com^
 ||axd.jp^
 ||axdsz.pro^
@@ -608,6 +618,7 @@
 ||base-swap-frontend-*.vercel.app^
 ||baseballletters.com^
 ||basesfiles.com^
+||basic-bank.com^
 ||bavaria-cup.ru^
 ||bb-delivery.icu^
 ||bblck.me^
@@ -675,6 +686,7 @@
 ||bigwank.com/extension/aine/
 ||bigwank.com/sw.js$script,~third-party
 ||bigwarp.io/images/close.png$image
+||bijinkadan.com^
 ||bilbocine.com^
 ||bilbocine.com^$document
 ||bilsevvakfi.org^
@@ -1026,6 +1038,7 @@
 ||chervindi.com^
 ||chesscheckersvariation.com^
 ||chi-yo-1807chiyo.com^
+||chief-child.com^
 ||childrenoftheclouds.com^
 ||chip.de/*&$script,~third-party
 ||chl3.net^
@@ -1383,6 +1396,7 @@
 ||deai-labo.site^
 ||deaiai55.com^
 ||deaimatch.jp^
+||deainow.jp^
 ||deaisaito.jp^
 ||dealhunt.website^
 ||debridleech.com^
@@ -1400,6 +1414,7 @@
 ||degmq5l23.jp^
 ||dek5iqd53g59a.cloudfront.net^
 ||dekarise.site^
+||deliver-departure.com^
 ||delivery.r2b2.cz^$third-party
 ||delivery.sexyxxx.biz^
 ||dem94jfdmn3d.net^
@@ -1483,6 +1498,7 @@
 ||dones9.wixsite.com^
 ||doo6pwib3qngu.cloudfront.net^
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
+||door-donation.jp^
 ||doorsstormsy.shop^
 ||doorway-of-guidance.com^
 ||dopeblackfriday.shop^
@@ -1737,6 +1753,8 @@
 ||ezadblocker.com^
 ||ezg-iy.com^
 ||ezjav.com/p.js
+||f-fri.com^
+||f-fri.net^
 ||f-i-n-d.onlyfuns.win^
 ||f.digital-*.com/igit/
 ||f1nancier.com^
@@ -1936,6 +1954,7 @@
 ||foundations-x2024.cloud^
 ||foundations-x2024.sbs^
 ||foundinggulfsaturate.com^
+||foxi.supay.us^
 ||foxload.com^
 ||foxmods.xyz^
 ||foxymilfspo.com^
@@ -2081,6 +2100,7 @@
 ||getchance.top^
 ||getkmspico.com^
 ||getm.site^
+||getma.tech^
 ||getmackeepersoftpro.xyz^
 ||getmagic.moe^
 ||getmatch.jp^
@@ -2146,6 +2166,7 @@
 ||gngt.ru^
 ||gnkpy.com^
 ||gnula.*/player/vast*xml|$xmlhttprequest,~third-party
+||go-90i.com^
 ||go-ld-li-ne.site^
 ||go-to-zlibrary.com^
 ||go.bundlebyte.net^
@@ -2168,6 +2189,9 @@
 ||gokinjolove.net^
 ||gokinjoscreen.com^
 ||gokuhuku.jp^
+||gokujyou.jp^
+||gokujyouclub.com^
+||gokujyouno.com^
 ||gokusenn.jp^
 ||gold-line.click^
 ||gold-line.online^
@@ -2420,6 +2444,8 @@
 ||homemoviestube.com/b4b8.js
 ||homtail.shop^
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|
+||honeyline.co.jp^
+||honeyline.net^
 ||hope-for-shiningday.com^
 ||hopgp.com^
 ||hori-hori.xyz^
@@ -2552,6 +2578,7 @@
 ||ilovu.store^
 ||im-excellent.com^
 ||ima55notice.biz^
+||image-play.net^
 ||imagebet.ph^
 ||imagedelivery.net^$domain=novelfull.com
 ||images.finanzen.net/*banner$image
@@ -2720,6 +2747,7 @@
 ||jl63v3fp1.com^
 ||jmdinfotechs.com^
 ||jnjn.jp^
+||jobb2nd.com^
 ||jobnib.com/wp-content/plugins/*?ver=6
 ||joinads.me^$third-party
 ||joinhoney.com/evs
@@ -2861,6 +2889,7 @@
 ||kmspicoofficial.com^
 ||kmspicoportable.com^
 ||knackedphoned.com^
+||kneelmodernism.com^
 ||kochava.com^
 ||kogaqmlci.com^
 ||koi-chat.net^
@@ -2903,12 +2932,14 @@
 ||l-chat.jp^
 ||l-one-one.com^
 ||l-partner.jp^
+||l-senior.com^
 ||l-thr-thr.com^
 ||l-two-two.com^
 ||l0vekatsu.com^
 ||l2db.info/uploads/banners/$image
 ||lacqplus.tests.step.eco^
 ||lalielynaualish.com^
+||lalien10.com^
 ||lamilagq.com^
 ||landings.namapper.com^
 ||latenightlovers.com^
@@ -3058,6 +3089,7 @@
 ||loveste.cc^
 ||lovestrive.org^
 ||lovetwipaco.com^
+||lovevoice.net^
 ||lovewish.jp^
 ||lovez.jp^
 ||lowendbox.com^$third-party
@@ -3087,6 +3119,9 @@
 ||luscious.net/advertisement/iframe/
 ||lutherinfo2.com^
 ||luuce.jp^
+||luvmee.com^
+||luvmlp.com^
+||luvmsite.com^
 ||luxury-dream.site^
 ||lv9qr0g0.xyz^
 ||lvli.jp^
@@ -3202,6 +3237,8 @@
 ||matchmix.jp^
 ||matchtap.site^
 ||matchx2.com^
+||matchxxx.jp^
+||matchzzz.jp^
 ||matectord.com^
 ||mathcrave.com/core/modules/*/assets/vendor/css/abdetector.style.css
 ||mathcrave.com/core/modules/*/assets/vendor/js/abdetector.script.min.js
@@ -3628,6 +3665,7 @@
 ||npdptp.com^
 ||npo-government.jp^
 ||nsfwr34.com/ad_schedule/
+||ntc69oia.com^
 ||ntfck.com^
 ||ntischoolpune.org/*.php?
 ||ntv.io^$third-party,domain=~teslarati.com
@@ -3649,6 +3687,7 @@
 ||o-cean-fortune.biz^
 ||o-cean-fortune.com^
 ||o-ka-pilina.com^
+||o-rakuenn.com^
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
 ||oabaubsutha.com^
 ||obs-software.cc^
@@ -3944,6 +3983,7 @@
 ||pktbuu.morau.top^
 ||pl.allsports4free.club^
 ||pl.allsports4u.club^
+||placid-jaded.com^
 ||platform.pubadx.one^$third-party
 ||plati-num.com^
 ||platinumpla2023.com^
@@ -4313,6 +4353,8 @@
 ||ripiai.com^
 ||ripliguay.com^
 ||rjwc95.com^
+||rken104.com^
+||rkn71nkr.com^
 ||rochestertrend.com^
 ||rogueleader.org^
 ||rokuseikantei.com^
@@ -4551,6 +4593,7 @@
 ||sichogyp.su^
 ||side-joblp.com^
 ||sideload.net^
+||signingn.com^
 ||signup-amazon.com^
 ||silversex.com^
 ||simonzody.com^
@@ -4652,8 +4695,10 @@
 ||sok8.net^
 ||sokkinjobmasu.work^
 ||soklove.net^
+||sokuai-dx.jp^
 ||sokuai.jp^
 ||sokudeai.jp^
+||sokudx.jp^
 ||sokuh.net^
 ||solarmovie.to/sw.js$script,~third-party
 ||solarmovie.vip/js/dab.min.js
@@ -4889,6 +4934,7 @@
 ||t.simply-hentai.com^
 ||t1a.jp^
 ||t1amo.jp^
+||t4hsalk.com^
 ||t89ll.com^
 ||ta0dal0ve.com/^
 ||ta1kcall.site^
@@ -5107,6 +5153,7 @@
 ||touchoshirase.net^
 ||touchtacchi.net^
 ||toughvariation.com^
+||tour375.com^
 ||toxicwap.us/sw.js$script,~third-party
 ||toythieves.com^
 ||tplinkextender.net^
@@ -5169,6 +5216,7 @@
 ||tron-free.com/banner/$image,~third-party
 ||tronexcheats.space^
 ||tronkwintun.com^
+||trr59rrt.com^
 ||trripwire.com^
 ||truecrypt.fr^
 ||truecrypt.it^
@@ -5246,6 +5294,7 @@
 ||ultimedia.com/api/widget/$xmlhttprequest,domain=techradar.com|tomsguide.com|tomshardware.com|videogamer.com
 ||ultra-rv.com^$third-party
 ||ultratime.info^
+||uly-sses8888.com^
 ||um-bredirect.com^
 ||unactkiosk.com^
 ||unafei-kokusai.com^
@@ -5853,7 +5902,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4960
+!<<<<<网站单独规则>>>>>4961
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9353,6 +9402,7 @@ pureshort.*###link-view > br
 purposegames.com##.adlabel
 pussyspace.com,pussyspace.net###alphabet, #channels, #divx-container, #hmenu, #inform, #nowlooking, #playerCamBox, #playerMenu, #qcat, #showPlayer, #tabel_tagslist, #video_content, #web_cam, .BaseRoomContents, .buttons, .carouselTopScroll, .carusel-keys-box-ps, .footerdesc, .in_top, .load_more_rel, .mainBoxTitle, .pagIno, .playerContent100pr, .relatedVideo, .right-160px, .videos-related, footer, header, [href^="/webcams.php"]:others()
 pussyspace.com,pussyspace.net##a[href$="/live/meet-and-fuck/"]
+pussyspace.com,pussyspace.net##div[class][style="display: inline-block; vertical-align: top;"]
 pussyspot.net,wildpictures.net##[href^="http://ucam.xxx/"]
 pussyspot.net,wildpictures.net##[href^="https://easygamepromo.com/"]
 pussystate.com##li[style="clear:both;float:none;width:600px;margin:0;overflow:hidden;margin-left:-5px;"]
