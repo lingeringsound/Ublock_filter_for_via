@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HGDaZqPaxVJGo5kr6y9P/A
-! Title: Ublock filter for Via(2025-03-02 00:11:24)
-! Version: 20250302001124
+! Checksum: Q+5DldNIaI5/W5TDURUh9A
+! Title: Ublock filter for Via(2025-03-02 08:54:26)
+! Version: 20250302085426
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-02 00:11:24
-! Total Count: 13799
-! Blocked Filters: 13799
+! Last modified: 2025-03-02 08:54:26
+! Total Count: 13802
+! Blocked Filters: 13802
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -151,7 +151,7 @@
 ||a-ro-ma.com^
 ||a.b.napiszar.com^
 ||a.fapcat.com^
-||a.magsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to
+||a.magsrv.com/ad-provider.js$xmlhttprequest,domain=doods.to|poophq.com|veev.to
 ||a.slashdotmedia.com^
 ||a.streamoupload.$script
 ||a.tlineat.jp^
@@ -237,7 +237,7 @@
 ||ads.pinterest.com^$third-party
 ||ads.the.tube^
 ||ads.youtube.com^$domain=~ads.youtube.com
-||adsco.re^$xmlhttprequest,domain=poophq.com|veev.to
+||adsco.re^$xmlhttprequest,domain=doods.to|poophq.com|veev.to
 ||adservice.google.*/adsid/integrator.js?domain=$script,domain=anydebrid.com|hotdebrid.com
 ||adshort.tech^$third-party
 ||adshrink.it^$third-party
@@ -5905,7 +5905,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4963
+!<<<<<网站单独规则>>>>>4966
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6958,7 +6958,7 @@ cuevana8.com##[href*="premium/"]
 currencyconverterx.com##.block-after-head
 currencyconverterx.com##.block-inside-blocks
 currentrecruitment.com,investorveda.com###hometimerstartbtn, #hometimer, #yuidea-btmbtn, #btn6:others()
-curs-germana.com,freewebcart.com,pervertgirlsvideos.com,techhelpbd.com##.pum-overlay
+curs-germana.com,freewebcart.com,javhoho.com,pervertgirlsvideos.com,techhelpbd.com##.pum-overlay
 curseforge.com##:is(.project-description,div.project-detail__content) [href^="/linkout?remoteUrl=http"]:is([href*="fxco.ca"]) > img
 curseforge.com##:is(.project-description,div.project-detail__content) p > img[alt^="Use code"]
 cursomecanet.com##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
@@ -8242,6 +8242,8 @@ javhdporn.net##iframe[title="offer"]
 javher.com##.affiliate-card-container
 javher.com,javtrailers.com###popunderLink
 javhoho.com###text-7
+javhoho.com##.img-ads-footer
+javhoho.com##.popmake
 javhoho.com##a[href="https://50per-cent.com/"]
 javhoho.com,nekomeowmeow.com###text-5
 javhoho.com,pclicious.net###text-3
@@ -10437,6 +10439,7 @@ vipracing.*###vpp
 vipracing.*##[href="https://www.tvbarata.club/"]
 viralfeed.*##.admania-widgettit
 viralsbaba1.blogspot.com###btn-gotolink:others()
+visualnewshub.com##.LailasMagic
 viu.com##.ad-ph
 viu.com##.banner_ad_label
 vivatube.*##.clear + .mt15.container[style="margin-top:15px; border-bottom:0;"]
@@ -12153,7 +12156,7 @@ thepiratebay3.com^
 @@||businessinsider.in/analytics_js/*$script,~third-party
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
-@@||c.adsco.re/|$script,domain=hotfrog.*|poophq.com|veev.to
+@@||c.adsco.re/|$script,domain=doods.to|hotfrog.*|poophq.com|veev.to
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
