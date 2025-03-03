@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +i964gikIiLFXoZ7OJjwLQ
-! Title: Ublock filter for Via(2025-03-03 00:12:29)
-! Version: 20250303001229
+! Checksum: CLPwc1vnP6KNSdfNt9QPdA
+! Title: Ublock filter for Via(2025-03-03 08:52:32)
+! Version: 20250303085233
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-03 00:12:29
-! Total Count: 13806
-! Blocked Filters: 13806
+! Last modified: 2025-03-03 08:52:33
+! Total Count: 13811
+! Blocked Filters: 13811
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5907,7 +5907,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4968
+!<<<<<网站单独规则>>>>>4971
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7296,6 +7296,9 @@ escapegames24.com##div[id^="post-"] b
 escapegames24.com,tatsumi-crew.net###HTML2
 esradio.libertaddigital.com###mega-atf
 eurogamer.net,rockpapershotgun.com##.leaderboards
+euronews.com##.c-ad
+euronews.com##.tp-outbrain
+euronews.com##.vuukle-ads
 europixhd.*,hdeuropix.*,topeuropix.*###MyImageId
 europixhd.*,topeuropix.*##[id^="MyAdsId"]
 eurosport.tvn24.pl##.ad, .fake
@@ -11767,7 +11770,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2062
+!<<<<<放行白名单>>>>>2064
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12264,6 +12267,8 @@ thepiratebay3.com^
 @@||cdn.trafficdok.com/libs/e.js$script,domain=tvmd.info
 @@||cdn.turner.com/cnn/van/resources/*/scripts/vendor/loggly.tracker.js$xmlhttprequest,domain=trentonian.com
 @@||cdn.vox-cdn.com/packs/js/concert_ads-*.js$script,domain=theverge.com
+@@||cdn.vuukle.com/ads/euronews.com.json$xmlhttprequest,domain=euronews.com
+@@||cdn.vuukle.com/static/prebid3.js$script,domain=euronews.com
 @@||cdn.zidedge.com/zp/ranker/$script,domain=ranker.com
 @@||cdnb.4strokemedia.com/carousel/v4/comScore-JS-$script,domain=formulapassion.it
 @@||cdnjs.cloudflare.com/ajax/$script,domain=pch.com
