@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: XvW20+RQ7DnHb6gKuAgcEg
-! Title: Ublock filter for Via(2025-03-05 00:13:34)
-! Version: 20250305001334
+! Checksum: WTwrloQKYXo/l6cQ85LbMg
+! Title: Ublock filter for Via(2025-03-05 08:52:13)
+! Version: 20250305085213
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-05 00:13:34
-! Total Count: 13814
-! Blocked Filters: 13814
+! Last modified: 2025-03-05 08:52:13
+! Total Count: 13829
+! Blocked Filters: 13829
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5894
+!<<<<<域名规则>>>>>5903
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -448,6 +448,7 @@
 ||app.adjust.net.in^
 ||app.mediafire.com/29ph7u17caayi
 ||app.mediafire.com/36culjifmas7b
+||app.mediafire.com/bam017u2w9goa
 ||app.mediafire.com/jjtzeom4qvvxb
 ||app.mediafire.com/v3txu5tkw7ln5
 ||app.mediafire.com/zjtlygawl2i6h
@@ -560,6 +561,7 @@
 ||autotracer.org/cnc/?*=rightcol$xmlhttprequest,~third-party
 ||autotradeguide.pro^
 ||auubslxxi.com^
+||avaloncheats.pro^
 ||avantajados.com^$third-party
 ||avatarthree.lol^
 ||avjamack.com/data/by_banner/
@@ -924,6 +926,7 @@
 ||cdn.cuty.io/fps.js$script
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 ||cdn.discordapp.com/attachments/916391647955279943/*^
+||cdn.gledaitv.*/js/detectorpro_
 ||cdn.jsdelivr.net/*/detectIncognito$script
 ||cdn.jsdelivr.net/*/dist/js/wgd-core.min.js$script
 ||cdn.jsdelivr.net/gh/Akshat-h/propeller/btagantiadb.js^$script
@@ -1696,6 +1699,7 @@
 ||eternal.mobius-loop.net^
 ||eternalfame461.com^
 ||etharticles.substack.com^
+||etheliumcheats.pro^
 ||ethmevsetup.group^
 ||ets2.gr^
 ||eujsiyajep.niigata.jp^
@@ -2384,6 +2388,7 @@
 ||herokudns.com^$xmlhttprequest,domain=darkreader.org
 ||hethongvaynhanh247.com^
 ||hexagynjewing.top^
+||hexiumvisions.pro^
 ||hexupload.net/images/Premium_Banners/$third-party
 ||heyoya.com^$script,third-party
 ||hfykmfd1.com^
@@ -3285,6 +3290,7 @@
 ||mediafire.com/folder/3x67gs8tbyxdx/
 ||mediafire.com/folder/5ablaa1bmr2sb/
 ||mediafire.com/folder/5mm90sz4nz0ui/
+||mediafire.com/folder/6o9s1qrtygrwr/
 ||mediafire.com/folder/90qj06387ezr8/
 ||mediafire.com/folder/hm0b7x2593fh1/
 ||mediafire.com/folder/oagotlqizjthi/
@@ -4562,6 +4568,7 @@
 ||sgua.jp^
 ||shacsda.name^$third-party
 ||shadowinject.com^
+||shadowofff.neocities.org^
 ||share.notizie.it^
 ||sharecast.ws^$script,~third-party
 ||sharecube.pro^
@@ -4619,10 +4626,12 @@
 ||sites.google.com/view/ai-image-3d^
 ||sites.google.com/view/awesome-themes-desktop^
 ||sites.google.com/view/blue-softs^
+||sites.google.com/view/drcheats6|
 ||sites.google.com/view/ex1aucnh3r/
 ||sites.google.com/view/ex1aucnh3r1/
 ||sites.google.com/view/exlauncher11|
 ||sites.google.com/view/exlauncher69/
+||sites.google.com/view/extnllmm|
 ||sites.google.com/view/flechh|
 ||sites.google.com/view/hubgames|
 ||sites.google.com/view/kostsoft|
@@ -5908,7 +5917,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4973
+!<<<<<网站单独规则>>>>>4978
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7641,15 +7650,19 @@ gamatotv.info,gmtcloud.best###ads5
 gambare.xyz,thenextplanet1.*###loading-timer
 gamcore.com###ad_unter_spiel
 gamcore.com###preloader_2
+gamcore.com##.add_game.d-none
 gamcore.com##.item:has(> a[href] > img[src*="//cdn.69games.xxx/"])
+gamcore.com##.item:has(> a[href^="/games/fuckyou/"])
 gamcore.com##.item:has([href^="/games/"][class=""])
 gamcore.com##.menuArea [rel]
+gamcore.com##.menuArea a[href="https://www.porngames.tv/"]
 gamcore.com##.mycontainer > .d-lg-block.d-none > iframe
 gamcore.com##.row > .d-lg-block.d-none
 gamcore.com##.row > .d-md-block
 gamcore.com##.row > .game_view > .add_game iframe
 gamcore.com##.side_flashes
 gamcore.com##.wide.alphadelta_block
+gamcore.com##li.d-md-block
 gamcore.com,69games.xxx##[href*="/ads/"]
 game3rb.com###post-footer:has([href*="vpnatlas.com"])
 game3rb.com##[href^="http://pityhostngco2.xyz/"]
@@ -7876,6 +7889,7 @@ hdfilmcehennemi1.net##.money-child
 hdfilmcehennemi1.net##.money-text
 hdhub4u.*##.hd-links
 hdhub4u.*##.watch-hd
+hdhub4u.*##[href*="?aff"]
 hdjavonline.com##.happy-inside-player
 hdmp4mania1.net,mp4mania1.net,tvshows4mobile.*##.prop_native1
 hdmp4mania2.com,o2tvseries.com,tvshows4mobile.org##.gsc-promotion
@@ -11773,7 +11787,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2064
+!<<<<<放行白名单>>>>>2065
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13751,6 +13765,7 @@ nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
 oogiri-chaya.com#@#.adsText
+op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
 outletarredamento.it#@#.ad-link:not(.adsbox)
