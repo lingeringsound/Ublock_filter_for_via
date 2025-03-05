@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: WTwrloQKYXo/l6cQ85LbMg
-! Title: Ublock filter for Via(2025-03-05 08:52:13)
-! Version: 20250305085213
+! Checksum: 6scE2K9PwSGCRwgS1dfegA
+! Title: Ublock filter for Via(2025-03-06 00:18:12)
+! Version: 20250306001812
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-05 08:52:13
-! Total Count: 13829
-! Blocked Filters: 13829
+! Last modified: 2025-03-06 00:18:12
+! Total Count: 13836
+! Blocked Filters: 13836
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5903
+!<<<<<域名规则>>>>>5904
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -926,6 +926,7 @@
 ||cdn.cuty.io/fps.js$script
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 ||cdn.discordapp.com/attachments/916391647955279943/*^
+||cdn.drama-online.tv/wp-content/plugins/eeacab.js
 ||cdn.gledaitv.*/js/detectorpro_
 ||cdn.jsdelivr.net/*/detectIncognito$script
 ||cdn.jsdelivr.net/*/dist/js/wgd-core.min.js$script
@@ -5917,7 +5918,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4978
+!<<<<<网站单独规则>>>>>4983
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6693,6 +6694,11 @@ businessinsider.de##.slideshow__ad
 businessinsider.de##.slideshow__middle-ad-container
 businessinsider.de##.slideshow__mobile-ad
 businessinsider.fr##[id^="bin-ads"]
+businessinsider.jp##.gtm-recommendArticles
+businessinsider.jp##.slideBanner
+businessinsider.jp##[class^="articlesHome_item_"]:has(> figure > div[class^="skeleton_"])
+businessinsider.jp##[class^="secondary_ranking_"] > div[class^="rankingItem_item_"]:has(> div > div[class^="skeleton_"])
+businessinsider.jp##div[class^="article_specialFeature_"]
 businesstimes.com.sg##.overlayWhite
 businesstoday.in##.adblocker-container
 businesstoday.in,indiatoday.in,intoday.in###adbocker_alt
@@ -11787,7 +11793,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2065
+!<<<<<放行白名单>>>>>2066
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13764,6 +13770,7 @@ nieru.net#@#.ad-space:not(.textads):not(.adbox)
 nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
+okwave.jp#@#.adfunnel.user_ranking
 oogiri-chaya.com#@#.adsText
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
 orange.fr#@##o_carrepub
