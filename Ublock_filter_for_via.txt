@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EMLM9mpxJVvWsSy+BTwTOw
-! Title: Ublock filter for Via(2025-03-07 00:13:22)
-! Version: 20250307001322
+! Checksum: VWp7sJzQ2WoXIp+tkIcK7g
+! Title: Ublock filter for Via(2025-03-07 08:51:45)
+! Version: 20250307085145
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-07 00:13:22
-! Total Count: 13840
-! Blocked Filters: 13840
+! Last modified: 2025-03-07 08:51:45
+! Total Count: 13841
+! Blocked Filters: 13841
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5920,7 +5920,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4985
+!<<<<<网站单独规则>>>>>4986
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6834,6 +6834,7 @@ chronicle.com##.GoogleDfpAd-container
 chyoa.com##.chyoa-adzone
 chyoa.com##.chyoa-banner
 cimanow.*,cnvids.com,fc.lc,indavideo.hu,totv.org###ad
+cimanow.cc##main > a[id][target="_blank"]
 cimanow.cc##section[aria-label="details"] > a[target="_blank"]
 cimanow.cc##section[aria-label="details"] a[id][target="_blank"]
 cimanow.cc,forum.gigabyte.us,forums.lostmediawiki.com,proboards.com,romspedia.com###ad1
