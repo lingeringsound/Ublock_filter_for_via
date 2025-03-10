@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ylLF1FXP5HcRTK1JFB421g
-! Title: Ublock filter for Via(2025-03-10 08:42:37)
-! Version: 20250310084237
+! Checksum: TbvgOCeR3mENcLFsCdGJ9w
+! Title: Ublock filter for Via(2025-03-11 00:11:49)
+! Version: 20250311001149
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-10 08:42:37
-! Total Count: 13857
-! Blocked Filters: 13857
+! Last modified: 2025-03-11 00:11:49
+! Total Count: 13870
+! Blocked Filters: 13870
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5914
+!<<<<<域名规则>>>>>5923
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1159,7 +1159,8 @@
 ||colorfullouderremnant.com^
 ||colorfulromance.com^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
-||com/|$xmlhttprequest,third-party,method=head,domain=aniwatchtv.to|bflix.*|fbstreams.pm|kaa.mx|movieku.ink|nsw2u.com|reliabletv.me
+||com/on.js?var=$script,third-party
+||com/|$xmlhttprequest,third-party,method=head,domain=aniwatchtv.to|bflix.*|fbstreams.pm|kaa.mx|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -1445,6 +1446,7 @@
 ||detailsreceipts.com^
 ||determinatioon.jp^
 ||detranrapido.co^
+||dev.to/*/bb-2/$xmlhttprequest,~third-party
 ||developseveralwebx.z9.web.core.windows.net^
 ||developsincelock.com^
 ||deviants.com/dv*/dv.js
@@ -1619,6 +1621,7 @@
 ||edeetion.com^
 ||edfringe.com/*.php
 ||edge-campaign-japan.com^
+||edizionecaserta.net/wp-content/plugins/serverwp-cloud-adblock-detector/
 ||edugrampromo.com^$third-party
 ||eevblog.com/forum/fp.php
 ||eevblog.com/images/*.gif$image
@@ -1660,6 +1663,7 @@
 ||en-kakuri.biz^
 ||en-mu-su-bi.com^
 ||en5wr67sag3.com^
+||enamelhurdleunpaid.com^
 ||enbdev.com/_main.js$script,~third-party
 ||enchantedfruit.com^
 ||encurtads.net/scriptencurmontag.js$script
@@ -1819,6 +1823,7 @@
 ||fapp.work^
 ||faptitans.com^*/rc/logo.jpg
 ||farlad.com^
+||farmersjournal.ie/js/detectIncognito.min.js
 ||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com
 ||fast.quickcontentnetwork.com^
 ||fast2cloud.com^
@@ -2518,6 +2523,7 @@
 ||humilityslammedslowing.com^
 ||humpbuds.com^
 ||hushemail.net^
+||huskinessimminentstylus.com^
 ||hvacpartstechnician.com^
 ||hxh.jp^
 ||hypixei.com^
@@ -5531,6 +5537,7 @@
 ||vroom24365.com^
 ||vuabem.com^
 ||vugpakba.com^
+||vutkaqlakbp.com^
 ||vuwomoby.pro^
 ||vvtplayer.*/cdn-cgi/trace
 ||vww-facebook.
@@ -5677,6 +5684,8 @@
 ||wow-site.site^
 ||wp.com*/banner$image,domain=komikmama.net
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
+||wsimg.com/signals/$script,third-party
+||wsimg.com/traffic-assets/$script,third-party
 ||wsws1234.net^
 ||wswsnews.net^
 ||wwbudmh.ru^
@@ -10922,7 +10931,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>646
+!<<<<<通配符规则>>>>>650
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11023,6 +11032,7 @@ $script,domain=zdnet.fr,third-party
 .de/bilder/*.jpg|$script,~third-party,domain=de
 .de/image/*.gif|$script,~third-party
 .de/image/*.gif|$script,~third-party,domain=de
+.fiverr.com/js_event_tracking/v1/track_email_open/$image
 .gif$domain=enryucomics.com,image
 .gif$domain=nekopoi.*,image
 .gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
@@ -11526,8 +11536,10 @@ $script,domain=zdnet.fr,third-party
 ://creative.*/widgets/Spot/lib.js$third-party
 ://css-load.com/loader.min.js$domain=dogdrip.net
 ://e.*.top/video/?c=
+://ecmweb.com/images/shim.png$image
 ://email-analytics.meetup.com/$image
 ://ev.ri-*gb.com/home/home.php
+://link.nzz.ch/v1/emailopen?$image
 ://links1.pawns.app/q/$image
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
@@ -11535,6 +11547,7 @@ $script,domain=zdnet.fr,third-party
 ://mg.mail.notion.so/$image
 ://myanimelist.net/pixel?$image
 ://myanimelist.net/static/logging.gif?$image
+://newsletter.adnz.co/$image
 ://ply.*/?v=$image,third-party
 ://rd.remove.bg/CI0/$image
 ://vip.*/?pge=$image,third-party
