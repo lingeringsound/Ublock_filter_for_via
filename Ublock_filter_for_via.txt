@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TbvgOCeR3mENcLFsCdGJ9w
-! Title: Ublock filter for Via(2025-03-11 00:11:49)
-! Version: 20250311001149
+! Checksum: K2TKk5x6ka5/Eu9uyWBn+g
+! Title: Ublock filter for Via(2025-03-11 08:51:56)
+! Version: 20250311085156
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-11 00:11:49
-! Total Count: 13870
-! Blocked Filters: 13870
+! Last modified: 2025-03-11 08:51:56
+! Total Count: 13874
+! Blocked Filters: 13874
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5937,7 +5937,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4991
+!<<<<<网站单独规则>>>>>4995
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6375,6 +6375,7 @@ ariva.de###iqd_mainAd
 ariva.de##.werb_textlink
 arkadium.com##span[class*=Ad-caption-]
 arrowos.net##.card-content:has(> .adsbygoogle)
+arstechnica.com,bild.de##.ad-wrapper
 art19.com##.art19-notifications-list
 aruble.net###top-ads
 aruble.net,faucethero.com,faucetpot.me,krypto-trend.de###middle-adspace
@@ -6818,6 +6819,7 @@ cfake.com###over
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
 channel4.com##.advertsMpu
 channel4.com##.block--mpu
+charbelnemnom.com,dynamicpapers.com,frkn64modding.com,get-digital-help.com,lookmovie.ag.w3snoop.com,mypapercraft.net,splitshire.com,thizissam.in##.ezoic-ad
 charbelnemnom.com,scubidu.eu###custom_html-16
 chat.deepseek.com##.ds-modal-overlay
 cheatsquad.gg##.tooltip::after
@@ -7537,6 +7539,7 @@ forbes.com##.ed-wrap.rafeed__block
 forbes.com##.footer-ad-labeling
 forbes.com##.vestpocket
 forbes.com##fbs-ad
+forbes.com,~lamire.jp##.ad-unit:not(.text-ad):not(.textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 forexfactory.com##.adbit
 forexwikitrading.com##[href^="https://fbs.partners"]
 forexwikitrading.com##[href^="https://forexwikitrading.com/go/"]
@@ -8716,6 +8719,7 @@ mercadolivre.com.br###ui-billboard-ad
 mercatinomusicale.com##[id^="skin"]
 mercedesclub.cz##ins.adsbygoogle, [class^="side_ad_"]
 mercurynews.com###mobile-adhesion
+mercurynews.com,poststar.com,roanoke.com,stltoday.com##.dfp-ad
 mesyuu.com##div[class$="_outline"]:has(> div > div.plugin-freearea > div.ninja-recommend-block)
 metager.org##.result:has(.partnershop-info)
 metastats.net###page-wrapper > div.row:nth-of-type(1)
