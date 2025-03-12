@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: uzaxSE73W+Fix2umudLeXw
-! Title: Ublock filter for Via(2025-03-12 08:51:03)
-! Version: 20250312085103
+! Checksum: rY4RLdI7skDPcWaZB4Nqog
+! Title: Ublock filter for Via(2025-03-13 00:14:39)
+! Version: 20250313001439
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-12 08:51:03
-! Total Count: 13889
-! Blocked Filters: 13889
+! Last modified: 2025-03-13 00:14:39
+! Total Count: 13895
+! Blocked Filters: 13895
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5929
+!<<<<<域名规则>>>>>5933
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5640,9 +5640,13 @@
 ||will-lucky-will.com^
 ||willalland.info^
 ||windows.net*/esc.js
+||windows.net/*/bxsafe.js
 ||windows.net/*/esc.js
 ||windows.net/*/flscn.js
+||windows.net/*/jupiter.js
 ||windows.net/*/media/beep.mp3
+||windows.net/*/noir.js
+||windows.net/*/nvidia.js
 ||windows.net/*?bcda=
 ||windows.net/*_Fm7-alert.mp3
 ||windows.net/js/customone.js
@@ -5943,7 +5947,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4996
+!<<<<<网站单独规则>>>>>4997
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7617,6 +7621,7 @@ freevipservers.net##.md\:\!flex.bottom-10.w-full.gap-2.z-30.justify-center.items
 freevpn4you.net##*:has(> .adsbygoogle)
 freevstplugins.net##.advert-wrap
 freewatchserialonline.com##[data-zone]
+freex2line.online##body >a[id][href][target^="_blank"]
 freexcafe.com###join
 freexcafe.com###rightcolumn
 freexcafe.com###txtbanner
@@ -10942,7 +10947,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>655
+!<<<<<通配符规则>>>>>656
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11320,6 +11325,7 @@ $script,domain=zdnet.fr,third-party
 /jquery.watch.js|$script,~third-party,domain=~dekrantvantoen.nl
 /jr.php?gz=
 /js/analytics/fdUserFingerprintToken.js$domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
+/js/detectorpro_*.js|$script
 /js/fpu3/pu4.min.js
 /js/ppndr.
 /js/static/header/sda/ppsuma*.js$script
@@ -13230,7 +13236,7 @@ thepiratebay3.com^
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl$script,domain=abola.pt|epaper.eenadu.net|jn.pt|ojogo.pt|pitchfork.com|plataformamedia.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=gala.fr|geo.fr|meteoetradar.com|voici.fr
 @@||securepubads.g.doubleclick.net/pagead/ima_ppub_config$xmlhttprequest,domain=worldsurfleague.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/$script,domain=smsonline.cloud
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/$script,domain=smsonline.cloud|timesofindia.indiatimes.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*$script,domain=moviepilot.de
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,third-party,domain=w3schools.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt|mediaite.com|scotsman.com|today.line.me|wikihow.com|www.wikihow.com
@@ -13238,7 +13244,7 @@ thepiratebay3.com^
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config^$xmlhttprequest,redirect-rule,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pcs/view/*$xmlhttprequest,domain=joyn.de
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|voici.fr|wikihow.com|www.wikihow.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|timesofindia.indiatimes.com|voici.fr|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
