@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: FKC2NO2aSABAI9SktApULA
-! Title: Ublock filter for Via(2025-03-13 08:51:55)
-! Version: 20250313085155
+! Checksum: YQaVZl4j+5FF1yPWCGV/Rw
+! Title: Ublock filter for Via(2025-03-14 00:14:14)
+! Version: 20250314001414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-13 08:51:55
-! Total Count: 13895
-! Blocked Filters: 13895
+! Last modified: 2025-03-14 00:14:14
+! Total Count: 13902
+! Blocked Filters: 13902
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5933
+!<<<<<域名规则>>>>>5935
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -152,6 +152,7 @@
 ||a.b.napiszar.com^
 ||a.fapcat.com^
 ||a.magsrv.com/ad-provider.js$xmlhttprequest,domain=doods.to|poophq.com|veev.to
+||a.orbsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||a.pemsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||a.slashdotmedia.com^
 ||a.streamoupload.$script
@@ -1861,6 +1862,7 @@
 ||fevertime.com/wasop/
 ||fewcents.co^$third-party
 ||fflink.net^$third-party
+||ffmovies.lol/jss/dectector-
 ||ffr548tyfhe.jp^
 ||fhhgc.infinityscans.net^$xmlhttprequest
 ||fiare-activity.com^
@@ -11852,7 +11854,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2066
+!<<<<<放行白名单>>>>>2071
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -11898,6 +11900,7 @@ thepiratebay3.com^
 #@#.ads-iframe
 #@#.ads_container
 #@#.display_ad
+#@#.fujoho_custom_banner
 #@#.google-ad
 #@#.reklama
 #@#.sidebar-ad
@@ -12288,6 +12291,7 @@ thepiratebay3.com^
 @@||cdn.cloudflare.net^$script,domain=23qb.net
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,~third-party
 @@||cdn.cookielaw.org/*/OtAutoBlock.js$script,xmlhttprequest,domain=html5.gamedistribution.com
+@@||cdn.cookielaw.org^$xmlhttprequest,domain=soundcloud.com
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl|tvaplus.ca
 @@||cdn.dqst.pl/assets/ads.js$xmlhttprequest,domain=tko.pl
 @@||cdn.dynamicyield.com/api/$script,domain=washingtonexaminer.com
@@ -12577,6 +12581,7 @@ thepiratebay3.com^
 @@||ezodn.com/v2/cmp.js$script
 @@||ezoic.net/wabbit/$script,domain=gerweck.net
 @@||ezojs.com/detroitchicago/cmbv2.js$script,domain=livsavr.co|thehockeywriters.com
+@@||f-tra.com^$script,domain=pokemoncenter-online.com
 @@||f95zone.to.it^$script,~third-party
 @@||faceittracker.net^$script,~third-party
 @@||fapxl.com/skins/blank/js/blockadblock.js$script,~third-party
@@ -13174,6 +13179,7 @@ thepiratebay3.com^
 @@||redketchup.io^$script,~third-party
 @@||register.drupal.org/ga*.js$xmlhttprequest,~third-party
 @@||registerdisney.go.com/*/responder/responder.js$script,domain=espn.com
+@@||registry.api.cnn.io^$script,domain=cnn.com
 @@||relay-client-c01.iocnt.net^$script,domain=businessinsider.de|www.businessinsider.de
 @@||relay-client-c03.iocnt.net^$script,domain=derstandard.at|derstandard.de|sportdeutschland.tv
 @@||request.dqst.pl/*/reader$xmlhttprequest,domain=namasce.pl
@@ -13492,6 +13498,7 @@ thepiratebay3.com^
 @@||try.abtasty.com^$script,domain=reuters.com
 @@||tsyndicate.com/api/v1/direct/$xmlhttprequest,domain=camcaps.io
 @@||turkanime.*/ad/$xmlhttprequest,~third-party
+@@||turnip.cdn.turner.com^$script,domain=cnn.com
 @@||tusachxinhxinh.com^$script,~third-party
 @@||tutanota.com/fr.js$~third-party
 @@||tvn.hit.gemius.pl^$xmlhttprequest,domain=player.pl
