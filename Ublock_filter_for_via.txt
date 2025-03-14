@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YQaVZl4j+5FF1yPWCGV/Rw
-! Title: Ublock filter for Via(2025-03-14 00:14:14)
-! Version: 20250314001414
+! Checksum: uK7Et1dUUW798UOPjLlmgg
+! Title: Ublock filter for Via(2025-03-14 08:51:16)
+! Version: 20250314085116
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-14 00:14:14
-! Total Count: 13902
-! Blocked Filters: 13902
+! Last modified: 2025-03-14 08:51:16
+! Total Count: 13904
+! Blocked Filters: 13904
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5949,7 +5949,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4997
+!<<<<<网站单独规则>>>>>4998
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8444,6 +8444,7 @@ konstantinova.net##[href^="//mellowads.com/"]
 koramaup.com##[href^="http://u87yuo9ojh.world/"]
 kpkuang.org###sterra-ad-onmid
 kropic.com,kvador.com,picbaron.com##.newsbar_blue
+krx18.com###dynamic-image
 krx18.com##center > [src*="/ads/"]
 krypto-trend.de###captcha-adspace
 krypto-trend.de###top_adspace
@@ -10949,7 +10950,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>656
+!<<<<<通配符规则>>>>>657
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11137,6 +11138,7 @@ $script,domain=zdnet.fr,third-party
 /aclib.js?v=$script
 /aclib.js|$script
 /ad-m.js$script,~third-party
+/ad-provider.js$xmlhttprequest,third-party,domain=poophq.com|veev.to|doods.to
 /adblock.php$script,domain=daddylivehd.*|dlhd.sx|freelivetvon.com|poscitech.click|tvpclive.com
 /adblocker.js$domain=gameophobias.com|hindimearticles.net|solution-hub.com
 /adc-ads-lib|$script
