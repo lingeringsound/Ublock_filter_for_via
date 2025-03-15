@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: tObg25RmuofTnF/0cH/pYA
-! Title: Ublock filter for Via(2025-03-15 00:13:14)
-! Version: 20250315001315
+! Checksum: YYjBLXGuQEVO26JwkbOkkA
+! Title: Ublock filter for Via(2025-03-15 08:50:34)
+! Version: 20250315085034
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-15 00:13:15
-! Total Count: 13914
-! Blocked Filters: 13914
+! Last modified: 2025-03-15 08:50:34
+! Total Count: 13916
+! Blocked Filters: 13916
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5935
+!<<<<<域名规则>>>>>5936
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -219,6 +219,7 @@
 ||addthis.com/*/addthis_widget.js$script
 ||adition.com^$domain=spiegel.de
 ||aditserve.com^
+||admin-2.dataunlocker.com^$~script
 ||admin-matching-pair.jp^
 ||admost.com^$script,domain=sahadan.com
 ||adn.porndig.com^
@@ -5949,7 +5950,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5000
+!<<<<<网站单独规则>>>>>5001
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9743,6 +9744,7 @@ series9.*##div[style="padding:15px 0;text-align:right;"]
 seriesflv.*##.adx > a[href]
 seriu.jp##body > .site-footer + div[id][class*=" "]
 servedez.com##[id^="ad_"]
+servustv.com##.backdrop-filter
 set.seturl.in##.popSc
 sexjobs.es##.topBanners
 sexlist.tv##.camitems
