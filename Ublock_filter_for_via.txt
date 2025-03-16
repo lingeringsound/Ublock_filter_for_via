@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MS+b+vM5dDFRZK0WUNzypg
-! Title: Ublock filter for Via(2025-03-16 08:55:37)
-! Version: 20250316085537
+! Checksum: 5hLQUgNYqOBErgksCcCGkg
+! Title: Ublock filter for Via(2025-03-17 00:11:52)
+! Version: 20250317001152
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-16 08:55:37
-! Total Count: 13937
-! Blocked Filters: 13937
+! Last modified: 2025-03-17 00:11:52
+! Total Count: 13946
+! Blocked Filters: 13946
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5946
+!<<<<<域名规则>>>>>5952
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -403,6 +403,7 @@
 ||ane102.net^
 ||aneurismuox.click^
 ||angelchance.com^
+||angularpoppyrobbing.com^
 ||anime-jl.net^$third-party,script
 ||animeflv.*/api/pop.php
 ||animeheaven.*/api/pop.php$xmlhttprequest,~third-party
@@ -514,6 +515,8 @@
 ||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 ||assets.maxroll.gg/wp-content/assets/img/adblock/$image
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xmlhttprequest
+||assets.sb-cd.com/static/common/js/bjssu_
+||assets.sb-cd.com/static/dist/desktop/js/analytics.
 ||assets.toiimg.com/affiliates/sdk/v1.js$script,domain=indiatimes.com|timesofindia.com
 ||assets.toiimg.com/affiliates/sdk/v2.js$script,domain=indiatimes.com|timesofindia.com
 ||assets.vlitag.com/plugins/*$script,domain=orbispatches.com
@@ -1588,6 +1591,7 @@
 ||e-outlook-online.com^
 ||e-stat.huya.com^
 ||e-tax-nta.web.app^
+||e-zpass.com-
 ||e95nfjld.com^
 ||eadvertisingd.biz^
 ||eangetar.com^
@@ -2171,6 +2175,7 @@
 ||givememmastreams.com^$third-party
 ||gjtech.net^
 ||gkxyifeulfpb.com^
+||glaignoopty.net^
 ||glashanburg.com^
 ||glaters.com^
 ||glbltraffic.com^
@@ -2523,7 +2528,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=2chblog.jp|2monkeys.jp|46matome.net|akb48glabo.com|akb48matomemory.com|alfalfalfa.com|all-nationz.com|allthetests.com|anihatsu.com|animanch.com|aniroleplay.com|apkmirror.com|aqua2ch.net|autoby.jp|autofrage.net|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.jp|blog.livedoor.jp|blogo.jp|buzzfeed.com|buzzfeednews.com|chaos2ch.com|choco0202.work|cinetrafic.fr|computerfrage.net|crosswordsolver.com|cruciverba.it|crx7601.com|daily.co.jp|dailydot.com|danseisama.com|dareda.net|demotywatory.pl|digital-thread.com|dnevno.hr|doorblog.jp|dziennik.pl|eikan.liblo.jp|exawarosu.net|fesoku.net|ff14net.2chblog.jp|fgochaldeas.com|fiveslot777.com|football-2ch.com|forsal.pl|game8.jp|gamejksokuhou.com|gazetaprawna.pl|gekiyaku.com|girlsreport.net|girlsvip-matome.com|gloria.hr|golf-live.at|golog.jp|grasoku.com|gundamlog.com|hacchaka.net|heartlife-matome.com|heureka.cz|honyaku-channel.net|horairesdouverture24.fr|hoyme.jp|ikarishintou.com|imas-cg.net|imihu.net|infor.pl|inutomo11.com|itainews.com|itaishinja.com|iza.ne.jp|j-cast.com|j-town.net|jablickar.cz|javatpoint.com|jawapos.com|jin115.com|jisaka.com|jmty.jp|jnews1.com|joemonster.org|jumpsokuhou.com|jyoseisama.com|keyakizaka46matomemory.net|kidan-m.com|kijoden.com|kijolariat.net|kijolifehack.com|kijomatomelog.com|kijyokatu.com|kijyomatome-ch.com|kijyomatome.com|kijyomita.com|kinmaweb.jp|kirarafan.com|kitimama-matome.net|kitizawa.com|kompasiana.com|konoyubitomare.jp|kotaro269.com|kreuzwortraetsel.de|kurashiru.com|kyoteibiyori.com|kyousoku.net|lacuarta.com|laleggepertutti.it|lamire.jp|ldblog.jp|liblo.jp|lifehacker.jp|livedoor.biz|livedoor.blog|livenewschat.eu|m.economictimes.com|majikichi.com|mamastar.jp|mariowiki.com|matacoco.com|matome-tarou.ldblog.jp|matomeblade.com|matomelotte.com|matometemitatta.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|mojomojo-licarca.com|morikinoko.com|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|nana-press.com|nandemo-uketori.com|ndtvprofit.com|netatama.net|news-buzz1.com|news30over.com|news4vip.livedoor.biz|nikkansports.com|nmb48-mtm.com|norisoku.com|npb-news.com|nyitvatartas24.hu|ocsoku.com|oeffnungszeitenbuch.de|okusama-kijyo.com|ondemandkorea.com|onecall2ch.com|onihimechan.com|oraridiapertura24.it|orusoku.com|otakomu.jp|otoko-honne.com|oumaga-times.com|outdoormatome.com|pachinkopachisro.com|palabr.as|paranormal-ch.com|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|quefaire.be|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|ranking.net|recosoku.com|roleplayer.me|rostercon.com|s2-log.com|saikyo-jump.com|samsungmagazine.eu|shuraba-matome.com|ske48matome.net|slashdot.org|sourceforge.net|squallchannel.com|sukattojapan.com|sumaburayasan.com|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|transparentcalifornia.com|transparentnevada.com|trilltrill.jp|tvtv.ca|tvtv.us|usi32.com|uwakich.com|uwakitaiken.com|vault76.info|verkaufsoffener-sonntag.com|vipnews.jp|vtubernews.jp|watarukiti.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|world-fusigi.net|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info|zakuzaku911.com|zch-vip.com
+||html-load.com^$script,xmlhttprequest,domain=2chblog.jp|2monkeys.jp|46matome.net|akb48glabo.com|akb48matomemory.com|alfalfalfa.com|all-nationz.com|allthetests.com|anihatsu.com|animanch.com|aniroleplay.com|apkmirror.com|aqua2ch.net|autoby.jp|autofrage.net|automobile-catalog.com|bg-mania.jp|blog.esuteru.com|blog.jp|blog.livedoor.jp|blogo.jp|buzzfeed.com|buzzfeednews.com|chaos2ch.com|choco0202.work|cinetrafic.fr|computerfrage.net|crosswordsolver.com|cruciverba.it|crx7601.com|daily.co.jp|dailydot.com|danseisama.com|dareda.net|demotywatory.pl|digital-thread.com|dnevno.hr|doorblog.jp|dziennik.pl|eikan.liblo.jp|exawarosu.net|fesoku.net|ff14net.2chblog.jp|fgochaldeas.com|fiveslot777.com|football-2ch.com|forsal.pl|game8.jp|gamejksokuhou.com|gazetaprawna.pl|gekiyaku.com|girlsreport.net|girlsvip-matome.com|gloria.hr|golf-live.at|golog.jp|grasoku.com|gundamlog.com|hacchaka.net|heartlife-matome.com|heureka.cz|honyaku-channel.net|horairesdouverture24.fr|hoyme.jp|ikarishintou.com|imas-cg.net|imihu.net|infor.pl|inutomo11.com|itainews.com|itaishinja.com|iza.ne.jp|j-cast.com|j-town.net|jablickar.cz|javatpoint.com|jawapos.com|jin115.com|jisaka.com|jmty.jp|jnews1.com|joemonster.org|jumpsokuhou.com|jyoseisama.com|keyakizaka46matomemory.net|kidan-m.com|kijoden.com|kijolariat.net|kijolifehack.com|kijomatomelog.com|kijyokatu.com|kijyomatome-ch.com|kijyomatome.com|kijyomita.com|kinmaweb.jp|kirarafan.com|kitimama-matome.net|kitizawa.com|kompasiana.com|konoyubitomare.jp|kotaro269.com|kreuzwortraetsel.de|kurashiru.com|kyoteibiyori.com|kyousoku.net|lacuarta.com|laleggepertutti.it|lamire.jp|ldblog.jp|liblo.jp|lifehacker.jp|livedoor.biz|livedoor.blog|livenewschat.eu|m.economictimes.com|majikichi.com|mamastar.jp|mariowiki.com|matacoco.com|matome-tarou.ldblog.jp|matomeblade.com|matomelotte.com|matometemitatta.com|meeco.kr|mirrored.to|mistrzowie.org|modhub.us|mojomojo-licarca.com|morikinoko.com|motherlyvisions.com|motorbikecatalog.com|motscroises.fr|nana-press.com|nandemo-uketori.com|ndtvprofit.com|netatama.net|news-buzz1.com|news30over.com|news4vip.livedoor.biz|nikkan-gendai.com|nikkansports.com|nmb48-mtm.com|norisoku.com|npb-news.com|nyitvatartas24.hu|ocsoku.com|oeffnungszeitenbuch.de|okusama-kijyo.com|ondemandkorea.com|onecall2ch.com|onihimechan.com|oraridiapertura24.it|orusoku.com|otakomu.jp|otoko-honne.com|oumaga-times.com|outdoormatome.com|pachinkopachisro.com|palabr.as|paranormal-ch.com|persoenlich.com|petitfute.com|picrew.me|powerpyx.com|quefaire.be|rabitsokuhou.2chblog.jp|raetsel-hilfe.de|ranking.net|recosoku.com|roleplayer.me|rostercon.com|s2-log.com|saikyo-jump.com|samsungmagazine.eu|shuraba-matome.com|ske48matome.net|slashdot.org|sourceforge.net|squallchannel.com|sukattojapan.com|sumaburayasan.com|suzusoku.blog.jp|syosetu.com|talkwithstranger.com|the-crossword-solver.com|thestockmarketwatch.com|transparentcalifornia.com|transparentnevada.com|trilltrill.jp|tvtv.ca|tvtv.us|usi32.com|uwakich.com|uwakitaiken.com|vault76.info|verkaufsoffener-sonntag.com|vipnews.jp|vtubernews.jp|watarukiti.com|watchdocumentaries.com|webdesignledger.com|wetteronline.de|wfmz.com|winfuture.de|word-grabber.com|world-fusigi.net|wort-suchen.de|woxikon.*|yugioh-starlight.com|yutura.net|zagreb.info|zakuzaku911.com|zch-vip.com
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -5554,6 +5559,7 @@
 ||vroom24365.com^
 ||vuabem.com^
 ||vugpakba.com^
+||vutipseethu.net^
 ||vutkaqlakbp.com^
 ||vuwomoby.pro^
 ||vvetransfer-lo-web-online.glitch.me^
@@ -5960,7 +5966,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5006
+!<<<<<网站单独规则>>>>>5007
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6221,6 +6227,7 @@ adultasianporn.com##[class^="abra"]
 adultasianporn.com##[href^="http://adultasianporn.com/out.php"]
 adultasianporn.com##[src*=".php"]
 adultcomixxx.com##.adsnative
+adultcomixxx.com,apk-gamers.com,apps2app.com,appsmodz.com,bloggertheme.xyz,isekaipalace.com,skiplinks.xyz,sturls.com,yurasu.xyz###timer
 advertiserandtimes.co.uk###nagBG
 advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,meetdownload.com,mp4mania1.net,tmohentai.com,waploaded.com##.advert
 advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
@@ -6371,7 +6378,6 @@ app.hellovaia.com,app.studysmarter.de,app.vaia.com##aside > .ng-star-inserted
 appkamods.com###tp98, #btn6:others()
 appnee.com##[href^="https://appnee.com/advertising/"] > [src^="https://img.appnee.com/other/"][alt="Ads Place"]
 appnee.com,arrowos.net,blog.aming.info,freetutorialsus.com,myuploadedpremium.de,tvshows4mobile.*###babasbmsgx
-apps2app.com,appsmodz.com,bloggertheme.xyz,isekaipalace.com,sturls.com,yurasu.xyz###timer
 appsmodz.com##.sticky-ads
 appuals.com##.appua-reimage-top
 appuals.com##.info.box
@@ -9151,6 +9157,7 @@ paraphraser.io##.adsenbox:not(#detect)
 paraphraser.io##body > .justify-content-center
 parenting.pl##div[data-element="wide-placeholder"][style]
 pashplus.jp##.content_right > div > span[style^="display: block; font-size: 30px"]:has(+ div#taboola-below-article-thumbnails)
+paste.bin.sx##[href="https://leak.sx/"]
 paste.fo##.lolimg
 paste.fo##.wrapper > *:has(> a > * > * > * [class])
 paste.fo##.wrapper > [class] > a[href*="https://bit.ly/3vKxLhC"], a[href*="https://bit.ly/4aDbAcb"], a[href*="https://bit.ly/4cL4Jz2"], a[href*="https://bit.ly/3VEkIbL"], a[href*="https://goldenaccounts.cc/?r=pastefo"], a[href*="https://discord.gg/R5pN8ZvBVW"], a[href*="https://spadone.cc/"], a[href*="https://orion.hydrolmn.com/"], a[href*="https://anonsmm.com/?utm_source"], a[href*="https://cryptochanger.to/"], a[href*="https://sellsn.io/"], a[href*="https://astralproxies.sellpass.io/"], a[href*="https://discord.gg/GeDqHNzyEh"], a[href*="https://proxylist.to/?ref=pfo"], a[href*="https://themario.sellpass.io/"], a[href*="sigmaproxies.com"], a[href*="notokyc.com"], a[href="https://adultslayer.shop/"]
@@ -9509,9 +9516,9 @@ pussystate.com##li[style="clear:both;float:none;width:600px;margin:0;overflow:hi
 pussytubeebony.com##div.banner-area
 putlocker.*##.ep_buttons
 putlocker9.*##.pframe:has([href^="javascript: void(0);"])
-puzzle-loop.com,puzzle-words.com,puzzle-chess.com,puzzle-thermometers.com,puzzle-norinori.com,puzzle-minesweeper.com,puzzle-slant.com,puzzle-lits.com,puzzle-galaxies.com,puzzle-tents.com,puzzle-battleships.com,puzzle-pipes.com,puzzle-hitori.com,puzzle-heyawake.com,puzzle-shingoki.com,puzzle-masyu.com,puzzle-stitches.com,puzzle-aquarium.com,puzzle-tapa.com,puzzle-star-battle.com,puzzle-kakurasu.com,puzzle-skyscrapers.com,puzzle-futoshiki.com,puzzle-shakashaka.com,puzzle-kakuro.com,puzzle-jigsaw-sudoku.com,puzzle-killer-sudoku.com,puzzle-binairo.com,puzzle-nonograms.com,puzzle-sudoku.com,puzzle-light-up.com,puzzle-bridges.com,puzzle-shikaku.com,puzzle-nurikabe.com,puzzle-dominosa.com###MainContainer + [id]:has(> #bannerSide)
-puzzle-loop.com,puzzle-words.com,puzzle-chess.com,puzzle-thermometers.com,puzzle-norinori.com,puzzle-minesweeper.com,puzzle-slant.com,puzzle-lits.com,puzzle-galaxies.com,puzzle-tents.com,puzzle-battleships.com,puzzle-pipes.com,puzzle-hitori.com,puzzle-heyawake.com,puzzle-shingoki.com,puzzle-masyu.com,puzzle-stitches.com,puzzle-aquarium.com,puzzle-tapa.com,puzzle-star-battle.com,puzzle-kakurasu.com,puzzle-skyscrapers.com,puzzle-futoshiki.com,puzzle-shakashaka.com,puzzle-kakuro.com,puzzle-jigsaw-sudoku.com,puzzle-killer-sudoku.com,puzzle-binairo.com,puzzle-nonograms.com,puzzle-sudoku.com,puzzle-light-up.com,puzzle-bridges.com,puzzle-shikaku.com,puzzle-nurikabe.com,puzzle-dominosa.com###MainContainer > [id]:has(> [id^="btIn"] > #bannerTop)
-puzzle-loop.com,puzzle-words.com,puzzle-chess.com,puzzle-thermometers.com,puzzle-norinori.com,puzzle-minesweeper.com,puzzle-slant.com,puzzle-lits.com,puzzle-galaxies.com,puzzle-tents.com,puzzle-battleships.com,puzzle-pipes.com,puzzle-hitori.com,puzzle-heyawake.com,puzzle-shingoki.com,puzzle-masyu.com,puzzle-stitches.com,puzzle-aquarium.com,puzzle-tapa.com,puzzle-star-battle.com,puzzle-kakurasu.com,puzzle-skyscrapers.com,puzzle-futoshiki.com,puzzle-shakashaka.com,puzzle-kakuro.com,puzzle-jigsaw-sudoku.com,puzzle-killer-sudoku.com,puzzle-binairo.com,puzzle-nonograms.com,puzzle-sudoku.com,puzzle-light-up.com,puzzle-bridges.com,puzzle-shikaku.com,puzzle-nurikabe.com,puzzle-dominosa.com###MainContainer > [id^="bannerTopSpacer"]
+puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com,puzzle-yin-yang.com###MainContainer + [id]:has(> #bannerSide)
+puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com,puzzle-yin-yang.com###MainContainer > [id]:has(> [id^="btIn"] > #bannerTop)
+puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com,puzzle-yin-yang.com###MainContainer > [id^="bannerTopSpacer"]
 puzzles.msn.com##[class*="displayAd"], .ark-ad-message
 qashbits.com##.mx-auto
 qub.ca##.jss2
@@ -10969,7 +10976,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>662
+!<<<<<通配符规则>>>>>663
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11598,6 +11605,7 @@ $script,domain=zdnet.fr,third-party
 ://ply.*/?v=$image,third-party
 ://rd.remove.bg/CI0/$image
 ://snl.patch.com/imp?$image
+://static.adsugar.ch/img?ord=$image
 ://tlr.stripocdn.email/content/guids/$image
 ://vip.*/?pge=$image,third-party
 ://voz.vn/b/image.gif?p=$image
@@ -11887,7 +11895,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2073
+!<<<<<放行白名单>>>>>2074
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12523,6 +12531,7 @@ thepiratebay3.com^
 @@||delmarlearning.com^$~third-party,script
 @@||deploy.mopinion.com^$script,xmlhttprequest,domain=findmystreet.co.uk
 @@||dev.visualwebsiteoptimizer.com/j.php$domain=watch.impress.co.jp
+@@||dev.visualwebsiteoptimizer.com/server-side/settings$xmlhttprequest,domain=dominos.co.in
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=cars.usnews.com
 @@||deva.cnvids.com/dwcn/Assets/js/openads.js$script,domain=deva.cnvids.com
