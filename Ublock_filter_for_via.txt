@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: l9L8A6MSyqSsmRZjUwJLyw
-! Title: Ublock filter for Via(2025-03-17 08:55:38)
-! Version: 20250317085538
+! Checksum: 63NIU3pgU6GYLqrr501i2g
+! Title: Ublock filter for Via(2025-03-18 00:14:32)
+! Version: 20250318001432
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-17 08:55:38
-! Total Count: 13959
-! Blocked Filters: 13959
+! Last modified: 2025-03-18 00:14:32
+! Total Count: 13967
+! Blocked Filters: 13967
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5955
+!<<<<<域名规则>>>>>5956
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4730,6 +4730,7 @@
 ||smrturl.co/o/*/53458494^
 ||smsiak.pl^
 ||smsy24.pl^
+||snap-drop.net^
 ||snapbabes9.com^
 ||snapdrop.net^
 ||snappass.fr^
@@ -5969,7 +5970,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5014
+!<<<<<网站单独规则>>>>>5016
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7331,6 +7332,7 @@ empflix.com##.mewDv
 empflix.com##.padAdvx
 empflix.com,tnaflix.com##.lastLiAvx
 empire-anime.*,empire-stream.*,empire-streaming.*,empire-streamz.*##.direct-lads
+empire-anime.*,empire-streaming.*,empire-anime.com,empire-streamz.fr,empire-stream.*##.direct-lads
 emturbovid.com,streamsilk.com##.div_pop
 emuenzen.de##a[href*="sjv.io"]
 emulatorgames.net##[class*="-label"]
@@ -9899,6 +9901,7 @@ siteunblocked.info,unblocksite.pw##.antoic
 skidrowcodex.net##.blog-content.wcontainer:has(> .premium)
 skidrowcodex.net##.widget_text:has(script[src$="/invoke.js"])
 skidrowcodexgames.com##[class^="aligncenter wp-image-"]
+skill4ltu.eu###top-banner
 skmedix.pl###aswift_4_host
 skmedix.pl##div[align="center"][style="height:250px;"]:has(> ins.adsbygoogle)
 skyblock.bz##.card[style]
@@ -10986,7 +10989,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>663
+!<<<<<通配符规则>>>>>665
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11102,6 +11105,8 @@ $script,domain=zdnet.fr,third-party
 .net/2?z=$script,third-party
 .one/?h=*&user=$script,third-party
 .online/?h=*&user=$script,third-party
+.online/js/esc.js|$script,~third-party
+.online/js/flscn.js|$script,~third-party
 .php?*&sadbl=1&$xmlhttprequest,third-party
 .popup_im.
 .pro/?h=*&user=$script,third-party
@@ -11905,7 +11910,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2077
+!<<<<<放行白名单>>>>>2080
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12695,10 +12700,12 @@ thepiratebay3.com^
 @@||fwmrm.net^*/admanager.js$script,third-party,domain=atresplayer.com|southpark.*|southparkstudios.*
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script,xmlhttprequest
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=soranews24.com
+@@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=video-ac.com
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Frepuls.io$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/images/gmob/close-circle-30x30.png$image,domain=safeframe.googlesyndication.com
-@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=games.coolgames.com|soranews24.com
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=games.coolgames.com|soranews24.com|video-ac.com
+@@||g.doubleclick.net/tag/js/gpt.js$domain=video-ac.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,domain=soranews24.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=pomponik.pl
 @@||g.ezoic.net/ezais/analytics^$xmlhttprequest,domain=rpgbot.net|wnynewsnow.com
@@ -13096,7 +13103,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/$script,xmlhttprequest,domain=androidacy.com
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl|video-ac.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|cursomecanet.com|heim.jp|radioviainternet.nl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
@@ -13263,6 +13270,7 @@ thepiratebay3.com^
 @@||s4.cdnpc.net/front/css/style.min.css?version=v93$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||sa.etp-prod.com/analytics.js/v*/analytics.min.js$script,domain=vrv.co
 @@||saarbruecker-zeitung.de/assets/adsbygoogle.js$script,~third-party
+@@||safeframe.googlesyndication.com/safeframe/$domain=video-ac.com
 @@||sagicheck.jp/jp/check/
 @@||satoshilabs.net/$script,~third-party
 @@||savings.bizx.info^$domain=sourceforge.net
