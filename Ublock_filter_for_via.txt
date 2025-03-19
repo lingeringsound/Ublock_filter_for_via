@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: iA186/QvkV3Nv43IfuzE7A
-! Title: Ublock filter for Via(2025-03-19 08:52:09)
-! Version: 20250319085209
+! Checksum: LJcg0NHQt7II9ppINyLFKA
+! Title: Ublock filter for Via(2025-03-20 00:13:51)
+! Version: 20250320001351
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-19 08:52:09
-! Total Count: 14011
-! Blocked Filters: 14011
+! Last modified: 2025-03-20 00:13:51
+! Total Count: 14017
+! Blocked Filters: 14017
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5991
+!<<<<<域名规则>>>>>5995
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -657,6 +657,7 @@
 ||belezaesaudeinnovations.com^
 ||bell-02.com^
 ||bell-03.com^
+||belovedsalesman.com^
 ||benaughty.com^
 ||benbbs.net^
 ||benpsignin-portal.webflow.io^
@@ -3909,6 +3910,7 @@
 ||paesbeaqerdrsheuboapyh.com^
 ||pagamentocnh.com^
 ||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=decrypt.day
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 ||pagead2.googlesyndication.com/pagead/sma8.js$script,domain=anydebrid.com|hotdebrid.com
 ||pagead2.googlesyndication.com/tag/js/gpt.js$script,domain=wunderground.com
@@ -4663,6 +4665,7 @@
 ||shorttey.*/sw.js$script,~third-party
 ||shosril.com^
 ||showa-klub.com^
+||shrill-definition.com^
 ||shrinkearn.com/sw.js$script,~third-party
 ||shroomers.app/static/modules/base/js/shr-ads-enforcer.js
 ||shush.se/loader/load.js$script
@@ -5833,6 +5836,7 @@
 ||xn--z9jzga6u1506a.jp^
 ||xnxx.com/cams/
 ||xoty55.cfd^
+||xoxnetwork.com^
 ||xqfefdkey.xyz^
 ||xrares.com/sw.js$script,~third-party
 ||xs525890.xsrv.jp^
@@ -11028,7 +11032,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>665
+!<<<<<通配符规则>>>>>667
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11414,6 +11418,7 @@ $script,domain=zdnet.fr,third-party
 /js/fpu3/pu4.min.js
 /js/ppndr.
 /js/static/header/sda/ppsuma*.js$script
+/js/wb_ban.js$script,domain=cool-web.de|gps-cache.de|web-spiele.de|fun-seiten.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de|cool--web-de.translate.goog|gps--cache-de.translate.goog|web--spiele-de.translate.goog|fun--seiten-de.translate.goog|photo--alben-de.translate.goog|wetter--vorhersage-de.translate.goog|coolsoftware-de.translate.goog|kryptografie-de.translate.goog
 /js/wb_dead.js$script,~third-party
 /jump/next.php?r=
 /klesd7.$script,~third-party
@@ -11462,6 +11467,7 @@ $script,domain=zdnet.fr,third-party
 /oho.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ebooksite.org|emulatorsite.com|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /other/btn/*/index.html?*p1=
 /p13n/batch/action/*$image
+/page_beg_wb.js$script,domain=cool-web.de|gps-cache.de|web-spiele.de|fun-seiten.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de|cool--web-de.translate.goog|gps--cache-de.translate.goog|web--spiele-de.translate.goog|fun--seiten-de.translate.goog|photo--alben-de.translate.goog|wetter--vorhersage-de.translate.goog|coolsoftware-de.translate.goog|kryptografie-de.translate.goog
 /panel\.freemcserver\.net\/.{90,}\?v=17/$script,~third-party,domain=panel.freemcserver.net
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 /player/jw8/vast.js|$script,~third-party
