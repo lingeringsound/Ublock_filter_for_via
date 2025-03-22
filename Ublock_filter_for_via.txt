@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MovvhfCDiPsxl3+rbPyycA
-! Title: Ublock filter for Via(2025-03-22 08:50:51)
-! Version: 20250322085051
+! Checksum: NIrnOptzMyBKLWq89dFdJA
+! Title: Ublock filter for Via(2025-03-23 00:12:42)
+! Version: 20250323001242
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-22 08:50:51
-! Total Count: 14020
-! Blocked Filters: 14020
+! Last modified: 2025-03-23 00:12:42
+! Total Count: 14030
+! Blocked Filters: 14030
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>5997
+!<<<<<域名规则>>>>>6006
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -352,6 +352,7 @@
 ||alt.com^
 ||altairaquilae.com^
 ||altdorfer-niklaus.com^
+||alurepirates.com^
 ||always-happy-fortune.com^
 ||alwayslike.safestspot.jp^
 ||amaeex.one^
@@ -2458,6 +2459,7 @@
 ||himegoto-time.jp^
 ||himichat999.net^
 ||himitumatch.com^
+||hinaudeject.com^
 ||hipercontas.com.br^$third-party
 ||hipma.jp^
 ||histats.com^$third-party
@@ -3963,6 +3965,7 @@
 ||paradise.shine-site.com^
 ||paradizeconstruction.com^
 ||pardaotopazes.shop^
+||parlouroutlayfavor.com^
 ||parsely.com^$third-party
 ||part-ner01.jp^
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
@@ -4370,6 +4373,7 @@
 ||reductioncarnival.com^
 ||reepratic.com^
 ||refpamjeql.top^
+||refriesbharata.com^
 ||regie-cpc.com^$third-party
 ||register-turnamen.free.nf^
 ||register.blissfulltimes.com^
@@ -4732,6 +4736,7 @@
 ||sleetposition.website^
 ||slimhealth.us^
 ||slobeg.com^
+||slorpeyes.top^
 ||slugmefilehos.xyz^
 ||sm-bt.net^
 ||sm-heaven.com^
@@ -5109,6 +5114,7 @@
 ||ten-lp2025.com^
 ||ten-un.com^
 ||tender9041257836.jp^
+||tenderlybatch.com^
 ||tendermeetonline.com^
 ||tendermeets.com^
 ||tenkeifa.com^
@@ -5201,6 +5207,7 @@
 ||tny.so/sw-$script
 ||tny.so^$third-party
 ||to6s.biz^
+||todayswigcontagious.com^
 ||todordigital.co.uk^
 ||together.com^
 ||toki-no-irodori.com^
@@ -5571,6 +5578,7 @@
 ||vivian.jp.net^
 ||vivud.com/sw$script,~third-party
 ||vixii.co^
+||vizierspavan.com^
 ||vizualis.online^
 ||vjybuykaxz4.com^
 ||vkcs.cloud/owa.html^
@@ -5611,6 +5619,7 @@
 ||wa-groupbebe.pages.dev^
 ||wa-nago-wagona.com^
 ||wafflegirl.com/galleries/banner/$third-party
+||wambugureining.shop^
 ||wanderlust.rocks^
 ||wannads.com/api/track/fingerprint^
 ||wantubad.com^
@@ -11538,7 +11547,7 @@ $script,domain=zdnet.fr,third-party
 /strip_ngn_2020_august$script,domain=porcore.com
 /sum.js?i=*&v=
 /sw-vodlocker.to.js$script
-/sw.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|blademaster666.com|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|culonas.com.ve|d0000d.com|d000d.com|d0o0d.com|desktophut.com|do0od.com|dood.*|doods.pro|dooodster.com|dooood.*|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ds2play.com|ds2video.com|ebooksite.org|emulatorsite.com|filechan.org|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|hotfile.io|isosite.org|lolabits.se|luchoedu.org|lupaste.com|macsite.info|mangasite.org|megamovies.org|megaupload.nz|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|openload.cc|patchsite.net|pdfsite.net|play1002.com|pornovenezolano.com.ve|productkeysite.com|qeylo.net|rapidshare.nu|romsite.org|seriale-po-polsku.pl|seriesite.net|share-online.is|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|venezporn.com|vidply.com|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
+/sw.js$script,domain=all3do.com|androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|blademaster666.com|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|culonas.com.ve|d0000d.com|d000d.com|d0o0d.com|desktophut.com|do0od.com|do7go.com|dood.*|doods.pro|dooodster.com|dooood.*|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ds2play.com|ds2video.com|ebooksite.org|emulatorsite.com|filechan.org|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|hotfile.io|isosite.org|lolabits.se|luchoedu.org|lupaste.com|macsite.info|mangasite.org|megamovies.org|megaupload.nz|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|openload.cc|patchsite.net|pdfsite.net|play1002.com|pornovenezolano.com.ve|productkeysite.com|qeylo.net|rapidshare.nu|romsite.org|seriale-po-polsku.pl|seriesite.net|share-online.is|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|venezporn.com|vidply.com|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /sw.js$script,~third-party,domain=eio.io|exe.app|exee.io|strcloud.*|streamta.*|streamtape.*|strtape.*|strtapeadblock.*|strtpe.*
 /sw.js?puid=$script,~third-party
 /systemerror-mac/?
@@ -11962,7 +11971,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2081
+!<<<<<放行白名单>>>>>2082
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12735,6 +12744,7 @@ thepiratebay3.com^
 @@||ftb.ca.gov/js/webtrends.min.js$script,~third-party
 @@||ftse.com/Products/*/scripts/analytics_$script,~third-party
 @@||fundingchoicesmessages.google.com$script,xmlhttprequest,domain=kledgeb.blogspot.com
+@@||fundingchoicesmessages.google.com/b/pub-$script,third-party,redirect-rule
 @@||fundingchoicesmessages.google.com/f/$script,domain=adshnk.com|fanatik.com.tr|milliyet.com.tr|posta.com.tr|soranews24.com
 @@||fundingchoicesmessages.google.com/f^$script,domain=teve2.com.tr
 @@||fundingchoicesmessages.google.com/i/$script,domain=fplstatistics.com|sudokugame.org
