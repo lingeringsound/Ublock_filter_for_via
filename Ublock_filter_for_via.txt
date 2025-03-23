@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NIrnOptzMyBKLWq89dFdJA
-! Title: Ublock filter for Via(2025-03-23 00:12:42)
-! Version: 20250323001242
+! Checksum: 1RTxEOwMyRUo9/Hgbej9ag
+! Title: Ublock filter for Via(2025-03-23 08:56:04)
+! Version: 20250323085604
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-23 00:12:42
-! Total Count: 14030
-! Blocked Filters: 14030
+! Last modified: 2025-03-23 08:56:04
+! Total Count: 14037
+! Blocked Filters: 14037
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6020,7 +6020,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5021
+!<<<<<网站单独规则>>>>>5028
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6256,6 +6256,7 @@ actionviewphotography.com,exporntoons.net,freepornvideo.sex,mat6tube.*,noodlemag
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> [id*="_ad_native_"])
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> ins)
 activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,goharpc.com,greencracks.com,ikcrack.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,pcfullcrack.org,pcfullversion.com,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,softgetpc.com,softsnew.com,softzcrack.com,softzspot.com,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
+actuwar.com,alwafag.com,apkgg.xyz,blogfem.com,coinpurs.com,dailywebsite.in,djamar.xyz,elmarvin.com,fnewsn.com,forexsalary.com,lrmodapk.pro,lumiaf.com,mamatamusicbanaras.com,missionupsc.com,newsvsp.com,odisha-remix.com,themoviesradar.in###wpsafe-link, .wpsafelink-multiple-pages:others()
 adala-news.fr###eazy_ad_unblocker_dialog-message
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,shavetape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
 adbull.*,aii.sh,oko.sh##[src^="https://i.imgur.com/"]
@@ -7062,7 +7063,7 @@ crazyvidup.com##.footerStickyBox
 crdroid.net##.blocker-wrapper
 creativebloq.com##.listingResult:has(> .sponsored-post)
 crichdplays.ru,player102.top###floated
-cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,studyfut.com,techipop.com,techyember.com,yalifin.xyz##center:others()
+cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,yalifin.xyz##center:others()
 cricstream.*##.w-100.position-absolute.h-100
 crictracker.com##article > div[style="height:270px"]
 crictracker.com##div[id^="div-ad-desk-"]
@@ -7256,6 +7257,7 @@ drinkspartner.com,apcvpc.com,posterify.net,manishclasses.in##nav, .remove-sticky
 drivenime.com###stickyb
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
 drop.download##.row > .col-md-8
+droplink.co##p, .form-link, footer, .text-left
 drtuber.*###spot_video_partner_banner
 drtuber.*###video_list_banner
 drtuber.*##.abtext
@@ -7527,6 +7529,7 @@ faupto.com##[href^="https://brave.com"]
 fautsy.com##.coinzilla
 fc-lc.com##.captcha-page .box-main > a[href][target="_blank"] > img
 fc-lc.com,gamezizo.com,labgame.io,oii.io,uploady.io###iframe_id
+fc-lc.xyz###iframe_id, .text-left
 feet9.com##.hvr-pulse
 feet9.com##.pup
 feet9.com##[class^="ig"]
@@ -8464,6 +8467,7 @@ kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
 kachelmannwetter.com,meteologix.com,weather.us##.dkpw-billboard-margin-fixed
 kachelmannwetter.com,meteologix.com,weather.us##.kw-ad-right
+kajernews.com,vyaapaarguru.in##[onclick*="handleContinueClick"], #continue-blur, #please-wait, .scroll2, .step:others()
 kamerabudaya.com##.ads, div.adsadsense, #HTML1
 kaotic.com##.track_outbound_post.grid-item
 kaotic.com##div.hard-5.col-xs-12.col-sm-3:has(.track_outbound_post)
@@ -8546,6 +8550,7 @@ l2top.co###bannerads-background
 l2top.co##.main-top-ads
 l2top.co##.rightBarAd
 l2top.co##div.leftBarAd
+labgame.io###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
 larvelfaucet.com###bottomRightFloatingAd
 larvelfaucet.com###ptcAdIframe
 larvelfaucet.com##.col-12 > div[style="display: inline-block"]
@@ -8879,6 +8884,7 @@ moddedguru.com##div.banner
 moddingzone.in,model-tas-terbaru.com,therootdroid.com,worldappsstore.xyz###wpsafe-wait2
 modebaca.com##[href="https://www.tautan.pro/"]
 moderngyan.com,sattakingcharts.in,freshbhojpuri.com,bgmi32bitapk.in,bankshiksha.in,earn.mpscstudyhub.com,earn.quotesopia.com,money.quotesopia.com,best-mobilegames.com,learn.moderngyan.com,bharatsarkarijobalert.com,quotesopia.com,creditsgoal.com###tp-snp2, #cross-snp2, .tp-top:others()
+modijiurl.com##.animated.text-center, [href*="t.me/modijiurl"], .captcha-box > p, .ad-container, [src*="blogger"], [src*=".png"]
 modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) > img
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"][href*="?r="] img
 modrinth.com##section.normal-page__content a[href*="/redirect/"] img
@@ -9132,7 +9138,7 @@ o2.pl##div[data-testid="homePageView"] > div[style="box-shadow: none;"]:has(> di
 o2.pl,www.wp.pl##div:is([style="width:100%"], [style="width:100%;height:100%"]):has(> div[class] > img[src^="https://v.wpimg.pl/"][role="presentation"])
 obf-io.deobfuscate.io##.self-center.overflow-hidden:has(> img[src="/nexus_banner.webp"]:only-child)
 ocregister.com##a[href^="http://www.webpublished.com"]
-odisha-remix.com,themoviesradar.in,forexsalary.com,dailywebsite.in,mamatamusicbanaras.com,missionupsc.com###wpsafe-link, .wpsafelink-multiple-pages:others()
+odisha-remix.com,xpshort.com##.banner, footer, .navbar-default.navbar
 oemdtc.com##.blocker-notice, .blocker-overlay
 oemdtc.com##.easyazon-block
 oemdtc.com##[src^="https://cdn.flowdee.de/"], [href^="https://www.amazon.com/b"]
@@ -10179,6 +10185,7 @@ tech.hindustantimes.com##.centerAd768
 tech.hindustantimes.com##div.mobileNone
 tech.pubghighdamage.com,tech.techkhulasha.com,hipsonyc.com###gotolink, #getlink, #notarobot:others()
 tech5s.co,ez4mods.com##.btn-primary, #go_d, #tp-snp1, #go_d2:others()
+tech5s.co,game5s.com###go_d2, .captcha-check:others()
 techedubyte.com##.gmr-banner-insidecontent
 techedubyte.com##.gmr-floatbanner
 techedubyte.com##.in-article
