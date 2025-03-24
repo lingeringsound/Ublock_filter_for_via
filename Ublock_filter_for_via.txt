@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GpKKlv9DxYX2UyJVjWZQ/w
-! Title: Ublock filter for Via(2025-03-24 08:56:33)
-! Version: 20250324085633
+! Checksum: auy/jwNBRiLsvZp4PCpxdQ
+! Title: Ublock filter for Via(2025-03-25 00:14:37)
+! Version: 20250325001437
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-24 08:56:33
-! Total Count: 14045
-! Blocked Filters: 14045
+! Last modified: 2025-03-25 00:14:37
+! Total Count: 14056
+! Blocked Filters: 14056
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6009
+!<<<<<域名规则>>>>>6010
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1033,6 +1033,7 @@
 ||charecttorr.jp^
 ||chargerlogistics-dot-exceldocsverification.uk.r.appspot.com^
 ||charm-n.com^
+||charmshoist.com^
 ||chartbeat.com/js/chartbeat.js$script,domain=indiatimes.com
 ||chartbeat.com^$third-party
 ||chartbeat.net^$third-party
@@ -6023,7 +6024,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5028
+!<<<<<网站单独规则>>>>>5037
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7067,7 +7068,7 @@ crazyvidup.com##.footerStickyBox
 crdroid.net##.blocker-wrapper
 creativebloq.com##.listingResult:has(> .sponsored-post)
 crichdplays.ru,player102.top###floated
-cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,yalifin.xyz##center:others()
+cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,thecryptomen.com,yalifin.xyz##center:others()
 cricstream.*##.w-100.position-absolute.h-100
 crictracker.com##article > div[style="height:270px"]
 crictracker.com##div[id^="div-ad-desk-"]
@@ -7592,6 +7593,7 @@ filmytoday.com##.advertisement, .adsbygoogle
 filmytoday.com##.i-am-centered
 filmyzilla.*##[href^="//"][rel="nofollow"]
 filmyzilla.*##[href^="https://ak.hetadinh.com/"]
+financacerta.com,encurtads.net###wpsafe-link, .text-center.wpsafe-top > div > h1:others()
 financebolo.com,gorating.in,letest25.co,loanteacher.in,rphost.in,techkeshri.com,truevpnlover.com###tp-snp2:others()
 financeyogi.net,finclub.in###btn2, #btn5, #tp-snp2:others()
 finanzas-vida.com##[href="https://zplayer.live/"]
@@ -8856,6 +8858,8 @@ minecraftwild.com###jeg_off_canvas + div[id][class]
 miniurl.*##div[style="width:970px;height:90px;display: inline-block;margin: 0 auto"]
 minnyuu.jp##div[class$="BlockBase"]:has(> div > div > div.plugin-freearea > div.ninja-recommend-block)
 miohentai.com##.in.paused-ad-container
+mirror.co.uk##div[class^="Header_masthead"]
+mirror.co.uk##div[data-testid*="commercial-"]
 mirrorace.*##[href*="search/"]
 missav.*,missav123.com,missav789.com,missav888.com,myav.com##div[x-show="showBanner"]
 mitly.us##[href^="http://deloplen.com/"]
@@ -9725,6 +9729,7 @@ roshy.tv##.beeteam368-player-sub-element
 roshy.tv##.roshy-widget
 royaledudes.io##.gifts
 royalroad.com##.portlet:has(> h6)
+royalroad.com##.portlet[style]:has(> span > a[href="/premium/subscription"])
 royalroad.com##.portlet[style]:has(> span.bold.uppercase)
 royalroad.com##.t-center:has(> .bold.uppercase, #Content_Top_Desktop)
 rp-online.de,saarbruecker-zeitung.de,volksfreund.de##.park-portal
@@ -10087,6 +10092,11 @@ starbux.io##ins[style="display:inline-block;width:728px;height:90px;"]
 startpage.com###main > div[style]:not([class]):has(path)
 steamcrackedgames.com##[href^="https://startgaming.net/"]
 steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
+stfly.biz,airevue.net,atravan.net##.font-medium.text-sm.tracking-wider.uppercase.text-blue-400
+stfly.biz,airevue.net,atravan.net##.lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl
+stfly.biz,airevue.net,atravan.net##.max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(p)
+stfly.biz,airevue.net,atravan.net##.my-20
+stfly.biz,airevue.net,atravan.net##div.justify-evenly.items-center.flex-wrap.flex.w-full
 stiflersmoms.com##.line3
 stocktwits.com###ad_sidebar_top_offset
 stocktwits.com##.LazyLoad.is-visible:has([data-aa-adunit])
@@ -11986,7 +11996,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2082
+!<<<<<放行白名单>>>>>2083
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13083,6 +13093,7 @@ thepiratebay3.com^
 @@||minnanokaigo.com/img/page/ad-navi/parts/$image,~third-party
 @@||miraculous.to/global_data/gtag/js$xmlhttprequest,~third-party
 @@||mirror.co.uk^$script,xmlhttprequest,~third-party
+@@||miruro.*/assets/components-shared-popunder-$script,~third-party
 @@||mlbstatic.com/mlb.com/video/*/advertise$xmlhttprequest,domain=mlb.com
 @@||mm-syringe.com^$script,domain=mysanantonio.com
 @@||moatads.com/aolvidibleapi*$script,domain=bloombergquint.com
