@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: i2O9PKflbsxPcXGp49mCtA
-! Title: Ublock filter for Via(2025-03-26 00:12:14)
-! Version: 20250326001214
+! Checksum: YhjjhIgd9fszpV7YiOXZkQ
+! Title: Ublock filter for Via(2025-03-26 08:52:18)
+! Version: 20250326085218
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-26 00:12:14
-! Total Count: 14060
-! Blocked Filters: 14060
+! Last modified: 2025-03-26 08:52:18
+! Total Count: 14068
+! Blocked Filters: 14068
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6010
+!<<<<<域名规则>>>>>6017
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4079,6 +4079,7 @@
 ||player-feedback*.glomex.*^
 ||player-feedback.p7s1video.net/pf/$script
 ||player.cuevana.ac/cdn-cgi/trace$xmlhttprequest,~third-party
+||player.gliacloud.com^$third-party
 ||player.hdgay.net/cdn-cgi/trace
 ||player.pepsia.com/sdk.js^$script,third-party,domain=flibus.com
 ||player.tormalayalamhd.*/cdn-cgi/trace
@@ -5658,6 +5659,12 @@
 ||web-telegram.net^
 ||web-telegvm.org^
 ||web.core.windows.net/?zpbid=
+||web.core.windows.net/chrmac/index.html
+||web.core.windows.net/haruto.js
+||web.core.windows.net/itsuki.js
+||web.core.windows.net/macx/index.html
+||web.core.windows.net/takashi.mp3
+||web.core.windows.net/yaketsuku.mp3
 ||web.fe-vrier.com^
 ||web3connectfix.pages.dev^
 ||web3mainnetdapp.pages.dev^
@@ -7720,7 +7727,7 @@ freexcafe.com###txtbanner
 freexcafe.com##.hotdeal
 freexcafe.com##.left-col-gal-br
 freexcafe.com##div.bottom-300x250
-freexxxvideos.pro##.sidban
+freexxxvideos.pro,nudevista.link##.sidban
 french-stream.*###banning
 fresh-babes.com###XXXGirls
 freshersgold.com###main-container + div[id][class]
@@ -11742,7 +11749,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>254
+!<<<<<通用Css规则>>>>>255
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -11847,6 +11854,7 @@ thepiratebay3.com^
 ##.full-ave-pl
 ##.full-bns-block
 ##.gallery-bns-bl
+##.gliaplayer-container
 ##.glx-watermark-container
 ##.google-ad:not(.testAd)
 ##.happy-inside-player
