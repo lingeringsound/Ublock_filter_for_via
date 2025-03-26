@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: YhjjhIgd9fszpV7YiOXZkQ
-! Title: Ublock filter for Via(2025-03-26 08:52:18)
-! Version: 20250326085218
+! Checksum: vqM40Hql7YnGJhEMKK3dPQ
+! Title: Ublock filter for Via(2025-03-27 00:19:34)
+! Version: 20250327001934
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-26 08:52:18
-! Total Count: 14068
-! Blocked Filters: 14068
+! Last modified: 2025-03-27 00:19:34
+! Total Count: 14076
+! Blocked Filters: 14076
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6017
+!<<<<<域名规则>>>>>6023
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -79,6 +79,7 @@
 ||2target.net^$third-party
 ||300mbmovies4u.*/sw.js$script,~third-party
 ||31snowmeprona.ru.com^
+||34y26s47.cfd^
 ||35.224.227.218^
 ||35.238.205.163^
 ||37.1.213.100^
@@ -548,6 +549,7 @@
 ||atmrum.net/report/v*/atm/r.gif
 ||atmrum.net/rum.js$script
 ||atnpx.com^
+||atof42ap.click^
 ||atom-ds.com^$third-party
 ||atomohd.*/*/banners$image
 ||atplink.com/responseandresolutioncenter
@@ -2042,6 +2044,7 @@
 ||freetrckr.com^
 ||freeuseporn.com/backdrop.js
 ||freewebhostmost.com/*/spotify/
+||freex2line.online/dwcn/Assets/js/jquery.countdown360.min.js$script,~third-party
 ||friends-connect.com^
 ||friendxroom.com^
 ||fscleopon.com^
@@ -2127,6 +2130,7 @@
 ||gargar.making-garden.com^
 ||gataterso.com^
 ||gator.volces.com/list$xmlhttprequest,method=post
+||gaypornhot.com/wp-content/uploads/ountsvf.js
 ||gaypornrape.net/js/3LQkZfQVN7mWARVbozLgE.js
 ||gaytail.com/fancy-mode-7abe/
 ||gayxxxtube.net/img_bnnrs/
@@ -2991,6 +2995,7 @@
 ||kvador.com/images/*.gif$image
 ||kvkmodule.4dq.com^
 ||kvv.jxc.mybluehost.me^
+||kz3wnibp.cfd^
 ||l-chat.jp^
 ||l-one-one.com^
 ||l-partner.jp^
@@ -5916,6 +5921,7 @@
 ||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 ||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
+||ykjnjicn.xyz^
 ||yl-0-wf.com^
 ||yoads.network^$third-party
 ||yoat.xyz/xyz.js
@@ -6031,7 +6037,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5040
+!<<<<<网站单独规则>>>>>5042
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7529,6 +7535,7 @@ fastcoin.ga##div[style="width:728px;height:90px;display: inline-block;margin: 0 
 fastdokan.top,moviedokan.*##.resp
 fastdokan.top,moviedokan.*##.resps
 fastpeoplesearch.com##.sponsored, .ad-widget-container
+fastt.gg###startDownload
 fatgirlskinny.net##[href^="https://www.topcashback.co.uk/"]
 faucetcrypto.com##.vs-dialog-danger.con-vs-dialog.vs-component
 faucetcrypto.net##.justify-content-around
@@ -10748,6 +10755,7 @@ weatherzone.com.au##section[class^="sc-"]:has(> .publift-ad-wrapper)
 web.de##.main [data-ac]:empty
 web.de##div[data-service-slot-initialized]
 web.facebook.com,www.facebook.com###seo_pivots ~ div > div[style^="max-width"] > div[class] > div[style^="max-width"]:has(a[href^="/ads/about/?"])
+web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-label][aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
 web2.0rechner.de,web2.0calc.*###nocreditsmodal
 web2.0rechner.de,web2.0calc.*##.first
