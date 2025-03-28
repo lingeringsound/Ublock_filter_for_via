@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qMUTmwwakHWqDYRc2KSlEg
-! Title: Ublock filter for Via(2025-03-28 08:52:14)
-! Version: 20250328085214
+! Checksum: O9liR9YQrTrucGXO1fBF+g
+! Title: Ublock filter for Via(2025-03-29 00:13:37)
+! Version: 20250329001337
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-28 08:52:14
-! Total Count: 14093
-! Blocked Filters: 14093
+! Last modified: 2025-03-29 00:13:37
+! Total Count: 14095
+! Blocked Filters: 14095
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6034
+!<<<<<域名规则>>>>>6036
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4566,6 +4566,7 @@
 ||scribus.fr^
 ||scribus.it^
 ||script-at.iocnt.net/iam.js$domain=oe24.at
+||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 ||scrutinizeordealscrutinize.com^
 ||sdhjak.com^
 ||sdlbtwi3lr.com^
@@ -4927,6 +4928,7 @@
 ||stern.de/__assets/homad
 ||stiflersmoms.com/yes/
 ||stomatico.com^
+||stookroocoudray.com^
 ||stopundstart.de^$third-party
 ||storage.de.cloud.ovh.net^*/sarsor/avikingdynamic.js$script,third-party
 ||storageapi-new.fleek.co/*/yss/ind.html
