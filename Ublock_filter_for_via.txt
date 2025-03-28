@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: +I2My0ePbO4zgyerr9Q8iA
-! Title: Ublock filter for Via(2025-03-28 00:14:10)
-! Version: 20250328001410
+! Checksum: qMUTmwwakHWqDYRc2KSlEg
+! Title: Ublock filter for Via(2025-03-28 08:52:14)
+! Version: 20250328085214
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-28 00:14:10
-! Total Count: 14087
-! Blocked Filters: 14087
+! Last modified: 2025-03-28 08:52:14
+! Total Count: 14093
+! Blocked Filters: 14093
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6028
+!<<<<<域名规则>>>>>6034
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1071,6 +1071,7 @@
 ||chief-child.com^
 ||childrenoftheclouds.com^
 ||chip.de/*&$script,~third-party
+||chivalrouscalmlymexican.com^
 ||chl3.net^
 ||chn-allegroshopac.one^
 ||chocochipu-o.com^
@@ -1682,6 +1683,7 @@
 ||ellifluo.com^
 ||elondonald.com^
 ||elooksjustli.one^
+||elovify.com^
 ||em0n.com^$domain=grubstreet.com|twitchy.com
 ||email.hvviinc.com/owa/
 ||emaildomains.ezzomatic.online^
@@ -5667,11 +5669,15 @@
 ||web-instruction.team^
 ||web-telegram.net^
 ||web-telegvm.org^
+||web.core.windows.net*/js/leave.js
+||web.core.windows.net*/js/mouse.js
 ||web.core.windows.net/?zpbid=
 ||web.core.windows.net/chrmac/index.html
 ||web.core.windows.net/haruto.js
 ||web.core.windows.net/itsuki.js
+||web.core.windows.net/js/full.js
 ||web.core.windows.net/macx/index.html
+||web.core.windows.net/media/chrm.mp3
 ||web.core.windows.net/takashi.mp3
 ||web.core.windows.net/yaketsuku.mp3
 ||web.fe-vrier.com^
