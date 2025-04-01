@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 5W71YD26kOE5rm1jR/HWjA
-! Title: Ublock filter for Via(2025-04-01 08:59:35)
-! Version: 20250401085935
+! Checksum: eyP8S4zyj8PKbpyL5osJnw
+! Title: Ublock filter for Via(2025-04-02 00:14:22)
+! Version: 20250402001422
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-01 08:59:35
-! Total Count: 14141
-! Blocked Filters: 14141
+! Last modified: 2025-04-02 00:14:22
+! Total Count: 14147
+! Blocked Filters: 14147
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6070
+!<<<<<域名规则>>>>>6071
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3777,6 +3777,7 @@
 ||nwch.az-cdn.ch^$script,domain=solothurnerzeitung.ch
 ||nxbrew.com/sw.js$script,~third-party
 ||nxishctcjccry.com^
+||nxprime.in/ads
 ||ny4yze.com^
 ||nyancokuji.xyz^
 ||nydlaepytwuekwhfyvivsf.com^
@@ -6084,7 +6085,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5049
+!<<<<<网站单独规则>>>>>5051
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6398,7 +6399,7 @@ altema.jp##.koukoku_common_tag
 alternativeto.net##div[style]:has(> div[class^="Adsense"])
 alternativeto.net##li[data-testid]:has([href^="/outgoing/"])
 alvinreports.com##.stream-item-above-post-content
-aman-dn.blogspot.com,faselhd.*,heidibemvindaacasabrasil.blogspot.com,mamahawa.com,pornstargold.com###popup
+aman-dn.blogspot.com,faselhd.*,heidibemvindaacasabrasil.blogspot.com,linkstoreanimezone.blogspot.com,mamahawa.com,pornstargold.com,workanimezone.blogspot.com###popup
 amanguides.com,blog.nationapk.com,djpunjab2.in,djqunjab.in,fartechy.com,foodxor.com,freemodsapp.xyz,geniussolutions.co,gurumu.net,highkeyfinance.com,iconicblogger.com,investcrust.com,itechmafiia.com,kreatifparenting.com,krishiloksewa.com,litonmods.com,mb.feedale.com,mealcold.com,mixrootmods.com,modzilla.in,panda.freemodsapp.in,placementsmela.com,reminimod.co,rsrlink.in,sportsonfr.com###wpsafe-link:others()
 amateur-twink.com##.pl_adv
 amateur8.com###intt-layer
@@ -8703,6 +8704,7 @@ linkshub.to##[href*="ad setup "]
 linkshub.to##[href="https://crack-status.com/"]
 linksly.co,zippyshare.day##.fixed-leftSd
 linksly.co,zippyshare.day##.fixed-rightSd
+linkstoreanimezone.blogspot.com,workanimezone.blogspot.com###howToSkipAds
 linkvertise.com##.skeleton__image > ngx-skeleton-loader[appearance="line"] > span.progress:empty
 linkz.*##a[target^="_blank"][rel^="nofollow sponsored"]
 linkz.*,movies4u.*,movies4u3.*##.onclick-input
@@ -9195,6 +9197,7 @@ nuvid.*##div[style^="height:477px"]
 nuvid.*##footer > .rfix
 nwanime.tv##.adf-float
 nxmac.com##.alert-errors.in.fade.alert
+nxprime.in###show_nxhub
 nyaa.land##.panel-body > .row:last-child > :is(div[style="padding:5px"],hr):last-of-type
 nyaa.land##[href*="iptv.cat"]
 nyaa.land##[href*="tiny.cc"]
@@ -11136,7 +11139,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>677
+!<<<<<通配符规则>>>>>680
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11290,7 +11293,9 @@ $script,domain=zdnet.fr,third-party
 /?clickid=*&ptracker=
 /?clickid=*&t2=
 /?clickid=*&t2=.
+/?fingerprint=*&i=
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,~third-party
+/?id=*&traceId=
 /?ip=*&uclickhash=
 /?l=*&ymid=
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,~third-party
@@ -11785,6 +11790,7 @@ $script,domain=zdnet.fr,third-party
 ://www.wattpad.com/et?$image
 ://xml-v4.*.online/click?
 :8443/impact?impact=
+=1&id=*&traceId=
 ?a=0&u=*&tracker=
 ?adTagId=*&extclickid=
 ?bid=0.*&search_referrer_domain=
