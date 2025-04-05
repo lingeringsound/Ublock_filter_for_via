@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 8ZI0n85TSENoskTlUFrqSQ
-! Title: Ublock filter for Via(2025-04-05 08:52:55)
-! Version: 20250405085255
+! Checksum: 7VhaQ/Pgr6FFufY/KqG7Hw
+! Title: Ublock filter for Via(2025-04-06 00:11:42)
+! Version: 20250406001142
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-05 08:52:55
-! Total Count: 14191
-! Blocked Filters: 14191
+! Last modified: 2025-04-06 00:11:42
+! Total Count: 14200
+! Blocked Filters: 14200
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6094
+!<<<<<域名规则>>>>>6098
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -238,6 +238,7 @@
 ||adolphusisomlycyou.pages.dev^
 ||adonsonlyd.xyz^
 ||adoptmeantranslate.com^
+||adosiz.net^
 ||adpopblocker.com^
 ||ads-verification-for-pay.vercel.app^
 ||ads.adrise.tv^$third-party
@@ -1581,6 +1582,7 @@
 ||downloadsbeta.com^
 ||downloadstep.com^
 ||dpuplet.com^
+||dpuplet.net^
 ||dr-sapuri.jp^
 ||dr5rmdxa.com^
 ||drakecomic.*/wp-content/themes/mangareader/script.js
@@ -2285,6 +2287,7 @@
 ||gold456o.fun^
 ||goldenluck.jp^
 ||goldporn.org/js/nc2nlpLCSuNoX5A.js
+||golnkz.com^
 ||golovanov.net^
 ||golsoe033.info^
 ||gomovies.*/sw.js$script,~third-party
@@ -4471,6 +4474,7 @@
 ||revpu.sh^
 ||rewardsgiantusa.com^
 ||rexsvj8omabse.jp^
+||reyeshehadtwobri.com^
 ||rfsjuxlip.com^
 ||rhsrthrtjhe.com^
 ||ri11que-za.com^
@@ -6108,7 +6112,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5064
+!<<<<<网站单独规则>>>>>5068
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6729,6 +6733,7 @@ bigtitslust.com##[href^="https://www.bigtitslust.com/link/"]
 bigtitslust.com,freeporn8.com,lesbian8.com,sortporn.com##.mitaru
 bigtitsxxxsex.com##.bano1
 bigwank.com###mobile_pop
+bigwarp.*###blk1
 bikemania.org##[id^="blocker-modal-"]
 bild.de##aside[data-type="ad"]
 bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
@@ -9423,6 +9428,9 @@ pholder.com##div[class]:has(div[class] > iframe[src^="https://chaturbate.com/in/
 pholder.com##div[style$="margin-bottom:10px"]:has(.OUTBRAIN)
 pholder.com##section:has(.OUTBRAIN)
 pholder.com##section:has(div[href^="https://chaturbate.com/in/"])
+phongroblox.com###fakeDown
+phongroblox.com##.NoteAd
+phongroblox.com##.RecurringadBanner
 photobucket.com##.swal2-container
 photooxy.com##.text-ads
 photopea.com##div[style]:has(> a[href*="photopea.com"][href*="ads"])
@@ -11570,7 +11578,7 @@ $script,domain=zdnet.fr,third-party
 /js/fpu3/pu4.min.js
 /js/ppndr.
 /js/static/header/sda/ppsuma*.js$script
-/js/wb_ban.js$script,domain=cool-web.de|gps-cache.de|web-spiele.de|fun-seiten.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de|cool--web-de.translate.goog|gps--cache-de.translate.goog|web--spiele-de.translate.goog|fun--seiten-de.translate.goog|photo--alben-de.translate.goog|wetter--vorhersage-de.translate.goog|coolsoftware-de.translate.goog|kryptografie-de.translate.goog
+/js/wb_ban.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /js/wb_dead.js$script,~third-party
 /jump/next.php?r=
 /klesd7.$script,~third-party
@@ -11620,7 +11628,7 @@ $script,domain=zdnet.fr,third-party
 /oho.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ebooksite.org|emulatorsite.com|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /other/btn/*/index.html?*p1=
 /p13n/batch/action/*$image
-/page_beg_wb.js$script,domain=cool-web.de|gps-cache.de|web-spiele.de|fun-seiten.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de|cool--web-de.translate.goog|gps--cache-de.translate.goog|web--spiele-de.translate.goog|fun--seiten-de.translate.goog|photo--alben-de.translate.goog|wetter--vorhersage-de.translate.goog|coolsoftware-de.translate.goog|kryptografie-de.translate.goog
+/page_beg_wb.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /panel\.freemcserver\.net\/.{90,}\?v=17/$script,~third-party,domain=panel.freemcserver.net
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 /player/jw8/vast.js|$script,~third-party
@@ -12123,7 +12131,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2091
+!<<<<<放行白名单>>>>>2092
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13482,6 +13490,7 @@ thepiratebay3.com^
 @@||rtl.it^$script,~third-party
 @@||rubiconproject.com/prebid/$xmlhttprequest,script,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
 @@||s.nitropay.com/ads-$script,third-party,domain=app.axenthost.com
+@@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=store-jp.nintendo.com
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=123movies.link
 @@||s0.2mdn.net/ads/studio/Enabler.js$script,domain=kabum.com.br
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=as.com|cadenaser.com|cbs.com|eurogamer.net|hackedgames.com|jeux.com|jouer.fr|kissinggames.com|paramountplus.com|pintgames.com|playhub.com|playpink.com|prehackshub.com
