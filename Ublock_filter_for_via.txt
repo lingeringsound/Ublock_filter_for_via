@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: FRPJrlPJ+Fi509zW036j0w
-! Title: Ublock filter for Via(2025-04-05 00:13:11)
-! Version: 20250405001311
+! Checksum: 8ZI0n85TSENoskTlUFrqSQ
+! Title: Ublock filter for Via(2025-04-05 08:52:55)
+! Version: 20250405085255
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-05 00:13:11
-! Total Count: 14181
-! Blocked Filters: 14181
+! Last modified: 2025-04-05 08:52:55
+! Total Count: 14191
+! Blocked Filters: 14191
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6090
+!<<<<<域名规则>>>>>6094
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -614,6 +614,7 @@
 ||b-cdn.net/verify-captcha-
 ||b.delivery.consentmanager.net/delivery/cmp.php$script,domain=elektronikpraxis.de
 ||b.eeaach.com^
+||b2base252.top^
 ||b2g57ds.com^
 ||b2ujcm.com^
 ||b3g6f86.com^
@@ -1472,6 +1473,7 @@
 ||delivery.sexyxxx.biz^
 ||dem94jfdmn3d.net^
 ||dembuon.vn/lib/flies/flier.js$script,domain=vinaurl.*
+||derriar.site^
 ||derriks.site^
 ||descarga.pw^
 ||descargaloaca.com^$third-party
@@ -4633,6 +4635,7 @@
 ||seekingalpha.com/boot_data.js
 ||sefeethameel.com^
 ||seishinyoga.com^
+||sektfeb.top^
 ||select-easy123print.com^
 ||selfservesenpai.*^
 ||sellerstat.site^
@@ -4803,6 +4806,7 @@
 ||smartaccess.biz^
 ||smartadserver.com^$script,domain=metal-hammer.de|musikexpress.de|rollingstone.de|welt.de
 ||smartadserver.com^$third-party,domain=~smartadserver.fr|~smartadserver.de
+||smartgethub.com^
 ||smartklick.biz^
 ||smartlook.com^$third-party
 ||smartpc.click^
@@ -6104,7 +6108,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5058
+!<<<<<网站单独规则>>>>>5064
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6822,6 +6826,7 @@ bombuj.*##[id*="ekla"]
 bombuj.*##[id^="ad_banner"] ~ a
 boobgirlz.com##.widget-column:has(> center > [href="https://boobgirlz.com/istripper"])
 boobsrealm.com##iframe[style$="height: 250px;"]
+bookmystrip.com,cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,thecryptomen.com,yalifin.xyz##center:others()
 bookriot.com##.inside-content-promo-container
 bookshared.org##div.book:has([src^="//www.highperformanceformat.com/"])
 bookszone.in###tp98, #jatinbtn-continue:others()
@@ -7149,7 +7154,6 @@ crazyvidup.com##.footerStickyBox
 crdroid.net##.blocker-wrapper
 creativebloq.com##.listingResult:has(> .sponsored-post)
 crichdplays.ru,player102.top###floated
-cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,thecryptomen.com,yalifin.xyz##center:others()
 cricstream.*##.w-100.position-absolute.h-100
 crictracker.com##article > div[style="height:270px"]
 crictracker.com##div[id^="div-ad-desk-"]
@@ -7946,6 +7950,7 @@ german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
 get-to.link###genesis-modal
 get.getpczone.com,rahim-soft.com,uploadrar.*###commonId > a[target="_blank"]
+get.instantearn.in##.banner-inner 
 getexploits.com##div.self-center
 getintoway.com###wpsafe-generate,div[id^="wpsafe-wait"]
 getmodsapk.com##center[style="position:relative; width:100%; min-height:280px;"]
@@ -8047,6 +8052,7 @@ graphicuv.com,hit-films.com,learnmany.in###btn6:others()
 grattez.fr##.ad-image-megaban
 greensboro.com##.modal, .modal-backdrop
 greentumble.com##.cp-module
+grtjobs.in,call-bomber.info,kajernews.com,vyaapaarguru.in##[onclick*="handleContinueClick"], #please-wait, .step:others()
 gsm-solution.com###adblock-blocker-overlay
 gsmware.com##.adtester-container
 gsmware.com##.kabaradd
@@ -8707,6 +8713,7 @@ limetorrents.*##div:has(> div > a[href^="/leet/?"])
 linegee.net##.kecil:others()
 linfoweb.com##ins.adsbygoogle-wrapper
 link-to.net##.ad-block-1
+link.djbassking.live,tech5s.co,game5s.com##.fluidprimary, #go_d, .adb_detected > h2
 link.encrypted-encrypted-encrypted-encrypted-encrypted-encrypted.link###gpujs_link
 link.idblog.eu.org##.ngebut
 link.idblog.eu.org##.pembukalink1
@@ -8766,6 +8773,8 @@ loadout.tf##.header:has(> div[data-i18n^="#ad"])
 loadout.tf##.header:has(> div[data-i18n^="#ad"]) + div:empty:last-child
 loadout.tf##body > div:shadow(div):shadow(div):has(:shadow(div:not([class])):has(:shadow(ins.adsbygoogle[data-ad-client])))
 loadout.tf##body > div:shadow(div):shadow(div):shadow(div:not([class]))
+loan.bgmi32bitapk.in##div.step_box > h4, #rtg-snp-btn, #rtg-snp21:others()
+loan.creditsgoal.com,rupyaworld.com,vahantoday.com,techawaaz.in###rtg-snp2, #rtg-snp21, [id^="Step"]:others()
 logikfx.com##.wix-blog-print-in-full-width[data-testid="mesh-container-content"] > div[class^="_"] > div[style="padding-left: 30px;"]
 logikfx.com##div[style="width:740px"]
 longporn.xyz##[href="http://toplivesexcams.net"]
@@ -8834,6 +8843,7 @@ magdownload.org##.home-jumbotron
 magnetdl.com,magnetdl.org##a[href="/site/vpn/"]
 magnetdl.com,magnetdl.org##a[href^="https://usenetbay.com/"]
 maharashtratimes.com##.colombia
+mahitimanch.in,indiamaja.com,5ghindi.in##form button[id], .box-main, .captcha-check:others()
 mail.aol.com###slot_LREC
 mail.aol.com##[data-test-id^="pencil-ad"]
 mail.aol.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
