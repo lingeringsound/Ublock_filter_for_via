@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kvcirRb7FnMxC1rlq9inIw
-! Title: Ublock filter for Via(2025-04-07 08:54:55)
-! Version: 20250407085455
+! Checksum: g3fg9YItOsEKhSrJStbUAA
+! Title: Ublock filter for Via(2025-04-08 00:12:56)
+! Version: 20250408001256
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-07 08:54:55
-! Total Count: 14207
-! Blocked Filters: 14207
+! Last modified: 2025-04-08 00:12:56
+! Total Count: 14217
+! Blocked Filters: 14217
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6100
+!<<<<<域名规则>>>>>6102
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1197,7 +1197,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=animeunity.*|aniwatchtv.to|bflix.*|drop.download|fbstreams.pm|kaa.mx|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|vipbox.*
+||com/|$xmlhttprequest,third-party,method=head,domain=animeunity.*|aniwatchtv.to|bflix.*|drop.download|fbstreams.pm|goku.sx|kaa.mx|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|vipbox.*
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -2828,6 +2828,8 @@
 ||javrave.club/ads/
 ||javseen.tv/fire2/popup*$script,~third-party
 ||javtsunami.com/crimson-unit-$script
+||javx.*/direct.js^
+||javx.*/terra.js^
 ||javx.cc/terra.js^
 ||jaya9.app/?af=
 ||jayabaji3.com/bn-bd?aff=
@@ -6114,7 +6116,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5072
+!<<<<<网站单独规则>>>>>5079
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7696,6 +7698,8 @@ financeyogi.net,finclub.in###btn2, #btn5, #tp-snp2:others()
 finanzas-vida.com##[href="https://zplayer.live/"]
 finanzen.*###adup1
 finanzen.*###bs_abstand
+finanzen.net##.background-color-info:has(.ad-hint)
+finanzen.net##.page-content__ad
 finanzen.net##.pull-right.img-responsive
 finchtechie.com###btnhide
 finchtechie.com###verify_button2
@@ -8465,8 +8469,10 @@ jacquieetmicheltv.net,porno-baguette.com##.espace-cam
 jalshamoviezhd.*##[href^="https://usounoul.com/"]
 japannews.yomiuri.co.jp##.pr_custom2
 japannews.yomiuri.co.jp##div[class^="ad_background"]
+japscan.lol###main > div.card.copinness:has(> div.tab-content.my-0 > div.manga_list.d-flex.flex-wrap.m-2 > div.p-2[style] > a.donate[target="_blank"][rel="noopener noreferrer nofollow"][href^="https://www.touribora.shop/manga/?type="] > img)
 japscan.lol##.FjZoRa
 japscan.lol##.navbar-nav > li#navpromo2.nav-item
+japscan.lol##a[href^="https://www.touribora.shop/"]
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > div.container > #blare-inter[style*="position"]
 japscan.lol##body > div.container > #blare-inter[style*="position"]:not(:empty)
@@ -8997,6 +9003,7 @@ mmorpg.com##a[href^="http://v2.g.99.com/"]
 mmorpg.org.pl##div.bABcMb.sc-5odcub-0
 mmtv01.xyz,spankbang.mov###pop.div_pop
 moappmovies.blogspot.com##.sy-adblock
+mobalytics.gg##section[data-section-id] > div[class]:has(> section#ad-placeholder-id)
 mobile.de##.sticky-billboard
 moddedguru.com##div.banner
 moddingzone.in,model-tas-terbaru.com,therootdroid.com,worldappsstore.xyz###wpsafe-wait2
@@ -9853,6 +9860,8 @@ royalroad.com##.portlet:has(> h6)
 royalroad.com##.portlet[style]:has(> span > a[href="/premium/subscription"])
 royalroad.com##.portlet[style]:has(> span.bold.uppercase)
 royalroad.com##.t-center:has(> .bold.uppercase, #Content_Top_Desktop)
+royalroad.com##.text-center:has(> div[id*="_"] > div > div a[rel$="sponsored"] img)
+royalroad.com##a[rel$="sponsored"] img
 rp-online.de,saarbruecker-zeitung.de,volksfreund.de##.park-portal
 rphost.in,techurlshort.in###notarobot, #btn7:others()
 rshrt.com###headlineatas
@@ -11874,7 +11883,7 @@ sponsor=$domain=mcfucker.com
 thepiratebay3.com^
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>261
+!<<<<<通用Css规则>>>>>262
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -12111,6 +12120,7 @@ thepiratebay3.com^
 ~dogdrip.net,~infinityfree.com,~slashdot.org,~smsonline.cloud,*##html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2502032353000"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://07c225f3.online/content"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://07c225f3.online/contents/"]
+~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://content-loader.com/content"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/content"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/contents/"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##a[href^="https://07c225f3.online/contents/"]:not([href*="/-1/"])
