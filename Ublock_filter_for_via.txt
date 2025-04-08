@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: pYco4cLr1XTu8I4Tsi6sXQ
-! Title: Ublock filter for Via(2025-04-08 08:53:31)
-! Version: 20250408085331
+! Checksum: b3+OC6ovA4lPazwdB9otgA
+! Title: Ublock filter for Via(2025-04-09 00:14:18)
+! Version: 20250409001418
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-08 08:53:31
-! Total Count: 14217
-! Blocked Filters: 14217
+! Last modified: 2025-04-09 00:14:18
+! Total Count: 14225
+! Blocked Filters: 14225
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6102
+!<<<<<域名规则>>>>>6106
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1197,7 +1197,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=animeunity.*|aniwatchtv.to|bflix.*|drop.download|fbstreams.pm|goku.sx|kaa.mx|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|vipbox.*
+||com/|$xmlhttprequest,third-party,method=head,domain=animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|goku.sx|kaa.mx|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|vipbox.*|webxzplay.cfd
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -1459,6 +1459,7 @@
 ||debridlink.com^
 ||debridlink.com^$document
 ||decided-decision.com^
+||decimalcursor.com^
 ||declk.com^
 ||dedestin0.jp^
 ||dedicloadpgeing*.b-cdn.net^
@@ -4520,6 +4521,7 @@
 ||royal-glade-286f.kdsj.workers.dev^
 ||royalclass-dm.com^
 ||royalclass.info^
+||royalroad.com/*?$xmlhttprequest,method=get,~third-party
 ||royalroad.com/dist/sentry.js$script
 ||rplnd60.com^
 ||rr.nu^
@@ -5474,6 +5476,7 @@
 ||um-bredirect.com^
 ||unactkiosk.com^
 ||unafei-kokusai.com^
+||unbentfaced.com^
 ||unblocked.name/zpp/*$script,domain=unblocked.name
 ||unbrick.id^$third-party
 ||uncotorture.com^
@@ -6090,6 +6093,7 @@
 ||zhandouxian.com^
 ||zhikunux.com^
 ||zhongwen-telegram.com^
+||zitzithquaff.top^
 ||zj5c3.com^
 ||zjjgbuiy.com^
 ||zlib-official.com^
@@ -6116,7 +6120,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5079
+!<<<<<网站单独规则>>>>>5081
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9862,6 +9866,7 @@ royalroad.com##.portlet[style]:has(> span.bold.uppercase)
 royalroad.com##.t-center:has(> .bold.uppercase, #Content_Top_Desktop)
 royalroad.com##.text-center:has(> div[id*="_"] > div > div a[rel$="sponsored"] img)
 royalroad.com##a[rel$="sponsored"] img
+royalroad.com##div[class][style] > a[href*="a/r?campaign="] img
 rp-online.de,saarbruecker-zeitung.de,volksfreund.de##.park-portal
 rphost.in,techurlshort.in###notarobot, #btn7:others()
 rshrt.com###headlineatas
@@ -9913,6 +9918,7 @@ sarapbabe.com##.is-3.column
 sarapbabe.com##.navbar-start > a.navbar-item:nth-of-type(4)
 sarapbabe.com##.porn_sites_list
 saveearning.com##.e3lan
+savefiles.com##body > div[class][oncontextmenu][style="display: block;"]
 savegame.pro##body > div:first-child[id]:has(> div > div > div > div > div + .adblock_title)
 sawlive.tv##body[onclick^="closeMyAd"] > div[id][style^="position"][style*="background-color"]
 sbot.cf##[id^="parentframe"]
@@ -11198,7 +11204,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>682
+!<<<<<通配符规则>>>>>684
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11297,6 +11303,7 @@ $script,domain=zdnet.fr,third-party
 .com/v.js?v=3|$~third-party
 .de/bilder/*.jpg|$script,~third-party
 .de/bilder/*.jpg|$script,~third-party,domain=de
+.de/d8323ll?t=
 .de/image/*.gif|$script,~third-party
 .de/image/*.gif|$script,~third-party,domain=de
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
@@ -11327,6 +11334,7 @@ $script,domain=zdnet.fr,third-party
 .top/index-install.html|
 .top/prize/*.php?c=
 .top/ps/ps.js?id=$third-party
+.top/t99b45h?t=
 .wasm|$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 .wa|$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 .wsm|$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
