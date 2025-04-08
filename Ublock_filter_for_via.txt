@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: g3fg9YItOsEKhSrJStbUAA
-! Title: Ublock filter for Via(2025-04-08 00:12:56)
-! Version: 20250408001256
+! Checksum: pYco4cLr1XTu8I4Tsi6sXQ
+! Title: Ublock filter for Via(2025-04-08 08:53:31)
+! Version: 20250408085331
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-08 00:12:56
+! Last modified: 2025-04-08 08:53:31
 ! Total Count: 14217
 ! Blocked Filters: 14217
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -7235,6 +7235,7 @@ dcode.fr,hindustantimes.com##div[id^="div-gpt-ad"]
 deepfakeporn.net##.highlight ~ li > a[target="_blank"]
 deine-tierwelt.de##.header-leaderboard
 deine-tierwelt.de##.js-sticky-ad
+deinesexfilme.com,einfachtitten.com,halloporno.*,hd-easyporn.com,hd-pornos.*,lesbenhd.com,milffabrik.com,pornblade.com,porndrake.com,pornfelix.com,pornoaffe.com,pornodavid.com,pornoente.tv,pornofelix.com,pornofisch.com,pornohammer.com,pornohelm.com,pornohirsch.net,pornoklinge.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,xnxx-sexfilme.com##.vjs-overlayed
 deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,lesbenhd.com,milffabrik.com,porndrake.com,pornoaffe.com,pornodavid.com,pornoente.tv,pornofelix.com,pornofisch.com,pornohammer.com,pornohans.com,pornohelm.com,pornohirsch.net,pornojenny.com,pornoklinge.com,pornomico.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,vev.*,xhamster-sexvideos.com,xnxx-sexfilme.com##.vjs-overlay
 deinesexfilme.com,herzporno.com,lesbenhd.com,milffabrik.com,pornoaffe.com,pornoente.tv,pornohelm.com,pornoklinge.com,xnxx-sexfilme.com###wa_join_btn
 delicious-audio.com##.big-ads-show
@@ -7445,7 +7446,7 @@ egydead.*##.adHolder
 egyshare.cc,luotphim.cc,luotphim.net,luotphimzz.com##.fakeplayer
 ehftv.com##.blackPlayer
 ehotpics.com,upicsz.com##figure[style^="width: 310px;"]
-einfachtitten.com,halloporno.com,pornodavid.com,pornofisch.com,pornofelix.com,pornohammer.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com##.send_event.widget_btn.cf
+einfachtitten.com,halloporno.com,pornodavid.com,pornofelix.com,pornofisch.com,pornohammer.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com##.send_event.widget_btn.cf
 einthusan.*##.adspace-lb
 einthusan.*##.adspace-lr
 eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.advertorialwrapper
@@ -8114,7 +8115,6 @@ hclips.com##.video__wrapper > section[style]
 hclips.com##.wrapper + .partners-wrap + div[class]
 hclips.com,pornclassic.tube,privatehomeclips.com,tubepornclassic.com,upornia.*##span[style="display:flex !important"] > div:first-child
 hd-easyporn.com##[rel*="sponsored"]
-hd-easyporn.com,hd-pornos.*,pornblade.com,pornfelix.com,xnxx-sexfilme.com##.vjs-overlayed
 hd-easyporn.com,pornblade.com,pornfelix.com,pornohans.com###wrapper_content > aside[id]
 hd-pornos.*###spezial_column
 hd-pornos.*##div[id="wrapper_content"] > aside
