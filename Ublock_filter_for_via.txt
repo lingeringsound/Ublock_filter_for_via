@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: rDpCafKxDOH9K/XRm8jMQg
-! Title: Ublock filter for Via(2025-04-10 00:14:05)
-! Version: 20250410001405
+! Checksum: jMmICxSxAtWdD/idNhNVDQ
+! Title: Ublock filter for Via(2025-04-10 08:53:53)
+! Version: 20250410085353
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-10 00:14:05
-! Total Count: 14236
-! Blocked Filters: 14236
+! Last modified: 2025-04-10 08:53:53
+! Total Count: 14237
+! Blocked Filters: 14237
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6110
+!<<<<<域名规则>>>>>6111
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -998,6 +998,7 @@
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script
 ||cdn.staticmoly.me/*.php$domain=vidmoly.*
 ||cdn.streamroot.io/dna-client/$script,domain=prod-player.tf1.fr
+||cdn.stroeerdigitalgroup.de/metatag/live/
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.
 ||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
