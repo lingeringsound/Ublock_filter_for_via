@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Mj0dOuSC8YZ8j+0pyC3vbg
-! Title: Ublock filter for Via(2025-04-14 08:56:21)
-! Version: 20250414085621
+! Checksum: AYofDorGQV+IQ4WF2HvQmg
+! Title: Ublock filter for Via(2025-04-15 00:13:57)
+! Version: 20250415001357
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-14 08:56:21
-! Total Count: 14274
-! Blocked Filters: 14274
+! Last modified: 2025-04-15 00:13:57
+! Total Count: 14278
+! Blocked Filters: 14278
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6137
+!<<<<<域名规则>>>>>6139
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1202,7 +1202,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|vipbox.*|webxzplay.cfd
+||com/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|vipbox.*|webxzplay.cfd
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -1956,6 +1956,7 @@
 ||filletfiguredconstrain.com^
 ||filma24.*/*.gif$image
 ||filmeserialehd.biz^$third-party
+||filmishquila.com^
 ||filmshngjbzix.blogspot.com^
 ||filter-zgzy.com^
 ||filthygracefulspinach.com^
@@ -3010,6 +3011,7 @@
 ||kmspicoportable.com^
 ||knackedphoned.com^
 ||kneelmodernism.com^
+||knownamount.com^
 ||kochava.com^
 ||kogaqmlci.com^
 ||koi-chat.net^
@@ -6151,7 +6153,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5093
+!<<<<<网站单独规则>>>>>5095
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8633,6 +8635,7 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 katerionews.com##div[style]:has(> iframe[src^="/hot-news/addon.php"])
 katestube.com###under-video
 katfile.com###container > p > a[href*="?"]:has(> img)
+katfile.com##a[href][target="_blank"] img
 katmoviehd.*###sidebar > #custom_html-6
 kavgle.com##[href^="https://go.vrbangers.com/"], [href^="https://asiafriendfinder.com/"]
 kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
@@ -8730,6 +8733,7 @@ leechall.*##.text-center.alert-info.alert
 leechpremium.link##.fade.modal-backdrop
 leechpremium.link##.row > .col-md-2:first-child > .pricingTable
 lesbian8.com##[href^="https://www.lesbian8.com/link/"]
+letemsvetemapplem.eu###lsa_gallery_overlay
 letmejerk.com,letmejerk2.com,letmejerk3.com,letmejerk4.com,letmejerk5.com,letmejerk6.com,letmejerk7.com##.cams-widget
 letmejerk.com,letmejerk2.com,letmejerk3.com,letmejerk4.com,letmejerk5.com,letmejerk6.com,letmejerk7.com##.th:has(> span.th-ad)
 letmejerk.com,letmejerk2.com,letmejerk3.com,letmejerk4.com,letmejerk5.com,letmejerk6.com,letmejerk7.com##[class^="lmj"]
