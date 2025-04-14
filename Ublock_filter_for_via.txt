@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qle09xbYWgzZxbhb3X8r7Q
-! Title: Ublock filter for Via(2025-04-14 00:12:34)
-! Version: 20250414001234
+! Checksum: Mj0dOuSC8YZ8j+0pyC3vbg
+! Title: Ublock filter for Via(2025-04-14 08:56:21)
+! Version: 20250414085621
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-14 00:12:34
-! Total Count: 14272
-! Blocked Filters: 14272
+! Last modified: 2025-04-14 08:56:21
+! Total Count: 14274
+! Blocked Filters: 14274
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6135
+!<<<<<域名规则>>>>>6137
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3699,6 +3699,7 @@
 ||naja59jg.com^
 ||nakayama.chikarakosopower.com^
 ||nakedanalytics.net^
+||namcards.com^
 ||name0fbestway.com^
 ||nanai-clw.com^
 ||nang-cap-
@@ -4104,6 +4105,7 @@
 ||pewgame.com/sw.js^
 ||pf0755.cn^
 ||pfunding-01.com^
+||phantomcorestudios.net^
 ||pharmaceutical-technology.com/wp-content/*skin.jpg$image
 ||phim1080.in/mmo/
 ||phineypet.com/2x.png
