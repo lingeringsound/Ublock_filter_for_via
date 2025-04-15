@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AYofDorGQV+IQ4WF2HvQmg
-! Title: Ublock filter for Via(2025-04-15 00:13:57)
-! Version: 20250415001357
+! Checksum: c2eRk+MbS09UckLdsmUk4w
+! Title: Ublock filter for Via(2025-04-15 08:54:54)
+! Version: 20250415085454
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-15 00:13:57
-! Total Count: 14278
-! Blocked Filters: 14278
+! Last modified: 2025-04-15 08:54:54
+! Total Count: 14279
+! Blocked Filters: 14279
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6153,7 +6153,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5095
+!<<<<<网站单独规则>>>>>5096
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8448,6 +8448,7 @@ indiatimes.com##.article_first_ad
 indiatimes.com##.wzrk-overlay
 indiatoday.in,indiatoday.intoday.in##.ad_bn.row
 indobo.com,informaxonline.com,tutorialsaya.com,ufacw.com###wpsafe-generate, #wpsafe-link:others()
+indojavstream.com##.box_item_ads_popup
 inews.co.uk##.thanks-3xsWr
 infokeeda.xyz,webzeni.com##.gAd
 informer.com##.screen_ad
