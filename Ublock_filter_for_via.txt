@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: sedwZohP97hTr15Z1TtCqQ
-! Title: Ublock filter for Via(2025-04-16 08:55:15)
-! Version: 20250416085515
+! Checksum: oAaGF+JvSg7E90wkgu4fSA
+! Title: Ublock filter for Via(2025-04-17 00:14:54)
+! Version: 20250417001454
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-16 08:55:15
-! Total Count: 14281
-! Blocked Filters: 14281
+! Last modified: 2025-04-17 00:14:54
+! Total Count: 14310
+! Blocked Filters: 14310
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6141
+!<<<<<域名规则>>>>>6170
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -469,6 +469,7 @@
 ||apmplus.volces.com/monitor_web/collect$xmlhttprequest,method=post
 ||app-bitbanlk-cc.weebly.com^
 ||app.adjust.net.in^
+||app.farmaciadelmonestironline.com/SER/dnkdl/
 ||app.mediafire.com/29ph7u17caayi
 ||app.mediafire.com/36culjifmas7b
 ||app.mediafire.com/bam017u2w9goa
@@ -672,6 +673,7 @@
 ||beatstars.com/promos?
 ||beatstars.com/v3/promote/
 ||bebayb.cc^
+||befuls.shop^
 ||beinsports.com/*/adbw/
 ||belezaesaudeinnovations.com^
 ||bell-02.com^
@@ -887,7 +889,9 @@
 ||business-help-temp-
 ||business-manager-report.com^
 ||business-manange.com^
+||businesscreatorportal.com^
 ||businesslnstagram.zya.me^
+||businessrequestcenter.com^
 ||bustymeets.com^
 ||butsmism.co.in^
 ||butya.top^
@@ -1228,6 +1232,7 @@
 ||conohawing.com/*/outlook-
 ||constellationbedriddenexams.com^
 ||consumerproductsusa.com^
+||contact-supportbusinessmanager.ubpages.com^
 ||content-settings.com^$third-party
 ||content-voilation-
 ||content.gorapidcdn.com^
@@ -1286,6 +1291,7 @@
 ||creepy-frame.com^
 ||crentgate.com^
 ||crepeyfrogged.com^
+||cricketbettingpro.com/home.html/autoload.html^
 ||criticismdramavein.com^
 ||critomiron.click^
 ||cross-customer.com^
@@ -1479,6 +1485,7 @@
 ||dekarise.site^
 ||deliberatelyot.space^
 ||deliver-departure.com^
+||delivery-globaldhlauth.github.io^
 ||delivery.r2b2.cz^$third-party
 ||delivery.sexyxxx.biz^
 ||dem94jfdmn3d.net^
@@ -1512,6 +1519,12 @@
 ||dezf3o8j9jdt6.cloudfront.net^$third-party
 ||dfiles.*/sw.js$script,~third-party
 ||dgoke0333.info^
+||dhexpress.weebly.com^
+||dhl-event.app^
+||dhl-express-ppd.infanion.com^
+||dhl-rpa-portal.infanion.com^
+||dhldeliveryhome2.info^
+||dhlproductosyservicios.com^
 ||dhux7ijh.click^
 ||di-ana.jp^
 ||di02.biz^
@@ -1859,6 +1872,7 @@
 ||facilitategovernor.com^
 ||facture-free.com/Adobeverapdf/
 ||facture-pdf-secure-*.vercel.app^
+||faecbook.vn^
 ||fair.alivio-platform.com^
 ||fairytail-tube.org/templates/caprica/amz$image,~third-party
 ||fakeserhelpsreivew-
@@ -1892,6 +1906,7 @@
 ||faptitans.com^*/rc/logo.jpg
 ||farlad.com^
 ||farmersjournal.ie/js/detectIncognito.min.js
+||fasebook.com.vn^$all.vn
 ||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com
 ||fast.quickcontentnetwork.com^
 ||fast2cloud.com^
@@ -1904,6 +1919,7 @@
 ||faststream.xyz^$third-party
 ||fate-15.com^
 ||faucettrx.store/default.php
+||fb-business.com^
 ||fbgajrlmjiotb.com^
 ||fbmediafor.com^
 ||fbs.com^$third-party
@@ -2659,6 +2675,7 @@
 ||icyporno.com/jss/external_pop.js
 ||id001.jp^
 ||identente.com^
+||identityconfirrmpage.com^
 ||idhnochalter.wixsite.com^
 ||iemcan.com^
 ||ieztoskbcoalf.z13.web.core.windows.net^
@@ -2760,6 +2777,7 @@
 ||inspirationhistorical.com^
 ||instacart.ca/graphql?operationName=DisplayAdPlacement^$xmlhttprequest,~third-party
 ||instagram.irancell-10g-free.rf.gd^
+||instagram0639.blogspot.
 ||instapass.fr^
 ||instapornvideos.com/back.js
 ||instogromv.com^
@@ -2800,6 +2818,7 @@
 ||it12.infinityscans.net^
 ||italianlottery.com^
 ||iteparyleb.com^
+||itmustbetime.com/content/uploads/products/china/china/index.php^
 ||itsaol.com^
 ||ivd580.com^
 ||ivg.it/wp-content/plugins/edinet_giornali_swg_plugin/js/ackdet.js
@@ -3148,6 +3167,7 @@
 ||liq27qbf.monster^
 ||litaudrootsa.net^
 ||litlink.site^
+||live-metasupport.com^
 ||live.streamtheworld.com/ondemand/ars?$xmlhttprequest,third-party
 ||livechatlove.store^
 ||livedashboardkit.info^
@@ -3226,6 +3246,7 @@
 ||lpoms.com^
 ||lsdfex.shop^
 ||lshyodrgehlnyswsjq.com^
+||ltlweight.trgr.me^
 ||ltn.hitomi.la^*?yuo1=$script,~third-party
 ||lu-club-de-matching.com^
 ||lubuntu.net^
@@ -3671,6 +3692,7 @@
 ||myfreecopyright.com^$third-party
 ||mygeomanager.org^
 ||myhotdates.com^
+||myjobdhl.earcu.com^
 ||mylead.global^$third-party,domain=shortenbuddy.com
 ||mylust.com/*.jsx
 ||mylust.com/assets/script.js
@@ -4475,6 +4497,7 @@
 ||relish.com^$domain=seriouseats.com
 ||remaininghopefully.com^
 ||reminderasking.com^
+||reminders-infraction-account.netlify.app^
 ||remor.xyz^
 ||remotescout24.com/static/plugins/publicSpace/detect-adblocker/
 ||remp.nv.ua/assets/lib/js/remplib.js
@@ -4799,6 +4822,7 @@
 ||sites.google.com/view/ex1aucnh3r1/
 ||sites.google.com/view/exlauncher11|
 ||sites.google.com/view/exlauncher69/
+||sites.google.com/view/expressdhl^
 ||sites.google.com/view/extnllmm|
 ||sites.google.com/view/flechh|
 ||sites.google.com/view/hubgames|
@@ -5075,11 +5099,14 @@
 ||super-grander.jp^
 ||supercast2.com/z-$script,~third-party
 ||supervision6912305847.jp^
+||suport-page-help.com^
 ||supp0rt.co.za^
 ||supplieradvisor.ciamlogin.com^
 ||support-16.ubpages.com^
 ||support-center-for-*.vercel.app^
 ||support-e-n.com^
+||support-metahelpcenter-id*.netlify.app^
+||supportadm7tmedia.online^
 ||supportcreatorportal.com^
 ||supreme-ad-blocker.info^
 ||surfe.be^$domain=~online-filmek.ac
@@ -5845,6 +5872,7 @@
 ||windows.net/*/nvidia.js
 ||windows.net/*?bcda=
 ||windows.net/*_Fm7-alert.mp3
+||windows.net/Mac*/index.html
 ||windows.net/Win*/index.html
 ||windows.net/js/customone.js
 ||windows.net/js/customtwo.js
@@ -5971,6 +5999,7 @@
 ||xmorex.com^$third-party
 ||xn--4dkua4c8143c.jp^
 ||xn--80affa3aj0al.xn--80asehdb^
+||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/
 ||xn--edkc9m807k.jp^
 ||xn--gmqz9af0r9srup0c.com^
 ||xn--n8j0la8wb3547bghe.jp^
