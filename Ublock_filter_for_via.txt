@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oAaGF+JvSg7E90wkgu4fSA
-! Title: Ublock filter for Via(2025-04-17 00:14:54)
-! Version: 20250417001454
+! Checksum: KikWvxW/RdUDuD0j/yzKFA
+! Title: Ublock filter for Via(2025-04-17 08:54:34)
+! Version: 20250417085434
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-17 00:14:54
-! Total Count: 14310
-! Blocked Filters: 14310
+! Last modified: 2025-04-17 08:54:34
+! Total Count: 14315
+! Blocked Filters: 14315
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6170
+!<<<<<域名规则>>>>>6171
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2483,6 +2483,7 @@
 ||hentai2w.com/templates/default/js/ab.functions.js
 ||hentai2w.com/templates/default/js/arf-
 ||hentaicdn.com^*/NATORI.$script,third-party
+||hentaigo.com/*/ads-*/$image,~third-party
 ||hentaihaven.icu/wp-content/plugins/sscript-manager/
 ||hentaihd.cyou/assets/js/detect-adblocker.
 ||hentaihd.cyou/assets/js/devtools-detector.js
@@ -6184,7 +6185,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5096
+!<<<<<网站单独规则>>>>>5098
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7065,8 +7066,8 @@ ceesty.com,corneey.com,destyy.com,festyy.com,gestyy.com,sh.st##.skip-advert
 cefirates.com##.most-top-bar
 cehennemstream.click,superembeds.com###adStop
 celeb.gate.cc##[href^="https://goo.gl/"]
-celebjared.net###text-10
 celebjared.net##[href^="https://minepi.com/"]
+celebjared.net,hentaigo.com###text-10
 celebmasta.com##img.size-medium
 celebritymovieblog.com##.banner_top
 celebritynakeds.com##.show-over-1000.async-reklam-placeholder
@@ -8259,7 +8260,9 @@ hentaidude.com###homebn
 hentaidude.com###vid > .main-vip
 hentaidude.com###videoOverAd
 hentaidude.com,miohentai.com###idtop
+hentaigo.com###text-22
 hentaigo.com##a[href*="//www.nutaku.net/signup/"]
+hentaigo.com,javhoho.com###text-7
 hentaihaven.vip,nhentaihaven.org##.script_manager_video_master
 hentaihaven.xxx##.hhzt
 hentaihaven.xxx##.popecrazy
@@ -8590,7 +8593,6 @@ javhdo.net##.preload
 javhdporn.net##iframe[title="offer"]
 javher.com##.affiliate-card-container
 javher.com,javtrailers.com###popunderLink
-javhoho.com###text-7
 javhoho.com##.img-ads-footer
 javhoho.com##.popmake
 javhoho.com##a[href="https://50per-cent.com/"]
@@ -8673,6 +8675,7 @@ kavgle.com##[href^="https://go.vrbangers.com/"], [href^="https://asiafriendfinde
 kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
 kbconlinegame.com,hamrojaagir.com,odijob.com###my-btn, #pro-continue, #pro-link:others()
 kdramasmaza.com.pk##a[href*="?key="][target="_blank"]
+kelasexcel.id##.sacret-share
 kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
 keralatelecom.info##.ai-viewports
@@ -12239,7 +12242,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2094
+!<<<<<放行白名单>>>>>2096
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -12829,6 +12832,7 @@ thepiratebay3.com^
 @@||content.gap.com/fp/*.js$script,~third-party
 @@||content.jwplatform.com^$script,domain=pch.com
 @@||content.online-banking.sabbnet.com/app/group/gpib/cmn/js/webtrends.js^$script,~third-party
+@@||cookiefirst.com^$domain=sloways.eu
 @@||coral.coralproject.net^
 @@||coreldraw.com/static/common/scripts/omni-tracking/omni-tracking.min.js$script,~third-party
 @@||costco.com.mx/*/js/trackermediator.js$script,~third-party
@@ -13113,7 +13117,7 @@ thepiratebay3.com^
 @@||googletagmanager.com/gtag/js$xmlhttprequest,domain=quackr.io|streamingcommunity.*
 @@||googletagmanager.com/gtag/js?id=G$script,domain=riteaid.com
 @@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
-@@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|radiox.co.uk|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|shockwave.com|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
+@@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|radiox.co.uk|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|shockwave.com|sloways.eu|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=bela.gifts|corsair.com|lingvolive.com|mf-realty.jp|rocketnews24.com|simon.com|soranews24.com
 @@||googletagmanager.com/gtm.js$script,third-party,domain=al.com|cleveland.com|eu.community.samsung.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
 @@||googletagmanager.com/gtm.js$script,third-party,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
@@ -13433,6 +13437,7 @@ thepiratebay3.com^
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
 @@||openx.tv/embed/$domain=m4ufree.com
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
+@@||outbrain.com^$redirect-rule,domain=stuff.co.nz
 @@||outbrain.com^$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|dattebayo-br.com|drstonebr.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
 @@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
 @@||pagead2.googlesyndication.com/getconfig/sodar$xmlhttprequest,domain=skmedix.pl
