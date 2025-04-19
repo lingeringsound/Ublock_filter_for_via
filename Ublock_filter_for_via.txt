@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kp7lp4mwEXGwz2Zu2kpi5A
-! Title: Ublock filter for Via(2025-04-19 08:51:29)
-! Version: 20250419085129
+! Checksum: zkjxGR8FdjJmdZDfY+1qPw
+! Title: Ublock filter for Via(2025-04-20 00:13:24)
+! Version: 20250420001325
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-19 08:51:29
-! Total Count: 14354
-! Blocked Filters: 14354
+! Last modified: 2025-04-20 00:13:25
+! Total Count: 14375
+! Blocked Filters: 14375
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6193
+!<<<<<域名规则>>>>>6210
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1256,6 +1256,23 @@
 ||copyrights-*.surge.sh^
 ||coralnov.jp^
 ||cordialhoist.top^
+||core.windows.net*/js/fuscn.js
+||core.windows.net*/js/leave.js
+||core.windows.net*/js/mouse.js
+||core.windows.net/*/js/js5.js
+||core.windows.net/*/js/js6.js
+||core.windows.net/haruto.js
+||core.windows.net/itsuki.js
+||core.windows.net/js/full.js
+||core.windows.net/js/lvs.js
+||core.windows.net/js/muse.js
+||core.windows.net/js/script5.js
+||core.windows.net/js/script6.js
+||core.windows.net/js/script7.js
+||core.windows.net/media/chrm.mp3
+||core.windows.net/media/webs.mp4
+||core.windows.net/takashi.mp3
+||core.windows.net/yaketsuku.mp3
 ||coronasfapps.net^
 ||corported.com^$third-party
 ||cosdate.jp^
@@ -6207,7 +6224,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5108
+!<<<<<网站单独规则>>>>>5111
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7472,6 +7489,7 @@ druckerchannel.de###DCGA
 drydenwire.com##.promogrid
 drydenwire.com##[data-track-category="Sponsors"]
 drydenwire.com,myflixertv.to##.modal
+dsmusic.in###tp-snp2, .captcha-check:others()
 dsocker1234.blogspot.com##.mb-3.order-last.col-md-3.col-12
 dubznetwork.com##[class^="clpr-emre"]
 duckduckgo.com##[data-layout="products"]:has(.badge--ad-wrap)
@@ -9625,6 +9643,7 @@ pogo.com##[class*="gameSkyscraperAd"]
 pogo.com##[class*="gameTopAd"]
 poki.*##div[class*="_AdvertisementContainer"]
 poki.com##div[class]:has(> div > div[style*="height"][style*="width"][style$="px; overflow: hidden;"] > [id*="_gp_"])
+policiesreview.com###getnewlink, .wp2continuelink, .getmylink, #newtimer:others()
 politicalcowboy.com##.dsk-box-ad-a
 politicalcowboy.com##.dsk-box-ad-e
 politico.com##.gallery-carousel-ad
@@ -10628,6 +10647,7 @@ totalcsgo.com##[alt="Ad"]
 touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,m.facebook.com,b-m.facebook.com,mobile.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,touch.beta.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
 tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
+tpi.li,oii.la##.td-post-template-default.td-container, .banner-inner
 trakt.tv##.snigel
 trakt.tv##a[target="_blank"][style]:has(img[src])
 trakt.tv##div[id*="-wrapper"]:has(a[href="/vip/advertising"])
@@ -12277,7 +12297,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2100
+!<<<<<放行白名单>>>>>2101
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14177,7 +14197,7 @@ decrypt.day#@#div[class*="content"] center.w-full
 delta.com#@#.adv-container
 dexterclearance.com,estudyme.com,fplstatistics.co.uk,hilites.today,karvitt.com,maps4heroes.com,mcoc-guide.com,onlineatlas.us,play.aidungeon.io,safe.elektroupdate.com,tamrieltradecentre.com#@#ins.adsbygoogle[data-ad-client]
 dexterclearance.com,estudyme.com,fplstatistics.co.uk,hilites.today,karvitt.com,maps4heroes.com,mcoc-guide.com,onlineatlas.us,play.aidungeon.io,safe.elektroupdate.com,tamrieltradecentre.com#@#ins.adsbygoogle[data-ad-slot]
-docer.pl#@##ad
+docer.pl,filmweb.pl#@##ad
 doodle.com#@#.AdsLayout
 doodle.com#@#.AdsSlot
 dpp.org.tw#@#.ad_url
@@ -14355,6 +14375,7 @@ thespruceeats.com#@#[data-ad-width]
 tobys.dk#@#.abMessage
 tumblr.com#@#.Qrht9
 tumblr.com#@#.Yc2Sp
+tv.wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 united.no#@#.page-ads
 uploadmall.com#@#.AdSense
 uploadmall.com#@#.advblock
