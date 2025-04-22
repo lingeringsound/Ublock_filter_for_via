@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 7whha6ISmzaurq9xTrV9Dg
-! Title: Ublock filter for Via(2025-04-22 08:55:09)
-! Version: 20250422085509
+! Checksum: zeXgpYpKAORhyW2SSoe0lA
+! Title: Ublock filter for Via(2025-04-23 00:14:00)
+! Version: 20250423001400
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-22 08:55:09
-! Total Count: 14443
-! Blocked Filters: 14443
+! Last modified: 2025-04-23 00:14:00
+! Total Count: 14445
+! Blocked Filters: 14445
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6267
+!<<<<<域名规则>>>>>6269
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -268,6 +268,7 @@
 ||adtr1.com^
 ||adtracker.jiocinema.com^$xmlhttprequest
 ||adult-ntrchanel.com^
+||adultconfessions.com/js/abdetectorpro.script.js
 ||adultminglenight.click^
 ||adultonlineplay.com^
 ||adultpics.wiki^
@@ -1213,7 +1214,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamup.ws|vipbox.*|webxzplay.cfd
+||com/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -3372,6 +3373,7 @@
 ||mail.pages.exchange-midasbuy.com^
 ||mail.sorbeadindias.com^
 ||mailtherapyask.com^
+||maishuhahi.net^
 ||mait.inhhome.top^
 ||maiwa12.jp^
 ||maiwai2.jp^
@@ -6146,7 +6148,7 @@
 ||xylentura.su^
 ||xypthe.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamup.ws|vipbox.*|webxzplay.cfd
+||xyz/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -12437,7 +12439,7 @@ thepiratebay3.com^
 @@*$image,xmlhttprequest,script,domain=japscan.lol
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
-@@*$script,~third-party,domain=antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|infinityscans.net|infinityscans.xyz|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|poqzn.xyz|promo-visits.site|quesignifi.ca|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|solvetube.*|starkroboticsfrc.com|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz
+@@*$script,~third-party,domain=45er.de|antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|infinityscans.net|infinityscans.xyz|kryptografie.de|mailtool.de|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|net-tools.de|net-tours.de|photo-alben.de|poqzn.xyz|promo-visits.site|quesignifi.ca|qul.de|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|softwareengineer.de|solvetube.*|starkroboticsfrc.com|such-maschine.de|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz|web-spiele.de|wetter-vorhersage.de
 @@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|cursomecanet.com|designtagebuch.de|imagereviser.com|kiktu.com|poophq.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com|veev.to
 @@*$xmlhttprequest,method=head|get,domain=app.axenthost.com,third-party
 @@*$xmlhttprequest,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
