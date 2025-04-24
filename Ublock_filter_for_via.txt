@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oTJQh6e19wsWGOl39fR8Lw
-! Title: Ublock filter for Via(2025-04-24 17:10:55)
-! Version: 20250424171055
+! Checksum: Fy/GQppV1Jlmtki5EyT8bQ
+! Title: Ublock filter for Via(2025-04-25 00:14:26)
+! Version: 20250425001426
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-24 17:10:55
-! Total Count: 14491
-! Blocked Filters: 14491
+! Last modified: 2025-04-25 00:14:26
+! Total Count: 14494
+! Blocked Filters: 14494
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6313
+!<<<<<域名规则>>>>>6314
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4245,6 +4245,7 @@
 ||pictunoctette.com^
 ||pilixiaoshuo.com^
 ||pimlm.com^
+||pin673.cyou^
 ||pineapplecake-yummy.com^
 ||pingergauss.com^
 ||pingit.*/sw.js$script,~third-party,domain=~pingit.com|~pingit.me
@@ -6327,7 +6328,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5117
+!<<<<<网站单独规则>>>>>5118
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9956,6 +9957,7 @@ puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com
 puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com,puzzle-yin-yang.com###MainContainer > [id]:has(> [id^="btIn"] > #bannerTop)
 puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com,puzzle-yin-yang.com###MainContainer > [id^="bannerTopSpacer"]
 puzzles.msn.com##[class*="displayAd"], .ark-ad-message
+pvpoke-re.com##.nitro-any
 qashbits.com##.mx-auto
 qub.ca##.jss2
 quicksounds.com##.ad-head
@@ -11447,7 +11449,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>695
+!<<<<<通配符规则>>>>>696
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11989,6 +11991,7 @@ $script,domain=zdnet.fr,third-party
 /thermostat.js$script,domain=royle.com
 /tortoise.min.js$domain=boards.net|freeforums.net|proboards.com
 /tp/filter.php?pro=
+/trk?s1=*&type=2&brid=
 /ts.php?$xmlhttprequest,third-party
 /unsub/unsub^
 /unsub_sent.php|$method=post
