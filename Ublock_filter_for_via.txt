@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Vwonagc97LMy46R5Dm4KuQ
-! Title: Ublock filter for Via(2025-04-24 00:14:52)
-! Version: 20250424001452
+! Checksum: lB6ymMfrdKKMlUKdKXBn+A
+! Title: Ublock filter for Via(2025-04-24 08:54:52)
+! Version: 20250424085452
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-24 00:14:52
-! Total Count: 14488
-! Blocked Filters: 14488
+! Last modified: 2025-04-24 08:54:52
+! Total Count: 14491
+! Blocked Filters: 14491
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6310
+!<<<<<域名规则>>>>>6313
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -587,6 +587,7 @@
 ||audacity.it^
 ||audacity.pl^
 ||audiobooks4soul.com/*.custom-ads-block-detector.
+||augustboyby.com^
 ||aura-and-color.com^
 ||auraloads.com^
 ||authority-uspser.top^
@@ -1530,6 +1531,7 @@
 ||delivery.sexyxxx.biz^
 ||dem94jfdmn3d.net^
 ||dembuon.vn/lib/flies/flier.js$script,domain=vinaurl.*
+||dependsmoscow.com^
 ||derriar.site^
 ||derriks.site^
 ||descarga.pw^
@@ -5432,6 +5434,7 @@
 ||throb.fun^
 ||throww.fun^
 ||ticketmaster.sg/js/adblock.js$script,~third-party
+||ticketmaster.sg/js/ads.js$script,~third-party
 ||tickovent.com^
 ||tiger.qnews.media^$third-party
 ||tiktikshopvn.com^
