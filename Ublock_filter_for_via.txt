@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /KxGkEcsMFNRBYseRi3pnA
-! Title: Ublock filter for Via(2025-04-26 00:13:54)
-! Version: 20250426001354
+! Checksum: xi8n8/PSN2QXOp3ELByzYA
+! Title: Ublock filter for Via(2025-04-26 08:53:01)
+! Version: 20250426085301
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-26 00:13:54
-! Total Count: 14494
-! Blocked Filters: 14494
+! Last modified: 2025-04-26 08:53:01
+! Total Count: 14496
+! Blocked Filters: 14496
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6328,7 +6328,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5118
+!<<<<<网站单独规则>>>>>5120
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9676,9 +9676,9 @@ pholder.com##div[class]:has(div[class] > iframe[src^="https://chaturbate.com/in/
 pholder.com##div[style$="margin-bottom:10px"]:has(.OUTBRAIN)
 pholder.com##section:has(.OUTBRAIN)
 pholder.com##section:has(div[href^="https://chaturbate.com/in/"])
-phongroblox.com###fakeDown
 phongroblox.com##.NoteAd
 phongroblox.com##.RecurringadBanner
+phongroblox.com,sitemini.io.vn,vip1s.top###fakeDown
 photobucket.com##.swal2-container
 photooxy.com##.text-ads
 photopea.com##div[style]:has(> a[href*="photopea.com"][href*="ads"])
@@ -9938,6 +9938,8 @@ psprices.com##[href*=".smartadserver.com"]
 pt.potwm.com##.pausedView
 pt.potwm.com##.shown.visible.onlineIndicator
 ptube.pipio.site###videoDiv
+publicearn.*##.page-header > h3, .banner, .bg-soft-primary, [style="margin-top: 250px;"], .box-main > center > center > [href], video
+publicearn.*##[href*="t.me"]
 publish0x.com###registerModal, .show.fade.modal-backdrop
 pureshort.*###link-view > a[href] > img
 pureshort.*###link-view > br
@@ -12590,8 +12592,8 @@ thepiratebay3.com^
 @@||acceptable.a-ads.com/1^$xmlhttprequest,domain=gainl.ink
 @@||acdn.adnxs.com/video/mediation/$script,domain=thechive.com
 @@||acdn.adnxs.com/video/player/vastPlayer/VastPlayer.js$script,domain=thechive.com
-@@||acscdn.com/script/$script,third-party,domain=www.apkmoddone.com
-@@||acscdn.com/script/$script,third-party,header=x-guploader-uploadid,domain=www.apkmoddone.com
+@@||acscdn.com/script/$script,third-party,domain=apkmoddone.com|www.apkmoddone.com
+@@||acscdn.com/script/$script,third-party,header=x-guploader-uploadid,domain=apkmoddone.com|www.apkmoddone.com
 @@||activistpost.com/wp-$script,~third-party
 @@||ad-ipd.sxp.smartclip.net/select?type=vast$xmlhttprequest,domain=toggo.de
 @@||ad.71i.de/*/loader.js$script,domain=fupa.net
@@ -12664,7 +12666,7 @@ thepiratebay3.com^
 @@||alicdn.com/*/tracker$script,domain=lazada.com.my
 @@||all3dp.com/gpt.min.js$script,~third-party
 @@||alwingulla.com/88/tag.min.js$domain=darkino.*
-@@||alwingulla.com/88/tag.min.js$script,xmlhttprequest,domain=www.apkmoddone.com
+@@||alwingulla.com/88/tag.min.js$script,xmlhttprequest,domain=apkmoddone.com|www.apkmoddone.com
 @@||amazon-adsystem.com/$script,domain=avclub.com|clickhole.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||amazon-adsystem.com/*/apstag.js$script,redirect-rule,domain=weather.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=atozmath.com|index.hr
@@ -13407,7 +13409,7 @@ thepiratebay3.com^
 @@||ipapi.co^*json$xmlhttprequest
 @@||ipinfo.io/?token$xmlhttprequest,domain=webtv.ert.gr
 @@||ipinfo.io/json$xmlhttprequest,domain=futbollibre.online
-@@||ipinfo.io/json$xmlhttprequest,third-party,domain=www.apkmoddone.com
+@@||ipinfo.io/json$xmlhttprequest,third-party,domain=apkmoddone.com|www.apkmoddone.com
 @@||ipm.corel.com/static/common/scripts/omni-tracking/omni-tracking.min.js$script,~third-party
 @@||isthischannelmonetized.com^$script,~third-party
 @@||jep-asset.akamaized.net/jiostaticresources/*/js/adobe-analytics.js$script,domain=jio.com
@@ -14229,7 +14231,7 @@ thepiratebay3.com^
 @@||yolla-d.openx.net/|$script,domain=cdn.htmlgames.com
 @@||yonder.fr^$script,~third-party
 @@||youmath.it/$script,~third-party
-@@||youradexchange.com/script/$xmlhttprequest,third-party,domain=www.apkmoddone.com
+@@||youradexchange.com/script/$xmlhttprequest,third-party,domain=apkmoddone.com|www.apkmoddone.com
 @@||youtube.com/yts/jsbin/*$script,domain=breathecast.com|classicalite.com|crossmap.com|hallels.com|newseveryday.com|returnofkings.com
 @@||z.cdn.turner.com/analytics/cnnexpan/jsmd.min.js$script,domain=cnn.com
 @@||zatnoh.com/pw/*=eyJ.js$script,domain=satoshi-win.xyz
