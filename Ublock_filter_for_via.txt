@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZxKfp3V/FIjU4jWK+gi8WQ
-! Title: Ublock filter for Via(2025-04-27 08:59:11)
-! Version: 20250427085911
+! Checksum: Q+zXS2OGNdZilp9LO0Q3uw
+! Title: Ublock filter for Via(2025-04-28 00:13:29)
+! Version: 20250428001329
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-27 08:59:11
-! Total Count: 14502
-! Blocked Filters: 14502
+! Last modified: 2025-04-28 00:13:29
+! Total Count: 14505
+! Blocked Filters: 14505
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6318
+!<<<<<域名规则>>>>>6319
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2714,6 +2714,7 @@
 ||i.imgur.com/*.gif$image,domain=charexempire.com|movs4u.*|rabbitstream.net
 ||i.imgur.com/D6RfMoV.png^$third-party
 ||i.imgur.com/FYROU5n.gif$image,third-party
+||i.imgur.com/GgSxkKv.png$image,third-party
 ||i.imgur.com/LJBMhkQ.gif$third-party
 ||i.imgur.com/YmmGPK1.png^$third-party
 ||i.imgur.com/cSePTP2.jpg
@@ -6332,7 +6333,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5122
+!<<<<<网站单独规则>>>>>5123
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9249,6 +9250,7 @@ modebaca.com##[href="https://www.tautan.pro/"]
 moderngyan.com,sattakingcharts.in,freshbhojpuri.com,bgmi32bitapk.in,bankshiksha.in,earn.mpscstudyhub.com,earn.quotesopia.com,money.quotesopia.com,best-mobilegames.com,learn.moderngyan.com,bharatsarkarijobalert.com,quotesopia.com,creditsgoal.com###tp-snp2, #cross-snp2, .tp-top:others()
 modijiurl.com##.animated.text-center, [href*="t.me/modijiurl"], .captcha-box > p, .ad-container, [src*="blogger"], [src*=".png"]
 modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) > img
+modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"] img
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"][href*="?r="] img
 modrinth.com##section.normal-page__content a[href*="/redirect/"] img
 modrinth.com##section.normal-page__content p > img[alt^="Use code"]
@@ -12424,7 +12426,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2101
+!<<<<<放行白名单>>>>>2102
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14451,6 +14453,7 @@ player.tubia.com#@#.companion-ads
 pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,recensionihot.com,torino2006.it#@#a[href^="https://www.moscarossa.biz/"]
+qlover.jp#@#.jss128
 queerpride.de#@#.category-advertorial
 quora.com#@#.q-sticky[style*="box-sizing: border-box; position: sticky;"]
 qwant.com#@#div[data-testid="pam.container"]
