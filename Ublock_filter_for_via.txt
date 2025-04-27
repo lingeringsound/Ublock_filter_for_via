@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Yi7sMCjSeF2RAEZfYBYWAQ
-! Title: Ublock filter for Via(2025-04-27 00:12:09)
-! Version: 20250427001209
+! Checksum: ZxKfp3V/FIjU4jWK+gi8WQ
+! Title: Ublock filter for Via(2025-04-27 08:59:11)
+! Version: 20250427085911
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-27 00:12:09
-! Total Count: 14501
-! Blocked Filters: 14501
+! Last modified: 2025-04-27 08:59:11
+! Total Count: 14502
+! Blocked Filters: 14502
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6317
+!<<<<<域名规则>>>>>6318
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -991,6 +991,7 @@
 ||cdn.jsdelivr.net/gh/RockBlogger/Anti-AdBlocker$script
 ||cdn.jsdelivr.net/gh/RockBlogger/SpiderAdBlocker
 ||cdn.jsdelivr.net/gh/The-3Labs-Team/js-anti-adblock$script
+||cdn.jsdelivr.net/gh/The-3Labs-Team/potatoshield@main/dist/potatoshield.min.ob.js$script
 ||cdn.jsdelivr.net/gh/cnmseo/LookMother$third-party
 ||cdn.jsdelivr.net/gh/itspro-dev/*/js/main.js$script
 ||cdn.jsdelivr.net/gh/lookatdons/gasak^
