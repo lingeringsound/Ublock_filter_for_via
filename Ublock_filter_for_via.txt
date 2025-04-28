@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uHt+vHW4Emhh0LMolk9Byw
-! Title: Ublock filter for Via(2025-04-28 08:57:29)
-! Version: 20250428085729
+! Checksum: Lrf59u+CqImQnoo6DmA8KA
+! Title: Ublock filter for Via(2025-04-29 00:14:50)
+! Version: 20250429001450
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-28 08:57:29
-! Total Count: 14505
-! Blocked Filters: 14505
+! Last modified: 2025-04-29 00:14:50
+! Total Count: 14508
+! Blocked Filters: 14508
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6333,7 +6333,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5123
+!<<<<<网站单独规则>>>>>5125
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8039,6 +8039,7 @@ freetutorialsudemy.com##.freeu-widget
 freetutorialsus.com##.code-block-1.code-block > div
 freeuseporn.com##.homed li:has(iframe)
 freeuseporn.com,pornstargold.com##canvas
+freevipservers.net##.justify-center:has(.adsbygoogle)
 freevipservers.net##.md\:\!flex.bottom-10.w-full.gap-2.z-30.justify-center.items-start.hidden.fixed:has(.adsbygoogle)
 freevpn.us##.myTestAd
 freevpn4you.net##*:has(> .adsbygoogle)
@@ -11087,6 +11088,7 @@ washingtonpost.com##div.grey-bg
 washingtonpost.com##div.mb-lg.mt-lg.pb-lg.pt-lg.bc-gray-lighter.bh.b.justify-center.items-center.flex.dn-hp-sm-to-mx
 watashiwasugoidesu.com##.watas-adlabel
 watashiwasugoidesu.com##.watas-bottom-vi
+watch-dbz57.funonline.co.in###sright
 watch-series.*,watchseries.*###related
 watch-series.*,watchseries.*###rotating-item-wrapper
 watch-series.*,watchseries.*##.category-item-ad
@@ -11147,7 +11149,7 @@ welt.de##.c-ad-container
 welt.de##.q-advertisement-banner
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src] > .ob-widget > .ob-cards > [id^="outbrain_widget_"].OUTBRAIN[data-src]
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src]:has(> .ob-widget > .ob-widget-items-container > .ob-dynamic-rec-container > a[data-adv-id][rel*="sponsored"])
-westmanga.fun,westmanga.org##[src*=".gif"]
+westmanga.*,westmanga.fun,westmanga.org##[src*=".gif"]
 westword.com##.AirBillboardInlineContentresponsive
 weszlo.com##.ad-placeholder-bg
 wetpussy.sexy##.mansonry-item
@@ -11459,7 +11461,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>696
+!<<<<<通配符规则>>>>>697
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11791,6 +11793,7 @@ $script,domain=zdnet.fr,third-party
 /dl?op=aa&cmd=ga&_a=$xmlhttprequest,~third-party,domain=poophq.com|veev.to|doods.to
 /dl?op=player_api&cmd=*adb=$xmlhttprequest,~third-party,domain=poophq.com|veev.to|doods.to
 /domredirect?visitid=
+/door/?ad_campaign_id=
 /download11.png$image
 /downloadapp/*/index.html?*p1=
 /duayn7.$script,~third-party
