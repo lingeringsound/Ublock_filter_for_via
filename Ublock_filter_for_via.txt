@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: nb+A9cie5HySNO2YbWb1Kg
-! Title: Ublock filter for Via(2025-04-29 08:54:49)
-! Version: 20250429085449
+! Checksum: aIvnfBUNsYZswQif1USr6w
+! Title: Ublock filter for Via(2025-04-30 00:14:18)
+! Version: 20250430001418
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-29 08:54:49
-! Total Count: 14509
-! Blocked Filters: 14509
+! Last modified: 2025-04-30 00:14:18
+! Total Count: 14522
+! Blocked Filters: 14522
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6320
+!<<<<<域名规则>>>>>6331
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -178,6 +178,7 @@
 ||abrhsuoamrnrx.com^
 ||abukss.com^
 ||abusive-isolate.com^
+||accbing.com^
 ||accept.bar^
 ||accord-adoration.com^
 ||accordo.it/cloud-assets/x/sfondi/
@@ -475,6 +476,7 @@
 ||apmplus.volces.com/monitor_web/collect$xmlhttprequest,method=post
 ||app-bitbanlk-cc.weebly.com^
 ||app.adjust.net.in^
+||app.deflliama.tech^
 ||app.farmaciadelmonestironline.com/SER/dnkdl/
 ||app.mediafire.com/29ph7u17caayi
 ||app.mediafire.com/36culjifmas7b
@@ -1212,9 +1214,11 @@
 ||codecarawan.com^
 ||coertiest.click^
 ||cognitoforms.com/FiRe21/EmployeeTeammateQuarterNominationPeriodForMidyear^
+||coiincmi.com^
 ||coin-of-fate.jp^
 ||coinad.*^$third-party
 ||coincodex.com/*/position/ccx_pos-min2.php^$script
+||coinomi.ing^
 ||cointiply.com^$third-party
 ||collapsesteroid.space^
 ||collect.adcat.moe/js/pub.min.js$script
@@ -1522,6 +1526,7 @@
 ||deep-whitelist.com^
 ||deepfakeporn.net/contents/rest/player/deepswap_japanese
 ||defendeerrpro.jp^
+||defii-larna.net^
 ||degmq5l23.jp^
 ||dek5iqd53g59a.cloudfront.net^
 ||dekarise.site^
@@ -1793,6 +1798,7 @@
 ||emyqsvk7zw.com^
 ||en-kakuri.biz^
 ||en-mu-su-bi.com^
+||en-trezor.io^
 ||en5wr67sag3.com^
 ||enamelhurdleunpaid.com^
 ||enbdev.com/_main.js$script,~third-party
@@ -3439,6 +3445,7 @@
 ||manporn.xxx/agent.php
 ||manpuku-ja.com^
 ||manpuku-ja.jp^
+||manta-network-v2.us^
 ||marchshotgun.com^
 ||marginz03nx1oe.jp^
 ||mariage-inc.com^
@@ -3667,6 +3674,7 @@
 ||moelove.jp^
 ||moira-101.com^
 ||moloco-cr.jiocinema.com/creative/$xmlhttprequest,~third-party
+||momentary.link^
 ||momvids.com/mm*/mv.js
 ||monad.network^$script,domain=shooshtime.com
 ||moncelork.com^
@@ -5582,6 +5590,7 @@
 ||trkabfbmedia.eu^
 ||tron-free.com/banner/$image,~third-party
 ||tronexcheats.space^
+||tronilnk.com^
 ||tronkwintun.com^
 ||trr59rrt.com^
 ||trripwire.com^
@@ -5590,6 +5599,8 @@
 ||truecrypt.pl^
 ||trump-drop.org^
 ||trungtam-dienmayxanh.com^
+||trusltwcllet.com^
+||trust.wallet-web3.ing^
 ||truthsocial.com/api/*/ads$xmlhttprequest,~third-party
 ||truyen-hentai.com/nb/
 ||trwl1.com^
@@ -11462,7 +11473,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>697
+!<<<<<通配符规则>>>>>699
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11553,6 +11564,8 @@ $script,domain=zdnet.fr,third-party
 .com/fr.js|$~third-party
 .com/go/*?clickid=
 .com/ipp.js?id=$third-party
+.com/k082rwq?t=
+.com/link?z=
 .com/lp*.html?zoneid=
 .com/pl?o=
 .com/play-2?h=*=eyJ&si1=
