@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: aIvnfBUNsYZswQif1USr6w
-! Title: Ublock filter for Via(2025-04-30 00:14:18)
-! Version: 20250430001418
+! Checksum: EVNFkjaB3/UTSlmszkFFbg
+! Title: Ublock filter for Via(2025-04-30 08:55:19)
+! Version: 20250430085519
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-30 00:14:18
-! Total Count: 14522
-! Blocked Filters: 14522
+! Last modified: 2025-04-30 08:55:19
+! Total Count: 14524
+! Blocked Filters: 14524
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6331
+!<<<<<域名规则>>>>>6333
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -553,6 +553,7 @@
 ||astrolivesports.com^
 ||astrosphere.world^
 ||at-t-admin.daftpage.com^
+||at.cbsi.com/lib/dist/prod/bidbarrel-
 ||at.colony-on.id^
 ||at^$script,xmlhttprequest,third-party,ipaddress=185.215.113.111
 ||ataru-loto.com^
@@ -2557,6 +2558,7 @@
 ||help-for-work-*.pages.dev^
 ||helps-center-page-number-
 ||hentai-tube.me^
+||hentai2read.com/ark/*.js^$script,~third-party
 ||hentai2w.com/templates/default/js/ab.functions.js
 ||hentai2w.com/templates/default/js/arf-
 ||hentaicdn.com^*/NATORI.$script,third-party
