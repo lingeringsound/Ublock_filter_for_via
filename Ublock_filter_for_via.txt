@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: EVNFkjaB3/UTSlmszkFFbg
-! Title: Ublock filter for Via(2025-04-30 08:55:19)
-! Version: 20250430085519
+! Checksum: gGkkno24ZdCpAXtLuArwHw
+! Title: Ublock filter for Via(2025-05-01 00:14:20)
+! Version: 20250501001420
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-30 08:55:19
-! Total Count: 14524
-! Blocked Filters: 14524
+! Last modified: 2025-05-01 00:14:20
+! Total Count: 14555
+! Blocked Filters: 14555
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6333
+!<<<<<域名规则>>>>>6363
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -476,7 +476,9 @@
 ||apmplus.volces.com/monitor_web/collect$xmlhttprequest,method=post
 ||app-bitbanlk-cc.weebly.com^
 ||app.adjust.net.in^
+||app.darppadar.com^
 ||app.deflliama.tech^
+||app.dexscreener-home.net^
 ||app.farmaciadelmonestironline.com/SER/dnkdl/
 ||app.mediafire.com/29ph7u17caayi
 ||app.mediafire.com/36culjifmas7b
@@ -571,6 +573,7 @@
 ||atnpx.com^
 ||atof42ap.click^
 ||atom-ds.com^$third-party
+||atomiciwallet.com^
 ||atomohd.*/*/banners$image
 ||atplink.com/responseandresolutioncenter
 ||atropinestatuarylandleaper.com^
@@ -665,7 +668,9 @@
 ||banquet-barbecue.com^
 ||baremetrics.com^$third-party
 ||barlear.ru^
+||base-bridqe.com^
 ||base-swap-frontend-*.vercel.app^
+||base.bridge-home.net^
 ||baseballletters.com^
 ||basesfiles.com^
 ||basic-bank.com^
@@ -861,6 +866,7 @@
 ||brazz-girls.com/scripts/yall.*.js
 ||brcknkblue.com^
 ||bride1be.com^
+||bridge-home.net^
 ||bridgetrack.com^$third-party
 ||brightadnetwork.com^
 ||brinifcall.com^
@@ -893,6 +899,7 @@
 ||bulkagetufas.com^
 ||bulksms.services/*/NetFlxinc/
 ||bulksms.services/NetFxs/
+||bulletadopt.com^
 ||bunkr-cache.se/js/script.js$script,domain=bunkr.*
 ||bunkr.la/build/lv.js$script,~third-party
 ||buono2023-web.com^
@@ -920,6 +927,7 @@
 ||bxtongji.cc^
 ||bybygnom.com^
 ||bydleni.com/dm/banner/$domain=bydleni.cz
+||bylfg.org^
 ||bytesbazar.com^
 ||c-al-e1nder.com^
 ||c-y.jp^
@@ -1230,7 +1238,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
+||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -1467,6 +1475,7 @@
 ||daque.cn^
 ||dareka4te.shop^
 ||daroznel.com^
+||darppadar.com^
 ||dashboard.fingerprint.com^$script,third-party,xmlhttprequest,domain=dashboard.fingerprint.com
 ||dashboard.fingerprint.com^$third-party,xmlhttprequest,domain=dashboard.fingerprint.com
 ||data-saver-cindi.herokuapp.com^
@@ -1565,6 +1574,8 @@
 ||deviants.com/player/html.php^
 ||devuploads.com/devfiles/js/devtools.js
 ||dexchangegenius.com^
+||dexsceerner.net^
+||dexscreener-home.net^
 ||dezf3o8j9jdt6.cloudfront.net^$third-party
 ||dfiles.*/sw.js$script,~third-party
 ||dgoke0333.info^
@@ -2713,6 +2724,8 @@
 ||huskinessimminentstylus.com^
 ||hvacpartstechnician.com^
 ||hxh.jp^
+||hyperilquid.org^
+||hyperilquid.xyz-trade.com^
 ||hypixei.com^
 ||hypixelstorexyz.pages.dev^
 ||i.gyazo.com^$domain=insurancexblog.blogspot.com
@@ -2876,6 +2889,7 @@
 ||investxai.pro^
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
 ||inzerille.com^
+||io-sol.org^
 ||ioncibria.com^
 ||ipify.org^$domain=realmoasis.com
 ||iplus-fianc24h.online^
@@ -3452,6 +3466,7 @@
 ||marginz03nx1oe.jp^
 ||mariage-inc.com^
 ||markedoneofth.com^
+||market-ntf.com^
 ||marketbeat.com/scripts/modal/*
 ||marketing.net.*^$~third-party
 ||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
@@ -4048,6 +4063,7 @@
 ||op3xdork.xyz^
 ||open-office.fr^
 ||open-project.org^
+||open-sea.market-ntf.com^
 ||openoffice.de^
 ||opgandi.com^
 ||opiumundi.com^
@@ -4571,6 +4587,9 @@
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 ||rawgit.com/Pocketart/$script,third-party
 ||rawgit.com/fahimraza/FK/master/ad-unblocker.js^$script
+||ray-swap.net^
+||raydium.io-sol.org^
+||raydiumx.org^
 ||razorpay.com/v1/track
 ||rbchidraulica.com.br/info/verify^
 ||rblx.land^
@@ -5253,9 +5272,12 @@
 ||surgecardinfo.click^$document
 ||surinenglish.com/adbd^
 ||surprise-folio.jp^
+||sushi.swap-ether.site^
 ||sushilprajapati.com^
+||susni-swap.com^
 ||sustac.com^
 ||svc.dynamics.com/f/m/
+||swap-ether.site^
 ||swarm.video/telerium_dev.js
 ||swarm.video/tutelehd.js
 ||swarmmanga.com/*/custom.js
@@ -5306,6 +5328,7 @@
 ||ta1kcall.site^
 ||tabledestruction.hair^
 ||tabooporn.tv^$third-party
+||tacngcm.com^
 ||tactictablepolite.com^$script,domain=freethemesy.com|tech24us.com
 ||tada-love.jp^
 ||tada10ve.jp^
@@ -5329,6 +5352,7 @@
 ||tamilislamgate.com^
 ||tamilmv.*/sw.js$script,xmlhttprequest,~third-party
 ||tandess.com/music/files/detectAdblock.js
+||tangem.ing^
 ||tapad.com^$domain=~crportal.tapad.com
 ||tapi2.jp^
 ||taradinhos.com^$third-party
@@ -5555,6 +5579,7 @@
 ||tracktraf.com^
 ||tradeadsexchange.com^
 ||tradeinsights.net^$third-party
+||traderjoexyz.bylfg.org^
 ||tradestrategy.substack.com^
 ||tradingstart.pro^
 ||trafempire.com^
@@ -5566,6 +5591,7 @@
 ||transparency-business.com^
 ||transportationlies.org/images/*.gif$image
 ||transportgoline.com^
+||traolerjoe.org^
 ||traveltraffic.cc^
 ||trck.eczyl.com^
 ||trckams.com^
@@ -5775,6 +5801,8 @@
 ||v-yummy.com^
 ||v.embed-cdn.com/v8/player.js$script,domain=streamable.com
 ||v.fwmrm.net/ad/g/1?*_html5_live$domain=atresplayer.com
+||v2-o-p-e-n-s-e-a.com^
+||v3-dappradar.com^
 ||va.huya.com^
 ||vablecable.click^
 ||vader.amperwave.net/*/instream/$xmlhttprequest,third-party
@@ -5914,6 +5942,7 @@
 ||vww-facebook.com.vn^
 ||vy8monlf1t.com^
 ||vzla-qr.com^
+||w-atomicwallet.com^
 ||w-dbl.com^
 ||w0o.eu^
 ||wa-groupbebe.pages.dev^
@@ -6211,8 +6240,9 @@
 ||xyg.application-sns.com^
 ||xylentura.su^
 ||xypthe.com^
+||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
+||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6347,7 +6377,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5125
+!<<<<<网站单独规则>>>>>5126
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7454,6 +7484,7 @@ daftsex.net##.videos > div:not([id])
 daihatsu-club.net##[class^="side_ad_left_"]
 daihatsu-club.net##[class^="side_ad_right_"]
 dailymail.co.uk##.mol-ads-label-container
+dailymail.co.uk##ad-slot
 danet.vn###adsButton
 daporn.com###close-aff
 daporn.com###mediaOverlay
@@ -13655,7 +13686,7 @@ thepiratebay3.com^
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl|video-ac.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|premid.app|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|cursomecanet.com|heim.jp|radioviainternet.nl
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|loot-link.com|lootdest.*|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ord=$xmlhttprequest,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
