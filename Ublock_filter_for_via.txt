@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: fAJ2vD0Q6iE+2WJ3RfDSbg
-! Title: Ublock filter for Via(2025-05-01 09:01:43)
-! Version: 20250501090143
+! Checksum: rpkTHE8I7fnfarl/90gvBA
+! Title: Ublock filter for Via(2025-05-02 00:14:38)
+! Version: 20250502001438
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-01 09:01:43
-! Total Count: 14555
-! Blocked Filters: 14555
+! Last modified: 2025-05-02 00:14:38
+! Total Count: 14572
+! Blocked Filters: 14572
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6363
+!<<<<<域名规则>>>>>6375
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1238,7 +1238,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
+||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|webxzplay.cfd
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -1722,6 +1722,7 @@
 ||e-manager-kanri.com^
 ||e-messsage.com^
 ||e-outlook-online.com^
+||e-serviceparts.info^
 ||e-stat.huya.com^
 ||e-tax-nta.web.app^
 ||e-zpass.com-
@@ -2079,6 +2080,7 @@
 ||fitgirls-repack.*^$domain=~fitgirl-repacks.site
 ||fitgirltorrent.*^$domain=~fitgirl-repacks.site
 ||fiverr-receiving-page.world^
+||fixatessoused.com^
 ||fklngauc.com^
 ||fl-0wer685hjdp300.com^
 ||fl.floriittee.com^
@@ -2909,6 +2911,7 @@
 ||iroha-oran24.com^
 ||irrigationservices.co^
 ||irs-ein-gov.us^
+||irs.gov-
 ||iscidine.com^
 ||ishort.in^$script,third-party
 ||island-vanity.com^
@@ -2994,6 +2997,7 @@
 ||jorpetz.com/kahitano/banner.gif
 ||jourl.live^
 ||jousteevoofooge.net^
+||joyrodetoment.com^
 ||jp-helplineweb-chrsmjinfgtizonedswebs-01.s3.ap-southeast-2.amazonaws.com^
 ||jp.rian-rian.com^
 ||jplivestreamhd.live^
@@ -4289,9 +4293,11 @@
 ||pl.allsports4free.club^
 ||pl.allsports4u.club^
 ||placid-jaded.com^
+||platform.pubadx.one/pubadx-ad.js$script,domain=japscan.lol
 ||platform.pubadx.one^$third-party
 ||plati-num.com^
 ||platinumpla2023.com^
+||play-lust.com^
 ||play-quartz-sanctuary.xyz^
 ||play.aetv.com/vendor/MediaSDK.min.js$script
 ||play.aetv.com/vendor/Samba.min.js$script
@@ -4322,6 +4328,7 @@
 ||playporngames.com/fuck_dolls_online.jpg
 ||plaza-l1o0nni-p1aza.com^
 ||plesk.page/*?phone=
+||plygainroundup.com^
 ||pmequebeclic.com^
 ||pmew.jp^
 ||pnav.jp^
@@ -4756,6 +4763,8 @@
 ||s.meru.jp^
 ||s.pie.org^
 ||s.speedostream.*^$script,~third-party
+||s.yimg.com/du/ay/
+||s.yimg.com/ss/analytics3.js
 ||s0-greate.net^$third-party
 ||s21aabb6.com^
 ||s3.amazonaws.com/*_singlesigninh.html^
@@ -4787,6 +4796,7 @@
 ||safesendclub.com^
 ||safety-line-message.com^
 ||safety-profiles-fb-ads-*.vercel.app^
+||saham.hugaf.dev^
 ||sakudon293ssp.jp^
 ||sale24-pills.com^
 ||sall.etchat.jp^
@@ -4924,6 +4934,7 @@
 ||shells.pairapple.net^
 ||shemalestube.com/templates/dark/ads/
 ||shemalestube.com/templates/dark/js/pop/
+||shield.knowt.com^
 ||shimura-china.com^
 ||shinoriori2023.jp^
 ||shinqueen.com^
@@ -4963,6 +4974,7 @@
 ||sinder8.com^
 ||singles50.jp^
 ||sirokataldea.com^
+||sisaurgeegh.net^
 ||sishedra.com^
 ||sishui.site^
 ||site-config.com^$third-party
@@ -6242,7 +6254,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|vipbox.*|webxzplay.cfd
+||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|aniwatchtv.to|bflix.*|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|fmoviesto.cc|futemais.net|giize.com|goku.sx|kaa.mx|mlbb.space|movieku.ink|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|webxzplay.cfd
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6377,7 +6389,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5126
+!<<<<<网站单独规则>>>>>5129
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7243,6 +7255,7 @@ cat3movie.org,hh3dhay.com##.float-ck-center-lt
 cbc.ca##.ad-risingstar-container
 cbc.ca,getmodsapk.com,gfx-station.com,myscheme.org.in,namemc.com,news18.com,sluttyrat.com,thetimes.com,thizissam.in,videakid.hu,wastenews.xyz##.ad-container
 cboard.net###left-ba
+cccam4sat.com,dipsnp.com,everydaytechvams.com,formyanime.com,gsm-solution.com,h-donghua.com,hindisubbedacademy.com,hm4tech.info,mydverse.*,ripexbooster.xyz,serial4.com,set.seturl.in,tutorgaming.com##.popSc
 ccurl.net##.col-md-2
 ccurl.net##[style*="width: 300px; height:250px"]
 ccurl.net,miklpro.com,shortearn.*##.box-main > .blog-item
@@ -7944,6 +7957,8 @@ filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_header_0
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_header_2
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##a.play_ust_txt
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##a[onclick^="tiklakapat"]
+filmoviplex.com##[href*="/affiliate"]
+filmoviplex.com##[target="_blank"][href]
 filmpertutti.*##.no_pop
 filmweb.pl###mainSkyBanner-pl_PL
 filmweb.pl##.HomePromotedSection
@@ -10271,7 +10286,6 @@ seriesflv.*##.adx > a[href]
 seriu.jp##body > .site-footer + div[id][class*=" "]
 servedez.com##[id^="ad_"]
 servustv.com##.backdrop-filter
-set.seturl.in##.popSc
 sexjobs.es##.topBanners
 sexlist.tv##.camitems
 sexlist.tv##.link-premium
@@ -10661,6 +10675,7 @@ tele5.de##.break-ads
 teleboy.ch##a[href*="BrandingDay"]
 teledyski.info###r-s1
 telepisodes.org###loading_button
+telepisodes.org##[style*="pointer-events"]
 televisiongratishd.com###ventana-flotante
 televisionlibre.net##[class^="fkdaop"]
 teltarif.de,kino.de,desired.de,giga.de##img[referrerpolicy="unsafe-url"][src^="/img/"][src$=".jpg"]
@@ -11506,7 +11521,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>699
+!<<<<<通配符规则>>>>>700
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11965,6 +11980,7 @@ $script,domain=zdnet.fr,third-party
 /page_beg_wb.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /panel\.freemcserver\.net\/.{90,}\?v=17/$script,~third-party,domain=panel.freemcserver.net
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com
+/player/jw8/vast.js?
 /player/jw8/vast.js|$script,~third-party
 /player/v*/vast-no-entitlements.js^
 /please-verify-z.html^
@@ -12476,7 +12492,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2102
+!<<<<<放行白名单>>>>>2103
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13227,6 +13243,7 @@ thepiratebay3.com^
 @@||filecrypt.co/captcha/
 @@||filecrypt.co/captcha/captcha.php$image,~third-party
 @@||filegrade.com^$script,~third-party
+@@||filmoviplex.com^$script,~third-party
 @@||firestonecompleteautocare.com/*/VisitorAPI.js$script,~third-party
 @@||flightapi.travix.com/flight$xmlhttprequest,domain=cheaptickets.nl|vayama.com
 @@||flightradar24.com/static/*/statistics.js$script,~third-party
