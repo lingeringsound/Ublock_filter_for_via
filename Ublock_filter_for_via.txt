@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: rpkTHE8I7fnfarl/90gvBA
-! Title: Ublock filter for Via(2025-05-02 00:14:38)
-! Version: 20250502001438
+! Checksum: N6hUDEb28JmF4THTmHxJ2Q
+! Title: Ublock filter for Via(2025-05-02 08:55:27)
+! Version: 20250502085527
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-02 00:14:38
-! Total Count: 14572
-! Blocked Filters: 14572
+! Last modified: 2025-05-02 08:55:27
+! Total Count: 14575
+! Blocked Filters: 14575
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6375
+!<<<<<域名规则>>>>>6378
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4971,6 +4971,7 @@
 ||simplebits.io/ads/
 ||simplebits.io/sh/ads/
 ||simpletraffic.co^$third-party
+||simptown.su/api/juice/all
 ||sinder8.com^
 ||singles50.jp^
 ||sirokataldea.com^
@@ -5194,6 +5195,7 @@
 ||steamcommunlyt.com^
 ||steamcomuniry.com^
 ||steamcomunutty.com^
+||steamecommurnity.cfd^
 ||steamfiller.ru^
 ||steamrip.click^
 ||steamtopup.ru^
@@ -5945,6 +5947,7 @@
 ||vroom24365.com^
 ||vuabem.com^
 ||vugpakba.com^
+||vulnerableimmigrateaboveaverage.com^
 ||vutipseethu.net^
 ||vutkaqlakbp.com^
 ||vuwomoby.pro^
@@ -8890,7 +8893,7 @@ katmoviehd.*###sidebar > #custom_html-6
 kavgle.com##[href^="https://go.vrbangers.com/"], [href^="https://asiafriendfinder.com/"]
 kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
 kbconlinegame.com,hamrojaagir.com,odijob.com###my-btn, #pro-continue, #pro-link:others()
-kdramasmaza.com.pk##a[href*="?key="][target="_blank"]
+kdramasmaza.com.pk,series9movies.com##a[href*="?key="][target="_blank"]
 kelasexcel.id##.sacret-share
 kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
