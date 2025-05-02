@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: N6hUDEb28JmF4THTmHxJ2Q
-! Title: Ublock filter for Via(2025-05-02 08:55:27)
-! Version: 20250502085527
+! Checksum: Y1D+uM9ZnAB1gRDvxJoCAw
+! Title: Ublock filter for Via(2025-05-03 00:14:08)
+! Version: 20250503001408
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-02 08:55:27
-! Total Count: 14575
-! Blocked Filters: 14575
+! Last modified: 2025-05-03 00:14:08
+! Total Count: 14579
+! Blocked Filters: 14579
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6378
+!<<<<<域名规则>>>>>6379
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3984,6 +3984,7 @@
 ||ocbcccreonline.com^
 ||od.atami.no/one_drive.html
 ||odinvzc.azureedge.net/apc/trans.gif
+||odorfulapheses.com^
 ||oeffentlicher-dienst.info/_inc/fallback_
 ||oetsont.com^
 ||ofereome.com^
@@ -6392,7 +6393,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5129
+!<<<<<网站单独规则>>>>>5130
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -11451,6 +11452,7 @@ xup.in##div[style="width:300px;height:250px;position:relative;overflow:hidden;"]
 xup.in##div[style="width:728px; overflow:hidden; height:90px;"]
 xup.in##fieldset#option:nth-of-type(1) > [href^="https://www.xup.in/blog/"]
 xvideo.party##.pride.dump
+xvideos.com##a[href*="/go.php?"][href*="&ad="]
 xvideosxporn.com##[href*="bawafx.com/"]
 xxx-image.com##.footer-container
 xxxporns.org##.adBlock
@@ -11524,7 +11526,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>700
+!<<<<<通配符规则>>>>>702
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12080,6 +12082,7 @@ $script,domain=zdnet.fr,third-party
 /utx?tid=$xmlhttprequest,third-party
 /vast-im.js$script
 /vast-new/src/videojs-preroll.js$script
+/vast.php?idzone=
 /vast/?zid=$xmlhttprequest,third-party
 /verify-captcha-v*.html^
 /verify-human-recaptcha.html^
@@ -12159,6 +12162,7 @@ $script,domain=zdnet.fr,third-party
 ://a.*/warpim?id=$script,third-party
 ://api.*/lib/native.wasm$third-party
 ://backcb.one^
+://booking.*.com/sign-in?op_token=
 ://cdn.*.com/renderer/renderer.js|$script,third-party
 ://cdn.*.com/vast2.js|$third-party
 ://click-v4.*.com/click?
