@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Y1D+uM9ZnAB1gRDvxJoCAw
-! Title: Ublock filter for Via(2025-05-03 00:14:08)
-! Version: 20250503001408
+! Checksum: 8ZbTl50LBd92zNtOuv+liw
+! Title: Ublock filter for Via(2025-05-03 08:55:29)
+! Version: 20250503085529
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-03 00:14:08
-! Total Count: 14579
-! Blocked Filters: 14579
+! Last modified: 2025-05-03 08:55:29
+! Total Count: 14584
+! Blocked Filters: 14584
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6379
+!<<<<<域名规则>>>>>6383
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -624,6 +624,7 @@
 ||azbzcz.com^
 ||azureus.es^
 ||b-7.jp^
+||b-cdn.net/Mac*/?phone=
 ||b-cdn.net/Recap-v*.html^
 ||b-cdn.net/get-this-puzzle-solved.html^
 ||b-cdn.net/human-verify-system.html
@@ -1468,6 +1469,7 @@
 ||daisukimatch.jp^
 ||dalabuso.com^
 ||dalobatter.com^
+||damoh.welect.de^
 ||dancewave.online/js/dwab.js$script,~third-party
 ||dandelion-horsetail.work^
 ||daotag.com/tag/$script,domain=exploader.net
@@ -3238,6 +3240,7 @@
 ||lien-lienam.com^
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
+||ligheechoagool.com^
 ||light678o.fun^
 ||lightboxcdn.com/*/digibox.gif?
 ||lightboxcdn.com/*/jsonp/z?
@@ -4103,6 +4106,7 @@
 ||otonanojikan13579.net^
 ||otonanona.jp^
 ||otonatime.net^
+||ouchoamsulrey.com^
 ||ouo.*/js/jbitly.js$script,~third-party
 ||ouo.*/js/webpush.ma.js$script,~third-party
 ||ouo.*/sw$script,~third-party
@@ -6393,7 +6397,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5130
+!<<<<<网站单独规则>>>>>5131
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6555,7 +6559,7 @@ $script,domain=zdnet.fr,third-party
 69games.xxx##[id^="center"] .I:has(> [class=""][href])
 69games.xxx,gamcore.com###tvnotice
 69games.xxx,go.pointlinks.in,v2links.me###footer
-6hiidude.gold##p > a[href*="/4/"][target="_blank"]
+6hiidude.gold,sabishares.com##p > a[href*="/4/"][target="_blank"]
 720pstream.*,embedsports.me,embedstream.me,jumbtv.com,reliabletv.me##.bg-dark.position-absolute
 7movierulzfree.*##.display\:none\;\"hd-buttons\"
 7moviesrulz.com,movierulzfree.*,movierulzs.*##.hd-buttons
@@ -9487,6 +9491,7 @@ netfapx.com##[id^="ads-position"]
 netflav.com##.video_iframe_overlay_absolute_background_container
 netmovies.to###iframe[src^="about:blank"]
 netmovies.to##.advertising-link
+netnaijas.com,sabishares.com##div[class="code-block code-block-4"][style="margin: 8px 0; clear: both;"]
 netpornix.*###videoadsid
 netpornix.*##.videoads
 netu.*###qdiv
