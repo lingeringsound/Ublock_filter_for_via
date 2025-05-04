@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1fZ2aGmu8BjXpeb1AOJO2g
-! Title: Ublock filter for Via(2025-05-04 00:12:53)
-! Version: 20250504001253
+! Checksum: gLAFV0iYH9o6uq7pic2/Ww
+! Title: Ublock filter for Via(2025-05-04 09:01:40)
+! Version: 20250504090140
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-04 00:12:53
-! Total Count: 14611
-! Blocked Filters: 14611
+! Last modified: 2025-05-04 09:01:40
+! Total Count: 14617
+! Blocked Filters: 14617
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6405
+!<<<<<域名规则>>>>>6411
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -580,6 +580,7 @@
 ||atropinestatuarylandleaper.com^
 ||att-currently-*.weeblysite.com^
 ||att5h6.wixsite.com^
+||attainthreatfluffy.com^
 ||attonlineservice*.wixstudio.com^
 ||attorney.homeloanis.com/safe
 ||attractivecutiewcx.com^
@@ -1603,6 +1604,7 @@
 ||digiseller.ru^$third-party,domain=leechall.com
 ||digital-mail.jp^
 ||digitalxnetwork.com^
+||digresssloked.com^
 ||diligentcloset.com^
 ||dinosaur-crown.com^
 ||direct-link.net^$xmlhttprequest,~third-party
@@ -1767,6 +1769,7 @@
 ||ecoedgeinnovations.xyz^
 ||ecommrce-web-amazon.netlify.app^
 ||ecotrackings.com^$third-party
+||ecrvysupbqcnb.top^
 ||ecuelleribose.com^
 ||ed-blissful.com^
 ||edeetion.com^
@@ -1859,6 +1862,7 @@
 ||eroticity.net/clientscript/poptrigger_
 ||errorordufhwe.s3.ap-south-1.amazonaws.com^
 ||ersties.com^$third-party
+||erwksojkxxlff.icu^
 ||espleestrick.com^
 ||essence-one.net^
 ||est-host.com/promo/$image
@@ -1875,6 +1879,7 @@
 ||ets2.gr^
 ||eujsiyajep.niigata.jp^
 ||eunssiatel.tech^
+||euphonefiar.com^
 ||euromaillinnk.com^
 ||europixhd.net/js/propadbl_epxhd.js$script,~third-party
 ||eurowebmonitortool.com^
@@ -4811,6 +4816,7 @@
 ||sachikru5.com^
 ||sachikru7.com^
 ||sachikru8.com^
+||sacksgulleys.com^
 ||sacolamobile.influenciadormagalu.com.br^
 ||saddlegirls.com/saddlegirls/ph/v/*_video.mp4$~third-party
 ||safelinkconverter.com^$script,third-party
@@ -6593,7 +6599,7 @@ $script,domain=zdnet.fr,third-party
 88z.io##body > iframe[style^="left: 0px; bottom:"]
 8muses.com###content > div > .gallery > a.t-hover.c-tile:has(iframe[src^="/banner/"])
 8muses.com##.a-image
-8muses.com,anoboy.*,filma24.*,latesthdmovies.*,netpornix.*,nsw2u.*,teamos-hkrg.com##[href^="https://bit.ly/"]
+8muses.com,anoboy.*,filma24.*,latesthdmovies.*,netpornix.*,nflbuddy.net,nsw2u.*,teamos-hkrg.com##[href^="https://bit.ly/"]
 9alami.info##.site-wrapper + div[id][class]
 9animetv.to##[href^="//keefeezo.net/"]
 9hentai.*,aliezstream.pro,apl152.me,apl284.me,apl306.me,apl323.me,apl332.me,apl341.me,apl348.me,emb.apl236.me,emb.x179759.apl123.me,emb.x187106.apl152.me,kiddyearner.com,pelisplusgo.*,pelisplusxd.*,redpornblog.com,repelisgoo.*,repelisgooo.*,repelisgt.*,repelisxd.*,roms-download.com,roms-hub.com,torpedogratis.org###ads
