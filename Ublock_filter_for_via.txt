@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: gLAFV0iYH9o6uq7pic2/Ww
-! Title: Ublock filter for Via(2025-05-04 09:01:40)
-! Version: 20250504090140
+! Checksum: ZRYXFwm98TBmdsiMmxTqyQ
+! Title: Ublock filter for Via(2025-05-05 00:12:45)
+! Version: 20250505001245
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-04 09:01:40
-! Total Count: 14617
-! Blocked Filters: 14617
+! Last modified: 2025-05-05 00:12:45
+! Total Count: 14620
+! Blocked Filters: 14620
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6411
+!<<<<<域名规则>>>>>6413
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -287,6 +287,7 @@
 ||afflatus.consulting/deutschepost/
 ||affluentarmyequator.com^
 ||afiletoget.click^
+||afireraptril.com^
 ||after-7.net^
 ||after-noon.jp^
 ||after-pop-abc.com^
@@ -3894,6 +3895,7 @@
 ||ndinast.com^
 ||ndpxzxyqpwcnz.click^
 ||near-s.com^
+||nearbyasquare.com^
 ||needgayporn.com/ohs-180x800.gif
 ||needntrusts.com^
 ||neighborhoodsluts.com^
@@ -6425,7 +6427,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5134
+!<<<<<网站单独规则>>>>>5135
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7779,6 +7781,7 @@ eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.wdt-taboola
 eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##div[class="news-card col4"]
 ekstrabladet.dk##.eb-placement
 elahmad.com###ad_asd
+elahmad.com##div[id^="ads"]
 elamigos-games.com,elamigos-games.net,elamigosgames.org##.iframeDiv
 elamigos-games.com,elamigos-games.net,elamigosgames.org,zona-leros.net##.content_store
 elamigosgames.org##.store_text
@@ -8604,6 +8607,7 @@ honeyhunterworld.com##div[class*="ad_"]
 hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
 horriblesubs.info##[class*="sponsor"]
 host-buzz.com,insmyst.com,wp2host.com,blogtechh.com,lnbz.la,techbixby.com,blogmyst.com##[class*="category-"], .td-pb-border-top, .td-footer-bottom-full.td-container, .td-container-wrap.td-sub-footer-container
+hosttbuzz.com,policiesreview.com###getnewlink, .wp2continuelink, .getmylink, #newtimer:others()
 hotabis.com##[href^="https://axiadata.co.id"]
 hotbabeswanted.com,nakedbabes.club##.deskbanner
 hotmovs.*##.block_label--last + div[class]
@@ -9860,7 +9864,6 @@ pogo.com##[class*="gameSkyscraperAd"]
 pogo.com##[class*="gameTopAd"]
 poki.*##div[class*="_AdvertisementContainer"]
 poki.com##div[class]:has(> div > div[style*="height"][style*="width"][style$="px; overflow: hidden;"] > [id*="_gp_"])
-policiesreview.com###getnewlink, .wp2continuelink, .getmylink, #newtimer:others()
 politicalcowboy.com##.dsk-box-ad-a
 politicalcowboy.com##.dsk-box-ad-e
 politico.com##.gallery-carousel-ad
