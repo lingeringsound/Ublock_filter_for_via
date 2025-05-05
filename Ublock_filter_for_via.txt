@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ZRYXFwm98TBmdsiMmxTqyQ
-! Title: Ublock filter for Via(2025-05-05 00:12:45)
-! Version: 20250505001245
+! Checksum: aisBWNcVPd2bmwBPeXF6Qg
+! Title: Ublock filter for Via(2025-05-05 08:58:21)
+! Version: 20250505085821
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-05 00:12:45
-! Total Count: 14620
-! Blocked Filters: 14620
+! Last modified: 2025-05-05 08:58:21
+! Total Count: 14622
+! Blocked Filters: 14622
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6427,7 +6427,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5135
+!<<<<<网站单独规则>>>>>5136
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7391,6 +7391,7 @@ classicpornbest.com##.h-bns-bl
 classicreload.com##.content-top-wrapper
 clickscoin.com##.d-sm-block.d-none
 clickscoin.com##a[href^="https://albeitinflame.com/"]
+client.falixnodes.net###takeover[style="min-height: 250px;"]
 client.pylexnodes.net##.ad-banner-square
 clik.pw,oko.sh,short.pe,uii.io##a[href^="https://href.li/"]
 clik.pw,short.pe,shurt.pw,uii.io##body > div[style]:has(input[type="button"])
@@ -12538,7 +12539,7 @@ thepiratebay3.com^
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2105
+!<<<<<放行白名单>>>>>2106
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13933,6 +13934,7 @@ thepiratebay3.com^
 @@||schwaebische.de/*/ad$script,~third-party
 @@||scrapbox.io^$xmlhttprequest,~third-party
 @@||script.ioam.de/iam.js$script,domain=joyn.de|tagesspiegel.de
+@@||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 @@||scripts.repubblica.it/$script,domain=gelocal.it
 @@||scriptsoup.nx.tc/prebid.js$script
 @@||scws.xyz^$xmlhttprequest,domain=streamingcommunity.*
