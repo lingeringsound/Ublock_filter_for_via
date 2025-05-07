@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OVp/zAxWU59pQmh0ItFEyQ
-! Title: Ublock filter for Via(2025-05-07 08:56:02)
-! Version: 20250507085602
+! Checksum: 4/3HP40cFrbq+unwxC4F0A
+! Title: Ublock filter for Via(2025-05-08 00:14:57)
+! Version: 20250508001457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-07 08:56:02
-! Total Count: 14816
-! Blocked Filters: 14816
+! Last modified: 2025-05-08 00:14:57
+! Total Count: 14819
+! Blocked Filters: 14819
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6533,7 +6533,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5179
+!<<<<<网站单独规则>>>>>5181
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7904,6 +7904,7 @@ electricaltechnology.org###stream-item-widget-2
 electricaltechnology.org###stream-item-widget-7
 elektroda.de,elektroda.com##div[style="min-height: 265px;"]:has(> div[class] > .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elektroda.de,elektroda.com##section[class]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
+elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads="])
 elektroda.pl##div[class]:has(> a.fancy-lnk[href*="utm_campaign="])
 elektroda.pl,elektroda.com,elektroda.de##div[id]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
@@ -8265,6 +8266,7 @@ freevpn.us##.myTestAd
 freevpn4you.net##*:has(> .adsbygoogle)
 freevstplugins.net##.advert-wrap
 freewatchserialonline.com##[data-zone]
+freex2line.online##a[href*="/jump/next.php?r="]
 freex2line.online##body >a[id][href][target^="_blank"]
 freexcafe.com###join
 freexcafe.com###rightcolumn
@@ -12731,7 +12733,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2108
+!<<<<<放行白名单>>>>>2109
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14644,6 +14646,7 @@ dpp.org.tw#@#.ad_url
 druckerchannel.de#@##DCGA_CONTAINER
 dudestream.com,squirtplus.com#@#.adsBanner
 ekitan.com,kissanadu.com#@#.sidebar-ad:not(.adsbygoogle)
+elektroda.pl#@#.advert
 elektroda.pl,meetdownload.com,plutomovies.com,waploaded.com#@#.ad-slot:not(.adsbox):not(.adsbygoogle)
 empflix.com#@##hideAd
 energy.de#@##ad_home
