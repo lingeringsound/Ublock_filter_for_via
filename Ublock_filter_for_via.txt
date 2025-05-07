@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lKOX4Ywd8xxO6i/kLDnaDw
-! Title: Ublock filter for Via(2025-05-07 00:13:57)
-! Version: 20250507001357
+! Checksum: OVp/zAxWU59pQmh0ItFEyQ
+! Title: Ublock filter for Via(2025-05-07 08:56:02)
+! Version: 20250507085602
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-07 00:13:57
-! Total Count: 14793
-! Blocked Filters: 14793
+! Last modified: 2025-05-07 08:56:02
+! Total Count: 14816
+! Blocked Filters: 14816
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6499
+!<<<<<域名规则>>>>>6519
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -181,6 +181,7 @@
 ||abusive-isolate.com^
 ||accbing.com^
 ||accept.bar^
+||acceptguide.com^
 ||accord-adoration.com^
 ||accordo.it/cloud-assets/x/sfondi/
 ||accuradio.com/sweeper/json/fetch/$xmlhttprequest
@@ -792,6 +793,7 @@
 ||bitcotasks.com//files/banners/banner-
 ||bitfly.io/js/nt.js
 ||bitfun.co^$third-party
+||bitgetnextlevel666.com^
 ||bithow.com^
 ||bitlk.com^$third-party
 ||bitporno.to/popup18.js
@@ -1335,6 +1337,7 @@
 ||coupletalk2024.com^
 ||coursecopy.com^
 ||coursera.org/*/eventing/
+||covert-messaging.com^
 ||cpanel12wh.bkk1.cloud.z.com^
 ||cpd.ipllo4ys.com^
 ||cpeciadogfoods.com^
@@ -1583,6 +1586,7 @@
 ||desiremovies.*/sw.js$script,~third-party
 ||desk-dictionary.com^
 ||desktopnexus.com/pb-ads/
+||destined-meeting.com^
 ||destinyholy.net^
 ||destisheem.com^
 ||desynlabtech.com^
@@ -1639,6 +1643,7 @@
 ||discordoauthverification.onrender.com^
 ||discordvip.createsocialcard.top^
 ||discount.s3blog.org^
+||discreet-discussions.com^
 ||dismay-sacred.com^
 ||displayoptoffers.com^
 ||disproveknob.com^
@@ -2238,6 +2243,7 @@
 ||fuckmore.com^
 ||fucktube4k.com/wp-content/uploads/*porn4k-banner.png$image,~third-party
 ||fueltypebel.info^
+||fukucenter.com^
 ||fukugyou2022.net^
 ||fukuinnnokotoba.com^
 ||fukukomachi-220513.com^
@@ -2402,6 +2408,7 @@
 ||glitter-girls.net^
 ||gll.metricaga.com^
 ||global-riward77.com^
+||global-ttalk.jp^
 ||globalgrainsadf.com^
 ||globalreward77.com^
 ||glocmaift.net^
@@ -2454,6 +2461,7 @@
 ||gomovies.*/sw.js$script,~third-party
 ||gonakedowing.com^
 ||goneleft.com^
+||good.toll.trave-talk.jp^
 ||googie-anaiytics.com^
 ||google-analyticals.com^
 ||google-analytics.com^$xmlhttprequest,domain=japscan.lol
@@ -2717,6 +2725,7 @@
 ||horlzonhub.com^
 ||hornydateclub.link^
 ||hornygirlsinapp.com^
+||hornyhill.se/uploads/assets/js/pload.php
 ||hornysmart.link^
 ||hoshi-no-michibiki.com^
 ||hoshi-no-michibiki.jp^
@@ -3331,6 +3340,7 @@
 ||linksprf.com^$third-party
 ||linkvertise.net^$third-party
 ||liq27qbf.monster^
+||listenedarsonproceedings.com^
 ||litaudrootsa.net^
 ||litlink.site^
 ||live-metasupport.com^
@@ -3427,6 +3437,11 @@
 ||luckypatcherwin.com^$domain=~luckypatchers.com
 ||luckywinner-web1.com^
 ||lum-i0e0r0e.com^
+||luminous-encounter.biz^
+||luminous-encounter.com^
+||luminous-encounter.info^
+||luminous-encounter.net^
+||luminous-encounter.org^
 ||luna-ria.jp^
 ||luna-t.net^
 ||luofinality.com^
@@ -5050,6 +5065,7 @@
 ||signature-rho.vercel.app^
 ||signingn.com^
 ||signup-amazon.com^
+||silent-messaging.com^
 ||silversex.com^
 ||simonzody.com^
 ||simplebits.io/ads/
@@ -5524,6 +5540,7 @@
 ||tenderlybatch.com^
 ||tendermeetonline.com^
 ||tendermeets.com^
+||teninorashinban.com^
 ||tenkeifa.com^
 ||tenkeiya.com^
 ||tenkeiza.com^
@@ -5831,6 +5848,7 @@
 ||unblocked.name/zpp/*$script,domain=unblocked.name
 ||unbrick.id^$third-party
 ||uncotorture.com^
+||undercover-chats.com^
 ||undianhadiah.erhinfo.com^
 ||unetbootin.net^
 ||unetbootin.org^
@@ -6116,7 +6134,9 @@
 ||web.core.windows.net*/js/leave.js
 ||web.core.windows.net*/js/mouse.js
 ||web.core.windows.net/?zpbid=
+||web.core.windows.net/beep.mp3
 ||web.core.windows.net/chrmac/index.html
+||web.core.windows.net/eng.mp3
 ||web.core.windows.net/haruto.js
 ||web.core.windows.net/itsuki.js
 ||web.core.windows.net/js/full.js
@@ -6513,7 +6533,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5176
+!<<<<<网站单独规则>>>>>5179
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8704,6 +8724,9 @@ homeairquality.org##.ezo_ad
 homemoviestube.com##.film-aside-ads
 honeyhunterworld.com##div[class*="ad_"]
 hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
+hornyhill.se###adblock-dialog
+hornyhill.se##.card:has(> center:only-child > .adContainer)
+hornyhill.se##div[class="col-6 col-md-4 col-lg-3 col-xl-2 px-5"]:has([data-zoneid])
 horriblesubs.info##[class*="sponsor"]
 host-buzz.com,insmyst.com,wp2host.com,blogtechh.com,lnbz.la,techbixby.com,blogmyst.com##[class*="category-"], .td-pb-border-top, .td-footer-bottom-full.td-container, .td-container-wrap.td-sub-footer-container
 hosttbuzz.com,policiesreview.com###getnewlink, .wp2continuelink, .getmylink, #newtimer:others()
