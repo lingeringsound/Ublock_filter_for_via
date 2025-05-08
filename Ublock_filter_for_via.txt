@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 4/3HP40cFrbq+unwxC4F0A
-! Title: Ublock filter for Via(2025-05-08 00:14:57)
-! Version: 20250508001457
+! Checksum: rzy+u6S4JO/RI5t9lo5QMw
+! Title: Ublock filter for Via(2025-05-08 08:56:19)
+! Version: 20250508085619
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-08 00:14:57
-! Total Count: 14819
-! Blocked Filters: 14819
+! Last modified: 2025-05-08 08:56:19
+! Total Count: 14820
+! Blocked Filters: 14820
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6519
+!<<<<<域名规则>>>>>6520
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4044,6 +4044,7 @@
 ||nudismteens.com/tensnuddy.js
 ||nuide.net^
 ||nuts.sugar1105.com^
+||nuzostgcylun.com^
 ||nvxcvyfedg.com^
 ||nwberjyhruvqxswo-qxwne.com^
 ||nwch.az-cdn.ch^$script,domain=solothurnerzeitung.ch
@@ -7934,7 +7935,7 @@ empflix.com##.padAdvx
 empflix.com,tnaflix.com##.lastLiAvx
 empire-anime.*,empire-stream.*,empire-streaming.*,empire-streamz.*##.direct-lads
 empire-anime.*,empire-streaming.*,empire-anime.com,empire-streamz.fr,empire-stream.*##.direct-lads
-emturbovid.com,streamsilk.com##.div_pop
+emturbovid.com,streamsilk.com,turbovid.xyz##.div_pop
 emuenzen.de##a[href*="sjv.io"]
 emulatorgames.net##[class*="-label"]
 en.financerites.com##form:others()
