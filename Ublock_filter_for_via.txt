@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: rzy+u6S4JO/RI5t9lo5QMw
-! Title: Ublock filter for Via(2025-05-08 08:56:19)
-! Version: 20250508085619
+! Checksum: 6COTeegkXWLLoo8YB3AZgg
+! Title: Ublock filter for Via(2025-05-09 00:14:46)
+! Version: 20250509001446
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-08 08:56:19
-! Total Count: 14820
-! Blocked Filters: 14820
+! Last modified: 2025-05-09 00:14:46
+! Total Count: 14827
+! Blocked Filters: 14827
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6520
+!<<<<<域名规则>>>>>6524
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1316,6 +1316,8 @@
 ||core.windows.net/js/full.js
 ||core.windows.net/js/lvs.js
 ||core.windows.net/js/muse.js
+||core.windows.net/js/script2.js
+||core.windows.net/js/script3.js
 ||core.windows.net/js/script5.js
 ||core.windows.net/js/script6.js
 ||core.windows.net/js/script7.js
@@ -2320,6 +2322,7 @@
 ||gasenna.id.vn^
 ||gasenna.io.vn^
 ||gataterso.com^
+||gateway.us.zip.co/analytics^
 ||gator.volces.com/list$xmlhttprequest,method=post
 ||gaypornhot.com/wp-content/uploads/ountsvf.js
 ||gaypornrape.net/js/3LQkZfQVN7mWARVbozLgE.js
@@ -4251,6 +4254,7 @@
 ||pages.dev/js/nvidia.js
 ||pages.dev/media/alert.mp3
 ||pages.dev/nvidia.js
+||pages.dev/robots.txt
 ||pages.dev/smart89/
 ||pages.dev/yaketsuku.mp3
 ||paie-locli.com^
@@ -6534,7 +6538,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5181
+!<<<<<网站单独规则>>>>>5183
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9640,6 +9644,8 @@ nanoreview.net###gtfloats-sb-right
 nanoreview.net##.wisinad_only_desktop
 nationalgeographic.*##.ng-ad-banner
 nationalgeographic.*##.ngart__footer-ad
+nativesurge.top###adcashbanner
+nativesurge.top##button#dismiss-btn
 naturalnews.com##.Header
 naughtymachinima.com##.col-md-8 > a[href][target="_blank"]
 naukrilelo.in###tp98, #tp-generate, #tp-snp2, [src*="https://www.google.com/recaptcha"]:others()
@@ -12734,7 +12740,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2109
+!<<<<<放行白名单>>>>>2110
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13378,6 +13384,7 @@ voz.vn/b/image.gif?p=$image
 @@||decrypt.day^$xmlhttprequest,~third-party
 @@||delmarlearning.com^$~third-party,script
 @@||deploy.mopinion.com^$script,xmlhttprequest,domain=findmystreet.co.uk
+@@||dev.visualwebsiteoptimizer.com/cdn/edrv/$script,domain=searchengineland.com
 @@||dev.visualwebsiteoptimizer.com/j.php$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com/server-side/settings$xmlhttprequest,domain=dominos.co.in
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
