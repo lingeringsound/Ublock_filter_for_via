@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: I2CsD8ux6GTq/uUmLIYfog
-! Title: Ublock filter for Via(2025-05-09 08:55:53)
-! Version: 20250509085553
+! Checksum: RKZyDbxzNP5nu5I52RzmGA
+! Title: Ublock filter for Via(2025-05-10 00:14:13)
+! Version: 20250510001413
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-09 08:55:53
-! Total Count: 14831
-! Blocked Filters: 14831
+! Last modified: 2025-05-10 00:14:13
+! Total Count: 14845
+! Blocked Filters: 14845
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6526
+!<<<<<域名规则>>>>>6536
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -321,6 +321,9 @@
 ||air-bnb.check-
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/
 ||airsoftmilsimnews.com/wp-content/uploads/*BANNER$image,~third-party
+||airupfrance.fr^
+||airupgreece.net^
+||airupitaly.it^
 ||aitai.biz^
 ||aitoolnet.com^$image,domain=novelhall.com
 ||aitradx.com/js/$script,third-party
@@ -1259,7 +1262,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|flixhd.cc|fmoviesto.cc|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|mlbb.space|movieku.ink|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|webxzplay.cfd|yuppow.com
+||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|flixhd.cc|fmoviesto.cc|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watchf1full.com|webxzplay.cfd|yuppow.com
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -3546,6 +3549,7 @@
 ||manpuku-ja.com^
 ||manpuku-ja.jp^
 ||manta-network-v2.us^
+||marabase-bi.com^
 ||marchshotgun.com^
 ||marginz03nx1oe.jp^
 ||mariage-inc.com^
@@ -4169,10 +4173,13 @@
 ||optimizely.com^$domain=mindbodygreen.com
 ||orangeclickmedia.com/api/adserver/
 ||orawakle.com^
+||orca-slicer.
 ||orca-slicer.com^
+||orcaslicer.
 ||orcaslicer.co^
 ||orcaslicer.info^
 ||orcaslicer.net^
+||orcaslicers.com^
 ||order78916.live^
 ||orders-processed.com^
 ||org-earn.com^
@@ -4337,6 +4344,7 @@
 ||peachzone.site^
 ||peazip.com^
 ||pecuniatrck.com^
+||pekanbaru.one^
 ||pelastorl.com^
 ||pelispedia.*/*sw.js$script,~third-party
 ||penst-hap9p-chat.com^
@@ -5595,6 +5603,7 @@
 ||themagisk.com^
 ||thenorthfacegreece.com^
 ||theonlygames.com/ps_banner/
+||theorcaslicer.com^
 ||thepatrones.blob.core.windows.net^
 ||thermovitraffic.com.mx/SharepointFileProject/
 ||thesaurus.net/public/desktop/images/*grammarly$image,~third-party
@@ -6087,6 +6096,7 @@
 ||vroom24365.com^
 ||vuabem.com^
 ||vugpakba.com^
+||vugqkeanmhm.com^
 ||vulnerableimmigrateaboveaverage.com^
 ||vutipseethu.net^
 ||vutkaqlakbp.com^
@@ -6402,7 +6412,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|flixhd.cc|fmoviesto.cc|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|mlbb.space|movieku.ink|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|webxzplay.cfd|yuppow.com
+||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|flixhd.cc|fmoviesto.cc|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watchf1full.com|webxzplay.cfd|yuppow.com
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6540,7 +6550,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5185
+!<<<<<网站单独规则>>>>>5187
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7914,6 +7924,7 @@ elektroda.de,elektroda.com##section[class]:has(> .text-center > div[id^="div-gpt
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads="])
 elektroda.pl##div[class]:has(> a.fancy-lnk[href*="utm_campaign="])
+elektroda.pl##div[class]:has(> b > .fancy-new-lnk[rel="noopener"][target="_blank"])
 elektroda.pl,elektroda.com,elektroda.de##div[id]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elitepvpers.com##[href="https://skyredirect1.com/"]
 elitepvpers.com##[href="https://www.skycheats.com/"]
@@ -11242,6 +11253,7 @@ vibehubs.com##.code-block-4.code-block > [href]
 vibehubs.com##[href^="https://www.star-clicks.com/"]
 vid4up.*###aoverlay
 vidcloud.*###overlay-center
+vide-greniers.org###mnfDetail_adSenseHead
 videa.hu##.top-video-container-banner
 videakid.hu##.single-video-right-sidebar-ads
 video.sibnet.ru###vjs-overlayclip-box
@@ -11728,7 +11740,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>745
+!<<<<<通配符规则>>>>>746
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11784,6 +11796,7 @@ $script,domain=zdnet.fr,third-party
 */wp-content/themes/soledad/js/detector.js
 */zcvisitor/*?campaignid
 */|$xmlhttprequest,domain=fakestream.co.in
+*/|$xmlhttprequest,domain=moviesapi.to,third-party
 *banner$domain=beforeitsnews.com,image
 *preRoll$xmlhttprequest,domain=porngo.com
 -ez-pass.com^
@@ -12744,7 +12757,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2110
+!<<<<<放行白名单>>>>>2111
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14386,6 +14399,7 @@ voz.vn/b/image.gif?p=$image
 @@||toweroffantasy-global.com/events/accounttransfer/public/js/fingerprint.js$~third-party
 @@||townnews.com^*/tncms/*/ads/*/tnt.ads.adverts.$script
 @@||tpc.googlesyndication.com/daca_images/simgad/$domain=lover937.net
+@@||tpc.googlesyndication.com/pagead/js/*/elements/html/countdown_handler_fy2021.js$domain=safeframe.googlesyndication.com
 @@||tpc.googlesyndication.com/safeframe/*/container.html$other,domain=abola.pt
 @@||tpc.googlesyndication.com/simgad/$xmlhttprequest,domain=soranews24.com
 @@||tpc.googlesyndication.com/sodar/sodar2.js$script,domain=skmedix.pl
