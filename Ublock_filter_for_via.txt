@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 6COTeegkXWLLoo8YB3AZgg
-! Title: Ublock filter for Via(2025-05-09 00:14:46)
-! Version: 20250509001446
+! Checksum: I2CsD8ux6GTq/uUmLIYfog
+! Title: Ublock filter for Via(2025-05-09 08:55:53)
+! Version: 20250509085553
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-09 00:14:46
-! Total Count: 14827
-! Blocked Filters: 14827
+! Last modified: 2025-05-09 08:55:53
+! Total Count: 14831
+! Blocked Filters: 14831
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6524
+!<<<<<域名规则>>>>>6526
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1410,6 +1410,7 @@
 ||cucantoanthongtin24h.com^
 ||cuddle.koi-ba-na.com^
 ||cue-find.com^
+||culinar9sync.com^
 ||cumshots.com^
 ||cupid-chat.net^
 ||curalate.com/api/v1/metrics/
@@ -2307,6 +2308,7 @@
 ||gameportpc.ru^
 ||gamerplay*.space^$domain=hotmediahub.com|terabox.fun|fansonlinehub.com|teralink.me|terashare.me|teraearn.com
 ||games-blacksoft.com^
+||gameskinny.com/wp-json/navy/v*/tag?pid=
 ||gamezop.com^$domain=gplinks.*|uploadraja.com
 ||gamingaffiliation.com^$third-party
 ||gamingdebates.com^
@@ -6538,7 +6540,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5183
+!<<<<<网站单独规则>>>>>5185
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9732,6 +9734,8 @@ nudeof.com##div.happy-section
 nudeof.com##div[class^="d-none"]
 nudevista.link##.bnblog
 nudevista.link##.sidebar-bn
+nudogram.com##.super_button
+nudogram.com##.wp_xsize_class
 nukeruerodouga.com###main-right:has(> div.right_area > div.ninja-recommend-block)
 nuvid.*##.aside > h2
 nuvid.*##.download_adv_text_photo
