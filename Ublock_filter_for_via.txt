@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wCdnuAH7QOTH5Jmc861MYA
-! Title: Ublock filter for Via(2025-05-13 08:56:34)
-! Version: 20250513085634
+! Checksum: p/8I9mjfoSk7UKRYBIa4wA
+! Title: Ublock filter for Via(2025-05-14 00:15:57)
+! Version: 20250514001557
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-13 08:56:34
-! Total Count: 14879
-! Blocked Filters: 14879
+! Last modified: 2025-05-14 00:15:57
+! Total Count: 14881
+! Blocked Filters: 14881
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6561
+!<<<<<域名规则>>>>>6562
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1720,6 +1720,7 @@
 ||drcolomo.com^
 ||drct-match.com^
 ||drct-match.net^
+||drdosurvey.info^
 ||dream901o.fun^
 ||dreamatch.jp^
 ||drectsearch.com^
@@ -12790,7 +12791,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2112
+!<<<<<放行白名单>>>>>2113
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14337,6 +14338,7 @@ voz.vn/b/image.gif?p=$image
 @@||static.bbc.co.uk/radio/player/*/script/logger.js$script,domain=bbc.co.uk
 @@||static.chartbeat.com^$domain=repubblica.it
 @@||static.criteo.net/js/ld/publishertag.prebid.js|$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|webdesignledger.com
+@@||static.criteo.net^$image,domain=cimanow.cc|freex2line.online
 @@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=sportnews.to
 @@||static.goolive.de/media/static/images/smileys/ad.gif$image
 @@||static.iqiyi.com/js/player_v1/sdk/*$script,~third-party
