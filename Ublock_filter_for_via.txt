@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: p/8I9mjfoSk7UKRYBIa4wA
-! Title: Ublock filter for Via(2025-05-14 00:15:57)
-! Version: 20250514001557
+! Checksum: ZbT4R8pkBdGG3SKRRs/CRg
+! Title: Ublock filter for Via(2025-05-14 08:56:03)
+! Version: 20250514085604
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-14 00:15:57
-! Total Count: 14881
-! Blocked Filters: 14881
+! Last modified: 2025-05-14 08:56:04
+! Total Count: 14885
+! Blocked Filters: 14885
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6576,7 +6576,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5192
+!<<<<<网站单独规则>>>>>5196
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6730,6 +6730,7 @@ $script,domain=zdnet.fr,third-party
 5dwallpaper.com##.__fdw__adv-block
 5ggyan.com###sidebar1 > .HTML:has(> .widget-content > .adsbygoogle)
 5ggyan.com,redirect.dafontvn.com##.progress
+5masterzzz.site##body > div[style*="z-index:"]:not([id])
 5movies.*###cookiedata
 5movies.*##.btn-lg
 5movies.*##.streamaly
@@ -8196,8 +8197,11 @@ finanzas-vida.com##[href="https://zplayer.live/"]
 finanzen.*###adup1
 finanzen.*###bs_abstand
 finanzen.net##.background-color-info:has(.ad-hint)
+finanzen.net##.edge:has(> .ad-hint)
 finanzen.net##.page-content__ad
+finanzen.net##.page-content__item--space:has(> [data-widget-id]:empty:first-child + script:last-child)
 finanzen.net##.pull-right.img-responsive
+finanzen.net##span.ad-hint
 finchtechie.com###btnhide
 finchtechie.com###verify_button2
 findwords.info##.ads-block-horizontal
@@ -12357,7 +12361,7 @@ $script,domain=zdnet.fr,third-party
 /vpn/adult/*/index.html?*p1=
 /vpnupdate/*/index.html?*p1=
 /vppdzdrw.js
-/vtu_*.js$script,domain=vtbe.*|vtube.to|vtube.network|vtplay.net|vtplayer.net
+/vtu_*.js$script,domain=vtbe.*|vtplay.net|vtplayer.net|vtube.network|vtube.to
 /watchbutton11.png$image
 /wcm/?sh=$script,third-party
 /webroot/modern_theme/img/dwndbnr*$image,~third-party
@@ -13114,7 +13118,7 @@ voz.vn/b/image.gif?p=$image
 @@||asianbookie.com^$script,~third-party
 @@||asianclub.*/asset/default/player/plugins/vast$script,~third-party
 @@||asset.fwcdn2.com/js/storyblock.js$script,domain=narcity.com
-@@||assets.adobedtm.com/*-source.min.js$script,domain=chegg.com
+@@||assets.adobedtm.com/*-source.min.js$script,domain=chegg.com|developer.arm.com
 @@||assets.adobedtm.com/*-source.min.js^$script,domain=bjs.com
 @@||assets.adobedtm.com/*.js$script,domain=accounts.o2.co.uk
 @@||assets.adobedtm.com/*/satelliteLib-$script,domain=chegg.com|mitelcel.com
