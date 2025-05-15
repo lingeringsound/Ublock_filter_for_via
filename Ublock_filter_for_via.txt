@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 3ciYZd7YBx/doAzWpjR34w
-! Title: Ublock filter for Via(2025-05-15 00:14:46)
-! Version: 20250515001446
+! Checksum: KqCn/iAehieRN99aIAxtew
+! Title: Ublock filter for Via(2025-05-15 08:54:51)
+! Version: 20250515085451
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-15 00:14:46
-! Total Count: 14888
-! Blocked Filters: 14888
+! Last modified: 2025-05-15 08:54:51
+! Total Count: 14895
+! Blocked Filters: 14895
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6564
+!<<<<<域名规则>>>>>6569
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -40,6 +40,7 @@
 ||111.90.150.149/wp-content/uploads/*.gif$image,~third-party
 ||111.90.159.132/*.gif$image
 ||1111sale.us^
+||111movies.com/ad2.js
 ||11steam.com^
 ||123456789login.weebly.com^
 ||123link.*/push/
@@ -1265,7 +1266,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
+||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -2800,6 +2801,7 @@
 ||humilityslammedslowing.com^
 ||humpbuds.com^
 ||hushemail.net^
+||huskilyvroom.com^
 ||huskinessimminentstylus.com^
 ||hvacpartstechnician.com^
 ||hxh.jp^
@@ -4827,6 +4829,7 @@
 ||rich-cash.fun^
 ||rich-cash.site^
 ||richheart.completelifetime.com^
+||richttirrit.com^
 ||ricopin.com^
 ||rigidconcrete.ca^
 ||rilenews.com^
@@ -6242,6 +6245,7 @@
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=jquery&skin=vector-2022&version$script,~third-party
 ||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=startup&only=scripts&raw=1&skin=|$script,~third-party
 ||wiki.yjsnpi.nu^$script
+||wild-match-network.com^
 ||wildmeets.com^
 ||will-kantei.com^
 ||will-lucky-will.com^
@@ -6363,6 +6367,7 @@
 ||xbjav.com/asset/js/vast.js$script
 ||xcafe.com/js/initsite.js
 ||xceteu.com^
+||xcipwuoft.com^
 ||xclusivejams.*/sw.js$script
 ||xczzfvxknafgoawjtv.com^
 ||xdgeslibgbim.icu^popup
@@ -6439,7 +6444,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
+||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6578,7 +6583,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5196
+!<<<<<网站单独规则>>>>>5197
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6784,6 +6789,7 @@ a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
 a8ix.*,atishmkv.marathi.vip,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
+abcnews.go.com##.StickyAdWrapper
 abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
@@ -11777,7 +11783,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>750
+!<<<<<通配符规则>>>>>751
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11878,6 +11884,7 @@ $script,domain=zdnet.fr,third-party
 .com/r2.php?e=
 .com/static/full_combined2.js|$script,~third-party
 .com/static/new_popunder5.js|$script,~third-party
+.com/t6pp7e3?t=
 .com/v.js?v=3|$~third-party
 .customeriomail.com%2Fe%2Fo%2F$image
 .customeriomail.com/e/o/$image
