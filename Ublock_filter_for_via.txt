@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: KqCn/iAehieRN99aIAxtew
-! Title: Ublock filter for Via(2025-05-15 08:54:51)
-! Version: 20250515085451
+! Checksum: Mfv+nYB1VpueRTkELaoHaw
+! Title: Ublock filter for Via(2025-05-15 19:29:54)
+! Version: 20250515192954
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-15 08:54:51
-! Total Count: 14895
-! Blocked Filters: 14895
+! Last modified: 2025-05-15 19:29:54
+! Total Count: 14899
+! Blocked Filters: 14899
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6569
+!<<<<<域名规则>>>>>6573
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -953,6 +953,7 @@
 ||bydleni.com/dm/banner/$domain=bydleni.cz
 ||bylfg.org^
 ||bytesbazar.com^
+||bzyfzusiqohk.com^
 ||c-al-e1nder.com^
 ||c-y.jp^
 ||c.amazon-adsystem.com/aax2/apstag.js$script,domain=foxnews.com
@@ -1417,6 +1418,7 @@
 ||cucantoanthongtin24h.com^
 ||cuddle.koi-ba-na.com^
 ||cue-find.com^
+||culdeeunthrob.com^
 ||culinar9sync.com^
 ||cumshots.com^
 ||cupid-chat.net^
@@ -1725,6 +1727,7 @@
 ||drdosurvey.info^
 ||dream901o.fun^
 ||dreamatch.jp^
+||dreary-fuel.com^
 ||drectsearch.com^
 ||dressedunlessround.com^
 ||drg-mcre.com^
@@ -1997,6 +2000,7 @@
 ||f33d11b5.xyz^
 ||f8dt6.com^
 ||fab-inst.com^
+||fabricforrel.com^
 ||faceb00k.com.vn^
 ||facebock-page-center.com^
 ||facebooc.jp^
