@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: VW67zaRgqSG8nBQaNHFswQ
-! Title: Ublock filter for Via(2025-05-16 08:56:58)
-! Version: 20250516085658
+! Checksum: 4pQ8+atP1TSLRCOiMyQXKA
+! Title: Ublock filter for Via(2025-05-17 00:14:00)
+! Version: 20250517001400
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-16 08:56:58
-! Total Count: 14906
-! Blocked Filters: 14906
+! Last modified: 2025-05-17 00:14:00
+! Total Count: 14915
+! Blocked Filters: 14915
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6575
+!<<<<<域名规则>>>>>6581
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1692,6 +1692,7 @@
 ||domnovrek.com^$third-party
 ||donasi.lk21.de^
 ||dones9.wixsite.com^
+||donghocotatan.com^
 ||doo6pwib3qngu.cloudfront.net^
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
 ||door-donation.jp^
@@ -2413,6 +2414,7 @@
 ||girls.a-makeup.com^
 ||girlscanner.cc/check.php
 ||girlscanner.online/ph_co.js$script
+||girlslovesoulmate.com^
 ||girlslusts.com^
 ||girlsml.com^
 ||gitbook.com/v1/integrations/googleanalytics/
@@ -3670,7 +3672,9 @@
 ||meet-flirts.com^
 ||meet-up.jp^
 ||meetamate.site^
+||meetandlovenow.com^
 ||meetdatekiss.com^
+||meetfindlove.com^
 ||meetpie.net^
 ||meetshorny.link^
 ||meetsworldsm.link^
@@ -4179,6 +4183,7 @@
 ||ontrical.com^
 ||onvid.*/sw.js$script
 ||oo.opaall.com^
+||ooksamouth.net^
 ||oolontya.com^
 ||ooppnm.com^
 ||oorsoozo.top^
@@ -4331,6 +4336,7 @@
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partner.googleadservices.com/gampad/cookie.js?domain=$script,domain=anydebrid.com|hotdebrid.com
 ||partner.pcloud.com/media/banners/*300250.png
+||partnerlovestory.com^
 ||partners-show.com^
 ||partners-tds.com^
 ||partners2.das-onlinespiel.de^$third-party
@@ -6589,7 +6595,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5198
+!<<<<<网站单独规则>>>>>5200
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6781,6 +6787,7 @@ $script,domain=zdnet.fr,third-party
 ^s1=*&click_id=
 ^s=*&ssk=*&svar=*&z=
 ^s=*&z=*&svar=*&ssk=
+^svar=*&ssk=*&s=*&z=
 a-ads.com##.size300x250
 a-eroland.net,hhmanga.com,nyahentai.re##.__isboostReturnAd
 a-hentai.tv##.support-frame
@@ -10830,6 +10837,7 @@ stream2watch.*##.min-test
 stream2watch.*##p[style="color:white;"]
 stream4free.*###promo
 streamango.*###ad_buts
+streambolt.tv,strmbolt.com##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 streamfare.com##[id^="wb_AdText"]
 streamhub.*##center > a[href][target="_blank"]
 streamingcommunity.*##.slide-banner
@@ -11790,7 +11798,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>753
+!<<<<<通配符规则>>>>>754
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12503,6 +12511,7 @@ $script,domain=zdnet.fr,third-party
 ^s1=*&click_id=
 ^s=*&ssk=*&svar=*&z=
 ^s=*&z=*&svar=*&ssk=
+^svar=*&ssk=*&s=*&z=
 _ads.gif$image,domain=movies4u.*|xprime4u.*
 click.transactional.agoda.com$image
 delighted.com%2Fe%2F$image
