@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: xqs96MQGAEQcQ7JY7goU9w
-! Title: Ublock filter for Via(2025-05-16 00:14:55)
-! Version: 20250516001455
+! Checksum: VW67zaRgqSG8nBQaNHFswQ
+! Title: Ublock filter for Via(2025-05-16 08:56:58)
+! Version: 20250516085658
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-16 00:14:55
-! Total Count: 14900
-! Blocked Filters: 14900
+! Last modified: 2025-05-16 08:56:58
+! Total Count: 14906
+! Blocked Filters: 14906
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6574
+!<<<<<域名规则>>>>>6575
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1267,7 +1267,7 @@
 ||colorone.jp^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
+||com/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -2809,6 +2809,7 @@
 ||huskinessimminentstylus.com^
 ||hvacpartstechnician.com^
 ||hxh.jp^
+||hyadain.com^
 ||hyperilquid.org^
 ||hyperilquid.xyz-trade.com^
 ||hypixei.com^
@@ -6449,7 +6450,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
+||xyz/|$xmlhttprequest,third-party,method=head,domain=andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6588,7 +6589,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5197
+!<<<<<网站单独规则>>>>>5198
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7961,6 +7962,7 @@ electricaltechnology.org###stream-item-widget-2
 electricaltechnology.org###stream-item-widget-7
 elektroda.de,elektroda.com##div[style="min-height: 265px;"]:has(> div[class] > .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elektroda.de,elektroda.com##section[class]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
+elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads="])
 elektroda.pl##div[class]:has(> a.fancy-lnk[href*="utm_campaign="])
@@ -11788,7 +11790,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>751
+!<<<<<通配符规则>>>>>753
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12464,11 +12466,13 @@ $script,domain=zdnet.fr,third-party
 ://pianoencyclopedia.com/en/email/images/*/pix.gif$image
 ://pixel.patch.com/
 ://ply.*/?v=$image,third-party
+://qgxeqm.*/?
 ://rd.remove.bg/CI0/$image
 ://snl.patch.com/imp?$image
 ://static.adsugar.ch/img?ord=$image
 ://tlr.stripocdn.email/content/guids/$image
 ://vip.*/?pge=$image,third-party
+://vnwxkk.*/?
 ://voz.vn/b/image.gif?p=$image
 ://www.*.com/js/css/$script,xmlhttprequest,third-party
 ://www.wattpad.com/et?$image
@@ -12810,7 +12814,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2113
+!<<<<<放行白名单>>>>>2115
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13093,6 +13097,7 @@ voz.vn/b/image.gif?p=$image
 @@||api.aws.parking.godaddy.com/v1/parking/landers/$xmlhttprequest
 @@||api.calven.app/analytics/$xmlhttprequest,domain=calven.app|calven.com
 @@||api.coinmarketcap.com/$xmlhttprequest,domain=unblock.net
+@@||api.cxense.com/public/widget/data$script,domain=elconfidencial.com
 @@||api.cxense.com/public/widget/data$xmlhttprequest,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
 @@||api.cxense.com^$script,domain=tvaplus.ca
 @@||api.deep.bi/v3/init.js$script,domain=elconfidencial.com
@@ -13256,6 +13261,7 @@ voz.vn/b/image.gif?p=$image
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,~third-party
 @@||cdn.cookielaw.org/*/OtAutoBlock.js$script,xmlhttprequest,domain=html5.gamedistribution.com
 @@||cdn.cookielaw.org^$xmlhttprequest,domain=soundcloud.com
+@@||cdn.cxense.com/cx.$script,domain=elconfidencial.com
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl|tvaplus.ca
 @@||cdn.dqst.pl/assets/ads.js$xmlhttprequest,domain=tko.pl
 @@||cdn.dynamicyield.com/api/$script,domain=washingtonexaminer.com
