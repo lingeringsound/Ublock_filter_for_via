@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4pQ8+atP1TSLRCOiMyQXKA
-! Title: Ublock filter for Via(2025-05-17 00:14:00)
-! Version: 20250517001400
+! Checksum: rKIRkNK+NIFuLpoPx+GP6g
+! Title: Ublock filter for Via(2025-05-17 08:55:51)
+! Version: 20250517085551
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-17 00:14:00
-! Total Count: 14915
-! Blocked Filters: 14915
+! Last modified: 2025-05-17 08:55:51
+! Total Count: 14916
+! Blocked Filters: 14916
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -12823,7 +12823,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2115
+!<<<<<放行白名单>>>>>2116
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13102,6 +13102,7 @@ voz.vn/b/image.gif?p=$image
 @@||api-2-0.spot.im$xmlhttprequest,domain=electrek.co
 @@||api.adinplay.com/libs/aiptag/assets/adsbygoogle.js$xmlhttprequest,domain=lordz.io
 @@||api.adinplay.com/libs/aiptag/pub/LBS/littlebigsnake.com/tag.$script,domain=littlebigsnake.com
+@@||api.adinplay.com/v*/live/aip/ad-manager.js^$script,domain=geotastic.net
 @@||api.aws.parking.godaddy.com/*/domains/*$xmlhttprequest,third-party
 @@||api.aws.parking.godaddy.com/v1/parking/landers/$xmlhttprequest
 @@||api.calven.app/analytics/$xmlhttprequest,domain=calven.app|calven.com
