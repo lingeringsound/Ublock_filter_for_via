@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: DUmJNcJLfn8+r0wz2I902g
-! Title: Ublock filter for Via(2025-05-19 09:00:05)
-! Version: 20250519090005
+! Checksum: 1FNP+xpsXtarinaNiv8qLQ
+! Title: Ublock filter for Via(2025-05-20 00:15:12)
+! Version: 20250520001512
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-19 09:00:05
-! Total Count: 14960
-! Blocked Filters: 14960
+! Last modified: 2025-05-20 00:15:12
+! Total Count: 14964
+! Blocked Filters: 14964
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6615
+!<<<<<域名规则>>>>>6616
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -617,6 +617,7 @@
 ||augustboyby.com^
 ||aura-and-color.com^
 ||auraloads.com^
+||aurorastore.org^
 ||authority-uspser.top^
 ||authsignonstaff*.softr.app^
 ||auto-bild.de/_static-assets/homad/homad.js
@@ -6629,7 +6630,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5210
+!<<<<<网站单独规则>>>>>5213
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7704,6 +7705,9 @@ crockotube.com##div[class*="vision"]
 crockotube.com##div[class^="vis-"]
 crunchyroll.com###template_skin_leaderboard
 crunchyscan.fr##.col-sm-8.col-md-8.main-col > .c-sidebar
+cryptofaucet.club###lgl
+cryptofaucet.club##.op2
+cryptofaucet.club##div.cb[style="height: 50px;"]
 cryptonetos.ru##.carousel-inner
 cryptorank.io##tbody > tr:not(.init-scroll):has(a[href*="?"][target="_blank"])
 cryptorank.io##tr.sc-a321a998-0:not(.init-scroll)
