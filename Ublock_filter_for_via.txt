@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZTALyOMqMhu5AD5/tl9tLg
-! Title: Ublock filter for Via(2025-05-20 08:58:36)
-! Version: 20250520085836
+! Checksum: lHWalIn/oZWho0aLYv4Dow
+! Title: Ublock filter for Via(2025-05-21 00:15:25)
+! Version: 20250521001525
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-20 08:58:36
-! Total Count: 14965
-! Blocked Filters: 14965
+! Last modified: 2025-05-21 00:15:25
+! Total Count: 14983
+! Blocked Filters: 14983
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6616
+!<<<<<域名规则>>>>>6624
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -974,6 +974,7 @@
 ||calibre.it^
 ||call-chieftain.com^
 ||calm234o.fun^
+||calyxesdefames.com^
 ||cam/secured/host/*.php|$xmlhttprequest,third-party,domain=r2.dev
 ||camcaps.*/vsx.js
 ||camelot-ex.net^
@@ -1273,7 +1274,7 @@
 ||colossal-extension.com^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -1593,6 +1594,8 @@
 ||delivery-globaldhlauth.github.io^
 ||delivery.r2b2.cz^$third-party
 ||delivery.sexyxxx.biz^
+||deltaexecutor.io^
+||deltaexploits.com^
 ||dem94jfdmn3d.net^
 ||dembuon.vn/lib/flies/flier.js$script,domain=vinaurl.*
 ||dependsmoscow.com^
@@ -2085,6 +2088,7 @@
 ||febdd.info^
 ||fecebook.com^
 ||fedbuoy.com^
+||feddanseldom.com^
 ||fedexridn.com^
 ||feelfllirty.com^
 ||feet9.com/t/newbuttonyellow.png$image
@@ -3269,6 +3273,7 @@
 ||kousenkan.com^
 ||koy.jp^
 ||kraftonevent.com^
+||krx18.com/show-promote.js
 ||kryptografie.de/js/wb_dead.js
 ||ksds.jp^
 ||kswrkbdsejqpm.com^
@@ -4657,6 +4662,7 @@
 ||pugliain.net/wp-content/uploads/*.gif$image
 ||pulseapp-24x7-service.github.io^
 ||punemirror.com/api/v1$xmlhttprequest,~third-party
+||punishmentsupport.com^
 ||punosy.top^$third-party
 ||pupok.link^
 ||purpleiyvf.com^
@@ -5934,6 +5940,7 @@
 ||uncotorture.com^
 ||undercover-chats.com^
 ||undianhadiah.erhinfo.com^
+||undoneferocious.com^
 ||unetbootin.net^
 ||unetbootin.org^
 ||unhesiss.shop^
@@ -6281,6 +6288,7 @@
 ||wholenicefeed.com^
 ||whpbrmdss.com^
 ||wicket.pw/embeds/icc-cwc.png$image
+||widgets.trustedshops.com/reviews/tsSticker/*.gif?
 ||wifekai.net^
 ||wifi4games.com/sw.js$script,~third-party
 ||wiilberedmodels.com^
@@ -6491,7 +6499,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|xoxocomic.com|yuppow.com
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6630,7 +6638,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5214
+!<<<<<网站单独规则>>>>>5223
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7438,6 +7446,7 @@ buzz50.com##[href^="http://buzz50.co.uk/"]
 buzzheavier.com###unclear2
 buzzheavier.com###unlocker
 buzzheavier.com##button[onclick]
+buzzheavier.com##div.mx-auto.text-center > a[href][target="_blank"]
 bydleni.cz###clickLeft
 bydleni.cz###rightClick
 cablegratis.online###tme
@@ -11017,6 +11026,12 @@ theblockcrypto.com##.modal-bg
 thecartoonporntube.com###advertising [href]
 thecartoonporntube.com##[href="/go/tube.php"]
 thedailywtf.com##.article-body > div:has(a[href*="utm_medium"])
+thefappeningblog.com##.dogytop
+thefappeningblog.com##.textwidget > a[href][target="_blank"]:not([href*="thefappeningblog.com"])
+thefappeningblog.com##.wbar
+thefappeningblog.com##a[href="https://thefappeningbeta.com/a"]
+thefappeningblog.com##a[target="_blank"][href*="?"]:not([href*="thefappeningblog.com"])
+thefappeningblog.com##li.menu-item:has(> a[href][target="_blank"])
 thefastcode.com##div[id^="placeholder_"]
 thefmovies.*##.mobile-btn
 thegay.*##.content > div:not([class]) > .wrapper ~ div[class]:not(.wrapper)
@@ -11384,6 +11399,8 @@ vidoza.net##.simpleToast
 vidsrc.*###pop_asdf
 vidstreamz.online##.xad-wrapper
 vidup.*##.sponsored-container
+vimm.net###footerContainer
+vimm.net###headerAdContainerInline
 vinaurl.*###ads-notice
 vinaurl.*##.alert-danger
 vinaurl.*##[href^="https://dembuon.vn"]
@@ -12872,7 +12889,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2116
+!<<<<<放行白名单>>>>>2117
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14641,6 +14658,7 @@ voz.vn/b/image.gif?p=$image
 @@||widget.spoods.io/loader.js$script,domain=winfuture.de
 @@||widgets.outbrain.com/outbrain.js$script,domain=nypost.com|pagesix.com|welt.de
 @@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=animefire.info|animesonlinecc.us|animesonliner4.com|animesup.info|animeyabu.net|animeyabu.org|anitube.us|anitube.vip|caroloportunidades.com.br|cursomecanet.com|dattebayo-br.com|drstonebr.com|file4go.com|flyanimes.cloud|goanimes.vip|goyabu.us|hinatasoul.com|isekaibrasil.com|meuanime.info|otakuanimess.net|superanimes.in
+@@||widgets.trustedshops.com/reviews/tsSticker/$domain=sportnahrung-engel.de
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=codex-search-styles%2Cjquery%2Coojs%2*&skin=vector-2022&version=$script,~third-party
 @@||wiki.yjsnpi.nu/w/load.php?lang=ja&modules=ext.categoryTree$script,~third-party
