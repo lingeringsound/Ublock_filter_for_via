@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1FNP+xpsXtarinaNiv8qLQ
-! Title: Ublock filter for Via(2025-05-20 00:15:12)
-! Version: 20250520001512
+! Checksum: ZTALyOMqMhu5AD5/tl9tLg
+! Title: Ublock filter for Via(2025-05-20 08:58:36)
+! Version: 20250520085836
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-20 00:15:12
-! Total Count: 14964
-! Blocked Filters: 14964
+! Last modified: 2025-05-20 08:58:36
+! Total Count: 14965
+! Blocked Filters: 14965
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6630,7 +6630,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5213
+!<<<<<网站单独规则>>>>>5214
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8010,6 +8010,7 @@ electricaltechnology.org###stream-item-widget-2
 electricaltechnology.org###stream-item-widget-7
 elektroda.de,elektroda.com##div[style="min-height: 265px;"]:has(> div[class] > .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elektroda.de,elektroda.com##section[class]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
+elektroda.pl##*:has(> div > [class$=" act"] > a[href*=".php?"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads="])
