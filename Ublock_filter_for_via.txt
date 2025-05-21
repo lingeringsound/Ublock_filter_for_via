@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0hrpA9QQOP3RmHxE5yY/lQ
-! Title: Ublock filter for Via(2025-05-21 08:57:48)
-! Version: 20250521085749
+! Checksum: SWAT7moScFi85BK1DZh3XA
+! Title: Ublock filter for Via(2025-05-22 00:14:50)
+! Version: 20250522001451
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-21 08:57:49
-! Total Count: 14983
-! Blocked Filters: 14983
+! Last modified: 2025-05-22 00:14:51
+! Total Count: 14990
+! Blocked Filters: 14990
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6624
+!<<<<<域名规则>>>>>6625
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -333,6 +333,7 @@
 ||aitradx.com/js/$script,third-party
 ||ajmaboxanherulv*.b-cdn.net^
 ||ajv06.com^
+||akaihentai.com/fro_
 ||akamaihd.net/*&affid
 ||aksia.co^
 ||akuanakmamah.de^
@@ -6638,7 +6639,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5223
+!<<<<<网站单独规则>>>>>5228
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6929,6 +6930,7 @@ aii.sh###link-view > center
 aiimgvlog.fun##div[id][style="position:fixed;bottom: 0px;left: 0px;z-index:999999;"]
 aiimgvlog.fun,blog24.me###widescreen2
 airdrieecho.com,brantfordexpositor.ca,calgaryherald.com,calgarysun.com,canoe.com,chathamdailynews.ca,chathamthisweek.com,clintonnewsrecord.com,cochranetimes.com,cochranetimespost.ca,coldlakesun.com,communitypress.ca,countymarket.ca,countyweeklynews.ca,devondispatch.ca,draytonvalleywesternreview.com,edmontonjournal.com,edmontonsun.com,elliotlakestandard.ca,fairviewpost.com,fortmcmurraytoday.com,fortsaskatchewanrecord.com,gananoquereporter.com,goderichsignalstar.com,greybrucethisweek.ca,hannaherald.com,intelligencer.ca,kenoraminerandnews.com,kincardinenews.com,kingstonthisweek.com,lakeshoreadvance.com,leaderpost.com,leducrep.com,lfpress.com,lucknowsentinel.com,mayerthorpefreelancer.com,melfortjournal.com,midnorthmonitor.com,mitchelladvocate.com,montrealgazette.com,nantonnews.com,nationalpost.com,norfolkandtillsonburgnews.com,northernnews.ca,nugget.ca,ontariofarmer.com,ottawacitizen.com,ottawasun.com,owensoundsuntimes.com,parisstaronline.com,peacecountrysun.com,pembrokeobserver.com,pinchercreekecho.com,prrecordgazette.com,recorder.ca,sarniathisweek.com,saultstar.com,saultthisweek.com,seaforthhuronexpositor.com,sherwoodparknews.com,shorelinebeacon.com,simcoereformer.ca,sprucegroveexaminer.com,standard-freeholder.com,stonyplainreporter.com,stratfordbeaconherald.com,strathroyagedispatch.com,stthomastimesjournal.com,thebeaumontnews.ca,thechronicle-online.com,thecragandcanyon.ca,thegraphicleader.com,thelondoner.ca,thepost.on.ca,theprovince.com,thestarphoenix.com,thesudburystar.com,thewhig.com,timminspress.com,timminstimes.com,todaysfarmer.ca,torontosun.com,trentonian.ca,vancouversun.com,vermilionstandard.com,vulcanadvocate.com,wallaceburgcourierpress.com,wetaskiwintimes.com,whitecourtstar.com,wiartonecho.com,windsorstar.com,winnipegsun.com,woodstocksentinelreview.com##.featured-video
+akaihentai.com##.exc
 akcartoons.in,cybercityhelp.in###tp982, #btn6:others()
 akwam.*,akwams.*,androjungle.com,appvn.com,atomixhq.*,atomohd.*,bluedollar.net,brazzers3x.org,btc25.org,cacfutures.org,claimsatoshi.xyz,claimtrx.com,coinpayz.xyz,comexlive.org,cryptofenz.xyz,cryptonetos.ru,daxfutures.org,dollarindex.org,dowfutures.org,easyfun.gg,erome.com,feyorra.top,filerice.com,filmpertutti.*,food.ndtv.com,francoischarron.com,freelitecoin.top,freetron.top,ftsefutures.org,gametop.com,geo.fr,harshfaucet.com,hdbraze.com,hdpicsx.com,jagran.com,laptrinhx.com,madtrx.fun,mcxlive.org,mivo.com,multicoinads.com,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,pctfenix.*,pctnew.*,re.two.re,romadd.com,sgxnifty.org,spfutures.org,up-load.io,upload.ac,uptomega.*,userupload.*,viewster.co##.ads
 alemannia-aachen.de###grid-image-head
@@ -7168,7 +7170,7 @@ azarplus.com##.td-all-devices > [href][target="_blank"]
 azmen.com##.live-button-wrapper
 b2bhint.com##[id^="ad--"]
 babaktv.com##.vidoverlay
-babelwuxia.com,donghuaworld.com,enryumanga.com,javsubindo.one,kickassanime.ch,minioppai.org,pornve.com,varnascan.com###close-teaser
+babelwuxia.com,demonicscans.org,donghuaworld.com,enryumanga.com,javsubindo.one,kickassanime.ch,minioppai.org,pornve.com,varnascan.com###close-teaser
 babepedia.com##.sidebar_block > a[rel="nofollow noopener"]
 babesaround.com,nightdreambabe.com##.section-bustyMedinaq > a[href^="/click/o/"]
 babesinporn.com##.topbanner
@@ -8200,6 +8202,7 @@ fautsy.com##.coinzilla
 fc-lc.com##.captcha-page .box-main > a[href][target="_blank"] > img
 fc-lc.com,gamezizo.com,labgame.io,oii.io,uploady.io###iframe_id
 fc-lc.xyz###iframe_id, .text-left
+feedly.com##.SponsorPrompt
 feet9.com##.hvr-pulse
 feet9.com##.pup
 feet9.com##[class^="ig"]
@@ -11448,6 +11451,9 @@ voirfilms.*##.lefermeur
 voirseries.*###playerOver
 voirseries.*##.report-pub
 voirseries.*##.salidor_inner
+vook.vc##.note-main-spnsr a:not([href*="vook.vc"])
+vook.vc##.note-right-spnsr
+vook.vc##.note-sp-spnsr
 voyeurhit.*##.content > div > .container + div
 voyeurhit.*##.video-page__underplayer > div[class]:first-child > div[class]
 voyeurhit.*##.video-related + div[class] > div[class]:only-child
@@ -12889,7 +12895,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2117
+!<<<<<放行白名单>>>>>2118
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14991,6 +14997,7 @@ veev.to#@#.avb-active
 vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
 viefaucet.com#@#.ad-description
 vindobona.org#@#.ads_footer
+vook.vc#@#[class*="-spnsr"]
 vuejs.org#@##special-sponsor
 vuejs.org#@##sponsors
 warszawawpigulce.pl#@#.code-block-5, .eklama, #undermenu-block, .code-block-6
