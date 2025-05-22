@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 9bCh64H1OZIlIJlTs1D3lQ
-! Title: Ublock filter for Via(2025-05-22 08:56:39)
-! Version: 20250522085639
+! Checksum: K+CnchZxdOB/PHfLT20OwA
+! Title: Ublock filter for Via(2025-05-23 00:14:49)
+! Version: 20250523001450
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-22 08:56:39
-! Total Count: 14994
-! Blocked Filters: 14994
+! Last modified: 2025-05-23 00:14:50
+! Total Count: 15008
+! Blocked Filters: 15008
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6629
+!<<<<<域名规则>>>>>6641
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3530,6 +3530,7 @@
 ||ma-t-chy.link^
 ||ma-tching.com^
 ||ma3ion.com^
+||macapp-apple.com^
 ||macgsapptrck.com^
 ||machi-match.info^
 ||machimatch.jp^
@@ -4131,6 +4132,7 @@
 ||od.atami.no/one_drive.html
 ||odinvzc.azureedge.net/apc/trans.gif
 ||odorfulapheses.com^
+||odyssey1.to^
 ||oeffentlicher-dienst.info/_inc/fallback_
 ||oetsont.com^
 ||ofereome.com^
@@ -4277,6 +4279,7 @@
 ||oyesrhweyma.com^
 ||oyndr.com^
 ||oyohd.*/cdn-cgi/trace$xmlhttprequest,~third-party
+||ozycode.cfd^
 ||p-chi.info^
 ||p-chi.tech^
 ||p-e-a-c-h-p-e-a-c-h.com^
@@ -4418,6 +4421,7 @@
 ||perfotrack.com^
 ||permutive.com^$third-party
 ||peroiramus.me^
+||perplexity.ai/rest/event/analytics
 ||perplexity.ai/rest/metrics/collect^$xmlhttprequest,~third-party,method=post
 ||perutzxrqe.ru.com^
 ||pervclips.com/tube/js/customscript.js
@@ -4995,6 +4999,7 @@
 ||sard1.com^
 ||sarodesdonnot.com^
 ||sascdn.com^$script,domain=autobild.de|metal-hammer.de|musikexpress.de|rollingstone.de|transfermarkt.de
+||savefiles.com/js/noadblocker.js
 ||sbasian.pro/js/mainpc.js
 ||sbfw.work^
 ||scandichotels.com/Static/js/tracking/tracking-data-init.js^$script,~third-party
@@ -5850,6 +5855,7 @@
 ||tronkwintun.com^
 ||trr59rrt.com^
 ||trripwire.com^
+||trueachievements.com/tgn/ana?*page_view
 ||truecrypt.fr^
 ||truecrypt.it^
 ||truecrypt.pl^
@@ -6407,6 +6413,11 @@
 ||x6-yz-kzyx0.com^
 ||x6-yzk.com^
 ||x9mw.com^
+||x_x-askfollow-us.translate.goog^
+||x_x-freeadd-me.translate.goog^
+||x_x-more--followers-com.translate.goog^
+||x_x-twitob-com.translate.goog^
+||x_x-twitterfollowers-site.translate.goog^
 ||xai19k.com^
 ||xai62f.com^
 ||xai85s.com^
@@ -6627,6 +6638,7 @@
 ||zmovs.com/js/pns.min.js
 ||zmovs.com/nb/
 ||zodertracker.com^
+||zofuk9jvv080425aq6.cfd^
 ||zomap.de/*&expires=$script,domain=atv.at|kabeleins.de|kabeleinsdoku.de|prosieben.at|prosieben.de|prosiebenmaxx.de|ran.de|sat1gold.de|sixx.de|the-voice-of-germany.*
 ||zone-annuaire.bond/main.js?v=$script,~third-party
 ||zone-annuaire.hair/main.js?v=$script
@@ -11874,7 +11886,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>754
+!<<<<<通配符规则>>>>>756
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -11944,6 +11956,7 @@ $script,domain=zdnet.fr,third-party
 .avforums.com%2Fb%2Fimage.gif%3F$image
 .avforums.com/b/image.gif?$image
 .biz/sw/w1s.js|$script,third-party
+.cfd/*?s=*&g=*&q=$script,third-party
 .cfd/?aD*HlwZT1jJnRtcD01JmFkY29kZT0x$script,third-party
 .cfd/?h=*&user=$script,third-party
 .click/*/?partner=*&pg=$script,third-party
@@ -12560,6 +12573,7 @@ $script,domain=zdnet.fr,third-party
 ://voz.vn/b/image.gif?p=$image
 ://www.*.com/js/css/$script,xmlhttprequest,third-party
 ://www.wattpad.com/et?$image
+://x_x-*-*.translate.goog/?_x_tr_sl=auto&_x_tr_tl=
 ://xml-v4.*.online/click?
 :8443/impact?impact=
 =1&id=*&traceId=
