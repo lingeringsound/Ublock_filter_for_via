@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: K+CnchZxdOB/PHfLT20OwA
-! Title: Ublock filter for Via(2025-05-23 00:14:49)
-! Version: 20250523001450
+! Checksum: vI6rdMMi4W/J9t2paY79Pg
+! Title: Ublock filter for Via(2025-05-23 08:56:27)
+! Version: 20250523085627
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-23 00:14:50
-! Total Count: 15008
-! Blocked Filters: 15008
+! Last modified: 2025-05-23 08:56:27
+! Total Count: 15011
+! Blocked Filters: 15011
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6641
+!<<<<<域名规则>>>>>6642
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1275,7 +1275,7 @@
 ||colossal-extension.com^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nmac.to|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -5421,6 +5421,7 @@
 ||stream.cz/*/v2/vast$xmlhttprequest
 ||stream2watch.*/sw.js$script,~third-party
 ||streameast.*/*.gif$image
+||streamhls.to/js/noadblocker.js
 ||streamingcommunity.*/slide-banner/
 ||streamingcommunity.*/sw.js^
 ||streamingsplays.com^
@@ -6515,7 +6516,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|animenexus.in|animeunity.*|animez.org|aniwatchtv.to|bflix.*|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|kaa.mx|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|myflixerz.to|mywatchseries.*|nmac.to|nsw2u.com|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tvableon.me|vipbox.*|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -6655,7 +6656,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5228
+!<<<<<网站单独规则>>>>>5229
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9855,6 +9856,7 @@ nightfallnews.com##.top_banner_container
 nightlifeporn.com##.wps-player__happy-inside--pause.wps-player__happy-inside
 nishankhatri.xyz###pro-continue, #pro-btn, #my-btn:others()
 nj.com##.ad-unit[id]
+nmac.to##.adslot_buttom_inner > a[href*="/4/"][target="_blank"]
 norisoku.com###random
 nosey.com##.unreel-player-overlay
 notformembersonly.com###post-separate > p > .local-link
@@ -12913,7 +12915,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2118
+!<<<<<放行白名单>>>>>2119
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13122,6 +13124,7 @@ voz.vn/b/image.gif?p=$image
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
+@@||ads.poshtata.online/adsbygoogle.js$script,domain=seir-sanduk.com
 @@||ads.poshtata.online/loader.js^$script,domain=seir-sanduk.com
 @@||ads.pubmatic.com/AdServer/*/pwt.js$script,domain=ondemandkorea.com
 @@||ads.pubmatic.com/AdServer/js/pwt$script,domain=zeenews.india.com
