@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BMLZJXNJFE3y2wP8kE+WZg
-! Title: Ublock filter for Via(2025-05-24 00:14:45)
-! Version: 20250524001445
+! Checksum: Jt7YhjtwcR7e560dJtZISw
+! Title: Ublock filter for Via(2025-05-24 08:54:47)
+! Version: 20250524085447
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-24 00:14:45
-! Total Count: 15024
-! Blocked Filters: 15024
+! Last modified: 2025-05-24 08:54:47
+! Total Count: 15025
+! Blocked Filters: 15025
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -12928,7 +12928,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2119
+!<<<<<放行白名单>>>>>2120
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14929,6 +14929,7 @@ kunststoffe.de#@#.adBox
 kzstock.blogspot.com#@##ad-target
 lamire.jp,streambtw.com#@#.ad-unit:not(.text-ad):not(.textads)
 lemonde.fr#@#.gdpr-lmd-wall
+lewdgames.to#@##fwdevpDiv0
 lightnovelpub.com#@#.adsbox
 lightnovelpub.com#@#.lnadcontainer
 ma-bank.net,rxlife.net,video.tv-tokyo.co.jp#@##adspace:not([style^="position: absolute; left: -5000px"])
