@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 52kMgugaTBf0DRWZSa5n/w
-! Title: Ublock filter for Via(2025-05-25 09:01:59)
-! Version: 20250525090159
+! Checksum: hKjAJtcxRZvAp9vE+xG47A
+! Title: Ublock filter for Via(2025-05-26 00:12:49)
+! Version: 20250526001249
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-25 09:01:59
-! Total Count: 15033
-! Blocked Filters: 15033
+! Last modified: 2025-05-26 00:12:49
+! Total Count: 15040
+! Blocked Filters: 15040
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6656
+!<<<<<域名规则>>>>>6662
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -808,6 +808,7 @@
 ||bitfun.co^$third-party
 ||bitgetnextlevel666.com^
 ||bithow.com^
+||bitkub.onrender.com^
 ||bitlk.com^$third-party
 ||bitporno.to/popup18.js
 ||bitsroll.com^$third-party
@@ -1758,6 +1759,7 @@
 ||dsccams.com^$third-party
 ||dslr-forum.de/ads/$image
 ||dsxwcas.com^
+||dtioykqj1u8de.cloudfront.net^
 ||du0.jp^
 ||du002iv2rxh4h.cloudfront.net^
 ||duckdns.org/FAMOUS/Gens/
@@ -2919,6 +2921,7 @@
 ||image-play.net^
 ||imagebet.ph^
 ||imagedelivery.net^$domain=novelfull.com
+||imagepond.net/sdk/imagepondupload.js$script,domain=forums.socialmediagirls.com
 ||images.finanzen.net/*banner$image
 ||images.outbrainimg.com^$image
 ||images2.imgbox.com/67/0e/zUAgdBDk_o.gif$third-party
@@ -3377,6 +3380,7 @@
 ||like-baloon-leaf.com^
 ||like-love.net^
 ||likechat33call.net^
+||likeyoumakehappy.xyz^
 ||limeerror.org^
 ||limetorrents.*/sw.js
 ||lin-link.net^
@@ -4996,6 +5000,7 @@
 ||sakudon293ssp.jp^
 ||sale24-pills.com^
 ||sall.etchat.jp^
+||salomonoutletstoresusa.com^
 ||salon.beauty202201.com^
 ||salon1999.net^
 ||salonoshirase.net^
@@ -5065,6 +5070,7 @@
 ||sellings-global.com^
 ||sellwisehub.com^
 ||semawur.com/download$image
+||semrushmall.com^
 ||sen-no-y-t.com^
 ||sen8senjya.jp^
 ||senditfast.cloud^
@@ -7082,7 +7088,7 @@ apkmirror.com##div.appRow[style]
 apkmirror.com,deine-tierwelt.de##.OUTBRAIN
 apkmodhub.in##.sdl_text
 apkmodvn.com##.stuAd
-apkmodvn.com,phongroblox.com##[data-da]
+apkmodvn.com,dl.apkmoddone.com,phongroblox.com##[data-da]
 apkmody.*##.body-fixed-footer
 apkmody.*##.download-ads
 apkpure.com##.ad-box-auto
@@ -7882,6 +7888,8 @@ dizipal4.com##.body-clickable
 dizipal4.com##.videoalt
 dizipal4.com##.videoust
 djqunjab.in,geniussolutions.co###interstitial-container
+dl.apkmoddone.com,phongroblox.com##.NoteAd
+dl.apkmoddone.com,phongroblox.com,sitemini.io.vn,vip1s.top###fakeDown
 dl.gamecopyworld.*##.t2 > tbody > tr:nth-of-type(1) > td
 dl.gamecopyworld.*##td:nth-of-type(2)
 dl.gamecopyworld.*##tr:nth-of-type(6) > td
@@ -10097,9 +10105,7 @@ pholder.com##div[class]:has(div[class] > iframe[src^="https://chaturbate.com/in/
 pholder.com##div[style$="margin-bottom:10px"]:has(.OUTBRAIN)
 pholder.com##section:has(.OUTBRAIN)
 pholder.com##section:has(div[href^="https://chaturbate.com/in/"])
-phongroblox.com##.NoteAd
 phongroblox.com##.RecurringadBanner
-phongroblox.com,sitemini.io.vn,vip1s.top###fakeDown
 photobucket.com##.swal2-container
 photooxy.com##.text-ads
 photopea.com##div[style]:has(> a[href*="photopea.com"][href*="ads"])
@@ -12936,7 +12942,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2120
+!<<<<<放行白名单>>>>>2121
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14999,6 +15005,7 @@ rpgbot.net,wnynewsnow.com#@#.ez-video-wrap
 saltspringexchange.com#@#.single-ad
 sankakucomplex.com#@#.scad
 saveinsta.cam#@#.aplvideo
+scan-manga.com#@##carouselTOPContainer
 search.crowdsearch.net#@##adslot1
 seznam.cz#@#.adMiddle
 shiropro-re.net#@##ad_link
