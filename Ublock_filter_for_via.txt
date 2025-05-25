@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hCpWoC98NAdIdjuhhu0C7g
-! Title: Ublock filter for Via(2025-05-25 00:13:32)
-! Version: 20250525001332
+! Checksum: 52kMgugaTBf0DRWZSa5n/w
+! Title: Ublock filter for Via(2025-05-25 09:01:59)
+! Version: 20250525090159
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-25 00:13:32
-! Total Count: 15032
-! Blocked Filters: 15032
+! Last modified: 2025-05-25 09:01:59
+! Total Count: 15033
+! Blocked Filters: 15033
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6670,7 +6670,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5230
+!<<<<<网站单独规则>>>>>5231
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -10580,6 +10580,7 @@ samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 sanet.st##.lsB
 sanfoundry.com##.sf-desktop-ads
 sankakucomplex.com##.vce-ad-container
+sankei.com##div[id^="piano_special_Top_"]
 sarapbabe.com##.has-text-danger
 sarapbabe.com##.is-3.column
 sarapbabe.com##.navbar-start > a.navbar-item:nth-of-type(4)
