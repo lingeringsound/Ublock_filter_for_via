@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qHrth0fRAEGBioYfJpfcyg
-! Title: Ublock filter for Via(2025-05-26 08:58:14)
-! Version: 20250526085814
+! Checksum: NEVPTFOQYEeCUq1dB8JozA
+! Title: Ublock filter for Via(2025-05-27 00:13:57)
+! Version: 20250527001357
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-26 08:58:14
-! Total Count: 15040
-! Blocked Filters: 15040
+! Last modified: 2025-05-27 00:13:57
+! Total Count: 15067
+! Blocked Filters: 15067
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6662
+!<<<<<域名规则>>>>>6683
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1947,6 +1947,7 @@
 ||ethmevsetup.group^
 ||etisalat-amazonprime.com^
 ||ets2.gr^
+||eu-blochdance.shop^
 ||eujsiyajep.niigata.jp^
 ||eunssiatel.tech^
 ||euphonefiar.com^
@@ -2363,6 +2364,7 @@
 ||gandestin0.jp^
 ||gapconnectionbridge.co.in^
 ||garagebandforpc.org^
+||gardena-eu.com^
 ||gareana.vn^
 ||garenaea.vn^
 ||gargar.making-garden.com^
@@ -2474,6 +2476,7 @@
 ||gngt.ru^
 ||gnkpy.com^
 ||gnula.*/player/vast*xml|$xmlhttprequest,~third-party
+||gnxuohpr.icu^
 ||go-90i.com^
 ||go-ld-li-ne.site^
 ||go-to-zlibrary.com^
@@ -2504,6 +2507,7 @@
 ||gold-line.click^
 ||gold-line.online^
 ||gold456o.fun^
+||goldendoghotel.com^
 ||goldenluck.jp^
 ||goldporn.org/js/nc2nlpLCSuNoX5A.js
 ||golnkz.com^
@@ -2639,6 +2643,7 @@
 ||happyllfe.online^
 ||happymethod55.com^
 ||hard-configurator.com^
+||hardware-gui.su^
 ||harmfuleqwrj14xnvdc.jp^
 ||harmonic-serenity.space^
 ||harriscollect.net^
@@ -2913,6 +2918,7 @@
 ||iir.ai/sw$script,~third-party
 ||iirrrrrrii.wixsite.com^
 ||ija.xwi.mybluehost.me^
+||ikea-euonline.com^
 ||ilil.in^
 ||illinformed-imagination.com^
 ||ilovu.store^
@@ -2974,6 +2980,7 @@
 ||info-espanol-id-configes*.codeanyapp.com^
 ||info-meta-noreply.com^
 ||info-top-letter.com^
+||info-trackingcas.cc^
 ||infomessagehappy.com^
 ||informationpolicy.cloud^
 ||infos4.yolasite.com^
@@ -3088,6 +3095,7 @@
 ||jaya9.app/?af=
 ||jayabaji3.com/bn-bd?aff=
 ||jayan-uvl.com^
+||jcrewblackfriday.com^
 ||jdoasjfojuhod.com^
 ||jdownloader.fr^
 ||jeengweb.com^$third-party
@@ -3418,9 +3426,11 @@
 ||lkmw88.com^
 ||ll-m-work-2020.com^
 ||ll.liberrttyy.com^
+||llbeanblackfridays.shop^
 ||lm-mousey-happy.com^
 ||lmoox5.net^
 ||lnkr.us^
+||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
 ||loaderaura.com^
 ||loaderware.cc^
@@ -3443,6 +3453,7 @@
 ||lomogd.com^
 ||lone1y.com^
 ||long.xxx^$third-party
+||longchampblackfriday.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
 ||loto-4x.com^
@@ -3547,7 +3558,9 @@
 ||macgsapptrck.com^
 ||machi-match.info^
 ||machimatch.jp^
+||macosapp-apple.com^
 ||madcheddar.net^
+||madgicxde.com^
 ||madnna.jp^
 ||madnna.net^
 ||madonnaoasis.com^
@@ -3582,6 +3595,7 @@
 ||make-money-happy.site^
 ||make2022.com^
 ||makenoads.com^
+||makitablackfriday.shop^
 ||makitfornows.com^
 ||makoto-in-room.wixsite.com^
 ||malaysianwireless.com/wp-content/banners/*$image,~third-party
@@ -3757,6 +3771,7 @@
 ||mevfrontbot.info^
 ||mevsetup.site^
 ||mevtime.com^
+||mexcgbaip.vip^
 ||mfacebook-com.vn^
 ||mfacebook.net.vn^
 ||mfacebookk.com.vn^
@@ -3979,6 +3994,7 @@
 ||mymymy.net^
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||myocean.jp^
+||myosoteruins.com^
 ||myreadingmanga.info/*.php$script,xmlhttprequest
 ||myreadingmanga.info/vjs/mrm_
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
@@ -4096,6 +4112,7 @@
 ||nonentrantcrpehibbin.monster^
 ||noohapou.com^
 ||noropianicnephrocytebites.com^
+||northfacedeals.shop^
 ||notepad2.com^
 ||nothingillegal.bond^
 ||nothingtoxic.com/aff/chaturbate/
@@ -4540,6 +4557,7 @@
 ||popcent.org^$third-party
 ||popsads.link^
 ||poptival.com^
+||popular-resort-ads.com^
 ||popworldservice.com^
 ||pormota-coop-ee.com^
 ||pornblade.com/*.php
@@ -5071,6 +5089,7 @@
 ||sellwisehub.com^
 ||semawur.com/download$image
 ||semrushmall.com^
+||semrushshop.com^
 ||sen-no-y-t.com^
 ||sen8senjya.jp^
 ||senditfast.cloud^
@@ -6049,6 +6068,7 @@
 ||usingageghoaft.net^
 ||usmlematerials.net^$image,domain=micloudfiles.com
 ||usmusk.net^
+||usps-packages-*.com^
 ||utahpolicetraining.*.mybluehost.me^
 ||utg.ri64-pdmv.com^
 ||utorrent.it^
@@ -6588,6 +6608,7 @@
 ||youvetube.com^
 ||youvideoporno.mobi^$third-party
 ||youx.xxx/*.php|
+||yowdenfalcial.com^
 ||ytjon-d2s1ah.com^
 ||ytmp3.cc/js/ad*$script,~third-party
 ||ytrevanced.$domain=~revanced.app
@@ -6676,7 +6697,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5231
+!<<<<<网站单独规则>>>>>5237
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -6732,7 +6753,7 @@ $script,domain=zdnet.fr,third-party
 111.90.159.132##.mfp-ready
 111.90.159.132##[href="http://buaksib.in/"]
 111.90.159.159##[href^="http://buaksib.in/"]
-111.90.159.159,animenhentai.com,edn.com,hentai-sharing.net,hentaiomg.com,jav1080.com,javrookies.com,phanmemmaytinh.net,sakuravrjav.com,xproxxx.org###custom_html-3
+111.90.159.159,animenhentai.com,edn.com,hentai-sharing.net,hentaiomg.com,jav1080.com,javrider.com,javrookies.com,phanmemmaytinh.net,sakuravrjav.com,xproxxx.org###custom_html-3
 123animes.*##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647;"]
 123europix.*##[target="_blank"][onclick]
 123link.*##.ads-block-warning
@@ -7139,7 +7160,7 @@ ashemaletube.com##li[class]:has(a[href^="https://shemale.show/"][rel="sponsored"
 ashemaletube.com,boyfriendtv.com##.ads-block-rightside
 ashemaletv.com,pornvideoq.com,sextubefun.com,young-pussy.com###playerOverlay
 asianbookie.com##a[href^="/cgi-bin/to.cgi"]
-asianmilfhub.com,hentaiomg.com,phanmemmaytinh.net,sakarnewz.com,watchhouseonline.net###custom_html-2
+asianmilfhub.com,hentaiomg.com,javrider.com,phanmemmaytinh.net,sakarnewz.com,watchhouseonline.net###custom_html-2
 asianpornfilms.com,bigwank.com,fapguru.com,pornpapa.com,xxxfiles.*##.underplayer_banner
 asiansex.life,teencumpot.com###spot-holder
 asianxxxvideo.net##.a_all
@@ -7390,7 +7411,7 @@ blograffo.net##[href^="https://amzn.to/"]
 blogspot.com,web.app##img[onclick="kemana()"]
 blogterest.net##.blockSide > div.blockWrapper:has(> div > div.ninja-recommend-block)
 blogx.almontsf.com###adxbox
-blsplayer.com,brbeast.com,flyplayer.xyz##.pppx
+blsplayer.com,brbeast.com,flyplayer.xyz,javplayers.com##.pppx
 bluedollar.net##div[id^="aub"]
 bluemediadownload.*,bluemediafile.*,bluemedialink.*,bluemediastorage.*,bluemediaurls.*,urlbluemedia.*###ads-centter
 bluemoon-mcfc.co.uk##[id^="snack_"]
@@ -7550,7 +7571,7 @@ cartune.me##.contents-inner > div:has(> div#taboola-alternating-thumbnails-a)
 cat3movie.org###ads-preload
 cat3movie.org,hh3dhay.com##.float-ck-center-lt
 cbc.ca##.ad-risingstar-container
-cbc.ca,getmodsapk.*,getmodsapk.com,gfx-station.com,myscheme.org.in,namemc.com,netronline.com,news18.com,sluttyrat.com,thetimes.com,thizissam.in,videakid.hu,wastenews.xyz##.ad-container
+cbc.ca,crosswordsolver.com,getmodsapk.*,getmodsapk.com,gfx-station.com,myscheme.org.in,namemc.com,netronline.com,news18.com,sluttyrat.com,thetimes.com,thizissam.in,videakid.hu,wastenews.xyz##.ad-container
 cboard.net###left-ba
 cccam4sat.com,dipsnp.com,everydaytechvams.com,formyanime.com,gsm-solution.com,h-donghua.com,hindisubbedacademy.com,hm4tech.info,mydverse.*,ripexbooster.xyz,serial4.com,set.seturl.in,tutorgaming.com##.popSc
 ccurl.net##.col-md-2
@@ -8025,7 +8046,7 @@ editpad.org##.inlinADs
 editpad.org##.top_ad_box
 editpad.org##label[style="font-size: 12px;text-transform: uppercase;"]
 edn.com###footerAdWrap
-edn.com,gtxgamer.fr,javzh.com,mp4hentai.com,xproxxx.org###custom_html-5
+edn.com,gtxgamer.fr,javrider.com,javzh.com,mp4hentai.com,xproxxx.org###custom_html-5
 educationtimes.com##div[class]:has(> div[class] > div[id^="div-gpt-ad"])
 eevblog.com,myabandonware.com##[src*="banner"]
 efukt.com##.efi_container
@@ -8065,6 +8086,8 @@ elektroda.pl##*:has(> div > [class$=" act"] > a[href*=".php?"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads"])
 elektroda.pl##*:has(> div > [class$=" active"] > a[href*=".php?ads="])
+elektroda.pl##*:has(> div[style*="height"] > div > a[href*=".php?vid="][rel*="nofollow"])
+elektroda.pl##div[class="topic-box clearfix "] + div[class]:last-child:has(> b:only-child > a[class][rel="nofollow"]:only-child)
 elektroda.pl##div[class]:has(> a.fancy-lnk[href*="utm_campaign="])
 elektroda.pl##div[class]:has(> b > .fancy-new-lnk[rel="noopener"][target="_blank"])
 elektroda.pl##div[class]:has(> b > .fancy-new-lnk[target="_blank"])
@@ -9117,7 +9140,7 @@ jav.guru###text-92
 jav.guru###text-93
 jav.guru##.inside-right-sidebar > aside.widget_custom_html
 jav1080.com##div.boxzilla, .boxzilla-overlay, [href^="https://adsxyz.com/"]
-jav1080.com,sakurajav.com,streamempire.cc###custom_html-4
+jav1080.com,javrider.com,sakurajav.com,streamempire.cc###custom_html-4
 jav720.net##.video-player-area > center
 jav720.net,klz9.com,phimsexkhongche.net,sexgayplus.com##.float-ck
 javbabe.net###a-player
@@ -10529,7 +10552,10 @@ romspedia.com###ad2
 rookieroad.com###right-col
 roselife.site##a[href][onclick="this.remove()"]
 roshy.tv##.beeteam368-player-sub-element
+roshy.tv##.is-single-post-main-player > div:has(> div[class*="roshy-stripchat-"])
 roshy.tv##.roshy-widget
+roshy.tv##.shortcode_widget
+roshy.tv##div[class*="roshy-stripchat-"]
 royaledudes.io##.gifts
 royalroad.com##.dKKumhSnWiFq75vPUVtmTanQ:has(a[href^="https://www.royalroad.com/a/r?campaign="]:not([href*="&url=https%3A%2F%2Fwww.royalroad.com"]))
 royalroad.com##.portlet:has(> h6)
@@ -10944,6 +10970,7 @@ streamhub.*##center > a[href][target="_blank"]
 streamingcommunity.*##.slide-banner
 streamingcommunity.*##.slide-banner:has(> .slide-banner__container)
 streamingcommunity.computer##div.centered.modal
+streamobs.net###AgeModal
 streamporn.pw,watchpornx.com###overlays
 streamsb.*##body > div[style*="z-index:"]
 strikeout.*##.d-none.d-lg-block.col-lg-3
@@ -12027,7 +12054,7 @@ $script,domain=zdnet.fr,third-party
 .gif$domain=nekopoi.*,image
 .gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
-.gif^$image,domain=mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
+.gif^$image,domain=idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
 .html?cep=*&cost=0.
 .info/?key=*&pixel=
 .life/js/popunder.js$third-party
