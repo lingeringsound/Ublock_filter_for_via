@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: NEVPTFOQYEeCUq1dB8JozA
-! Title: Ublock filter for Via(2025-05-27 00:13:57)
-! Version: 20250527001357
+! Checksum: c6T1ep3nR2ja+1J8HUZZJw
+! Title: Ublock filter for Via(2025-05-27 08:55:43)
+! Version: 20250527085543
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-27 00:13:57
-! Total Count: 15067
-! Blocked Filters: 15067
+! Last modified: 2025-05-27 08:55:43
+! Total Count: 15069
+! Blocked Filters: 15069
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6683
+!<<<<<域名规则>>>>>6684
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4357,6 +4357,7 @@
 ||pages.dev/smart89/
 ||pages.dev/tag.min.js$script,third-party,domain=rgshows.me
 ||pages.dev/yaketsuku.mp3
+||pages.dev^$script,domain=1shows.live|enma.lol|rgshows.me
 ||paie-locli.com^
 ||painaltube.com/min/747b35c9/painaltube/p/
 ||painaltube.com/widget/chaturbate_cam.php?
@@ -6697,7 +6698,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5237
+!<<<<<网站单独规则>>>>>5238
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -10203,6 +10204,7 @@ pogo.com###leaderboard-ad
 pogo.com##.hideableAd
 pogo.com##[class*="gameSkyscraperAd"]
 pogo.com##[class*="gameTopAd"]
+pokemon-project.com##div[data-fuse]
 poki.*##div[class*="_AdvertisementContainer"]
 poki.com##div[class]:has(> div > div[style*="height"][style*="width"][style$="px; overflow: hidden;"] > [id*="_gp_"])
 politicalcowboy.com##.dsk-box-ad-a
