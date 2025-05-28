@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YE+qVnexygU5WdAByGmUbQ
-! Title: Ublock filter for Via(2025-05-28 00:15:51)
-! Version: 20250528001551
+! Checksum: FEWbXlijMK0nAHiFw8xwQg
+! Title: Ublock filter for Via(2025-05-28 08:58:08)
+! Version: 20250528085808
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-28 00:15:51
-! Total Count: 15089
-! Blocked Filters: 15089
+! Last modified: 2025-05-28 08:58:08
+! Total Count: 15090
+! Blocked Filters: 15090
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -12991,7 +12991,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2121
+!<<<<<放行白名单>>>>>2122
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15018,6 +15018,7 @@ nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
 okwave.jp#@#.adfunnel.user_ranking
 oogiri-chaya.com#@#.adsText
+oogiri-chaya.com#@#.ads_insert
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
