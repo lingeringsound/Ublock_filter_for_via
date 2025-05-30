@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lHkKwWjH0obumtCzhZ0J7w
-! Title: Ublock filter for Via(2025-05-30 08:56:34)
-! Version: 20250530085634
+! Checksum: 81cAwSxY/1HyFeQF0nTGlA
+! Title: Ublock filter for Via(2025-05-31 00:15:19)
+! Version: 20250531001519
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-30 08:56:34
-! Total Count: 15149
-! Blocked Filters: 15149
+! Last modified: 2025-05-31 00:15:19
+! Total Count: 15150
+! Blocked Filters: 15150
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6756
+!<<<<<域名规则>>>>>6757
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6517,6 +6517,7 @@
 ||x.kinja-static.com/assets/packaged-js/OnionAM.$script,domain=avclub.com|clickhole.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 ||x.kinja-static.com/assets/packaged-js/trackers$script,domain=clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 ||x.shopsavvy.com^$third-party
+||x1337x.*/js/vpn.js
 ||x3os.com^
 ||x6-yz-kzyx0.com^
 ||x6-yzk.com^
