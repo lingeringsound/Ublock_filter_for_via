@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: zxeuY4p/5Mlsp+jSz1ILhQ
-! Title: Ublock filter for Via(2025-05-30 00:14:14)
-! Version: 20250530001414
+! Checksum: lHkKwWjH0obumtCzhZ0J7w
+! Title: Ublock filter for Via(2025-05-30 08:56:34)
+! Version: 20250530085634
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-05-30 00:14:14
-! Total Count: 15142
-! Blocked Filters: 15142
+! Last modified: 2025-05-30 08:56:34
+! Total Count: 15149
+! Blocked Filters: 15149
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6750
+!<<<<<域名规则>>>>>6756
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -640,6 +640,7 @@
 ||avaloncheats.pro^
 ||avantajados.com^$third-party
 ||avatarthree.lol^
+||avatrade-services.com^
 ||avjamack.com/data/by_banner/
 ||avjamak.net/data/by_banner/
 ||avsakrcapna.com^
@@ -1303,6 +1304,7 @@
 ||commoninja.com^$third-party
 ||community-flagged-
 ||communitystudionart.com^
+||comodozeropoint.com^
 ||compass-holding.com^
 ||computer-bild.de/_static-assets/homad/homad.js
 ||conackmar.com^
@@ -2113,6 +2115,7 @@
 ||fc67x.com^
 ||fcukxxx.com^
 ||fd-2.shop^
+||feacboolk.com^
 ||febdd.info^
 ||fecebook.com^
 ||fedbuoy.com^
@@ -2252,6 +2255,7 @@
 ||fortuneadvert.com^
 ||fortuneindoorsinto.com^
 ||forum.djicdn.com/static/js/sensorsdata.min.js$script,domain=forum.dji.com
+||forum.ge/trash/ads_
 ||forum0120.com^
 ||forwardrb.bid^
 ||foryouswk.jp^
@@ -4572,6 +4576,7 @@
 ||playporngames.com/fuck_dolls_online.jpg
 ||plaza-l1o0nni-p1aza.com^
 ||plesk.page/*?phone=
+||plotp.mazamob.space^
 ||plygainroundup.com^
 ||pmequebeclic.com^
 ||pmew.jp^
@@ -5044,6 +5049,7 @@
 ||s4fk.destin0.jp^
 ||s8bet.com^
 ||s908b9n62w53u.jp^
+||sab.fast.ge^$subdocument
 ||sachikru.com^
 ||sachikru1.com^
 ||sachikru3.com^
@@ -6764,7 +6770,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5241
+!<<<<<网站单独规则>>>>>5242
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -8468,6 +8474,7 @@ forocoches.com##table.tborder[id^="table"] > tbody:has(> tr > .alt1 > table[id^=
 forocoches.com##table.tborder[id^="table"] > tbody:has(> tr > .alt1 [href][target]):has(strong)
 fortune.com##.amp-ad-wrapper
 fortune.com##.amp-ad-wrapper-dianomi
+forum.ge##.w3-hide-medium:has(img[src="/trash/ads_down.gif"])
 forum.gigabyte.us##[id^="ad-desktop-bottom"]
 forum.gigabyte.us,forums.lostmediawiki.com###remove_ads_link
 forum.parenting.pl##aside > div:has(> div:first-child + div:empty + script:last-child)
