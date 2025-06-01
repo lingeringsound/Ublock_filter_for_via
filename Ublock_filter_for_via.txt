@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ellX47NTpSqcEKfP387N2g
-! Title: Ublock filter for Via(2025-06-01 00:14:12)
-! Version: 20250601001412
+! Checksum: O93HvPAbVkPJuxf7PuwjCg
+! Title: Ublock filter for Via(2025-06-01 09:09:09)
+! Version: 20250601090909
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-01 00:14:12
-! Total Count: 15155
-! Blocked Filters: 15155
+! Last modified: 2025-06-01 09:09:09
+! Total Count: 15157
+! Blocked Filters: 15157
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6761
+!<<<<<域名规则>>>>>6762
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3470,6 +3470,7 @@
 ||lnkr.us^
 ||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
+||loader.worldhistory.org^
 ||loaderaura.com^
 ||loaderware.cc^
 ||loadingfreerar.top^
@@ -6775,7 +6776,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5242
+!<<<<<网站单独规则>>>>>5243
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -10544,6 +10545,7 @@ raider.io##.rio-zone--wrapper
 rain-alarm.com###main_canvas > div[id^="google"]
 rainanime.*##.fake_player
 raqmedia.com##[href^="https://www.englezz.com"]
+rarbg.how##div[class^="question-type"]
 ratemyprofessors.com##.slide.sticky-wrapper
 ratemyprofessors.com##[class^="Ad"]
 ravenmanga.xyz##[href^="https://a-ads.com"]
