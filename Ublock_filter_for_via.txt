@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wXGRvKW9TkcU9zdwo2CQuQ
-! Title: Ublock filter for Via(2025-06-04 08:58:04)
-! Version: 20250604085804
+! Checksum: FE6DD2UsY7qn2yEsPq4Nww
+! Title: Ublock filter for Via(2025-06-05 00:15:15)
+! Version: 20250605001515
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-04 08:58:04
-! Total Count: 15229
-! Blocked Filters: 15229
+! Last modified: 2025-06-05 00:15:15
+! Total Count: 15230
+! Blocked Filters: 15230
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -12091,7 +12091,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>766
+!<<<<<通配符规则>>>>>767
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12501,6 +12501,7 @@ $script,domain=zdnet.fr,third-party
 /index.php?key=*&t1=
 /index.php?uid=*&code=ad^
 /index/index/*Trade/tradelist^
+/ingest/*^ip=
 /invoke.js$script,domain=mirrorace.*
 /istripper*$image,domain=hentaipins.com
 /istripper.js
@@ -13536,7 +13537,7 @@ voz.vn/b/image.gif?p=$image
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
 @@||c.adsco.re/|$script,domain=doods.to|hotfrog.*|poophq.com|veev.to
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
-@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|video.gazzetta.it
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|thedailybeast.com|video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
 @@||c.tmyzer.com^$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||cache.marieclaire.fr/media/videojs/videojs.ads.min.js$script,domain=marieclaire.fr
