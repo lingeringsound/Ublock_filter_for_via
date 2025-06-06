@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Mjce3Yt1rf+3D08WHUSfnA
-! Title: Ublock filter for Via(2025-06-06 08:57:46)
-! Version: 20250606085746
+! Checksum: LY0LnWhX7zlnpKYlinNE9w
+! Title: Ublock filter for Via(2025-06-07 00:15:03)
+! Version: 20250607001503
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-06 08:57:46
-! Total Count: 15232
-! Blocked Filters: 15232
+! Last modified: 2025-06-07 00:15:03
+! Total Count: 15234
+! Blocked Filters: 15234
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6830
+!<<<<<域名规则>>>>>6831
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2730,6 +2730,7 @@
 ||heartmatch.jp^
 ||heartmedia.biz^
 ||heat.tsu-bas.com^
+||heattercer.com^
 ||hebiichigo.com^$third-party
 ||heed-mvor.com^
 ||hellrider.live^$third-party
@@ -13131,7 +13132,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2124
+!<<<<<放行白名单>>>>>2125
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13685,6 +13686,7 @@ voz.vn/b/image.gif?p=$image
 @@||click.allkeyshop.com/*&source=www.allkeyshop.com
 @@||click.redditmail.com^*ref_source=email
 @@||client.perimeterx.net/PXzYvFOXaC/main.min.js$script,domain=chegg.com
+@@||clouderrorreporting.googleapis.com^$domain=waze.com
 @@||cloudflare.com/ajax/libs/*$script,domain=androidcentral.com
 @@||cloudflare.com/ajax/libs/*/fuckadblock.js$script,domain=depositfiles.org|dfiles.eu
 @@||cloudflare.com/cdn-cgi/trace$xmlhttprequest,domain=54647.io|mgnet.xyz
