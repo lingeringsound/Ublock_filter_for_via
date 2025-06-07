@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: NRheC4srswaWmjKiK52IcQ
-! Title: Ublock filter for Via(2025-06-07 08:56:43)
-! Version: 20250607085643
+! Checksum: GExSAqvskOwQTMsFzGI3Pg
+! Title: Ublock filter for Via(2025-06-08 00:13:56)
+! Version: 20250608001357
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-07 08:56:43
-! Total Count: 15234
-! Blocked Filters: 15234
+! Last modified: 2025-06-08 00:13:57
+! Total Count: 15242
+! Blocked Filters: 15242
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6831
+!<<<<<域名规则>>>>>6834
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1162,12 +1162,15 @@
 ||check-host.net/images/alexehost.png$image,~third-party
 ||check-host.net/images/alexrhost.png$image,~third-party
 ||check-host.net/images/baeza-$image,~third-party
+||check-host.net/images/naeza-$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
 ||check-host.net/images/rpndguarg$image,~third-party
 ||check-host.net/images/tmpndguarg$image,~third-party
 ||check-host.net/images/tpndguarg$image,~third-party
 ||check-host.net/images/ympndguarg$image,~third-party
+||check-host.net/images/ympndguarh$image,~third-party
 ||check-host.net/images/ypndguarg$image,~third-party
+||check-host.net/images/ypndguarh$image,~third-party
 ||check-tl-
 ||checking-your-browser.com^
 ||checkisreal.com^
@@ -6845,7 +6848,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5245
+!<<<<<网站单独规则>>>>>5247
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7938,6 +7941,8 @@ ctrl.blog##.boxa
 cuckold-videos.org###v-ad
 cuevana8.com##.advpl
 cuevana8.com##[href*="premium/"]
+cults3d.com##.cultszone--centered
+cults3d.com##a[href^="https://urlr.me/"]
 currencyconverterx.com##.block-after-head
 currencyconverterx.com##.block-inside-blocks
 currentrecruitment.com,investorveda.com###hometimerstartbtn, #hometimer, #yuidea-btmbtn, #btn6:others()
@@ -13132,7 +13137,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2125
+!<<<<<放行白名单>>>>>2128
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13501,6 +13506,7 @@ voz.vn/b/image.gif?p=$image
 @@||bcvc.ink/prebid-ads.js$script,~third-party
 @@||benkhouya.com^$script,domain=anonymousemail.me
 @@||besthdgayporn.com/wp-content/plugins/$script,~third-party
+@@||bid.g.doubleclick.net/dbm/vast$xmlhttprequest,domain=safeframe.googlesyndication.com
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
 @@||bigappboi.com/captchalocker/js/popup.js.php
 @@||bigappboi.com/cp/js/captcha.js.php
@@ -13700,6 +13706,7 @@ voz.vn/b/image.gif?p=$image
 @@||cmp.huffingtonpost.fr/api/consent$xmlhttprequest,~third-party
 @@||cmp.huffingtonpost.fr/html/huffpost/wall-large.html?css=/css/huffpost/wall-large.min.css$xmlhttprequest,~third-party
 @@||cmp.huffingtonpost.fr/js/huffpost.min.js$script,~third-party
+@@||cmp.inmobi.com^$domain=vide-greniers.org
 @@||cmp.lemonde.fr/api/consent$xmlhttprequest,~third-party
 @@||cmp.lemonde.fr/html/lemonde/wall-tunnel-abo-essential.html?css=/css/lemonde/wall.min.css$xmlhttprequest,~third-party
 @@||cmp.lemonde.fr/js/lemonde.min.js$script,~third-party
@@ -14579,6 +14586,7 @@ voz.vn/b/image.gif?p=$image
 @@||seirsanduk.*?loader.js^$script,domain=seirsanduk.*|seirsanduk.com|seirsanduk.online
 @@||senda.pl^$script,~third-party
 @@||sentry-cdn.com^$script,domain=ad-doge.com
+@@||servedby.flashtalking.com/imp/$xmlhttprequest,domain=safeframe.googlesyndication.com
 @@||servedbyadbutler.com/vast.spark$xmlhttprequest,third-party,domain=freerideworldtour.com|meta-video.com
 @@||services.bilsyndication.com/adv1/*$script,domain=atozmath.com
 @@||services.bilsyndication.com/passback/?t=$script,domain=atozmath.com
