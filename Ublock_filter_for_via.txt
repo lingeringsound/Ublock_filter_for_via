@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 3OUtOuyuZeWFcIb0rHXW/w
-! Title: Ublock filter for Via(2025-06-09 00:13:59)
-! Version: 20250609001359
+! Checksum: x23U4iH6D3gPfUVBkSFSUQ
+! Title: Ublock filter for Via(2025-06-09 09:03:59)
+! Version: 20250609090359
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-09 00:13:59
-! Total Count: 15254
-! Blocked Filters: 15254
+! Last modified: 2025-06-09 09:03:59
+! Total Count: 15262
+! Blocked Filters: 15262
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6837
+!<<<<<域名规则>>>>>6845
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1071,6 +1071,7 @@
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
 ||cdn.jsdelivr.net/npm/as-essential^
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
+||cdn.jsdelivr.net/npm/disable-devtool@$script,domain=redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@*$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/maari/dist/maari.min.js$script,third-party
 ||cdn.jsdelivr.net^*/arlinablock.js$script
@@ -4949,6 +4950,13 @@
 ||redhdtube.xxx/tmp/
 ||redirekted.com^
 ||redis08.sbs^
+||redisex.*/*ban()$script,domain=redisex.*
+||redisex.*/*closeWindow*$script,domain=redisex.*
+||redisex.*/*consoleban*$script,domain=redisex.*
+||redisex.*/*keydown*$script,domain=redisex.*
+||redisex.*/*ondevtoolopen*$script,domain=redisex.*
+||redisex.*/*window.close()$script,domain=redisex.*
+||redisex.*/player3/dt.api$xmlhttprequest,domain=redisex.*
 ||reductioncarnival.com^
 ||reepratic.com^
 ||refpamjeql.top^
