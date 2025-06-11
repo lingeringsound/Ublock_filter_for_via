@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 6cNLs6zI7IK4ZQZ50R55rQ
-! Title: Ublock filter for Via(2025-06-11 00:14:55)
-! Version: 20250611001455
+! Checksum: bGtIcnC7N97Z8zsH+uElKQ
+! Title: Ublock filter for Via(2025-06-11 08:58:45)
+! Version: 20250611085845
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-11 00:14:55
-! Total Count: 15280
-! Blocked Filters: 15280
+! Last modified: 2025-06-11 08:58:45
+! Total Count: 15281
+! Blocked Filters: 15281
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6875,7 +6875,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5256
+!<<<<<网站单独规则>>>>>5257
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9924,6 +9924,7 @@ moviewatch.com.pk,moviewatchonline.com.pk##[href*="?key="]
 moviewatchonline.com.pk##[href^="https://angularconstitution.com/"]
 moviezaddiction.icu##[href="https://dedispot.com"]
 moviezwap.*##[style^=" width: 305px;"][type^="button"][onclick^="window.location.href"]
+moz.de###bluum
 mp3.big.az##.blockreklam
 mp3juices.*##[class^="result_two__"][target="_blank"]
 mp4-porn.space##.href_
