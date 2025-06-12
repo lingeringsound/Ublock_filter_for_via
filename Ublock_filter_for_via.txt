@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 2yTukVRG3DKv+lxIpEuZ9A
-! Title: Ublock filter for Via(2025-06-12 00:15:13)
-! Version: 20250612001513
+! Checksum: lTWojdDXncVoM9crqf3vjg
+! Title: Ublock filter for Via(2025-06-12 08:57:29)
+! Version: 20250612085729
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-12 00:15:13
-! Total Count: 15294
-! Blocked Filters: 15294
+! Last modified: 2025-06-12 08:57:29
+! Total Count: 15298
+! Blocked Filters: 15298
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6874
+!<<<<<域名规则>>>>>6877
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -290,6 +290,7 @@
 ||advertising.com^$third-party
 ||advidates.com^
 ||advisorthrowbible.com^
+||adwareremoval.info^
 ||adxcel.com^
 ||adxxx.com^$third-party
 ||aeoonmallstore.com^
@@ -2172,6 +2173,7 @@
 ||fiare-activity.com^
 ||fichub.com/plugins/adobe/lib/$xmlhttprequest,domain=natgeotv.com
 ||fifaultimateteam.it/*skin$image
+||figa.beauty^
 ||fiheos.co.in^
 ||file-typ-botcheck*.b-cdn.net^
 ||filecrypt.co/*.php^$~third-party
@@ -3542,6 +3544,7 @@
 ||lologhfd.com^
 ||lomogd.com^
 ||lone1y.com^
+||lonely.beauty^
 ||long.xxx^$third-party
 ||longchampblackfriday.com^
 ||lossless-scaling.com^
@@ -12148,7 +12151,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>767
+!<<<<<通配符规则>>>>>768
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12780,6 +12783,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/uploads/adb$script,domain=mhdsports.*|mhdsportstv.*|mhdtvsports.*|mhdtvworld.*|mhdtvmax.*|mhdstream.*|mhdtvmax.*
 /wp-content/uploads/play.webp$domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in
 /wp-content/uploads/pum/pum-site-scripts.js^$domain=honghotduongpho.com
+/wp-json/navy/v*/tag?pid=$xmlhttprequest,~third-party
 /wpm@*/web-pixel-
 /wpsafelink.js|$script
 /xslot-pageskin-reklam.png$image,domain=dizipal4.com
