@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: PIfvKBxhVO71bF3PS9UDeg
-! Title: Ublock filter for Via(2025-06-13 00:15:53)
-! Version: 20250613001553
+! Checksum: AFdpPEnop5A8Ebha1i7SwA
+! Title: Ublock filter for Via(2025-06-13 08:57:57)
+! Version: 20250613085757
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-13 00:15:53
-! Total Count: 15305
-! Blocked Filters: 15305
+! Last modified: 2025-06-13 08:57:57
+! Total Count: 15361
+! Blocked Filters: 15361
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6884
+!<<<<<域名规则>>>>>6940
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -109,6 +109,7 @@
 ||5050.fm^
 ||51eabay.com^
 ||55093.com^
+||558-558-559.com^
 ||55bdsm.com^
 ||56fv2z8bfv9.com^
 ||57zyazmk.jp^
@@ -713,6 +714,13 @@
 ||bambam-bi.com^
 ||bandi-cam.cc^
 ||banquet-barbecue.com^
+||baoviet*.top^
+||baoviet*.vip^
+||baoviet.vip^
+||baovietcom.vip^
+||baovietn.vip^
+||baovietvay.top^
+||baovietvc.top^
 ||baremetrics.com^$third-party
 ||barlear.ru^
 ||base-bridqe.com^
@@ -728,6 +736,7 @@
 ||bbs-7.jp^
 ||bbsdx.jp^
 ||bc.vc/mload.gif$image
+||bcavnvnvngov.com^
 ||bd4jn7dk9u.com^
 ||bdupload.*/sw.js$script,~third-party
 ||be-loaded.com^
@@ -1038,6 +1047,7 @@
 ||cc.ashemaletube.com/*/header-black.jpg$image
 ||ccappu-ccinno.com^
 ||ccappuccinno.com^
+||ccbcavn.cc^
 ||ccefactoring.com.br/ziujhyhtrer/
 ||cd7z7b.com^
 ||cda-online.pl/wp-content/uploads/*.js$script
@@ -1194,6 +1204,7 @@
 ||childernplay.online^
 ||childrenoftheclouds.com^
 ||chinhphu.*.org^
+||chinhphu.cc^
 ||chip.de/*&$script,~third-party
 ||chivalrouscalmlymexican.com^
 ||chl3.net^
@@ -1699,7 +1710,9 @@
 ||di02.biz^
 ||diamond-line.net^
 ||dichvucongvnbca.com^
+||dichvudienmay-xanh.online^
 ||dichvutonghop.vip^
+||dienlanhdienmayxanhvn.com^
 ||dienlanhmayxanh.com^
 ||dienmay-xanh24h.online^
 ||dietythraves.top^
@@ -2014,6 +2027,7 @@
 ||ev4ev.biz^
 ||evaluatetravels.com^
 ||event-experiment.com^
+||event-redeem.com^
 ||every-au.com^
 ||every-bisque.com^
 ||every-blanched.com^
@@ -2035,6 +2049,7 @@
 ||everyonerecipes.com/index.php?$xmlhttprequest,third-party
 ||evilmods.com^
 ||evkakuri2308.click^
+||evnnpcs.com^
 ||evnsp.com^
 ||evnspccskh.com^
 ||evnsspc.com^
@@ -2493,7 +2508,9 @@
 ||ghostsinstance.com^
 ||giamcannhatban.com^
 ||giaohangnhanh.info^
+||giaohangtietkiem-cskh.com^
 ||giaohangtietkiem24.com^
+||giaohangtietkiemvn.website^
 ||gifhq.com/d2.js
 ||giftcardhero.net^
 ||gifyu.com/*.gif$image,domain=masahub.net
@@ -2618,6 +2635,7 @@
 ||gotohouse2.cc^
 ||gotprofits.com^$third-party
 ||govern-assessment-validation-*.vercel.app^
+||govn.cc^
 ||govqp.com^
 ||govuk.*.top^
 ||gparted.fr^
@@ -2697,6 +2715,7 @@
 ||handbrake.es^
 ||handbrake.it^
 ||handelsblatt.com/*/empty.js$script,~third-party
+||hangtietkiem.online^
 ||hanorid.com^
 ||hansonherbo.com^
 ||hapihapi24.com^
@@ -2783,6 +2802,8 @@
 ||herkeseuygunisilanlari.com^
 ||herokudns.com^$xmlhttprequest,domain=darkreader.org
 ||herpassages.com^
+||hethongnhanvien.com^
+||hethongnoibo.bio.link^
 ||hethongvaynhanh247.com^
 ||hexagynjewing.top^
 ||hexiumvisions.pro^
@@ -2952,6 +2973,7 @@
 ||iamcdn.net/players/player*.*mins.js$script,domain=freeplayervideo.com|nazarickol.com|player-cdn.com
 ||iamcdn.net/players/playhydraxs.min.js
 ||iamnaughty.com^
+||iazada.com^
 ||ibb.co^$image,domain=blogmado.com
 ||ibradome.com/ba/chargi.js
 ||ic-05lion.com^
@@ -3183,6 +3205,7 @@
 ||jdownloader.fr^
 ||jeengweb.com^$third-party
 ||jemi.so/correo-24-ar^
+||jetkingncsc.com^
 ||jetpunk.com/resources/asc.js^$script,~third-party
 ||jg5y2nkdg.com^
 ||jinsei-undesu.com^
@@ -3284,6 +3307,7 @@
 ||katestube.com/jsb/js_script.js
 ||katfile.com/images/dlli.png$image
 ||kbkb.bet^
+||kbthuhoivontreo.com^
 ||kcmcbc.click^
 ||keenchimairaanthem.com^
 ||keep.secret-ace.com^
@@ -3419,11 +3443,13 @@
 ||lalien10.com^
 ||lamilagq.com^
 ||landings.namapper.com^
+||lapdatinternet.net^
 ||lapmangsctv.com.vn^
 ||latenightlovers.com^
 ||launcherleaks.net/*main_script.js$script,~third-party
 ||lavaboom.net^
 ||layer-pj.com^
+||lazada.ac^
 ||lazada.bbc6666.com^
 ||lazada.gg^
 ||lazaoffices.com^
@@ -3944,6 +3970,7 @@
 ||mlcrosoftonline.com.eu-secured.com^
 ||mltrck.com^
 ||mm39sg6.top^
+||mmb-online.com^
 ||mmdem.net^
 ||mmitalianbeef.square.site^
 ||mmkat.net^
@@ -3964,8 +3991,10 @@
 ||moecoco.com^
 ||moelove.jp^
 ||moira-101.com^
+||mojgov.weebly.com^
 ||moloco-cr.jiocinema.com/creative/$xmlhttprequest,~third-party
 ||momentary.link^
+||momoshopvip.com^
 ||momvids.com/mm*/mv.js
 ||monad.network^$script,domain=shooshtime.com
 ||moncelork.com^
@@ -4200,6 +4229,7 @@
 ||nfxktxuwx.com^
 ||ngazi.co.tz^
 ||nhantienquocte*.vercel.app^
+||nhanvienghtk.com^
 ||nhanvienhanghoa.com^
 ||nhym-ddth.com^
 ||nice.par-even.com^
@@ -4264,6 +4294,7 @@
 ||nyeeiye2.click^
 ||nysoctieotion.tech^
 ||nzbstars.com/*.gif$image
+||nzx65821s.com^
 ||o-cean-fortune.biz^
 ||o-cean-fortune.com^
 ||o-ka-pilina.com^
@@ -4553,6 +4584,7 @@
 ||pcnhdukovmhslmie-vgrbx.com^
 ||pctnew.*/sw.js$script
 ||pctopkey.com^
+||pddgov.cc^
 ||pdfsam.com^
 ||pdss3a1r.jp^
 ||pdupmdatdenrfojs-wmzds.com^
@@ -5196,6 +5228,7 @@
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/$domain=fandom.com|tvguide.com
 ||scrutinizeordealscrutinize.com^
+||sdfsshop1.com^
 ||sdhjak.com^
 ||sdlbtwi3lr.com^
 ||sea-into-53426l1.com^
@@ -5239,6 +5272,9 @@
 ||sen-no-y-t.com^
 ||sen8senjya.jp^
 ||senditfast.cloud^
+||sendo1.com^
+||sendotv.shop^
+||sendovn.shop^
 ||senmendai.net^
 ||senuti.org^
 ||sered.net^$third-party
@@ -5438,6 +5474,7 @@
 ||snapbabes9.com^
 ||snapdrop.net^
 ||snappass.fr^
+||snggov.com^
 ||sns-pair.net^
 ||sns-rank-sidework.site^
 ||sns3615.com^
@@ -5471,6 +5508,7 @@
 ||sonixgvn.net/cdn-cgi/zaraz/s.js^$script,~third-party
 ||sonixgvn.net/wp-content/plugins/adrotate/$script,~third-party
 ||soonpubplatform.online^
+||soppe86.life^
 ||sorosehottie.com^
 ||sorteiosbrasil.netlify.app^
 ||sos-*.exo.io^
@@ -5690,6 +5728,7 @@
 ||susni-swap.com^
 ||sustac.com^
 ||svc.dynamics.com/f/m/
+||svgov.cc^
 ||swap-ether.net^
 ||swap-ether.site^
 ||swarm.video/telerium_dev.js
@@ -5775,6 +5814,7 @@
 ||tarto.net^
 ||tatikhale.xyz^
 ||tb.fuckandcdn.com/tbstatic*/tryboobs/compiled/script.
+||tb88789.com^
 ||tbaovn-cms.top^
 ||tbd.infinityscans.net^
 ||tcangcm.com^
@@ -5896,19 +5936,27 @@
 ||thevidhd.*/sw.js$script,~third-party
 ||theweddingmahotsav.com^
 ||thirdads.me^
+||thongtincancuoc.com^
 ||thor-swap.xyz^
 ||thorswap-v2.xyz^
 ||thqgxvs.com^$third-party
 ||threeneptuneboot.com^
 ||throb.fun^
 ||throww.fun^
+||thuongmai-dientu.com^
 ||ticketmaster.sg/js/adblock.js$script,~third-party
 ||ticketmaster.sg/js/ads.js$script,~third-party
 ||tickets.website.com.se^
 ||ticketsparis24.com^
 ||tickovent.com^
+||tienichshiinhan.com^
 ||tienphong.vn/v*/web/js/analytics.min.js
 ||tiger.qnews.media^$third-party
+||tiki886.vip^
+||tikifreeship.
+||tikinew.club^
+||tikione.vip^
+||tikivn84.com^
 ||tiktikshopvn.com^
 ||tiktok-svip*.com^
 ||tiktok18.porn/livewire/update
@@ -6271,6 +6319,7 @@
 ||validacionesoutlookmailwebadmin.glitch.me^
 ||valrogrowth.com^
 ||valuecommerce.com^$third-party
+||vamcvn.org^
 ||vanced-official.com^$domain=~revanced.app
 ||vanced.pro^$domain=~revanced.app
 ||vancedmanager.$domain=~revanced.app
@@ -6344,9 +6393,11 @@
 ||vidsrc.pro/uwu-js^$script
 ||vidsvidsvids.com/go/
 ||vidup.*/sw.js$script,~third-party
+||vieegovn.cc^
 ||vien.jp^
 ||vienthongviettel.vn^
 ||vietchinhphux.com^
+||vietcp.com^
 ||view.mngusr.com^$domain=chapmanganato.to|manganato.com
 ||viewmypdf.com^
 ||vikistream.com/z-$script,~third-party
@@ -6381,10 +6432,14 @@
 ||vlyyg.com^
 ||vn-chinhphu.com^
 ||vn-ebay.quxlpuj.cn^
+||vn-eid.com^
 ||vn156475p.com^
+||vnairlines.net^
 ||vnchinhphu.cc^
 ||vnomm.com^
 ||vnote-*.myqcloud.com^
+||vnpttechnology.weebly.com^
+||vnsendotv.vip^
 ||voicehp.com^
 ||voicesforsocialjustice.store/hotjar.php
 ||voirfilms.*/sw.js
@@ -6401,6 +6456,7 @@
 ||vroom24.com^
 ||vroom24365.com^
 ||vsno-wdmg.com^
+||vssid.*.cc^
 ||vtcnews.vn/Content/pc/js/pages/loadjs/tracking.js
 ||vtcnews.vn/NewsV*/GetAdsHeader
 ||vtcnews.vn/dist/adsbyvtc_ver*.js
