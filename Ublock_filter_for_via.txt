@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: UaRcFQzWWnIyeN36PSO3Eg
-! Title: Ublock filter for Via(2025-06-14 00:15:07)
-! Version: 20250614001507
+! Checksum: h+AnpXSIrZCeldY8TvNIRQ
+! Title: Ublock filter for Via(2025-06-14 08:55:43)
+! Version: 20250614085543
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-14 00:15:07
-! Total Count: 15365
-! Blocked Filters: 15365
+! Last modified: 2025-06-14 08:55:43
+! Total Count: 15368
+! Blocked Filters: 15368
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6944
+!<<<<<域名规则>>>>>6947
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2257,6 +2257,7 @@
 ||flash.cn^
 ||flaticon.com/_ga?
 ||flatrelentlessperspective.com^
+||flattenrestoration.com^
 ||flaxdescale.com^
 ||fle652.net^
 ||flexytalk.net^
@@ -5816,6 +5817,7 @@
 ||taradinhos.com^$third-party
 ||tarjetarojaenvivo.lat/lib.js^
 ||tarto.net^
+||tastedaftknowledge.com^
 ||tatikhale.xyz^
 ||tb.fuckandcdn.com/tbstatic*/tryboobs/compiled/script.
 ||tb88789.com^
@@ -6672,6 +6674,7 @@
 ||wsimg.com/traffic-assets/$script,third-party
 ||wsws1234.net^
 ||wswsnews.net^
+||wufazpappk.com^
 ||wwbudmh.ru^
 ||www-facebook-
 ||www-facebook-com.vn^
