@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: iRBzgmcctzP+3UrBv3BZCg
-! Title: Ublock filter for Via(2025-06-15 00:13:47)
-! Version: 20250615001347
+! Checksum: P6aNEFnLLAb9T8GfpWAVZA
+! Title: Ublock filter for Via(2025-06-15 09:04:31)
+! Version: 20250615090431
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-15 00:13:47
-! Total Count: 15371
-! Blocked Filters: 15371
+! Last modified: 2025-06-15 09:04:31
+! Total Count: 15373
+! Blocked Filters: 15373
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -6962,7 +6962,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5258
+!<<<<<网站单独规则>>>>>5259
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -11895,6 +11895,7 @@ web.de##.main [data-ac]:empty
 web.de##div[data-service-slot-initialized]
 web.facebook.com,www.facebook.com###seo_pivots ~ div > div[style^="max-width"] > div[class] > div[style^="max-width"]:has(a[href^="/ads/about/?"])
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-label][aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
+web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
 web2.0rechner.de,web2.0calc.*###nocreditsmodal
@@ -13264,7 +13265,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2130
+!<<<<<放行白名单>>>>>2131
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14441,6 +14442,7 @@ voz.vn/b/image.gif?p=$image
 @@||nocturnetls.net^$script,~third-party
 @@||nohat.*^$script,domain=nohat.cc
 @@||nohat.me/s?*k=$xmlhttprequest,domain=png.is|nohat.cc
+@@||nontonx.com/cdn-cgi/rum$xmlhttprequest,~third-party
 @@||nosteam.ro/notcaptcha/adheader.js$domain=nosteamgames.ro
 @@||notebook-check.com^$script,domain=notebookcheck.com|notebookcheck.net|notebookcheck-ru.com
 @@||notebookcheck-ru.com^$script,domain=notebookcheck.com|notebookcheck.net|notebookcheck-ru.com
