@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: P6aNEFnLLAb9T8GfpWAVZA
-! Title: Ublock filter for Via(2025-06-15 09:04:31)
-! Version: 20250615090431
+! Checksum: WTLZbg1AcjuYA7vzFTcG+A
+! Title: Ublock filter for Via(2025-06-16 00:13:49)
+! Version: 20250616001349
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-15 09:04:31
-! Total Count: 15373
-! Blocked Filters: 15373
+! Last modified: 2025-06-16 00:13:49
+! Total Count: 15407
+! Blocked Filters: 15407
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>6948
+!<<<<<域名规则>>>>>6974
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -992,6 +992,7 @@
 ||buzz-gric.com^
 ||buzzadnetwork.com^
 ||bvwozybuqztvg.com^
+||bws.bar-diningjaycowe.com^
 ||bwtsrv.com^$third-party
 ||bxn45.com^
 ||bxtongji.cc^
@@ -2331,6 +2332,7 @@
 ||fralstamp-genglyric.icu^
 ||frankerreedits.com^
 ||fransize-veryf.com^
+||free-community.club^
 ||free-ren.com^
 ||free-ren.jp^
 ||freeadd.me^
@@ -2858,6 +2860,7 @@
 ||hltv.org/*.gif?ixlib=$image
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
+||hm99-free7apo.gift^
 ||hmai.jp^
 ||hmhm.jp^
 ||hn-mizuki.com^
@@ -2983,6 +2986,7 @@
 ||ic0828op.com^
 ||icelz.to/lib.js
 ||icetraff.com^
+||icha-kurakura.biz^
 ||ichlnk.com^
 ||icloud.apple-*.cn^
 ||iconstaff.top^
@@ -3186,6 +3190,8 @@
 ||javaninja.shop^
 ||javbabe.net/x1x/
 ||javbobo.com/little-hall-f39d/
+||javenglish.cc/terra2.js^
+||javenglish.net^$third-party
 ||javevil.com^$third-party
 ||javf.net/js/popup.js
 ||javfindx.com/sw.js
@@ -3289,10 +3295,12 @@
 ||kaimiray-k.jp^
 ||kaiser-impact.pages.dev^
 ||kaitakavixen.shop^
+||kaiun-blue.com^
 ||kaiun-com.com^
 ||kaiun-park.jp^
 ||kaiunmegami.jp^
 ||kaiunnookite.com^
+||kaiunraw.com^
 ||kaiunrecipe.com^
 ||kajeputhorn.com^
 ||kaminarisubs.net^
@@ -3545,6 +3553,7 @@
 ||liverun0.com^
 ||livesport24.net/*.gif$image
 ||livestreaming24.xyz^
+||livetwo.store^
 ||ljqq93npbr.com^
 ||lkmw88.com^
 ||ll-m-work-2020.com^
@@ -3624,6 +3633,7 @@
 ||lpoms.com^
 ||lsdfex.shop^
 ||lshyodrgehlnyswsjq.com^
+||lss.site-lfss.com^
 ||ltlweight.trgr.me^
 ||ltn.hitomi.la^*?yuo1=$script,~third-party
 ||lu-club-de-matching.com^
@@ -3711,6 +3721,7 @@
 ||mail.pages.exchange-midasbuy.com^
 ||mail.sorbeadindias.com^
 ||mailtherapyask.com^
+||mainos.pro^
 ||maishuhahi.net^
 ||mait.inhhome.top^
 ||maiwa12.jp^
@@ -3750,6 +3761,12 @@
 ||manpuku-ja.jp^
 ||manta-network-v2.us^
 ||mantanetworkcn.com^
+||mantra-7-teach.net^
+||mantra-7.net^
+||mantra-7teach.com^
+||mantra-7teaching.com^
+||mantra7.net^
+||mantra77.jp^
 ||marabase-bi.com^
 ||marchshotgun.com^
 ||marginz03nx1oe.jp^
@@ -3982,6 +3999,7 @@
 ||mmnav.jp^
 ||mmnn.jp^
 ||mmsefdrkcdpsrkdr-meaha.com^
+||mn-meiun.com^
 ||mn-shop.com^$third-party
 ||mo11.biz^
 ||mobile-facebook.com.vn^
@@ -4064,6 +4082,7 @@
 ||msoftupdate.*.linodeobjects.com^
 ||msstatic.com/huya/*/p2plib.js$script
 ||msubplix.com/cdn-cgi/trace$xmlhttprequest,~third-party
+||msx.hope-321d.com^
 ||mtl.metel-x-x-x.com^
 ||mtm.bondagevalley.cc^
 ||mtsa.com.my/mtcs.php/pageview/track^$image
@@ -4472,6 +4491,7 @@
 ||p18d6.hp.peraichi.com^
 ||p23hxejm1.com^
 ||p3s18f1d0.com^
+||p67-kuku4e.xyz^
 ||pa-ir.net^
 ||pacr-fjhs.com^
 ||paderrer.com^
@@ -4675,6 +4695,7 @@
 ||play.funfourmob.com^
 ||play.google.com/store/apps/details?id=com.juku_para^
 ||play.google.com/store/apps/details?id=com.ola.yoitoki^
+||play.google.com/store/apps/details?id=gift.tadaapo.tadadeai&
 ||play.turbommo.com^$third-party
 ||playbrain.io/analytics/
 ||player-api.s4c-cdn.co.uk/analytics/$domain=s4c.cymru
@@ -5219,6 +5240,7 @@
 ||savefiles.com/js/noadblocker.js
 ||sbasian.pro/js/mainpc.js
 ||sbfw.work^
+||sbi.bar-diningjaycowe.com^
 ||scandichotels.com/Static/js/tracking/tracking-data-init.js^$script,~third-party
 ||scane.click^
 ||scearmcommnymnlty.com^
@@ -5573,6 +5595,7 @@
 ||srvtensz.com^
 ||srvy.ninja/assets/adb/js/detector.min.js
 ||srvy.ninja/assets/property/js/ads.js
+||srxy.xyz^
 ||ss-mndsrv.b-cdn.net^
 ||ssgalaxy-sysgold.jp^
 ||ssiadnweb.securenetsystems.net^
@@ -5792,8 +5815,10 @@
 ||tada-love.jp^
 ||tada10ve.jp^
 ||tada1ove.com^
+||tadaapo.gift^
 ||tadaapo123.com^
 ||tadaapomail.com^
+||tadadeai.weebly.com^
 ||tadamatch.com^
 ||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
 ||tagcommander.com/*/tc_$script,domain=n-tv.de
@@ -6824,6 +6849,7 @@
 ||y2mate.com/themes/js/pn.js
 ||y2sysagetf.com^
 ||y54wdrg.com^
+||yamcha.xyz^
 ||yandexmetrica.com^
 ||yautube.com^
 ||yceleb.com^
@@ -6962,7 +6988,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5259
+!<<<<<网站单独规则>>>>>5267
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -9300,7 +9326,7 @@ imgshots.com###introOverlayBg
 imgspice.com###interdiv
 imgspice.com###widepage
 imgtorrnt.in##[id*="Banner"]
-imhentai.xxx###slider
+imhentai.xxx,pics-x.com###slider
 immoweb.be##[id^="adims_"]
 imsolo.pro##.ads-main
 imsolo.pro##.center.spacing.text
@@ -10411,6 +10437,13 @@ pianoencyclopedia.com%2Fen%2Femail%2Fimages%2F*%2Fpix.gif$image
 pianoencyclopedia.com/en/email/images/*/pix.gif$image
 picbaron.com##[href*="/redirect?tid="]
 pichaloca.com##.publis-bottom
+pics-x.com###footer-schmads
+pics-x.com###gallery-header-schmad
+pics-x.com###homepage-links
+pics-x.com##.player-schmad
+pics-x.com##.schmad-container
+pics-x.com##a[href^="https://pics-x.com/marketing/"]
+pics-x.com##nav[aria-label="additional navigation"]
 pictoa.com###tab-footer
 pictoa.com###tab-gallery
 picyield.com##.adbwarning
@@ -11103,6 +11136,7 @@ sledujserialy.*###super_secret_ad
 sledujserialy.*##div[id][style="position: absolute; top: 0; left: 0; width: 100%; height: 380px; text-align: center;"]
 slideplayer.com##.bottom_comment_banners
 slideplayer.com##.top_comment_banners
+slideshare.net##[class^="AdComponent"]
 slideshare.net##[class^="AdContainer"]
 slideshare.net##[class^="StickyVerticalInterstitialAd"]
 slideshare.net##[data-freestar-ad]
