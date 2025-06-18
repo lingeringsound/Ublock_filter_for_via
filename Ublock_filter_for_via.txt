@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: HjDtStgH9HC9Ylw3FsYmgQ
-! Title: Ublock filter for Via(2025-06-18 08:58:06)
-! Version: 20250618085806
+! Checksum: sMIJLQcAwy8qcCLu2xVJ7Q
+! Title: Ublock filter for Via(2025-06-19 00:14:54)
+! Version: 20250619001454
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-18 08:58:06
-! Total Count: 15467
-! Blocked Filters: 15467
+! Last modified: 2025-06-19 00:14:54
+! Total Count: 15478
+! Blocked Filters: 15478
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7031
+!<<<<<域名规则>>>>>7038
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -807,6 +807,7 @@
 ||bhplay.me/player/assets/devtools-detector/*$script,~third-party
 ||bibian4k.com^
 ||biblio.sviluppo.host^
+||bicfic.net^
 ||bidster.net^
 ||bigbauer.com^
 ||bigosext69.com^
@@ -1793,6 +1794,7 @@
 ||dones9.wixsite.com^
 ||donghocotatan.com^
 ||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
+||doo.lat/public/overroll_gasparin.js$script,domain=player.cuevana.is
 ||doo6pwib3qngu.cloudfront.net^
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
 ||door-donation.jp^
@@ -3327,6 +3329,7 @@
 ||kaiunraw.com^
 ||kaiunrecipe.com^
 ||kajeputhorn.com^
+||kaleempc.info^
 ||kaminarisubs.net^
 ||kanbbs.net^
 ||kantanemusuu.jp^
@@ -4097,6 +4100,7 @@
 ||mqdownload.com^
 ||mr.media-bucket.com^
 ||mredir.com^
+||mrfoe.com^
 ||mrfog.com^$domain=dr-farfar.net
 ||mrmnd.com^
 ||mrpiracy.*/images/*.gif$image
@@ -5320,6 +5324,7 @@
 ||secure.globalultracdn.com^
 ||secure.payment*.xin^
 ||securecracked.info^
+||securefilelink.info^
 ||securefiles.pro^
 ||securemetrics.apple.com/b/ss/*maps$image
 ||securevault.top^
@@ -5580,6 +5585,7 @@
 ||sonixgvn.net/cdn-cgi/apps/head/$script,~third-party
 ||sonixgvn.net/cdn-cgi/zaraz/s.js^$script,~third-party
 ||sonixgvn.net/wp-content/plugins/adrotate/$script,~third-party
+||sonvupload.xyz^
 ||soonpubplatform.online^
 ||soppe86.life^
 ||sorosehottie.com^
@@ -7008,6 +7014,7 @@
 ||zeroappointment.com^
 ||zerocha.jp^
 ||zeroendeapo.com^
+||zeroupload.info^
 ||zetadeo.com^
 ||zetporn.com/*/custom_vast/$xmlhttprequest
 ||zhandouxian.com^
@@ -7045,7 +7052,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5270
+!<<<<<网站单独规则>>>>>5273
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7287,8 +7294,8 @@ acetack.com,androidquest.com,apklox.com,cambb.xxx,chhaprawap.in,gujarativyakaran
 actionviewphotography.com,exporntoons.net,freepornvideo.sex,mat6tube.*,noodlemagazine.com,sibtok.com,tyler-brown.com,ukdevilz.com,whatisareverseauction.com##noindex
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> [id*="_ad_native_"])
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> ins)
-activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,goharpc.com,greencracks.com,hdlicense.org,ikcrack.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,pcfullcrack.org,pcfullversion.com,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,softgetpc.com,softsnew.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
-actuwar.com,alwafag.com,apkgg.xyz,blogfem.com,coinpurs.com,dailywebsite.in,djamar.xyz,elmarvin.com,fnewsn.com,forexsalary.com,lrmodapk.pro,lumiaf.com,mamatamusicbanaras.com,missionupsc.com,newsvsp.com,odisha-remix.com,pulgame.com,themoviesradar.in###wpsafe-link, .wpsafelink-multiple-pages:others()
+activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackedmac.com,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,goharpc.com,greencracks.com,hdlicense.org,ikcrack.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,pcfullcrack.org,pcfullversion.com,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,softgetpc.com,softsnew.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
+actuwar.com,alwafag.com,apkgg.xyz,blogfem.com,coinpurs.com,dailywebsite.in,djamar.xyz,elmarvin.com,fnewsn.com,forexsalary.com,jokgame.com,lrmodapk.pro,lumiaf.com,mamatamusicbanaras.com,mentalfile.com,missionupsc.com,newsvsp.com,ngviral.com,nosviral.com,odisha-remix.com,pulgame.com,qaluri.com,themoviesradar.in,vgviral.com,waiwj.net,wttai.net,xcbtm.net###wpsafe-link, .wpsafelink-multiple-pages:others()
 adala-news.fr###eazy_ad_unblocker_dialog-message
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,shavetape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
 adbull.*,aii.sh,oko.sh##[src^="https://i.imgur.com/"]
@@ -7780,7 +7787,7 @@ bombuj.*##[id*="ekla"]
 bombuj.*##[id^="ad_banner"] ~ a
 boobgirlz.com##.widget-column:has(> center > [href="https://boobgirlz.com/istripper"])
 boobsrealm.com##iframe[style$="height: 250px;"]
-bookmystrip.com,cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,thecryptomen.com,yalifin.xyz##center:others()
+bookmystrip.com,catcare.store,cricketlegacy.com,cryptokinews.com,gadgetsreview27.com,lifesurance.info,lrncook.xyz,mastharyana.com,newsbawa.com,quickimageconverter.com,remixbass.com,sabkiyojana.com,studyfut.com,techipop.com,techyember.com,thecryptomen.com,yalifin.xyz##center:others()
 bookriot.com##.inside-content-promo-container
 bookshared.org##div.book:has([src^="//www.highperformanceformat.com/"])
 bookszone.in###tp98, #jatinbtn-continue:others()
@@ -9014,7 +9021,7 @@ gmanetwork.com##.mrec_ad
 gmx.*###adservice-top
 gmx.*##.ad-content
 gmx.*##.main [data-ac]:empty
-go.bloggingaro.com,go.gyanitheme.com,go.theforyou.in,go.hipsonyc.com##.blog-item, .banner-inner, footer
+go.bloggingaro.com,go.gyanitheme.com,go.hipsonyc.com,go.theforyou.in,golink.bloggerishyt.in##.blog-item, .banner-inner, footer
 go.freetrx.fun##form center > div[id^="_"]
 go.gets4link.com##.mx-auto > center
 go.gets4link.com,namaidani.com,set.seturl.in,youshort.me##.blog-item
@@ -9079,6 +9086,7 @@ guiamuriae.com.br,saveearning.com##.theiaStickySidebar
 guidedhacking.com##[href="https://guidedhacking.com/advertise"]
 gumtree.com.au###leaderboard-header-banner
 gun-otaku.blogspot.com,shuajota.com###HTML16
+gyanitheme.com##.bt-success, #verify, #pop-button, .modal-content:others()
 h-flash.com###topzone
 h-flash.com##[href^="https://chaturbate.com/in/"]
 h-flash.com##[href^="https://t.aagm.link/"]
@@ -9255,10 +9263,12 @@ history.com##aside:has([class*="-ad-"])
 hitbdsm.com##[href*="aff_ad"]
 hitomi.la##.container > div[class$="content"] > div[class]:has(> script)
 hl-live.de###swlad
+hltv.org##.a-reset:has([href^="/out/"])
 hltv.org##.leftCol > aside:first-child:has(> .ggbe-firstcol-box > a[href] > img[src*="/ggbet/"])
 hltv.org##.presented-by
 hltv.org##.thunderpick-firstcol-box
 hltv.org##:is(div, aside):has(> a[href^="/"][data-link-tracking-page="Widget"])
+hltv.org##[href^="/out/"]
 hobby-machinist.com##.samCodeUnit
 hochi.news###ohtani-pickup
 hog.*##.content__info--vis
@@ -12318,7 +12328,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>769
+!<<<<<通配符规则>>>>>770
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12438,6 +12448,7 @@ $script,domain=zdnet.fr,third-party
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
 .html?cep=*&cost=0.
+.info/?h=*&user=$script,third-party
 .info/?key=*&pixel=
 .life/js/popunder.js$third-party
 .live/1*.html?cep=
