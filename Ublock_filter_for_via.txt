@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wv2qVtgM1BYX0BreLWRzQg
-! Title: Ublock filter for Via(2025-06-19 08:58:55)
-! Version: 20250619085855
+! Checksum: cuzU5Jlc9tnJpYB1VLYUPQ
+! Title: Ublock filter for Via(2025-06-20 00:14:30)
+! Version: 20250620001430
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-19 08:58:55
-! Total Count: 15492
-! Blocked Filters: 15492
+! Last modified: 2025-06-20 00:14:30
+! Total Count: 15497
+! Blocked Filters: 15497
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7047
+!<<<<<域名规则>>>>>7051
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -494,7 +494,10 @@
 ||api.asiaflix.net/v*/utils/get-ad-code^
 ||api.baomoi.com/*/w/$script,xmlhttprequest,~third-party
 ||api.baomoi.com/a465/
+||api.bilibili.com/x/click-interface/click/web/h5^
+||api.bilibili.com/x/click-interface/web/heartbeat^
 ||api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi$xmlhttprequest,~third-party
+||api.bilibili.com/x/web-frontend/data/collector^
 ||api.busuu.com/ads/
 ||api.cryptorank.io/v0/banners^
 ||api.flipkart.com/4/data/collector/business
@@ -1350,6 +1353,7 @@
 ||colossal-extension.com^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/*.js|$script,third-party,domain=pornhoarder.tv|pornhoarder.tw
+||com/*/ModalEngage|$script,third-party
 ||com/on.js?var=$script,third-party
 ||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
@@ -7338,7 +7342,7 @@ advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,meetdo
 advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,northern-scot.co.uk,stratford-herald.com##.MPU
 advertisingexcel.com,allcryptoz.net,batmanfactor.com,crewbase.net,crewus.net,documentaryplanet.xyz,gametechreviewer.com,midebalonu.net,misterio.ro,phineypet.com,seory.xyz,shinbhu.net,shinchu.net,substitutefor.com,talkforfitness.com,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
-advicefunda.com,bestloanoffer.net,castmax.live,computerpedia.in,fairyanime.com,go.linkify.ru,is2btc.com,phica.net,swift4claim.com,techconnection.in,universitiesonline.xyz,ustream.to,worldsex.com##.overlay
+advicefunda.com,bestloanoffer.net,castmax.live,computerpedia.in,fairyanime.com,go.linkify.ru,is2btc.com,phica.net,swift4claim.com,techconnection.in,tokuzl.net,universitiesonline.xyz,ustream.to,worldsex.com##.overlay
 advicefunda.com,bestloanoffer.net,computerpedia.in,cryptonetos.ru,techconnection.inn,universitiesonline.xyz,ustream.to##.popup
 adweek.com##.widget-adweek-sticky-next:has(> .htl-ad-wrapper)
 adz7short.space###banner_slider_right
@@ -13115,7 +13119,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>266
+!<<<<<通用Css规则>>>>>267
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -13179,6 +13183,7 @@ voz.vn/b/image.gif?p=$image
 ###video-id_fluid_html_on_pause
 ###video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"]
 ###weatherad:not(:empty)
+###zdn-adblock-overlay
 ##.Ad-Container:not(.adsbygoogle)
 ##.aan_fake
 ##.aan_fake__video-units
