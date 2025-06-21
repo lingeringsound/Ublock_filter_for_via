@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lJ0zUv7/Xi8GQAHRhZEWfg
-! Title: Ublock filter for Via(2025-06-21 00:14:18)
-! Version: 20250621001418
+! Checksum: Vm2uKx0gb/Obz+t22Y+VDQ
+! Title: Ublock filter for Via(2025-06-21 08:57:00)
+! Version: 20250621085700
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-21 00:14:18
-! Total Count: 15504
-! Blocked Filters: 15504
+! Last modified: 2025-06-21 08:57:00
+! Total Count: 15509
+! Blocked Filters: 15509
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7053
+!<<<<<域名规则>>>>>7057
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1192,9 +1192,11 @@
 ||cheatworld.site^
 ||check-host.net/images/aezaelogo.svg$image,~third-party
 ||check-host.net/images/aezarlogo.svg$image,~third-party
+||check-host.net/images/aezrlogo.svg$image,~third-party
 ||check-host.net/images/alexehost.png$image,~third-party
 ||check-host.net/images/alexrhost.png$image,~third-party
 ||check-host.net/images/baeza-$image,~third-party
+||check-host.net/images/naez-$image,~third-party
 ||check-host.net/images/naeza-$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
 ||check-host.net/images/rpndguarg$image,~third-party
@@ -1202,8 +1204,10 @@
 ||check-host.net/images/tpndguarg$image,~third-party
 ||check-host.net/images/ympndguarg$image,~third-party
 ||check-host.net/images/ympndguarh$image,~third-party
+||check-host.net/images/ympndguath$image,~third-party
 ||check-host.net/images/ypndguarg$image,~third-party
 ||check-host.net/images/ypndguarh$image,~third-party
+||check-host.net/images/ypndguath$image,~third-party
 ||check-tl-
 ||checking-your-browser.com^
 ||checkisreal.com^
@@ -7067,7 +7071,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5282
+!<<<<<网站单独规则>>>>>5283
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7983,6 +7987,7 @@ charbelnemnom.com,scubidu.eu###custom_html-16
 chat.deepseek.com##.ds-modal-overlay
 cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
+check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .ri-ative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostavq, #antkeayvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeayvhaeaalexhost, #antkeayvhaeapp-juiaryt, #antkeayvhaeapp-juiaryt2, .ry-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
