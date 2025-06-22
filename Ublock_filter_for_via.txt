@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: RoYTJjp2KsSF4jKoNa3u7g
-! Title: Ublock filter for Via(2025-06-22 00:13:01)
-! Version: 20250622001301
+! Checksum: D8IND4Anstbrh9SF4u76pQ
+! Title: Ublock filter for Via(2025-06-22 09:03:30)
+! Version: 20250622090330
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-22 00:13:01
-! Total Count: 15509
-! Blocked Filters: 15509
+! Last modified: 2025-06-22 09:03:30
+! Total Count: 15512
+! Blocked Filters: 15512
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7057
+!<<<<<域名规则>>>>>7060
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -63,6 +63,7 @@
 ||1primewire.com/addons/$image
 ||1st-mail.jp^
 ||1ts11.top^
+||1wdrop5.com^
 ||1win-17545.com^
 ||1winpb.com^
 ||1xzf53lo.xyz^
@@ -2145,6 +2146,7 @@
 ||faecbook.vn^
 ||fair.alivio-platform.com^
 ||fairytail-tube.org/templates/caprica/amz$image,~third-party
+||faithfuldifficulty.com^
 ||fakeserhelpsreivew-
 ||fakeserhelpsreivew-facesonseriengoies-16839.io.vn^
 ||fallenscfwqy2pbin0.jp^
@@ -4209,6 +4211,7 @@
 ||myreadingmanga.info/vjs/mrm_
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
 ||mysecurify.com^
+||mysoft.rest^
 ||mystery-forest.com^
 ||mytemp.website/amazon-prime-video-com-br/
 ||mytemp.website/safetyfileaccess.htm^
