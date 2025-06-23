@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 862dWqFfleEzGv/AMVCYiA
-! Title: Ublock filter for Via(2025-06-23 00:14:00)
-! Version: 20250623001400
+! Checksum: PTF6I6L2FS0SneWxSrZkAg
+! Title: Ublock filter for Via(2025-06-23 09:01:52)
+! Version: 20250623090152
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-23 00:14:00
-! Total Count: 15513
-! Blocked Filters: 15513
+! Last modified: 2025-06-23 09:01:52
+! Total Count: 15519
+! Blocked Filters: 15519
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7060
+!<<<<<域名规则>>>>>7063
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1999,6 +1999,7 @@
 ||enchantedfruit.com^
 ||encurtads.net/scriptencurmontag.js$script
 ||endingthefed.com^
+||endlessenterprisebrawl.com^
 ||endrowl.com^
 ||enenkatukatumail.com^
 ||enexdirecto.com^
@@ -3814,6 +3815,7 @@
 ||mantra-7teaching.com^
 ||mantra7.net^
 ||mantra77.jp^
+||manualpeasantconnoisseur.com^
 ||marabase-bi.com^
 ||marchshotgun.com^
 ||marginz03nx1oe.jp^
@@ -6689,6 +6691,7 @@
 ||whatsapp*.icu^
 ||whatsapp-32w.pages.dev^
 ||wheelwheel.space^$third-party
+||whelkerferrum.com^
 ||whentai.com/*.gif$image
 ||wherat.com^
 ||whfdny.org^
@@ -7074,7 +7077,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5284
+!<<<<<网站单独规则>>>>>5286
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -7370,7 +7373,7 @@ aiimgvlog.fun,blog24.me###widescreen2
 airdrieecho.com,brantfordexpositor.ca,calgaryherald.com,calgarysun.com,canoe.com,chathamdailynews.ca,chathamthisweek.com,clintonnewsrecord.com,cochranetimes.com,cochranetimespost.ca,coldlakesun.com,communitypress.ca,countymarket.ca,countyweeklynews.ca,devondispatch.ca,draytonvalleywesternreview.com,edmontonjournal.com,edmontonsun.com,elliotlakestandard.ca,fairviewpost.com,fortmcmurraytoday.com,fortsaskatchewanrecord.com,gananoquereporter.com,goderichsignalstar.com,greybrucethisweek.ca,hannaherald.com,intelligencer.ca,kenoraminerandnews.com,kincardinenews.com,kingstonthisweek.com,lakeshoreadvance.com,leaderpost.com,leducrep.com,lfpress.com,lucknowsentinel.com,mayerthorpefreelancer.com,melfortjournal.com,midnorthmonitor.com,mitchelladvocate.com,montrealgazette.com,nantonnews.com,nationalpost.com,norfolkandtillsonburgnews.com,northernnews.ca,nugget.ca,ontariofarmer.com,ottawacitizen.com,ottawasun.com,owensoundsuntimes.com,parisstaronline.com,peacecountrysun.com,pembrokeobserver.com,pinchercreekecho.com,prrecordgazette.com,recorder.ca,sarniathisweek.com,saultstar.com,saultthisweek.com,seaforthhuronexpositor.com,sherwoodparknews.com,shorelinebeacon.com,simcoereformer.ca,sprucegroveexaminer.com,standard-freeholder.com,stonyplainreporter.com,stratfordbeaconherald.com,strathroyagedispatch.com,stthomastimesjournal.com,thebeaumontnews.ca,thechronicle-online.com,thecragandcanyon.ca,thegraphicleader.com,thelondoner.ca,thepost.on.ca,theprovince.com,thestarphoenix.com,thesudburystar.com,thewhig.com,timminspress.com,timminstimes.com,todaysfarmer.ca,torontosun.com,trentonian.ca,vancouversun.com,vermilionstandard.com,vulcanadvocate.com,wallaceburgcourierpress.com,wetaskiwintimes.com,whitecourtstar.com,wiartonecho.com,windsorstar.com,winnipegsun.com,woodstocksentinelreview.com##.featured-video
 akaihentai.com##.exc
 akcartoons.in,cybercityhelp.in###tp982, #btn6:others()
-akwam.*,akwams.*,androjungle.com,appvn.com,atomixhq.*,atomohd.*,bluedollar.net,brazzers3x.org,btc25.org,cacfutures.org,claimsatoshi.xyz,claimtrx.com,coinpayz.xyz,comexlive.org,cryptofenz.xyz,cryptonetos.ru,daxfutures.org,dollarindex.org,dowfutures.org,easyfun.gg,erome.com,feyorra.top,filerice.com,filmpertutti.*,food.ndtv.com,francoischarron.com,freelitecoin.top,freetron.top,ftsefutures.org,gametop.com,geo.fr,harshfaucet.com,hdbraze.com,hdpicsx.com,jagran.com,laptrinhx.com,madtrx.fun,mcxlive.org,mivo.com,multicoinads.com,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,pctfenix.*,pctnew.*,re.two.re,romadd.com,sgxnifty.org,spfutures.org,up-load.io,upload.ac,uptomega.*,userupload.*,viewster.co##.ads
+akwam.*,akwams.*,androjungle.com,appvn.com,atomixhq.*,atomohd.*,bluedollar.net,brazzers3x.org,btc25.org,cacfutures.org,claimsatoshi.xyz,claimtrx.com,coinpayz.xyz,comexlive.org,cryptofenz.xyz,cryptonetos.ru,daxfutures.org,dollarindex.org,dowfutures.org,easyfun.gg,erome.com,feyorra.top,filerice.com,filmpertutti.*,food.ndtv.com,francoischarron.com,freelitecoin.top,freetron.top,ftsefutures.org,gametop.com,geo.fr,harshfaucet.com,hdbraze.com,hdpicsx.com,jagran.com,laptrinhx.com,madtrx.fun,mcxlive.org,mivo.com,multicoinads.com,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,pctfenix.*,pctnew.*,re.two.re,romadd.com,servers-mc.net,sgxnifty.org,spfutures.org,up-load.io,upload.ac,uptomega.*,userupload.*,viewster.co##.ads
 alemannia-aachen.de###grid-image-head
 alemannia-aachen.de##.b-error
 allafricangirls.net##[id^="exo_"]
@@ -7381,7 +7384,7 @@ allgemeine-zeitung.de,buerstaedter-zeitung.de,echo-online.de,lampertheimer-zeitu
 alliptvlinks.com###arlinablock
 allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
-allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mplay.*,streamp1ay.*,streanplay.*,supersextube.pro,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
+allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,servers-mc.net,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mplay.*,streamp1ay.*,streanplay.*,supersextube.pro,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomic.com,lowendbox.com##iframe
 allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,readytechflip.com,romadd.com,studydhaba.com,taoruseitai.com,taradinhos.com,towelstretches.com##.widget_custom_html
 allround-pc.com##.inlineAd
@@ -7400,7 +7403,7 @@ altema.jp##.koukoku_common_tag
 alternativeto.net##div[style]:has(> div[class^="Adsense"])
 alternativeto.net##li[data-testid]:has([href^="/outgoing/"])
 alvinreports.com##.stream-item-above-post-content
-aman-dn.blogspot.com,faselhd.*,heidibemvindaacasabrasil.blogspot.com,linkstoreanimezone.blogspot.com,mamahawa.com,pornstargold.com,workanimezone.blogspot.com###popup
+aman-dn.blogspot.com,faselhd.*,heidibemvindaacasabrasil.blogspot.com,linkstoreanimezone.blogspot.com,mamahawa.com,pornstargold.com,servers-mc.net,workanimezone.blogspot.com###popup
 amanguides.com,blog.nationapk.com,classicoder.com,djpunjab2.in,djqunjab.in,fartechy.com,foodxor.com,freemodsapp.xyz,geniussolutions.co,gurumu.net,highkeyfinance.com,iconicblogger.com,investcrust.com,itechmafiia.com,kreatifparenting.com,krishiloksewa.com,litonmods.com,mb.feedale.com,mealcold.com,mixrootmods.com,modzilla.in,panda.freemodsapp.in,placementsmela.com,reminimod.co,rsrlink.in,sportsonfr.com###wpsafe-link:others()
 amateur-twink.com##.pl_adv
 amateur8.com###intt-layer
@@ -11100,6 +11103,8 @@ series9.*##div[style="padding:15px 0;text-align:right;"]
 seriesflv.*##.adx > a[href]
 seriu.jp##body > .site-footer + div[id][class*=" "]
 servedez.com##[id^="ad_"]
+servers-mc.net###server-ad-left
+servers-mc.net###server-ad-right
 servustv.com##.backdrop-filter
 sexjobs.es##.topBanners
 sexlist.tv##.camitems
@@ -12361,7 +12366,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>771
+!<<<<<通配符规则>>>>>772
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
@@ -12441,6 +12446,7 @@ $script,domain=zdnet.fr,third-party
 .click/?s=*&g=*&q=files.zip
 .click/?user=*&h=$script,third-party
 .club/js/popunder.js$third-party
+.co.in/01/?cid=
 .com/1?z=$script,third-party
 .com/2?z=$script,third-party
 .com/add.php^$xmlhttprequest,third-party
