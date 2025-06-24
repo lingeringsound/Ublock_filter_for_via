@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vfYMaRBonlT1k1+/pZ3slA
-! Title: Ublock filter for Via(2025-06-24 00:16:03)
-! Version: 20250624001603
+! Checksum: eH/sRTsW25kb+CI7x2jBRQ
+! Title: Ublock filter for Via(2025-06-24 08:59:17)
+! Version: 20250624085917
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-24 00:16:03
-! Total Count: 15534
-! Blocked Filters: 15534
+! Last modified: 2025-06-24 08:59:17
+! Total Count: 15535
+! Blocked Filters: 15535
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -13426,7 +13426,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2131
+!<<<<<放行白名单>>>>>2132
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13618,6 +13618,7 @@ voz.vn/b/image.gif?p=$image
 @@||adinplay.com/libs/aiptag/assets/adsbygoogle.js^$xmlhttprequest,domain=devast.io
 @@||adition.com/1x1.gif$xmlhttprequest,domain=joyn.de
 @@||admin.thexyz.com/javascript/services/analytics.js$script,domain=admin.thexyz.com
+@@||adobe.com.ssl.d1.sc.omtrdc.net^$xmlhttprequest,domain=www.adobe.com
 @@||adobedtm.com/*/satelliteLib-$script,domain=kia.ca|manage.linkt.com.au
 @@||adobedtm.com^*/satelliteLib-$script,domain=costco.*
 @@||adobedtm.com^*/satellitelib-$script,domain=airtel.in|comenity.net|finishlibrary.steelcase.com|papers.ssrn.com|skysportaustria.at|virginmobile.ca
