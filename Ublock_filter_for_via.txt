@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t/6Wti2zZR0YpACbF8iDOg
-! Title: Ublock filter for Via(2025-06-25 00:15:04)
-! Version: 20250625001504
+! Checksum: F36FF66ZaPa9NUWtcz3ihw
+! Title: Ublock filter for Via(2025-06-25 08:59:05)
+! Version: 20250625085905
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-25 00:15:04
+! Last modified: 2025-06-25 08:59:05
 ! Total Count: 15592
 ! Blocked Filters: 15592
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -13114,7 +13114,7 @@ $script,domain=zdnet.fr,third-party
 ://ecmweb.com/images/shim.png$image
 ://email-analytics.meetup.com/$image
 ://ev.ri-*gb.com/home/home.php
-://html-load.com/loader.min.js$domain=~dogdrip.net|~infinityfree.com|~smsonline.cloud
+://html-load.com/loader.min.js$domain=~dogdrip.net|~infinityfree.com|~mentalfloss.com|~smsonline.cloud
 ://link.nzz.ch/v1/emailopen?$image
 ://link.patch.com/img/*.gif$image
 ://link.patch.com/img/*.gif^$image
