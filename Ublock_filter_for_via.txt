@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: nWAttp5MoNOrcwiGzS/v+w
-! Title: Ublock filter for Via(2025-06-26 00:15:07)
-! Version: 20250626001507
+! Checksum: vYZ4nxxIpaJDTCd8Rd88zA
+! Title: Ublock filter for Via(2025-06-26 08:58:08)
+! Version: 20250626085808
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-26 00:15:07
-! Total Count: 15605
-! Blocked Filters: 15605
+! Last modified: 2025-06-26 08:58:08
+! Total Count: 15606
+! Blocked Filters: 15606
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7135,7 +7135,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5307
+!<<<<<网站单独规则>>>>>5308
 $script,domain=zdnet.fr,third-party
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
@@ -11028,6 +11028,7 @@ ricettafitness.com###saudacao
 ripplehub.site###close-ad-button
 rizzfables.com,mgeko.cc,flamecomics.me###radio_content.abierto
 rjno1.com##body > style + div div[id][style]
+rlxoff.com##div[id^="ad-"]
 rmcmv.*##[class*="ads"]
 rmdown.com##.container td[bgcolor="white"] > a[target="_blank"]
 robofight.io##.home-banner
