@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1WQz/hoqEu0X5J2gagu64g
-! Title: Ublock filter for Via(2025-06-28 08:56:50)
-! Version: 20250628085650
+! Checksum: rYT2Me3qQPI6ow2Lw1iyww
+! Title: Ublock filter for Via(2025-06-29 00:14:06)
+! Version: 20250629001406
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-28 08:56:50
-! Total Count: 15618
-! Blocked Filters: 15618
+! Last modified: 2025-06-29 00:14:06
+! Total Count: 15624
+! Blocked Filters: 15624
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7129
+!<<<<<域名规则>>>>>7135
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -312,6 +312,7 @@
 ||after-pop-abc.com^
 ||ag.palmtube.net^
 ||again-agreement.com^
+||agatineorder.com^
 ||agendadejection.com^
 ||agentlayer-xyz.pages.dev^
 ||aghtag.tech^
@@ -509,6 +510,7 @@
 ||api.flipkart.com/4/data/collector/business
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
 ||api.gogoanime.zip/promo
+||api.kio.ac/v0/collection/get
 ||api.lhkmedia.in^$third-party
 ||api.modrinth.com/analytics/
 ||api.omappapi.com/v3/geolocate/json$domain=seclore.com
@@ -1857,6 +1859,7 @@
 ||dr5rmdxa.com^
 ||drakecomic.*/wp-content/themes/mangareader/script.js
 ||drapingleden.com^
+||dratetillage.com^
 ||drcolomo.com^
 ||drct-match.com^
 ||drct-match.net^
@@ -3519,6 +3522,7 @@
 ||l0vekatsu.com^
 ||l2db.info/uploads/banners/$image
 ||lacqplus.tests.step.eco^
+||lacworkamenty.com^
 ||lalielynaualish.com^
 ||lalien10.com^
 ||lamilagq.com^
@@ -5219,6 +5223,7 @@
 ||rhsrthrtjhe.com^
 ||ri11que-za.com^
 ||riarialuvluv2023.com^
+||ribwortjulep.com^
 ||ricarvort.com^
 ||rice-iten.com^
 ||rich-cash.fun^
@@ -5980,6 +5985,7 @@
 ||taradinhos.com^$third-party
 ||tarjetarojaenvivo.lat/lib.js^
 ||tarto.net^
+||tasktrivialaggregated.com^
 ||tastedaftknowledge.com^
 ||tatikhale.xyz^
 ||tb.fuckandcdn.com/tbstatic*/tryboobs/compiled/script.
