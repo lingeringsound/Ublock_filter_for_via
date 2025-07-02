@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: s9LDOGuIQOlmExbCf/0sRA
-! Title: Ublock filter for Via(2025-07-02 08:59:37)
-! Version: 20250702085937
+! Checksum: gYgJdxZAoCyD2PFhjiHDXQ
+! Title: Ublock filter for Via(2025-07-03 00:15:08)
+! Version: 20250703001508
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-02 08:59:37
-! Total Count: 15638
-! Blocked Filters: 15638
+! Last modified: 2025-07-03 00:15:08
+! Total Count: 15650
+! Blocked Filters: 15650
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7159,8 +7159,9 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5313
+!<<<<<网站单独规则>>>>>5321
 $script,domain=zdnet.fr,third-party
+%3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
 00m.in###h4title
@@ -8103,6 +8104,11 @@ chip.de##tr:has(> td[style][colspan] > a.js-antivirusclick[href])
 choosingnothing.com###cvad
 choosingnothing.com###cvadclo
 choosingnothing.com##div[data-player] > a[href][style*="z-index"]
+choralia.net##body > table > tbody > tr > td:nth-of-type(1):has(div[id^="ad_"])
+choralia.net##body > table > tbody > tr > td:nth-of-type(3):has(div[id^="ad_"])
+choralia.net##table:nth-of-type(6) > tbody > tr:nth-of-type(1) > td:has(div[id^="ad_"])
+choralia.net##table:nth-of-type(6) > tbody > tr:nth-of-type(2) > td:has(div[id^="ad_"])
+choralia.net##td:nth-of-type(2) > table:nth-of-type(1) > tbody > tr:nth-of-type(1) > td:has(div[id^="ad_"])
 chronicle.com##.GoogleDfpAd-container
 chyoa.com##.chyoa-adzone
 chyoa.com##.chyoa-banner
@@ -9849,6 +9855,8 @@ learn-cpp.org###google-ad-right > div.mt-3
 learn-cpp.org##a[href^="https://codingforkids.io"]
 lebahmovie.com##.idmuvi-topbanner-aftermenu
 lebigdata.fr##.background-cover
+lectorhub.j5z.xyz##.col-sm-12.col-md-12.sidebar-hidden.main-col > .c-sidebar:has(div#block-5)
+lectorhub.j5z.xyz##.wp-manga.c-bottom-sidebar.c-sidebar:has(ins[class^="adv-"])
 leechall.*##.text-center.alert-info.alert
 leechpremium.link##.fade.modal-backdrop
 leechpremium.link##.row > .col-md-2:first-child > .pricingTable
@@ -12475,8 +12483,9 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>776
+!<<<<<通配符规则>>>>>780
 $script,domain=zdnet.fr,third-party
+%3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
 &click_price=0.*&click_id=
@@ -12756,6 +12765,7 @@ $script,domain=zdnet.fr,third-party
 /askrej/*$script,~third-party
 /asset/angular.min.js?t=$xmlhttprequest,~third-party
 /asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
+/assets/jquery/*.js?type=adult^$script,~third-party
 /assets/jquery/adult0.js?$script,~third-party
 /assets/jquery/adult0.js?v=$script,~third-party
 /assets/jquery/adult100.js?v=$script,~third-party
@@ -13023,6 +13033,7 @@ $script,domain=zdnet.fr,third-party
 /splash.php?idzone=
 /static/exnb/froload.js?v=$script,~third-party
 /static/js/abb.js|$script,~third-party
+/static/js/ad-provider.js|$script
 /static/js/amvn.js
 /stats.php?*event=$image
 /strip_ngn_2020_august$script,domain=porcore.com
@@ -13165,6 +13176,7 @@ $script,domain=zdnet.fr,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
 ://media.*/js/code.min.js|$script,third-party
 ://mg.mail.notion.so/$image
+://mucp.api.account.microsoft.com/m/v2/v?d=$image
 ://myanimelist.net/pixel?$image
 ://myanimelist.net/static/logging.gif?$image
 ://newsletter.adnz.co/$image
