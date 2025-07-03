@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: sIXaXaZeZw0NQul54NeTog
-! Title: Ublock filter for Via(2025-07-03 08:59:26)
-! Version: 20250703085927
+! Checksum: pmlVQl7ahtbTPoVCcd4/zw
+! Title: Ublock filter for Via(2025-07-04 00:15:31)
+! Version: 20250704001531
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-03 08:59:27
-! Total Count: 15652
-! Blocked Filters: 15652
+! Last modified: 2025-07-04 00:15:31
+! Total Count: 15660
+! Blocked Filters: 15660
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7145
+!<<<<<域名规则>>>>>7147
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3641,6 +3641,7 @@
 ||lnkr.us^
 ||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
+||loader.nyitvatartas24.hu^
 ||loader.worldhistory.org^
 ||loaderaura.com^
 ||loaderware.cc^
@@ -4436,6 +4437,7 @@
 ||o-rakuenn.com^
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
 ||oabaubsutha.com^
+||obiaheroid.top^
 ||obs-software.cc^
 ||ocalam.com:8443/impact^
 ||ocbcccreonline.com^
@@ -7159,7 +7161,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5323
+!<<<<<网站单独规则>>>>>5326
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -7315,6 +7317,7 @@ $script,domain=zdnet.fr,third-party
 5dwallpaper.com##.__fdw__adv-block
 5ggyan.com###sidebar1 > .HTML:has(> .widget-content > .adsbygoogle)
 5ggyan.com,redirect.dafontvn.com##.progress
+5ghindi.in,indiamaja.com,mahitimanch.in##form button[id], .box-main, .captcha-check:others()
 5masterzzz.site##body > div[style*="z-index:"]:not([id])
 5movies.*###cookiedata
 5movies.*##.btn-lg
@@ -7635,12 +7638,13 @@ asianpornfilms.com,bigwank.com,fapguru.com,pornpapa.com,xxxfiles.*##.underplayer
 asiansex.life,teencumpot.com###spot-holder
 asianxxxvideo.net##.a_all
 asianxxxvideo.net##.play
+asiaon.top,asiaontop.com##a[href^="https://theporndude.com/"]
 askpaccosi.com##.av_pop_modals_1
 askpaccosi.com,bithub.win,btc25.org,claimbits.net,doge25.in,hatecoin.me,multiclaim.net,nobitafc.com,pinoyfaucet.com,starbux.io###wcfloatDiv4
 askpaccosi.com,coin-free.com,crypto4tun.com,kienthucrangmieng.com,sitecuatui.xyz,techedubyte.com##[id^="wpsafe-wait"]
 assettoworld.com##.nitro-ad
 assettoworld.com##.nitro-ads
-assia.tv,assia4.com,assia24.com##[class*="ban"]
+assia.tv,assia24.com,assia4.com##[class*="ban"]
 atdhe.*###bannerInCenter
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org###placement-takeover
@@ -7725,6 +7729,7 @@ bangpremier.com##.presentation-space
 bangpremier.com##.presentation-space-m-panel
 bankbazaar.com###js-one-tap-login-modal
 bankshiksha.in,best-mobilegames.com,bgmi32bitapk.in,bharatsarkarijobalert.com,bkgnews.in,creditsgoal.com,earn.mpscstudyhub.com,earn.offerpagehub.fun,earn.quotesopia.com,freshbhojpuri.com,learn.moderngyan.com,moderngyan.com,money.quotesopia.com,ontechhindi.com,quotesopia.com,sattakingcharts.in##.floating-ads-container
+bankshiksha.in,best-mobilegames.com,bgmi32bitapk.in,bharatsarkarijobalert.com,creditsgoal.com,earn.mpscstudyhub.com,earn.quotesopia.com,freshbhojpuri.com,learn.moderngyan.com,moderngyan.com,money.quotesopia.com,quotesopia.com,sattakingcharts.in###tp-snp2, #cross-snp2, .tp-top:others()
 barchart.com##[id^=customAd]
 barfuck.com###im-layer
 barstoolsports.com##.relative:has(> .ad_skeleton)
@@ -9001,9 +9006,9 @@ fulltip.net##.penci-adsense-below-slider
 fulltip.net##.penci-google-adsense
 fulltip.net##.penci-google-adsense-2
 fulltube.*##.mvic-btn
+fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class$="-ts-init"]
+fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class*="cam-wgt"]
 fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##.video-page .pUZyj-Bzplayer
-fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class$="-ts-init"]
-fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class*="cam-wgt"]
 funnyand.com##.ad-unit-desktop
 fuqer.com##.right > .text
 futemax.app##.alertWS
@@ -10041,7 +10046,6 @@ magdownload.org##.home-jumbotron
 magnetdl.com,magnetdl.org##a[href="/site/vpn/"]
 magnetdl.com,magnetdl.org##a[href^="https://usenetbay.com/"]
 maharashtratimes.com##.colombia
-mahitimanch.in,indiamaja.com,5ghindi.in##form button[id], .box-main, .captcha-check:others()
 mail.aol.com###slot_LREC
 mail.aol.com##[data-test-id^="pencil-ad"]
 mail.aol.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
@@ -10196,7 +10200,6 @@ mobile.de##.sticky-billboard
 moddedguru.com##div.banner
 moddingzone.in,model-tas-terbaru.com,therootdroid.com,worldappsstore.xyz###wpsafe-wait2
 modebaca.com##[href="https://www.tautan.pro/"]
-moderngyan.com,sattakingcharts.in,freshbhojpuri.com,bgmi32bitapk.in,bankshiksha.in,earn.mpscstudyhub.com,earn.quotesopia.com,money.quotesopia.com,best-mobilegames.com,learn.moderngyan.com,bharatsarkarijobalert.com,quotesopia.com,creditsgoal.com###tp-snp2, #cross-snp2, .tp-top:others()
 modijiurl.com##.animated.text-center, [href*="t.me/modijiurl"], .captcha-box > p, .ad-container, [src*="blogger"], [src*=".png"]
 modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) > img
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"] img
@@ -11568,6 +11571,8 @@ tagecoin.com##object
 tagesanzeiger.ch,berneroberlaender.ch,derbund.ch##div[class^="TopAds"]
 takez.co###gtbtn, #displaySeconds
 takez.co###toshowtrlink, #gtbtn2, .divTableCell, #postfooterOk:others()
+taming.io###bottom-bbb
+taming.io###left-bbb
 taming.io###main-box > #middle-wrap ~ div[id$="-bottom"]
 taming.io###main-box > #middle-wrap ~ div[id$="-left"]
 taoruseitai.com,towelstretches.com###main-contents > center > div[style^="width: 30"]
@@ -12485,7 +12490,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>780
+!<<<<<通配符规则>>>>>781
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -12521,7 +12526,7 @@ $script,domain=zdnet.fr,third-party
 *.jpg$script,domain=allthingsvegas.com|clashdaily.com|madworldnews.com|politicalcowboy.com|reviveusa.com|sonsoflibertymedia.com|teltarif.de|themattwalshblog.com|videogamesblogger.com
 *.js|$script,~third-party,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
 *.php$script,domain=webcamsdolls.com
-*.php$script,~third-party,domain=18teenporno.tv|3teentube.com|4gaycocks.com|50yearoldsluts.com|adult-home-videos.com|amateur-cougar.com|amateur-nude.com|amateurmaturewives.com|babeswp.com|bannedbdsm.com|bdsmaz.com|bdsmsecrets.net|bigtitsgallery.net|bizarre-club.com|bondage-club.net|bondagevideo.org|bondagewaytube.com|celebritytubeporn.com|celebxvideo.com|cidertube.com|crazygayporn.com|dailygayvideo.com|desimms.co|digisesso.com|dusktube.com|elmtube.com|enterfreegaysex.com|etitz.com|experiences-gay.com|femdomdaily.com|fieldstube.com|footfetish-slave.com|freebesttwinks.com|freegranny6.com|freematurelovers.com|freematureswomen.com|gay-place.com|gayfuckingtube.com|gaypornxxxtube.com|goodtgp.net|grannysfucking.net|hdbbwmovies.com|helloshemale.com|hiddencamsluts.com|homevoyeurvideo.net|hornygrannytube.net|hqvintagetube.net|hugeboobswomen.com|indiancunts.net|indianporndaily.com|indiansexfree.net|javbobo.com|kuboys.net|latinaxxxvideos.com|matures-loving-sex.com|maturesandnylon.com|meporno.com|momsfuckboys.com|moreasiansex.com|mybbwtube.com|mygrannyporn.com|myowntits.com|nakedolders.com|naughtyjapaneseteens.com|nicegrannys.com|nudemilfwomen.com|nudeteenshub.com|nylonbabez.net|nyloncunts.com|nylonglamourlegs.com|nylonpornpictures.net|older-wives.com|pantyhoseminx.com|porncore.net|porngoeshd.com|pornoplum.com|pornvideoh.com|pornvideos.host|raventube.com|retropornzone.com|ritzyamateursex.com|sexrura.com|sexytwinkcock.com|stockingspornpics.com|teen18tube.com|teen-tube-18.com|teen-tube-19.com|teen-tube-21.com|teen-tube-porn.com|teenporn.ws|teenpornvideo.me|teensexvideos.xxx|teensonporn.com|teentube-18.com|thevintagemovies.com|timetoteens.com|tube-teen-18.com|tubebikini.com|tubehd.xxx|ultragranny.com|uniformcunts.com|videosexyteen.com|videosmadeathome.com|vintagesextapes.com|vipoldies.net|wildfemdom.com|wildretroporn.com|wowpornlist.xyz|xxx-hd-teens.com|xxx-hd-tube.com|xxxmegaboobs.com|yatranny.com|yourbdsmmovie.com|yourfreepantyhosegalleries.com|girlsfucking.net|hairy-amateurs.com|maturevideos.site|milfera.com|onlylesbianvids.com|teen-porn-tube.com
+*.php$script,~third-party,domain=18teenporno.tv|3teentube.com|4gaycocks.com|50yearoldsluts.com|adult-home-videos.com|amateur-cougar.com|amateur-nude.com|amateurmaturewives.com|babeswp.com|bannedbdsm.com|bdsmaz.com|bdsmsecrets.net|bigtitsgallery.net|bizarre-club.com|bondage-club.net|bondagevideo.org|bondagewaytube.com|celebritytubeporn.com|celebxvideo.com|cidertube.com|crazygayporn.com|dailygayvideo.com|desimms.co|digisesso.com|dusktube.com|elmtube.com|enterfreegaysex.com|etitz.com|experiences-gay.com|femdomdaily.com|fieldstube.com|footfetish-slave.com|freebesttwinks.com|freegranny6.com|freematurelovers.com|freematureswomen.com|gay-place.com|gayfuckingtube.com|gaypornxxxtube.com|girlsfucking.net|goodtgp.net|grannysfucking.net|hairy-amateurs.com|hdbbwmovies.com|helloshemale.com|hiddencamsluts.com|homevoyeurvideo.net|hornygrannytube.net|hqvintagetube.net|hugeboobswomen.com|indiancunts.net|indianporndaily.com|indiansexfree.net|javbobo.com|kuboys.net|latinaxxxvideos.com|matures-loving-sex.com|maturesandnylon.com|maturevideos.site|meporno.com|milfera.com|momsfuckboys.com|moreasiansex.com|mybbwtube.com|mygrannyporn.com|myowntits.com|nakedolders.com|naughtyjapaneseteens.com|nicegrannys.com|nudemilfwomen.com|nudeteenshub.com|nylonbabez.net|nyloncunts.com|nylonglamourlegs.com|nylonpornpictures.net|older-wives.com|onlylesbianvids.com|pantyhoseminx.com|porncore.net|porngoeshd.com|pornoplum.com|pornvideoh.com|pornvideos.host|raventube.com|retropornzone.com|ritzyamateursex.com|sexrura.com|sexytwinkcock.com|stockingspornpics.com|teen-porn-tube.com|teen-tube-18.com|teen-tube-19.com|teen-tube-21.com|teen-tube-porn.com|teen18tube.com|teenporn.ws|teenpornvideo.me|teensexvideos.xxx|teensonporn.com|teentube-18.com|thevintagemovies.com|timetoteens.com|tube-teen-18.com|tubebikini.com|tubehd.xxx|ultragranny.com|uniformcunts.com|videosexyteen.com|videosmadeathome.com|vintagesextapes.com|vipoldies.net|wildfemdom.com|wildretroporn.com|wowpornlist.xyz|xxx-hd-teens.com|xxx-hd-tube.com|xxxmegaboobs.com|yatranny.com|yourbdsmmovie.com|yourfreepantyhosegalleries.com
 *.webp$domain=hanimesubth.com,image,third-party
 *.xml$xmlhttprequest,third-party,domain=eporner.com
 */?pu=$script
@@ -12813,6 +12818,7 @@ $script,domain=zdnet.fr,third-party
 /click.php?key=*&type=push&
 /click.php?key=*&zone_id=
 /click.php?key=*&zoneid=
+/click2131287361236.php?
 /click?a=*&aff_click_id=
 /click?key=*&t1=
 /click?pid=*&offer_id=
@@ -12826,7 +12832,7 @@ $script,domain=zdnet.fr,third-party
 /config?key=d35e161b-abb4-4949-b523-003165d250bb
 /contents/images-banners/*
 /counter/?domain=$image,~third-party
-/css/jquerymin*$script,~third-party,domain=assia.tv|assia4.com|assia24.com
+/css/jquerymin*$script,~third-party,domain=assia.tv|assia24.com|assia4.com
 /css/jquerymin-adstera.js^$script
 /cuid/?f=https%$xmlhttprequest,third-party
 /cuid/?f=https%$xmlhttprequest,third-party,domain=japscan.lol
@@ -13539,7 +13545,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2136
+!<<<<<放行白名单>>>>>2138
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13951,6 +13957,7 @@ voz.vn/b/image.gif?p=$image
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|thedailybeast.com|video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
+@@||c.paypal.com/da/r/fb*$script,~third-party
 @@||c.tmyzer.com^$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||cache.marieclaire.fr/media/videojs/videojs.ads.min.js$script,domain=marieclaire.fr
 @@||cacheorcheck.mopinion.com/survey/public/json-config$xmlhttprequest,domain=findmystreet.co.uk
@@ -14185,6 +14192,7 @@ voz.vn/b/image.gif?p=$image
 @@||data.pendo.io/data/guide.js/*$script,domain=secure.backblaze.com
 @@||data.songstats.com/api/v1/analytics/$xmlhttprequest,~third-party
 @@||data.sportdeutschland.tv/data.js$script,~third-party
+@@||datadome.co/|$domain=paypal.com
 @@||dcbbwymp1bhlf.cloudfront.net^$script,domain=uploadbank.com|uploadmall.com
 @@||dcode.fr^$xmlhttprequest,~third-party
 @@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
