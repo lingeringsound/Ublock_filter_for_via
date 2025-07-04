@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oxpJmHsrvKPQLE5XCXNuQg
-! Title: Ublock filter for Via(2025-07-04 08:58:54)
-! Version: 20250704085855
+! Checksum: 770qUWeM9r3PUnLr7IXiuQ
+! Title: Ublock filter for Via(2025-07-05 00:15:19)
+! Version: 20250705001519
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-04 08:58:55
-! Total Count: 15661
-! Blocked Filters: 15661
+! Last modified: 2025-07-05 00:15:19
+! Total Count: 15665
+! Blocked Filters: 15665
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7162,7 +7162,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5326
+!<<<<<网站单独规则>>>>>5329
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -7274,13 +7274,13 @@ $script,domain=zdnet.fr,third-party
 1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
 1xxx-tube.com###invideo_3
 2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,pcseguro.es,sauguspc.lt,semvirus.pt,senzavirus.it,sichernpc.de,tanpavirus.web.id,udenvirus.dk,ugetfix.com,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,wyleczpc.pl,zondervirus.nl##.primary_download
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list_w > .ar_block_description
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.js-download_button_offer
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.quick-download-button-placeholder
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.quick-download-button-text
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.sidebar_download_inner > :not(.voting-box):not(.colorbg-grey)
-2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.ui-content > .win
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.automatic_removal_list
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.automatic_removal_list_w > .ar_block_description
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.js-download_button_offer
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.quick-download-button-placeholder
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.quick-download-button-text
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.sidebar_download_inner > :not(.voting-box):not(.colorbg-grey)
+2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.ui-content > .win
 21porno.com###s-container
 21porno.com###s-title
 22pixx.xyz##[class^="resp-container"]
@@ -7393,6 +7393,7 @@ abs-cbn.com##div[style*="999999"]:has(div[style^="background-color:#ECEDEF;"] > 
 abxxx.com##.video-page__content > div.left > section
 abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
+abysscdn.com##.loading-overlay ~ div[style^="position: relative;"]
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
 abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
@@ -9673,6 +9674,7 @@ javbull.tv,javsaga.ninja##.pb-3.text-center
 javedit.com##.ads_video_overlay_mobile
 javfindx.com###previewBox
 javfree.la,javfree.sh,javtc.*,javthe.com##[style^="height: 250px;overflow"]
+javfree.sh,javtc.*##[style^="height: 250px;overflow"]
 javfun.me###invideo_wrapper
 javgg.net##.home_iframead:has(> iframe)
 javguard.xyz##body > div[class]:last-child:empty
@@ -12165,6 +12167,7 @@ weatherzone.com.au##section[class^="sc-"]:has(> .publift-ad-wrapper)
 web.de##.main [data-ac]:empty
 web.de##div[data-service-slot-initialized]
 web.facebook.com,www.facebook.com###seo_pivots ~ div > div[style^="max-width"] > div[class] > div[style^="max-width"]:has(a[href^="/ads/about/?"])
+web.facebook.com,www.facebook.com##a[aria-labelledby][attributionsrc][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-label][aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
@@ -13546,7 +13549,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2138
+!<<<<<放行白名单>>>>>2139
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15635,6 +15638,7 @@ smashkarts.io#@##Adbanner
 sochi.camera#@##cams_top_block
 spartanien.de#@#.firstload
 speedtest.net#@#.pure-u-custom-ad-skyscraper
+speedtest.net#@#.speedtest-container[style^="min-height:"] {min-height:unset !important;}
 spiegel.de#@#.asset-affiliatebox
 spiegel.de#@#.nativead
 spiegel.de#@#.nativead + .headline-date
