@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 770qUWeM9r3PUnLr7IXiuQ
-! Title: Ublock filter for Via(2025-07-05 00:15:19)
-! Version: 20250705001519
+! Checksum: cKYpJ85a6bKpkS74xEVkEw
+! Title: Ublock filter for Via(2025-07-05 08:56:08)
+! Version: 20250705085608
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-05 00:15:19
+! Last modified: 2025-07-05 08:56:08
 ! Total Count: 15665
 ! Blocked Filters: 15665
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -7393,10 +7393,10 @@ abs-cbn.com##div[style*="999999"]:has(div[style^="background-color:#ECEDEF;"] > 
 abxxx.com##.video-page__content > div.left > section
 abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
-abysscdn.com##.loading-overlay ~ div[style^="position: relative;"]
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
 abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
+abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 ac24.cz,nsfwyoutube.com,th-cam.com,thodkyaat.com,ultimasnoticias.com.ve##pp
