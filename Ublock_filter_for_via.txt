@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cKYpJ85a6bKpkS74xEVkEw
-! Title: Ublock filter for Via(2025-07-05 08:56:08)
-! Version: 20250705085608
+! Checksum: pKJ7U/1ioeMXjomULBRMnA
+! Title: Ublock filter for Via(2025-07-06 00:13:21)
+! Version: 20250706001321
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-05 08:56:08
-! Total Count: 15665
-! Blocked Filters: 15665
+! Last modified: 2025-07-06 00:13:21
+! Total Count: 15666
+! Blocked Filters: 15666
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7162,7 +7162,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5329
+!<<<<<网站单独规则>>>>>5330
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -11452,6 +11452,7 @@ spaste.com##[href^="http://bit.ly/"]
 spaste.com##h5 > a[href^="http://amzn.to/"]
 spaste.com##h5:has(> a[href^="javascript:"])
 speedtest.net###modal-overlay
+speedtest.net##.eot-dd-content
 speedtest.net##div[data-view-name="mobile"] div.mobile-pretest
 speedynews.xyz##div[id^="speedynews_"]
 spiegel.de##[data-area="affiliatebox"]
