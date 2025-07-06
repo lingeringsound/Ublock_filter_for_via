@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 2z6RBwGk9ijY1/yh4Zg8mg
-! Title: Ublock filter for Via(2025-07-06 09:03:57)
-! Version: 20250706090357
+! Checksum: 7ElRDNwBiGEQ+2+s9lydSg
+! Title: Ublock filter for Via(2025-07-07 00:13:10)
+! Version: 20250707001310
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-06 09:03:57
-! Total Count: 15666
-! Blocked Filters: 15666
+! Last modified: 2025-07-07 00:13:10
+! Total Count: 15669
+! Blocked Filters: 15669
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7148
+!<<<<<域名规则>>>>>7150
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1115,7 +1115,7 @@
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
 ||cdn.jsdelivr.net/npm/as-essential^
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
-||cdn.jsdelivr.net/npm/disable-devtool@$script,domain=redecanaistv.*|redisex.*
+||cdn.jsdelivr.net/npm/disable-devtool@$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@*$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/maari/dist/maari.min.js$script,third-party
 ||cdn.jsdelivr.net^*/arlinablock.js$script
@@ -1829,6 +1829,7 @@
 ||dones9.wixsite.com^
 ||donghocotatan.com^
 ||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
+||donkeygentlesubdued.com^
 ||doo.lat/public/overroll_gasparin.js$script,domain=player.cuevana.is
 ||doo6pwib3qngu.cloudfront.net^
 ||doofree88.com/storage/go/banner*.gif$image,~third-party
@@ -1887,6 +1888,7 @@
 ||dtioykqj1u8de.cloudfront.net^
 ||du0.jp^
 ||du002iv2rxh4h.cloudfront.net^
+||du5tgbgue65er.cloudfront.net/redecanais.js$script
 ||duckdns.org/FAMOUS/Gens/
 ||duckdns.org/security-check/
 ||duden.de/aab/assets/js/
@@ -7162,7 +7164,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5330
+!<<<<<网站单独规则>>>>>5331
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -11041,6 +11043,7 @@ redecanais.*###guerejoback
 redecanais.*###iframeCore____
 redecanais.*##.swal2-popup
 redecanais.*##div[style*="z-index:2147483647"]
+redecanais.*,redecanaistv.*,redisex.*##.unlockr-overlay
 redecanaistv.*##.swal2-popup
 redecanaistv.*##div[style*="z-index:2147483647"]
 redfea.com,pranarevitalize.com,techyinfo.in,fitnessholic.net###btn11, #tp-snp2, #rtg, #btn6, #wpsafe-snp:others()
