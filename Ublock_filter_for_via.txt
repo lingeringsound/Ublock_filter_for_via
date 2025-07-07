@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 7ElRDNwBiGEQ+2+s9lydSg
-! Title: Ublock filter for Via(2025-07-07 00:13:10)
-! Version: 20250707001310
+! Checksum: 77G7SYYyuXQavyah2plvmQ
+! Title: Ublock filter for Via(2025-07-07 09:03:37)
+! Version: 20250707090337
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-07 00:13:10
-! Total Count: 15669
-! Blocked Filters: 15669
+! Last modified: 2025-07-07 09:03:37
+! Total Count: 15671
+! Blocked Filters: 15671
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7150
+!<<<<<域名规则>>>>>7151
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5012,6 +5012,7 @@
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^
 ||pub.contexthub.net^
 ||pub.javwide.com^
+||pub.searchnova.net^
 ||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams/*/time-events.json$domain=cbs.com|paramountplus.com
 ||pubg-arena.top^
 ||pubgm-zing-vn.com^
@@ -7164,7 +7165,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5331
+!<<<<<网站单独规则>>>>>5332
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -10430,6 +10431,7 @@ nightlifeporn.com##.wps-player__happy-inside--pause.wps-player__happy-inside
 nishankhatri.xyz###pro-continue, #pro-btn, #my-btn:others()
 nj.com##.ad-unit[id]
 nmac.to##.adslot_buttom_inner > a[href*="/4/"][target="_blank"]
+nontonx.com###rules-nontonx
 nontonx.com##.is-offset-2.is-7.column > p
 nontonx.com##.is-offset-2.is-8.column > p
 norisoku.com###random
