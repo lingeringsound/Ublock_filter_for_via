@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 77G7SYYyuXQavyah2plvmQ
-! Title: Ublock filter for Via(2025-07-07 09:03:37)
-! Version: 20250707090337
+! Checksum: NpxS0heQKKLO0T4VCBiCOg
+! Title: Ublock filter for Via(2025-07-08 00:15:45)
+! Version: 20250708001545
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-07 09:03:37
-! Total Count: 15671
-! Blocked Filters: 15671
+! Last modified: 2025-07-08 00:15:45
+! Total Count: 15681
+! Blocked Filters: 15681
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7151
+!<<<<<域名规则>>>>>7159
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1039,6 +1039,7 @@
 ||c930lhsivns1b.jp^
 ||cache.cloudswiftcdn.com^
 ||cagrievi.com^
+||cahootdisodic.com^
 ||caitlin.top/counter.php
 ||cajewar736.wixsite.com^
 ||calibre.it^
@@ -1478,6 +1479,7 @@
 ||cpx-research.com^$third-party
 ||cqcwalvjljddvrebl.com^
 ||cqjykj.com^
+||crackdo.online^
 ||crackedpc.org^
 ||crackingpatching.com^
 ||cracksway.com^
@@ -2220,6 +2222,7 @@
 ||fastlane.rubiconproject.com^$removeparam,domain=aternos.org
 ||fastndio.s3.eu-central-1.amazonaws.com^
 ||fastorfar.com^
+||fastpic.org/view/*.html|$script,~third-party
 ||faststream.xyz^$third-party
 ||fate-15.com^
 ||faucettrx.store/default.php
@@ -2456,6 +2459,7 @@
 ||fullhd4k.com/images/nivo/close.png$image
 ||fullhdxxx.com/*/js.php
 ||fullsetup.click^
+||fullsetup.pro^
 ||fullstory.com/s/fs.js$script
 ||fullstory.com^$third-party
 ||fulltv.video^$third-party
@@ -2507,6 +2511,7 @@
 ||gameportpc.ru^
 ||gamerplay*.space^$domain=hotmediahub.com|terabox.fun|fansonlinehub.com|teralink.me|terashare.me|teraearn.com
 ||games-blacksoft.com^
+||gamesforpcfree.com^
 ||gameskinny.com/wp-json/navy/v*/tag?pid=
 ||gamezop.com^$domain=gplinks.*|uploadraja.com
 ||gamingaffiliation.com^$third-party
@@ -4386,6 +4391,7 @@
 ||noi9va4ewa.com^
 ||noitons.net^
 ||nokiseitjnemnew.jp^
+||non.arabshentai.com^
 ||nonentrantcrpehibbin.monster^
 ||noohapou.com^
 ||noropianicnephrocytebites.com^
@@ -4440,6 +4446,7 @@
 ||o-rakuenn.com^
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
 ||oabaubsutha.com^
+||ob.*.com/i/*.js|$script,third-party,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
 ||obiaheroid.top^
 ||obs-software.cc^
 ||ocalam.com:8443/impact^
@@ -5705,6 +5712,7 @@
 ||sparrowwallet.net^
 ||special-update.online^
 ||specialapp-sns.com^
+||speechma.com/anti-adblocker.js
 ||speedrun.com/api/v2/PutSessionPing^$xmlhttprequest,~third-party,method=post
 ||speeds5-mmiliked.com^
 ||speedtestnow.site^
@@ -7399,7 +7407,7 @@ abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
 abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
-abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
+abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 ac24.cz,nsfwyoutube.com,th-cam.com,thodkyaat.com,ultimasnoticias.com.ve##pp
@@ -12500,7 +12508,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>781
+!<<<<<通配符规则>>>>>782
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -13121,6 +13129,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/plugins/admin-bar-customizer/abc-script.js
 /wp-content/plugins/advanced-user-manager/aum-script.js
 /wp-content/plugins/advanced-widget-manage/awm-script.js
+/wp-content/plugins/anti-adblocker/*
 /wp-content/plugins/catfish-advert-banner/*$script
 /wp-content/plugins/content-blocker/cb-script.js
 /wp-content/plugins/custom-css-injector/cci-script.js
@@ -13555,7 +13564,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2139
+!<<<<<放行白名单>>>>>2140
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -13843,6 +13852,7 @@ voz.vn/b/image.gif?p=$image
 @@||api.coinmarketcap.com/$xmlhttprequest,domain=unblock.net
 @@||api.cxense.com/public/widget/data$script,domain=elconfidencial.com
 @@||api.cxense.com/public/widget/data$xmlhttprequest,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
+@@||api.cxense.com/public/widget/data?$script,domain=elconfidencial.com|journaldemontreal.com
 @@||api.cxense.com^$script,domain=tvaplus.ca
 @@||api.deep.bi/v3/init.js$script,domain=elconfidencial.com
 @@||api.exoclick.com^$domain=exoclick.com
@@ -14008,7 +14018,7 @@ voz.vn/b/image.gif?p=$image
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,~third-party
 @@||cdn.cookielaw.org/*/OtAutoBlock.js$script,xmlhttprequest,domain=html5.gamedistribution.com
 @@||cdn.cookielaw.org^$xmlhttprequest,domain=soundcloud.com
-@@||cdn.cxense.com/cx.$script,domain=elconfidencial.com
+@@||cdn.cxense.com/cx.$script,domain=elconfidencial.com|journaldemontreal.com
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl|tvaplus.ca
 @@||cdn.dqst.pl/assets/ads.js$xmlhttprequest,domain=tko.pl
 @@||cdn.dynamicyield.com/api/$script,domain=washingtonexaminer.com
