@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: q+zC2H8o8cM3pB5CoTcgKw
-! Title: Ublock filter for Via(2025-07-08 08:59:42)
-! Version: 20250708085942
+! Checksum: wRc4Rl5ljuD6pZlyNRL3tw
+! Title: Ublock filter for Via(2025-07-09 00:16:09)
+! Version: 20250709001609
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-08 08:59:42
-! Total Count: 15681
-! Blocked Filters: 15681
+! Last modified: 2025-07-09 00:16:09
+! Total Count: 15688
+! Blocked Filters: 15688
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7159
+!<<<<<域名规则>>>>>7161
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4751,6 +4751,7 @@
 ||peach2023.net^
 ||peachcafe.net^
 ||peachzone.site^
+||peacocktv.com/*/tracking/
 ||peazip.com^
 ||pecuniatrck.com^
 ||peetube.cc/*.php|$script
@@ -5129,6 +5130,7 @@
 ||raw.githack.com/*/SpiderBlogging/main/antiadblock/$third-party
 ||raw.githack.com/Raqmedia/adblock/$script,third-party
 ||raw.githubusercontent.com/expertad^$third-party
+||raw.githubusercontent.com^$domain=nontonx.com
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 ||rawgit.com/Pocketart/$script,third-party
 ||rawgit.com/fahimraza/FK/master/ad-unblocker.js^$script
@@ -7173,7 +7175,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5332
+!<<<<<网站单独规则>>>>>5337
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -7951,6 +7953,8 @@ btdb.*##.alert
 btdb.*##.alert-dismissible
 btv.bg,btvnovinite.bg,btvsport.bg##.vjs-continue-watching-bar
 btv.bg,btvnovinite.bg,btvsport.bg##div[id^="leading_video_player_autoplay_wrapper_"]
+buffsports.*##.btn-danger.btn
+buffsports.*##.h-100.position-absolute.w-100
 buffsports.me,buffstreams.*,fbstream.*,fbstreams.*,mlbbox.me,nflstreams.me,vipbox.*,vipboxtv.*,viprow.*,~vipbox.pl##.position-absolute
 buffsports.stream,sportcast.life###pr
 buffstream.to,buffstreamz.com##.btn
@@ -9252,6 +9256,8 @@ h-flash.com##a[href^="https://a.candyai.love/"]
 h-flash.com##a[style*="/data/image/mcs/chat"]
 h-flash.com##div[id^="randomzone"]
 h-flash.com##div[style$="overflow:hidden"]:has(> a[alt="CandyAI"])
+haafedk2.com###sticky-ad-left
+haafedk2.com###sticky-ad-right
 hackedgames.com,jeux.com,jouer.fr,kissinggames.com,pintgames.com,playhub.com,playpink.com,prehackshub.com##.ad-title-megaban
 hackedgames.com,jouer.fr,prehackshub.com,pintgames.com##.ad-game-600
 hackedgames.com,jouer.fr,prehackshub.com,pintgames.com##.ad-megaban-game-300
@@ -11484,6 +11490,7 @@ sportnews.to,tapisa.online##.aoa_overlay
 sportowefakty.wp.pl##.article > .article__top + div:has(> div:last-child > div > div > div[id^="div-gpt-ad-"])
 sportowefakty.wp.pl##.article-footer + div:has(> div:last-child > div > div > div > div[id^="div-gpt-ad-"])
 sports-stream.*###reklama1
+sports.yahoo.com###defaultLDRB-sizer
 sports.yahoo.com##div[id^="mrt-node-"][id$="-Ad"]
 sportshub.to,sportnews.to##body > div > div[class^="active"][style]
 sportsnaut.com###dsk-banner-ad-a
