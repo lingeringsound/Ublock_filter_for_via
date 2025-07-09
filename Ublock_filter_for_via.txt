@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0g3fBdfwWFNrG26ViNFT5A
-! Title: Ublock filter for Via(2025-07-09 09:00:25)
-! Version: 20250709090025
+! Checksum: ltWgx3WUM8Mm2jNH3/Iuqg
+! Title: Ublock filter for Via(2025-07-10 00:13:19)
+! Version: 20250710001319
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-09 09:00:25
-! Total Count: 15728
-! Blocked Filters: 15728
+! Last modified: 2025-07-10 00:13:19
+! Total Count: 15734
+! Blocked Filters: 15734
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7200
+!<<<<<域名规则>>>>>7204
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1170,6 +1170,7 @@
 ||cdn77.org^$third-party,domain=pricebefore.com
 ||cdn777.net/site/binance-banner.jpg$image
 ||cdn777.net/site/usagoals/sitelinks/xpopme_in.js^
+||cdncloud.icu^
 ||cdnjs-storage.com^
 ||cdnpk.net/sponsor/
 ||cdnpk.net^$domain=flaticon.com
@@ -2628,6 +2629,7 @@
 ||girlslusts.com^
 ||girlsml.com^
 ||gitbook.com/v1/integrations/googleanalytics/
+||gitfrominstall.com^
 ||github.com/_private/browser/errors
 ||github.com/linarweloper/Blumfarmbot^
 ||github.io/health-records-x-ray
@@ -3091,6 +3093,7 @@
 ||icyporno.com/_ad
 ||icyporno.com/jss/external_pop.js
 ||id001.jp^
+||ide.it/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-
 ||identente.com^
 ||identityconfirrmpage.com^
 ||idhnochalter.wixsite.com^
@@ -6732,6 +6735,7 @@
 ||wafflegirl.com/galleries/banner/$third-party
 ||waivesricer.com^
 ||wallochmm.shop^
+||wallpaper-engine.pro^
 ||wambugureining.shop^
 ||wanderlust.rocks^
 ||wannads.com/api/track/fingerprint^
@@ -7214,7 +7218,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5338
+!<<<<<网站单独规则>>>>>5339
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -8292,6 +8296,7 @@ crack-status.com##.bg-dark:has(> :is([href^="https://startgaming.net/"], ins))
 crackevil.com##.pop-ad-wrap
 crackle.com##.vjs-ad-break-marker-adjustment
 crackshash.com##[id^="crack"]:has(.wp-ad)
+cracksmid.com##div[style=""] > center > center
 cracksoftwaress.net##div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
 crank-in.net##.wrap_general:has(> #taboola-below-article-thumbnails-mg)
 crank-in.net##article > section.block-area:has(> div#taboola-below-article-thumbnails-mg)
@@ -12555,7 +12560,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>782
+!<<<<<通配符规则>>>>>783
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -13200,6 +13205,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/uploads/adb$script,domain=mhdsports.*|mhdsportstv.*|mhdtvsports.*|mhdtvworld.*|mhdtvmax.*|mhdstream.*|mhdtvmax.*
 /wp-content/uploads/play.webp$domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in
 /wp-content/uploads/pum/pum-site-scripts.js^$domain=honghotduongpho.com
+/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-0311104f6b606e1ad6e4eaeb8aa6336c.js$script
 /wp-json/navy/v*/tag?pid=$xmlhttprequest,~third-party
 /wpm@*/web-pixel-
 /wpsafelink.js|$script
