@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wRc4Rl5ljuD6pZlyNRL3tw
-! Title: Ublock filter for Via(2025-07-09 00:16:09)
-! Version: 20250709001609
+! Checksum: 0g3fBdfwWFNrG26ViNFT5A
+! Title: Ublock filter for Via(2025-07-09 09:00:25)
+! Version: 20250709090025
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-09 00:16:09
-! Total Count: 15688
-! Blocked Filters: 15688
+! Last modified: 2025-07-09 09:00:25
+! Total Count: 15728
+! Blocked Filters: 15728
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7161
+!<<<<<域名规则>>>>>7200
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -253,6 +253,7 @@
 ||adolphusisomlycyou.pages.dev^
 ||adonsonlyd.xyz^
 ||adoptmeantranslate.com^
+||adoredaffection.com^
 ||adosiz.net^
 ||adpopblocker.com^
 ||ads-overview.com^
@@ -621,11 +622,25 @@
 ||ataru-loto.com^
 ||atchao.jp^
 ||atchm.net^
+||atelier-goo.com^
+||atelier-goo.net^
+||atelier-happiness.co.jp^
+||atelier-hp.jp^
+||atelier-jp.jp^
+||atelier-post.com^
+||atelier-post.net^
+||atelier-s2.com^
+||atelier-s2.net^
+||atelier-tokyo.net^
+||atelier-toukyo.com^
+||atelier-www.com^
+||atelier-www.net^
 ||aternos.org/ajax/account/report-detection$xmlhttprequest,~third-party
 ||aternos.org/panel/ajax/reportDetection.php?$xmlhttprequest,~third-party
 ||aterroppop.com^
 ||athenasbaklava.com^
 ||ativadorkmspico.com^
+||atlier-ad.jp^
 ||atmrum.net/client/v*/atm/fpv*.min.js$script
 ||atmrum.net/conf/v*/atm/fpconfig.min.json$script
 ||atmrum.net/report/v*/atm/r.gif
@@ -750,6 +765,7 @@
 ||baseguardauth.net^
 ||basesfiles.com^
 ||basic-bank.com^
+||bastionbeneficial.com^
 ||bavaria-cup.ru^
 ||bb-delivery.icu^
 ||bblck.me^
@@ -1057,6 +1073,7 @@
 ||campus-cardigan.com^
 ||candycandypop.com^
 ||canoemissioninjunction.com^
+||capricecaretaker.com^
 ||captcharesolving-universe.com^
 ||car-na.jp^
 ||caressesetboulesdepoils.fr^
@@ -1247,6 +1264,7 @@
 ||chip.de/*&$script,~third-party
 ||chivalrouscalmlymexican.com^
 ||chl3.net^
+||chloe-77le.com^
 ||chn-allegroshopac.one^
 ||chocochipu-o.com^
 ||chosentalladvanced.com^
@@ -1684,6 +1702,7 @@
 ||deainow.jp^
 ||deaisaito.jp^
 ||deal-dealings.com^
+||deal-defeat.com^
 ||dealhunt.website^
 ||debridleech.com^
 ||debridlink.com^
@@ -1720,6 +1739,7 @@
 ||demonicscans.org/img/wsup.gif
 ||dendreonlawsuit.com^
 ||dependsmoscow.com^
+||deq.frt-87rtyt1.jp^
 ||derriar.site^
 ||derriks.site^
 ||desablums.com^
@@ -1940,6 +1960,7 @@
 ||easyads28.*^
 ||easyads29.*^
 ||easyfinderke.com^
+||easygoingecology.com^
 ||easysexe.com^$third-party
 ||eb-nav.com^
 ||ebay-supplier.shop^
@@ -2894,6 +2915,7 @@
 ||hho.yes-hhoyf.com^
 ||hi-a-so-bi.net^
 ||high-incomes.com^
+||high-loveit.com^
 ||higher-mainnd.jp^
 ||highmanapts.com^
 ||highperformanceformat.com^
@@ -3222,6 +3244,7 @@
 ||iris-808.com^
 ||iris-making.com^
 ||iroha-oran24.com^
+||irrigation085.com^
 ||irrigationservices.co^
 ||irs-ein-gov.us^
 ||irs.gov-
@@ -3356,6 +3379,7 @@
 ||jvuihhlzixawx.com^
 ||jwgigawtq.com^
 ||jyk.jp^
+||jyuku-kan.tokyo^
 ||k-colorful.jp^
 ||k-smilegallery.com^
 ||k0ikana.com^
@@ -3538,6 +3562,7 @@
 ||landings.namapper.com^
 ||lapdatinternet.net^
 ||lapmangsctv.com.vn^
+||last-love.com^
 ||latenightlovers.com^
 ||launcherleaks.net/*main_script.js$script,~third-party
 ||lavaboom.net^
@@ -3675,6 +3700,7 @@
 ||longchampblackfriday.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
+||lot.luck-fortune.com^
 ||loto-4x.com^
 ||loto-chance.com^
 ||loto7-diamond-club.com^
@@ -3691,6 +3717,7 @@
 ||love88.club^
 ||loveaholics.com^
 ||lovedatee.net^
+||lovee-idol.tokyo^
 ||loveju.net^
 ||lovekatsu2277.com^
 ||lovelove-on-line.site^
@@ -4101,6 +4128,7 @@
 ||moddroid.com/static/js/pa-$script
 ||mode-claim.xyz^
 ||modesoft.org^
+||modii.xyz^
 ||moecoco.com^
 ||moelove.jp^
 ||moira-101.com^
@@ -4315,6 +4343,8 @@
 ||naughtymets.com^
 ||nav1.jp^
 ||navi-match.net^
+||navigationtadade.com^
+||navitada.com^
 ||nbryb.com^
 ||nbsfmradio.com^
 ||nc2.site^
@@ -4360,6 +4390,7 @@
 ||newverifyyourself-system*.b-cdn.net^
 ||newversionattmailapps.weebly.com^
 ||newvideozones.click^
+||next.official7-frkoi.net^
 ||nextaex.com^
 ||nextb5vzysjcq8d0.jp^
 ||nextyourcontent.com^
@@ -4408,6 +4439,7 @@
 ||novastraem.com^
 ||novelgames.com/flashgames/*/banner_660x250.png
 ||nowtuma.net^
+||noxbits.com^
 ||nozoakamsaun.net^
 ||npajp.icu^
 ||npdptp.com^
@@ -4832,6 +4864,7 @@
 ||play.funfourmob.com^
 ||play.google.com/store/apps/details?id=com.juku_para^
 ||play.google.com/store/apps/details?id=com.ola.yoitoki^
+||play.google.com/store/apps/details?id=com.tadamailmatching.app^
 ||play.google.com/store/apps/details?id=gift.tadaapo.tadadeai&
 ||play.turbommo.com^$third-party
 ||playbrain.io/analytics/
@@ -4853,6 +4886,7 @@
 ||plaza-l1o0nni-p1aza.com^
 ||plesk.page/*?phone=
 ||plotp.mazamob.space^
+||plus-x4-alpha.com^
 ||plygainroundup.com^
 ||pmequebeclic.com^
 ||pmew.jp^
@@ -5682,6 +5716,7 @@
 ||solarmovie.to/sw.js$script,~third-party
 ||solarmovie.vip/js/dab.min.js
 ||solomonegbe.com^
+||soltp1de.user.webaccel.jp^
 ||som419.net^
 ||sonic-nicehands.com^
 ||sonixgvn.net/cdn-cgi/apps/head/$script,~third-party
@@ -5978,11 +6013,14 @@
 ||tacngcm.com^
 ||tactictablepolite.com^$script,domain=freethemesy.com|tech24us.com
 ||tada-love.jp^
+||tada-mail.com^
+||tada-mail.net^
 ||tada10ve.jp^
 ||tada1ove.com^
 ||tadaapo.gift^
 ||tadaapo123.com^
 ||tadaapomail.com^
+||tadade-navi.com^
 ||tadadeai.weebly.com^
 ||tadamatch.com^
 ||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
@@ -7084,6 +7122,7 @@
 ||yowdenfalcial.com^
 ||yryh-aygg.com^
 ||ytjon-d2s1ah.com^
+||ytk.jra-ikkr.jp^
 ||ytmp3.cc/js/ad*$script,~third-party
 ||ytrevanced.$domain=~revanced.app
 ||ytsubme.com/assets/adblock/
@@ -7175,7 +7214,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5337
+!<<<<<网站单独规则>>>>>5338
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -7387,7 +7426,7 @@ a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
 a8ix.*,atishmkv.marathi.vip,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
-abbaspc.net,activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackedmac.com,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,cracktube.net,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,getprocrack.net,goharpc.com,greencracks.com,hdlicense.org,hitproversion.com,ikcrack.com,installcracks.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenstore.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,nkcrack.com,patchcracks.com,pcfull.net,pcfullcrack.org,pcfullversion.com,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,sjcrack.com,softgetpc.com,softsnew.com,softwarance.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
+abbaspc.net,activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackedmac.com,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,cracktube.net,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,filepuma.org,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,getprocrack.net,goharpc.com,greencracks.com,hdlicense.org,hitproversion.com,ikcrack.com,installcracks.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenstore.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,nkcrack.com,patchcracks.com,pcfull.net,pcfullcrack.org,pcfullversion.com,pcsoftsfull.org,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,sjcrack.com,softgetpc.com,softsnew.com,softwarance.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
 abcnews.go.com##.StickyAdWrapper
 abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
@@ -11152,6 +11191,7 @@ rule34hentai.net##section[id$="left"]:has(> .blockbody > script[type])
 rule34hentai.net##section[id$="main"]:has(> .blockbody > .adsbyexoclick)
 rumporn.com,stilltube.com###floaterRight
 ryuugames.com###wpsafe-wait1,#wpsafe-link:others()
+s0ft4pc.com##div.active
 sabervivirtv.com##.ad-item
 sabervivirtv.com##.ad-sidebar
 sabishare.com##.cmp-roll
