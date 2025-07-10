@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ltWgx3WUM8Mm2jNH3/Iuqg
-! Title: Ublock filter for Via(2025-07-10 00:13:19)
-! Version: 20250710001319
+! Checksum: OL705BqRgZGoElmu8733PQ
+! Title: Ublock filter for Via(2025-07-10 09:00:17)
+! Version: 20250710090017
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-10 00:13:19
-! Total Count: 15734
-! Blocked Filters: 15734
+! Last modified: 2025-07-10 09:00:17
+! Total Count: 15736
+! Blocked Filters: 15736
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7204
+!<<<<<域名规则>>>>>7205
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4417,6 +4417,7 @@
 ||nilousplaypen.com^
 ||nitpickingtachpodiatries.com^
 ||nitr5eur6fjhtsw.jpn.com^
+||nitroscripts.com^
 ||niwinn.com^
 ||nlfhtxehjzeti.com^
 ||nnggo.com^
@@ -7218,7 +7219,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5339
+!<<<<<网站单独规则>>>>>5340
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
@@ -8768,7 +8769,7 @@ fakazagods.com##[href^="https://www.northxclusive.com/"]
 falatron.com##.consent
 family-fuck.net##.plink
 familyhandyman.com##.cm-ad-unit-section
-familyhandyman.com,indaily.com.au,nuvid.*,perfectgirls.*,perfektdamen.*,uflash.tv##.advertisement
+familyhandyman.com,indaily.com.au,nuvid.*,perfectgirls.*,perfektdamen.*,pornoenspanish.es,uflash.tv##.advertisement
 familyporn.tv###player_adv
 familyporn.tv##.col-last:has(> :is(.player-adverts, .place))
 familyporn.tv##.media_spot
@@ -10902,6 +10903,7 @@ porno-baguette.com##.grid-layout__col:has(> .video-item--zeder)
 pornoborshch.com##.on-player-wrap3
 pornoeggs.com##.card-deck-promotion
 pornoeggs.com##.mediaPlayerBanner
+pornoenspanish.es##.ofrnmdnrnevhlzmzyxbgleutslzfwuroexvcnwqwwlydvdjqzttajkpx.elnisglznxbrvawnsndqdxnzturaunseyzjlvvtznnavldvzzajkpx
 pornofan.pl###inplayerADS
 pornofan.pl##.PublicitaDestra
 pornohans.com##.spc_height_60
