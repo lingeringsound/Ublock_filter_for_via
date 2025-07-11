@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: i3l1CZEOaJQ6UESxsbleGQ
-! Title: Ublock filter for Via(2025-07-11 00:15:44)
-! Version: 20250711001544
+! Checksum: lVAOJ2eGFtoJIbW1pU93lA
+! Title: Ublock filter for Via(2025-07-11 09:00:13)
+! Version: 20250711090013
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-11 00:15:44
-! Total Count: 15743
-! Blocked Filters: 15743
+! Last modified: 2025-07-11 09:00:13
+! Total Count: 15747
+! Blocked Filters: 15747
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7208
+!<<<<<域名规则>>>>>7209
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6494,6 +6494,7 @@
 ||up-load.io/sw.js$xmlhttprequest,~third-party
 ||up-loop.net^
 ||up.ch3m1stry.com^
+||upcommunity.click^
 ||upcommunity.net^
 ||update-protection.com^
 ||updatemobilee.com^
@@ -7222,7 +7223,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5342
+!<<<<<网站单独规则>>>>>5344
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
@@ -7435,7 +7436,7 @@ a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
 a8ix.*,atishmkv.marathi.vip,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
-abbaspc.net,activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackedmac.com,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,cracktube.net,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,filepuma.org,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,getprocrack.net,goharpc.com,greencracks.com,hdlicense.org,hitproversion.com,ikcrack.com,installcracks.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenstore.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,nkcrack.com,patchcracks.com,pcfull.net,pcfullcrack.org,pcfullversion.com,pcsoftsfull.org,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,sjcrack.com,softgetpc.com,softsnew.com,softwarance.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
+abbaspc.net,activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackedmac.com,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,cracktube.net,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,filepuma.org,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,getprocrack.net,goharpc.com,greencracks.com,hdlicense.org,hitproversion.com,ikcrack.com,installcracks.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenstore.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,licenselink.info,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,nkcrack.com,patchcracks.com,pcfull.net,pcfullcrack.org,pcfullversion.com,pcsoftsfull.org,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,sjcrack.com,softgetpc.com,softsnew.com,softwarance.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
 abcnews.go.com##.StickyAdWrapper
 abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
@@ -8426,6 +8427,8 @@ dewimg.*,imgtown.*,imgviu.*,javtiful.com,kingcomix.com,mazpic.*,outletpic.*,picr
 dewimg.*,imgtown.*,imgviu.*,mazpic.*,outletpic.*,picrok.*##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 dflix.top##body > div[class]:last-child
 dgb.lol,embed.smashystream.com,imdbembed.xyz###addiv
+diamond.jp###contents > div.sub-column > div.title:has(+ #cx-recommed)
+diamond.jp###cx-recommed
 diariodenavarra.es###AdSlot_megabanner
 diariodenavarra.es##.sticky_roba
 diariovasco.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,leonoticias.com##.voc-advertising
@@ -12567,7 +12570,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>785
+!<<<<<通配符规则>>>>>786
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
@@ -12640,6 +12643,7 @@ $script,domain=zdnet.fr,third-party
 .avforums.com%2Fb%2Fimage.gif%3F$image
 .avforums.com/b/image.gif?$image
 .biz/sw/w1s.js|$script,third-party
+.cfd/*?p=*&pg=$script,third-party
 .cfd/*?s=*&g=*&q=$script,third-party
 .cfd/?aD*HlwZT1jJnRtcD01JmFkY29kZT0x$script,third-party
 .cfd/?h=*&user=$script,third-party
