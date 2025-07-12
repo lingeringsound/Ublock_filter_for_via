@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: BfO0YgDpTb65HPENr06inQ
-! Title: Ublock filter for Via(2025-07-12 09:02:35)
-! Version: 20250712090235
+! Checksum: ZfWMCYT7y8h7G4wlwFPBPw
+! Title: Ublock filter for Via(2025-07-13 00:13:34)
+! Version: 20250713001334
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-12 09:02:35
-! Total Count: 15751
-! Blocked Filters: 15751
+! Last modified: 2025-07-13 00:13:34
+! Total Count: 15762
+! Blocked Filters: 15762
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7211
+!<<<<<域名规则>>>>>7218
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -684,6 +684,7 @@
 ||autotracer.org/cnc/?*=rightcol$xmlhttprequest,~third-party
 ||autotradeguide.pro^
 ||auubslxxi.com^
+||av-master.org^
 ||avaloncheats.pro^
 ||avantajados.com^$third-party
 ||avatarthree.lol^
@@ -835,6 +836,7 @@
 ||bg1tey0a6eoe.jp^
 ||bgmateriali.com/js/detector.js$script,~third-party
 ||bhplay.me/player/assets/devtools-detector/*$script,~third-party
+||bhtuukgrerzjmchn.com^
 ||bibian4k.com^
 ||biblio.sviluppo.host^
 ||bicfic.net^
@@ -2930,6 +2932,7 @@
 ||highwebmedia.com/ri/$domain=clubsarajay.com
 ||hikari.jiocinema.com/v1/batch^
 ||hikari.jiocinema.com/v1/track^
+||hilariouseconomics.com^
 ||himasearch.shop^
 ||himatalk77.net^
 ||himegoto-time.com^
@@ -5739,6 +5742,7 @@
 ||sos-at-vie-*.exo.io^
 ||sos-bg-sof-*.exo.io^
 ||sotemnovinhas.com/*.gif$image
+||soubtcevent.com^
 ||souhoazapee.net^
 ||soul-ft.com^
 ||soul-of-compass.com^
@@ -6245,6 +6249,7 @@
 ||todordigital.co.uk^
 ||todyrade.com^
 ||together.com^
+||together2night.com^
 ||tokenp0ckht.click^
 ||toki-no-irodori.com^
 ||tokimekimaildesu.net^
@@ -6756,6 +6761,7 @@
 ||watch-my-gf.com/images/bear.png
 ||watch-series.*/sw.js$script,~third-party
 ||watchadsfree.com^
+||watchanimeworld.in/wp-content/plugins/adblock
 ||watchdjav.online^
 ||watchfreejavonline.co/*.gif$image,~third-party
 ||watchfreexxx.net/*.php$script,~third-party
@@ -6864,6 +6870,7 @@
 ||will-lucky-will.com^
 ||willalland.info^
 ||win32diskimager.org^
+||windirstat.org^
 ||windows-line.com^
 ||windows.net*/esc.js
 ||windows.net/*/bxsafe.js
@@ -7225,7 +7232,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5346
+!<<<<<网站单独规则>>>>>5350
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
@@ -7868,6 +7875,7 @@ bigbrothercanada.ca##.video-adTile
 bigbtc.win##div:has(> div[style] > div[id] > script[src^="//ads.themoneytizer.com"])
 bigbtc.win##div[style^="width:300px;height:250px"]
 bigbtc.win,cryptofun.space###block-adb-enabled, #block-add-enabled
+bigbuttshub2.top,bigbuttshubvideos.com##body > div ~ div[class]:empty
 bigleaguepolitics.com##.code-block:has([target="_blank"])
 bigleaguepolitics.com,bonobono.com##.custom-html-widget
 bigpixel.cn##.portal_ad
@@ -10181,6 +10189,7 @@ mdbekjwqa.pw,mdfx9dc8n.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdropjmk.pw,mixd
 mdn.lol##div[style^="width:"][style$=" height: 90px;"]
 mdpr.jp##.p-articleList__heading:has(+ div#taboola-below-article-thumbnails-desktop)
 mdy48tn97.com##div[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;"]
+mediacast.click,playcast.click###openLinks
 mediaevent.de##.bottomadds
 mediaevent.de##.topadds
 mediafire.com##.errorExtraContent
@@ -12003,6 +12012,8 @@ underhentai.net##.hidden-sm
 underhentai.net##.sidebar > div[class] > .loading
 underhentai.net##.visible-xs
 underhentai.net##[onclick^="window.open('https://landing."]
+unibilgi.net##.ays-pb-modals
+unibilgi.net##[href*="adset"]
 unilad.co.uk##div:has(> .dfp-ad-unit)
 unityassets4free.com##.AdWidget_HTMLWidget
 unityassets4free.com##img[src^="https://unityassets4free.com/wp-content/uploads/"][src$="/best-url-shortner-for-unityassets4free.jpg"]
