@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 98+PBRmsf5Bhl7vDMnBr+Q
-! Title: Ublock filter for Via(2025-07-13 09:07:03)
-! Version: 20250713090703
+! Checksum: mOvzEFom1CWiK7ZR/mDxtw
+! Title: Ublock filter for Via(2025-07-14 00:14:14)
+! Version: 20250714001414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-13 09:07:03
-! Total Count: 15762
-! Blocked Filters: 15762
+! Last modified: 2025-07-14 00:14:14
+! Total Count: 15769
+! Blocked Filters: 15769
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7218
+!<<<<<域名规则>>>>>7220
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -271,6 +271,7 @@
 ||adsg00gle-v3.vercel.app^
 ||adshort.tech^$third-party
 ||adshrink.it^$third-party
+||adsinteractive.com^
 ||adslink.pw/*.php
 ||adsloboclick.com^
 ||adslop.com^$third-party
@@ -571,6 +572,7 @@
 ||arabseed.*/sw.js$script,~third-party
 ||aragontrack.com^$third-party
 ||arakusus.com^
+||aram.zone/pageview
 ||arbitragebot.team^
 ||arbitrageinstruction.media^
 ||arbitrageproject.blog^
@@ -7232,7 +7234,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5350
+!<<<<<网站单独规则>>>>>5352
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
@@ -11465,6 +11467,7 @@ slideshare.net##[id^="between-recs-ad-"]
 slovnik.seznam.cz##.BannerSSP
 slovnik.seznam.cz##.TextSSP
 slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streampiay.*,streanplay.*###uverlay
+slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streampiay.*###uverlay
 sluttyrat.com###under_player_button
 sluttyrat.com##.topRightSquare
 smallseo.tools##.border.p25.tracktool_banner .text-center > p
@@ -11576,6 +11579,7 @@ startpage.com###main > div[style]:not([class]):has(path)
 static.adsugar.ch%2Fimg%3Ford%3D$image
 static.adsugar.ch/img?ord=$image
 steamcrackedgames.com##[href^="https://startgaming.net/"]
+steanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 stfly.biz,airevue.net,atravan.net##.font-medium.text-sm.tracking-wider.uppercase.text-blue-400
 stfly.biz,airevue.net,atravan.net##.lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl
@@ -13645,7 +13649,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2140
+!<<<<<放行白名单>>>>>2143
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14213,8 +14217,10 @@ voz.vn/b/image.gif?p=$image
 @@||cloudfront.net^$script,domain=ebaticalfel.com|fansmega.com|iedprivatedqu.com|stownrusis.com
 @@||cmp.dmgmediaprivacy.co.uk/*/vendor-list.json$xmlhttprequest,domain=gbnews.uk
 @@||cmp.dmgmediaprivacy.co.uk/cmp/*$script,domain=gbnews.uk
+@@||cmp.dmgmediaprivacy.co.uk/cmp/*/index.js$script,domain=metro.co.uk
 @@||cmp.dmgmediaprivacy.co.uk/gdpr/*$xmlhttprequest,domain=gbnews.uk
 @@||cmp.dmgmediaprivacy.co.uk^$script,domain=dailymail.co.uk
+@@||cmp.dmgmediaprivacy.co.uk^$xmlhttprequest,domain=metro.co.uk
 @@||cmp.huffingtonpost.fr/api/consent$xmlhttprequest,~third-party
 @@||cmp.huffingtonpost.fr/html/huffpost/wall-large.html?css=/css/huffpost/wall-large.min.css$xmlhttprequest,~third-party
 @@||cmp.huffingtonpost.fr/js/huffpost.min.js$script,~third-party
@@ -15030,6 +15036,7 @@ voz.vn/b/image.gif?p=$image
 @@||rtl.be/videos/player/vp4_webanalytics.js$script,~third-party
 @@||rtl.it^$script,~third-party
 @@||rubiconproject.com/prebid/$xmlhttprequest,script,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
+@@||s.nitropay.com/*.gif$image,domain=aram.zone
 @@||s.nitropay.com/ads-$script,third-party,domain=app.axenthost.com
 @@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=store-jp.nintendo.com
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=123movies.link
