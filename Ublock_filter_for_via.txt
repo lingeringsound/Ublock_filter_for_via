@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mOvzEFom1CWiK7ZR/mDxtw
-! Title: Ublock filter for Via(2025-07-14 00:14:14)
-! Version: 20250714001414
+! Checksum: inbABD6d08+OxI1xBh5DIQ
+! Title: Ublock filter for Via(2025-07-14 09:03:21)
+! Version: 20250714090321
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-14 00:14:14
-! Total Count: 15769
-! Blocked Filters: 15769
+! Last modified: 2025-07-14 09:03:21
+! Total Count: 15773
+! Blocked Filters: 15773
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7234,7 +7234,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5352
+!<<<<<网站单独规则>>>>>5356
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
@@ -8795,6 +8795,9 @@ familyporn.tv###player_adv
 familyporn.tv##.col-last:has(> :is(.player-adverts, .place))
 familyporn.tv##.media_spot
 familyporn.tv,tabooporn.tv##.textlink
+fandom.com###incontent_boxad
+fandom.com###mid_boxad
+fandom.com###rail-boxad-wrapper
 fandom.com##.ad-slot-wrapper
 fandom.com##.instant-suggestion
 fandom.com##.top-ads-container
@@ -10232,9 +10235,9 @@ metoffice.gov.uk##.maps-header-advert
 metro.co.uk###connatix_placeholder_desktop
 metro.co.uk###taboola-feed-container
 metro.co.uk###we-need-monies
-metro.co.uk##.ad-slot-container
 metro.co.uk##.metro__ad_area_left
 metro.co.uk##.metro__ad_area_right
+metro.co.uk,uwupad.me##.ad-slot-container
 mg.mail.notion.so%2F$image
 mg.mail.notion.so/$image
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
@@ -12065,6 +12068,7 @@ utakmice.net###rcorners2top
 utreon.com##.ad-banner-static
 uwatchfree.*##.hd-links
 uwatchfree.*##[href*="deceittoured.com"]
+uwupad.me##.remove-ads-btn
 v1.safevideo.click###custom-video
 v1.safevideo.click###register-overlay
 v1.safevideo.click###video-container
