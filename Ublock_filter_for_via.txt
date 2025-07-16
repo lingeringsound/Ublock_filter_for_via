@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: jtqizxUugdTYl+gRIahuKQ
-! Title: Ublock filter for Via(2025-07-16 00:16:01)
-! Version: 20250716001601
+! Checksum: DivVM4Fi1ehQeTAD0FrSqw
+! Title: Ublock filter for Via(2025-07-16 09:01:12)
+! Version: 20250716090112
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-16 00:16:01
-! Total Count: 15854
-! Blocked Filters: 15854
+! Last modified: 2025-07-16 09:01:12
+! Total Count: 15856
+! Blocked Filters: 15856
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -13733,7 +13733,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2144
+!<<<<<放行白名单>>>>>2146
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15624,6 +15624,8 @@ avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezeb
 backcar.fr,flat-ads.com,job.inshokuten.com,kontol.in#@#.ad-content:not(:empty)
 bde4.*#@#a[href*=".yabo816."]
 beaumontenterprise.com,bigrapidsnews.com,ctinsider.com,ctpost.com,darientimes.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sheltonherald.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,wiltonbulletin.com,yourconroenews.com#@#[name^="google_ads_iframe"]
+best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com,localch.net,shukatsubbs.com#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com,localch.net,shukatsubbs.com#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 bestcash2020.com#@#.banner-468x60
 bestcash2020.com,jameeltips.us#@#.banner-728x90
 bestgames.com,mariogames.be,pops.tv,yiv.com#@##adsContainer
