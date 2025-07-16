@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DivVM4Fi1ehQeTAD0FrSqw
-! Title: Ublock filter for Via(2025-07-16 09:01:12)
-! Version: 20250716090112
+! Checksum: BldELiw1DkmrS4pb6c8L9w
+! Title: Ublock filter for Via(2025-07-17 00:15:57)
+! Version: 20250717001557
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-16 09:01:12
-! Total Count: 15856
-! Blocked Filters: 15856
+! Last modified: 2025-07-17 00:15:57
+! Total Count: 15861
+! Blocked Filters: 15861
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7299,7 +7299,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5364
+!<<<<<网站单独规则>>>>>5366
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -9350,7 +9350,9 @@ googleads.g.doubleclick.net##.jar
 googleads.g.doubleclick.net##html[i-amphtml-no-boilerplate][amp4ads][class="i-amphtml-inabox"]
 googlesyndication.com###abgb
 googlesyndication.com##.GoogleActiveViewElement > div:not(#reward_close_button_widget)
+googlesyndication.com##.GoogleActiveViewElement > div:not(#reward_close_button_widget):not(.recommend_book)
 googlesyndication.com##.GoogleActiveViewElement:not(:has(> #reward_close_button_widget))
+googlesyndication.com##.GoogleActiveViewElement:not(:has(> #reward_close_button_widget)):not(.recommend_book)
 gosexpod.com##.content__block[style^="direction"]
 gosexpod.com##.natsc
 gosexpod.com##.video-headline
@@ -13460,7 +13462,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>270
+!<<<<<通用Css规则>>>>>272
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -13720,6 +13722,8 @@ voz.vn/b/image.gif?p=$image
 ~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
 ~freehostbox.net,~hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
 ~job.inshokuten.com,~netmile.co.jp##.ad-area:not(.text-ad)
+~kojodan.jp##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+~kojodan.jp##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ~lamire.jp,*##.ad-unit:not(.text-ad):not(.textads)
 ~ma-bank.net,~rxlife.net,~video.tv-tokyo.co.jp###adspace:not([style^="position: absolute; left: -5000px"])
 ~mmiyue.com##.google-ad:not(.testAd)
@@ -13733,7 +13737,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2146
+!<<<<<放行白名单>>>>>2147
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14537,6 +14541,7 @@ voz.vn/b/image.gif?p=$image
 @@||fundingchoicesmessages.google.com/f/$script,domain=adshnk.com|fanatik.com.tr|milliyet.com.tr|posta.com.tr|soranews24.com
 @@||fundingchoicesmessages.google.com/f^$script,domain=teve2.com.tr
 @@||fundingchoicesmessages.google.com/i/$script,domain=fplstatistics.com|sudokugame.org
+@@||fundingchoicesmessages.google.com/i/pub-$domain=kojodan.jp
 @@||fundingchoicesmessages.google.com/i/pub-$script,domain=adshnk.com|fanatik.com.tr|milliyet.com.tr|posta.com.tr
 @@||fundingchoicesmessages.google.com/i/pub-*$script,domain=soranews24.com
 @@||fundingchoicesmessages.google.com^$domain=androidacy.com
