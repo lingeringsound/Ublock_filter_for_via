@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: BldELiw1DkmrS4pb6c8L9w
-! Title: Ublock filter for Via(2025-07-17 00:15:57)
-! Version: 20250717001557
+! Checksum: y47/3ahcXWCrxJJSKOAaVg
+! Title: Ublock filter for Via(2025-07-17 09:02:45)
+! Version: 20250717090245
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-17 00:15:57
-! Total Count: 15861
-! Blocked Filters: 15861
+! Last modified: 2025-07-17 09:02:45
+! Total Count: 15862
+! Blocked Filters: 15862
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7285
+!<<<<<域名规则>>>>>7286
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3527,6 +3527,7 @@
 ||kisscartoon.*/api/pop.php$xmlhttprequest,~third-party
 ||kisstvshow.*/api/pop.php$xmlhttprequest,~third-party
 ||klclick1.com^$third-party
+||kleinezeitung.at/layout/klz/files/service/blakr/advertising.js
 ||klh3j19w.xyz^
 ||klingxai.com^
 ||klinikmrc.com^
