@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: y47/3ahcXWCrxJJSKOAaVg
-! Title: Ublock filter for Via(2025-07-17 09:02:45)
-! Version: 20250717090245
+! Checksum: eRDQChTFip5M3kLvcJ8rXQ
+! Title: Ublock filter for Via(2025-07-18 00:15:32)
+! Version: 20250718001532
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-17 09:02:45
-! Total Count: 15862
-! Blocked Filters: 15862
+! Last modified: 2025-07-18 00:15:32
+! Total Count: 15886
+! Blocked Filters: 15886
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7286
+!<<<<<域名规则>>>>>7309
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -248,6 +248,7 @@
 ||adnxs.com^$xmlhttprequest,domain=welt.de
 ||ado.wish-best.com^
 ||adobedownloader.info^
+||adobedtm.com^$domain=aamulehti.fi
 ||adobedtm.com^*-source.min.js$script,domain=plasticsnews.com
 ||adobedtm.com^*/satelliteLib-$script,domain=poweredbycovermore.com
 ||adobedtm.com^*/satellitelib-$script,domain=telegraph.co.uk
@@ -1382,6 +1383,7 @@
 ||codeanyapp.com/*/SWISSPASSC/
 ||codeanyapp.com/*/spoofi/
 ||codeanyapp.com/*/spotii/
+||codeanyapp.com/Issued/settings/
 ||codeanyapp.com/NTFLX/
 ||codeanyapp.com/Sus/*/sign.php^
 ||codeanyapp.com/Swiss_com/
@@ -1970,6 +1972,7 @@
 ||e-zpass.com-
 ||e95nfjld.com^
 ||eadvertisingd.biz^
+||eaestlinnkcca.weebly.com^
 ||eangetar.com^
 ||earn-bitcoins.*/banner_
 ||earnbitmoon.club/promo/EBM-300x250.gif
@@ -3217,11 +3220,13 @@
 ||info-espanol-id-configes*.codeanyapp.com^
 ||info-meta-noreply.com^
 ||info-top-letter.com^
+||info-tracking*.cc^
 ||info-trackingcas.cc^
 ||infograph.top^
 ||infomessagehappy.com^
 ||infonet.sbs^
 ||informationpolicy.cloud^
+||informed.delivery*.top^
 ||infos4.yolasite.com^
 ||infosync.top^
 ||infozoomplus.biz^
@@ -4301,13 +4306,16 @@
 ||mybluehost.me/*/swisspass/
 ||mybluehost.me/*/swpassfr/
 ||mybluehost.me/*Recibir_paquete.php
+||mybluehost.me/*unitess/
 ||mybluehost.me/--/SBBCFF
+||mybluehost.me/2us/verification/
 ||mybluehost.me/CFF/
 ||mybluehost.me/Cope346/
 ||mybluehost.me/Konto/SBB/
 ||mybluehost.me/MUSIC/SPOTIFY24K/
 ||mybluehost.me/SBB.CH/
 ||mybluehost.me/SBB/
+||mybluehost.me/UNITEDSTATESPOSTAL/
 ||mybluehost.me/comssss/
 ||mybluehost.me/dse/main/
 ||mybluehost.me/neww/
@@ -4319,6 +4327,9 @@
 ||mybluehost.me/spot/Account/
 ||mybluehost.me/sssssssssssssss/
 ||mybluehost.me/swisscom-login/
+||mybluehost.me/tracking-mail-delivery/
+||mybluehost.me/us/post/
+||mybluehost.me/uspshome/
 ||mybluehost.me/vcd/
 ||mybluehost.me/watch/a/flix/
 ||mybluehost.me/wise/number-account-
@@ -4942,6 +4953,7 @@
 ||plaza-l1o0nni-p1aza.com^
 ||plesk.page/*?phone=
 ||plotp.mazamob.space^
+||plum-binder-*.typedream.app^
 ||plus-x4-alpha.com^
 ||plygainroundup.com^
 ||pmequebeclic.com^
@@ -5732,6 +5744,7 @@
 ||smartgethub.com^
 ||smartklick.biz^
 ||smartlook.com^$third-party
+||smartparcellockers.tech^
 ||smartpc.click^
 ||smarttvnew.vercel.app^
 ||smdotcom.com^
@@ -5835,6 +5848,7 @@
 ||spirituallounge-3000.com^
 ||splendlddate.com^
 ||splv.jp^
+||spolify-support-premium.codeanyapp.com^
 ||spooky-swap.pro^
 ||spookyswap-v3.com^
 ||sportcast.life/img/ali3.png
@@ -5842,6 +5856,8 @@
 ||sports-streams-online.club^$third-party
 ||sportshub.to/fox/plugins/block/js/$script
 ||sportslevels.com^
+||spoti-*.codeanyapp.com^
+||spoti-safe-support*.codeanyapp.com^
 ||spotlesscomplaint.com^
 ||spring-sealion.com^
 ||sprocketwhirl.top^
@@ -6613,7 +6629,11 @@
 ||usingageghoaft.net^
 ||usmlematerials.net^$image,domain=micloudfiles.com
 ||usmusk.net^
+||uspac.sbs^
 ||usps-packages-*.com^
+||usps.*.sbs^
+||uspsparcels.net^
+||uspssmartpackagelockers.com^
 ||utahpolicetraining.*.mybluehost.me^
 ||utg.ri64-pdmv.com^
 ||utorrent.it^
@@ -7000,6 +7020,8 @@
 ||wow-site.site^
 ||wp.com*/banner$image,domain=komikmama.net
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
+||wpenginepowered.com/usps/
+||wrc-gh.org/redelivery
 ||wrgov.com^
 ||wse.yts248ds.jp^
 ||wsimg.com/signals/$script,third-party
@@ -7155,6 +7177,7 @@
 ||y2mate.com/themes/js/pn.js
 ||y2sysagetf.com^
 ||y54wdrg.com^
+||yah.ppl.mybluehost.me^
 ||yamcha.xyz^
 ||yandexmetrica.com^
 ||yautube.com^
@@ -7300,7 +7323,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5366
+!<<<<<网站单独规则>>>>>5367
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -11989,6 +12012,7 @@ tricksplit.io##div[class^="ads_longAd_"]
 trip.businessnews-nigeria.com,te-it.com,world2our.com,mobi2c.com,bluetechno.net,forexit.online###submitBtn, #go_d, #devozon-snp, #submitBtn, #tp-snp1, #go_d2:others()
 tripadvisor.*###component_2 > div[class^="_"]:has(> div > div[class^="iab_"][style="min-height:90px"])
 tripadvisor.*##.ui_container > div[class] > div[class^="_"]:has(> .iab_medRec:only-child)
+trueachievements.com,truesteamachievements.com,truetrophies.com##.nn_player_w > .pro-upgrade
 truthlion.com##.ad-banner-revcontent
 truyen-hentai.com###aabnode
 truyen-hentai.com##.async-anyatok-placeholder
