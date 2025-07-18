@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: eRDQChTFip5M3kLvcJ8rXQ
-! Title: Ublock filter for Via(2025-07-18 00:15:32)
-! Version: 20250718001532
+! Checksum: w2gyGtLhIqPTh5S5/kCfoA
+! Title: Ublock filter for Via(2025-07-18 09:01:44)
+! Version: 20250718090144
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-18 00:15:32
-! Total Count: 15886
-! Blocked Filters: 15886
+! Last modified: 2025-07-18 09:01:44
+! Total Count: 15888
+! Blocked Filters: 15888
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7309
+!<<<<<域名规则>>>>>7310
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2298,6 +2298,7 @@
 ||feve-r.com^
 ||fevertime.com/wasop/
 ||fewcents.co^$third-party
+||fffvviuebyw.bond^
 ||fflink.net^$third-party
 ||ffmovies.lol/jss/dectector-
 ||ffr548tyfhe.jp^
@@ -12693,7 +12694,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>791
+!<<<<<通配符规则>>>>>792
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -12779,6 +12780,7 @@ $script,domain=zdnet.fr,third-party
 .click/?user=*&h=$script,third-party
 .club/js/popunder.js$third-party
 .co.in/01/?cid=
+.co/?mlk=
 .com/1?z=$script,third-party
 .com/2?z=$script,third-party
 .com/add.php^$xmlhttprequest,third-party
