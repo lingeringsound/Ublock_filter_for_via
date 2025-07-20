@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 82tSjfVV7B3W/LL0VUl0+A
-! Title: Ublock filter for Via(2025-07-20 09:07:27)
-! Version: 20250720090727
+! Checksum: r89xXGwmmDRHLpjvVZaZhQ
+! Title: Ublock filter for Via(2025-07-21 00:14:57)
+! Version: 20250721001457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-20 09:07:27
-! Total Count: 15907
-! Blocked Filters: 15907
+! Last modified: 2025-07-21 00:14:57
+! Total Count: 15915
+! Blocked Filters: 15915
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7324
+!<<<<<域名规则>>>>>7329
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1420,8 +1420,9 @@
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/*.js|$script,third-party,domain=pornhoarder.tv|pornhoarder.tw
 ||com/*/ModalEngage|$script,third-party
+||com/*markerclusterer_compiled.js|$script,third-party
 ||com/on.js?var=$script,third-party
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=38.114.120.167
 ||comdotgame.com/static/ads/istripper/
@@ -4515,6 +4516,7 @@
 ||nozoakamsaun.net^
 ||npajp.icu^
 ||npdptp.com^
+||npnjs.com^
 ||npo-government.jp^
 ||nsfwr34.com/ad_schedule/
 ||nsofthub.info^
@@ -4909,6 +4911,7 @@
 ||pin673.cyou^
 ||pineapplecake-yummy.com^
 ||pinehollow-glade.com^
+||ping.anizm.net^
 ||pingergauss.com^
 ||pingit.*/sw.js$script,~third-party,domain=~pingit.com|~pingit.me
 ||pink-sale.pages.dev^
@@ -5949,6 +5952,8 @@
 ||steamxiazai.cn^
 ||steeamcommnity.com^
 ||steemcommuntiy.com^
+||stellar-coin.com^
+||stellar-stb.com^
 ||stellarium.es^
 ||stellarium.fr^
 ||stemcommunty.com^
@@ -7184,7 +7189,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -7338,7 +7343,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5371
+!<<<<<网站单独规则>>>>>5372
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -12475,6 +12480,7 @@ wp.pl##body > [data-container] > div[class]:empty
 wp.pl##body > [data-container] > div[class]:has(> div:only-child:empty)
 wp.pl##div:has(> div:first-child:has(> div:only-child > a > div:empty:only-child) + div:last-child:empty)
 wp.pl##div:has(> div:first-child:has(> iframe:only-child) + div:last-child:empty)
+wp.pl##div[class]:not([class^="wp-content"]):has(> img + div:empty + div > [id^="div-gpt-ad-"])
 wp.pl,abczdrowie.pl,parenting.pl,o2.pl##div:has(> div:first-child:has(> a:first-child > img[src^="https://v.wpimg.pl/"]) + div:empty:last-child)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl,forum.kardiolo.pl##body > div[class]:has(> div:first-child:empty + div:last-child > svg[width="95"][height="95"]:only-child > path)
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[class] > div:not([class], [id]):only-child:has(> div[class]:only-child > div[class]:first-child > a > img[src^="https://v.wpimg.pl/"])
@@ -12712,7 +12718,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>793
+!<<<<<通配符规则>>>>>795
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -13148,6 +13154,7 @@ $script,domain=zdnet.fr,third-party
 /jquery.notify.js$script,~third-party,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*
 /jquery.watch.js|$script,~third-party,domain=~dekrantvantoen.nl
 /jr.php?gz=
+/js/aclb.js^$script,~third-party,domain=anizle.com|anizm.net|puffytr.com
 /js/analytics/fdUserFingerprintToken.js$domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net|turboobit.com
 /js/detectorpro_*.js|$script
 /js/fpu3/pu4.min.js
@@ -13179,6 +13186,7 @@ $script,domain=zdnet.fr,third-party
 /mc-test/*/index.php?cid=
 /mellowpresence.com^$script
 /merrx01/^
+/metrics^|$script,~third-party,domain=anizle.com|anizm.net|puffytr.com
 /mlxhl/v*/for-page?$xmlhttprequest
 /mm.js^$script,domain=1337x.*|1337x.ninjaproxy1.com|x1337x.*
 /mod_ablockdetector/*
@@ -14599,7 +14607,7 @@ voz.vn/b/image.gif?p=$image
 @@||fwlive.sonycrackle.com/ad/*$script,~third-party
 @@||fwmrm.net/ad/$script,domain=dplay.dk
 @@||fwmrm.net/ad/*$xmlhttprequest,domain=canalplus.com
-@@||fwmrm.net^*/admanager.js$script,third-party,domain=atresplayer.com|southpark.*|southpark.cc.com|southpark.de|southparkstudios.*|southparkstudios.com|southparkstudios.de
+@@||fwmrm.net^*/admanager.js$script,third-party,domain=atresplayer.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script,xmlhttprequest
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=soranews24.com
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=video-ac.com
@@ -14766,7 +14774,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest,domain=spiele.bild.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southparkstudios.*|southparkstudios.com|southparkstudios.de|telecinco.es|wcvb.com|winknews.com|wsls.com|yaktrinews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js^$script,domain=timesnownews.com|virginmediatelevision.ie
