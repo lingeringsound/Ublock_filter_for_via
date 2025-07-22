@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wMPwDZqoU0OR5q+O4TfUAw
-! Title: Ublock filter for Via(2025-07-22 00:15:58)
-! Version: 20250722001558
+! Checksum: v0TEYzMlOjQ41d9PBgejTA
+! Title: Ublock filter for Via(2025-07-22 09:02:38)
+! Version: 20250722090238
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-22 00:15:58
-! Total Count: 15937
-! Blocked Filters: 15937
+! Last modified: 2025-07-22 09:02:38
+! Total Count: 15938
+! Blocked Filters: 15938
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7346
+!<<<<<域名规则>>>>>7347
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2808,6 +2808,7 @@
 ||groups.google.com/g/hogwarts-legacy-crack-empress^
 ||grtyb.com^$third-party
 ||grumft.com^$third-party
+||grupocgcr.com^
 ||gruposabar.com^
 ||gsi3t.com^
 ||gspo.jp^
