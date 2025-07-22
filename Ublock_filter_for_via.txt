@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: v0TEYzMlOjQ41d9PBgejTA
-! Title: Ublock filter for Via(2025-07-22 09:02:38)
-! Version: 20250722090238
+! Checksum: r9UUBVU6CvjX7GpX0A1IHw
+! Title: Ublock filter for Via(2025-07-23 00:16:39)
+! Version: 20250723001639
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-22 09:02:38
-! Total Count: 15938
-! Blocked Filters: 15938
+! Last modified: 2025-07-23 00:16:39
+! Total Count: 15945
+! Blocked Filters: 15945
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7347
+!<<<<<域名规则>>>>>7349
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4836,6 +4836,7 @@
 ||partyroll.xyz^
 ||paste.fo/*?as=*&tkn=$xmlhttprequest
 ||paste.fo^$image,~third-party
+||pastebin.store/js.js
 ||pastelism02.jpn.com^
 ||pastemytxt.com/downloadad.jpg
 ||patchedfiles.com^
@@ -6698,6 +6699,7 @@
 ||valid-check-tl-
 ||validacionesoutlookmailwebadmin.glitch.me^
 ||valrogrowth.com^
+||valueclick.cc^
 ||valuecommerce.com^$third-party
 ||valuge.com.ar/sbb/
 ||vamcvn.org^
@@ -7361,7 +7363,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5375
+!<<<<<网站单独规则>>>>>5376
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -7646,7 +7648,7 @@ advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,meetdo
 advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,northern-scot.co.uk,stratford-herald.com##.MPU
 advertisingexcel.com,allcryptoz.net,batmanfactor.com,crewbase.net,crewus.net,documentaryplanet.xyz,gametechreviewer.com,midebalonu.net,misterio.ro,phineypet.com,seory.xyz,shinbhu.net,shinchu.net,substitutefor.com,talkforfitness.com,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
-advicefunda.com,bestloanoffer.net,castmax.live,computerpedia.in,fairyanime.com,go.linkify.ru,is2btc.com,phica.net,swift4claim.com,techconnection.in,tokuzl.net,universitiesonline.xyz,ustream.to,worldsex.com##.overlay
+advicefunda.com,bestloanoffer.net,castmax.live,computerpedia.in,fairyanime.com,go.linkify.ru,is2btc.com,phica.net,swift4claim.com,techconnection.in,tokuzilla.net,tokuzl.net,universitiesonline.xyz,ustream.to,worldsex.com##.overlay
 advicefunda.com,bestloanoffer.net,computerpedia.in,cryptonetos.ru,techconnection.inn,universitiesonline.xyz,ustream.to##.popup
 adweek.com##.widget-adweek-sticky-next:has(> .htl-ad-wrapper)
 adz7short.space###banner_slider_right
@@ -10780,6 +10782,7 @@ oxy.*###divdownload > div[data-template][data-source_url]
 oxy.*##[href*=".info"]
 oxy.*,~oxy.edu###divdownload > div[data-template][data-source_url]
 oxy.*,~oxy.edu##[href*=".info"]
+p2pplay.pro##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
 pages.lazada.co.id##.lzd-call-app-download-popup
 paginadanoticia.com.br##.banner-img
 paid4.link##.box > div[align="center"] > .card
@@ -12739,7 +12742,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>797
+!<<<<<通配符规则>>>>>801
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -12962,6 +12965,8 @@ $script,domain=zdnet.fr,third-party
 /Win0SecurityEr0CH0700Err0rSt/index.html
 /_a_ta/s/s/*
 /_dating\d\/index\.html\?aref=/
+/_static/delivery.js?nonce=$script,~third-party,header=server:/^openresty\//
+/_static/delivery.js?nonce=$script,~third-party,strict1p,ipaddress=23.239.3.104
 /a/ipn/js/*
 /a/na/js/*$third-party
 /a/pop/js/*
@@ -13116,7 +13121,9 @@ $script,domain=zdnet.fr,third-party
 /ea/fl.js
 /ea2/fl.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
+/embed-1/ajax/e-1/banners|$xmlhttprequest,~third-party
 /embed-1/ajax/e-1/banners|$xmlhttprequest,~third-party,strict1p
+/embed-1/e-1/banners|$xmlhttprequest,~third-party
 /eropics\.to\/[a-zA-Z0-9]{8}\.js$/$script,~third-party,domain=eropics.to
 /exort7.$script,~third-party
 /fag/js/lol.js$domain=comohoy.com|pornleaks.in|leak.sx|paste.bin.sx
