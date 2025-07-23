@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: i1qFWpJiDVRjlVb5MiO5xw
-! Title: Ublock filter for Via(2025-07-23 09:05:25)
-! Version: 20250723090526
+! Checksum: mhhDq6dPSVBZzXTAK/7kIw
+! Title: Ublock filter for Via(2025-07-24 00:17:22)
+! Version: 20250724001722
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-23 09:05:26
-! Total Count: 15946
-! Blocked Filters: 15946
+! Last modified: 2025-07-24 00:17:22
+! Total Count: 15952
+! Blocked Filters: 15952
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7349
+!<<<<<域名规则>>>>>7351
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1424,7 +1424,7 @@
 ||com/*markerclusterer_compiled.js|$script,third-party
 ||com/on.js?var=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=38.114.120.167
 ||comdotgame.com/static/ads/istripper/
@@ -4431,6 +4431,7 @@
 ||nbryb.com^
 ||nbsfmradio.com^
 ||nc2.site^
+||ncewb8eo.cloud^
 ||ncracked.com^
 ||ndinast.com^
 ||ndpxzxyqpwcnz.click^
@@ -6512,6 +6513,7 @@
 ||tubecucumber.com/images/pr.js
 ||tubesex.me/js/eribi.js
 ||tubevintageporn.com/js/bkcwe.js
+||tucson.com/shared-content/art/tncms/api/access.*.js
 ||tugonoyoi.com^
 ||tulip-tulip.net^
 ||tumalabo.net^
@@ -7209,7 +7211,7 @@
 ||xypthe.com^
 ||xyz-trade.com^
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -7363,12 +7365,13 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5376
+!<<<<<网站单独规则>>>>>5377
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
+%3A%2F%2Ftwitter.com%2Fscribe%2Fibis%3F$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 00m.in###attention
 00m.in###h4title
@@ -12742,12 +12745,13 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>802
+!<<<<<通配符规则>>>>>804
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
 %3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D$image
+%3A%2F%2Ftwitter.com%2Fscribe%2Fibis%3F$image
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 &adspot_id=*&cost=0.
 &click_price=0.*&click_id=
@@ -13469,6 +13473,7 @@ $script,domain=zdnet.fr,third-party
 ://snl.patch.com/imp?$image
 ://static.adsugar.ch/img?ord=$image
 ://tlr.stripocdn.email/content/guids/$image
+://twitter.com/scribe/ibis?$image
 ://vip.*/?pge=$image,third-party
 ://vnwxkk.*/?
 ://voz.vn/b/image.gif?p=$image
@@ -13822,7 +13827,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2147
+!<<<<<放行白名单>>>>>2148
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15269,7 +15274,7 @@ voz.vn/b/image.gif?p=$image
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config^$xmlhttprequest,redirect-rule,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pcs/view/*$xmlhttprequest,domain=joyn.de
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|timesofindia.indiatimes.com|voici.fr|wikihow.com|www.wikihow.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|thedailybeast.com|timesofindia.indiatimes.com|tvaplus.ca|voici.fr|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
@@ -15714,6 +15719,7 @@ avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezeb
 backcar.fr,flat-ads.com,job.inshokuten.com,kontol.in#@#.ad-content:not(:empty)
 bde4.*#@#a[href*=".yabo816."]
 beaumontenterprise.com,bigrapidsnews.com,ctinsider.com,ctpost.com,darientimes.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sheltonherald.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,wiltonbulletin.com,yourconroenews.com#@#[name^="google_ads_iframe"]
+best-hit.tv#@##gStickyAd
 best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com,localch.net,shukatsubbs.com#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com,localch.net,shukatsubbs.com#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 bestcash2020.com#@#.banner-468x60
