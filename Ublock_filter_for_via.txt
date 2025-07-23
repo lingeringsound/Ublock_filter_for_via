@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: r9UUBVU6CvjX7GpX0A1IHw
-! Title: Ublock filter for Via(2025-07-23 00:16:39)
-! Version: 20250723001639
+! Checksum: i1qFWpJiDVRjlVb5MiO5xw
+! Title: Ublock filter for Via(2025-07-23 09:05:25)
+! Version: 20250723090526
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-23 00:16:39
-! Total Count: 15945
-! Blocked Filters: 15945
+! Last modified: 2025-07-23 09:05:26
+! Total Count: 15946
+! Blocked Filters: 15946
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -12742,7 +12742,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>801
+!<<<<<通配符规则>>>>>802
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -13074,6 +13074,7 @@ $script,domain=zdnet.fr,third-party
 /check.php?t=*&rand=$image,~third-party
 /clc?aid=
 /click.php?data=
+/click.php?key=*&PLACEMENT_ID=
 /click.php?key=*&cpc=0&
 /click.php?key=*&dj_placement=
 /click.php?key=*&price=
