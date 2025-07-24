@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: JyY2BjyRcEDBJvZtQDp5ng
-! Title: Ublock filter for Via(2025-07-24 09:01:47)
-! Version: 20250724090147
+! Checksum: YwzWQa/nY+xMFUCWnsKEbA
+! Title: Ublock filter for Via(2025-07-25 00:14:40)
+! Version: 20250725001440
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-24 09:01:47
-! Total Count: 15955
-! Blocked Filters: 15955
+! Last modified: 2025-07-25 00:14:41
+! Total Count: 16002
+! Blocked Filters: 16002
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7354
+!<<<<<域名规则>>>>>7396
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -444,6 +444,7 @@
 ||americass.net/interstice-ad
 ||amernamproa.com^
 ||amezpay.com^
+||amigosdelasfinanzas.com^
 ||amigosdetuciudad.com^
 ||amocha.xyz^
 ||amourplace.jp^
@@ -493,6 +494,7 @@
 ||anyonegoal.com^
 ||anyporn.com/if2/
 ||anysoftdownload.com^
+||anz.brandkit.io^
 ||aolcdn.com/ads/adswrappermsni.js$script,domain=msn.com
 ||aolmaiillogin.blogspot.
 ||ap-ple.biz^
@@ -758,11 +760,13 @@
 ||balenaetcher.$domain=~etcher.balena.io
 ||bambam-bi.com^
 ||bandi-cam.cc^
+||banditsmutter.qpon^
 ||banquet-barbecue.com^
 ||baoviet*.top^
 ||baoviet*.vip^
 ||baoviet.vip^
 ||baovietcom.vip^
+||baovietin.top^
 ||baovietn.vip^
 ||baovietvay.top^
 ||baovietvc.top^
@@ -924,6 +928,7 @@
 ||blfeiywbthjom.com^
 ||blisterlngdate.com^
 ||blizzboygames.net/sw.js$script,~third-party
+||blob.core.windows.net/$web/*index.html
 ||blob.core.windows.net/$web/index.html
 ||blockadblock.com^$third-party
 ||blockfiupdates.
@@ -950,6 +955,7 @@
 ||bluffyporn.com^$third-party
 ||blurflewhack.top^
 ||bm-bluemoon.com^
+||bmoreferral.com^
 ||bmovies.*/bassets/js/jquery.watch.js$script,~third-party
 ||bmovies.*/sw.js$script,~third-party
 ||bmtracks.com^
@@ -1071,6 +1077,8 @@
 ||cagrievi.com^
 ||cahootdisodic.com^
 ||caitlin.top/counter.php
+||caixa-*.codeanyapp.com^
+||caixa-login-banco-home-login-auth-h.codeanyapp.com^
 ||cajewar736.wixsite.com^
 ||calibre.it^
 ||call-chieftain.com^
@@ -1387,8 +1395,10 @@
 ||codeanyapp.com/*/SWISSPASSC/
 ||codeanyapp.com/*/spoofi/
 ||codeanyapp.com/*/spotii/
+||codeanyapp.com/Caixanow/
 ||codeanyapp.com/Issued/settings/
 ||codeanyapp.com/NTFLX/
+||codeanyapp.com/Particuliers/
 ||codeanyapp.com/Sus/*/sign.php^
 ||codeanyapp.com/Swiss_com/
 ||codeanyapp.com/Swissp/
@@ -1899,6 +1909,7 @@
 ||doubleclick.net^$xmlhttprequest,domain=discoveryplus.*
 ||doublepimpads.com^$third-party
 ||douploads.*/*sw$script,~third-party
+||douroweb.eu^
 ||douyucdn.cn/front-publish/stream-sdk-lib-master/dyp2pxp2p_*.js$script,domain=douyu.com
 ||download-ai.top^
 ||download-app.net^
@@ -1924,6 +1935,7 @@
 ||dreary-fuel.com^
 ||dreary-hunt.com^
 ||drectsearch.com^
+||drenchdeprivation.com^
 ||dressedunlessround.com^
 ||drg-mcre.com^
 ||drop-cloud.com^
@@ -2121,6 +2133,7 @@
 ||errorordufhwe.s3.ap-south-1.amazonaws.com^
 ||ersties.com^$third-party
 ||erwksojkxxlff.icu^
+||espace-documents-authsec-appmovil.codeanyapp.com^
 ||espleestrick.com^
 ||essence-one.net^
 ||est-host.com/promo/$image
@@ -2582,6 +2595,7 @@
 ||gamojinsegesegeas.com^
 ||gandestin0.jp^
 ||gaos.bio^
+||gaoyinjiao.com^
 ||gapconnectionbridge.co.in^
 ||garagebandforpc.org^
 ||gardena-eu.com^
@@ -2613,6 +2627,7 @@
 ||generating.link^
 ||genetick4zwtf6c8mh5.jp^
 ||genoanime.tv/block-ads/
+||genuinelyunfit.com^
 ||geoflix.me^
 ||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|dailygazette.com|independent.co.uk|miamiherald.com|standard.co.uk|word.tips
 ||gerarna.io.vn^
@@ -2684,6 +2699,7 @@
 ||glimmerbloop.top^
 ||glinks.co^
 ||gliraimsofu.net^
+||glitch.me/*/nationwide^
 ||glitch.me/adobe-auto*.html^
 ||glitch.me/pdf.html?email=
 ||glitch.me/public/NFCUAccess00.HTML^
@@ -2829,6 +2845,8 @@
 ||guidedhacking.com/*banner$image
 ||guidesetup.pro^
 ||guj.jp^
+||gupload.xyz/data/head/script.php^
+||gupload.xyz/data/player/adblock-detector.js^
 ||guw.jp^
 ||gvt1.com/*/dclk_video_ads/
 ||gxfh59u4.xyz^
@@ -2899,6 +2917,7 @@
 ||hcbdsm.com/exo1.html
 ||hcbdsm.com/frtl.js
 ||hcbdsm.com/rbtop.html
+||hclsoftware.cloud/*/tdbanknotes^
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hd21.com/ajax/track?
 ||hdbraze.com/sw.js$script,~third-party
@@ -2934,6 +2953,7 @@
 ||hentaipins.com/pop.js
 ||hentaiplaytime.com^
 ||hentaivideos.net/imp/
+||hentaivost.fr/detect.js^
 ||hentaiworld.tv/footer-banners.html
 ||hentalk.pw/public/hentalk-loader.js
 ||heqipop.space^
@@ -3245,6 +3265,7 @@
 ||infos4.yolasite.com^
 ||infosync.top^
 ||infozoomplus.biz^
+||ingresocancelacion.wixsite.com^
 ||iniupcorporate.com^
 ||injectshrslinkblog.com^$third-party
 ||inkapelis.*/sw.js$script
@@ -3774,6 +3795,7 @@
 ||lonely.beauty^
 ||long.xxx^$third-party
 ||longchampblackfriday.com^
+||lopfly.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
 ||lot.luck-fortune.com^
@@ -4228,6 +4250,7 @@
 ||moon-1light.com^
 ||moon1234moom.com^
 ||moonlight-ebbandflow.com^
+||moonlightproshop.com^
 ||moonmov.pro/js/baf.js$script,~third-party
 ||moonworks.in/jpcpanel/
 ||moorsmerops.top^
@@ -4340,6 +4363,7 @@
 ||mybluehost.me/SBB.CH/
 ||mybluehost.me/SBB/
 ||mybluehost.me/UNITEDSTATESPOSTAL/
+||mybluehost.me/ameli/
 ||mybluehost.me/comssss/
 ||mybluehost.me/dse/main/
 ||mybluehost.me/neww/
@@ -4432,6 +4456,7 @@
 ||navitada.com^
 ||nbryb.com^
 ||nbsfmradio.com^
+||nbtbank.architect-cert.fiservapps.com^
 ||nc2.site^
 ||ncewb8eo.cloud^
 ||ncracked.com^
@@ -4441,6 +4466,7 @@
 ||nearbyasquare.com^
 ||needgayporn.com/ohs-180x800.gif
 ||needntrusts.com^
+||negociebra.com.br^
 ||neighborhoodsluts.com^
 ||nem0phila000.com^
 ||neonime.*/wp-content/themes/grifus/images/donate/yunita/
@@ -4558,6 +4584,7 @@
 ||nyancokuji.xyz^
 ||nydlaepytwuekwhfyvivsf.com^
 ||nyeeiye2.click^
+||nyfinance.ru^
 ||nysoctieotion.tech^
 ||nzbstars.com/*.gif$image
 ||nze98582s.com^
@@ -4614,6 +4641,7 @@
 ||omegascans.org/ads.js
 ||omegatoki.com^
 ||omnibuswaist.com^
+||omoneyandfarto.com^
 ||omtrdc.net^$xmlhttprequest,domain=pccomponentes.com
 ||on-glamour.xyz^
 ||on-li-ne.net^
@@ -4901,6 +4929,7 @@
 ||peroiramus.me^
 ||perplexity.ai/rest/event/analytics
 ||perplexity.ai/rest/metrics/collect^$xmlhttprequest,~third-party,method=post
+||personas.devbam.com^
 ||perutzxrqe.ru.com^
 ||pervclips.com/tube/js/customscript.js
 ||petri.com/wp-content/plugins/bww-wp-advertising^
@@ -4990,6 +5019,7 @@
 ||pmequebeclic.com^
 ||pmew.jp^
 ||pnav.jp^
+||pncexc.com^
 ||pnd.tl/*.gif$image
 ||pndax.love^
 ||pngvnreward.pages.dev^
@@ -5327,6 +5357,7 @@
 ||refpamjeql.top^
 ||refriesbharata.com^
 ||regie-cpc.com^$third-party
+||regiltxii.com^
 ||register-turnamen.free.nf^
 ||register.blissfulltimes.com^
 ||reifenachbarn.com^
@@ -5751,6 +5782,7 @@
 ||skollett.site^
 ||skvxbool.xyz^
 ||sky567o.fun^
+||skylarkspb.ru/raiffeisentwint/
 ||skymods.net^
 ||skype-com.cn^
 ||skyscrapertowel.com^
@@ -5860,6 +5892,7 @@
 ||spade.sci.twitch.tv^$third-party
 ||spankbang.*/official/serve_
 ||spankbang.com/static/dist/desktop/js/analytics$script
+||spareb1.com^
 ||sparkflaretrustline.xyz^
 ||sparrowwallet.net^
 ||special-update.online^
@@ -5980,6 +6013,7 @@
 ||stellarium.es^
 ||stellarium.fr^
 ||stemcommunty.com^
+||stereosfeet.com^
 ||stern.de/__assets/homad
 ||stiflersmoms.com/yes/
 ||stomatico.com^
@@ -6045,6 +6079,7 @@
 ||sumologic.stv.tv^
 ||sumsmsp.info^
 ||sun123o.space^
+||sunnysani.com/lb/
 ||suno.com/metrics/
 ||suno.com/monitoring
 ||suno.com/v1//rgstr
@@ -6718,6 +6753,7 @@
 ||vawk0ap3.xyz^
 ||vb09cl.com^
 ||vcnbbtrack.com^
+||vdbank.com.vn^
 ||vdo.ai^$third-party
 ||vectorization.org/cnc/?*=rightcol$xmlhttprequest,~third-party
 ||veepteecejoushe.net^
@@ -6732,6 +6768,8 @@
 ||verb-osmq.com^
 ||vercel.app/americaplata.com.html^
 ||vercel.app/decision&copyright^
+||vercel.app/js/esc.js
+||vercel.app/js/flscn.js
 ||vercel.app/metasp.html^
 ||vercel.app/mixcc.html/
 ||verification-module-v*.b-cdn.net^
@@ -6787,6 +6825,7 @@
 ||vien.jp^
 ||vienthongviettel.vn^
 ||vietchinhphux.com^
+||vietcombank*.cfd^
 ||vietcp.com^
 ||viettelgroup.com^
 ||view.mngusr.com^$domain=chapmanganato.to|manganato.com
@@ -6962,6 +7001,7 @@
 ||weledying-jessed.com^
 ||weoidnet*.b-cdn.net^
 ||wertyhjuhg.online^
+||wester-union-u.vercel.app^
 ||westernunion*.wixsite.com^
 ||westpace-support.freewebhostmost.com^
 ||wetpussy.sexy/js/index-nb.js
@@ -7034,6 +7074,7 @@
 ||withsecurify.com^
 ||wiwo.de/preparesite/empty.js$script,~third-party
 ||wixsite.com/att-support/
+||wixsite.com/foliobanbajio
 ||wixstatic.com/media/*~mv2.gif$domain=taxi-point.co.uk
 ||wixstudio.io/mysiteattmail940940^
 ||wiztube.xyz/cdn-cgi/trace^$xmlhttprequest
@@ -7213,6 +7254,7 @@
 ||xylentura.su^
 ||xypthe.com^
 ||xyz-trade.com^
+||xyz/akbank/
 ||xyz/script/www.dolldivine.com.js
 ||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
@@ -7368,7 +7410,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5377
+!<<<<<网站单独规则>>>>>5379
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -8468,6 +8510,7 @@ crdroid.net##.blocker-wrapper
 creativebloq.com##.listingResult:has(> .sponsored-post)
 crichdplays.ru,player102.top###floated
 cricstream.*##.w-100.position-absolute.h-100
+cricstream.*,cricstreams.re##.w-100.position-absolute.h-100
 crictracker.com##article > div[style="height:270px"]
 crictracker.com##div[id^="div-ad-desk-"]
 crictracker.com##div[id^="div-ad-gpt-"]
@@ -9294,6 +9337,7 @@ games2rule.com##[id^="gdsdk_"]
 games2rule.com##div:has(> div:has(> .adsbygoogle))
 games4king.com##[id^="leaderboard"]
 games4king.com,megawarez.org##[class^="ads"]
+gamesfrog.com##.banner > span
 gameshop4u.com,regenzi.site##[href^="https://fulvideozrt.click/"]
 gamezizo.com,labgame.io##[id^="ad"]
 gamezone.cam##.div-over
@@ -12748,7 +12792,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>804
+!<<<<<通配符规则>>>>>806
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -13181,6 +13225,7 @@ $script,domain=zdnet.fr,third-party
 /index.php?uid=*&code=ad^
 /index/index/*Trade/tradelist^
 /ingest/*^ip=
+/ingress/*^ip=
 /invoke.js$script,domain=mirrorace.*
 /istripper*$image,domain=hentaipins.com
 /istripper.js
@@ -13354,6 +13399,7 @@ $script,domain=zdnet.fr,third-party
 /vast-im.js$script
 /vast-new/src/videojs-preroll.js$script
 /vast.php?idzone=
+/vast/*.php?nocache=
 /vast/?zid=$xmlhttprequest,third-party
 /verify-captcha-v*.html^
 /verify-human-recaptcha.html^
@@ -13830,7 +13876,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2148
+!<<<<<放行白名单>>>>>2149
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14475,6 +14521,7 @@ voz.vn/b/image.gif?p=$image
 @@||dancewave.online^$script,~third-party
 @@||das-bumerang-projekt.de/*/boomerang.js$script,~third-party
 @@||data-dda7d24eb2.derstandard.at/iomm/latest/manager/base/es6/bundle.js$script,domain=derstandard.at|derstandard.de
+@@||data.bilibili.com/v2/log/web?$xmlhttprequest,~third-party
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
 @@||data.giraff.io/track/vslv.js$script,domain=vs.lv
 @@||data.pendo.io/data/guide.js/$script,domain=achieve.macmillanlearning.com
