@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mhhDq6dPSVBZzXTAK/7kIw
-! Title: Ublock filter for Via(2025-07-24 00:17:22)
-! Version: 20250724001722
+! Checksum: JyY2BjyRcEDBJvZtQDp5ng
+! Title: Ublock filter for Via(2025-07-24 09:01:47)
+! Version: 20250724090147
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-24 00:17:22
-! Total Count: 15952
-! Blocked Filters: 15952
+! Last modified: 2025-07-24 09:01:47
+! Total Count: 15955
+! Blocked Filters: 15955
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7351
+!<<<<<域名规则>>>>>7354
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3032,6 +3032,7 @@
 ||hornygirlsinapp.com^
 ||hornyhill.se/uploads/assets/js/pload.php
 ||hornysmart.link^
+||horsiergrassed.com^
 ||hoshi-no-michibiki.com^
 ||hoshi-no-michibiki.jp^
 ||hoshinokouranai.com^
@@ -3374,6 +3375,7 @@
 ||jdoasjfojuhod.com^
 ||jdownloader.fr^
 ||jeengweb.com^$third-party
+||jejunalduets.cyou^
 ||jemi.so/correo-24-ar^
 ||jetkingncsc.com^
 ||jetpunk.com/resources/asc.js^$script,~third-party
@@ -4718,6 +4720,7 @@
 ||outloksupport*.glitch.me^
 ||outloksupportbuzoningreso.glitch.me^
 ||outratela.com^
+||outsoarpluteal.com^
 ||outwhirlipedeer.com^
 ||ovflixx.fun/ancient-frog-abc7/
 ||ovflixx.fun/rdLink
