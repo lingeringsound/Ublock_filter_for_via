@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: VPrKf8dP2cI0UgfvWne/7Q
-! Title: Ublock filter for Via(2025-07-26 08:59:49)
-! Version: 20250726085949
+! Checksum: kk4KRaA9gtYsk/XZ4ONlwQ
+! Title: Ublock filter for Via(2025-07-27 00:14:36)
+! Version: 20250727001436
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-26 08:59:49
-! Total Count: 16023
-! Blocked Filters: 16023
+! Last modified: 2025-07-27 00:14:36
+! Total Count: 16028
+! Blocked Filters: 16028
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7404
+!<<<<<域名规则>>>>>7408
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -501,6 +501,7 @@
 ||ap-ple.net^
 ||aphenunci.com^
 ||aphrodite-astrology.net^
+||api-iam.intercom.io/messenger/web/ping
 ||api-ng.pons.com/*/pons-ads-idm.js
 ||api.*.com/v1/videos?channel_handle=$xmlhttprequest,~third-party
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xmlhttprequest,third-party
@@ -516,6 +517,7 @@
 ||api.cryptorank.io/v0/banners^
 ||api.flipkart.com/4/data/collector/business
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
+||api.gitbook.com/v1/orgs/*/insights/events
 ||api.gogoanime.zip/promo
 ||api.kio.ac/v0/collection/get
 ||api.lhkmedia.in^$third-party
@@ -542,6 +544,7 @@
 ||app.deflliama.tech^
 ||app.dexscreener-home.net^
 ||app.farmaciadelmonestironline.com/SER/dnkdl/
+||app.gitbook.com/__session?proposed=
 ||app.mediafire.com/29ph7u17caayi
 ||app.mediafire.com/36culjifmas7b
 ||app.mediafire.com/bam017u2w9goa
@@ -1549,6 +1552,7 @@
 ||crepeyfrogged.com^
 ||cricketbettingpro.com/home.html/autoload.html^
 ||criticismdramavein.com^
+||criticker.com/ajax/loadAd.php
 ||critomiron.click^
 ||cross-customer.com^
 ||crostol.com^
@@ -13895,7 +13899,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2151
+!<<<<<放行白名单>>>>>2152
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15826,6 +15830,7 @@ codeproject.com#@#[style*="base64"]
 colonist.io#@#.adsbyvli
 comidoc.net#@#.googlead
 consali.com#@#a[href^="https://consali.com/"]
+corsaires-paris.com#@#.adhesion:not(body)
 crictracker.com#@#.ads-box
 daemonanime.net,oasport.it#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 daemonanime.net,oasport.it#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
