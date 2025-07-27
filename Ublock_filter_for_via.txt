@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kk4KRaA9gtYsk/XZ4ONlwQ
-! Title: Ublock filter for Via(2025-07-27 00:14:36)
-! Version: 20250727001436
+! Checksum: A2nI61BEGWuRYuo28FqP8A
+! Title: Ublock filter for Via(2025-07-27 09:08:26)
+! Version: 20250727090826
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-27 00:14:36
-! Total Count: 16028
-! Blocked Filters: 16028
+! Last modified: 2025-07-27 09:08:26
+! Total Count: 16031
+! Blocked Filters: 16031
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7408
+!<<<<<域名规则>>>>>7409
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -524,6 +524,7 @@
 ||api.modrinth.com/analytics/
 ||api.omappapi.com/v3/geolocate/json$domain=seclore.com
 ||api.poki.com/ads/
+||api.qmh.sex/api/banner/
 ||api.terashare.co/api/analytics$~third-party
 ||api.tumblr.com/*/share/stats$script,third-party
 ||api.vuukle.com/api/v1/getModal$xmlhttprequest,third-party
@@ -7422,7 +7423,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5390
+!<<<<<网站单独规则>>>>>5392
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -9481,6 +9482,7 @@ googlesyndication.com##.GoogleActiveViewElement > div:not(#reward_close_button_w
 googlesyndication.com##.GoogleActiveViewElement > div:not(#reward_close_button_widget):not(.recommend_book)
 googlesyndication.com##.GoogleActiveViewElement:not(:has(> #reward_close_button_widget))
 googlesyndication.com##.GoogleActiveViewElement:not(:has(> #reward_close_button_widget)):not(.recommend_book)
+googlesyndication.com##.GoogleActiveViewElement:not(:has(> #reward_close_button_widget, .recommend_book))
 gosexpod.com##.content__block[style^="direction"]
 gosexpod.com##.natsc
 gosexpod.com##.video-headline
@@ -11244,6 +11246,7 @@ puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com
 puzzles.msn.com##[class*="displayAd"], .ark-ad-message
 pvpoke-re.com##.nitro-any
 qashbits.com##.mx-auto
+qmh.sex##.vip1-play-overlay
 qub.ca##.jss2
 quicksounds.com##.ad-head
 quizack.com##[class*="_mosori"]
@@ -13390,7 +13393,7 @@ $script,domain=zdnet.fr,third-party
 /strip_ngn_2020_august$script,domain=porcore.com
 /sum.js?i=*&v=
 /sw-vodlocker.to.js$script
-/sw.js$script,domain=all3do.com|androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|blademaster666.com|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|culonas.com.ve|d0000d.com|d000d.com|d0o0d.com|desktophut.com|do0od.com|do7go.com|dood.*|doods.*|doods.pro|dooodster.com|dooood.*|doply.net|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ds2play.com|ds2video.com|ebooksite.org|emulatorsite.com|filechan.org|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|hotfile.io|isosite.org|lolabits.se|luchoedu.org|lupaste.com|macsite.info|mangasite.org|megamovies.org|megaupload.nz|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|openload.cc|patchsite.net|pdfsite.net|play1002.com|pornovenezolano.com.ve|productkeysite.com|qeylo.net|rapidshare.nu|romsite.org|seriale-po-polsku.pl|seriesite.net|share-online.is|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|venezporn.com|vide0.net|vidply.com|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
+/sw.js$script,domain=all3do.com|androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|blademaster666.com|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|culonas.com.ve|d0000d.com|d000d.com|d0o0d.com|desktophut.com|do0od.com|do7go.com|dood.*|doods.*|doods.pro|dooodster.com|dooood.*|doply.net|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ds2play.com|ds2video.com|ebooksite.org|emulatorsite.com|filechan.org|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|hotfile.io|isosite.org|lolabits.se|luchoedu.org|lupaste.com|macsite.info|mangasite.org|megamovies.org|megaupload.nz|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|openload.cc|patchsite.net|pdfsite.net|play1002.com|pornovenezolano.com.ve|productkeysite.com|qeylo.net|rapidshare.nu|romsite.org|seriale-po-polsku.pl|seriesite.net|share-online.is|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|venezporn.com|vide0.net|vidply.com|vvide0.com|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /sw.js$script,~third-party,domain=eio.io|exe.app|exee.io|strcloud.*|streamta.*|streamtape.*|strtape.*|strtapeadblock.*|strtpe.*
 /sw.js?puid=$script,~third-party
 /systemerror-mac/?
