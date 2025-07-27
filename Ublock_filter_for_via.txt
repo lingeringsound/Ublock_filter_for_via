@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: A2nI61BEGWuRYuo28FqP8A
-! Title: Ublock filter for Via(2025-07-27 09:08:26)
-! Version: 20250727090826
+! Checksum: YCIWvHlTGfc12dfuor56Xg
+! Title: Ublock filter for Via(2025-07-28 00:15:58)
+! Version: 20250728001558
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-27 09:08:26
-! Total Count: 16031
-! Blocked Filters: 16031
+! Last modified: 2025-07-28 00:15:58
+! Total Count: 16043
+! Blocked Filters: 16043
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7409
+!<<<<<域名规则>>>>>7416
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1138,6 +1138,7 @@
 ||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 ||cdn.ay.gy/js/$script,third-party
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
+||cdn.briefly.co.za/briefly/js/monetization.
 ||cdn.contentsitesrv.com/js/push/subscribe.js$script
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$script,domain=embed.sportsline.com
 ||cdn.cuty.io/fps.js$script
@@ -1298,6 +1299,7 @@
 ||chloe-77le.com^
 ||chn-allegroshopac.one^
 ||chocochipu-o.com^
+||chocolateluciusfight.com^
 ||chosentalladvanced.com^
 ||choseoffhandsight.com^
 ||choucreme.com^
@@ -1396,6 +1398,7 @@
 ||cnnamador.com/sw.js$script,~third-party
 ||coc-gov.com^
 ||cocoro-liberty.com^
+||cod-luxurybag-jp.shop^
 ||code.jquery.com/jquery-$script,domain=mega-mkv.com
 ||codeanyapp.com/*/SWISSPASSC/
 ||codeanyapp.com/*/spoofi/
@@ -4461,6 +4464,7 @@
 ||navi-match.net^
 ||navigationtadade.com^
 ||navitada.com^
+||nba.com/*/*/*/*/$script,~third-party
 ||nbryb.com^
 ||nbsfmradio.com^
 ||nbtbank.architect-cert.fiservapps.com^
@@ -5153,6 +5157,7 @@
 ||proviralhost.com^$third-party
 ||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 ||ps-sns0girls.com^
+||ps.vnexpress.net/ps/chk?
 ||psaiceex.net^
 ||psausoay.net^
 ||psaussasta.net^
@@ -6880,6 +6885,8 @@
 ||vn156475p.com^
 ||vnairlines.net^
 ||vnchinhphu.cc^
+||vnecdn.net/vnexpress/restruct/*/eclick/
+||vnexpress.net/microservice/fc^
 ||vnomm.com^
 ||vnote-*.myqcloud.com^
 ||vnpttechnology.weebly.com^
@@ -7423,7 +7430,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5392
+!<<<<<网站单独规则>>>>>5396
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -8199,6 +8206,8 @@ bravoporn.com##.undrplban
 bravoteens.com##.inplb3x2
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
+briefly.co.za##.c-adv
+briefly.co.za##.c-adv-branding__top
 britannica.com###md-media-overlay-ad
 broadwayworld.com##a[href^="https://ad.doubleclick.net/ddm/"]
 brofist.io##.menuOverlay
@@ -11722,6 +11731,7 @@ sofascore.com##.adUnitBox
 sofmag.com##.adsBelowHeaderBannerContainer
 soft3arbi.com##.ar-bunyad-main
 soft3arbi.com##.ts-modal-overlay
+soft98.ir,~forum.soft98.ir###abddh > *, div:has(> header + div > [data-href="https://cdn.hostdl.com/goto/soft98"]), section:has(> header + div > div > div > a[href*="utm_"]), [data-href^="https://padvish.com/"]
 softonic.*##.sam-slot
 software-on.com##.oxnepzimd
 software-on.com##.widget_oxnepzimd
@@ -11745,6 +11755,7 @@ soranews24.com##.widget_custom_html:not(#custom_html-2)
 soranews24.com##amp-ad-exit + div[class*="-banner"]
 sortporn.com##[href^="https://www.sortporn.com/link/"]
 soundcloud.com##.soundList__item:has(.sc-promoted-icon-medium)
+sourceb.in##.carbon
 sourceforge.net###mirror
 sourceforge.net###nels
 sourceforge.net##.can-truncate
@@ -12818,7 +12829,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>806
+!<<<<<通配符规则>>>>>807
 $script,domain=zdnet.fr,third-party
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
@@ -13311,6 +13322,7 @@ $script,domain=zdnet.fr,third-party
 /nbk/frnd_ld.js
 /need-to-pass-step.html^
 /neteasyes/neteasyest/900^
+/newrelic-prod.js|$script,~third-party
 /ng-device-detector.min.js|$script,third-party
 /ng.gif?s*&e=$image,script,third-party
 /ng.gif?s*&e=$image,third-party
