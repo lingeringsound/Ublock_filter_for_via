@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 3BKEFyrUr2v3k5+0c+g1Wg
-! Title: Ublock filter for Via(2025-07-28 09:07:07)
-! Version: 20250728090707
+! Checksum: bqqV97ycXvxN4NxzKuvIHg
+! Title: Ublock filter for Via(2025-07-29 00:17:27)
+! Version: 20250729001728
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-28 09:07:07
-! Total Count: 16043
-! Blocked Filters: 16043
+! Last modified: 2025-07-29 00:17:28
+! Total Count: 16090
+! Blocked Filters: 16090
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7416
+!<<<<<域名规则>>>>>7437
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -150,6 +150,7 @@
 ||9gcpz8hu.com^
 ||9l3s3fnhl.com^
 ||9npze.com^
+||9ty1.com^
 ||9wqjkdisaodjwqd.sa.com^
 ||9xmovies.*/sw.js$script,~third-party
 ||a-divination.com^
@@ -460,6 +461,7 @@
 ||analytics.google.com^$third-party
 ||analytics.strapi.io^
 ||analytics.tiendaenoferta.com^
+||analytics.yyggames.com^
 ||analytisgroup.com^
 ||analytisweb.com^
 ||anapatformacion.org/modules/file/tor/tor-browser.zip^
@@ -1171,6 +1173,7 @@
 ||cdn.nsimg.net/cache/landing^
 ||cdn.optimizely.com/js/$domain=fandom.com
 ||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
+||cdn.ourru.com^
 ||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js^$script,domain=marketwatch.com|wsj.com
 ||cdn.prod.www.spiegel.de/public/spon/generated/web/js/header*.js$script,~third-party
 ||cdn.provesrc.com/provesrc.js
@@ -1291,6 +1294,7 @@
 ||chief-child.com^
 ||childernplay.online^
 ||childrenoftheclouds.com^
+||china-sister-hong-ty.blogspot.com^
 ||chinhphu.*.org^
 ||chinhphu.cc^
 ||chip.de/*&$script,~third-party
@@ -2567,6 +2571,7 @@
 ||future-future55.com^
 ||future-marvellous.com^
 ||fux.com/*banner$image
+||fuzeeretells.com^
 ||fwmrm.net^$third-party,domain=rmcbfmplay.com
 ||fx-protrade.net^
 ||fx640b4a8v2n.net^
@@ -2937,6 +2942,7 @@
 ||hdvid.tv/sw.js$script
 ||hdvideosnet.com^
 ||heading-towards.net^
+||healthbeviva.com^
 ||heart-uranai.com^
 ||heartbeat.crackle.com/tp.png
 ||heartmatch.jp^
@@ -4661,6 +4667,7 @@
 ||one----talk.com^
 ||one-chan-love.love^
 ||one-click.cc^
+||one-new-message.com^
 ||one-sunnyday.com^
 ||one-two-up.jp^
 ||one.thx-birthday.com^
@@ -6034,6 +6041,19 @@
 ||stookroocoudray.com^
 ||stopundstart.de^$third-party
 ||storage.de.cloud.ovh.net^*/sarsor/avikingdynamic.js$script,third-party
+||storage.googleapis.com/*/esc.js
+||storage.googleapis.com/*/full.js
+||storage.googleapis.com/*/lvs.js
+||storage.googleapis.com/*/media/webs.mp4
+||storage.googleapis.com/*/mouse.js
+||storage.googleapis.com/*/muse.js
+||storage.googleapis.com/*/noir.js
+||storage.googleapis.com/*/script2.js
+||storage.googleapis.com/*/script3.js
+||storage.googleapis.com/*/script5.js
+||storage.googleapis.com/*/script6.js
+||storage.googleapis.com/*/script7.js
+||storage.googleapis.com/my*server/*/index.html
 ||storage.googleapis.com/pravda-ad-script/
 ||storageapi-new.fleek.co/*/yss/ind.html
 ||store.steampowered.com/app/usabilitytracking/
@@ -7136,6 +7156,7 @@
 ||wswsnews.net^
 ||wufazpappk.com^
 ||wwbudmh.ru^
+||www-askfollow-us.translate.goog^
 ||www-facebook-
 ||www-facebook-com.vn^
 ||www-facebook.
@@ -7430,8 +7451,15 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5396
+!<<<<<网站单独规则>>>>>5405
 $script,domain=zdnet.fr,third-party
+%2Fcmail.bitcasino.io%2F$image
+%2Fcomm.coinbase.com%2F$image
+%2Fdedxk.r.ag.d.sendibm3.com%2F$image
+%2Ftracking.mail.shopee.$image
+%2Ftracking.vegasgems.com%2F$image
+%2Ftwitter.com%2Fscribe%2Fibis%3F$image
+%2Fwindscribe.com%2Fpixel%3F$image
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
@@ -7684,7 +7712,7 @@ acetack.com,androidquest.com,apklox.com,cambb.xxx,chhaprawap.in,gujarativyakaran
 actionviewphotography.com,exporntoons.net,freepornvideo.sex,mat6tube.*,noodlemagazine.com,sibtok.com,tyler-brown.com,ukdevilz.com,whatisareverseauction.com##noindex
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> [id*="_ad_native_"])
 actionviewphotography.com,exporntoons.net,mat6tube.*,noodlemagazine.com,exporntoons.net,whatisareverseauction.com,sibtok.com,ukdevilz.com,tyler-brown.com##div[style]:has(> ins)
-actuwar.com,alwafag.com,apkgg.xyz,blogfem.com,coinpurs.com,dailywebsite.in,djamar.xyz,elmarvin.com,fnewsn.com,forexsalary.com,jokgame.com,lrmodapk.pro,lumiaf.com,mamatamusicbanaras.com,mentalfile.com,missionupsc.com,newsvsp.com,ngviral.com,nosviral.com,odisha-remix.com,pulgame.com,qaluri.com,themoviesradar.in,vgviral.com,waiwj.net,wttai.net,xcbtm.net###wpsafe-link, .wpsafelink-multiple-pages:others()
+actuwar.com,alwafag.com,apkgg.xyz,blogfem.com,coinpurs.com,dailywebsite.in,djamar.xyz,elmarvin.com,fnewsn.com,forexsalary.com,jokgame.com,lrmodapk.pro,lumiaf.com,mamatamusicbanaras.com,mentalfile.com,missionupsc.com,newsvsp.com,ngviral.com,nosviral.com,odisha-remix.com,pulgame.com,qaluri.com,themoviesradar.in,vezeta.net,vgviral.com,waiwj.net,wttai.net,xcbtm.net###wpsafe-link, .wpsafelink-multiple-pages:others()
 adala-news.fr###eazy_ad_unblocker_dialog-message
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,shavetape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
 adbull.*,aii.sh,oko.sh##[src^="https://i.imgur.com/"]
@@ -8743,7 +8771,9 @@ dreamamateurs.com##[href^="http://ezofferz.com/"]
 dreamsnest.com##[href^="https://dreamingfordreams.com/contact/"]
 drivenime.com###stickyb
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
+drop.carbikenation.com,game5s.com,link.djbassking.live,linkss.rcccn.in,tech5s.co,tech8s.net##.fluidprimary, #go_d, .adb_detected > h2
 drop.download##.row > .col-md-8
+droplink.co##p, .form-link, footer
 droplink.co##p, .form-link, footer, .text-left
 drtuber.*###spot_video_partner_banner
 drtuber.*###video_list_banner
@@ -9136,6 +9166,7 @@ finevids.xxx##.spot3-holder
 firefaucet.win##[class^="sticky-ad"]
 fitdynamos.com##.col-auto:has(> div[style] > [data-placement-id])
 fitdynamos.com##.d-md-block:has(> div[style] > [data-placement-id])
+fitdynamos.com,jobzhub.store,labgame.io###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
 fitnessbr.click,freexcafe.com,journaldemontreal.com,live-sport.duktek.pro,minhareceita.xyz###banner
 fivemturk.com##[src^="https://i.hizliresim.com/"]
 flaticon.com##.soul-p-nsba
@@ -10148,7 +10179,6 @@ l2top.co###bannerads-background
 l2top.co##.main-top-ads
 l2top.co##.rightBarAd
 l2top.co##div.leftBarAd
-labgame.io###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
 larvelfaucet.com###bottomRightFloatingAd
 larvelfaucet.com###ptcAdIframe
 larvelfaucet.com##.col-12 > div[style="display: inline-block"]
@@ -10213,7 +10243,6 @@ limetorrents.*##div:has(> div > a[href^="/leet/?"])
 linegee.net##.kecil:others()
 linfoweb.com##ins.adsbygoogle-wrapper
 link-to.net##.ad-block-1
-link.djbassking.live,tech5s.co,game5s.com##.fluidprimary, #go_d, .adb_detected > h2
 link.encrypted-encrypted-encrypted-encrypted-encrypted-encrypted.link###gpujs_link
 link.idblog.eu.org##.ngebut
 link.idblog.eu.org##.pembukalink1
@@ -11832,7 +11861,7 @@ stooq.*##div[style="position:relative;width:970px;height:250px"]
 stooq.*##td#f13:nth-of-type(3) > table:nth-of-type(4):has(> tbody > tr > td)
 store.petvalu.com##.store_locator_loading
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
-strcloud.in,streamta.site,streamtape.*,watchadsontape.com##.play-overlay
+strcloud.in,streamta.site,streamtape.*,tapepops.com,watchadsontape.com##.play-overlay
 strdef.world###stream-banner
 strdef.world##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 stream.offidocs.com##.image-container:has(> a[href^="https://amzn.to/"])
@@ -11923,6 +11952,7 @@ tea-coffee.net,spatsify.com,newedutopics.com,getviralreach.in,edukaroo.com,funke
 tech.hindustantimes.com##.centerAd768
 tech.hindustantimes.com##div.mobileNone
 tech.pubghighdamage.com###adtera
+tech.pubghighdamage.com,blog.itijobalert.in,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
 tech5s.co,ez4mods.com##.btn-primary, #go_d, #tp-snp1, #go_d2:others()
 tech5s.co,game5s.com###go_d2, .captcha-check:others()
 techedubyte.com##.gmr-banner-insidecontent
@@ -12829,8 +12859,15 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>807
+!<<<<<通配符规则>>>>>824
 $script,domain=zdnet.fr,third-party
+%2Fcmail.bitcasino.io%2F$image
+%2Fcomm.coinbase.com%2F$image
+%2Fdedxk.r.ag.d.sendibm3.com%2F$image
+%2Ftracking.mail.shopee.$image
+%2Ftracking.vegasgems.com%2F$image
+%2Ftwitter.com%2Fscribe%2Fibis%3F$image
+%2Fwindscribe.com%2Fpixel%3F$image
 %3A%2F%2Fcmail.bitcasino.io%2F$image
 %3A%2F%2Fcomm.coinbase.com%2F$image
 %3A%2F%2Fdedxk.r.ag.d.sendibm3.com%2F$image
@@ -13175,7 +13212,9 @@ $script,domain=zdnet.fr,third-party
 /click?pid=*&offer_id=
 /click?pid=*&sub1=
 /cloudflare-v1-getup-*.html^
+/cmail.bitcasino.io/*$image
 /code/script/back.php|
+/comm.coinbase.com/*$image
 /common-js/exit/om2.min.js
 /common-player-arrow/index.html?var=*&zoneid=
 /common-player/index.html?var=*&zoneid=
@@ -13194,6 +13233,7 @@ $script,domain=zdnet.fr,third-party
 /dating/adult/*/index.html?*p1=
 /dating_lp?keyword=
 /dedicated-captcha-page.html^
+/dedxk.r.ag.d.sendibm3.com/*$image
 /delivery/mapi.php$xmlhttprequest,domain=jiocinema.com
 /detroitchicago/dpv.gif?$image
 /devfiles.pages.dev\/img\/[a-zA-Z0-9]{8,}.jpeg/$from=jytechs.in|dev.miuiflash.com|djxmaza.in|thecubexguide.com
@@ -13312,6 +13352,7 @@ $script,domain=zdnet.fr,third-party
 /mod_ablockdetector/*
 /modi-cloudflare-update-new.html^
 /modi-cloudflare-update.html^
+/mucp.api.account.microsoft.com/m/v2/v?d=$image
 /myvids/click/*$script,~third-party
 /n/ax4mqlu25efi/b/*
 /n/images/su?info$xmlhttprequest,~third-party
@@ -13337,6 +13378,7 @@ $script,domain=zdnet.fr,third-party
 /page_beg_wb.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /panel\.freemcserver\.net\/.{90,}\?v=17/$script,~third-party,domain=panel.freemcserver.net
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com
+/pixel.patch.com/*
 /player/jw8/vast.js?
 /player/jw8/vast.js|$script,~third-party
 /player/v*/vast-no-entitlements.js^
@@ -13425,8 +13467,11 @@ $script,domain=zdnet.fr,third-party
 /thermostat.js$script,domain=royle.com
 /tortoise.min.js$domain=boards.net|freeforums.net|proboards.com
 /tp/filter.php?pro=
+/tracking.mail.shopee.$image
+/tracking.vegasgems.com/*$image
 /trk?s1=*&type=2&brid=
 /ts.php?$xmlhttprequest,third-party
+/twitter.com/scribe/ibis?$image
 /unsub/unsub^
 /unsub_sent.php|$method=post
 /uthnafrwy.js
@@ -13463,6 +13508,7 @@ $script,domain=zdnet.fr,third-party
 /webtracking.min.js
 /werrx01/^
 /werrx01/index.html
+/windscribe.com/pixel?$image
 /wonderfarm68.js?v=$script,~third-party
 /wp-assets-optimizer.html^
 /wp-content/cache/min/*/pubadx-ad.js
@@ -13568,6 +13614,7 @@ $script,domain=zdnet.fr,third-party
 ://www.wattpad.com/et?$image
 ://x_x-*-*.translate.goog/?_x_tr_
 ://x_x-*-*.translate.goog/?_x_tr_sl=auto&_x_tr_tl=
+://xml-eu-v4.*.com/click?
 ://xml-v4.*.online/click?
 :8443/impact?impact=
 =1&id=*&traceId=
