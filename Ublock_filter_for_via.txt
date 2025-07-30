@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hKPrO2TYNU48viNOoSo3Zw
-! Title: Ublock filter for Via(2025-07-30 09:02:32)
-! Version: 20250730090232
+! Checksum: PUKBL9/62rFJwI4ctHyfng
+! Title: Ublock filter for Via(2025-07-31 00:16:17)
+! Version: 20250731001617
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-30 09:02:32
-! Total Count: 16102
-! Blocked Filters: 16102
+! Last modified: 2025-07-31 00:16:17
+! Total Count: 16110
+! Blocked Filters: 16110
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7438
+!<<<<<域名规则>>>>>7443
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -74,6 +74,7 @@
 ||23.109.87.170^
 ||2349.jp^
 ||2489may2024.com^
+||24o.it/js/*/chkablockc.min.js
 ||24sport.stream/public/js/dublocker.js$script
 ||2507u35ia6mk1.com^
 ||2adultflashgames.com/img/$~third-party
@@ -1953,6 +1954,7 @@
 ||drenchdeprivation.com^
 ||dressedunlessround.com^
 ||drg-mcre.com^
+||driveup.space/adscode/
 ||drop-cloud.com^
 ||dropbox.com/*/AT-T-YAHOO-MAIL.paper^
 ||dropbox.com/*/crowdstrike-hotfix.zip^
@@ -5118,6 +5120,7 @@
 ||poweredbyliquidfire.mobi^
 ||powr.io^$third-party,script
 ||ppcent.org^
+||ppcnqq.com^
 ||ppo.re9t-hmd0.com^
 ||ppstatic.pl/*/reklama.js$script,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 ||ppstatic.pl/lib/ppa/$domain=naszemiasto.pl
@@ -5852,6 +5855,7 @@
 ||snapdrop.net^
 ||snappass.fr^
 ||snggov.com^
+||snhjsbs.shop^
 ||snickerdoodle.top^
 ||snogglewomp.top^
 ||sns-pair.net^
@@ -6948,6 +6952,7 @@
 ||w-atomicwallet.com^
 ||w-dbl.com^
 ||w0o.eu^
+||w0of-woof.com^
 ||w1thy0u.com^
 ||wa-groupbebe.pages.dev^
 ||wa-nago-wagona.com^
@@ -7452,7 +7457,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5412
+!<<<<<网站单独规则>>>>>5415
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8183,6 +8188,7 @@ blog.aming.info##[href^="https://cdn.aming.info/"]
 blog.aming.info##[href^="https://warp.plus/"]
 blog.disheye.com###gourl:others()
 blog.filepresident.com##.box-main > [src], .content, .r-bg, .short, .download-btn, h4
+blog.itijobalert.in,hipsonyc.com,tech.pubghighdamage.com,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
 blog.linksfire.co##.ex2
 blog.linksfire.co##.link-details
 blog.linksfire.co##[href^="https://b3stcond1tions.com/"]
@@ -8775,6 +8781,7 @@ dramafren.net###btnOpnWinDiv
 dreamamateurs.com##[href^="http://ezofferz.com/"]
 dreamsnest.com##[href^="https://dreamingfordreams.com/contact/"]
 drivenime.com###stickyb
+driveup.space##center > iframe[id="adapred"]
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
 drop.carbikenation.com,game5s.com,link.djbassking.live,linkss.rcccn.in,tech5s.co,tech8s.net##.fluidprimary, #go_d, .adb_detected > h2
 drop.download##.row > .col-md-8
@@ -9835,11 +9842,13 @@ igg-games.com##.uk-margin-medium-top > *:first-child + a:has(img[src^="https://i
 igg-games.com##.uk-margin-medium-top > *:first-child:has(img[src^="https://igg-games.com/wp-content/uploads/"])
 igg-games.com##.widget_advads_ad_widget
 igg-games.com##[href^="https://tm-offers"]
+igg-games.com##[id^="post-"] > div > [href]
 igg-games.com##a[href$=".php"]
 igg-games.com##a[href^="https://igg-games.com/"][href*="flix"] > img
 igg-games.com##a[href^="https://igg-games.com/c1flix"], a[aria-label="faadgg"], a[aria-label="fdgg"], a[aria-label="aswd"]
 igg-games.com##article > a:has(img[loading="lazy"][width][height])
 igg-games.com##aside > :not(:first-child) a[href] img
+igg-games.com,pcgamestorrents.org,pcgamestorrents.com##div.uk-margin-medium-top > div
 ign.com###king
 iguarras.com###dimmed
 iimanga.com##div[id^="teaser"]
@@ -11959,7 +11968,6 @@ tea-coffee.net,spatsify.com,newedutopics.com,getviralreach.in,edukaroo.com,funke
 tech.hindustantimes.com##.centerAd768
 tech.hindustantimes.com##div.mobileNone
 tech.pubghighdamage.com###adtera
-tech.pubghighdamage.com,blog.itijobalert.in,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
 tech5s.co,ez4mods.com##.btn-primary, #go_d, #tp-snp1, #go_d2:others()
 tech5s.co,game5s.com###go_d2, .captcha-check:others()
 techedubyte.com##.gmr-banner-insidecontent
