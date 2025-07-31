@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ucSczfaUeFELO7xhsx3jxQ
-! Title: Ublock filter for Via(2025-07-31 09:02:37)
-! Version: 20250731090237
+! Checksum: wIbKtMBY420/vQ+7wbIutQ
+! Title: Ublock filter for Via(2025-08-01 00:17:18)
+! Version: 20250801001719
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-31 09:02:37
-! Total Count: 16110
-! Blocked Filters: 16110
+! Last modified: 2025-08-01 00:17:19
+! Total Count: 16124
+! Blocked Filters: 16124
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7443
+!<<<<<域名规则>>>>>7450
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -722,6 +722,7 @@
 ||azbzcz.com^
 ||azuki-*.vercel.app^
 ||azureus.es^
+||azurewebsites.net/alertmicrosoft.mp3
 ||b-7.jp^
 ||b-cdn.net/Mac*/?phone=
 ||b-cdn.net/Recap-v*.html^
@@ -1100,6 +1101,7 @@
 ||camlovers.tv^$script,~third-party
 ||camplethora.com^
 ||campus-cardigan.com^
+||canadacentral-01.azurewebsites.net/index1.html
 ||candycandypop.com^
 ||canoemissioninjunction.com^
 ||capricecaretaker.com^
@@ -1892,6 +1894,7 @@
 ||dm09.biz^
 ||dmlqidmx8frkz90.ywufsjhc4.jp^
 ||dmp.theadex.com^*/adex.js$domain=kino.de
+||dmxleo.dailymotion.com^
 ||dns.google/resolve?name=*.host-stats.io&type=txt|$xmlhttprequest,third-party
 ||doaipomer.com^
 ||doathair.com^
@@ -3876,6 +3879,7 @@
 ||luckypatcher.*^$domain=~luckypatchers.com
 ||luckypatcherwin.com^$domain=~luckypatchers.com
 ||luckywinner-web1.com^
+||luluvid.com/js/new100.js
 ||lum-i0e0r0e.com^
 ||lumennex.pro^
 ||luminous-encounter.biz^
@@ -4810,6 +4814,7 @@
 ||pagerrentablespotlight.com^
 ||pages.dev/*/Fm7-alert.wav
 ||pages.dev/*/ai2.mp3
+||pages.dev/*/alertmicrosoft.mp3
 ||pages.dev/*_Fm7-alert.mp3
 ||pages.dev/0wa0rni0ng0.mp3
 ||pages.dev/Wi0n0erAry0mpAlert048/
@@ -5156,6 +5161,7 @@
 ||probableregret.com^
 ||procdnvids.net^
 ||profileclub.info^
+||programmaticmarket.com^
 ||projectglbl.lol^
 ||projecthygieia.com^
 ||promotionsonlineusa.com^
@@ -7243,6 +7249,7 @@
 ||xigh.ru^
 ||xir6y7ey3ate.com^
 ||xiuty.com^
+||xmlwolf.com^
 ||xmorex.com^$third-party
 ||xmx.nineb-ittalk.com^
 ||xn--4dkua4c8143c.jp^
@@ -7457,7 +7464,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5415
+!<<<<<网站单独规则>>>>>5417
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -10877,6 +10884,7 @@ op.gg##div[class^="css-"]:has(> div:not([class], [id]) > .vm-placement[data-disp
 open3dmodel.com##[style]:has(.adsbygoogle)
 open3dmodel.com##[style]:has(>.adsbygoogle),[style]:has(>.adsbygoogle)~.notranslate
 openculture.com##.no-framearound_ad_in_post
+opentunnel.net##.mb-3.small.text-muted
 order-order.com###stickyfooterad
 orgasmatrix.com##.card.post:has([href*="landing."])
 origincrack.com,skiplink.me##center > button
@@ -11487,6 +11495,7 @@ rule34hentai.net##section[id$="left"]:has(> .blockbody > script[type])
 rule34hentai.net##section[id$="main"]:has(> .blockbody > .adsbyexoclick)
 rumporn.com,stilltube.com###floaterRight
 ryuugames.com###wpsafe-wait1,#wpsafe-link:others()
+s.response.jp##.aside-box-relation-arti
 s0ft4pc.com##div.active
 sabervivirtv.com##.ad-item
 sabervivirtv.com##.ad-sidebar
@@ -13702,7 +13711,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>272
+!<<<<<通用Css规则>>>>>275
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -13945,9 +13954,12 @@ voz.vn/b/image.gif?p=$image
 ~dogdrip.net,~infinityfree.com,~slashdot.org,~smsonline.cloud,*##body > div[id^="img_"][class^="img_"][style^="width: "] > div[id^="img_"][style="margin:auto;"]
 ~dogdrip.net,~infinityfree.com,~slashdot.org,~smsonline.cloud,*##body[onclick="ExitApi.exit();"][style="cursor:pointer"]
 ~dogdrip.net,~infinityfree.com,~slashdot.org,~smsonline.cloud,*##html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""][amp-version="2502032353000"]
+~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://07c225f3.online/article"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://07c225f3.online/content"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://07c225f3.online/contents/"]
+~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://content-loader.com/article"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://content-loader.com/content"]
+~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/article"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/content"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##*:not(body) > a[href^="https://html-load.com/contents/"]
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##a[href^="https://07c225f3.online/contents/"]:not([href*="/-1/"])
@@ -13977,7 +13989,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2156
+!<<<<<放行白名单>>>>>2158
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14706,6 +14718,7 @@ voz.vn/b/image.gif?p=$image
 @@||elektrotanya.com^$script,~third-party
 @@||elwood.io^$ehide
 @@||embed.watchanimesub.net^$script,~third-party
+@@||embed.wcostream.com^$script,~third-party
 @@||embedstream.me/cash.min.js$script,~third-party
 @@||emedemujer.com/wp-content/plugins/dfp-ads/assets/js/google-ads.min.js$script,~third-party
 @@||en25.com^$domain=plan.seek.intel.com
@@ -15687,6 +15700,7 @@ voz.vn/b/image.gif?p=$image
 @@||turnip.cdn.turner.com^$script,domain=cnn.com
 @@||tusachxinhxinh.com^$script,~third-party
 @@||tutanota.com/fr.js$~third-party
+@@||tv.onefootball.com/assets/videojs-contrib-ads.$~third-party
 @@||tvn.hit.gemius.pl^$xmlhttprequest,domain=player.pl
 @@||tvtime.com/ga-assets/*$~third-party
 @@||twimg.twitter.map.fastly.net^$script
