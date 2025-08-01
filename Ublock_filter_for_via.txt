@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wIbKtMBY420/vQ+7wbIutQ
-! Title: Ublock filter for Via(2025-08-01 00:17:18)
-! Version: 20250801001719
+! Checksum: WVt+7V0w6bcl4fgrzWXGPA
+! Title: Ublock filter for Via(2025-08-01 09:09:39)
+! Version: 20250801090939
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-01 00:17:19
-! Total Count: 16124
-! Blocked Filters: 16124
+! Last modified: 2025-08-01 09:09:39
+! Total Count: 16126
+! Blocked Filters: 16126
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7450
+!<<<<<域名规则>>>>>7452
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2524,6 +2524,7 @@
 ||freex2line.online/dwcn/Assets/js/jquery.countdown360.min.js$script,~third-party
 ||friends-connect.com^
 ||friendxroom.com^
+||frogletutopism.com^
 ||fruit-nuzzle.com^
 ||fscleopon.com^
 ||fsis-karw.com^
@@ -4948,6 +4949,7 @@
 ||peraichi.com/landing_pages/view/s8j8k/
 ||perazxcs.com^
 ||perceivedpalpable.com^
+||percentscalespoorly.com^
 ||perchance.org/api/count?key=abp$xmlhttprequest,~third-party
 ||perchance.org/api/count?key=abt$xmlhttprequest,~third-party
 ||perfotrack.com^
