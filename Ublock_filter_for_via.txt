@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vwc+1zlSYFJVY5LcnHUHsg
-! Title: Ublock filter for Via(2025-08-02 00:17:06)
-! Version: 20250802001706
+! Checksum: b47CIyowIc6KgPpRCWOjVA
+! Title: Ublock filter for Via(2025-08-02 09:00:02)
+! Version: 20250802090002
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-02 00:17:06
-! Total Count: 16132
-! Blocked Filters: 16132
+! Last modified: 2025-08-02 09:00:02
+! Total Count: 16134
+! Blocked Filters: 16134
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7469,7 +7469,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5420
+!<<<<<网站单独规则>>>>>5421
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8114,7 +8114,7 @@ bezpolitickekorektnosti.cz,javfull.pro##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
-bg-gledai.*,cdromance.com,custommapposter.com,dirrty.remix.es,emailregex.com,fernsehzone.online,hax.co.id,leechpremium.net,rangerboard.com,scanurl.net,wallpaperplay.com##.adsbygoogle
+bg-gledai.*,cdromance.com,custommapposter.com,dirrty.remix.es,emailregex.com,fernsehzone.online,hax.co.id,jelonka.com,leechpremium.net,rangerboard.com,scanurl.net,wallpaperplay.com##.adsbygoogle
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -10073,6 +10073,7 @@ jaysndees.com###topshow
 jaysndees.com##center:nth-of-type(3)
 jaysndees.com##div[class][style^="width: 728px; height: 90px;"]
 jbpress.ismedia.jp##div.--wid:has(> div#taboola-below-article-thumbnails-bottom)
+jelonka.com##.kontener-reklam
 jetpunk.com##.banner-ad-outer
 jetpunk.com##.banner-x-outer
 jetpunk.com##.box-ad-inner
@@ -13997,7 +13998,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2158
+!<<<<<放行白名单>>>>>2159
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15593,6 +15594,7 @@ voz.vn/b/image.gif?p=$image
 @@||static.ziffdavis.com/sitenotice/*/translations/$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*
 @@||static.ziffdavis.com/sitenotice/evidon-barrier.js$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*
 @@||static1.dmcdn.net/playerv5/*$script,domain=laprovence.com
+@@||static5.hsg.com.pl/icons/*/icon.png^$image
 @@||statics.estadao.com.br/*/portal/js/comscore/$script,domain=estadao.com.br
 @@||statics.estadao.com.br/*/utils/publicidade/dfp.min.js$script,domain=estadao.com.br
 @@||stats.g.doubleclick.net/dc.js$script,domain=ticketfly.com
