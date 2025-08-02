@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: b47CIyowIc6KgPpRCWOjVA
-! Title: Ublock filter for Via(2025-08-02 09:00:02)
-! Version: 20250802090002
+! Checksum: PbMwcHtWebKIk/H/V3A/Tg
+! Title: Ublock filter for Via(2025-08-03 00:14:56)
+! Version: 20250803001456
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-02 09:00:02
-! Total Count: 16134
-! Blocked Filters: 16134
+! Last modified: 2025-08-03 00:14:56
+! Total Count: 16136
+! Blocked Filters: 16136
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7455
+!<<<<<域名规则>>>>>7456
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1295,6 +1295,7 @@
 ||cheri-sh.jp^
 ||cheri-sh.net^
 ||chervindi.com^
+||chess.com/service/user-activity/chesscom.user_activity.v1.UserActivityHttpBridgeService/DispatchEventBatch
 ||chesscheckersvariation.com^
 ||chi-yo-1807chiyo.com^
 ||chief-child.com^
@@ -7469,7 +7470,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5421
+!<<<<<网站单独规则>>>>>5422
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8390,6 +8391,7 @@ ccurl.net##[style*="width: 300px; height:250px"]
 ccurl.net,miklpro.com,shortearn.*##.box-main > .blog-item
 cda.pl##.pb-ad-video-player
 cda.pl##.pb-video-click
+cdn.bg-gledai.*,cdn.gledaitv.*##[id^="anti-pedali-"]
 cdn.gamemonetize.com###imaContainer
 cdn.htmlgames.com###afgContainer
 cdn1.link###adholder
