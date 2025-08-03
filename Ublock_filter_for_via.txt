@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PbMwcHtWebKIk/H/V3A/Tg
-! Title: Ublock filter for Via(2025-08-03 00:14:56)
-! Version: 20250803001456
+! Checksum: UuySAtHxh8HSciDwh3B2dw
+! Title: Ublock filter for Via(2025-08-03 09:09:41)
+! Version: 20250803090941
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-03 00:14:56
-! Total Count: 16136
-! Blocked Filters: 16136
+! Last modified: 2025-08-03 09:09:41
+! Total Count: 16140
+! Blocked Filters: 16140
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7470,7 +7470,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5422
+!<<<<<网站单独规则>>>>>5426
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -7742,7 +7742,7 @@ adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##table[class^="a"]
 additudemag.com##.primary-sidebar-ad
 adinsurance.xyz,insurglobal.xyz,prepostseo.com##div[id^="bsa-zone_"]
-adlinkweb.com,bestcash2020.com,ckk.ai,cut-fly.com,ex-foary.com,fc.lc,get.instantearn.in,gtlink.co,icutlink.com,iir.la,link.paid4file.com,link1s.*,linkjust.com,lnbz.la,myshrinker.com,oei.la,oii.la,oko.sh,oncehelp.com,paid4.link,satoshi-win.xyz,set.seturl.in,solarchaine.com,tii.la,tpi.li,tvi.la,upshrink.com,vklinks.com##.banner-inner
+adlinkweb.com,bestcash2020.com,ckk.ai,cut-fly.com,ex-foary.com,fc.lc,get.instantearn.in,gtlink.co,icutlink.com,iir.la,link.paid4file.com,link1s.*,linkjust.com,lnbz.la,myshrinker.com,oei.la,oii.la,oko.sh,oncehelp.com,paid4.link,satoshi-win.xyz,set.seturl.in,solarchaine.com,tii.la,tpi.li,tvi.la,upshrink.com,vklinks.com,vplink.in##.banner-inner
 adrino1.bonloan.xyz,instanders.app,keedabankingnews.com,rokni.xyz,vi-music.app##.captcha-check, #tp-snp2, #countdown:others()
 adshnk.com##a.item[href^="https://plarium.com/"]
 adshnk.com,mixrootmod.com##.custom-modal
@@ -7941,6 +7941,7 @@ arianatoday.net###phpeverywherewidget-2
 ariva.de###iqd_mainAd
 ariva.de##.werb_textlink
 arkadium.com##span[class*=Ad-caption-]
+arolinks.com,vplink.in##.telegram-banner
 arrowos.net##.card-content:has(> .adsbygoogle)
 arstechnica.com,bild.de##.ad-wrapper
 art19.com##.art19-notifications-list
@@ -8201,7 +8202,7 @@ blog.aming.info##[href^="https://cdn.aming.info/"]
 blog.aming.info##[href^="https://warp.plus/"]
 blog.disheye.com###gourl:others()
 blog.filepresident.com##.box-main > [src], .content, .r-bg, .short, .download-btn, h4
-blog.itijobalert.in,hipsonyc.com,tech.pubghighdamage.com,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
+blog.itijobalert.in,blog.potterworld.co,hipsonyc.com,tech.pubghighdamage.com,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
 blog.linksfire.co##.ex2
 blog.linksfire.co##.link-details
 blog.linksfire.co##[href^="https://b3stcond1tions.com/"]
@@ -9357,7 +9358,9 @@ fulltube.*##.mvic-btn
 fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class$="-ts-init"]
 fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class*="cam-wgt"]
 fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##.video-page .pUZyj-Bzplayer
+fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##.thumb-list__item:has(> div[class*="skeleton-"])
 fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class*="premium-n-overlay"]
+fullxh.com,galleryxh.site,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com##div[data-role="promo-messages-wrapper"]
 funnyand.com##.ad-unit-desktop
 fuqer.com##.right > .text
 futemax.app##.alertWS
@@ -11249,6 +11252,7 @@ positive-feedback.com##.banner-right
 positive-feedback.com##.load-screen
 positive-feedback.com##.right-ad-wrapper
 postazap.com###page, .image-container
+potud.com,winezones.in,governmentjobvacancies.com,marketrook.com,swachataparnibandh.com###btn7, .captcha-check, .text-center.cross-top, #cross-snp2:others()
 pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*###embed
 pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*###keepFloatin
 pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*##[src^="/ben/mgnat.html?"]
@@ -13406,7 +13410,7 @@ $script,domain=zdnet.fr,third-party
 /noadblocker.js$domain=streambolt.tv|strmbolt.com
 /nofa7.$script,~third-party
 /not-a-robot/index.html?
-/nt.js$domain=fc-lc.*|fc-lc.xyz|fitdynamos.com|tmail.io
+/nt.js$domain=fc-lc.*|fc-lc.xyz|fitdynamos.com|jobzhub.store|labgame.io|tmail.io
 /nyaa\.land\/static\/[a-z0-9]{32}\.jpg$/$image,~third-party,domain=nyaa.land
 /oho.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ebooksite.org|emulatorsite.com|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /other/btn/*/index.html?*p1=
