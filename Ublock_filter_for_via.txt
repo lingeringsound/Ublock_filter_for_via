@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3WdCRKmh08ISJ/3HXDn/5w
-! Title: Ublock filter for Via(2025-08-04 00:14:23)
-! Version: 20250804001423
+! Checksum: XC861T9WuaoW81jQpg6HSg
+! Title: Ublock filter for Via(2025-08-04 09:08:51)
+! Version: 20250804090851
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-04 00:14:23
-! Total Count: 16148
-! Blocked Filters: 16148
+! Last modified: 2025-08-04 09:08:51
+! Total Count: 16149
+! Blocked Filters: 16149
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7475,7 +7475,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5429
+!<<<<<网站单独规则>>>>>5430
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8956,6 +8956,7 @@ embed4u.xyz##.smartlink
 embedstream.me###aff-click
 embedstream.me##body > .position-absolute
 emojipedia.org##.items-center:has([class^="AdContainer_ad"])
+emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 empflix.com##.col-xs-6:not([data-vid])
 empflix.com##.mewDv
 empflix.com##.padAdvx
