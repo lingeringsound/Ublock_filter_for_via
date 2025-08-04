@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XC861T9WuaoW81jQpg6HSg
-! Title: Ublock filter for Via(2025-08-04 09:08:51)
-! Version: 20250804090851
+! Checksum: WmwFv6HrlFqDFOMLsdXqOg
+! Title: Ublock filter for Via(2025-08-05 00:17:34)
+! Version: 20250805001734
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-04 09:08:51
+! Last modified: 2025-08-05 00:17:34
 ! Total Count: 16149
 ! Blocked Filters: 16149
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -7475,7 +7475,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5430
+!<<<<<网站单独规则>>>>>5429
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -7952,8 +7952,8 @@ arstechnica.com,bild.de##.ad-wrapper
 art19.com##.art19-notifications-list
 aruble.net###top-ads
 aruble.net,faucethero.com,faucetpot.me,krypto-trend.de###middle-adspace
-ashemaletube.*##.ad-wrap
 ashemaletube.*##.no-popup:has(> a[href^="/link/out/"])
+ashemaletube.*,servustv.com,wunderground.com##.ad-wrap
 ashemaletube.com##.ads-wrapper
 ashemaletube.com##.header-ads-wrapper
 ashemaletube.com##.no-popup:has(> a[href^="https://shemale.show/"])
@@ -12683,7 +12683,6 @@ wsj.com##.css-1fl953o
 wsj.com##[class*="sponsored"]
 wsj.com##div[class^="style--column--"]:has(> div[class=""] > div[id^="wrapper-AD_NATIVE"])
 wsj.com##div[id^="wrapper-AD_"]
-wunderground.com##.ad-wrap
 wunderground.com##[class*="-ad-box-"]
 wupfile.com##[id*=ScriptRoot]
 wuxia.click###chapterText + div.mantine-Container-root
@@ -12908,7 +12907,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>824
+!<<<<<通配符规则>>>>>825
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13616,6 +13615,7 @@ $script,domain=zdnet.fr,third-party
 ://a.*/spots/$xmlhttprequest
 ://a.*/warp^$script,third-party
 ://a.*/warpim?id=$script,third-party
+://adv.$third-party,domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.sciconnect.unsw.edu.au|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://api.*/lib/native.wasm$third-party
 ://backcb.one^
 ://booking.*.com/sign-in?op_token=
