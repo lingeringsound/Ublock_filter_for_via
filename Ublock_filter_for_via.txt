@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: FnIGIq5kY02EfAiHyNllCQ
-! Title: Ublock filter for Via(2025-08-05 09:05:34)
-! Version: 20250805090534
+! Checksum: +ET0WvmjzuT7ZbM1DaKhig
+! Title: Ublock filter for Via(2025-08-06 00:13:52)
+! Version: 20250806001352
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-05 09:05:34
-! Total Count: 16149
-! Blocked Filters: 16149
+! Last modified: 2025-08-06 00:13:52
+! Total Count: 16159
+! Blocked Filters: 16159
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7461
+!<<<<<域名规则>>>>>7465
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -722,6 +722,8 @@
 ||azarplus.com/wp-content/uploads/*.gif$image,~third-party
 ||azbzcz.com^
 ||azuki-*.vercel.app^
+||azureedge.net/*/esc.js
+||azureedge.net/*/flscn.js
 ||azureus.es^
 ||azurewebsites.net/alertmicrosoft.mp3
 ||b-7.jp^
@@ -3412,6 +3414,7 @@
 ||javopen.co/wp-content/uploads/2020/05/brave.png
 ||javrave.club/ads/
 ||javseen.tv/fire2/popup*$script,~third-party
+||javtsunami.com/cool-shadow-$script
 ||javtsunami.com/crimson-unit-$script
 ||javx.*/direct.js^
 ||javx.*/terra.js^
@@ -3530,6 +3533,7 @@
 ||kanbbs.net^
 ||kantanemusuu.jp^
 ||kantei-oracle.com^
+||karakuloutmate.com^
 ||karconsulting.us^$third-party
 ||karinaroom.wixsite.com^
 ||karistudio.com/wp-content/plugins/wp-statistics/assets/js/tracker.js^
@@ -7475,11 +7479,13 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5429
+!<<<<<网站单独规则>>>>>5431
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
 %2Fdedxk.r.ag.d.sendibm3.com%2F$image
+%2Fline.my.salesforce.com%2Fs.gif$image
+%2Fline.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid%3D$image
 %2Ftracking.mail.shopee.$image
 %2Ftracking.vegasgems.com%2F$image
 %2Ftwitter.com%2Fscribe%2Fibis%3F$image
@@ -12907,11 +12913,13 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>825
+!<<<<<通配符规则>>>>>829
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
 %2Fdedxk.r.ag.d.sendibm3.com%2F$image
+%2Fline.my.salesforce.com%2Fs.gif$image
+%2Fline.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid%3D$image
 %2Ftracking.mail.shopee.$image
 %2Ftracking.vegasgems.com%2F$image
 %2Ftwitter.com%2Fscribe%2Fibis%3F$image
@@ -13381,6 +13389,8 @@ $script,domain=zdnet.fr,third-party
 /leo7.$script,~third-party
 /lhzbsrfkjf/js/*$third-party
 /lib/f_ad_code.js
+/line.my.salesforce.com/s.gif$image
+/line.my.salesforce.com/servlet/servlet.ImageServer?oid=$image
 /ll/click.php?key=
 /loadme/com/*.js$script
 /local_p.js^
