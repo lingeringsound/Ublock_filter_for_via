@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +ET0WvmjzuT7ZbM1DaKhig
-! Title: Ublock filter for Via(2025-08-06 00:13:52)
-! Version: 20250806001352
+! Checksum: 2Ff2/FCz4jInfLtjGYwuyA
+! Title: Ublock filter for Via(2025-08-06 09:04:41)
+! Version: 20250806090441
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-06 00:13:52
-! Total Count: 16159
-! Blocked Filters: 16159
+! Last modified: 2025-08-06 09:04:41
+! Total Count: 16160
+! Blocked Filters: 16160
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7479,7 +7479,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5431
+!<<<<<网站单独规则>>>>>5432
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8213,7 +8213,7 @@ blog.aming.info##[href^="https://cdn.aming.info/"]
 blog.aming.info##[href^="https://warp.plus/"]
 blog.disheye.com###gourl:others()
 blog.filepresident.com##.box-main > [src], .content, .r-bg, .short, .download-btn, h4
-blog.itijobalert.in,blog.potterworld.co,hipsonyc.com,tech.pubghighdamage.com,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
+blog.itijobalert.in,blog.potterworld.co,hipsonyc.com,tech.pubghighdamage.com,tech.trendingword.com,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content:others()
 blog.linksfire.co##.ex2
 blog.linksfire.co##.link-details
 blog.linksfire.co##[href^="https://b3stcond1tions.com/"]
@@ -11293,6 +11293,7 @@ privatehomeclips.com##.undp--karp
 privatehomeclips.com##.video-page__item
 privatehomeclips.com,upornia.com##.video-page__content > .right
 proappapk.com##.blogContent:has(#verify) .postBody
+procinehub.com,bookmystrip.com##center, .main-content:others()
 profit.ro##.zc_rectangle
 profit.ro##.zc_top
 progameguides.com##[id^="content_dynamicAd-"]
