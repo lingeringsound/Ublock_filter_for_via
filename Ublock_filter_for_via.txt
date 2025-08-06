@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 2Ff2/FCz4jInfLtjGYwuyA
-! Title: Ublock filter for Via(2025-08-06 09:04:41)
-! Version: 20250806090441
+! Checksum: OKTjP88en6m+Z4pr4IKHWA
+! Title: Ublock filter for Via(2025-08-07 00:16:52)
+! Version: 20250807001652
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-06 09:04:41
-! Total Count: 16160
-! Blocked Filters: 16160
+! Last modified: 2025-08-07 00:16:52
+! Total Count: 16173
+! Blocked Filters: 16173
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7465
+!<<<<<域名规则>>>>>7471
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1890,6 +1890,7 @@
 ||divinedownload.com^
 ||diwapa3051.wixsite.com^
 ||djin.site^
+||dl-protect.link/images2/afl*.png
 ||dl-protect.net/main.js?v=$script,~third-party
 ||dlhessell.wixsite.com/att-support/
 ||dlmonitize.com^
@@ -5010,6 +5011,7 @@
 ||pl.allsports4free.club^
 ||pl.allsports4u.club^
 ||placid-jaded.com^
+||planetwealthbuilders.net^
 ||platform.pubadx.one/pubadx-ad.js$script,domain=japscan.*|japscan.lol|japscan.si
 ||platform.pubadx.one^$third-party
 ||plati-num.com^
@@ -5469,6 +5471,7 @@
 ||rken104.com^
 ||rkn71nkr.com^
 ||rldcr.madeincookware.com/tag?name=
+||rm.freex2line.online/*.js|$domain=cimanow.cc
 ||rndex.xyz^
 ||rochestertrend.com^
 ||rogueleader.org^
@@ -6102,6 +6105,8 @@
 ||studiogiamberardino.it^
 ||studyeffect.com^
 ||stupdownloadf.com^
+||stw.dl-protect.link^
+||stw.zone-telechargement.
 ||stylish-knife.com^
 ||sub.astroline.today^
 ||submit-application-job.com^
@@ -7465,6 +7470,7 @@
 ||zone-annuaire.bond/main.js?v=$script,~third-party
 ||zone-annuaire.hair/main.js?v=$script
 ||zone-telechargement.*/main.js?v=$script,~third-party
+||zone-telechargement.*/templates/zone/images/dl/telechargement-direct.png
 ||zonedummy.com^
 ||zontent.powvideo.net^
 ||zoologyfibre.com^
@@ -7479,7 +7485,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5432
+!<<<<<网站单独规则>>>>>5439
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8747,6 +8753,7 @@ dizipal4.com##.body-clickable
 dizipal4.com##.videoalt
 dizipal4.com##.videoust
 djqunjab.in,geniussolutions.co###interstitial-container
+dl-protect.link##a[href^="https://planetwealthbuilders.net/trck/"]
 dl.apkmoddone.com,phongroblox.com##.NoteAd
 dl.apkmoddone.com,phongroblox.com,sitemini.io.vn,vip1s.top###fakeDown
 dl.gamecopyworld.*##.t2 > tbody > tr:nth-of-type(1) > td
@@ -9209,6 +9216,7 @@ fitdynamos.com,jobzhub.store,labgame.io###step, #next, #scroll, #glink, #countdo
 fitnessbr.click,freexcafe.com,journaldemontreal.com,live-sport.duktek.pro,minhareceita.xyz###banner
 fivemturk.com##[src^="https://i.hizliresim.com/"]
 flaticon.com##.soul-p-nsba
+flickr.com##.nav-ad-container
 flickr.com##.sub-photo-submoola-view
 flickr.com##section:has([href*="istockphoto.com"])
 flipkart.com##div[data-id]:has(rect[width="62"][height="18"][fill="white"] + path[d^="M5.82955"][fill="#9E9E9E"])
@@ -9598,6 +9606,10 @@ gtainside.com##div[style]:has(> div.ads)
 guiamuriae.com.br##.e3lan-top
 guiamuriae.com.br,saveearning.com##.theiaStickySidebar
 guidedhacking.com##[href="https://guidedhacking.com/advertise"]
+gulfnews.com###footer > div > div:has(> div[id$="-sticky-ad"])
+gulfnews.com##.page-wrapper > #nav-bar > div[class]:has(> div[class] > div[id*="top-filler-ad"])
+gulfnews.com##div[id*="-ad"]
+gulfnews.com##div[id^="div-gulfnews_sections_article_"]
 gumtree.com.au###leaderboard-header-banner
 gun-otaku.blogspot.com,shuajota.com###HTML16
 gyanitheme.com,techkhulasha.com##.bt-success, #verify, #pop-button, .modal-content:others()
@@ -12905,6 +12917,7 @@ zeroupload.com##[href="https://301alldomain.xyz/"]
 zlut.com##.add-bottom
 zmamobile.com##main > center > a[target="_blank"][rel="nofollow noreferrer noopener"]
 zona-leros.net##.Body > .Container > ul.Rows > li:first-child:has(> article > a[href][target="_blank"])
+zone-telechargement.*##a[href^="https://dl-protect.link/"] img
 zone-telechargement.*,wawacity.*##a[href^="https://dl-protect.link/req-direct-url"]
 zpaste.net,pixeldrain.com###sponsors
 zplayer.live##.user
