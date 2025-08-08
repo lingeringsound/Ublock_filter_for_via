@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 5Pr40cODASTyk+VgGTK6rA
-! Title: Ublock filter for Via(2025-08-08 00:17:45)
-! Version: 20250808001745
+! Checksum: rV6WgizL5xP4liNMk4GOXA
+! Title: Ublock filter for Via(2025-08-08 09:04:20)
+! Version: 20250808090420
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-08 00:17:45
-! Total Count: 16200
-! Blocked Filters: 16200
+! Last modified: 2025-08-08 09:04:20
+! Total Count: 16209
+! Blocked Filters: 16209
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7481
+!<<<<<域名规则>>>>>7485
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3053,6 +3053,7 @@
 ||hktvmall.com/yuicombo|$script,~third-party
 ||hkwordpress.com/public/export/SM-ORDER/excelz/
 ||hltv.org/*.gif?ixlib=$image
+||hltv.org/img/*?ixlib=$image
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
 ||hm99-free7apo.gift^
@@ -3789,6 +3790,7 @@
 ||litlink.site^
 ||live-metasupport.com^
 ||live.streamtheworld.com/ondemand/ars?$xmlhttprequest,third-party
+||live/click.php?key=
 ||livechatlove.store^
 ||livedashboardkit.info^
 ||liverun0.com^
@@ -6920,6 +6922,7 @@
 ||vip-salon.net^
 ||virtualbox.es^
 ||virtualbox.pl^
+||virusscanner.live^
 ||visiblyhiemal.shop^
 ||vitop7eg5sqwgbk.jpn.com^
 ||viva-asorte.com^
@@ -7065,6 +7068,7 @@
 ||weblion777.github.io^$third-party
 ||webmailrupdatekorea.firebaseapp.com^
 ||webmonetiser.com^$third-party
+||webnotif.online^
 ||webogram.org^
 ||webogram.ru^
 ||webpartners.co^$third-party
@@ -7495,7 +7499,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5447
+!<<<<<网站单独规则>>>>>5452
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -9806,10 +9810,15 @@ hitomi.la##.container > div[class$="content"] > div[class]:has(> script)
 hl-live.de###swlad
 hltv.org##.a-reset:has([href^="/out/"])
 hltv.org##.leftCol > aside:first-child:has(> .ggbe-firstcol-box > a[href] > img[src*="/ggbet/"])
+hltv.org##.leftCol div[style*="cta"]
 hltv.org##.presented-by
+hltv.org##.teamodds
 hltv.org##.thunderpick-firstcol-box
 hltv.org##:is(div, aside):has(> a[href^="/"][data-link-tracking-page="Widget"])
 hltv.org##[href^="/out/"]
+hltv.org##a[class*="odds"]
+hltv.org##a[href^="/matches/"][href*="~"]:has(div,img)
+hltv.org##a[href^="/matches/"][href*="~"][class*="cta"i]
 hobby-machinist.com##.samCodeUnit
 hochi.news###ohtani-pickup
 hog.*##.content__info--vis
