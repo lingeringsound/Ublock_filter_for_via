@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qVEaL25cGI8lQpqN7fhVAQ
-! Title: Ublock filter for Via(2025-08-09 08:58:53)
-! Version: 20250809085853
+! Checksum: rqAiUk+orlEEoytg6/UapQ
+! Title: Ublock filter for Via(2025-08-10 00:14:01)
+! Version: 20250810001401
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-09 08:58:53
-! Total Count: 16258
-! Blocked Filters: 16258
+! Last modified: 2025-08-10 00:14:01
+! Total Count: 16282
+! Blocked Filters: 16282
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7521
+!<<<<<域名规则>>>>>7543
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -252,11 +252,13 @@
 ||adnxs.com^$domain=bz-berlin.de|metal-hammer.de|musikexpress.de|rollingstone.de|stylebook.de
 ||adnxs.com^$xmlhttprequest,domain=welt.de
 ||ado.wish-best.com^
+||adobecloud5xpo.yolasite.com^
 ||adobedownloader.info^
 ||adobedtm.com^$domain=aamulehti.fi
 ||adobedtm.com^*-source.min.js$script,domain=plasticsnews.com
 ||adobedtm.com^*/satelliteLib-$script,domain=poweredbycovermore.com
 ||adobedtm.com^*/satellitelib-$script,domain=telegraph.co.uk
+||adobepd*.glitch.me^
 ||adolphusisomlycyou.pages.dev^
 ||adonsonlyd.xyz^
 ||adoptmeantranslate.com^
@@ -349,6 +351,7 @@
 ||aimshare.pro^
 ||ainokotoba1515.com^
 ||air-bnb.check-
+||airbnb-pi-three.vercel.app^
 ||airdrope.live^
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/
 ||airsoftmilsimnews.com/wp-content/uploads/*BANNER$image,~third-party
@@ -1116,6 +1119,7 @@
 ||capricecaretaker.com^
 ||captcharesolving-universe.com^
 ||car-na.jp^
+||cardverify*-booking.com^
 ||caressesetboulesdepoils.fr^
 ||carrefour-enbacktoschool4.pages.dev^
 ||carrierzone.com/sharepoint/
@@ -1144,6 +1148,7 @@
 ||cdn-surfline.com/*/preroll_$image,third-party,domain=surfline.com
 ||cdn-telegram.com^
 ||cdn-webstats.com^
+||cdn.710k.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
 ||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/an_sn.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1851,6 +1856,7 @@
 ||di-ana.jp^
 ||di02.biz^
 ||diamond-line.net^
+||dichvucong*.top^
 ||dichvucongvnbca.com^
 ||dichvudienmay-xanh.online^
 ||dichvutonghop.vip^
@@ -2863,6 +2869,7 @@
 ||greengoplatform.com^
 ||greenshot.fr^
 ||greenshot.org^
+||group-postban.firebaseapp.com^
 ||groupbycloud.com/gb-tracker-client-3.min.js$domain=officedepot.*
 ||groups.google.com/g/hogwarts-legacy-crack-empress^
 ||grtyb.com^$third-party
@@ -2964,6 +2971,7 @@
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hd21.com/ajax/track?
 ||hdbraze.com/sw.js$script,~third-party
+||hdfilmce.com/bt.webp$image
 ||hdpornup.com/*/js.php
 ||hdsex.org/agent.php
 ||hdthevid.online/mavennofile.js
@@ -3758,6 +3766,7 @@
 ||lib-333-lib.com^
 ||lib.csscloud.live/lib.js?$script,third-party
 ||libretubeapk.com^$domain=~libretube.dev
+||lidarusa.com/*/Bpostale2022/
 ||lien-lienam.com^
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
@@ -4277,6 +4286,7 @@
 ||mobilelegendsmycode.com^
 ||mobilerefreshpro.xyz^
 ||mobileverify.net^
+||mobiltr-islemlerim.com.tr^
 ||moddroid.com/static/js/pa-$script
 ||mode-claim.xyz^
 ||modesoft.org^
@@ -4290,6 +4300,7 @@
 ||momoshopvip.com^
 ||momvids.com/mm*/mv.js
 ||monad.network^$script,domain=shooshtime.com
+||monamedia.net/CerticodePlus/DSP2/
 ||moncelork.com^
 ||monerominer.rocks/miner-mmr/webmnr.min.js
 ||monetiza.co^$third-party
@@ -4505,6 +4516,7 @@
 ||naughtymachinima.com/*preroll
 ||naughtymets.com^
 ||nav1.jp^
+||navi-airbnb.vercel.app^
 ||navi-match.net^
 ||navigationtadade.com^
 ||navitada.com^
@@ -4529,6 +4541,7 @@
 ||neptunclicks.com^
 ||netaffiliation.com^$third-party
 ||netdna-ssl.com/sbly-ads/sbly-prebid-$script,domain=seeitlive.co
+||netflix.avdhoothadke.com^
 ||netlify.app/errox01/?
 ||netlify.app/help/support/client_id=
 ||netsgram.com^
@@ -4650,6 +4663,7 @@
 ||o-rakuenn.com^
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
 ||oabaubsutha.com^
+||oasisministries.com/fr/postale/
 ||ob.*.com/i/*.js|$script,third-party,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
 ||obiaheroid.top^
 ||obs-software.cc^
@@ -5074,6 +5088,7 @@
 ||playporngames.com/*.gif|
 ||playporngames.com/fuck_dolls_online.jpg
 ||plaza-l1o0nni-p1aza.com^
+||plesk.page/*--_--
 ||plesk.page/*?phone=
 ||plkssl-7.com^
 ||plotp.mazamob.space^
@@ -5082,6 +5097,7 @@
 ||plygainroundup.com^
 ||pmequebeclic.com^
 ||pmew.jp^
+||pmur.org/*_abChoice.
 ||pnav.jp^
 ||pncexc.com^
 ||pnd.tl/*.gif$image
@@ -5204,6 +5220,7 @@
 ||projectglbl.lol^
 ||projecthygieia.com^
 ||promotionsonlineusa.com^
+||property-rental-seven.vercel.app^
 ||prophecy-of-fate.com^
 ||protect-ad.com^
 ||protectsurf-a.akamaihd.net^
@@ -5223,11 +5240,13 @@
 ||pt.halhal.click^
 ||ptgt.monuone-present.com^
 ||ptron.net^
+||pttavm.*.com.tr^
 ||ptube.pipio.site/adblock.js
 ||ptwmstc.com/npt/banner/
 ||pu4.biz^
 ||pub-*.r2.dev/DocuSign.html^
 ||pub-*.r2.dev/OneDrive.html^
+||pub-*.r2.dev/adobe2024.html^
 ||pub-*.r2.dev/alt_type.html^
 ||pub-*.r2.dev/auth_gen.html^
 ||pub-*.r2.dev/auth_response.html^
@@ -5912,6 +5931,7 @@
 ||sns3615.com^
 ||so-gr3at3.com^
 ||sobatkeren.*/img/banner/$image
+||socalthesyndicate.com/*/adobefud/
 ||soccerinhd.com/live1/$script,~third-party
 ||soccerinhd.com/z12.js?$script,~third-party
 ||socgeneralist.firebaseapp.com^
@@ -6861,6 +6881,7 @@
 ||vangphutai.com^
 ||vanilla-japan.love^
 ||vanilla-japan.net^
+||vantechdns.com/bpnew/
 ||variationsradio.com^
 ||vawk0ap3.xyz^
 ||vb09cl.com^
@@ -7004,6 +7025,7 @@
 ||vroom24365.com^
 ||vsno-wdmg.com^
 ||vssid.*.cc^
+||vstergioul.sites.sch.gr^
 ||vtcnews.vn/Content/pc/js/pages/loadjs/tracking.js
 ||vtcnews.vn/NewsV*/GetAdsHeader
 ||vtcnews.vn/dist/adsbyvtc_ver*.js
@@ -7535,7 +7557,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5457
+!<<<<<网站单独规则>>>>>5459
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -7811,7 +7833,7 @@ adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz
 additudemag.com##.primary-sidebar-ad
 adinsurance.xyz,insurglobal.xyz,prepostseo.com##div[id^="bsa-zone_"]
 adlinkweb.com,bestcash2020.com,ckk.ai,cut-fly.com,ex-foary.com,fc.lc,get.instantearn.in,gtlink.co,icutlink.com,iir.la,link.paid4file.com,link1s.*,linkjust.com,lnbz.la,myshrinker.com,oei.la,oii.la,oko.sh,oncehelp.com,paid4.link,satoshi-win.xyz,set.seturl.in,solarchaine.com,tii.la,tpi.li,tvi.la,upshrink.com,vklinks.com,vplink.in##.banner-inner
-adrino1.bonloan.xyz,instanders.app,keedabankingnews.com,rokni.xyz,vi-music.app##.captcha-check, #tp-snp2, #countdown:others()
+adrino1.bonloan.xyz,instanders.app,keedabankingnews.com,rokni.xyz,tackledsoul.com,vi-music.app##.captcha-check, #tp-snp2, #countdown:others()
 adshnk.com##a.item[href^="https://plarium.com/"]
 adshnk.com,mixrootmod.com##.custom-modal
 adshort.*##A[href$=".html"][rel="nofollow norefferer noopener"]
@@ -9666,6 +9688,7 @@ gulfnews.com##div[id*="-ad"]
 gulfnews.com##div[id^="div-gulfnews_sections_article_"]
 gumtree.com.au###leaderboard-header-banner
 gun-otaku.blogspot.com,shuajota.com###HTML16
+gyanitheme.com,tech.trendingword.com,blog.potterworld.co,hipsonyc.com,tech.pubghighdamage.com,blog.itijobalert.in,techkhulasha.com###gotolink, #getlink, #notarobot, .bt-success, #waiting, #pop-button, .modal-content, [src*="cloudflare.com"]:others()
 gyanitheme.com,techkhulasha.com##.bt-success, #verify, #pop-button, .modal-content:others()
 h-flash.com###topzone
 h-flash.com##[href^="https://chaturbate.com/in/"]
@@ -11781,6 +11804,7 @@ shrib.com##[style="display: block;"]:has(.adsbygoogle)
 shrinke.*,shrinkme.*##.expop, .blog-item, footer, [src*="shrinkme."], .box-main h3, [hight="250px"]
 shrinkforearn.in##[class*="wp-image"]
 shrinkforearn.in##[href*="waufooke.com"], .footer, .banner-inner, .w-nav.nav-rounded-center
+shrinkme.*,shrinke.*,mrproblogger.com,themezon.net##.expop, .blog-item, footer, [src*="shrinkme."], .box-main h3, [hight="250px"]
 shuajota.com###HTML10
 shuajota.com###HTML14
 shuajota.com###HTML9
