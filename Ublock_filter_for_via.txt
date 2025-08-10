@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rqAiUk+orlEEoytg6/UapQ
-! Title: Ublock filter for Via(2025-08-10 00:14:01)
-! Version: 20250810001401
+! Checksum: rBMD85bWTNX1qEVR7RJV9g
+! Title: Ublock filter for Via(2025-08-10 09:06:32)
+! Version: 20250810090632
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-10 00:14:01
-! Total Count: 16282
-! Blocked Filters: 16282
+! Last modified: 2025-08-10 09:06:32
+! Total Count: 16283
+! Blocked Filters: 16283
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7557,7 +7557,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5459
+!<<<<<网站单独规则>>>>>5460
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -11215,6 +11215,7 @@ poedb.tw###bottombanner970
 poedb.tw###topbanner970
 poedb.tw##.text-center:has([src*="webp"]):has([style])
 poedb.tw##[target="_blank"]:has([src*="webp"])
+pogdesign.co.uk##.box728
 pogo.com###leaderboard-ad
 pogo.com##.hideableAd
 pogo.com##[class*="gameSkyscraperAd"]
