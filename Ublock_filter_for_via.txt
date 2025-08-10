@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: rBMD85bWTNX1qEVR7RJV9g
-! Title: Ublock filter for Via(2025-08-10 09:06:32)
-! Version: 20250810090632
+! Checksum: DLsrCRH21gfajsEXQ+8qAg
+! Title: Ublock filter for Via(2025-08-11 00:13:59)
+! Version: 20250811001359
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-10 09:06:32
-! Total Count: 16283
-! Blocked Filters: 16283
+! Last modified: 2025-08-11 00:13:59
+! Total Count: 16298
+! Blocked Filters: 16298
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7543
+!<<<<<域名规则>>>>>7552
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -290,6 +290,7 @@
 ||adsrt.com^$third-party
 ||adstructor.com^
 ||adsux.com^
+||adsv.svc.litv.tv^
 ||adswip.com^
 ||adswizz.com^$third-party
 ||adsyou.pro^$third-party
@@ -437,6 +438,7 @@
 ||amazonaws.com/pubs/trib/aa_adb_modal$script,third-party
 ||amazonaws.com/pubs/trib/aatribscriptcheck$script,third-party
 ||amazonaws.com/pubs/trib/triblive_$script,third-party
+||amazonaws.com/tk/wl/tk_2025*.apk
 ||amazonaws.com/www.yournewlocalflingfinder7.com/
 ||amazoni1.com^
 ||amazoni2.com^
@@ -1142,6 +1144,7 @@
 ||ccefactoring.com.br/ziujhyhtrer/
 ||cd7z7b.com^
 ||cda-online.pl/wp-content/uploads/*.js$script
+||cdi.ofiii.com/*/video/ad_urls
 ||cdn-npmjs.com^
 ||cdn-prod.securiti.ai/consent/auto_blocking/$domain=xfinity.com
 ||cdn-static3.com/cdn/push.min.js
@@ -1465,7 +1468,7 @@
 ||com/*markerclusterer_compiled.js|$script,third-party
 ||com/on.js?var=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=38.114.120.167
 ||comdotgame.com/static/ads/istripper/
@@ -2397,6 +2400,7 @@
 ||filmeserialehd.biz^$third-party
 ||filmishquila.com^
 ||filmshngjbzix.blogspot.com^
+||filmvitrini.net/wp-content/themes/filmizle/js/elma.js
 ||filter-zgzy.com^
 ||filthygracefulspinach.com^
 ||final-claim.pages.dev^
@@ -2964,6 +2968,7 @@
 ||hbb.afl.rakuten.co.jp^$third-party
 ||hberify.com^
 ||hbhgvhgc.cfd^
+||hbs.svc.litv.tv^
 ||hcbdsm.com/exo1.html
 ||hcbdsm.com/frtl.js
 ||hcbdsm.com/rbtop.html
@@ -3728,6 +3733,7 @@
 ||lcldetecthumainweb*.firebaseapp.com^
 ||lcskincarecenter.com^
 ||lcwpaketleme.com^
+||le.lrtkzy2.shop^
 ||le.tter99.com^
 ||leadnote.me^
 ||leaf.lau-rier.com^
@@ -4685,6 +4691,7 @@
 ||officialxai.com^
 ||oficial-kmspico.com^
 ||oficialinesp.wixsite.com^
+||ofiii.com/library/comscore/comscore.js
 ||ofsetvideofre.click^
 ||ofyou-beautiful.com^
 ||ogrencilerbirligi.com^
@@ -5220,6 +5227,7 @@
 ||projectglbl.lol^
 ||projecthygieia.com^
 ||promotionsonlineusa.com^
+||promotkc.cc^
 ||property-rental-seven.vercel.app^
 ||prophecy-of-fate.com^
 ||protect-ad.com^
@@ -6231,6 +6239,7 @@
 ||susni-swap.com^
 ||sustac.com^
 ||svc.dynamics.com/f/m/
+||svc.litv.tv/api/v*/unit
 ||svgov.cc^
 ||sviluppo.host/*/CHFINAL/
 ||sviluppo.host/CHFINAL/
@@ -7401,7 +7410,7 @@
 ||xyz-trade.com^
 ||xyz/akbank/
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -7557,7 +7566,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5460
+!<<<<<网站单独规则>>>>>5461
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8060,6 +8069,7 @@ askpaccosi.com,coin-free.com,crypto4tun.com,kienthucrangmieng.com,sitecuatui.xyz
 assettoworld.com##.nitro-ad
 assettoworld.com##.nitro-ads
 assia.tv,assia24.com,assia4.com##[class*="ban"]
+asyaanimeleri.pw,blsplayer.com,brbeast.com,flyplayer.xyz,javplayers.com##.pppx
 atdhe.*###bannerInCenter
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org###placement-takeover
@@ -8310,7 +8320,6 @@ blograffo.net##[href^="https://amzn.to/"]
 blogspot.com,web.app##img[onclick="kemana()"]
 blogterest.net##.blockSide > div.blockWrapper:has(> div > div.ninja-recommend-block)
 blogx.almontsf.com###adxbox
-blsplayer.com,brbeast.com,flyplayer.xyz,javplayers.com##.pppx
 bluedollar.net##div[id^="aub"]
 bluemediadownload.*,bluemediafile.*,bluemedialink.*,bluemediastorage.*,bluemediaurls.*,urlbluemedia.*###ads-centter
 bluemoon-mcfc.co.uk##[id^="snack_"]
@@ -8824,7 +8833,7 @@ distrowatch.org##[href^="https://pbxinaflash.com/"]
 divxtotal.*,divxtotal1.*###banner_publi
 dizipal4.com##.body-clickable
 dizipal4.com##.videoalt
-dizipal4.com##.videoust
+dizipal4.com,filmvitrini.net##.videoust
 djqunjab.in,geniussolutions.co###interstitial-container
 dl-protect.link##a[href^="https://planetwealthbuilders.net/trck/"]
 dl.apkmoddone.com,phongroblox.com##.NoteAd
@@ -10964,6 +10973,7 @@ odisha-remix.com,xpshort.com##.banner, footer, .navbar-default.navbar
 oemdtc.com##.blocker-notice, .blocker-overlay
 oemdtc.com##.easyazon-block
 oemdtc.com##[src^="https://cdn.flowdee.de/"], [href^="https://www.amazon.com/b"]
+ofiii.com##.nonlinear_ad
 ohentai.org##.videobrick:has(> .videoadintro)
 ohentai.org##[class^="detail"][class*="iframecontainer"]
 ohentai.org##[class^="listleaderboardcontainer"]
@@ -13020,7 +13030,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>838
+!<<<<<通配符规则>>>>>840
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13158,7 +13168,7 @@ $script,domain=zdnet.fr,third-party
 .gif$domain=nekopoi.*,image
 .gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
-.gif^$image,domain=idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
+.gif^$image,domain=filmvitrini.net|idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
 .html?cep=*&cost=0.
 .hubspotlinks.com%2FCto%2F$image
 .hubspotlinks.com/Cto/$image
@@ -13488,6 +13498,8 @@ $script,domain=zdnet.fr,third-party
 /js/fpu3/pu4.min.js
 /js/gpu3/pu5.min.js
 /js/ppndr.
+/js/script.outbound-links.pageview-props.tagged-events.js
+/js/script.outbound-links.pageview-props.tagged-events.manual.js
 /js/static/header/sda/ppsuma*.js$script
 /js/wb_ban.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /js/wb_dead.js$script,~third-party
@@ -14143,7 +14155,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2163
+!<<<<<放行白名单>>>>>2166
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14872,6 +14884,7 @@ voz.vn/b/image.gif?p=$image
 @@||elahmad.com/tv/videojs/packages/videojs-analytics/videojs-analytics.min.js$script,~third-party
 @@||elektrotanya.com^$script,~third-party
 @@||elwood.io^$ehide
+@@||embed.sendtonews.com/player*/embedcode.$script,domain=usmagazine.com
 @@||embed.watchanimesub.net^$script,~third-party
 @@||embed.wcostream.com^$script,~third-party
 @@||embedstream.me/cash.min.js$script,~third-party
@@ -15125,7 +15138,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3$script,domain=vmf.edge-apps.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3$script,xmlhttprequest,domain=venn.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.$script,domain=independent.co.uk
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kanalsportowy.pl|linetv.tw|netzwelt.de|sbs.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kanalsportowy.pl|linetv.tw|netzwelt.de|ofiii.com|sbs.com.au|si.com|usmagazine.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=10play.com.au|1pack1goal.com|4strokemedia.com|actiongame.com|acusports.com|alaskananooks.com|amc.com|america.cgtn.com|aopathletics.org|arizonawildcats.com|arkadiumarena.com|arkadiumhosted.com|atarisalon.com|atlantic10.com|atlantichockeyonline.com|audycje.tokfm.pl|aupetitparieur.com|bbcamerica.com|bcuathletics.com|besthdgayporn.com|big12sports.com|bigsouthnetwork.com|bigsouthsports.com|bigten.org|brain-games.co.uk|brightygames.com|broncathleticfund.com|bubraves.com|calbears.com|cameronaggies.com|chawomenshockey.com|chicagotribune.com|classicgame.com|classicreload.com|cmumavericks.com|collegefootballplayoff.com|colonist.io|columbiacougars.com|conferenceusa.com|cookinggames.com|coolgames.com|csurams.com|cuatro.com|cubuffs.com|cuse.com|dartmouthsports.com|daytonflyers.com|dbupatriots.com|dbupatriots.org|dbusports.com|debilizator.tv|drakerelays.org|ecac.org|ecacsports.com|einthusan.*|elahmad.com|eminiclip.ro|emueagles.com|emugameday.com|espn.com|esradio.libertaddigital.com|etownbluejays.com|fduknights.com|flipboard.com|floridagators.com|floridatravellife.com|friscofighters.com|gamecocksonline.com|games-site.co.uk|games.baltimoresun.com|games.chicagotribune.com|games.dailypress.com|games.express.co.uk|games.mcall.com|games.nydailynews.com|games.orlandosentinel.com|games.startribune.com|games.sun-sentinel.com|games.wkb.jp|gameswf.com|gbnews.com|gculopes.com|gentside.*|georgiadogs.com|girlgames.com|gobadgers.ca|gobearcats.com|goblackbears.com|gobobcats.com|gocreighton.com|godrakebulldog.com|godrakebulldogs.com|godrakebulldogs.net|goducks.com|goeags.com|goetbutigers.com|goheels.com|gohuskies.com|goislander.com|goislanders.com|gojacks.com|golancers.ca|golightsgo.com|golobos.com|gomacsports.com|gomcpanthers.com|gometrostate.com|goodstream.*|gophersports.com|gopsusports.com|goracers.com|goshockers.com|gostanford.com|goterriers.com|gothunderbirds.ca|gotigersgo.com|gousfbulls.com|goutsa.com|govandals.com|gowyo.com|goxavier.com|gozags.com|gozips.com|griffinathletics.com|gseagles.com|guhoyas.com|gwusports.com|hailstate.com|hamptonpirates.com|hawaiiathletics.com|hiddenobjectgames.com|hidive.com|hilly.io|hokiesports.com|hqq.*|html5.gamedistribution.com|hubison.com|huskers.com|icgaels.com|ign.com|iheartradio.ca|index.hr|insidekstatesports.com|insidekstatesports.info|insidekstatesports.net|insidekstatesports.org|insider.foxnews.com|iowaconference.com|ipla.tv|iuhoosiers.com|jsugamecocksports.com|juegos.elpais.com|k-stateathletics.com|k-statefootball.net|k-statefootball.org|k-statesports.com|k-statesports.net|k-statesports.org|k-statewomenshoops.com|k-statewomenshoops.net|k-statewomenshoops.org|kentstatesports.com|kotaku.com|krunker.io|kstateathletics.com|kstatefootball.net|kstatefootball.org|kstatesports.com|kstatewomenshoops.com|kstatewomenshoops.net|kstatewomenshoops.org|ksuathletics.com|ksuowls.com|ksusports.com|larena.it|lehighsports.com|lonestarconference.org|longbeachstate.com|lopers.com|loyolaramblers.com|lrtrojans.com|lsusports.net|lycoathletics.com|lycomingathletics.com|mahjong.co.uk|mahjong.com|maraudersports.com|marieclaire.fr|mariogames.be|mascac.org|match3.co.uk|match3games.com|mauiinvitational.com|maxisciences.com|mcall.com|media.oadts.com|meilleurpronostic.fr|mercerbears.com|meucdn.vip|mgoblue.com|midwestconference.org|mindgames.com|mobinozer.com|morrisvillemustangs.com|mountaineast.org|msumavericks.com|msuspartans.com|muleriderathletics.com|mutigers.com|nauathletics.com|navysports.com|nba.com|neongames.co.uk|nevadawolfpack.com|niu-pack.com|niuhuskies.com|nkunorse.com|nueagles.com|nuhuskies.com|nulakers.ca|nusports.com|nwusports.com|nydailynews.com|oasport.it|oceanbreezenyc.org|ohmymag.*|okstate.com|olemisssports.com|olinevid.com|omavs.com|osubeavers.com|oswegolakers.com|ovcdigitalnetwork.com|ovcsports.com|owlsports.com|pacersports.com|patriotathleticfund.com|pik.bg|pirateblue.com|pirateblue.net|pirateblue.org|pittband.com|pittsburghpanthers.com|player.pl|player.radio.com|player.sdpg.tv|pogo.com|poki-gdn.com|polsatboxgo.pl|principiaathletics.com|purduesports.com|puzzles.bestforpuzzles.com|quinnipiacbobcats.com|radiomitre.cienradios.com|raiplay.it|redstormsports.com|repuls.io|richmondspiders.com|rmacsports.org|roadrunnersathletics.com|rollrivers.com|rolltide.com|rtl.it|samfordsports.com|sbs.com.au|scarletknights.com|sfajacks.com|shares.enetres.net|showdownforrelief.com|shupirates.com|sidearmsocial.com|sisigames.com|siusalukis.com|smcgaels.com|smumustangs.com|snhupenmen.com|soconsports.com|solitaireonline.com|soonersports.com|spieleklassiker.com|sports.mynorthwest.com|stablerarena.com|stickgames.com|storage.oraclecloud.com|stoutbluedevils.com|sun-sentinel.com|supergames.com|suzylu.co.uk|syracusecrunch.com|telecinco.es|texassports.com|texastech.com|theacc.com|themw.com|thesundevils.com|timemanagementgame.com|towsontigers.com|tribeathletics.com|tribeclub.com|tulsahurricane.com|tv8.com.tr|txst.com|txstatebobcats.com|ubbulls.com|ucfknights.com|ucirvinesports.com|uclabruins.com|uconnhuskies.com|uhcougars.com|uicflames.com|ukathletics.com|umterps.com|uncpbraves.com|uncwsports.com|unipanthers.com|unlvrebels.com|uoflsports.com|usctrojans.com|usdtoreros.com|usfdons.com|utahstateaggies.com|utahutes.com|utepathletics.com|utepminermaniacs.com|utepminers.com|utrockets.com|utsports.com|uvmathletics.com|uwbadgers.com|uwlathletics.com|villanova.com|viu.tv|vivo.st|webnovel.com|wiacsports.com|winknews.com|witchhut.com|wkusports.com|wkutickets.com|wmubroncos.com|woffordterriers.com|wordgames.com|wsucougars.com|wuxiaworld.com|wvuathletics.com|wvusports.com|wwm.rtl.de|yallo.tv|yoho.games|yumacs.com|zattoo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,third-party,domain=ici.tou.tv|puzzles.msn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest,domain=spiele.bild.de
@@ -16285,6 +16298,8 @@ tv.wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 united.no#@#.page-ads
 uploadmall.com#@#.AdSense
 uploadmall.com#@#.advblock
+usmagazine.com#@#.ami-video-placeholder
+usmagazine.com#@#[class^="s2nPlayer"]
 veev.to#@#.avb-active
 vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
 viefaucet.com#@#.ad-description
