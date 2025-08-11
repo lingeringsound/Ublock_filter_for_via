@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: DLsrCRH21gfajsEXQ+8qAg
-! Title: Ublock filter for Via(2025-08-11 00:13:59)
-! Version: 20250811001359
+! Checksum: fYexO5lnIRrihy5smj7vHg
+! Title: Ublock filter for Via(2025-08-11 09:04:06)
+! Version: 20250811090406
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-11 00:13:59
-! Total Count: 16298
-! Blocked Filters: 16298
+! Last modified: 2025-08-11 09:04:06
+! Total Count: 16302
+! Blocked Filters: 16302
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7552
+!<<<<<域名规则>>>>>7556
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2777,6 +2777,7 @@
 ||go-90i.com^
 ||go-ld-li-ne.site^
 ||go-to-zlibrary.com^
+||go.*.com/smartpop/$script,third-party
 ||go.bundlebyte.net^
 ||go.errpgrt.com^
 ||go.xlirdr.com^$xmlhttprequest,removeparam
@@ -4598,6 +4599,7 @@
 ||nikitaeverywhere.com^$script,xmlhttprequest,~third-party
 ||nikutjyjgchr*.b-cdn.net^
 ||nilousplaypen.com^
+||niscprts.com^
 ||nitpickingtachpodiatries.com^
 ||nitr5eur6fjhtsw.jpn.com^
 ||nitroscripts.com^
@@ -5639,6 +5641,7 @@
 ||salonoshirase.net^
 ||sampledrive.in/wp-content/uploads/*.js?ver=$script,~third-party
 ||san-dast.net^
+||sandhowl.com^
 ||sanff.com^
 ||sanjuanitaliscano.click^
 ||santander.*.fino.digital^
@@ -6258,6 +6261,7 @@
 ||sweet-hot-lady.top^
 ||sweetmemo.net^
 ||sweetmemoryy.com^
+||swetrix.com/log^
 ||swiftflare.click^
 ||swiss-passapp.web.app^
 ||swisspost.web.app^
@@ -8366,8 +8370,8 @@ brofist.io##.menuOverlay
 broflix.club##.idmuvi-topplayer
 broflix.club##[href^="https://shope.ee/"]
 btcbitco.in,btcsatoshi.net,wiour.com##.post > center > [href] > img
-btdb.*##.alert
 btdb.*##.alert-dismissible
+btdb.*,dizipal941.com,dizipal942.com,dizipal943.com,dizipal944.com,dizipal945.com,dizipal946.com,dizipal947.com,dizipal948.com,dizipal949.com,dizipal950.com,dizipal951.com,dizipal952.com,dizipal953.com,dizipal954.com,dizipal955.com,dizipal956.com,dizipal957.com,dizipal958.com,dizipal959.com,dizipal960.com,dizipal961.com,dizipal962.com,dizipal963.com,dizipal964.com,dizipal965.com,dizipal966.com,dizipal967.com,dizipal968.com,dizipal969.com,dizipal970.com,dizipal971.com,dizipal972.com,dizipal973.com,dizipal974.com,dizipal975.com,dizipal976.com,dizipal977.com,dizipal978.com,dizipal979.com,dizipal980.com,dizipal981.com,dizipal982.com,dizipal983.com,dizipal984.com,dizipal985.com,dizipal986.com,dizipal987.com,dizipal988.com,dizipal989.com,dizipal990.com,dizipal991.com,dizipal992.com,dizipal993.com,dizipal994.com,dizipal995.com,dizipal996.com,dizipal997.com,dizipal998.com,dizipal999.com,kickass.*,tgx.rs,torrentgalaxy.*,unblocknow.*##.alert
 btv.bg,btvnovinite.bg,btvsport.bg##.vjs-continue-watching-bar
 btv.bg,btvnovinite.bg,btvsport.bg##div[id^="leading_video_player_autoplay_wrapper_"]
 buffsports.*##.btn-danger.btn
@@ -8437,7 +8441,7 @@ cambro.tv##.bttsptt.box
 cambro.tv##.crak_cams_ctn
 cambro.tv##[href^="https://t.grtya.com/"]
 cambro.tv,camclips.tv##[href^="https://go.strpjmp.com"]
-cambro.tv,homegrownfreaks.net,needgayporn.com,pornissimo.org,rock.porn,thotvids.com##.fp-brand
+cambro.tv,homegrownfreaks.net,needgayporn.com,porn4fans.com,pornissimo.org,rock.porn,thotvids.com##.fp-brand
 camcaps.*##[src="https://camcaps.to/hadapt.php"]
 camcaps.*##a[href^="https://go.porn/"]
 camcaps.*##a[href^="https://theporndude.com"]
@@ -8834,6 +8838,8 @@ divxtotal.*,divxtotal1.*###banner_publi
 dizipal4.com##.body-clickable
 dizipal4.com##.videoalt
 dizipal4.com,filmvitrini.net##.videoust
+dizipal941.com,dizipal942.com,dizipal943.com,dizipal944.com,dizipal945.com,dizipal946.com,dizipal947.com,dizipal948.com,dizipal949.com,dizipal950.com,dizipal951.com,dizipal952.com,dizipal953.com,dizipal954.com,dizipal955.com,dizipal956.com,dizipal957.com,dizipal958.com,dizipal959.com,dizipal960.com,dizipal961.com,dizipal962.com,dizipal963.com,dizipal964.com,dizipal965.com,dizipal966.com,dizipal967.com,dizipal968.com,dizipal969.com,dizipal970.com,dizipal971.com,dizipal972.com,dizipal973.com,dizipal974.com,dizipal975.com,dizipal976.com,dizipal977.com,dizipal978.com,dizipal979.com,dizipal980.com,dizipal981.com,dizipal982.com,dizipal983.com,dizipal984.com,dizipal985.com,dizipal986.com,dizipal987.com,dizipal988.com,dizipal989.com,dizipal990.com,dizipal991.com,dizipal992.com,dizipal993.com,dizipal994.com,dizipal995.com,dizipal996.com,dizipal997.com,dizipal998.com,dizipal999.com##.rounded.m-auto .bg-black > a[href][target="_blank"]
+dizipal941.com,dizipal942.com,dizipal943.com,dizipal944.com,dizipal945.com,dizipal946.com,dizipal947.com,dizipal948.com,dizipal949.com,dizipal950.com,dizipal951.com,dizipal952.com,dizipal953.com,dizipal954.com,dizipal955.com,dizipal956.com,dizipal957.com,dizipal958.com,dizipal959.com,dizipal960.com,dizipal961.com,dizipal962.com,dizipal963.com,dizipal964.com,dizipal965.com,dizipal966.com,dizipal967.com,dizipal968.com,dizipal969.com,dizipal970.com,dizipal971.com,dizipal972.com,dizipal973.com,dizipal974.com,dizipal975.com,dizipal976.com,dizipal977.com,dizipal978.com,dizipal979.com,dizipal980.com,dizipal981.com,dizipal982.com,dizipal983.com,dizipal984.com,dizipal985.com,dizipal986.com,dizipal987.com,dizipal988.com,dizipal989.com,dizipal990.com,dizipal991.com,dizipal992.com,dizipal993.com,dizipal994.com,dizipal995.com,dizipal996.com,dizipal997.com,dizipal998.com,dizipal999.com##a[target="_blank"][rel="nofollow"]
 djqunjab.in,geniussolutions.co###interstitial-container
 dl-protect.link##a[href^="https://planetwealthbuilders.net/trck/"]
 dl.apkmoddone.com,phongroblox.com##.NoteAd
@@ -10262,7 +10268,6 @@ kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
 keralatelecom.info##.ai-viewports
 kickass.*###notification-bar
-kickass.*##.alert
 kickassanime.*##.ka-axx-wr
 kickassanime.*##.latest-update > .row > div:has(.hide-button)
 kickassanime.*##.text-center:has(> .hide-button)
@@ -11248,6 +11253,8 @@ porcore.com##li > a[href*="/loader?"]
 poring.world##[data-ad-slot]
 porn-images-xxx.com###display_image_detail > span
 porn00.org##div.headline[style]
+porn4fans.com##.bottom-links
+porn4fans.com##.top-links
 porn555.com##.vda-x2
 porn613.net##[src="about:blank"]
 pornbimbo.com##.bottom-adv
@@ -12301,10 +12308,8 @@ torrentdownload.*##[href^="https://goo.gl/"]
 torrentdownload.*,torrentdownloads.*##[href^="/td/?"]
 torrentfunk.com##.extneed
 torrentfunk.com##[href*=".premium"]
-torrentgalaxy.*##.alert
 torrentgalaxy.*##a[href^="/hx?r0ff3r="][href$="&tfh"], #stopad, .kdguszftmyrvenilh, a[onmouseout="#"][href], img[src^="/common/images/"][alt="wide"][data-src="bin"]
 torrentgalaxy.*##body > [id] > div[class]:only-child > div[class]:first-child > div[class][style="padding: 0px 7px;max-width:445px;"] > div:first-child:not([class]):has(> div:only-child #stopad)
-torrentgalaxy.*,tgx.rs##.alert
 torrentgalaxy.*,tgx.rs##a[href^="/hx?r0ff3r="][href$="&tfh"], #stopad, .kdguszftmyrvenilh, a[onmouseout="#"][href], img[src^="/common/images/"][alt="wide"][data-src="bin"]
 torrentgalaxy.*,tgx.rs##body > [id] > div[class]:only-child > div[class]:first-child > div[class][style="padding: 0px 7px;max-width:445px;"] > div:first-child:not([class]):has(> div:only-child #stopad)
 torrentz2.*##.xpressa
@@ -12446,7 +12451,6 @@ unblocked.name##[style*="decoration"]:not([style^="width"])
 unblockit.*###ni-overlay
 unblocknow.*###cookieConsentVPN666
 unblocknow.*##.adstg
-unblocknow.*##.alert
 unblocksite.pw##div[id][onclick^="window.open('https://vpn-offers.com/"]
 underhentai.net##.hidden-sm
 underhentai.net##.sidebar > div[class] > .loading
