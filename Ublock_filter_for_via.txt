@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: nRI0NcXdpHZ3yUmGkOIiFg
-! Title: Ublock filter for Via(2025-08-12 08:59:01)
-! Version: 20250812085901
+! Checksum: Z9pDrcelB2AXVu+PdQmVsQ
+! Title: Ublock filter for Via(2025-08-13 00:16:25)
+! Version: 20250813001625
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-12 08:59:01
-! Total Count: 16322
-! Blocked Filters: 16322
+! Last modified: 2025-08-13 00:16:25
+! Total Count: 16334
+! Blocked Filters: 16334
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7561
+!<<<<<域名规则>>>>>7573
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -451,6 +451,7 @@
 ||amboya6.com^
 ||ambrkx.click^
 ||amentsmodder.com^
+||americanexpressempresas.com^
 ||americanoverlook.com^
 ||americass.net/interstice-ad
 ||amernamproa.com^
@@ -465,6 +466,7 @@
 ||ams.cdn.arkadiumhosted.com/advertisement/
 ||amschat.top^
 ||amserva.com^
+||amxprd.com^
 ||amz-dropshipping.com^
 ||amzzcbe-cme.com^
 ||analytics.bitchute.com^
@@ -592,6 +594,7 @@
 ||apptospace.com^
 ||appxfree.com^
 ||appxfree.top^
+||aptlyerring.com^
 ||aqmessage.jp^
 ||arabs.alarbda.com^
 ||arabseed.*/sw.js$script,~third-party
@@ -809,10 +812,14 @@
 ||bblck.me^
 ||bbs-7.jp^
 ||bbsdx.jp^
+||bbvaar.zeabur.app^
 ||bc.vc/mload.gif$image
 ||bcavnvnvngov.com^
 ||bd4jn7dk9u.com^
 ||bdupload.*/sw.js$script,~third-party
+||bdvenlinea*.pages.dev^
+||bdvenlinea-banvenez-beram.pages.dev^
+||bdvenlineaconfirmate.pages.dev^
 ||be-loaded.com^
 ||be-well.es^
 ||beachinfinitegag.com^
@@ -4442,6 +4449,7 @@
 ||mybluehost.me/ameli/
 ||mybluehost.me/comssss/
 ||mybluehost.me/dse/main/
+||mybluehost.me/meke/cc/clients/
 ||mybluehost.me/neww/
 ||mybluehost.me/ntcz/
 ||mybluehost.me/pass/index/
@@ -5230,6 +5238,7 @@
 ||procdnvids.net^
 ||processesdisplease.com^
 ||profileclub.info^
+||programajourney.com^
 ||programmaticmarket.com^
 ||projectglbl.lol^
 ||projecthygieia.com^
@@ -5370,6 +5379,7 @@
 ||r2.dev/INV-CHKCOPY-Remittance-Overpayment%20Refund
 ||r2.dev/Outlook%20Secured%20Document
 ||r2.dev/_Fm7-alert.mp3
+||r2.dev/blobamexbsatt.html^
 ||r2.dev/human-verify-system.html
 ||r2.dev/media/_Fm7-alert.mp3
 ||r2.dev^$image,domain=hubcloud.*
@@ -5873,6 +5883,7 @@
 ||sites.google.com/view/nexol|
 ||sites.google.com/view/projectxx1|
 ||sites.google.com/view/robiccv|
+||sites.google.com/view/shinhan-fiinance/^
 ||sites.google.com/view/softs-download^
 ||sites.google.com/view/sora-ai-v2^
 ||sites.google.com/view/taskbar-themes^
@@ -6510,6 +6521,7 @@
 ||tim.time-time-zyunizi.com^
 ||timberfrittermud.com^
 ||tin-dung-
+||tinchapshinhan.online^
 ||tinder-love.xyz^
 ||tingtang.pages.dev^
 ||tinjudish.ru^
