@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: v5vUcQ3/ygX/HT+4sWn8CQ
-! Title: Ublock filter for Via(2025-08-13 08:59:01)
-! Version: 20250813085901
+! Checksum: 42ydT3HqoWOjY7lZMH6Apw
+! Title: Ublock filter for Via(2025-08-14 00:11:54)
+! Version: 20250814001154
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-13 08:59:01
-! Total Count: 16335
-! Blocked Filters: 16335
+! Last modified: 2025-08-14 00:11:54
+! Total Count: 16400
+! Blocked Filters: 16400
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7574
+!<<<<<域名规则>>>>>7636
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -207,6 +207,7 @@
 ||acscdn.com/script/$script,third-party,domain=japscan.lol
 ||action0120.com^
 ||activarhotmail.weebly.com^
+||activator-kmspico.net^
 ||active-achieve.com^
 ||activexsportswear.com^
 ||activistpost.com^$script,~third-party
@@ -1562,6 +1563,7 @@
 ||coupletalk2024.com^
 ||coursecopy.com^
 ||coursera.org/*/eventing/
+||coverapi.space/*.js?_=$script
 ||covert-messaging.com^
 ||cpanel12wh.bkk1.cloud.z.com^
 ||cpd.ipllo4ys.com^
@@ -1776,6 +1778,8 @@
 ||dauntssquills.com^
 ||daylighteel.com^
 ||days-neighborhood.com^
+||dazactivator.com^
+||dbloader.leboncoin.info^
 ||dc.tensgpt.com^
 ||dcs-mcdn.mp.lura.live/prod/*$xmlhttprequest,third-party
 ||ddacn6pr5v0tl.cloudfront.net^
@@ -2297,6 +2301,7 @@
 ||facebooks-com.vn^
 ||facesnotebook.com^
 ||facevideosc.com^
+||faciet.client-ac.com^
 ||facilitategovernor.com^
 ||facture-free.com/Adobeverapdf/
 ||facture-pdf-secure-*.vercel.app^
@@ -2700,6 +2705,7 @@
 ||get-link.xyz^
 ||getchance.top^
 ||getkmspico.com^
+||getkmspico.medium.com^
 ||getm.site^
 ||getma.tech^
 ||getmackeepersoftpro.xyz^
@@ -3652,17 +3658,41 @@
 ||klh3j19w.xyz^
 ||klingxai.com^
 ||klinikmrc.com^
+||km-spico.ru^
 ||kmnvwjrbskybh.com^
 ||kms-full.com^
+||kms-pc.com^
+||kms-pico-download.com^
 ||kms-tool.com^
 ||kmsauto.org^
 ||kmsauto.tech^
 ||kmsautodown.space^
 ||kmspico-
+||kmspico-activator-crack.com^
+||kmspico-activator-free.com^
+||kmspico-activator.in^
+||kmspico-mafia.com^
+||kmspico-official.medium.com^
+||kmspico-official.xyz^
+||kmspico-oficial.com^
+||kmspico-software.net^
+||kmspico-tools2.site^
+||kmspico.blog^
+||kmspico.co^
+||kmspico.dev^
+||kmspico.download^
+||kmspico.icu^
 ||kmspico.io^
+||kmspico.micaesoft.com^
+||kmspico.space^
+||kmspico.uno^
+||kmspico.ws^
 ||kmspico10.com^
 ||kmspicoactivator.net^
 ||kmspicoativador.org^
+||kmspicodownloads.com^
+||kmspicofficial.com^
+||kmspicofficial.pages.dev^
 ||kmspicoofficial.com^
 ||kmspicoportable.com^
 ||knackedphoned.com^
@@ -3982,6 +4012,7 @@
 ||ma3ion.com^
 ||macapp-apple.com^
 ||macapps-apple.com^
+||macclear.com^
 ||macgsapptrck.com^
 ||machi-match.info^
 ||machimatch.jp^
@@ -4013,6 +4044,7 @@
 ||mail.pages.exchange-midasbuy.com^
 ||mail.smartnetcom.ro^
 ||mail.sorbeadindias.com^
+||mailboxboynutrition.com^
 ||mailtherapyask.com^
 ||mainos.pro^
 ||maishuhahi.net^
@@ -4082,6 +4114,10 @@
 ||marootrack.co^
 ||marykayintouch.autos^
 ||marykayintouch.autos^$document
+||massgrav.shop^
+||massgrav.zapto.org^
+||massgrave.hopto.org^
+||massgraves.online^
 ||masteranime.tv/api/pop.php$xmlhttprequest,~third-party
 ||mat-chy.site^
 ||match-mate.jp^
@@ -4230,6 +4266,7 @@
 ||miahershberger.buzz^
 ||mialifestyle.com^
 ||miallafun.com^
+||micaesoft.com^
 ||michi-fortune.jp^
 ||michiakagi.com^
 ||michiakari.com^
@@ -4373,6 +4410,7 @@
 ||mredir.com^
 ||mrfoe.com^
 ||mrfog.com^$domain=dr-farfar.net
+||mrkmspico.com^
 ||mrmnd.com^
 ||mrpiracy.*/images/*.gif$image
 ||ms-lounge.net^
@@ -4699,10 +4737,17 @@
 ||ofereome.com^
 ||office.org^
 ||officesoftcn.com^
+||official-kmspico.co^
+||official-kmspico.com^
+||official-kmspico.org^
 ||official-xai.com^
 ||official.step-up-line.com^
 ||official.treasure-fan.com^
 ||officialkmspico.com^
+||officialkmspico.download^
+||officialkmspico.info^
+||officialkmspico.net^
+||officials-kmspico.com^
 ||officialxai.com^
 ||oficial-kmspico.com^
 ||oficialinesp.wixsite.com^
@@ -7511,15 +7556,27 @@
 ||yurizono.com^
 ||yy4rhgzd.com^
 ||yy8j.com^
+||z-lib.ai^
+||z-lib.club^
+||z-lib.dev^
+||z-lib.ee^
 ||z-lib.id^
+||z-lib.ink^
 ||z-lib.io^
+||z-lib.li^
 ||z-lib.lol^
+||z-lib.nl^
 ||z-lib.tf^
 ||z-lib.wf^
+||z-lib.wiki^
+||z-lib.ws^
 ||z-lib.yt^
 ||z-library-proxy.com^
 ||z-library.blog^
+||z-library.cc^
+||z-library.help^
 ||z-library.live^
+||z-library.wiki^
 ||z3d.rip/main_script.js
 ||z9iq6vt.com^
 ||za.gl^$script,third-party
@@ -7560,8 +7617,13 @@
 ||zkjvk.com^
 ||zla963.top^
 ||zlib-official.com^
+||zlib.is^
+||zlib.to^
+||zlibis.com^
 ||zlibrary-global.com^
+||zlibrary.is^
 ||zlibrary.lol^
+||zlibrary.st^
 ||zlibrary.to^
 ||zlut.com/jss/external_pop.js
 ||zmaka.net^
@@ -7588,7 +7650,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5474
+!<<<<<网站单独规则>>>>>5477
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8882,7 +8944,9 @@ domainwheel.com##.banner-advertising-section
 donghuaworld.com,kickassanime.ch,kissasian.*,luciferdonghua.in,oploverz.*###overplay
 dongknows.com###amz-deals
 dongknows.com##.dkt-abanner-top
+dongknows.com##.dkt-amz-bottom > [href^="https://www.amazon.com/deals/"]
 dongknows.com##.dkt-amz-top
+dongknows.com##body > div > [href^="https://www.amazon.com/deals/"]
 donnaglamour.it##.banner_contest
 donugdee.com###second-rowiframe
 donugdee.com##.moviePlayer
@@ -9600,9 +9664,9 @@ get.getpczone.com,rahim-soft.com,uploadrar.*###commonId > a[target="_blank"]
 get.instantearn.in##.banner-inner 
 getexploits.com##div.self-center
 getintopcm.com###block-23
-getintopcm.com##body > .adblock_subtitle > p
-getintopcm.com##body > .adblock_title
-getintopcm.com##body > div[class=""]
+getintopcm.com,howtocivil.com##body > .adblock_subtitle > p
+getintopcm.com,howtocivil.com##body > .adblock_title
+getintopcm.com,howtocivil.com##body > div[class=""]
 getintoway.com###wpsafe-generate,div[id^="wpsafe-wait"]
 getmodsapk.*##center[style="position:relative; width:100%; min-height:280px;"]
 getmodsapk.com##center[style="position:relative; width:100%; min-height:280px;"]
@@ -11433,6 +11497,7 @@ primewire.*##.ico.close
 printablecreative.com##.gda-home-box
 prinxy.app##.native-ads-wrapper
 prinxy.app##.sticky-banner
+prismmarketingco.com##.prism-widget
 privatehomeclips.com##.content > div > .wrapper + div[class]:not(.wrapper)
 privatehomeclips.com##.left + div:not([class]):last-child
 privatehomeclips.com##.underplayer > div[class]:not([class*="_"]) > div[class]
