@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yl9d9v89ezDur6I9SDhp6w
-! Title: Ublock filter for Via(2025-08-15 00:16:35)
-! Version: 20250815001635
+! Checksum: Eawdxf/QSTDp01BEF3XKCA
+! Title: Ublock filter for Via(2025-08-15 08:59:27)
+! Version: 20250815085927
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-15 00:16:35
-! Total Count: 16402
-! Blocked Filters: 16402
+! Last modified: 2025-08-15 08:59:27
+! Total Count: 16404
+! Blocked Filters: 16404
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7650,7 +7650,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5478
+!<<<<<网站单独规则>>>>>5479
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -11323,6 +11323,7 @@ poedb.tw###topbanner970
 poedb.tw##.text-center:has([src*="webp"]):has([style])
 poedb.tw##[target="_blank"]:has([src*="webp"])
 pogdesign.co.uk##.box728
+pogdesign.co.uk##div[data-ad-slot]:has(ins.adsbygoogle)
 pogo.com###leaderboard-ad
 pogo.com##.hideableAd
 pogo.com##[class*="gameSkyscraperAd"]
@@ -14257,7 +14258,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2168
+!<<<<<放行白名单>>>>>2169
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15678,6 +15679,7 @@ voz.vn/b/image.gif?p=$image
 @@||sbs.demdex.net/dest5.html?d_nsid=0&ord=$xmlhttprequest,domain=sbs.com.au
 @@||scatfap.com/scat-porn/modules/vids/misc_static/adverts.js
 @@||scdn.co/cdn/js/gtag.$script,domain=spotify.com
+@@||scdn.cxense.com/cx.$domain=journaldemontreal.com
 @@||scdn.cxense.com/cx.$script,domain=wsj.com
 @@||scdn.cxense.com/cx.cce.js$script,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
 @@||scdn.cxense.com/cx.js$script,domain=digisport.ro
