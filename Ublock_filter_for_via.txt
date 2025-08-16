@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: t5b9mvMwXGDnJasCzHYxdQ
-! Title: Ublock filter for Via(2025-08-16 08:56:26)
-! Version: 20250816085626
+! Checksum: 4gIyn+phBnRxkI8WiBpCoQ
+! Title: Ublock filter for Via(2025-08-17 00:13:13)
+! Version: 20250817001313
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-16 08:56:26
-! Total Count: 16417
-! Blocked Filters: 16417
+! Last modified: 2025-08-17 00:13:13
+! Total Count: 16421
+! Blocked Filters: 16421
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7639
+!<<<<<域名规则>>>>>7642
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2849,7 +2849,7 @@
 ||googlesyndication.com^$script,domain=autobild.de|incredibox.com|indiatoday.in|intoday.in|metal-hammer.de|musikexpress.de|mypapercraft.net|rollingstone.de|thefreedictionary.com
 ||googletagmanager.com/gtag/js$domain=17track.net|starblast.io
 ||googletagmanager.com/gtag/js?id=UA-$script,domain=anydebrid.com|hotdebrid.com
-||googletagmanager.com/gtm.js$domain=fandom.com|plaion.com
+||googletagmanager.com/gtm.js$domain=fandom.com|jumbo.cl,removeparam|plaion.com
 ||googletagmanager.com^$domain=9to5google.com|9to5mac.com
 ||googletagmanager.com^$script,domain=foxnews.com
 ||googletagservices.com^$domain=pccomponentes.com
@@ -4806,6 +4806,7 @@
 ||onenightchicko.com^
 ||onenightfriend.com^
 ||onenote-download.com^
+||onepiecegoods.com^
 ||onesignal.com^$domain=blurayufr.xyz|columbian.com|faqwiki.us|freecoursesonline.me|ftuapps.dev|gamersdiscussionhub.com|levelupalone.com|onehack.us|xiaomitools.com
 ||onevanilla.click^
 ||onhockey.tv/stopadblock*.jpg$image
@@ -5273,6 +5274,7 @@
 ||princess2022.com^
 ||printablecreative.com/wp-content/uploads/pixel.gif
 ||printcaretech.com^
+||printslamdunk.com^
 ||privacyguides.io^
 ||privacyharbor.net^
 ||private-hide.com^
@@ -5314,6 +5316,7 @@
 ||pttavm.*.com.tr^
 ||ptube.pipio.site/adblock.js
 ||ptwmstc.com/npt/banner/
+||ptwmstcnt.com^$script,third-party
 ||pu4.biz^
 ||pub-*.r2.dev/DocuSign.html^
 ||pub-*.r2.dev/OneDrive.html^
@@ -7653,7 +7656,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5484
+!<<<<<网站单独规则>>>>>5485
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8447,6 +8450,7 @@ bravoporn.com##.undrplban
 bravoteens.com##.inplb3x2
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
+breednet.com.au##.CampaignType--fullscreen
 briefly.co.za##.c-adv
 briefly.co.za##.c-adv-branding__top
 britannica.com###md-media-overlay-ad
@@ -9174,7 +9178,7 @@ enjoyfuck.com,pornokeep.com##.advin
 enterinit.com##.bs-wrap-gdpr-law
 eoreuni.com##a[href^="https://iherb.co/"]
 epidemia-koronawirus.pl###sgpb-popup-dialog-main-div-wrapper
-epidemia-koronawirus.pl,romaniataramea.com,youwatch.*##.sgpb-popup-overlay
+epidemia-koronawirus.pl,korinthostv.gr,romaniataramea.com,youwatch.*##.sgpb-popup-overlay
 eplsite.uk##[href="https://www.eplsite.uk/vm.html"]
 eporner.com##.mb:has(> .adnative-1x1)
 erinsakura.com##.herald-fa-grid
@@ -10411,6 +10415,7 @@ kompas.id##.relative:has(> [id^="div-gpt-ad"])
 konstantinova.net##[href^="//mellowads.com/"]
 koramaup.com##[href^="http://u87yuo9ojh.world/"]
 koramaup.com##div.text-center.col-md-12:has([href*="//gjxmcla.pro/"])
+korinthostv.gr,romaniataramea.com,youwatch.*##.sgpb-popup-dialog-main-div-wrapper
 kpkuang.org###sterra-ad-onmid
 kropic.com,kvador.com,picbaron.com##.newsbar_blue
 krx18.com###dynamic-image
@@ -11533,6 +11538,7 @@ ptube.pipio.site###videoDiv
 publicearn.*##.page-header > h3, .banner, .bg-soft-primary, [style="margin-top: 250px;"], .box-main > center > center > [href], video
 publicearn.*##[href*="t.me"]
 publish0x.com###registerModal, .show.fade.modal-backdrop
+punters.com.au##.campaign-modal
 pureshort.*###link-view > a[href] > img
 pureshort.*###link-view > br
 purposegames.com##.adlabel
@@ -11696,7 +11702,6 @@ rockit.it##.articolo-body-text-banner
 rockmods.net##.download-btn-group > a[href*="/4/"].simple-btn
 rodjulian.com###baolink1s
 romadd.com###floating_ads_bottom_textcss_container
-romaniataramea.com##.sgpb-popup-dialog-main-div-wrapper
 romhustler.org##.tower_ad_desktop
 romsdl.net##a[rel="nofollow noreferrer noopener"][target="_blank"]
 romsmania.games##.widget_block
@@ -13109,7 +13114,6 @@ youmath.it###D_1
 youpornru.com##[data-tracking="track-close-btn-ad"]
 youtubetomp3.*##a[href="/button.php"]
 youwatch.*###custom_html-65
-youwatch.*##.sgpb-popup-dialog-main-div-wrapper
 youwatch.*##[href^="https://minilink.id/"]
 youx.xxx##.thumb_banner
 ytlarge.com##ins.adsbygoogle[data-ad-slot]
@@ -15173,7 +15177,7 @@ voz.vn/b/image.gif?p=$image
 @@||googletagmanager.com/gtag/js$third-party,script,domain=trinket.io
 @@||googletagmanager.com/gtag/js$xmlhttprequest,domain=quackr.io|streamingcommunity.*
 @@||googletagmanager.com/gtag/js?id=G$script,domain=riteaid.com
-@@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
+@@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|jumbo.cl|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|radiox.co.uk|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|shockwave.com|sloways.eu|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=bela.gifts|corsair.com|lingvolive.com|mf-realty.jp|rocketnews24.com|simon.com|soranews24.com
 @@||googletagmanager.com/gtm.js$script,third-party,domain=al.com|cleveland.com|eu.community.samsung.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
