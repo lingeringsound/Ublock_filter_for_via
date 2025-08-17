@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: iESNm44n5QGNygfoc/5EoQ
-! Title: Ublock filter for Via(2025-08-17 09:03:59)
-! Version: 20250817090400
+! Checksum: HO41mvZre9//sr2MHRmFTw
+! Title: Ublock filter for Via(2025-08-18 00:13:29)
+! Version: 20250818001329
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-17 09:04:00
-! Total Count: 16424
-! Blocked Filters: 16424
+! Last modified: 2025-08-18 00:13:29
+! Total Count: 16428
+! Blocked Filters: 16428
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7642
+!<<<<<域名规则>>>>>7643
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1401,6 +1401,7 @@
 ||clonezilla.es^
 ||clonezilla.fr^
 ||clonezilla.it^
+||closercopy.cfd^
 ||cloud-access.org^
 ||cloud-deployments.org^
 ||cloud-folder.org^
@@ -1480,7 +1481,7 @@
 ||com/*markerclusterer_compiled.js|$script,third-party
 ||com/on.js?var=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=38.114.120.167
 ||comdotgame.com/static/ads/istripper/
@@ -7483,7 +7484,7 @@
 ||xyz-trade.com^
 ||xyz/akbank/
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -7656,7 +7657,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5486
+!<<<<<网站单独规则>>>>>5487
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -7793,7 +7794,7 @@ $script,domain=zdnet.fr,third-party
 21porno.com###s-title
 22pixx.xyz##[class^="resp-container"]
 24game.stream##.ad-modal
-25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,jetseotools.com,key-hub.eu,kwamkidhen.com,leechpremium.link,letmeread.net,lightnovelworld.*,lightnovelworld.com,listatv.pl,logaritmo.org,lootdb.com,loveawake.com,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vedetta.org,vidlii.com,vinstartheme.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,worldaide.fr,yoursavegames.com,zikloud.com##ins.adsbygoogle
+25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,jetseotools.com,key-hub.eu,kwamkidhen.com,leechpremium.link,letmeread.net,lightnovelworld.*,lightnovelworld.com,listatv.pl,logaritmo.org,lootdb.com,loveawake.com,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vedetta.org,vidlii.com,vinstartheme.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,work.ink,worldaide.fr,yoursavegames.com,zikloud.com##ins.adsbygoogle
 2conv.com,flvto.biz##.content-right-bar
 2conv.com,flvto.biz##.horizontal-area
 2th.me##.pc-container
@@ -7930,7 +7931,7 @@ adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##center:has(> a[href="javascript:hidepromol();"])
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##table[class^="a"]
 additudemag.com##.primary-sidebar-ad
-adinsurance.xyz,insurglobal.xyz,prepostseo.com##div[id^="bsa-zone_"]
+adinsurance.xyz,insurglobal.xyz,prepostseo.com,work.ink##div[id^="bsa-zone_"]
 adlinkweb.com,bestcash2020.com,ckk.ai,cut-fly.com,ex-foary.com,fc.lc,get.instantearn.in,gtlink.co,icutlink.com,iir.la,link.paid4file.com,link1s.*,linkjust.com,lnbz.la,myshrinker.com,oei.la,oii.la,oko.sh,oncehelp.com,paid4.link,satoshi-win.xyz,set.seturl.in,solarchaine.com,tii.la,tpi.li,tvi.la,upshrink.com,vklinks.com,vplink.in##.banner-inner
 adrino1.bonloan.xyz,instanders.app,keedabankingnews.com,rokni.xyz,tackledsoul.com,vi-music.app##.captcha-check, #tp-snp2, #countdown:others()
 adshnk.com##a.item[href^="https://plarium.com/"]
@@ -8411,6 +8412,7 @@ bloggingguidance.com,onroid.com###wpsafe-snp1:others()
 blograffo.net##[href^="https://amzn.to/"]
 blogspot.com,web.app##img[onclick="kemana()"]
 blogterest.net##.blockSide > div.blockWrapper:has(> div > div.ninja-recommend-block)
+blogue.tech###jeg_forgotform + div[id][class]
 blogx.almontsf.com###adxbox
 bluedollar.net##div[id^="aub"]
 bluemediadownload.*,bluemediafile.*,bluemedialink.*,bluemediastorage.*,bluemediaurls.*,urlbluemedia.*###ads-centter
@@ -13145,7 +13147,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>842
+!<<<<<通配符规则>>>>>843
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13430,6 +13432,7 @@ $script,domain=zdnet.fr,third-party
 /aot-content/assets/*/cb-ads/*$domain=asiaon.top|asiaontop.com
 /apc/r.gif
 /apc/trans.gif
+/api.kimonix.com/kimonix_analytics.js
 /api/click/*?c=$image
 /api/delivery/knowledge?callback=window._an.setABShow
 /api/model/feed?siteId=$xmlhttprequest,third-party
@@ -13990,7 +13993,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>280
+!<<<<<通用Css规则>>>>>281
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -14029,6 +14032,7 @@ voz.vn/b/image.gif?p=$image
 ###dontfoid
 ###downloadAd:not(:empty)
 ###go-to-top + div[id][class*=" "]
+###go-to-top + div[id][class]
 ###invid_call
 ###invideo_2
 ###invideo_data
