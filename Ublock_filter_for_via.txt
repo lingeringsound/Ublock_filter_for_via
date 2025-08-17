@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4gIyn+phBnRxkI8WiBpCoQ
-! Title: Ublock filter for Via(2025-08-17 00:13:13)
-! Version: 20250817001313
+! Checksum: iESNm44n5QGNygfoc/5EoQ
+! Title: Ublock filter for Via(2025-08-17 09:03:59)
+! Version: 20250817090400
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-17 00:13:13
-! Total Count: 16421
-! Blocked Filters: 16421
+! Last modified: 2025-08-17 09:04:00
+! Total Count: 16424
+! Blocked Filters: 16424
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7656,7 +7656,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5485
+!<<<<<网站单独规则>>>>>5486
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -9408,6 +9408,7 @@ flaticon.com##.soul-p-nsba
 flickr.com##.nav-ad-container
 flickr.com##.sub-photo-submoola-view
 flickr.com##section:has([href*="istockphoto.com"])
+flightsim.to##.flightsim-main > div[style="margin:0 auto; position:relative; z-index:10"] > div[align="center"]:empty
 flipkart.com##div[data-id]:has(rect[width="62"][height="18"][fill="white"] + path[d^="M5.82955"][fill="#9E9E9E"])
 flixhouse.com##.bottom-left.jq-toast-wrap
 flixscans.com##.teaser-buttom
@@ -14272,7 +14273,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2172
+!<<<<<放行白名单>>>>>2174
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15263,7 +15264,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|wcvb.com|winknews.com|wsls.com|yaktrinews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js^$script,domain=timesnownews.com|virginmediatelevision.ie
@@ -15514,8 +15515,9 @@ voz.vn/b/image.gif?p=$image
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl|video-ac.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|premid.app|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|pasty.*|play.aidungeon.io|premid.app|sudoku-aktuell.de|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|trangchu.news|upshrink.com|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|cursomecanet.com|heim.jp|radioviainternet.nl
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,third-party,domain=fplstatistics.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10.com.au|10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|loot-link.com|lootdest.*|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule,domain=carousell.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ord=$xmlhttprequest,domain=sbs.com.au
@@ -16244,6 +16246,7 @@ exploader.net#@#a[href^="https://al.dmm.co"]
 exploader.net#@#a[style*="display:"][href^="https://al.dmm.co.jp"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
 fapeza.com#@#.azz_div
+fontyukle.net#@#div[class^="sag-ust"]
 forbes.it#@#.ad-row
 formulapassion.it#@##qc-cmp2-main
 formulapassion.it#@#.qc-cmp2-container
