@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: HO41mvZre9//sr2MHRmFTw
-! Title: Ublock filter for Via(2025-08-18 00:13:29)
-! Version: 20250818001329
+! Checksum: IluOyNrUor1+Q+ytbWWP8w
+! Title: Ublock filter for Via(2025-08-18 09:03:14)
+! Version: 20250818090314
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-18 00:13:29
-! Total Count: 16428
-! Blocked Filters: 16428
+! Last modified: 2025-08-18 09:03:14
+! Total Count: 16438
+! Blocked Filters: 16438
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7643
+!<<<<<域名规则>>>>>7651
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -523,6 +523,10 @@
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xmlhttprequest,third-party
 ||api.app.dfbplay.tv/V1/Adverts/GetVast$xmlhttprequest,~third-party
 ||api.asiaflix.net/v*/utils/get-ad-code^
+||api.asiaon.top/index.php?graphql&operationName=GetAllSidebars
+||api.asiaon.top/index.php?graphql&operationName=GetContentWidgets
+||api.asiaon.top/index.php?graphql&operationName=GetHeaderAdScripts
+||api.asiaon.top/index.php?graphql&operationName=GetModulaGalleryAds
 ||api.baomoi.com/*/w/$script,xmlhttprequest,~third-party
 ||api.baomoi.com/a465/
 ||api.bilibili.com/x/click-interface/click/web/h5^
@@ -5561,6 +5565,7 @@
 ||revancedmusic.com^$domain=~revanced.app
 ||revancedyoutube.org^$domain=~revanced.app
 ||revbid.net^
+||reverents.xyz^
 ||reverita-t.jp^
 ||reveur-voyance.jp^
 ||reviewstudio.com/-/en/gp/mas/your-account/
@@ -6238,6 +6243,7 @@
 ||streamssitesearch.com^
 ||streamup.ws/assets/js/adblock.js$script,~third-party
 ||streetsbuccaro.com^
+||strekepetrols.com^
 ||stretchedbystander.com^
 ||strpjmp.com^
 ||studiogiamberardino.it^
@@ -7292,6 +7298,7 @@
 ||windowspro.de/stats/
 ||winfr-wtc.com^
 ||winfreebigwindeal.top^
+||winisheam.cfd^
 ||wired.com/ams/page-ads.js$script
 ||wishhoree1890.com^
 ||wisoper.click^
@@ -7611,6 +7618,7 @@
 ||zeroappointment.com^
 ||zerocha.jp^
 ||zeroendeapo.com^
+||zeroglamour.com^
 ||zeroupload.info^
 ||zetadeo.com^
 ||zetporn.com/*/custom_vast/$xmlhttprequest
@@ -7657,7 +7665,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5487
+!<<<<<网站单独规则>>>>>5488
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -10727,6 +10735,7 @@ megayoungsex.com##.SHVidBlockUndBn
 meilblog.com##.adblock_subtitle
 meilblog.com##.adblock_title
 mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*##iframe[src^="publi"]
+meltol.net###content_area
 menjelajahi.com##.alert-danger.alert-dismissable.alert
 mercadolivre.com.br###ui-billboard-ad
 mercatinomusicale.com##[id^="skin"]
@@ -14277,7 +14286,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2174
+!<<<<<放行白名单>>>>>2175
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14663,6 +14672,7 @@ voz.vn/b/image.gif?p=$image
 @@||bizx.info^$websocket,domain=sourceforge.net
 @@||blackberrymobile.com/emea/core/modules/*/site_tracking.js$script,~third-party
 @@||blindhypnosis.com/adsbygoogle.js$script,~third-party
+@@||blockietv.xyz/adbdetect/
 @@||blockingtv.xyz/adbdetect/$script
 @@||blogspot.com/b/stats$xmlhttprequest,~third-party
 @@||bloomberg.com/*/captcha/captcha.js$script,~third-party
