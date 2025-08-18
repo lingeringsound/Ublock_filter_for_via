@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: IluOyNrUor1+Q+ytbWWP8w
-! Title: Ublock filter for Via(2025-08-18 09:03:14)
-! Version: 20250818090314
+! Checksum: R6vWYGkBJ00JuuhiEPEsdA
+! Title: Ublock filter for Via(2025-08-19 00:15:43)
+! Version: 20250819001543
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-18 09:03:14
-! Total Count: 16438
-! Blocked Filters: 16438
+! Last modified: 2025-08-19 00:15:43
+! Total Count: 16440
+! Blocked Filters: 16440
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7651
+!<<<<<域名规则>>>>>7652
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1560,6 +1560,7 @@
 ||cosmos-metatrade.com^
 ||cosplayporntube.com/creatives/
 ||couchtuner.*/sw.js$script,~third-party
+||councernedasesi.org^
 ||counselschambers.co.uk^
 ||counter-strike2-official.net^
 ||counter2.blog.livedoor.com^$image
@@ -7665,7 +7666,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5488
+!<<<<<网站单独规则>>>>>5489
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8499,6 +8500,8 @@ buktube.com,fullxh.com,galleryxh.site,hamsterix.*,megaxh.com,movingxh.world,seex
 buktube.com,fullxh.com,galleryxh.site,hamsterix.*,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhchannel2.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtab2.com,xhtab4.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com,xhxh3.xyz##div[class$="premium-n-overlay"]
 buktube.com,fullxh.com,galleryxh.site,hamsterix.*,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhchannel2.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtab2.com,xhtab4.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com,xhxh3.xyz##div[class*="cams-wgt"]
 buktube.com,fullxh.com,galleryxh.site,hamsterix.*,megaxh.com,movingxh.world,seexh.com,unlockxh4.com,valuexh.life,xhaccess.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster2.*,xhamster20.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhchannel2.com,xhdate.world,xhday.com,xhday1.com,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtab2.com,xhtab4.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwebsite5.com,xhwide1.com,xhwide2.com,xhwide5.com,xhxh3.xyz##div[data-testid="right-banner-section"]
+bullrun2024.online,cdn256.xyz,newcdn.lol,pererecadoida.life###obrazek
+bullrun2024.online,cdn256.xyz,newcdn.lol,pererecadoida.life###overover
 bullrun2024.online,daddylive.*,iseeyouandyouseeme.me,newcdn.lol,pererecadoida.life###floatLayer1
 buondua.com##.main-body div[class]:has(> .adsbyexoclick)
 buondua.com##.pagination + br + div[class]
@@ -11243,8 +11246,6 @@ pelisplus.online,watchtheofficeonline.net###custom_html-7
 pelisplus2.*##[style^="margin:-30px"] > [href][target="_blank"]
 perchance.org##div[style*="var"][style*="min-height"]:has([data-freestar-ad])
 pererecadoida.life,newcdn.lol,bullrun2024.online###bannerInCenter
-pererecadoida.life,newcdn.lol,bullrun2024.online###obrazek
-pererecadoida.life,newcdn.lol,bullrun2024.online###overover
 perfectgirls.*,perfektdamen.*##.promo
 pervclips.com##.spot-after
 pervclips.com##.thumb_spots
@@ -12709,6 +12710,7 @@ vipurl.in##div.banner-inner, footer
 viralfeed.*##.admania-widgettit
 viralsbaba1.blogspot.com###btn-gotolink:others()
 visualnewshub.com##.LailasMagic
+vitalitygames.com###top_wrapper
 viu.com##.ad-ph
 viu.com##.banner_ad_label
 vivatube.*##.clear + .mt15.container[style="margin-top:15px; border-bottom:0;"]
