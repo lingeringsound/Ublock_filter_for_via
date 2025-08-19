@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: R6vWYGkBJ00JuuhiEPEsdA
-! Title: Ublock filter for Via(2025-08-19 00:15:43)
-! Version: 20250819001543
+! Checksum: lu6Mo7aY+Y1RuT5twi66iA
+! Title: Ublock filter for Via(2025-08-19 08:57:36)
+! Version: 20250819085736
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-19 00:15:43
-! Total Count: 16440
-! Blocked Filters: 16440
+! Last modified: 2025-08-19 08:57:36
+! Total Count: 16441
+! Blocked Filters: 16441
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7666,7 +7666,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5489
+!<<<<<网站单独规则>>>>>5490
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8570,6 +8570,7 @@ camwhoresbay.com##.fake-player
 camwhoresbay.com,femdomtb.com,javbangers.com,porndr.com##div.opt
 camwhoreshd.com,cwtvembeds.com##.hola_top_element
 cancelguider.online,loan.punjabworks.com###tp-snp2, #cross-snp2:others()
+canlikolik.my###video-click-overlay
 canoe.com###postmedia_layouts_ad-top
 canoe.com##.ad__container
 capital.fr##.cap-ads
