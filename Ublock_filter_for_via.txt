@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lu6Mo7aY+Y1RuT5twi66iA
-! Title: Ublock filter for Via(2025-08-19 08:57:36)
-! Version: 20250819085736
+! Checksum: WX4Ltw+6EzoC72zcecapOw
+! Title: Ublock filter for Via(2025-08-20 00:14:48)
+! Version: 20250820001448
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-19 08:57:36
-! Total Count: 16441
-! Blocked Filters: 16441
+! Last modified: 2025-08-20 00:14:48
+! Total Count: 16457
+! Blocked Filters: 16457
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7652
+!<<<<<域名规则>>>>>7655
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -902,6 +902,7 @@
 ||bilsevvakfi.org^
 ||binace-epa.com^
 ||binance.org^$xmlhttprequest,domain=animexin.vip
+||bing.com/web/xlsc.aspx
 ||bingkasprogram-*.xdbng.com^
 ||bingstyle.com^
 ||binhchoncuocthivetranhsinhvien2024.weebly.com^
@@ -4370,6 +4371,7 @@
 ||money-present.com^
 ||moneyget.top^
 ||monglitch.monster^
+||monitor.*/test?rnd=$xmlhttprequest,third-party
 ||monkfieldreptile.com/nlrum/nlRUM.js$~third-party
 ||monogonzalez.com^
 ||moody-night.net^
@@ -5964,6 +5966,7 @@
 ||skyscrapertowel.com^
 ||skysportspro.com^
 ||slb3cr9dx9.jp^
+||slc.cbssports.com^
 ||sldg02.com^
 ||sleetposition.website^
 ||slimhealth.us^
@@ -7666,7 +7669,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5490
+!<<<<<网站单独规则>>>>>5500
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -9799,6 +9802,11 @@ grantorrents.*##.myButton
 graphicuv.com###popup, #blur-background
 graphicuv.com,hit-films.com,learnmany.in###btn6:others()
 grattez.fr##.ad-image-megaban
+greatandhra.com##.add__txt
+greatandhra.com##.ads_blocks
+greatandhra.com##.great_andhra_body > div[class^="great_andhra_main_"]:has(> div > a > img[width="330"][height="40"])
+greatandhra.com##.sortable-list > li.sortable-item:has(> div > a > img[width="300"][height="50"])
+greatandhra.com,~epaper.greatandhra.com##a:not([href*="greatandhra.com/"]):not([href^='/']) > img
 greensboro.com##.modal, .modal-backdrop
 greentumble.com##.cp-module
 grtjobs.in,call-bomber.info,kajernews.com,vyaapaarguru.in##[onclick*="handleContinueClick"], #please-wait, .step:others()
@@ -10813,6 +10821,11 @@ moddedguru.com##div.banner
 moddingzone.in,model-tas-terbaru.com,therootdroid.com,worldappsstore.xyz###wpsafe-wait2
 modebaca.com##[href="https://www.tautan.pro/"]
 modijiurl.com##.animated.text-center, [href*="t.me/modijiurl"], .captcha-box > p, .ad-container, [src*="blogger"], [src*=".png"]
+modrinth.com##.markdown-body a:is([href*="bisecthosting.com"],[href^="https://dediamondpro.dev/bisecthosting?"],[href="https://www.euphoriapatches.com/ember-referral"],[href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) img
+modrinth.com##.markdown-body a[href*="/redirect/"] img
+modrinth.com##.markdown-body a[href*="bisecthosting.com"]:not([href$="/"]):not([href$=".com"])
+modrinth.com##.markdown-body a[href^="https://billing.ember.host/aff.php?aff="]
+modrinth.com##.markdown-body p > img[alt^="Use code"]
 modrinth.com##section.normal-page__content :is([href^="https://ModdersAgainstBlockers.github.io"],[href*="/kinetic/"],[href*="/creeperhost"],[href^="https://fxco.ca/assets/"],[href^="https://rb.gy/"]) > img
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"] img
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"][href*="?r="] img
@@ -13159,7 +13172,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>843
+!<<<<<通配符规则>>>>>844
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13657,6 +13670,7 @@ $script,domain=zdnet.fr,third-party
 /ma.js^$script,domain=1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.*|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
 /main.js$script,third-party,domain=criptologico.com
 /mc-test/*/index.php?cid=
+/measurements/*.ts?rnd=$xmlhttprequest,third-party
 /mellowpresence.com^$script
 /merrx01/^
 /metrics^|$script,~third-party,domain=anizle.com|anizm.net|puffytr.com
@@ -14289,7 +14303,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2175
+!<<<<<放行白名单>>>>>2177
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14930,6 +14944,7 @@ voz.vn/b/image.gif?p=$image
 @@||d1z2jf7jlzjs58.cloudfront.net/p.js$script,domain=tg24.sky.it
 @@||d24n15hnbwhuhn.cloudfront.net/libs/amplitude-$script,domain=gethuman.com|play.anghami.com
 @@||d29xw9s9x32j3w.cloudfront.net/players/library/*$domain=seattlepi.com|sfgate.com
+@@||d2r1yp2w7bby2u.cloudfront.net/js/a.js$script,domain=bmshosting.in
 @@||d2wy8f7a9ursnm.cloudfront.net/*/bugsnag.min.js$script,domain=crust.com.au
 @@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$script,domain=tally-weijl.com
 @@||d2y8ttytgze7qt.cloudfront.net^$xmlhttprequest,domain=streamingcommunity.*
@@ -16147,6 +16162,7 @@ voz.vn/b/image.gif?p=$image
 @@||www.realclear*/esm/assets/js/analytics/chartbeat.js?v=$xmlhttprequest,~third-party,strict1p,method=get,domain=com|org
 @@||www.realclear*/esm/assets/js/analytics/gaAnalytics.js?v=$xmlhttprequest,~third-party,strict1p,method=get,domain=com|org
 @@||wwwjuwanshe.pp8.com^$third-party,domain=juwanshe.com
+@@||wzrkt.com^$script,domain=bmshosting.in
 @@||x.kinja-static.com/assets/packaged-js/trackers$script
 @@||yandexcdn.com^$script,~third-party
 @@||yimg.com/ss/rapid$script,domain=aol.com
