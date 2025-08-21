@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: nrwhyXWmkHfMEnUhHsQ8BA
-! Title: Ublock filter for Via(2025-08-21 08:54:52)
-! Version: 20250821085452
+! Checksum: 403b2D6y9t59sX/i/1p4Lw
+! Title: Ublock filter for Via(2025-08-22 00:19:13)
+! Version: 20250822001913
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-21 08:54:52
-! Total Count: 16487
-! Blocked Filters: 16487
+! Last modified: 2025-08-22 00:19:13
+! Total Count: 16522
+! Blocked Filters: 16522
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7679
+!<<<<<域名规则>>>>>7706
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -335,6 +335,7 @@
 ||agqycbadbofog.com^
 ||agripro-fr-*.com^
 ||ahentai.top/counter.php
+||ahskummakjt.com^
 ||aht42trk.com^
 ||ahvradotws.com^
 ||ai-mono.jp^
@@ -423,6 +424,7 @@
 ||alwix.com^
 ||amaeex.one^
 ||amaenbo.jp^
+||amandes*.serv00.net^
 ||amantssexy.com^
 ||amari-ama.com^
 ||amateurdough.com/promomaterials/*/banners/$image,domain=shegods.com
@@ -469,6 +471,7 @@
 ||amserva.com^
 ||amxprd.com^
 ||amz-dropshipping.com^
+||amz.boy.mybluehost.me^
 ||amzzcbe-cme.com^
 ||analytics.bitchute.com^
 ||analytics.google.com^$third-party
@@ -500,6 +503,7 @@
 ||annotationsincereexistence.com^
 ||another2020.net^
 ||ant.spica-telescope.com^
+||antai-gouv-fr.troliga.sk^
 ||anti-automation-v*.b-cdn.net^
 ||antivirus.landerhd.com^
 ||antoiew.com^
@@ -634,6 +638,7 @@
 ||asjjlh.cfd^
 ||askfollow.us^
 ||askme4date.com^
+||askozvar.sk/*/amendesgouv/
 ||asset.kompas.com/data/*/kgmedia/js/*notif$script
 ||assets.adobedtm.com/*source.min.js$script,domain=accounts.o2.co.uk
 ||assets.adobedtm.com/launch-$script,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|theolympian.com|thenewstribune.com|thestate.com|tri-cityherald.com
@@ -1226,7 +1231,7 @@
 ||cdn.srxy.xyz^
 ||cdn.staticmoly.me/*.php$domain=vidmoly.*
 ||cdn.streamroot.io/dna-client/$script,domain=prod-player.tf1.fr
-||cdn.stroeerdigitalgroup.de/metatag/live/
+||cdn.stroeerdigitalgroup.de/metatag/live/$domain=~golem.de
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.
 ||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
@@ -1243,6 +1248,7 @@
 ||cdnjs-storage.com^
 ||cdnpk.net/sponsor/
 ||cdnpk.net^$domain=flaticon.com
+||cdnservice.ink^
 ||cdnstaticpr.com^$third-party
 ||cdnstatics.net^
 ||cdypsqghdgrw.com^
@@ -1458,12 +1464,14 @@
 ||codeanyapp.com/Sus/*/sign.php^
 ||codeanyapp.com/Swiss_com/
 ||codeanyapp.com/Swissp/
+||codeanyapp.com/amendes/
 ||codeanyapp.com/dgte/
 ||codeanyapp.com/hype/
 ||codeanyapp.com/info/cc.php^
 ||codeanyapp.com/klarna/
 ||codeanyapp.com/manage-SBB/
 ||codeanyapp.com/neta/*/pay-method.php
+||codeanyapp.com/pr/rue/
 ||codeanyapp.com/swiss-login/
 ||codecarawan.com^
 ||coertiest.click^
@@ -1503,6 +1511,7 @@
 ||communitystudionart.com^
 ||comodozeropoint.com^
 ||compass-holding.com^
+||complete-to-continue.pages.dev^
 ||computer-bild.de/_static-assets/homad/homad.js
 ||conackmar.com^
 ||conceivesaucerfalcon.com^
@@ -1804,6 +1813,7 @@
 ||deal-dealings.com^
 ||deal-defeat.com^
 ||dealhunt.website^
+||dearmonalisa.com^
 ||debridleech.com^
 ||debridlink.com^
 ||debridlink.com^$document
@@ -3324,6 +3334,7 @@
 ||imp2.com^
 ||implarededeensino.com.br^
 ||impliednauseous.com^
+||impotsgouv.*.wcomhost.com^
 ||impoverishedordealscrutinize.com^
 ||impressexaltsculptor.com^
 ||improveyourhand.online^
@@ -3616,6 +3627,7 @@
 ||katfile.com/images/dlli.png$image
 ||kbkb.bet^
 ||kbthuhoivontreo.com^
+||kby.oqp.mybluehost.me^
 ||kcmcbc.click^
 ||keenchimairaanthem.com^
 ||keep.secret-ace.com^
@@ -4489,8 +4501,11 @@
 ||myanimelist.net/ma/s
 ||mybach.xyz^
 ||mybestclick.net^$third-party
+||mybluehost.me/*/3dsec.php^
 ||mybluehost.me/*/CHFINAL/
 ||mybluehost.me/*/MitID/
+||mybluehost.me/*/amendes.org/
+||mybluehost.me/*/amendes2024org/
 ||mybluehost.me/*/choronopost/
 ||mybluehost.me/*/csom/
 ||mybluehost.me/*/dir/ca/pay/
@@ -4532,6 +4547,7 @@
 ||mybluehost.me/wise/number-account-
 ||mybluehost.me/wp-admin/amz/
 ||mybluehost.me/wp-admin/maajoun/
+||mybluehost.me/wp-content/12/*.php^
 ||mycoolmoviez.*/sw.js
 ||mydirtytinders.com^
 ||myeloma.gr.jp/zz.php^
@@ -4626,6 +4642,7 @@
 ||netaffiliation.com^$third-party
 ||netdna-ssl.com/sbly-ads/sbly-prebid-$script,domain=seeitlive.co
 ||netflix.avdhoothadke.com^
+||netflix.com/log/
 ||netlify.app/errox01/?
 ||netlify.app/help/support/client_id=
 ||netsgram.com^
@@ -4684,6 +4701,7 @@
 ||nlfhtxehjzeti.com^
 ||nnggo.com^
 ||noaa.maps.arcgis.com/apps/instant/*/AppMeasurement.js$~third-party
+||nogruptexn.com^
 ||nohat.me^$third-party
 ||noi9va4ewa.com^
 ||noitons.net^
@@ -4755,6 +4773,8 @@
 ||ocalam.com:8443/impact^
 ||ocbcccreonline.com^
 ||od.atami.no/one_drive.html
+||odeal.fi/amndes/*.php^
+||odeal.fi/fr/AMA/*.php^
 ||odinvzc.azureedge.net/apc/trans.gif
 ||odorfulapheses.com^
 ||odyssey1.to^
@@ -5140,6 +5160,7 @@
 ||piparelli.net^
 ||pirikitos.com^
 ||pixeltrey.com^
+||pixiv.verificationidentity.click^
 ||pixoff.one^
 ||pktbuu.morau.top^
 ||pl.allsports4free.club^
@@ -5270,6 +5291,7 @@
 ||post.nationalrent.ru^
 ||postimg.cc^$image,domain=uploadingsite.info|uploadraja.com
 ||postyourlife.com^
+||powcloud.*/js/hpu.js
 ||powcloud.*/pu*.min.js
 ||poweredbyliquidfire.mobi^
 ||powr.io^$third-party,script
@@ -5747,6 +5769,7 @@
 ||saro-nelmng.com^
 ||sarodesdonnot.com^
 ||sascdn.com^$script,domain=autobild.de|metal-hammer.de|musikexpress.de|rollingstone.de|transfermarkt.de
+||sasktel.mmspos.com^
 ||savefiles.*/js/noadblocker.js
 ||savefiles.com/js/noadblocker.js
 ||sbasian.pro/js/mainpc.js
@@ -7003,6 +7026,7 @@
 ||vcnbbtrack.com^
 ||vdbank.com.vn^
 ||vdo.ai^$third-party
+||vdv.oqp.mybluehost.me^
 ||vectorization.org/cnc/?*=rightcol$xmlhttprequest,~third-party
 ||veepteecejoushe.net^
 ||vegansweeets.jp^
@@ -7110,6 +7134,7 @@
 ||vliplatform.com^$third-party
 ||vlr.gg/img/bet/$image
 ||vlyyg.com^
+||vmb.wvs.mybluehost.me^
 ||vn-chinhphu.com^
 ||vn-ebay.quxlpuj.cn^
 ||vn-eid.com^
@@ -7197,7 +7222,9 @@
 ||watson.de/js/tisoomi.js$script,~third-party
 ||wawahrsdfrhfsdfh.com^
 ||waybig.com/*.gif$image
+||wcomhost.com/amendes-gouv/
 ||wcomhost.com/ch/upc/
+||wcomhost.com/impots-gouv/
 ||wcomhost.com/spass/
 ||weadown.com/urls/js/wp-api.js
 ||weakermumrespect.com^
@@ -7693,7 +7720,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5504
+!<<<<<网站单独规则>>>>>5508
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -10391,6 +10418,7 @@ kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
 kachelmannwetter.com,meteologix.com,weather.us##.dkpw-billboard-margin-fixed
 kachelmannwetter.com,meteologix.com,weather.us##.kw-ad-right
 kalicrack.com##center > .button-container:has(> #directDownload)
+kalileaks.com##[href^="https://alexhost.com/"]
 kamerabudaya.com##.ads, div.adsadsense, #HTML1
 kaotic.com##.track_outbound_post.grid-item
 kaotic.com##div.hard-5.col-xs-12.col-sm-3:has(.track_outbound_post)
@@ -11409,6 +11437,9 @@ porcore.com##[target="_blank"]:has([src*=".gif"])
 porcore.com##li > a[href*="/loader?"]
 poring.world##[data-ad-slot]
 porn-images-xxx.com###display_image_detail > span
+porn00.*##.content [class^="headline"][style^="margin:"]
+porn00.*##.member2link
+porn00.*##a[href="https://porn00.org/best-casino/"]
 porn00.org##div.headline[style]
 porn4fans.com##.bottom-links
 porn4fans.com##.top-links
@@ -13200,7 +13231,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>845
+!<<<<<通配符规则>>>>>848
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13321,6 +13352,7 @@ $script,domain=zdnet.fr,third-party
 .com/pl?o=
 .com/play-2?h=*=eyJ&si1=
 .com/r2.php?e=
+.com/s/*?track=
 .com/static/full_combined2.js|$script,~third-party
 .com/static/new_popunder5.js|$script,~third-party
 .com/t6pp7e3?t=
@@ -13654,6 +13686,7 @@ $script,domain=zdnet.fr,third-party
 /ingest/*^ip=
 /ingress/*^ip=
 /invoke.js$script,domain=mirrorace.*
+/iomm/latest/bootstrap/loader.js
 /istripper*$image,domain=hentaipins.com
 /istripper.js
 /istripper/istripper_$image,domain=8boobs.com|babesinporn.com|fooxybabes.com|hotstunners.com|mainbabes.com|pleasuregirl.net|rabbitsfun.com|silkengirl.*|wantedbabes.com
@@ -13929,6 +13962,7 @@ $script,domain=zdnet.fr,third-party
 ://a.*/warpim?id=$script,third-party
 ://account.booking.xn--
 ://adv.$third-party,domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.sciconnect.unsw.edu.au|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://api.*.com/?rt=
 ://api.*/lib/native.wasm$third-party
 ://backcb.one^
 ://booking.*.com/sign-in?op_token=
@@ -14332,7 +14366,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2178
+!<<<<<放行白名单>>>>>2179
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15241,7 +15275,7 @@ voz.vn/b/image.gif?p=$image
 @@||googletagmanager.com/gtag/js?id=G$script,domain=riteaid.com
 @@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|jumbo.cl|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|radiox.co.uk|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|shockwave.com|sloways.eu|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
-@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=bela.gifts|corsair.com|lingvolive.com|mf-realty.jp|rocketnews24.com|simon.com|soranews24.com
+@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=bela.gifts|corsair.com|jumbo.cl|lingvolive.com|mf-realty.jp|rocketnews24.com|simon.com|soranews24.com
 @@||googletagmanager.com/gtm.js$script,third-party,domain=al.com|cleveland.com|eu.community.samsung.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
 @@||googletagmanager.com/gtm.js$script,third-party,redirect-rule,domain=k2radio.com|kowb1290.com|koel.com|loudwire.com
 @@||googletagmanager.com/gtm.js$script,xmlhttprequest,domain=manofadan.com
@@ -15335,6 +15369,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=13tv.co.il|pluto.tv|watch.motortrend.com
 @@||imasdk.googleapis.com^$script,domain=autofaucet.dutchycorp.*|oqee.tv|pch.com
+@@||img.cartooncdn.xyz/js/ads.js$script,domain=kimcartoon.si
 @@||img.connatix.com/*.jpg$third-party,image,domain=accuweather.com
 @@||img.connatix.com/pid-$third-party,image
 @@||img.kleinanzeigen.de/api/$image,~third-party
