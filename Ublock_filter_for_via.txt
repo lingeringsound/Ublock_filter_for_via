@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: G9jC17L6yvwQIUXjUFHX6w
-! Title: Ublock filter for Via(2025-08-21 00:15:28)
-! Version: 20250821001528
+! Checksum: nrwhyXWmkHfMEnUhHsQ8BA
+! Title: Ublock filter for Via(2025-08-21 08:54:52)
+! Version: 20250821085452
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-21 00:15:28
-! Total Count: 16486
-! Blocked Filters: 16486
+! Last modified: 2025-08-21 08:54:52
+! Total Count: 16487
+! Blocked Filters: 16487
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7693,7 +7693,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5503
+!<<<<<网站单独规则>>>>>5504
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -12788,6 +12788,7 @@ voyeurhit.*##.video-related + div[class] > div[class]:only-child
 voyeurhit.*##.video-tube-friends + div[class]
 voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
+vplink.in##a[href*=".me/+"]
 vplink.in##a[href*="t.me"]
 vplink.in##div#advertisement-block
 vrcmods.com##.show.fade.modal
