@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Wf9TT0VUtvAfQ/zoT9ECEQ
-! Title: Ublock filter for Via(2025-08-23 08:53:48)
-! Version: 20250823085348
+! Checksum: IKmUCdfhyYLgb9QcvWqxVA
+! Title: Ublock filter for Via(2025-08-24 00:13:12)
+! Version: 20250824001312
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-23 08:53:48
-! Total Count: 16532
-! Blocked Filters: 16532
+! Last modified: 2025-08-24 00:13:12
+! Total Count: 16588
+! Blocked Filters: 16588
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7713
+!<<<<<域名规则>>>>>7762
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -83,6 +83,7 @@
 ||2d45b3cf2299d8ba038f45cb38aca4f2ecfbcb8d264ba28432ae5c51.com^
 ||2dingdian.com/static/idingdian/idd.js
 ||2h1.jp^
+||2mydns.net/fr-impot-gouv^
 ||2qpk150djf0ri.jp^
 ||2target.net^$third-party
 ||300mbmovies4u.*/sw.js$script,~third-party
@@ -328,6 +329,7 @@
 ||agatineorder.com^
 ||agendadejection.com^
 ||agentlayer-xyz.pages.dev^
+||agenziaentrateriscossione.com^
 ||aghtag.tech^
 ||aging3.co^
 ||agl002.org^
@@ -357,11 +359,13 @@
 ||airbnb-pi-three.vercel.app^
 ||airdrope.live^
 ||airpos.co.kr/.well-known/pki-validation/*/MitID/
+||airpsite.club^
 ||airsoftmilsimnews.com/wp-content/uploads/*BANNER$image,~third-party
 ||airupfrance.fr^
 ||airupgreece.net^
 ||airupitaly.it^
 ||aitai.biz^
+||aitimaforou.web.app^
 ||aitoolnet.com^$image,domain=novelhall.com
 ||aitradx.com/js/$script,third-party
 ||ajmaboxanherulv*.b-cdn.net^
@@ -435,6 +439,7 @@
 ||amazon-adsystem.com/aax2/apstag.js$script,domain=twitch.tv
 ||amazon-analytic.com^
 ||amazon-shopping.shop^
+||amazon.com/1/action-impressions/
 ||amazon8898.com^
 ||amazonaws.com/*.*.*.*.*.*.*.*/*/index*.html
 ||amazonaws.com/anydo-user-uploads/*_ATT_VoiceMail.html^
@@ -543,6 +548,7 @@
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
 ||api.gitbook.com/v1/orgs/*/insights/events
 ||api.gogoanime.zip/promo
+||api.intelligems.io/v*/track|
 ||api.kio.ac/v0/collection/get
 ||api.lhkmedia.in^$third-party
 ||api.modrinth.com/analytics/
@@ -796,6 +802,7 @@
 ||bancolombiaapp.glitch.me^
 ||bandi-cam.cc^
 ||banditsmutter.qpon^
+||banque-online.com^
 ||banquet-barbecue.com^
 ||baoviet*.top^
 ||baoviet*.vip^
@@ -1007,6 +1014,7 @@
 ||bnbn.jp^
 ||bndl-trp.com^
 ||bnewsblite.me^
+||boardband.univer.se^
 ||boarfishesquandangsunderdried.com^
 ||bobonheur.com^
 ||bobs-tube.com/sw$script,~third-party
@@ -1126,6 +1134,7 @@
 ||cajewar736.wixsite.com^
 ||calibre.it^
 ||call-chieftain.com^
+||callonjehovandprayinthemorning.weebly.com^
 ||calm234o.fun^
 ||calyxesdefames.com^
 ||cam/secured/host/*.php|$xmlhttprequest,third-party,domain=r2.dev
@@ -1150,6 +1159,7 @@
 ||carrierzone.com/sharepoint/
 ||carrotsaystopping.com^
 ||cartepak.online^
+||casadosvidrosmt.com.br/wp-admin/csii/
 ||cashum.unam.mx/wp-content/backups-dup-pro/imports/index.htm
 ||casino-ice.fun^
 ||casinousagevacant.com^
@@ -1190,6 +1200,7 @@
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 ||cdn.discordapp.com/attachments/916391647955279943/*^
 ||cdn.drama-online.tv/wp-content/plugins/eeacab.js
+||cdn.dsmcdn.com/sfx/mergen/
 ||cdn.gledaitv.*/js/detectorpro_
 ||cdn.jsdelivr.net/*/detectIncognito$script
 ||cdn.jsdelivr.net/*/dist/js/wgd-core.min.js$script
@@ -1489,6 +1500,7 @@
 ||collapsesteroid.space^
 ||collect.adcat.moe/js/pub.min.js$script
 ||collect.media.jio.com^
+||collect.trendyol.com^
 ||colonelsurvival.com^
 ||colorfullouderremnant.com^
 ||colorfulromance.com^
@@ -1639,6 +1651,7 @@
 ||crowdstriketoken.com^
 ||crowdstrikeupdate.com^
 ||crowdstuck.com^
+||crunchyscan.fr/js/safe_user.js
 ||cryp-prel.com^
 ||crypto-ads.net/delivr^$third-party
 ||crypto-fire.website/mine/partner/$third-party
@@ -1802,6 +1815,7 @@
 ||daylighteel.com^
 ||days-neighborhood.com^
 ||dazactivator.com^
+||dazzl.ink/btupdate/
 ||dbloader.leboncoin.info^
 ||dc.tensgpt.com^
 ||dcs-mcdn.mp.lura.live/prod/*$xmlhttprequest,third-party
@@ -1848,6 +1862,7 @@
 ||deltaexploits.com^
 ||dem94jfdmn3d.net^
 ||dembuon.vn/lib/flies/flier.js$script,domain=vinaurl.*
+||demeter-tr-core-collect.trendyol.com^
 ||demonicscans.org/img/wsup.gif
 ||dendreonlawsuit.com^
 ||dependsmoscow.com^
@@ -2309,6 +2324,7 @@
 ||f-fri.net^
 ||f-i-n-d.onlyfuns.win^
 ||f.digital-*.com/igit/
+||f.pie.org^
 ||f1nancier.com^
 ||f33d11b5.xyz^
 ||f8dt6.com^
@@ -2604,6 +2620,7 @@
 ||ftx.onlyfuns.win^
 ||fuckandcdn.com/*/ads/
 ||fuckandcdn.com/*/frms/
+||fuckflix.click/assets/js/trafficstars_ads.js
 ||fuckingfast.co/f/*/dl^$xmlhttprequest,~third-party
 ||fuckmore.com^
 ||fucktube4k.com/wp-content/uploads/*porn4k-banner.png$image,~third-party
@@ -2716,6 +2733,7 @@
 ||gekkeijyu-gekkeijyu.com^
 ||gellyte.es^
 ||generating.link^
+||generationdissolvedplease.com^
 ||genetick4zwtf6c8mh5.jp^
 ||genoanime.tv/block-ads/
 ||genuinelyunfit.com^
@@ -2802,6 +2820,7 @@
 ||gll.metricaga.com^
 ||global-riward77.com^
 ||global-ttalk.jp^
+||global.telemetry.insights.video.a2z.com^
 ||globalgrainsadf.com^
 ||globalreward77.com^
 ||glocmaift.net^
@@ -2979,9 +2998,11 @@
 ||hangtietkiem.online^
 ||hanorid.com^
 ||hansonherbo.com^
+||hapeblox.blogspot.com^
 ||hapihapi24.com^
 ||hapim.net^
 ||hapinet.net^
+||happilyfreakishobedience.com^
 ||happiness-app.net^
 ||happiness-gate.com^
 ||happiness-road.net^
@@ -3140,10 +3161,12 @@
 ||hohshops.com^
 ||hoicksfq.xyz^
 ||holancha.com^
+||hologramid.cn^
 ||hologydeno.info^
 ||holy-kantei.com^
 ||home-22-time.com^
 ||home4ugoog10you.com^
+||homelogginbbt.weebly.com^
 ||homemoviestube.com/b4b8.js
 ||homtail.shop^
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|
@@ -3384,6 +3407,7 @@
 ||inmotionhosting.com/~myapp/grass_air/
 ||ins7ki.com^
 ||insights.mtv.a2d.tv^
+||insolvency-development.co.uk^
 ||insonoban.com^
 ||inspectdlet.net^
 ||inspirationhistorical.com^
@@ -3402,6 +3426,7 @@
 ||interface-git-parallel-cypress-uniswap.vercel.app^
 ||intern0120.com^
 ||internal-api.prolific.com/api/v1/statistics/
+||internal-checker.com^
 ||internetspeedtracker.com^
 ||interserver.net^$third-party
 ||investing.com/*/ad-notification-popup
@@ -3444,6 +3469,7 @@
 ||island-vanity.com^
 ||isolatedovercomepasted.com^
 ||isthmaluncoyly.com^
+||isz.bqv.mybluehost.me^
 ||it12.infinityscans.net^
 ||itaconsorciodigital.com.br^
 ||italianlottery.com^
@@ -3584,6 +3610,7 @@
 ||jvembed.com/asset/bann.js
 ||jvuihhlzixawx.com^
 ||jwgigawtq.com^
+||jybelinda.com^
 ||jyk.jp^
 ||jyuku-kan.tokyo^
 ||k-colorful.jp^
@@ -3686,6 +3713,8 @@
 ||kissasian.*/api/pop.php$xmlhttprequest,~third-party
 ||kisscartoon.*/api/pop.php$xmlhttprequest,~third-party
 ||kisstvshow.*/api/pop.php$xmlhttprequest,~third-party
+||kkg.yaf.temporary.site^
+||kkinstagram.com^
 ||klclick1.com^$third-party
 ||kleinezeitung.at/layout/klz/files/service/blakr/advertising.js
 ||klh3j19w.xyz^
@@ -3788,6 +3817,7 @@
 ||l-two-two.com^
 ||l0vekatsu.com^
 ||l2db.info/uploads/banners/$image
+||lab-chaingpt.net^
 ||lacqplus.tests.step.eco^
 ||lacworkamenty.com^
 ||lalielynaualish.com^
@@ -3901,6 +3931,7 @@
 ||live/click.php?key=
 ||livechatlove.store^
 ||livedashboardkit.info^
+||liveflo.qxlva.io^
 ||liverun0.com^
 ||livesport24.net/*.gif$image
 ||livestreaming24.xyz^
@@ -3941,6 +3972,7 @@
 ||lonely.beauty^
 ||long.xxx^$third-party
 ||longchampblackfriday.com^
+||loogginhomebtcom.weebly.com^
 ||lopfly.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
@@ -4270,6 +4302,7 @@
 ||mercury.akamaized.net/cm/
 ||merle-poised.com^
 ||merukore.jp^
+||meselsued.com^
 ||messagerie*.godaddysites.com^
 ||messagerie*.wixsite.com^
 ||messagerie*.yolasite.com^
@@ -4335,6 +4368,7 @@
 ||millionget.top^
 ||mimiray-k.jp^
 ||mindbodygreen.com/js/optimizely-$script,~third-party
+||minerva.devices.a2z.com^
 ||mingvip.com^
 ||miniurl.*/sw.js$script,~third-party
 ||mintiia.com^
@@ -4391,6 +4425,7 @@
 ||moelove.jp^
 ||moira-101.com^
 ||mojgov.weebly.com^
+||molekinha.com.br/*/alibaba.com/
 ||moloco-cr.jiocinema.com/creative/$xmlhttprequest,~third-party
 ||momentary.link^
 ||momoshopvip.com^
@@ -4513,6 +4548,7 @@
 ||mybluehost.me/*/choronopost/
 ||mybluehost.me/*/csom/
 ||mybluehost.me/*/dir/ca/pay/
+||mybluehost.me/*/impo/
 ||mybluehost.me/*/netflix/net/login.php
 ||mybluehost.me/*/phpmailer/src/dh/
 ||mybluehost.me/*/swisscom/
@@ -5149,6 +5185,7 @@
 ||picbaron.com/*.gif$image
 ||picocrypt.org^
 ||pictunoctette.com^
+||pie.org/v1/experiments/view
 ||pilixiaoshuo.com^
 ||pimlm.com^
 ||pin673.cyou^
@@ -5239,6 +5276,7 @@
 ||policycenter-auth-check.vercel.app^
 ||political7450163928.jp^
 ||pollutionsatisfyadopt.com^
+||polufredsoa.2mydns.net^
 ||polyfill-js.cn^
 ||polyfill.top^
 ||ponselharian.com/img/download_
@@ -5408,6 +5446,7 @@
 ||publicationgroup.substack.com^
 ||publicbot.pro^
 ||publicrecords.netronline.com/js/checkuser.js$script,~third-party
+||publictelemetry.tophat.com^
 ||publisher.linkvertise.com^$third-party,domain=~linkvertise.*
 ||pugliain.net/wp-content/uploads/*.gif$image
 ||pulseapp-24x7-service.github.io^
@@ -5764,6 +5803,7 @@
 ||sandhowl.com^
 ||sanff.com^
 ||sanjuanitaliscano.click^
+||sanpelmaquinas.com.br^
 ||santander.*.fino.digital^
 ||santander.cf.sandbox.motrada.ch^
 ||santander.orielcapitalch.com^
@@ -5829,6 +5869,7 @@
 ||see.xxx/nr.js
 ||seed69.com/wp-content/uploads/*.gif$image
 ||seekingalpha.com/boot_data.js
+||seeproc.com.br^
 ||sefeethameel.com^
 ||seishinyoga.com^
 ||sektfeb.top^
@@ -6034,6 +6075,7 @@
 ||smartaccess.biz^
 ||smartadserver.com^$script,domain=metal-hammer.de|musikexpress.de|rollingstone.de|welt.de
 ||smartadserver.com^$third-party,domain=~smartadserver.fr|~smartadserver.de
+||smartaromas.com/income-individual_service_tax-gg-check-hm/
 ||smartgethub.com^
 ||smartklick.biz^
 ||smartlook.com^$third-party
@@ -6094,6 +6136,7 @@
 ||solomonegbe.com^
 ||soltp1de.user.webaccel.jp^
 ||som419.net^
+||somosbancolombia.zeabur.app^
 ||sonic-nicehands.com^
 ||sonixgvn.net/cdn-cgi/apps/head/$script,~third-party
 ||sonixgvn.net/cdn-cgi/zaraz/s.js^$script,~third-party
@@ -6300,6 +6343,7 @@
 ||strekepetrols.com^
 ||stretchedbystander.com^
 ||strpjmp.com^
+||student-finance-auth.firebaseapp.com^
 ||studiogiamberardino.it^
 ||studyeffect.com^
 ||stupdownloadf.com^
@@ -6518,6 +6562,8 @@
 ||telegeram.work^
 ||telegerasm.work^
 ||telegr.am/user_mgt/login
+||telegra.ph/BT-Business-Communications-
+||telegra.ph/British-Telecommunication-08-22^
 ||telegram-*.com/login/index.html^
 ||telegram-zhongwen.com^
 ||telegrambotsolution.pages.dev^
@@ -6702,6 +6748,7 @@
 ||toplov.com^
 ||toptdspup.com^
 ||topxxxlist.net/eroclick.js
+||torbobit.net/pus/script
 ||torlock.*/sww.js$script,~third-party
 ||tornadomovies.*/sw.js$script
 ||torquetrove.com^
@@ -7060,6 +7107,7 @@
 ||vertiselevadores.com.br^
 ||verwalten-sbb-informationen-managecff-kundenportal-online.codeanyapp.com^
 ||veryverythanks1123.jp^
+||vetsinthecity.me/*/Alibaba/
 ||vev.*/sw.js$script,~third-party
 ||vexfile.com/img/cofksar.png
 ||vexfile.com/sw.js$script,~third-party
@@ -7383,6 +7431,7 @@
 ||wobblefizz.top^
 ||wobbleguff.top^
 ||wolfstream.tv/images/ads/$image
+||wolverine.com/on/demandware.static/*/internal/jscript/dwac-*.js
 ||woman-busi.com^
 ||woman-good-job.work^
 ||wontent.powvideo.net^
@@ -7727,7 +7776,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5508
+!<<<<<网站单独规则>>>>>5509
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -9447,7 +9496,7 @@ filmweb.pl##[style*="-ad-"]
 filmy-hit.stream##.dwn-btn
 filmy4wap.co.in,filmy4waps.org##[href^="https://www.highcpmrevenuegate.com/"]
 filmy4web.*##[href^="https://wapsing.com/"]
-filmyfly.*,megalink.*,tourbobit.com,tourbobit.net,turbobeet.net,turbobi.pw,turbobif.com,turbobita.net,turboobit.com,videzz.net###__bgd_link
+filmyfly.*,megalink.*,torbobit.net,tourbobit.com,tourbobit.net,turbobeet.net,turbobi.pw,turbobif.com,turbobita.net,turboobit.com,videzz.net###__bgd_link
 filmyhitlink.xyz###sidebar-primary > .widget_custom_html
 filmyhitlink.xyz###sidebar-secondary > .widget_custom_html
 filmypoints.in##.col-md-12 > .wpsafe-top ~ :is(h2,h3,h4,p,ul)
@@ -12495,6 +12544,7 @@ top.gg##.chakra-stack[data-testid="p-p"]
 top.gg##article[data-testid="promoted-product"]
 top.gg##div[class^="css-"]:not(.chakra-stack):has(> #parent_nn_player)
 top1iq.com###post-body > p
+torbobit.net###__bgd_link2
 torlock.*,torlock2.*##.extneed
 tornadomovies.*##[href="/user/premiumregistration"]
 torrdroidforpc.com##[href^="http://slugmefilehos.xyz/"]
@@ -13238,7 +13288,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>849
+!<<<<<通配符规则>>>>>855
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13319,6 +13369,8 @@ $script,domain=zdnet.fr,third-party
 -load.com/script/$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud
 -ndax-*.webflow.io^
 -sso-*.webflow.io^
+-track.atlassian.com%2FCI0%2F$image
+-track.atlassian.com/CI0/$image
 .*%2Fwf%2Fopen%3Fupn%3D$image
 ./M5q5.js$script
 .at/bilder/*.jpg|$script,~third-party
@@ -13534,6 +13586,7 @@ $script,domain=zdnet.fr,third-party
 /api/popv2.php$xmlhttprequest,~third-party
 /api/spots/*&kw=$xmlhttprequest
 /api/spots/*^fill=$xmlhttprequest
+/api/trpc/event.tracking|$xmlhttprequest
 /api/users/*&ev=$script
 /api/users/*^fill=$xmlhttprequest
 /api/v2/items/*$xmlhttprequest
@@ -13582,6 +13635,8 @@ $script,domain=zdnet.fr,third-party
 /cdn-cgi/trace$xmlhttprequest,domain=waaw.*|waaaw.*
 /cdn-cgi/trace$xmlhttprequest,~third-party,domain=0gomovies.*|abysscdn.com|cdn1.fastvid.co|cdnqq.net|movi.pk|ncdn22.xyz|netu.ac|player.msmini.*|player.sbnmp.*|playhydrax.com|vapley.*
 /cdn/linkvertise.js$script,~third-party
+/cdp/usage/ClientsideImpression?
+/cdp/usage/GetWeblabTreatment?
 /cf-check.html^
 /cfga/jquery.js?$image
 /check.php?t=*&rand=$image,~third-party
@@ -13670,6 +13725,7 @@ $script,domain=zdnet.fr,third-party
 /get_file/*.mp4/?rnd=$image
 /gofd_fl.js
 /googleanalytics.js$third-party
+/gp/video/acquisition/utilities/monitoring|
 /hcaptcha-human-check.html^
 /header-banner$image,domain=domainwheel.com
 /heyboy/com/*.js$script
