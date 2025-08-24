@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: cSDhxvGZGVzqCdHtUt3skQ
-! Title: Ublock filter for Via(2025-08-24 09:02:09)
-! Version: 20250824090209
+! Checksum: Vovukla4SF9Hz4IqZkcG8w
+! Title: Ublock filter for Via(2025-08-25 00:12:42)
+! Version: 20250825001242
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-24 09:02:09
-! Total Count: 16583
-! Blocked Filters: 16583
+! Last modified: 2025-08-25 00:12:42
+! Total Count: 16608
+! Blocked Filters: 16608
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7762
+!<<<<<域名规则>>>>>7780
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -388,6 +388,7 @@
 ||alicekdsod.com^
 ||alienmanufacturerchairman.com^
 ||alienxchain*.pages.dev^
+||alifegreg.com^
 ||alisongaudino992.wixsite.com^
 ||all-usanomination.com^$third-party
 ||allbikesputte.be/sumconfirm.php/
@@ -704,6 +705,7 @@
 ||att-currently-*.weeblysite.com^
 ||att5h6.wixsite.com^
 ||attainthreatfluffy.com^
+||attmailservice*.weebly.com^
 ||attonlineservice*.wixstudio.com^
 ||attorney.homeloanis.com/safe
 ||attractivecutiewcx.com^
@@ -1510,9 +1512,10 @@
 ||com/*.js|$script,third-party,domain=pornhoarder.tv|pornhoarder.tw
 ||com/*/ModalEngage|$script,third-party
 ||com/*markerclusterer_compiled.js|$script,third-party
+||com/cams-widget-ext/
 ||com/on.js?var=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=38.114.120.167
 ||comdotgame.com/static/ads/istripper/
@@ -1767,6 +1770,7 @@
 ||dalabuso.com^
 ||dalobatter.com^
 ||damoh.welect.de^
+||danakagetrsm.vercel.app^
 ||dancewave.online/js/dwab.js$script,~third-party
 ||dandelion-horsetail.work^
 ||daotag.com/tag/$script,domain=exploader.net
@@ -1973,6 +1977,7 @@
 ||dns.google/resolve?name=*.host-stats.io&type=txt|$xmlhttprequest,third-party
 ||doaipomer.com^
 ||doathair.com^
+||doc*-order*adobe.glitch.me^
 ||doctopdftech.com^
 ||docusine.com^
 ||dodoexchange.live^
@@ -2839,7 +2844,7 @@
 ||go-90i.com^
 ||go-ld-li-ne.site^
 ||go-to-zlibrary.com^
-||go.*.com/smartpop/$script,third-party
+||go.*.com/smartpop/
 ||go.bundlebyte.net^
 ||go.errpgrt.com^
 ||go.xlirdr.com^$xmlhttprequest,removeparam
@@ -2938,6 +2943,7 @@
 ||greengoplatform.com^
 ||greenshot.fr^
 ||greenshot.org^
+||griffithdds.com/*/madeinchina.com/
 ||group-postban.firebaseapp.com^
 ||groupbycloud.com/gb-tracker-client-3.min.js$domain=officedepot.*
 ||groups.google.com/g/hogwarts-legacy-crack-empress^
@@ -3832,6 +3838,7 @@
 ||launcherleaks.net/*main_script.js$script,~third-party
 ||laurenmjackson.serv00.net^
 ||lavaboom.net^
+||layanan-app.com^
 ||layer-pj.com^
 ||lazada.ac^
 ||lazada.bbc6666.com^
@@ -3947,6 +3954,7 @@
 ||lnkr.us^
 ||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
+||loader.horairesdouverture24.fr^
 ||loader.nyitvatartas24.hu^
 ||loader.worldhistory.org^
 ||loaderaura.com^
@@ -4361,6 +4369,7 @@
 ||mihayume.com^
 ||mikkerst.com^
 ||mikkim.top^
+||mikratoyotas.com^
 ||miles-plume-network.pages.dev^
 ||milfzr.com/*.gif$image
 ||milkygoodness.xyz/js/optscript/
@@ -4680,6 +4689,7 @@
 ||nephef.com^
 ||neptunclicks.com^
 ||netaffiliation.com^$third-party
+||netcoislogin-zone.webflow.io^
 ||netdna-ssl.com/sbly-ads/sbly-prebid-$script,domain=seeitlive.co
 ||netflix.avdhoothadke.com^
 ||netflix.com/log/
@@ -4916,6 +4926,7 @@
 ||oolontya.com^
 ||ooppnm.com^
 ||oorsoozo.top^
+||oortech.com/mic.shtml^
 ||oortech.com/onedrive.-html^
 ||op3xdork.xyz^
 ||open-office.fr^
@@ -5144,6 +5155,7 @@
 ||pekanbaru.one^
 ||pelastorl.com^
 ||pelispedia.*/*sw.js$script,~third-party
+||pemesanan*.glowz.my.id^
 ||penst-hap9p-chat.com^
 ||penst3-hap11o-chat.com^
 ||pepecoinsuper-airdrop.pages.dev^
@@ -5522,6 +5534,7 @@
 ||r2.dev/_Fm7-alert.mp3
 ||r2.dev/blobamexbsatt.html^
 ||r2.dev/human-verify-system.html
+||r2.dev/made-in-china.com/
 ||r2.dev/media/_Fm7-alert.mp3
 ||r2.dev^$image,domain=hubcloud.*
 ||r30address.com^
@@ -5529,6 +5542,8 @@
 ||r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com^
 ||rabbitx.pro^
 ||rabbltx.xyz^
+||racks.pages.dev^
+||rackweb-----support*.weebly.com^
 ||radar-home.com^
 ||radar.cloudflare.com/api/analytics
 ||radlantroots.com^
@@ -6103,6 +6118,7 @@
 ||snhjsbs.shop^
 ||snickerdoodle.top^
 ||snogglewomp.top^
+||snorkelzutugil.com^
 ||sns-pair.net^
 ||sns-rank-sidework.site^
 ||sns3615.com^
@@ -6891,6 +6907,7 @@
 ||tw-goldenwinner-57.com^
 ||tw-happy.space^
 ||tw-lucky.site^
+||tw1.ru/Orange/
 ||tweitter.com^
 ||twiebayed.com^
 ||twincdn.com^$third-party,script,image
@@ -7359,6 +7376,7 @@
 ||whitepark9.com^
 ||wholenicefeed.com^
 ||whpbrmdss.com^
+||whydujap.com^
 ||wibblywob.top^
 ||wicket.pw/embeds/icc-cwc.png$image
 ||widgets.trustedshops.com/reviews/tsSticker/*.gif?
@@ -7602,7 +7620,7 @@
 ||xyz-trade.com^
 ||xyz/akbank/
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ustream.to|vecloud.eu|veplay.top|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cloudnestra.com|dlhd.*|dlhd.click|dokoembed.pw|drop.download|ebook-hunter.org|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
@@ -7776,7 +7794,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5504
+!<<<<<网站单独规则>>>>>5509
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -8581,6 +8599,7 @@ brofist.io##.menuOverlay
 broflix.club##.idmuvi-topplayer
 broflix.club##[href^="https://shope.ee/"]
 btcbitco.in,btcsatoshi.net,wiour.com##.post > center > [href] > img
+btdb.*##.alert
 btdb.*##.alert-dismissible
 btdb.*,dizipal1101.com,dizipal1102.com,dizipal1103.com,dizipal1104.com,dizipal1105.com,dizipal1106.com,dizipal1107.com,dizipal1108.com,dizipal1109.com,dizipal1110.com,dizipal1111.com,dizipal1112.com,dizipal1113.com,dizipal1114.com,dizipal1115.com,dizipal1116.com,dizipal1117.com,dizipal1118.com,dizipal1119.com,dizipal1120.com,dizipal1121.com,dizipal1122.com,dizipal1123.com,dizipal1124.com,dizipal1125.com,dizipal1126.com,dizipal1127.com,dizipal1128.com,dizipal1129.com,dizipal1130.com,dizipal1131.com,dizipal1132.com,dizipal1133.com,dizipal1134.com,dizipal1135.com,dizipal1136.com,dizipal1137.com,dizipal1138.com,dizipal1139.com,dizipal1140.com,dizipal1141.com,dizipal1142.com,dizipal1143.com,dizipal1144.com,dizipal1145.com,dizipal1146.com,dizipal1147.com,dizipal1148.com,dizipal1149.com,dizipal1150.com,dizipal1151.com,dizipal1152.com,dizipal1153.com,dizipal1154.com,dizipal1155.com,dizipal1156.com,dizipal1157.com,dizipal1158.com,dizipal1159.com,dizipal1160.com,dizipal1161.com,dizipal1162.com,dizipal1163.com,dizipal1164.com,dizipal1165.com,dizipal1166.com,dizipal1167.com,dizipal1168.com,dizipal1169.com,dizipal1170.com,dizipal1171.com,dizipal1172.com,dizipal1173.com,dizipal1174.com,dizipal1175.com,dizipal1176.com,dizipal1177.com,dizipal1178.com,dizipal1179.com,dizipal1180.com,dizipal1181.com,dizipal1182.com,dizipal1183.com,dizipal1184.com,dizipal1185.com,dizipal1186.com,dizipal1187.com,dizipal1188.com,dizipal1189.com,dizipal1190.com,dizipal1191.com,dizipal1192.com,dizipal1193.com,dizipal1194.com,dizipal1195.com,dizipal1196.com,dizipal1197.com,dizipal1198.com,dizipal1199.com,dizipal1200.com,dizipal1201.com,dizipal1202.com,dizipal1203.com,dizipal1204.com,dizipal1205.com,dizipal1206.com,dizipal1207.com,dizipal1208.com,dizipal1209.com,dizipal1210.com,dizipal1211.com,dizipal1212.com,dizipal1213.com,dizipal1214.com,dizipal1215.com,dizipal1216.com,dizipal1217.com,dizipal1218.com,dizipal1219.com,dizipal1220.com,dizipal1221.com,dizipal1222.com,dizipal1223.com,dizipal1224.com,dizipal1225.com,dizipal1226.com,dizipal1227.com,dizipal1228.com,dizipal1229.com,dizipal1230.com,dizipal1231.com,dizipal1232.com,dizipal1233.com,dizipal1234.com,dizipal1235.com,dizipal1236.com,dizipal1237.com,dizipal1238.com,dizipal1239.com,dizipal1240.com,dizipal1241.com,dizipal1242.com,dizipal1243.com,dizipal1244.com,dizipal1245.com,dizipal1246.com,dizipal1247.com,dizipal1248.com,dizipal1249.com,dizipal1250.com,dizipal941.com,dizipal942.com,dizipal943.com,dizipal944.com,dizipal945.com,dizipal946.com,dizipal947.com,dizipal948.com,dizipal949.com,dizipal950.com,dizipal951.com,dizipal952.com,dizipal953.com,dizipal954.com,dizipal955.com,dizipal956.com,dizipal957.com,dizipal958.com,dizipal959.com,dizipal960.com,dizipal961.com,dizipal962.com,dizipal963.com,dizipal964.com,dizipal965.com,dizipal966.com,dizipal967.com,dizipal968.com,dizipal969.com,dizipal970.com,dizipal971.com,dizipal972.com,dizipal973.com,dizipal974.com,dizipal975.com,dizipal976.com,dizipal977.com,dizipal978.com,dizipal979.com,dizipal980.com,dizipal981.com,dizipal982.com,dizipal983.com,dizipal984.com,dizipal985.com,dizipal986.com,dizipal987.com,dizipal988.com,dizipal989.com,dizipal990.com,dizipal991.com,dizipal992.com,dizipal993.com,dizipal994.com,dizipal995.com,dizipal996.com,dizipal997.com,dizipal998.com,dizipal999.com,kickass.*,tgx.rs,torrentgalaxy.*,unblocknow.*##.alert
 btv.bg,btvnovinite.bg,btvsport.bg##.vjs-continue-watching-bar
@@ -9060,6 +9079,7 @@ distrowatch.com##.TablesTitle > div[style*="padding"]
 distrowatch.com##body > h2
 distrowatch.org##[href^="https://pbxinaflash.com/"]
 divxtotal.*,divxtotal1.*###banner_publi
+dizipal1101.com,dizipal1102.com,dizipal1103.com,dizipal1104.com,dizipal1105.com,dizipal1106.com,dizipal1107.com,dizipal1108.com,dizipal1109.com,dizipal1110.com,dizipal1111.com,dizipal1112.com,dizipal1113.com,dizipal1114.com,dizipal1115.com,dizipal1116.com,dizipal1117.com,dizipal1118.com,dizipal1119.com,dizipal1120.com,dizipal1121.com,dizipal1122.com,dizipal1123.com,dizipal1124.com,dizipal1125.com,dizipal1126.com,dizipal1127.com,dizipal1128.com,dizipal1129.com,dizipal1130.com,dizipal1131.com,dizipal1132.com,dizipal1133.com,dizipal1134.com,dizipal1135.com,dizipal1136.com,dizipal1137.com,dizipal1138.com,dizipal1139.com,dizipal1140.com,dizipal1141.com,dizipal1142.com,dizipal1143.com,dizipal1144.com,dizipal1145.com,dizipal1146.com,dizipal1147.com,dizipal1148.com,dizipal1149.com,dizipal1150.com,dizipal1151.com,dizipal1152.com,dizipal1153.com,dizipal1154.com,dizipal1155.com,dizipal1156.com,dizipal1157.com,dizipal1158.com,dizipal1159.com,dizipal1160.com,dizipal1161.com,dizipal1162.com,dizipal1163.com,dizipal1164.com,dizipal1165.com,dizipal1166.com,dizipal1167.com,dizipal1168.com,dizipal1169.com,dizipal1170.com,dizipal1171.com,dizipal1172.com,dizipal1173.com,dizipal1174.com,dizipal1175.com,dizipal1176.com,dizipal1177.com,dizipal1178.com,dizipal1179.com,dizipal1180.com,dizipal1181.com,dizipal1182.com,dizipal1183.com,dizipal1184.com,dizipal1185.com,dizipal1186.com,dizipal1187.com,dizipal1188.com,dizipal1189.com,dizipal1190.com,dizipal1191.com,dizipal1192.com,dizipal1193.com,dizipal1194.com,dizipal1195.com,dizipal1196.com,dizipal1197.com,dizipal1198.com,dizipal1199.com,dizipal1200.com,dizipal1201.com,dizipal1202.com,dizipal1203.com,dizipal1204.com,dizipal1205.com,dizipal1206.com,dizipal1207.com,dizipal1208.com,dizipal1209.com,dizipal1210.com,dizipal1211.com,dizipal1212.com,dizipal1213.com,dizipal1214.com,dizipal1215.com,dizipal1216.com,dizipal1217.com,dizipal1218.com,dizipal1219.com,dizipal1220.com,dizipal1221.com,dizipal1222.com,dizipal1223.com,dizipal1224.com,dizipal1225.com,dizipal1226.com,dizipal1227.com,dizipal1228.com,dizipal1229.com,dizipal1230.com,dizipal1231.com,dizipal1232.com,dizipal1233.com,dizipal1234.com,dizipal1235.com,dizipal1236.com,dizipal1237.com,dizipal1238.com,dizipal1239.com,dizipal1240.com,dizipal1241.com,dizipal1242.com,dizipal1243.com,dizipal1244.com,dizipal1245.com,dizipal1246.com,dizipal1247.com,dizipal1248.com,dizipal1249.com,dizipal1250.com##.alert
 dizipal1101.com,dizipal1102.com,dizipal1103.com,dizipal1104.com,dizipal1105.com,dizipal1106.com,dizipal1107.com,dizipal1108.com,dizipal1109.com,dizipal1110.com,dizipal1111.com,dizipal1112.com,dizipal1113.com,dizipal1114.com,dizipal1115.com,dizipal1116.com,dizipal1117.com,dizipal1118.com,dizipal1119.com,dizipal1120.com,dizipal1121.com,dizipal1122.com,dizipal1123.com,dizipal1124.com,dizipal1125.com,dizipal1126.com,dizipal1127.com,dizipal1128.com,dizipal1129.com,dizipal1130.com,dizipal1131.com,dizipal1132.com,dizipal1133.com,dizipal1134.com,dizipal1135.com,dizipal1136.com,dizipal1137.com,dizipal1138.com,dizipal1139.com,dizipal1140.com,dizipal1141.com,dizipal1142.com,dizipal1143.com,dizipal1144.com,dizipal1145.com,dizipal1146.com,dizipal1147.com,dizipal1148.com,dizipal1149.com,dizipal1150.com,dizipal1151.com,dizipal1152.com,dizipal1153.com,dizipal1154.com,dizipal1155.com,dizipal1156.com,dizipal1157.com,dizipal1158.com,dizipal1159.com,dizipal1160.com,dizipal1161.com,dizipal1162.com,dizipal1163.com,dizipal1164.com,dizipal1165.com,dizipal1166.com,dizipal1167.com,dizipal1168.com,dizipal1169.com,dizipal1170.com,dizipal1171.com,dizipal1172.com,dizipal1173.com,dizipal1174.com,dizipal1175.com,dizipal1176.com,dizipal1177.com,dizipal1178.com,dizipal1179.com,dizipal1180.com,dizipal1181.com,dizipal1182.com,dizipal1183.com,dizipal1184.com,dizipal1185.com,dizipal1186.com,dizipal1187.com,dizipal1188.com,dizipal1189.com,dizipal1190.com,dizipal1191.com,dizipal1192.com,dizipal1193.com,dizipal1194.com,dizipal1195.com,dizipal1196.com,dizipal1197.com,dizipal1198.com,dizipal1199.com,dizipal1200.com,dizipal1201.com,dizipal1202.com,dizipal1203.com,dizipal1204.com,dizipal1205.com,dizipal1206.com,dizipal1207.com,dizipal1208.com,dizipal1209.com,dizipal1210.com,dizipal1211.com,dizipal1212.com,dizipal1213.com,dizipal1214.com,dizipal1215.com,dizipal1216.com,dizipal1217.com,dizipal1218.com,dizipal1219.com,dizipal1220.com,dizipal1221.com,dizipal1222.com,dizipal1223.com,dizipal1224.com,dizipal1225.com,dizipal1226.com,dizipal1227.com,dizipal1228.com,dizipal1229.com,dizipal1230.com,dizipal1231.com,dizipal1232.com,dizipal1233.com,dizipal1234.com,dizipal1235.com,dizipal1236.com,dizipal1237.com,dizipal1238.com,dizipal1239.com,dizipal1240.com,dizipal1241.com,dizipal1242.com,dizipal1243.com,dizipal1244.com,dizipal1245.com,dizipal1246.com,dizipal1247.com,dizipal1248.com,dizipal1249.com,dizipal1250.com,dizipal941.com,dizipal942.com,dizipal943.com,dizipal944.com,dizipal945.com,dizipal946.com,dizipal947.com,dizipal948.com,dizipal949.com,dizipal950.com,dizipal951.com,dizipal952.com,dizipal953.com,dizipal954.com,dizipal955.com,dizipal956.com,dizipal957.com,dizipal958.com,dizipal959.com,dizipal960.com,dizipal961.com,dizipal962.com,dizipal963.com,dizipal964.com,dizipal965.com,dizipal966.com,dizipal967.com,dizipal968.com,dizipal969.com,dizipal970.com,dizipal971.com,dizipal972.com,dizipal973.com,dizipal974.com,dizipal975.com,dizipal976.com,dizipal977.com,dizipal978.com,dizipal979.com,dizipal980.com,dizipal981.com,dizipal982.com,dizipal983.com,dizipal984.com,dizipal985.com,dizipal986.com,dizipal987.com,dizipal988.com,dizipal989.com,dizipal990.com,dizipal991.com,dizipal992.com,dizipal993.com,dizipal994.com,dizipal995.com,dizipal996.com,dizipal997.com,dizipal998.com,dizipal999.com##.rounded.m-auto .bg-black > a[href][target="_blank"]
 dizipal1101.com,dizipal1102.com,dizipal1103.com,dizipal1104.com,dizipal1105.com,dizipal1106.com,dizipal1107.com,dizipal1108.com,dizipal1109.com,dizipal1110.com,dizipal1111.com,dizipal1112.com,dizipal1113.com,dizipal1114.com,dizipal1115.com,dizipal1116.com,dizipal1117.com,dizipal1118.com,dizipal1119.com,dizipal1120.com,dizipal1121.com,dizipal1122.com,dizipal1123.com,dizipal1124.com,dizipal1125.com,dizipal1126.com,dizipal1127.com,dizipal1128.com,dizipal1129.com,dizipal1130.com,dizipal1131.com,dizipal1132.com,dizipal1133.com,dizipal1134.com,dizipal1135.com,dizipal1136.com,dizipal1137.com,dizipal1138.com,dizipal1139.com,dizipal1140.com,dizipal1141.com,dizipal1142.com,dizipal1143.com,dizipal1144.com,dizipal1145.com,dizipal1146.com,dizipal1147.com,dizipal1148.com,dizipal1149.com,dizipal1150.com,dizipal1151.com,dizipal1152.com,dizipal1153.com,dizipal1154.com,dizipal1155.com,dizipal1156.com,dizipal1157.com,dizipal1158.com,dizipal1159.com,dizipal1160.com,dizipal1161.com,dizipal1162.com,dizipal1163.com,dizipal1164.com,dizipal1165.com,dizipal1166.com,dizipal1167.com,dizipal1168.com,dizipal1169.com,dizipal1170.com,dizipal1171.com,dizipal1172.com,dizipal1173.com,dizipal1174.com,dizipal1175.com,dizipal1176.com,dizipal1177.com,dizipal1178.com,dizipal1179.com,dizipal1180.com,dizipal1181.com,dizipal1182.com,dizipal1183.com,dizipal1184.com,dizipal1185.com,dizipal1186.com,dizipal1187.com,dizipal1188.com,dizipal1189.com,dizipal1190.com,dizipal1191.com,dizipal1192.com,dizipal1193.com,dizipal1194.com,dizipal1195.com,dizipal1196.com,dizipal1197.com,dizipal1198.com,dizipal1199.com,dizipal1200.com,dizipal1201.com,dizipal1202.com,dizipal1203.com,dizipal1204.com,dizipal1205.com,dizipal1206.com,dizipal1207.com,dizipal1208.com,dizipal1209.com,dizipal1210.com,dizipal1211.com,dizipal1212.com,dizipal1213.com,dizipal1214.com,dizipal1215.com,dizipal1216.com,dizipal1217.com,dizipal1218.com,dizipal1219.com,dizipal1220.com,dizipal1221.com,dizipal1222.com,dizipal1223.com,dizipal1224.com,dizipal1225.com,dizipal1226.com,dizipal1227.com,dizipal1228.com,dizipal1229.com,dizipal1230.com,dizipal1231.com,dizipal1232.com,dizipal1233.com,dizipal1234.com,dizipal1235.com,dizipal1236.com,dizipal1237.com,dizipal1238.com,dizipal1239.com,dizipal1240.com,dizipal1241.com,dizipal1242.com,dizipal1243.com,dizipal1244.com,dizipal1245.com,dizipal1246.com,dizipal1247.com,dizipal1248.com,dizipal1249.com,dizipal1250.com,dizipal941.com,dizipal942.com,dizipal943.com,dizipal944.com,dizipal945.com,dizipal946.com,dizipal947.com,dizipal948.com,dizipal949.com,dizipal950.com,dizipal951.com,dizipal952.com,dizipal953.com,dizipal954.com,dizipal955.com,dizipal956.com,dizipal957.com,dizipal958.com,dizipal959.com,dizipal960.com,dizipal961.com,dizipal962.com,dizipal963.com,dizipal964.com,dizipal965.com,dizipal966.com,dizipal967.com,dizipal968.com,dizipal969.com,dizipal970.com,dizipal971.com,dizipal972.com,dizipal973.com,dizipal974.com,dizipal975.com,dizipal976.com,dizipal977.com,dizipal978.com,dizipal979.com,dizipal980.com,dizipal981.com,dizipal982.com,dizipal983.com,dizipal984.com,dizipal985.com,dizipal986.com,dizipal987.com,dizipal988.com,dizipal989.com,dizipal990.com,dizipal991.com,dizipal992.com,dizipal993.com,dizipal994.com,dizipal995.com,dizipal996.com,dizipal997.com,dizipal998.com,dizipal999.com##a[target="_blank"][rel="nofollow"]
 dizipal4.com##.body-clickable
@@ -10498,6 +10518,7 @@ kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
 keralatelecom.info##.ai-viewports
 kickass.*###notification-bar
+kickass.*##.alert
 kickassanime.*##.ka-axx-wr
 kickassanime.*##.latest-update > .row > div:has(.hide-button)
 kickassanime.*##.text-center:has(> .hide-button)
@@ -12552,6 +12573,7 @@ torrentdownload.*##[href^="https://goo.gl/"]
 torrentdownload.*,torrentdownloads.*##[href^="/td/?"]
 torrentfunk.com##.extneed
 torrentfunk.com##[href*=".premium"]
+torrentgalaxy.*##.alert
 torrentgalaxy.*##a[href^="/hx?r0ff3r="][href$="&tfh"], #stopad, .kdguszftmyrvenilh, a[onmouseout="#"][href], img[src^="/common/images/"][alt="wide"][data-src="bin"]
 torrentgalaxy.*##body > [id] > div[class]:only-child > div[class]:first-child > div[class][style="padding: 0px 7px;max-width:445px;"] > div:first-child:not([class]):has(> div:only-child #stopad)
 torrentgalaxy.*,tgx.rs##a[href^="/hx?r0ff3r="][href$="&tfh"], #stopad, .kdguszftmyrvenilh, a[onmouseout="#"][href], img[src^="/common/images/"][alt="wide"][data-src="bin"]
@@ -12695,6 +12717,7 @@ unblocked.name##[style*="decoration"]:not([style^="width"])
 unblockit.*###ni-overlay
 unblocknow.*###cookieConsentVPN666
 unblocknow.*##.adstg
+unblocknow.*##.alert
 unblocksite.pw##div[id][onclick^="window.open('https://vpn-offers.com/"]
 underhentai.net##.hidden-sm
 underhentai.net##.sidebar > div[class] > .loading
@@ -13283,7 +13306,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>855
+!<<<<<通配符规则>>>>>857
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -13882,6 +13905,7 @@ $script,domain=zdnet.fr,third-party
 /script/ncsu.js$third-party
 /script/ndsu.js$third-party
 /script/su.js$script,third-party
+/scripts/monetag-special.js
 /security-challenge-captcha.html^
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
 /shopifycloud/media-analytics/v*/analytics.js
@@ -13978,6 +14002,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/plugins/easy-themes-manager/script.js
 /wp-content/plugins/form-builder-pro/fbp-script.js
 /wp-content/plugins/noti-blocker/*$script
+/wp-content/plugins/pixelyoursite-pro/*
 /wp-content/plugins/quick-cache-cleaner/qcc-script.js
 /wp-content/plugins/responsive-menu-builder/rmb-script.js
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
