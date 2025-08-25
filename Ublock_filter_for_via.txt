@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Vovukla4SF9Hz4IqZkcG8w
-! Title: Ublock filter for Via(2025-08-25 00:12:42)
-! Version: 20250825001242
+! Checksum: MCmgegcBFRwnrDYeApMbCw
+! Title: Ublock filter for Via(2025-08-25 08:58:32)
+! Version: 20250825085832
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-25 00:12:42
-! Total Count: 16608
-! Blocked Filters: 16608
+! Last modified: 2025-08-25 08:58:32
+! Total Count: 16610
+! Blocked Filters: 16610
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7780
+!<<<<<域名规则>>>>>7781
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -529,6 +529,7 @@
 ||aphenunci.com^
 ||aphrodite-astrology.net^
 ||api-ng.pons.com/*/pons-ads-idm.js
+||api-widget.soundcloud.com/me?client_id=
 ||api.*.com/v1/videos?channel_handle=$xmlhttprequest,~third-party
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xmlhttprequest,third-party
 ||api.app.dfbplay.tv/V1/Adverts/GetVast$xmlhttprequest,~third-party
@@ -8124,7 +8125,7 @@ allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
 allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,servers-mc.net,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mplay.*,streamp1ay.*,streanplay.*,supersextube.pro,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomic.com,lowendbox.com##iframe
-allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,readytechflip.com,romadd.com,studydhaba.com,taoruseitai.com,taradinhos.com,toursetlist.com,towelstretches.com##.widget_custom_html
+allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,readytechflip.com,romadd.com,sampledrive.org,studydhaba.com,taoruseitai.com,taradinhos.com,toursetlist.com,towelstretches.com##.widget_custom_html
 allround-pc.com##.inlineAd
 allround-pc.com##.singlePostAd
 allsmo.com##[id^="ezoic-pub-ad-placeholder"]
@@ -14450,7 +14451,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2181
+!<<<<<放行白名单>>>>>2182
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15869,6 +15870,7 @@ voz.vn/b/image.gif?p=$image
 @@||saarbruecker-zeitung.de/assets/adsbygoogle.js$script,~third-party
 @@||safeframe.googlesyndication.com/safeframe/$domain=video-ac.com
 @@||sagicheck.jp/jp/check/
+@@||sampledrive.org/wp-content/plugins/wordpress-popup/assets/js/$script,~third-party
 @@||satoshilabs.net/$script,~third-party
 @@||savings.bizx.info^$domain=sourceforge.net
 @@||sawlive.tv^$script,~third-party
