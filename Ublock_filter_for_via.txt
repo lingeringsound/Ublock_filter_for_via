@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MCmgegcBFRwnrDYeApMbCw
-! Title: Ublock filter for Via(2025-08-25 08:58:32)
-! Version: 20250825085832
+! Checksum: IVZVCPFy/KNwNz1JRWn0sw
+! Title: Ublock filter for Via(2025-08-26 00:15:31)
+! Version: 20250826001531
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-25 08:58:32
-! Total Count: 16610
-! Blocked Filters: 16610
+! Last modified: 2025-08-26 00:15:31
+! Total Count: 16621
+! Blocked Filters: 16621
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7781
+!<<<<<域名规则>>>>>7787
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -479,6 +479,7 @@
 ||amz-dropshipping.com^
 ||amz.boy.mybluehost.me^
 ||amzzcbe-cme.com^
+||analyticanoden.com^
 ||analytics.bitchute.com^
 ||analytics.google.com^$third-party
 ||analytics.strapi.io^
@@ -486,6 +487,7 @@
 ||analytics.yyggames.com^
 ||analytisgroup.com^
 ||analytisweb.com^
+||analytiwave.com^
 ||anapatformacion.org/modules/file/tor/tor-browser.zip^
 ||anathemv.com^
 ||ancient-guidance.jp^
@@ -1620,6 +1622,7 @@
 ||crackingpatching.com^
 ||cracksway.com^
 ||cractica.xyz^
+||cractivator.com^
 ||crazyegg.com^$third-party
 ||crdroid.net/js/checker.js
 ||creative.nangilive.com^
@@ -2501,6 +2504,7 @@
 ||fklngauc.com^
 ||fl-0wer685hjdp300.com^
 ||fl.floriittee.com^
+||flaegrudad.com^
 ||flamboyantideal.pro^
 ||flanneldatedly.com^
 ||flash.cn^
@@ -5390,6 +5394,7 @@
 ||procdnvids.net^
 ||processesdisplease.com^
 ||profileclub.info^
+||profullversion.net^
 ||programajourney.com^
 ||programmaticmarket.com^
 ||projectglbl.lol^
@@ -7469,6 +7474,7 @@
 ||wp.com*/banner$image,domain=komikmama.net
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
 ||wpenginepowered.com/usps/
+||wppanel.icu^
 ||wrc-gh.org/redelivery
 ||wrgov.com^
 ||wse.yts248ds.jp^
@@ -7795,7 +7801,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5509
+!<<<<<网站单独规则>>>>>5514
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -10589,6 +10595,7 @@ l2top.co###bannerads-background
 l2top.co##.main-top-ads
 l2top.co##.rightBarAd
 l2top.co##div.leftBarAd
+lamoda.pl##[class*="REKLAMA"]
 lared.cl##ned-ad
 larvelfaucet.com###bottomRightFloatingAd
 larvelfaucet.com###ptcAdIframe
@@ -10670,6 +10677,7 @@ link.patch.com%2Fimg%2F*.gif$image
 link.patch.com/img/*.gif$image
 link.smallseostat.com###download1,#download3
 link.technics-goods.info,mysafe.stisda.ac.id##.text-center > h3
+link99.bid###nindo-popup-portal
 linkedin.com##.ad-banner-container
 linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
@@ -11257,6 +11265,7 @@ ondemandkorea.com##.banner_728x90
 ondemandkorea.com##.floatBanner
 ondemandkorea.com##.player_overlay.banner
 onepiece-tube.com##[href^="https://www.amazon.de/"]
+onet.pl##ad-default
 oninet.ne.jp##a[href^="https://hb.afl.rakuten.co.jp/hsc/"]
 oninet.ne.jp##a[href^="https://hb.afl.rakuten.co.jp/hsc/"] ~ img[src="qr-rakuten-travel-logo.png"]
 oninet.ne.jp##a[href^="https://www.amazon.co.jp/dp/"]
@@ -11929,6 +11938,8 @@ samfw.com##[href^="https://samfw.com/clicks/"]
 samfw.com##[href^="https://samfw.com/link/"]
 sampledrive.in###block-4
 sampledrive.in###block-6
+sampledrive.org##.hustle-popup
+sampledrive.org##div.stream-item.stream-item-mag.mag-box
 samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 sanet.st##.lsB
 sanfoundry.com##.sf-desktop-ads
