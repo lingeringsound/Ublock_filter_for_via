@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: AupTVpd2qpvXbXo4Slderw
-! Title: Ublock filter for Via(2025-08-27 08:54:56)
-! Version: 20250827085456
+! Checksum: WGRuySa0EjZqKkT8+UA1tg
+! Title: Ublock filter for Via(2025-08-28 00:15:08)
+! Version: 20250828001508
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-27 08:54:56
-! Total Count: 16646
-! Blocked Filters: 16646
+! Last modified: 2025-08-28 00:15:08
+! Total Count: 16655
+! Blocked Filters: 16655
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7806
+!<<<<<域名规则>>>>>7814
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -655,6 +655,8 @@
 ||assets.adobedtm.com/launch-$script,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|theolympian.com|thenewstribune.com|thestate.com|tri-cityherald.com
 ||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 ||assets.maxroll.gg/wp-content/assets/img/adblock/$image
+||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
+||assets.prod.abebookscdn.com/*/scripts/utilities/PixelRenderer-
 ||assets.prod.webx.talpa.digital/ad/banner.gif?$xmlhttprequest
 ||assets.sb-cd.com/static/common/js/bjssu_
 ||assets.sb-cd.com/static/dist/desktop/js/analytics.
@@ -1661,6 +1663,7 @@
 ||crowdstriketoken.com^
 ||crowdstrikeupdate.com^
 ||crowdstuck.com^
+||crpostbelnk.glitch.me^
 ||crunchyscan.fr/js/safe_user.js
 ||cryp-prel.com^
 ||crypto-ads.net/delivr^$third-party
@@ -1828,6 +1831,7 @@
 ||dazactivator.com^
 ||dazzl.ink/btupdate/
 ||dbloader.leboncoin.info^
+||dbs.applerewardsstore.com^
 ||dc.tensgpt.com^
 ||dcs-mcdn.mp.lura.live/prod/*$xmlhttprequest,third-party
 ||ddacn6pr5v0tl.cloudfront.net^
@@ -2979,6 +2983,7 @@
 ||guidedhacking.com/*banner$image
 ||guidesetup.pro^
 ||guj.jp^
+||gumeminlogi.webflow.io^
 ||gupload.xyz/data/head/script.php^
 ||gupload.xyz/data/player/adblock-detector.js^
 ||guw.jp^
@@ -4572,12 +4577,14 @@
 ||mybluehost.me/*/csom/
 ||mybluehost.me/*/dir/ca/pay/
 ||mybluehost.me/*/impo/
+||mybluehost.me/*/itx/it/conto/
 ||mybluehost.me/*/netflix/net/login.php
 ||mybluehost.me/*/phpmailer/src/dh/
 ||mybluehost.me/*/swisscom/
 ||mybluehost.me/*/swisspass/
 ||mybluehost.me/*/swpassfr/
 ||mybluehost.me/*Recibir_paquete.php
+||mybluehost.me/*intesasanpaolo/
 ||mybluehost.me/*unitess/
 ||mybluehost.me/--/SBBCFF
 ||mybluehost.me/2us/verification/
@@ -5087,6 +5094,7 @@
 ||pajalusta.club/cdn-cgi/trace^$xmlhttprequest
 ||pajamasslowingregistered.com^
 ||pakistaniporn2.com/js/friends.minz.js
+||pakket-bpost-be.web.app^
 ||pakok.net^
 ||pal-24x7-support.xyz^
 ||palecount.com^
@@ -7820,7 +7828,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5516
+!<<<<<网站单独规则>>>>>5517
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -10705,6 +10713,7 @@ linkneverdie.net##.quangcao
 linkneverdie.net,palatifini.it,vrcmods.com##.show.fade.modal-backdrop
 links1.pawns.app%2Fq%2F$image
 links1.pawns.app/q/$image
+links4u.shop##[src^="https://iili.io/"]
 linkshub.to##[href*="ad setup "]
 linkshub.to##[href="https://crack-status.com/"]
 linksly.co,zippyshare.day##.fixed-leftSd
