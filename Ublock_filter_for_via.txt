@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: LYdOE31UXDvQ9eaU4Hc6sg
-! Title: Ublock filter for Via(2025-08-28 08:54:27)
-! Version: 20250828085427
+! Checksum: wj77KpN5Kr1HqWuki28XQw
+! Title: Ublock filter for Via(2025-08-29 00:14:31)
+! Version: 20250829001431
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-28 08:54:27
-! Total Count: 16662
-! Blocked Filters: 16662
+! Last modified: 2025-08-29 00:14:31
+! Total Count: 16721
+! Blocked Filters: 16721
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7820
+!<<<<<域名规则>>>>>7869
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -389,6 +389,7 @@
 ||alienmanufacturerchairman.com^
 ||alienxchain*.pages.dev^
 ||alifegreg.com^
+||alightrecentliterature.com^
 ||alisongaudino992.wixsite.com^
 ||all-usanomination.com^$third-party
 ||allbikesputte.be/sumconfirm.php/
@@ -733,6 +734,7 @@
 ||auraloads.com^
 ||aurorastore.org^
 ||auth--sso-trust.webflow.io^
+||auth2323d23.weebly.com^
 ||authority-uspser.top^
 ||authsignonstaff*.softr.app^
 ||auto-bild.de/_static-assets/homad/homad.js
@@ -864,6 +866,7 @@
 ||belezaesaudeinnovations.com^
 ||bell-02.com^
 ||bell-03.com^
+||bellsecuredloginfom-net.vercel.app^
 ||belovedsalesman.com^
 ||beluxrepm.followme.fr/FolloWMe
 ||benaughty.com^
@@ -1098,6 +1101,7 @@
 ||bunkr-cache.se/js/script.js$script,domain=bunkr.*
 ||bunkr.la/build/lv.js$script,~third-party
 ||buono2023-web.com^
+||buoyantspecial.com^
 ||buoydeparturediscontent.com^
 ||burleskspoiler.com^
 ||burmesterone.jp^
@@ -1496,6 +1500,7 @@
 ||codeanyapp.com/manage-SBB/
 ||codeanyapp.com/neta/*/pay-method.php
 ||codeanyapp.com/pr/rue/
+||codeanyapp.com/southafrica/*/PAYU^
 ||codeanyapp.com/swiss-login/
 ||codecarawan.com^
 ||coertiest.click^
@@ -1666,6 +1671,7 @@
 ||crowdstrikeupdate.com^
 ||crowdstuck.com^
 ||crpostbelnk.glitch.me^
+||crunchyscan.fr/build/assets/sjs_
 ||crunchyscan.fr/js/safe_user.js
 ||cryp-prel.com^
 ||crypto-ads.net/delivr^$third-party
@@ -1854,6 +1860,7 @@
 ||decimalcursor.com^
 ||decisionsem.live^
 ||declk.com^
+||decorartealuminios.com.br/*/AZ-ULTIMATE-LINKEDIN/
 ||dedestin0.jp^
 ||dedicloadpgeing*.b-cdn.net^
 ||deenveerww.wixsite.com^
@@ -2028,6 +2035,7 @@
 ||download-ai.top^
 ||download-app.net^
 ||download-campaign.com^
+||download-wetransfer-*.vercel.app^
 ||downloadpirate.com/sw.js$script
 ||downloadsbeta.com^
 ||downloadstep.com^
@@ -2154,7 +2162,13 @@
 ||edge-campaign-japan.com^
 ||editor.labelbox.com/metrics
 ||edizionecaserta.net/wp-content/plugins/serverwp-cloud-adblock-detector/
+||edu.academiait.ru/.css/
 ||edugrampromo.com^$third-party
+||ee-billing-recovery.web.app^
+||ee-network.web.app^
+||ee-payment-issue.web.app^
+||ee-payment-method-issue.firebaseapp.com^
+||ee-pending-payment.firebaseapp.com^
 ||eevblog.com/forum/fp.php
 ||eevblog.com/images/*.gif$image
 ||eezy.api.kustomerapp.com/c/v1/tracking/
@@ -2400,6 +2414,7 @@
 ||fapnow.xxx/bump/
 ||fapp.work^
 ||faptitans.com^*/rc/logo.jpg
+||faran.ac.ir/wp-content/
 ||farlad.com^
 ||farmersjournal.ie/js/detectIncognito.min.js
 ||fasebook.com.vn^
@@ -2447,6 +2462,7 @@
 ||fflink.net^$third-party
 ||ffmovies.lol/jss/dectector-
 ||ffr548tyfhe.jp^
+||fgt.ive.mybluehost.me^
 ||fhhgc.infinityscans.net^$xmlhttprequest
 ||fiare-activity.com^
 ||fichub.com/plugins/adobe/lib/$xmlhttprequest,domain=natgeotv.com
@@ -3048,6 +3064,7 @@
 ||harriscollect.net^
 ||harzfriends.de^
 ||haupsoti.net^
+||hausbank-ssk-cuxhaven.de^
 ||havelbeenpwnd.com^
 ||havenclick.com^
 ||havenworks.com^
@@ -3196,6 +3213,7 @@
 ||honeyline.co.jp^
 ||honeyline.net^
 ||honeytalkgroup.com^
+||hootbio.com/bellmail
 ||hope-for-shiningday.com^
 ||hopgp.com^
 ||hori-hori.xyz^
@@ -3507,6 +3525,7 @@
 ||ivy2241u.jp^
 ||iwantu.com^
 ||iwinprize.xyz^
+||iwq.pages.dev^
 ||ixxx-blognew.com^
 ||iz682noju02ye5.com^$third-party
 ||izarc.fr^
@@ -3562,6 +3581,7 @@
 ||jetkingncsc.com^
 ||jetpunk.com/resources/asc.js^$script,~third-party
 ||jg5y2nkdg.com^
+||jhwbcvkjkshaw.weebly.com^
 ||jibberjot.top^
 ||jinsei-undesu.com^
 ||jinsei-uranai2023.com^
@@ -3615,6 +3635,7 @@
 ||jsdelivr.net/*/adb-analytics$script,third-party
 ||jsdelivr.net/*/levelmaxblock.js$script,third-party
 ||jsdelivr.net/npm/skx@*/optical.js
+||jss.pages.dev^
 ||jstatic201.com^
 ||jsuol.com.br/*/detectadblock/$script,domain=uol.com.br
 ||jtybleua.jp^
@@ -3934,6 +3955,7 @@
 ||line-bs.com^
 ||line-channel-info.com^
 ||line-special-information.com^
+||line.pm/*/SNF-GKFF.FR/
 ||linemail.work^
 ||lines.fxmwjjeusmulsjf.com^
 ||lines.hdaprocqxmthax.com^
@@ -3974,6 +3996,7 @@
 ||llq.rsq.mybluehost.me^
 ||lm-mousey-happy.com^
 ||lmoox5.net^
+||lnkdeka.standard.*.oortech.com^
 ||lnkr.us^
 ||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
@@ -4049,6 +4072,7 @@
 ||lovez.jp^
 ||lowendbox.com^$third-party
 ||lowsoop.com^
+||lowtrainer.com^
 ||lpartner.jp^
 ||lpoms.com^
 ||lsdfex.shop^
@@ -4141,6 +4165,7 @@
 ||mai-tel.jp^
 ||mai1b0x.com^
 ||maiil-myatt.weeblysite.com^
+||mail-cytanet.pages.dev^
 ||mail-m-m.com^
 ||mail.*-coinbase.com^
 ||mail.pages.exchange-midasbuy.com^
@@ -4470,6 +4495,7 @@
 ||monetiza.co^$third-party
 ||money-present.com^
 ||moneyget.top^
+||moneyoyo.com^$third-party
 ||monglitch.monster^
 ||monitor.*/test?rnd=$xmlhttprequest,third-party
 ||monkfieldreptile.com/nlrum/nlRUM.js$~third-party
@@ -4549,6 +4575,7 @@
 ||mullvaad.net^
 ||mult-imgs.cyou/images/*.gif$image,domain=hentaihaven.xxx
 ||multiadblock.com^
+||multilocal-leboncoin.com^
 ||multinews.me^$third-party
 ||multipledrawers.com^
 ||multiup.io/download-fast/$~third-party
@@ -4567,7 +4594,11 @@
 ||mwcvu.com^$third-party
 ||my-bitbank.cc^
 ||my-cleaner.info^
+||my-ee-*.web.app^
+||my-ee-details.web.app^
+||my-ee-web.web.app^
 ||my-exodus.co.uk^
+||my-info-ee.web.app^
 ||my.optikservers.com/assets/AdsenseInit.$script,~third-party
 ||my7love.xyz^
 ||myanalytic.net^$third-party
@@ -4575,6 +4606,7 @@
 ||mybach.xyz^
 ||mybestclick.net^$third-party
 ||mybluehost.me/*/3dsec.php^
+||mybluehost.me/*/Ameli/
 ||mybluehost.me/*/CHFINAL/
 ||mybluehost.me/*/MitID/
 ||mybluehost.me/*/amendes.org/
@@ -4601,6 +4633,7 @@
 ||mybluehost.me/SBB.CH/
 ||mybluehost.me/SBB/
 ||mybluehost.me/UNITEDSTATESPOSTAL/
+||mybluehost.me/Versan/UPS/
 ||mybluehost.me/ameli/
 ||mybluehost.me/comssss/
 ||mybluehost.me/dse/main/
@@ -4657,6 +4690,7 @@
 ||mywatchseries.*/sw.js$script,~third-party
 ||mywatchtones.com^
 ||myway.com^
+||mywebsitetransfer.com/chase/auth^
 ||n.fcd.su^
 ||n06.biz^
 ||n1g459ky7y.com^
@@ -4953,6 +4987,7 @@
 ||oolontya.com^
 ||ooppnm.com^
 ||oorsoozo.top^
+||oortech.com/loginfromSignIn.pdf-shtml^
 ||oortech.com/mic.shtml^
 ||oortech.com/onedrive.-html^
 ||op3xdork.xyz^
@@ -5061,6 +5096,7 @@
 ||pages.dev/0wa0rni0ng0.mp3
 ||pages.dev/Wi0n0erAry0mpAlert048/
 ||pages.dev/a0ler0tm0s.mp3
+||pages.dev/account/js-reporting^
 ||pages.dev/ai2.mp3
 ||pages.dev/al1.mp3
 ||pages.dev/errors/validateCaptcha^
@@ -5394,6 +5430,7 @@
 ||premium-2023.click^
 ||premium-2023.info^
 ||premium-lucky.com^
+||preprod.exclusifparis.com/modules/deleteordersfree/
 ||present-folio.jp^
 ||preservehalt.com^
 ||press-continue.*.top^
@@ -5500,6 +5537,7 @@
 ||pupok.link^
 ||purpleiyvf.com^
 ||purplex.app/js/gqad.js$script
+||purring-wood-magnolia.glitch.me^
 ||pururin.to/assets/js/pop.js$script
 ||push-sdk.$third-party
 ||push.zhanzhang.baidu.com/push.js$script,domain=huim.com
@@ -5563,6 +5601,7 @@
 ||r2.dev/CAptcha-Verifications-
 ||r2.dev/INV-CHKCOPY-Remittance-Overpayment%20Refund
 ||r2.dev/Outlook%20Secured%20Document
+||r2.dev/Zimbra*.html^
 ||r2.dev/_Fm7-alert.mp3
 ||r2.dev/blobamexbsatt.html^
 ||r2.dev/human-verify-system.html
@@ -5586,6 +5625,8 @@
 ||rainbow-fortune.jp^
 ||raiphafimept.net^
 ||ralphclothing-jp.com^
+||rampostsouthafrican-*.codeanyapp.com^
+||ramscourierservice.weebly.com^
 ||ranch-1and.com^
 ||rapeporn.xyz/js/WBaV00YD0JTBSypXSc.js
 ||rapetube.me/js/2oWLXMqWrBJLr5kGnC.js
@@ -6000,6 +6041,8 @@
 ||sharesharemail.net^
 ||sharethis.com/button/buttons.js$from=bristan.com
 ||sharpfiledownload.com^
+||shawmailboxservice4.wixsite.com^
+||shawupdatingservic.wixstudio.io^
 ||shb-bank.com^
 ||shells.pairapple.net^
 ||shemalestube.com/templates/dark/ads/
@@ -6224,6 +6267,7 @@
 ||sparrowwallet.net^
 ||special-update.online^
 ||specialapp-sns.com^
+||specific-sample-orderline.vercel.app^
 ||speechma.com/anti-adblocker.js
 ||speedrun.com/api/v2/PutSessionPing^$xmlhttprequest,~third-party,method=post
 ||speeds5-mmiliked.com^
@@ -6792,6 +6836,7 @@
 ||top-official-app.com^
 ||top.mail.ru^$third-party
 ||topblockchainsolutions.*^
+||topen.im^
 ||topg.jp^
 ||tophentaicomics.com/istrippers.jpg
 ||tophentaicomics.com/pop.js
@@ -6992,11 +7037,13 @@
 ||ultratime.info^
 ||uly-sses8888.com^
 ||um-bredirect.com^
+||umami.*/script.js|$script
 ||unactkiosk.com^
 ||unafei-kokusai.com^
 ||unbentfaced.com^
 ||unblocked.name/zpp/*$script,domain=unblocked.name
 ||unbrick.id^$third-party
+||unclepigva.com^
 ||uncotorture.com^
 ||undercover-chats.com^
 ||undianhadiah.erhinfo.com^
@@ -7150,6 +7197,7 @@
 ||vercel.app/decision&copyright^
 ||vercel.app/js/esc.js
 ||vercel.app/js/flscn.js
+||vercel.app/magi/olde/saac-wetr-magi.html^
 ||vercel.app/metasp.html^
 ||vercel.app/mixcc.html/
 ||verification-module-v*.b-cdn.net^
@@ -7378,6 +7426,7 @@
 ||webexcelsior.org^
 ||weblion777.github.io^$third-party
 ||webmailrupdatekorea.firebaseapp.com^
+||webmailupdating.wixsite.com^
 ||webmonetiser.com^$third-party
 ||webnotif.online^
 ||webogram.org^
@@ -7834,7 +7883,8 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5517
+!<<<<<网站单独规则>>>>>5525
+$ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -7902,7 +7952,10 @@ $script,domain=zdnet.fr,third-party
 111.90.150.149##[href*="buaksib.in"]
 111.90.151.26##[href^="http://buaksib.in/"]
 111.90.159.132###catfish
+111.90.159.132##.idmuvi-rp-widget.widget
+111.90.159.132##.lna-livescore-home-tabs-widget
 111.90.159.132##.mfp-ready
+111.90.159.132##.slot-machine-wrapper
 111.90.159.132##[href="http://buaksib.in/"]
 111.90.159.159##[href^="http://buaksib.in/"]
 111.90.159.159,animenhentai.com,edn.com,hentai-sharing.net,hentaiomg.com,jav1080.com,javrider.com,javrookies.com,phanmemmaytinh.net,sakuravrjav.com,xproxxx.org###custom_html-3
@@ -10558,6 +10611,7 @@ kelasexcel.id##.sacret-share
 kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
 keralatelecom.info##.ai-viewports
+kiaclub.cz##.div_make_links
 kickass.*###notification-bar
 kickass.*##.alert
 kickassanime.*##.ka-axx-wr
@@ -11091,6 +11145,9 @@ multiup.io,multiup.org,multiup.eu##.mfp-ready
 multiup.io,multiup.org,multiup.eu##a[href^="/download-fast/"]
 multiup.io,multiup.org,multiup.eu##div.col-md-4:has(> .panel > .panel-footer > a[href^="/download-fast/"][namehost^="UseNet"])
 multiup.io,multiup.org,multiup.eu##div.text-center:has(a[class="btn btn-success"][href^="abp:subscribe"])
+musicbusinessworldwide.com###uberad
+musicbusinessworldwide.com##.mb-advert__incontent
+musicbusinessworldwide.com##.mb-advert__uber
 myabandonware.com##.items > .item[id]:not(.itemListGame)
 myabandonware.com##[href^="/visual/r-"]
 myabandonware.com##[id*="myabandonware_"][id$="tf"]
@@ -13354,7 +13411,8 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>860
+!<<<<<通配符规则>>>>>861
+$ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
@@ -14501,7 +14559,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2184
+!<<<<<放行白名单>>>>>2185
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16545,6 +16603,7 @@ javcrave.com#@#.widget_custom_html
 javgg.co,javgg.net#@##AD_160
 job.inshokuten.com,kurukura.jp,netmile.co.jp#@#.ad-area:not(.text-ad)
 kentonline.co.uk#@#.mpu
+kiaclub.cz#@#.adwords
 kotaku.com#@##dfp-ad-1
 kotaku.com#@##dfp-ad-2
 kunststoffe.de#@#.adBox
