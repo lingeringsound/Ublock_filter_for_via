@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: WGRuySa0EjZqKkT8+UA1tg
-! Title: Ublock filter for Via(2025-08-28 00:15:08)
-! Version: 20250828001508
+! Checksum: LYdOE31UXDvQ9eaU4Hc6sg
+! Title: Ublock filter for Via(2025-08-28 08:54:27)
+! Version: 20250828085427
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-28 00:15:08
-! Total Count: 16655
-! Blocked Filters: 16655
+! Last modified: 2025-08-28 08:54:27
+! Total Count: 16662
+! Blocked Filters: 16662
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7814
+!<<<<<域名规则>>>>>7820
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -520,6 +520,8 @@
 ||anydebrid.com^
 ||anydebrid.com^$document
 ||anyonegoal.com^
+||anyplacehere.art^
+||anyplacehere.online^
 ||anyporn.com/if2/
 ||anysoftdownload.com^
 ||anz.brandkit.io^
@@ -1865,6 +1867,7 @@
 ||deepseeklogins.com^
 ||defendeerrpro.jp^
 ||defii-larna.net^
+||degenlabs.org^
 ||degmq5l23.jp^
 ||dek5iqd53g59a.cloudfront.net^
 ||dekarise.site^
@@ -3401,6 +3404,8 @@
 ||infinityvvallet.io^
 ||infinityweet.com^
 ||infinityweet.me^
+||infintytweet.com^
+||infintytweet.me^
 ||inflectionoverdorenovate.com^
 ||info-blog-news.com^
 ||info-espanol-id-configes*.codeanyapp.com^
@@ -3676,6 +3681,7 @@
 ||katestube.com/js/g-ads.js
 ||katestube.com/jsb/js_script.js
 ||katfile.com/images/dlli.png$image
+||kawaiilabs.org^
 ||kbkb.bet^
 ||kbthuhoivontreo.com^
 ||kby.oqp.mybluehost.me^
@@ -14495,7 +14501,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2183
+!<<<<<放行白名单>>>>>2184
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16595,6 +16601,7 @@ player.tubia.com#@#.companion-ads
 pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,recensionihot.com,torino2006.it#@#a[href^="https://www.moscarossa.biz/"]
+pvpoke-re.com#@#div[id^="nitro"]
 qlover.jp#@#.jss128
 queerpride.de#@#.category-advertorial
 quora.com#@#.q-sticky[style*="box-sizing: border-box; position: sticky;"]
