@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: C01DxN7MyIqiixA8tcb42A
-! Title: Ublock filter for Via(2025-08-30 11:28:50)
-! Version: 20250830112850
+! Checksum: mhqLM3yYS6F5k2VNmzNFpA
+! Title: Ublock filter for Via(2025-08-31 00:12:55)
+! Version: 20250831001255
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-30 11:28:50
-! Total Count: 16739
-! Blocked Filters: 16739
+! Last modified: 2025-08-31 00:12:55
+! Total Count: 16753
+! Blocked Filters: 16753
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7879
+!<<<<<域名规则>>>>>7886
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -496,6 +496,7 @@
 ||anathemv.com^
 ||ancient-guidance.jp^
 ||andreas-unterberger.at/includes/js/helperFunctions.js$script,~third-party
+||androidauth.wpengine.com/wp-json/api/advanced_placement/
 ||androidauthority.com/api/locate/
 ||androiddetection.com^
 ||androidnotice.com^
@@ -1245,6 +1246,7 @@
 ||cdn.jwplayer.com/libraries/QSNV25sR.js^$script,domain=www.ratemyprofessors.com
 ||cdn.mekobre.com/ads^$image,domain=mekobre.com
 ||cdn.metricastats.com^
+||cdn.mobalytics.gg/assets/common/prebid/
 ||cdn.nsimg.net/cache/landing^
 ||cdn.optimizely.com/js/$domain=fandom.com
 ||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
@@ -2205,6 +2207,7 @@
 ||elephant-904.com^
 ||elevisions.biz^
 ||elitepaysites.com/photos/*.gif$image
+||eliteplayadvantage.shop^
 ||elitepvpers.com/123/oddeven_btc_de_4x.png$image,~third-party
 ||elixx.*/popcash.js^
 ||ellifluo.com^
@@ -3878,6 +3881,7 @@
 ||lacworkamenty.com^
 ||lalielynaualish.com^
 ||lalien10.com^
+||lambda-url.*.on.aws/v1/rgstr?
 ||lamilagq.com^
 ||landings.namapper.com^
 ||lanky-bar.com^
@@ -5168,6 +5172,7 @@
 ||paradise-angel.com^
 ||paradise.shine-site.com^
 ||paradizeconstruction.com^
+||paradoxcheat.fun^
 ||pardaotopazes.shop^
 ||parlouroutlayfavor.com^
 ||parsely.com^$third-party
@@ -6114,6 +6119,7 @@
 ||sites.google.com/view/awesome-themes-desktop^
 ||sites.google.com/view/blue-softs^
 ||sites.google.com/view/drcheats6|
+||sites.google.com/view/easylaunch|
 ||sites.google.com/view/entteraccess^
 ||sites.google.com/view/ex1aucnh3r/
 ||sites.google.com/view/ex1aucnh3r1/
@@ -6553,6 +6559,7 @@
 ||syncwallet.pages.dev^
 ||synd.edgecdnc.com^
 ||syndication.gcdnanalytics.com^
+||syntaxwave.lol^
 ||system-update-new-2021.com^
 ||systemsupport.pages.dev^
 ||sythe.org/*.php$third-party
@@ -7893,7 +7900,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5532
+!<<<<<网站单独规则>>>>>5536
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11053,6 +11060,8 @@ mmorpg.com##a[href^="http://v2.g.99.com/"]
 mmorpg.org.pl##div.bABcMb.sc-5odcub-0
 mmtv01.xyz,spankbang.mov###pop.div_pop
 moappmovies.blogspot.com##.sy-adblock
+mobalytics.gg##body > div[class^="m-"]:not([id]):has(#poe-2-nitro-video)
+mobalytics.gg##main > div[class^="m-"]:has(> div > div[id^="web-poe-2-display-"])
 mobalytics.gg##section[data-section-id] > div[class]:has(> section#ad-placeholder-id)
 mobile.de##.sticky-billboard
 moddedguru.com##div.banner
@@ -13374,6 +13383,8 @@ yahoo.com##.native-ad-item
 yahoo.com##.ys-mobileFeaturedAd
 yeptube.*##.thr-rcol
 yesmovies.*##a.btn-successful
+yespornpleasexxx.com##a[href^="https://go.rmhfrtnd.com"]
+yespornpleasexxx.com##a[href^="https://landing.brazzersnetwork.com/"]
 ygoprodeck.com###deck-content-ad
 ygoprodeck.com##[id^="front-ad-"]
 ygoprodeck.com##[id^="frontpage-ad-"]
@@ -13428,7 +13439,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>861
+!<<<<<通配符规则>>>>>862
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14173,6 +14184,7 @@ $script,domain=zdnet.fr,third-party
 ://account.booking.xn--
 ://adv.$third-party,domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.sciconnect.unsw.edu.au|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://api.*.com/?rt=
+://api.*.com/?zrt=
 ://api.*/lib/native.wasm$third-party
 ://backcb.one^
 ://booking.*.com/sign-in?op_token=
@@ -14292,7 +14304,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>281
+!<<<<<通用Css规则>>>>>283
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -14419,6 +14431,7 @@ voz.vn/b/image.gif?p=$image
 ##.jwplayer ~ div[style="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"]
 ##.kln > a[href^="https://www.polybuzz.ai/"]
 ##.mdp-deblocker-wrapper
+##.menu-item a[href^="https://go.rmhfrtnd.com"]
 ##.ninja-recommend-block
 ##.overlay-advertising-new
 ##.player-bns-block
@@ -14490,6 +14503,7 @@ voz.vn/b/image.gif?p=$image
 ##[src^="//dombnrs.com/"]
 ##[src^="https://forum.picbaron.com/Banner"]
 ##a.poly-title[href^="https://www.polybuzz.ai/"]
+##a.tdn[href^="https://landing.brazzersnetwork.com/"]
 ##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
 ##a[href*=".click/?z="][href*="&n"]
 ##a[href*="/go.php?a_aid="]
