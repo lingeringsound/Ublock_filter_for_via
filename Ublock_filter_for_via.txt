@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: n4C0rdgCIj945R2bjVvavQ
-! Title: Ublock filter for Via(2025-08-30 00:14:32)
-! Version: 20250830001432
+! Checksum: sDTjXGk+s7OqbK2FGjzvpQ
+! Title: Ublock filter for Via(2025-08-30 08:51:52)
+! Version: 20250830085152
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-30 00:14:32
-! Total Count: 16736
-! Blocked Filters: 16736
+! Last modified: 2025-08-30 08:51:52
+! Total Count: 16739
+! Blocked Filters: 16739
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7876
+!<<<<<域名规则>>>>>7879
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -512,6 +512,7 @@
 ||anitube.*/sw.js$script,~third-party
 ||aniwave.*/assets/_bnx/$image,~third-party
 ||ann.tess1.top^
+||annonumapp.com^
 ||annotationsincereexistence.com^
 ||another2020.net^
 ||ant.spica-telescope.com^
@@ -3461,6 +3462,7 @@
 ||inspectdlet.net^
 ||inspirationhistorical.com^
 ||instacart.ca/graphql?operationName=DisplayAdPlacement^$xmlhttprequest,~third-party
+||instagram-nextjs-three.vercel.app^
 ||instagram.irancell-10g-free.rf.gd^
 ||instagram0639.blogspot.
 ||instant-job-apply.com^
@@ -4004,6 +4006,7 @@
 ||lmoox5.net^
 ||lnkdeka.standard.*.oortech.com^
 ||lnkr.us^
+||lnstagramsupport.cm^
 ||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
 ||loader.horairesdouverture24.fr^
