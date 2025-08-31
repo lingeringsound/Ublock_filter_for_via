@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mhqLM3yYS6F5k2VNmzNFpA
-! Title: Ublock filter for Via(2025-08-31 00:12:55)
-! Version: 20250831001255
+! Checksum: k8pF4znNKQX9OqPnBj2vwQ
+! Title: Ublock filter for Via(2025-08-31 08:58:35)
+! Version: 20250831085835
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-31 00:12:55
-! Total Count: 16753
-! Blocked Filters: 16753
+! Last modified: 2025-08-31 08:58:35
+! Total Count: 16755
+! Blocked Filters: 16755
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7886
+!<<<<<域名规则>>>>>7887
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7444,6 +7444,7 @@
 ||weblion777.github.io^$third-party
 ||webmailrupdatekorea.firebaseapp.com^
 ||webmailupdating.wixsite.com^
+||webmo.fr/Fi/SP/PANKKI/*/auth/
 ||webmonetiser.com^$third-party
 ||webnotif.online^
 ||webogram.org^
@@ -7900,7 +7901,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5536
+!<<<<<网站单独规则>>>>>5537
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8353,6 +8354,7 @@ app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([clas
 app.hellovaia.com,app.studysmarter.de,app.vaia.com##aside > .ng-star-inserted
 appkamods.com###tp98, #btn6:others()
 appnee.com##[href^="https://appnee.com/advertising/"] > [src^="https://img.appnee.com/other/"][alt="Ads Place"]
+appnee.com##div[id*="overlay_"]
 appnee.com,arrowos.net,blog.aming.info,freetutorialsus.com,myuploadedpremium.de,tvshows4mobile.*###babasbmsgx
 appsmodz.com##.sticky-ads
 appuals.com##.appua-reimage-top
