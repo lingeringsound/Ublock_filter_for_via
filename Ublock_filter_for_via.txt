@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: k8pF4znNKQX9OqPnBj2vwQ
-! Title: Ublock filter for Via(2025-08-31 08:58:35)
-! Version: 20250831085835
+! Checksum: qi/9j/7u/SfTnoeN3g11GA
+! Title: Ublock filter for Via(2025-09-01 00:13:08)
+! Version: 20250901001308
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-31 08:58:35
-! Total Count: 16755
-! Blocked Filters: 16755
+! Last modified: 2025-09-01 00:13:08
+! Total Count: 16766
+! Blocked Filters: 16766
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7887
+!<<<<<域名规则>>>>>7896
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1710,6 +1710,7 @@
 ||cuocthiianhdepthieunhii2025.weebly.com^
 ||cupid-chat.net^
 ||curalate.com/api/v1/metrics/
+||curiositycow.com^
 ||curious-deplete.com^
 ||curioushingefast.com^
 ||currentlyatt*.weebly.com^
@@ -3025,6 +3026,7 @@
 ||gyazo.com^$image,domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turboobit.com
 ||gyonlineng.com/sw.js$xmlhttprequest,~third-party
 ||gz-gmy.com^
+||gz-plsl.web.app^
 ||h-cdn.com/loader.js$script,domain=camwhores.tv
 ||h-flash.com/data/image/mcs/*.gif$image,~third-party
 ||h-flash.com/data/image/mcs/chat*$image,~third-party
@@ -3296,6 +3298,7 @@
 ||hyperilquid.xyz-trade.com^
 ||hypixei.com^
 ||hypixelstorexyz.pages.dev^
+||hypollsteceful.com^
 ||i.gyazo.com^$domain=insurancexblog.blogspot.com
 ||i.ibb.co/gSkSXGm/levi-2.png$image
 ||i.ibb.co/wyDmK31/Banner.png^$image,third-party
@@ -3484,6 +3487,7 @@
 ||internetspeedtracker.com^
 ||interserver.net^$third-party
 ||investing.com/*/ad-notification-popup
+||investing.com/gcode/
 ||investxai.pro^
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
 ||inzerille.com^
@@ -4506,6 +4510,7 @@
 ||moncelork.com^
 ||monerominer.rocks/miner-mmr/webmnr.min.js
 ||monetiza.co^$third-party
+||monetization.prod.invmed.co^
 ||money-present.com^
 ||moneyget.top^
 ||moneyoyo.com^$third-party
@@ -4891,6 +4896,7 @@
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
 ||oabaubsutha.com^
 ||oasisministries.com/fr/postale/
+||ob.*.com/i/*.js|$script,third-party
 ||ob.*.com/i/*.js|$script,third-party,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
 ||obiaheroid.top^
 ||obs-software.cc^
@@ -5467,6 +5473,7 @@
 ||prizegift.top^
 ||proai.club^
 ||probableregret.com^
+||problems-center.com^
 ||procdnvids.net^
 ||processesdisplease.com^
 ||profile-ourtime.*.workers.dev^
@@ -5476,8 +5483,10 @@
 ||programmaticmarket.com^
 ||projectglbl.lol^
 ||projecthygieia.com^
+||promos.investing.com^
 ||promotionsonlineusa.com^
 ||promotkc.cc^
+||promptconnectcouncilman.com^
 ||property-rental-seven.vercel.app^
 ||prophecy-of-fate.com^
 ||protect-ad.com^
@@ -7901,7 +7910,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5537
+!<<<<<网站单独规则>>>>>5536
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8411,8 +8420,8 @@ assettoworld.com##.nitro-ad
 assettoworld.com##.nitro-ads
 assia.tv,assia24.com,assia4.com##[class*="ban"]
 asyaanimeleri.pw,blsplayer.com,brbeast.com,flyplayer.xyz,godriveplayer.com,javplayers.com##.pppx
-atdhe.*###bannerInCenter
 atdhe.*##[href^="https://horti.brovada.eu/"]
+atdhe.*,bullrun2024.online,newcdn.lol,pererecadoida.life###bannerInCenter
 aternos.org###placement-takeover
 atglinks.com##.blog-item, ._th_times, .separator, .banner-inner, .box-main > [href], #footer
 atozmath.com###vi-smartbanner
@@ -11512,7 +11521,6 @@ pelisplus.online##a.fasc-button
 pelisplus.online,watchtheofficeonline.net###custom_html-7
 pelisplus2.*##[style^="margin:-30px"] > [href][target="_blank"]
 perchance.org##div[style*="var"][style*="min-height"]:has([data-freestar-ad])
-pererecadoida.life,newcdn.lol,bullrun2024.online###bannerInCenter
 perfectgirls.*,perfektdamen.*##.promo
 pervclips.com##.spot-after
 pervclips.com##.thumb_spots
@@ -13441,7 +13449,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>862
+!<<<<<通配符规则>>>>>865
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13953,6 +13961,8 @@ $script,domain=zdnet.fr,third-party
 /main.js$script,third-party,domain=criptologico.com
 /mc-test/*/index.php?cid=
 /measurements/*.ts?rnd=$xmlhttprequest,third-party
+/media/player/videojs/videojs.ads.min.js
+/media/player/videojs/videojs.ima.js
 /mellowpresence.com^$script
 /merrx01/^
 /metrics^|$script,~third-party,domain=anizle.com|anizm.net|puffytr.com
@@ -14106,6 +14116,7 @@ $script,domain=zdnet.fr,third-party
 /video_app/adult/*/index.html?
 /video_app/adult/*/index.html?*p1=
 /video_app/new/adult/*/index.html?
+/videojs-vast-vpaid/*
 /views/choice/*/start.php^
 /views/go/start.php^
 /visilabs.min.js
