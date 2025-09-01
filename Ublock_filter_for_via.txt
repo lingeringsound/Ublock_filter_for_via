@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: fb0VRel6zi5SC/95Px8AqQ
-! Title: Ublock filter for Via(2025-09-01 09:04:40)
-! Version: 20250901090440
+! Checksum: 92q53M9Ti03NMKtsHVFWqw
+! Title: Ublock filter for Via(2025-09-02 00:14:45)
+! Version: 20250902001445
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-01 09:04:40
-! Total Count: 16774
-! Blocked Filters: 16774
+! Last modified: 2025-09-02 00:14:45
+! Total Count: 16798
+! Blocked Filters: 16798
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7900
+!<<<<<域名规则>>>>>7923
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -147,6 +147,7 @@
 ||88btbtt.com^
 ||8q7tvj34.xyz^
 ||8senjya.jp^
+||8yy-ca-w-i9-z.com^
 ||91.241.60.117^
 ||939l.xyz^
 ||9888.st^
@@ -194,6 +195,7 @@
 ||abrhsuoamrnrx.com^
 ||abs-cbn.com/resources/$script,~third-party
 ||abukss.com^
+||abuse-faint.com^
 ||abusive-isolate.com^
 ||accbing.com^
 ||accept.bar^
@@ -387,6 +389,7 @@
 ||alaskasworld.cfd^
 ||alaskasworld.cfd^$document
 ||alch.treas.jp^
+||alex-kor.com^
 ||alicante-news.com^
 ||alicekdsod.com^
 ||alienmanufacturerchairman.com^
@@ -1313,6 +1316,7 @@
 ||cha-nce.net^
 ||chairmanalienxanthopsia.com^
 ||cham-soc-the-
+||champion-place77.com^
 ||chamsockhachang-
 ||chamsockhachhang-
 ||chamsocthe-
@@ -2977,6 +2981,7 @@
 ||grakorte.com^
 ||grammarist.com/*/*.jpg$script,~third-party
 ||gran-danker.jp^
+||grand-minor.com^
 ||grandfuckauto.xxx^$third-party
 ||granny.asia/partner.xhtml?
 ||grapereward.website^
@@ -3469,6 +3474,7 @@
 ||insonoban.com^
 ||inspectdlet.net^
 ||inspirationhistorical.com^
+||inspirationwillingviagiant.com^
 ||instacart.ca/graphql?operationName=DisplayAdPlacement^$xmlhttprequest,~third-party
 ||instagram-nextjs-three.vercel.app^
 ||instagram.irancell-10g-free.rf.gd^
@@ -3759,6 +3765,7 @@
 ||kiktu.com/wp-content/plugins/azee-safelink/img/download_btns*.png$image,~third-party
 ||kiktu.com/wp-content/plugins/azee-safelink/img/play*.jpg$image,~third-party
 ||kiktu.com/wp-json/wp-statistics/$xmlhttprequest
+||kimikoi8.com^
 ||kin-un2023.com^
 ||kind-lecture.com^
 ||king-sweepstakes.com^
@@ -3880,6 +3887,7 @@
 ||l-senior.com^
 ||l-thr-thr.com^
 ||l-two-two.com^
+||l0ve-zer0.com^
 ||l0vekatsu.com^
 ||l2db.info/uploads/banners/$image
 ||lab-chaingpt.net^
@@ -4770,6 +4778,7 @@
 ||neonime.*/wp-content/themes/grifus/images/donate/yunita/
 ||nephef.com^
 ||neptunclicks.com^
+||net.redroses.top^
 ||netaffiliation.com^$third-party
 ||netcoislogin-zone.webflow.io^
 ||netdna-ssl.com/sbly-ads/sbly-prebid-$script,domain=seeitlive.co
@@ -4901,6 +4910,7 @@
 ||oasisministries.com/fr/postale/
 ||ob.*.com/i/*.js|$script,third-party
 ||ob.*.com/i/*.js|$script,third-party,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
+||obeseglobewimp.com^
 ||obiaheroid.top^
 ||obs-software.cc^
 ||ocalam.com:8443/impact^
@@ -5435,6 +5445,7 @@
 ||post.nationalrent.ru^
 ||postimg.cc^$image,domain=uploadingsite.info|uploadraja.com
 ||postyourlife.com^
+||pouch-rider.com^
 ||powcloud.*/js/hpu.js
 ||powcloud.*/pu*.min.js
 ||poweredbyliquidfire.mobi^
@@ -5622,6 +5633,7 @@
 ||qwudbhasdwq8h.sa.com^
 ||qwudbhasdwq9h.sa.com^
 ||qxb0v.com^
+||r-a3-jk-xyh-d.com^
 ||r-q-e.com^$third-party
 ||r18hub.com/assets/vast/videos/*$xmlhttprequest,~third-party
 ||r2.dev/CAptcha-Verifications-
@@ -5766,6 +5778,7 @@
 ||revancedmusic.com^$domain=~revanced.app
 ||revancedyoutube.org^$domain=~revanced.app
 ||revbid.net^
+||revenuecpmgate.com^
 ||reverents.xyz^
 ||reverita-t.jp^
 ||reveur-voyance.jp^
@@ -5824,6 +5837,7 @@
 ||roundopportunityunless.com^
 ||roundyearfun.com^
 ||roundyearfun.org^
+||route-since.com^
 ||routerprotocol-migrate.com^
 ||royal-glade-286f.kdsj.workers.dev^
 ||royalclass-dm.com^
@@ -5956,6 +5970,9 @@
 ||sdhjak.com^
 ||sdk.optimove.net^
 ||sdlbtwi3lr.com^
+||sdnlq.site^
+||sdnlt.site^
+||sdnlx.site^
 ||sea-into-53426l1.com^
 ||search-journal.onlyfuns.win^
 ||searchdimension.com^
@@ -6398,6 +6415,7 @@
 ||stb-media.xyz^
 ||stc.tools^
 ||stcverify.com^
+||std.wpcdn.pl^$domain=wirtualnemedia.pl
 ||steam.communityart-work.com^
 ||steam.iplay.fit^
 ||steam.workshop*.com^
@@ -7373,6 +7391,7 @@
 ||vzla-qr.com^
 ||w-atomicwallet.com^
 ||w-dbl.com^
+||w-g-wn-hn.com^
 ||w0o.eu^
 ||w0of-woof.com^
 ||w1thy0u.com^
@@ -7650,6 +7669,7 @@
 ||xanadu-du.com^
 ||xanimu.com/*.php
 ||xanthopsiamanufacturer.com^
+||xaysjypt.com^
 ||xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com^
 ||xbjav.com/*/adv/adv.js$script
 ||xbjav.com/asset/js/vast.js$script
@@ -7860,6 +7880,7 @@
 ||zencloud.life^
 ||zengbindn.cn^
 ||zenlytrade.com^
+||zer0-l0ve.com^
 ||zergnet.com/zerg-inf-multi$third-party,script
 ||zerion.cc/assets/js/pcm.js
 ||zerion.cc/assets/js/pk.js
@@ -7907,7 +7928,9 @@
 ||zoosk.online^
 ||zoroalteedrich.net^
 ||zorpleflux.top^
+||zp-gzs2-yts-a.com^
 ||zqvee2re50mr.com^
+||zs.peachparadise.vip^
 ||zurich-interactive.jp^
 ||zvogo.com^
 ||zwuucugezzjhhi.com^
@@ -9295,7 +9318,7 @@ drtuber.*,iceporn.com,yeptube.com##.puFloatLine
 druckerchannel.de###DCGA
 drydenwire.com##.promogrid
 drydenwire.com##[data-track-category="Sponsors"]
-drydenwire.com,myflixertv.to##.modal
+drydenwire.com,myflixertv.to,streamobs.net##.modal
 dsmusic.in###tp-snp2, .captcha-check:others()
 dsocker1234.blogspot.com##.mb-3.order-last.col-md-3.col-12
 dubznetwork.com##[class^="clpr-emre"]
@@ -13457,7 +13480,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>865
+!<<<<<通配符规则>>>>>866
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13914,6 +13937,7 @@ $script,domain=zdnet.fr,third-party
 /images/*/analytics.js$domain=girlsofdesire.org
 /img/server-hunter*.jpg$image,~third-party,domain=arras.io|arras.netlify.app|arrax.io
 /index.html?Aniph=1-
+/index.html?Anph=1-
 /index.html?ph0n=1-
 /index.html?ph0nq=
 /index.php?key=*&t1=
