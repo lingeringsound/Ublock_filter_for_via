@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qi/9j/7u/SfTnoeN3g11GA
-! Title: Ublock filter for Via(2025-09-01 00:13:08)
-! Version: 20250901001308
+! Checksum: fb0VRel6zi5SC/95Px8AqQ
+! Title: Ublock filter for Via(2025-09-01 09:04:40)
+! Version: 20250901090440
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-01 00:13:08
-! Total Count: 16766
-! Blocked Filters: 16766
+! Last modified: 2025-09-01 09:04:40
+! Total Count: 16774
+! Blocked Filters: 16774
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7896
+!<<<<<域名规则>>>>>7900
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1109,6 +1109,7 @@
 ||buono2023-web.com^
 ||buoyantspecial.com^
 ||buoydeparturediscontent.com^
+||bureaubittercomic.com^
 ||burleskspoiler.com^
 ||burmesterone.jp^
 ||buscaapp.com^
@@ -2238,6 +2239,7 @@
 ||enbdev.com/_main.js$script,~third-party
 ||enchantedfruit.com^
 ||encurtads.net/scriptencurmontag.js$script
+||endangerunderneathcar.com^
 ||endingthefed.com^
 ||endlessenterprisebrawl.com^
 ||endrowl.com^
@@ -4309,6 +4311,7 @@
 ||mdy.trill-ikkr.jp^
 ||me-ru.jp^
 ||me08mo.com^
+||meantimesubside.com^
 ||measur-d.com^$third-party
 ||mecrowdstrikesnowstandalone.azurewebsites.net^
 ||media-matching-pair.jp^
@@ -5921,6 +5924,7 @@
 ||santanderpod.*.co.uk^
 ||santanderstaging.interviewtoolkit.io^
 ||santangelo.eng.br/owasetup/
+||sanynouncem.org^
 ||sapjp.com^
 ||sard1.com^
 ||saro-nelmng.com^
@@ -7910,7 +7914,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5536
+!<<<<<网站单独规则>>>>>5540
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8114,6 +8118,7 @@ $script,domain=zdnet.fr,third-party
 9animetv.to##[href^="//keefeezo.net/"]
 9gag.com##.billboard-top-wrapper
 9hentai.*,aliezstream.pro,apl152.me,apl284.me,apl306.me,apl323.me,apl332.me,apl341.me,apl348.me,emb.apl236.me,emb.x179759.apl123.me,emb.x187106.apl152.me,kiddyearner.com,pelisplusgo.*,pelisplusxd.*,redpornblog.com,repelisgoo.*,repelisgooo.*,repelisgt.*,repelisxd.*,roms-download.com,roms-hub.com,torpedogratis.org###ads
+9jarocks.net##[href^="https://sanynouncem.org/"]
 9now.com.au##.vjs-cuepoint
 9to5crack.com,ayeshapc.com,cracka2zsoft.com,crackmak.com,skiplink.me,trycracksetup.com,trycracksoftware.com,yasir-252.net##center > a
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co,marketrealist.com##.ad-disclaimer-container, .inlinead, .ad-container
@@ -11120,6 +11125,7 @@ movi.pk###vads
 movie44.com##.ad-player-skip
 movie44.com##.imgbanner
 movie44.com##.white_content1
+movied.link###singleDownloadBtn
 moviehaxx.pro##a[href^="https://asjjlh.cfd/"]
 moviehdkh.com###adsss
 moviehdkh.com##.player-servers
@@ -11319,6 +11325,8 @@ norisoku.com###random
 nosey.com##.unreel-player-overlay
 notformembersonly.com###post-separate > p > .local-link
 noticiascripto.site##.pb
+notunmovie.link##[href^="https://meantimesubside.com/"]
+notunmovie.link##[href^="https://tremblesyringeillusive.com/"]
 nova.cz##div.vjs-marker-ad
 novelfull.com##a[rel="nofollow noopener sponsored"]
 novelgames.com##.gamelistGame.commonEt
