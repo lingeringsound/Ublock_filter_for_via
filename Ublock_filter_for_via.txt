@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: +hwvOSixSevf/ZNZoEdScw
-! Title: Ublock filter for Via(2025-09-03 08:52:19)
-! Version: 20250903085219
+! Checksum: nWai0SksNjCm8v6i+K38Rg
+! Title: Ublock filter for Via(2025-09-04 00:14:50)
+! Version: 20250904001450
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-03 08:52:19
-! Total Count: 16807
-! Blocked Filters: 16807
+! Last modified: 2025-09-04 00:14:50
+! Total Count: 16812
+! Blocked Filters: 16812
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7930
+!<<<<<域名规则>>>>>7933
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1968,6 +1968,7 @@
 ||digigtalwow.top^
 ||digiseller.ru^$third-party,domain=leechall.com
 ||digital-mail.jp^
+||digitalprocurements.com^
 ||digitalxnetwork.com^
 ||digresssloked.com^
 ||diligentcloset.com^
@@ -2110,6 +2111,7 @@
 ||dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com^
 ||dwf6crl4raal7.cloudfront.net^$script,third-party
 ||dwoetbarcrooplsloiwh.com^
+||dwp-yous*.top^
 ||dx-tv.com^$third-party
 ||dxyezzxkrvqf.top^
 ||dydynight.org^
@@ -2770,6 +2772,7 @@
 ||gataterso.com^
 ||gateway.us.zip.co/analytics^
 ||gator.volces.com/list$xmlhttprequest,method=post
+||gawavalen.fun^
 ||gaypornhot.com/wp-content/uploads/ountsvf.js
 ||gaypornrape.net/js/3LQkZfQVN7mWARVbozLgE.js
 ||gaytail.com/fancy-mode-7abe/
@@ -14644,7 +14647,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2186
+!<<<<<放行白名单>>>>>2188
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15275,6 +15278,7 @@ voz.vn/b/image.gif?p=$image
 @@||crutto.fun^$script,~third-party
 @@||cryptocoinsad.com/ads/js/slider.js$script,domain=mcrypto.club
 @@||cryptofun.space^$script,~third-party
+@@||ct.ddc.venmo.com.fpc.datadome.co^$script,domain=id.venmo.com
 @@||cursomecanet.com^$script,~third-party
 @@||cutcaptcha.com/captcha/*$script,domain=filecrypt.cc|filecrypt.co
 @@||cxense.com/cx.js$script,domain=letelegramme.fr
@@ -16334,6 +16338,7 @@ voz.vn/b/image.gif?p=$image
 @@||tpc.googlesyndication.com/safeframe/*/container.html$other,domain=abola.pt
 @@||tpc.googlesyndication.com/simgad/$xmlhttprequest,domain=soranews24.com
 @@||tpc.googlesyndication.com/sodar/sodar2.js$script,domain=skmedix.pl
+@@||tpc.googlesyndication.com^$xmlhttprequest,domain=freex2line.online
 @@||tra.scds.pmdstatic.net/$xmlhttprequest,domain=gala.fr
 @@||tra.scds.pmdstatic.net/advertising-core/$script,domain=businessinsider.fr|gentside.*|gentside.co.uk|gentside.com|gentside.de|maxisciences.com|ohmymag.co.uk|ohmymag.com|ohmymag.de
 @@||tra.scds.pmdstatic.net/advertising-core/$script,xmlhttprequest,domain=femmeactuelle.fr
