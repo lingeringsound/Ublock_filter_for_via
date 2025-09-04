@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lTUZzY4TXSr/YI6EPCjgrQ
-! Title: Ublock filter for Via(2025-09-04 08:52:18)
-! Version: 20250904085218
+! Checksum: 8uFHpgpklIvc+Qz8bN+aNw
+! Title: Ublock filter for Via(2025-09-05 00:14:38)
+! Version: 20250905001438
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-04 08:52:18
-! Total Count: 16812
-! Blocked Filters: 16812
+! Last modified: 2025-09-05 00:14:38
+! Total Count: 16822
+! Blocked Filters: 16822
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7933
+!<<<<<域名规则>>>>>7938
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -448,6 +448,7 @@
 ||amazon-analytic.com^
 ||amazon-shopping.shop^
 ||amazon.com/1/action-impressions/
+||amazon.dev/getVideoAds
 ||amazon8898.com^
 ||amazonaws.com/*.*.*.*.*.*.*.*/*/index*.html
 ||amazonaws.com/anydo-user-uploads/*_ATT_VoiceMail.html^
@@ -980,6 +981,7 @@
 ||bitvavo*.top^
 ||bitvavo*.vip^
 ||bitzite.com/dtban.jpg
+||biytmartlogine.webflow.io^
 ||bizdizorganization.com^
 ||bizerba-dot-azure-projectfiles.uk.r.appspot.com^
 ||blackandwhite-temporary.com^
@@ -2214,6 +2216,7 @@
 ||electrummonero.com^
 ||elementor.cloud/*/ENGHUY645/
 ||elementor.cloud/*/ESDHL/
+||elements.video^
 ||elephant-904.com^
 ||elevisions.biz^
 ||elitepaysites.com/photos/*.gif$image
@@ -2582,6 +2585,7 @@
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||flow.page/foxhills.co.uk^
+||fluffyaltarrecords.com^
 ||fly.storage.tigris.dev/completing/default-page.html?X-Amz-Algorithm=
 ||fly.storage.tigris.dev/pass-this-security-check.html?X-Amz-Algorithm=
 ||flymylife.info^
@@ -6202,6 +6206,7 @@
 ||slc.cbssports.com^
 ||sldg02.com^
 ||sleetposition.website^
+||sleevegrope.com^
 ||slimhealth.us^
 ||slobeg.com^
 ||slorpeyes.top^
@@ -7947,7 +7952,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5542
+!<<<<<网站单独规则>>>>>5545
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9740,8 +9745,10 @@ forbes.com##.ad-unit:not(.text-ad):not(.textads)
 forbes.com##.amp-ad-container
 forbes.com##.ed-wrap.rafeed__block
 forbes.com##.footer-ad-labeling
+forbes.com##.recirc-rail
 forbes.com##.vestpocket
 forbes.com##fbs-ad
+forbes.com##main div[class][style^="top:"]:has(> div > fbs-video[ad-unit-path])
 forbes.com,~lamire.jp##.ad-unit:not(.text-ad):not(.textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 forexfactory.com##.adbit
 forexrw7.com,fx-22.com,gold-24.net,mooonten.com,msic.site,whatgame.xyz##.btn-success, .btn-primary:others()
@@ -9815,6 +9822,7 @@ freethesaurus.com,thefreedictionary.com##div:has(> a:not([href*="/"]) > img:not(
 freetutorialsudemy.com##.freeu-sidebar
 freetutorialsudemy.com##.freeu-widget
 freetutorialsus.com##.code-block-1.code-block > div
+freeuseporn.com##.homed > ul.grid > li:has(script)
 freeuseporn.com##.homed li:has(iframe)
 freeuseporn.com,pornstargold.com##canvas
 freevipservers.net##.justify-center:has(.adsbygoogle)
@@ -14647,7 +14655,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2188
+!<<<<<放行白名单>>>>>2190
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -14784,6 +14792,7 @@ voz.vn/b/image.gif?p=$image
 @@/sites/jquery.adx.js^$script,~third-party,domain=beaumontenterprise.com|bigrapidsnews.com|ctinsider.com|ctpost.com|darientimes.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|registercitizen.com|sfchronicle.com|sheltonherald.com|stamfordadvocate.com|theheraldreview.com|thehour.com|theintelligencer.com|theridgefieldpress.com|thetelegraph.com|timesunion.com|trumbulltimes.com|wiltonbulletin.com|yourconroenews.com
 @@/templates/dfp/dfp-component-template.html$xmlhttprequest,~third-party
 @@/wp-content/plugins/ad-inserter/js/*.js?ver=$script,xmlhttprequest,~third-party
+@@/wp-content/plugins/adsanity-adblock-detection/public/js/lazyad-loader.min.js$script,~third-party
 @@/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js$script,~third-party
 @@/wp-content/plugins/dh-anti-adblocker/*$script,~third-party
 @@/wp-content/plugins/dh-new-anti-adblocker$script,~third-party
@@ -16368,6 +16377,7 @@ voz.vn/b/image.gif?p=$image
 @@||trc.taboola.com/ndtv-ndtvmobile/$script,domain=ampproject.net
 @@||tredir.go.com/capmon/$script,domain=disney.com
 @@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
+@@||truyenaudiocv.org/themes/truyenaudiocv/js/*.js|$script,~third-party
 @@||try.abtasty.com/$script,domain=shop.euromaster.de
 @@||try.abtasty.com^$script,domain=reuters.com
 @@||tsyndicate.com/api/v1/direct/$xmlhttprequest,domain=camcaps.io
