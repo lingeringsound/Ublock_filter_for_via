@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8uFHpgpklIvc+Qz8bN+aNw
-! Title: Ublock filter for Via(2025-09-05 00:14:38)
-! Version: 20250905001438
+! Checksum: 8GU40+lBQ5Ipsq0Ci6l8pw
+! Title: Ublock filter for Via(2025-09-05 08:53:26)
+! Version: 20250905085326
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-05 00:14:38
-! Total Count: 16822
-! Blocked Filters: 16822
+! Last modified: 2025-09-05 08:53:26
+! Total Count: 16823
+! Blocked Filters: 16823
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -7952,7 +7952,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5545
+!<<<<<网站单独规则>>>>>5546
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -10275,6 +10275,7 @@ hindimoviestv.com##.mvic-btn
 hindimoviestv.com##[href^="https://accounts.binance.com/en/register"]
 hindustantimes.com##.FirstAd
 hindustantimes.com##.adBlocker
+hindustantimes.com##.adBlockerPopup
 hindustantimes.com##.blackOverlay
 hindustantimes.com##.desktopAd
 hindustantimes.com##.epaper-ad
