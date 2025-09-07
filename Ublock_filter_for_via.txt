@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Gxqyt4h4AebS2h5XQ56bTA
-! Title: Ublock filter for Via(2025-09-07 08:57:27)
-! Version: 20250907085727
+! Checksum: D5keTsK/LS9C4sFsdo9cdw
+! Title: Ublock filter for Via(2025-09-08 00:11:51)
+! Version: 20250908001151
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-07 08:57:27
-! Total Count: 16846
-! Blocked Filters: 16846
+! Last modified: 2025-09-08 00:11:51
+! Total Count: 16871
+! Blocked Filters: 16871
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7952
+!<<<<<域名规则>>>>>7971
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -230,6 +230,7 @@
 ||ad4point.nyc3.digitaloceanspaces.com^
 ||ad7mylo.com^
 ||adak.adm1r3.com^
+||adaptunemployed.com^
 ||adating.link^
 ||adbetnetwork.com^$third-party
 ||adblock.fr^
@@ -386,6 +387,7 @@
 ||akyr3h9x5mb.com^
 ||al5sm.com^
 ||alabamaimage.online^$websocket,domain=contentx.me
+||alarisequity.cyou^
 ||alaskasworld.cfd^
 ||alaskasworld.cfd^$document
 ||alch.treas.jp^
@@ -751,6 +753,7 @@
 ||authority-uspser.top^
 ||authsignonstaff*.softr.app^
 ||auto-bild.de/_static-assets/homad/homad.js
+||auto.am/static/azd/
 ||auto.giz-store.com^
 ||autolocksmithpro.com/spt/
 ||autoscurt24.de^
@@ -1226,6 +1229,8 @@
 ||cdn.ay.gy/js/$script,third-party
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
 ||cdn.briefly.co.za/briefly/js/monetization.
+||cdn.concert.io/fins/segment
+||cdn.concert.io/pins/segment
 ||cdn.contentsitesrv.com/js/push/subscribe.js$script
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$script,domain=embed.sportsline.com
 ||cdn.cuty.io/fps.js$script
@@ -1469,6 +1474,7 @@
 ||cloud-pack.org^
 ||cloud.edgerapidcdn.com^
 ||cloud.tnewstraffic.com^
+||cloudflare-analiytics.pages.dev^
 ||cloudflare-stat.net^
 ||cloudflarebros.com^
 ||cloudflareinsights.com/beacon.min.js/$script,domain=japscan.lol
@@ -2805,6 +2811,7 @@
 ||genuinelyunfit.com^
 ||geoflix.me^
 ||geoip.cdn.arkadiumhosted.com^$domain=bestforpuzzles.com|charlotteobserver.com|dailygazette.com|independent.co.uk|miamiherald.com|standard.co.uk|word.tips
+||geometryperformance.com^
 ||gerarna.io.vn^
 ||german-porno-deutsch.info/*.gif$image
 ||germanytechsupport.pages.dev^
@@ -4229,6 +4236,7 @@
 ||makitablackfriday.shop^
 ||makitfornows.com^
 ||makoto-in-room.wixsite.com^
+||malatienukki.com^
 ||malaysianwireless.com/wp-content/banners/*$image,~third-party
 ||malenirt.site^
 ||malurusoenone.top^
@@ -4264,6 +4272,7 @@
 ||mantra7.net^
 ||mantra77.jp^
 ||manualpeasantconnoisseur.com^
+||mappletv.uk/bundle-prod.js$script
 ||marabase-bi.com^
 ||marchshotgun.com^
 ||marginz03nx1oe.jp^
@@ -4319,6 +4328,7 @@
 ||maxdebrid.com^
 ||maxdebrid.com^$document
 ||maxerotica.com^
+||maximumductpictorial.com^
 ||maxsecurityultimate.com^
 ||maytail.jp^
 ||mayxanhsupport.com^
@@ -4364,6 +4374,7 @@
 ||mediafire.com/folder/u2is2eo3euyqd/
 ||mediafire.com/folder/v6itahr4p07b1/
 ||mediapass.com^$third-party
+||mediasystems.am^$third-party
 ||medlafire.co^
 ||medlafire.eu^
 ||meet-flirts.com^
@@ -4398,6 +4409,7 @@
 ||memory-storage.net^
 ||menkaralpheratz.com^
 ||mercado-livre.produtos.usacomment.com^
+||mercari.com/ko40/
 ||mercurial.cointelegraph.com^$xmlhttprequest
 ||mercury.akamaized.net/cm/
 ||merle-poised.com^
@@ -5318,6 +5330,7 @@
 ||pictunoctette.com^
 ||pie.org/v1/experiments/view
 ||pilixiaoshuo.com^
+||pillexplorer.com/banner
 ||pimlm.com^
 ||pin673.cyou^
 ||pineapplecake-yummy.com^
@@ -5736,6 +5749,7 @@
 ||recovery-cr.top^
 ||recovery-gzo.top^
 ||recruit-gold.com^
+||rectangularfoundation.com^
 ||red12flyw2.site^$third-party
 ||reddishpurple.com^
 ||reddit.com/api/jail^$xmlhttprequest,~third-party
@@ -6660,7 +6674,8 @@
 ||tagcommander.com/*/tc_$script,domain=n-tv.de
 ||tagecoin.com/ads/
 ||tags.crwdcntrl.net^$script,domain=indiatimes.com
-||tags.tiqcdn.com/utag/*/utag.sync.js$domain=visible.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=1und1.de|adidas.co.uk|adidas.nl|adidas.pl|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|nickjr.com|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
+||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|sibreal.org|visible.com|yousee.dk
 ||tags.tiqcdn.com/utag/aaa/main/prod/utag.js$script,domain=aaa.com
 ||tags.tiqcdn.com^$domain=nickjr.com
 ||taikhoanvps.com.vn^
@@ -6816,7 +6831,9 @@
 ||theswagsports.com/can/*.htm$script,~third-party
 ||thetollroads-*.top^
 ||theuni-swap.com^
+||theverge.com/SendEventData
 ||theverge.com/ad-block-service-worker.js
+||theverge.com/api/coral-counts
 ||thevidhd.*/sw.js$script,~third-party
 ||theweddingmahotsav.com^
 ||thirdads.me^
@@ -7082,6 +7099,7 @@
 ||u--to-u.com^
 ||u-to--u.com^
 ||u-to-u.com^
+||u-web-assets.mercdn.net/assets/scripts/raphaelp-*.js
 ||u.send.now/m.js$script,~third-party
 ||u3ig.com^
 ||u5lddcsi.xyz^
@@ -7184,6 +7202,7 @@
 ||uranai-su-ki.com^
 ||urara02032023.com^
 ||urbharat.xyz^$third-party
+||urealath.com^
 ||uresnaus.com^
 ||urgentrecommendationclimate.com^
 ||urjump.com^
@@ -7966,7 +7985,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5552
+!<<<<<网站单独规则>>>>>5557
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8490,6 +8509,9 @@ audiencepool.com,techysnap.com###wpsafe-time
 audiobooks4soul.com##[href^="https://ezaudiobooks.com/"]
 audiostereo.pl##div[style="margin-bottom: 10px;"] > a[href][target="_blank"], [href^="https://salony.nautilus.net.pl/"]
 augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
+auto.am##.azd-top
+auto.am##.bncont
+auto.am##.toggle-adv-search
 autofaucet.dutchycorp.space##.show-on-medium
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space,pcgamestorrents.com##[href*="banner"]
@@ -9807,6 +9829,7 @@ freebcc.org##.mb-0.mt-3.text-center.text-small
 freebitcoin.win##.col-md-12
 freebitcoin.win##.wrapper > .section > .container > .row > div.d-md-block.d-none.col-md-3
 freebnbcoin.com##.adsflex
+freechoice.co.za##.convert-iframe > center > a[href][target="_blank"]
 freecoursesites.com##.herald_adsense_widget
 freehardcore.com,frprn.com,kingsofteens.com,motherporno.com,prostoporno.*##.spot
 freehdinterracialporn.in##.my-ad
@@ -10374,6 +10397,7 @@ hqporner.com##.uvb_wrapper
 hqporner.top##.box_b > small
 hqq.*,justswallows.net,multiup.us,player.tabooporns.com,player.tormalayalamhd.*,yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.*,justswallows.net,player.tabooporns.com,player.tormalayalamhd.*,yandexcdn.com##a[onclick="openAuc();"]
+hraparak.am##.big_advert
 html5.gamedistribution.com###gd__adblocker__overlay
 https://github.com/uBlockOrigin/uAssets/issues/27173
 hubcloud.*##.ads-btns
@@ -14677,7 +14701,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2192
+!<<<<<放行白名单>>>>>2193
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15774,6 +15798,7 @@ voz.vn/b/image.gif?p=$image
 @@||lp-cdn.lastpass.com/lporcamedia/*/dist/scripts/analyticsjs.js$script,~third-party
 @@||luciferdonghua.in^$~third-party
 @@||maggotdrowning.com/forums/js/siropu/am/ads.min.js$script,~third-party
+@@||magic.prism.gg/js/script.js$xmlhttprequest,domain=discordbotlist.com
 @@||magyarhang.org^$shide
 @@||mailgen.biz^$script,~third-party
 @@||malwaretips.com/blogs/wp-content/uploads/*/Sponsored-Links$image,~third-party
