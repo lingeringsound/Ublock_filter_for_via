@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: D5keTsK/LS9C4sFsdo9cdw
-! Title: Ublock filter for Via(2025-09-08 00:11:51)
-! Version: 20250908001151
+! Checksum: QtgLQvz3TAVS7A5jjUd1Tg
+! Title: Ublock filter for Via(2025-09-08 08:57:26)
+! Version: 20250908085726
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-08 00:11:51
-! Total Count: 16871
-! Blocked Filters: 16871
+! Last modified: 2025-09-08 08:57:26
+! Total Count: 16874
+! Blocked Filters: 16874
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7971
+!<<<<<域名规则>>>>>7973
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -572,6 +572,7 @@
 ||api.intelligems.io/v*/track|
 ||api.kio.ac/v0/collection/get
 ||api.lhkmedia.in^$third-party
+||api.mintfunnel.co^$domain=animeshqip.org
 ||api.modrinth.com/analytics/
 ||api.omappapi.com/v3/geolocate/json$domain=seclore.com
 ||api.poki.com/ads/
@@ -964,6 +965,7 @@
 ||birth-bravery.com^
 ||biswap.org-earn.com^
 ||bit.ly/47P0Nvo
+||bitadspace.com^$domain=animeshqip.org
 ||bitccincore.com^
 ||bitchesgirls.com/libs/adLoaders/
 ||bitchute.com/data/1
@@ -7985,7 +7987,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5557
+!<<<<<网站单独规则>>>>>5558
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8395,6 +8397,7 @@ animeid.tv##[href^="http://play.leadzupc.com/"]
 animekuro.org##.mks_ads_widget
 animesanka.*##[id*="-ads-"]
 animeshqip.org###__popup_overlay
+animeshqip.org##.media-cover.media > div[style]
 animetake27.*##.gads
 anisearch.com###content > #start + .pagewidth[style^="margin-left: 11px;"]
 anisearch.com###rightA
