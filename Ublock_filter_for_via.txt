@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: SLU5uiM7UmZ1k2PsvWl2qQ
-! Title: Ublock filter for Via(2025-09-09 00:12:48)
-! Version: 20250909001248
+! Checksum: YyedOxT634FcQa06XSxv6w
+! Title: Ublock filter for Via(2025-09-09 08:53:26)
+! Version: 20250909085326
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-09 00:12:48
-! Total Count: 16881
-! Blocked Filters: 16881
+! Last modified: 2025-09-09 08:53:26
+! Total Count: 16883
+! Blocked Filters: 16883
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7980
+!<<<<<域名规则>>>>>7982
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2518,6 +2518,7 @@
 ||filemoon.*/player/jw8/vast.js$script,~third-party
 ||filemoon.in/dl
 ||filemoon.in/js/custom_pop.js
+||files.brocardi.it/js-adv/guard_min.js
 ||files.im/ppa
 ||filesenzu.com^$third-party
 ||filexstorage.site^
@@ -6388,6 +6389,7 @@
 ||sportslevels.com^
 ||spoti-*.codeanyapp.com^
 ||spoti-safe-support*.codeanyapp.com^
+||spotify.custmcssser.com^
 ||spotlesscomplaint.com^
 ||spring-sealion.com^
 ||sprocketwhirl.top^
