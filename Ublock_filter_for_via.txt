@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GjaxHOWHe0AqqHRHEHseMA
-! Title: Ublock filter for Via(2025-09-10 08:53:22)
-! Version: 20250910085322
+! Checksum: +5GHw1FIcNq+FMOtTSxwKg
+! Title: Ublock filter for Via(2025-09-11 00:14:14)
+! Version: 20250911001414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-10 08:53:22
-! Total Count: 16897
-! Blocked Filters: 16897
+! Last modified: 2025-09-11 00:14:14
+! Total Count: 16906
+! Blocked Filters: 16906
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>7992
+!<<<<<域名规则>>>>>7999
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -229,6 +229,7 @@
 ||ad.optimads.info^
 ||ad.responsad1.space^
 ||ad.tradertimerz.media^
+||ad.vietbao.vn^
 ||ad4point.nyc3.digitaloceanspaces.com^
 ||ad7mylo.com^
 ||adak.adm1r3.com^
@@ -2876,6 +2877,7 @@
 ||girlscanner.online/ph_co.js$script
 ||girlslovesoulmate.com^
 ||girlslusts.com^
+||girlsmakeithard.monster^
 ||girlsml.com^
 ||gitbook.com/v1/integrations/googleanalytics/
 ||gitfrominstall.com^
@@ -4151,6 +4153,7 @@
 ||luckvote.top^
 ||lucky-gift-ph24new.online^
 ||lucky-star8.com^
+||luckygifthk.com^
 ||luckypapa.top^
 ||luckypapa.xyz^
 ||luckypatcher.*^$domain=~luckypatchers.com
@@ -5553,6 +5556,7 @@
 ||property-rental-seven.vercel.app^
 ||prophecy-of-fate.com^
 ||protect-ad.com^
+||protect-myphone.com^
 ||protectsurf-a.akamaihd.net^
 ||protoawegw.com^$third-party
 ||protonge.com^
@@ -6141,6 +6145,7 @@
 ||shells.pairapple.net^
 ||shemalestube.com/templates/dark/ads/
 ||shemalestube.com/templates/dark/js/pop/
+||shengsizhanchang.com^
 ||shield.knowt.com^
 ||shimura-china.com^
 ||shinoriori2023.jp^
@@ -6450,11 +6455,13 @@
 ||static.gamezop.com/creatives^$image,third-party
 ||static.kicker.de/content/js/vendor/homad
 ||static.klaviyo.com/onsite/js/$third-party
+||static.plo.vn/v*/web/js/log.min.js
 ||static.rapidglobalorbit.com^
 ||static.sunmedia.tv/AdBlockDetection/$script
 ||static.tvtropes.org/design/js/google-adblock.js$script
 ||static.vocento.com/dab/*.js
 ||static.zhihu.com/heifetz/main.signflow.*.js$script,domain=www.zhihu.com|zhihu.com
+||static.znews.vn/releases/wap/*/js/analytic.min.js
 ||staticfile.net^
 ||staticfile.org^
 ||staticfonts.com^
@@ -8006,7 +8013,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5559
+!<<<<<网站单独规则>>>>>5561
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8378,6 +8385,7 @@ amazon.*##.AdHolder
 amazon.*##.s-result-item:has(> .s-item-container > h5 .s-sponsored-info-icon)
 amazon.*##.s-widget:has(> [data-cel-widget^="MAIN"] > [data-cel-widget^="tetris"] > div[id^="CardInstance"][class^="_tetris-"])
 amazon.*##div[cel_widget_id="sims-consolidated-5_csm_instrumentation_wrapper"]
+amindi.info##.fb-popup
 amnews.com###div-gpt-ad-instory-bottom
 ampproject.net,ndtv.com##.trc-content-sponsored
 androidadult.com###slidevideo
@@ -9201,6 +9209,7 @@ cutt.net##.aspace
 cutty.app,m4news.com,shoot-yalla.to,shoot-yalla.tv,tv.shoot-yalla.live,vivercomsaude.online,yalla-shoot-tv.io,yalla-shoots.tv##.demand-supply
 cyberdefensemagazine.com###bsaIframe
 cyberdefensemagazine.com##[href^="https://www.coresecurity.com/"]
+cybermania.ws###zdn-adblock-overlay
 cybernews.com##aside[data-e="popupEvent"]
 cyclehack.jp,gogo-miyagi.com,izuhack.akao-hotel.co.jp,nap-camp.com,runhack.jp,tsurihack.com,yamahack.com###ad-overlay
 cyclingnews.com##.global-banner
