@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: tX1l7ek3JN20Zzq1/k13HQ
-! Title: Ublock filter for Via(2025-09-12 08:51:44)
-! Version: 20250912085144
+! Checksum: MynMGpVubP88LGrJKrFTrg
+! Title: Ublock filter for Via(2025-09-13 00:12:07)
+! Version: 20250913001207
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-12 08:51:44
-! Total Count: 16919
-! Blocked Filters: 16919
+! Last modified: 2025-09-13 00:12:07
+! Total Count: 16929
+! Blocked Filters: 16929
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8007
+!<<<<<域名规则>>>>>8015
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -873,6 +873,7 @@
 ||bdvenlinea*.pages.dev^
 ||bdvenlinea-banvenez-beram.pages.dev^
 ||bdvenlineaconfirmate.pages.dev^
+||bdvmetricas.banvenez.com.ve^
 ||be-loaded.com^
 ||be-well.es^
 ||beachinfinitegag.com^
@@ -948,6 +949,7 @@
 ||bijinkadan.com^
 ||bilbocine.com^
 ||bilbocine.com^$document
+||bilet.com/gtmcf/
 ||bilsevvakfi.org^
 ||binace-epa.com^
 ||binance.org^$xmlhttprequest,domain=animexin.vip
@@ -1909,6 +1911,7 @@
 ||deepseekapp.download^
 ||deepseeklogin.com^
 ||deepseeklogins.com^
+||deezer.com/ajax/gw-light.php?method=log.listen
 ||defendeerrpro.jp^
 ||defii-larna.net^
 ||degenlabs.org^
@@ -2130,6 +2133,7 @@
 ||dvdgayonline.com^$third-party
 ||dvdporngay.com/wp-content/themes/*/images/loading.gif$image
 ||dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com^
+||dwelledbanksia.click^
 ||dwf6crl4raal7.cloudfront.net^$script,third-party
 ||dwoetbarcrooplsloiwh.com^
 ||dwp-yous*.top^
@@ -2931,6 +2935,7 @@
 ||go.xlirdr.com^$xmlhttprequest,removeparam
 ||go2click.online^
 ||go4kora.tv/assets/js/script_antiAdBlock_*.js$script,~third-party
+||goal.starsites.fun/prisnetajne.js
 ||gocast2.com/z-$script,~third-party
 ||gocolonial.local-user.com^
 ||gocrazy.gg^
@@ -3240,6 +3245,7 @@
 ||hltv.org/img/*?ixlib=$image
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
+||hltvorg.com^
 ||hm99-free7apo.gift^
 ||hmai.jp^
 ||hmhm.jp^
@@ -3963,6 +3969,7 @@
 ||lebahmovie.com/sw.js$script,~third-party
 ||lebigdata.fr/wp-content/uploads/*/cote.png$image
 ||lectureolympics.com^
+||ledger-apparaat.com^
 ||ledger.limited^
 ||ledgerr.us^
 ||leesaushoah.net^
@@ -6542,6 +6549,7 @@
 ||streamrail.com^$script,domain=linkvertise.*
 ||streamssitesearch.com^
 ||streamup.ws/assets/js/adblock.js$script,~third-party
+||streamvault.top/magic.js
 ||streetsbuccaro.com^
 ||strekepetrols.com^
 ||stretchedbystander.com^
@@ -8021,7 +8029,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5565
+!<<<<<网站单独规则>>>>>5566
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12539,6 +12547,7 @@ sportstiger.com##.fullads_banner
 sportstiger.com##.headerFull_ads
 sportstiger.com##.midd_ads
 sportstiger.com##[class^="customHTML-ads"]
+sportzonline.site###html1
 spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
 spycock.com###advertising
 spycock.com##.footer-banner-wrapper
@@ -14748,7 +14757,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2194
+!<<<<<放行白名单>>>>>2195
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16931,6 +16940,7 @@ vuejs.org#@##sponsors
 warszawawpigulce.pl#@#.code-block-5, .eklama, #undermenu-block, .code-block-6
 washingtonpost.com#@#.pb-md.pt-md
 watchhentai.net#@#.adbox:not(.adbar)
+wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 wiki.yjsnpi.nu#@##mw-content-text div[style] a[href*="contents.fc2.com"]
 winaero.com#@#.entry-content > div > div
 windowspro.de#@##block-views-sponsoredpromo-block
