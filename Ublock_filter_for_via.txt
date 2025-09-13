@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lEo8mUGLOtDYpSs5OwJ7YQ
-! Title: Ublock filter for Via(2025-09-13 08:49:21)
-! Version: 20250913084921
+! Checksum: 0wlpWxGv2G2BbqzMsM3G4w
+! Title: Ublock filter for Via(2025-09-14 00:13:05)
+! Version: 20250914001305
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-13 08:49:21
-! Total Count: 16930
-! Blocked Filters: 16930
+! Last modified: 2025-09-14 00:13:05
+! Total Count: 16944
+! Blocked Filters: 16944
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8016
+!<<<<<域名规则>>>>>8025
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -43,6 +43,9 @@
 ||1111sale.us^
 ||111movies.com/ad2.js
 ||1125telegram.vekira.top^
+||11st.co.kr/emw.st?
+||11st.co.kr/js/product/RakeData.js
+||11st.co.kr/js/rake/RakeData.js
 ||11steam.com^
 ||123456789login.weebly.com^
 ||123link.*/push/
@@ -3518,6 +3521,7 @@
 ||inspirationwillingviagiant.com^
 ||instacart.ca/graphql?operationName=DisplayAdPlacement^$xmlhttprequest,~third-party
 ||instagram-nextjs-three.vercel.app^
+||instagram-vip.cc^
 ||instagram.irancell-10g-free.rf.gd^
 ||instagram0639.blogspot.
 ||instant-job-apply.com^
@@ -5087,6 +5091,7 @@
 ||open-sea.market-ntf.com^
 ||openoffice.de^
 ||opgandi.com^
+||opgg.beer^
 ||opiumundi.com^
 ||oppfiles.com/common/scriptjs.php
 ||opportunityforeigntoward.com^
@@ -5747,6 +5752,8 @@
 ||ray-swap.net^
 ||raydium.io-sol.org^
 ||raydiumx.org^
+||razorpay.com/build/analytics-sdk/
+||razorpay.com/build/razor-analytics/
 ||razorpay.com/v1/track
 ||rbchidraulica.com.br/info/verify^
 ||rblx.land^
@@ -6017,6 +6024,7 @@
 ||sbs^$ipaddress=166.117.237.67
 ||scandichotels.com/Static/js/tracking/tracking-data-init.js^$script,~third-party
 ||scane.click^
+||scanlonchiro.com^
 ||scearmcommnymnlty.com^
 ||scene7goal3.work^
 ||schedule-interview.com^
@@ -6849,6 +6857,7 @@
 ||thebalan-er.com^
 ||thebestoffers4you.net^
 ||thecartoonporntube.com/*.gif$image
+||thecontentserver.com^
 ||thecontroversialfiles.net^
 ||thedreamofus.xyz^
 ||theexpressiveteacher.com^
@@ -8030,7 +8039,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5566
+!<<<<<网站单独规则>>>>>5568
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11501,6 +11510,7 @@ nyaa.land##html > body > div:not([class="container"])
 nyaa.land##html > body > div:not([class="container"]) + br
 nybooks.com##.ad-spacing
 nylonbabez.net,nylonpornpictures.net,stockingspornpics.com##.preview:has(.nat-block)
+nypost.com##.entry-content > .nyp-video-player
 nytimes.com###acm-wrapper
 nytimes.com##[id^="story-ad"][id$="wrapper"]
 nytimes.com,nytimes3xbfgragh.onion###site-content > div[class^="css"]:has(> [data-testid="StandardAd"])
@@ -11557,6 +11567,7 @@ onrpg.com##a[href*="mmo-it.com/"]
 onworks.net###ja-container-prev-b
 op.gg##div[class^="css-"]:has(> div:not([class], [id]) > .vm-placement:not([style]))
 op.gg##div[class^="css-"]:has(> div:not([class], [id]) > .vm-placement[data-display-type="hybrid-banner"])
+op.gg##main > .flex-col:has(div[style] > div[data-opgg-beer-id])
 open3dmodel.com##[style]:has(.adsbygoogle)
 open3dmodel.com##[style]:has(>.adsbygoogle),[style]:has(>.adsbygoogle)~.notranslate
 openculture.com##.no-framearound_ad_in_post
@@ -13599,7 +13610,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>870
+!<<<<<通配符规则>>>>>872
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13694,6 +13705,8 @@ $script,domain=zdnet.fr,third-party
 .cfd/*?s=*&g=*&q=$script,third-party
 .cfd/?aD*HlwZT1jJnRtcD01JmFkY29kZT0x$script,third-party
 .cfd/?h=*&user=$script,third-party
+.cineplex.de%2Fq%2F$image
+.cineplex.de/q/$image
 .click/*/?partner=*&pg=$script,third-party
 .click/*?s=*&g=*&q=$script,third-party
 .click/?h=*&user=$script,third-party
@@ -14758,7 +14771,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2195
+!<<<<<放行白名单>>>>>2196
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16927,6 +16940,7 @@ tumblr.com#@#.Qrht9
 tumblr.com#@#.Yc2Sp
 tv.wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 united.no#@#.page-ads
+unsplash.com#@#div:has(> div[data-affiliates-grid-container])
 uploadmall.com#@#.AdSense
 uploadmall.com#@#.advblock
 usmagazine.com#@#.ami-video-placeholder
