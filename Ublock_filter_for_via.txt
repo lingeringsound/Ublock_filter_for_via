@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mr/MT5ZT8AMpjICW1ThdmQ
-! Title: Ublock filter for Via(2025-09-15 00:12:47)
-! Version: 20250915001247
+! Checksum: 83E63yd+daHCAe89+nK7cQ
+! Title: Ublock filter for Via(2025-09-15 08:58:09)
+! Version: 20250915085809
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-15 00:12:47
-! Total Count: 16976
-! Blocked Filters: 16976
+! Last modified: 2025-09-15 08:58:09
+! Total Count: 16979
+! Blocked Filters: 16979
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8058,12 +8058,13 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5575
+!<<<<<网站单独规则>>>>>5576
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
 %2Fdedxk.r.ag.d.sendibm3.com%2F$image
+%2Felink.membership.cgv.vn%2Fvtrack$image
 %2Fline.my.salesforce.com%2Fs.gif$image
 %2Fline.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid%3D$image
 %2Fplatform-collector.viki.com%2Femail%2F$image
@@ -13636,12 +13637,13 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>878
+!<<<<<通配符规则>>>>>880
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
 %2Fcomm.coinbase.com%2F$image
 %2Fdedxk.r.ag.d.sendibm3.com%2F$image
+%2Felink.membership.cgv.vn%2Fvtrack$image
 %2Fline.my.salesforce.com%2Fs.gif$image
 %2Fline.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid%3D$image
 %2Fplatform-collector.viki.com%2Femail%2F$image
@@ -14048,6 +14050,7 @@ $script,domain=zdnet.fr,third-party
 /ea/fl.js
 /ea2/fl.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
+/elink.membership.cgv.vn/vtrack$image
 /embed-1/ajax/e-1/banners|$xmlhttprequest
 /embed-1/ajax/e-1/banners|$xmlhttprequest,~third-party
 /embed-1/ajax/e-1/banners|$xmlhttprequest,~third-party,strict1p
