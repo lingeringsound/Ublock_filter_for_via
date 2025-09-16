@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: HWeqkWR43EsQYLXp5qGl+w
-! Title: Ublock filter for Via(2025-09-16 00:15:23)
-! Version: 20250916001523
+! Checksum: gvJloOSjau/umcJ/irI14A
+! Title: Ublock filter for Via(2025-09-16 08:53:38)
+! Version: 20250916085338
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-16 00:15:23
-! Total Count: 16983
-! Blocked Filters: 16983
+! Last modified: 2025-09-16 08:53:38
+! Total Count: 16985
+! Blocked Filters: 16985
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8046
+!<<<<<域名规则>>>>>8047
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5105,6 +5105,7 @@
 ||open-project.org^
 ||open-sea.market-ntf.com^
 ||openoffice.de^
+||openwebmp.com^
 ||opgandi.com^
 ||opgg.beer^
 ||opiumundi.com^
@@ -8060,7 +8061,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5576
+!<<<<<网站单独规则>>>>>5577
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9003,7 +9004,7 @@ cat3movie.org,hh3dhay.com##.float-ck-center-lt
 cbc.ca##.ad-risingstar-container
 cbc.ca,crosswordsolver.com,getmodsapk.*,getmodsapk.com,gfx-station.com,myscheme.org.in,namemc.com,netronline.com,news18.com,sluttyrat.com,thetimes.com,thizissam.in,updateroj24.com,videakid.hu,wastenews.xyz##.ad-container
 cboard.net###left-ba
-cccam4sat.com,dipsnp.com,everydaytechvams.com,formyanime.com,gsm-solution.com,h-donghua.com,hindisubbedacademy.com,hm4tech.info,mydverse.*,panelprograms.blogspot.com,ripexbooster.xyz,serial4.com,set.seturl.in,tutorgaming.com##.popSc
+cccam4sat.com,dipsnp.com,everydaytechvams.com,formyanime.com,gsm-solution.com,h-donghua.com,hindisubbedacademy.com,hm4tech.info,mydverse.*,panelprograms.blogspot.com,ripexbooster.xyz,serial4.com,set.seturl.in,tutorgaming.com,unblockedgamesgplus.gitlab.io##.popSc
 ccurl.net##.col-md-2
 ccurl.net##[style*="width: 300px; height:250px"]
 ccurl.net,miklpro.com,shortearn.*##.box-main > .blog-item
@@ -9273,6 +9274,7 @@ daihatsu-club.net##[class^="side_ad_left_"]
 daihatsu-club.net##[class^="side_ad_right_"]
 dailymail.co.uk##.mol-ads-label-container
 dailymail.co.uk##ad-slot
+dailymotion.com##.WatchingDiscovery__adSection___eLtfR
 danet.vn###adsButton
 daporn.com###close-aff
 daporn.com###mediaOverlay
