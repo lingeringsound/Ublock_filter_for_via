@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: yoNZl9zZKDF+xLz2zOcw5A
-! Title: Ublock filter for Via(2025-09-18 08:51:25)
-! Version: 20250918085125
+! Checksum: oQxo10cWqFi24EDuCd/DeA
+! Title: Ublock filter for Via(2025-09-19 00:15:01)
+! Version: 20250919001501
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-18 08:51:25
-! Total Count: 17007
-! Blocked Filters: 17007
+! Last modified: 2025-09-19 00:15:01
+! Total Count: 17014
+! Blocked Filters: 17014
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8061
+!<<<<<域名规则>>>>>8064
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2620,6 +2620,7 @@
 ||flk41.com^
 ||float-next.com^
 ||floopdoodle.top^
+||florida.revenue-*.net^
 ||floridavacationrentalsbyowners.com/*/Info/page_settings/account.php^
 ||flow.microsoft.com/providers/Internal.Telemetry
 ||flow.page/foxhills.co.uk^
@@ -5370,6 +5371,7 @@
 ||pgk.te1p-a4ir.com^
 ||phantomcorestudios.net^
 ||pharmaceutical-technology.com/wp-content/*skin.jpg$image
+||phila.revenue*.cc^
 ||phim1080.in/mmo/
 ||phineypet.com/2x.png
 ||phineypet.com/300x600.png
@@ -7065,6 +7067,7 @@
 ||traderjoexyz.bylfg.org^
 ||tradestrategy.substack.com^
 ||tradingstart.pro^
+||tradingsview.net^
 ||trafempire.com^
 ||traffic-go.com^
 ||trafficjunction.com^
@@ -14832,7 +14835,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2198
+!<<<<<放行白名单>>>>>2202
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15035,6 +15038,7 @@ voz.vn/b/image.gif?p=$image
 @@||ads-api.twitter.com^$xmlhttprequest,domain=analytics.twitter.com
 @@||ads.adaptv.advertising.com/*einthusan.tv*$xmlhttprequest,domain=imasdk.googleapis.com
 @@||ads.adthrive.com/builds/core/*$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$script,domain=damndelicious.net
 @@||ads.adthrive.com/sites/*/ads.min.js$script,domain=a-z-animals.com|brewerfanatic.com|fishonfirst.com|northsidebaseball.com|pimylifeup.com|twinsdaily.com
 @@||ads.bdcraft.net/js/interstitial.js$script,~third-party
 @@||ads.hausbau-forum.de/openad.js$script,~third-party
@@ -15235,6 +15239,8 @@ voz.vn/b/image.gif?p=$image
 @@||brid.tv/player/build/plugins/adunit.js$script,domain=pluralist.com
 @@||brittlesturdyunlovable.com/*/code.js^$script,third-party,domain=empire-anime.*|empire-stream.*|empire-streaming.*|empire-streamz.*
 @@||brittlesturdyunlovable.com/get/$script,third-party,domain=empire-anime.*|empire-stream.*|empire-streaming.*|empire-streamz.*
+@@||broadbandy.net/display/$script,image,domain=highlights.legaseriea.it
+@@||broadbandy.net/v1/getVideo/$xmlhttprequest,domain=highlights.legaseriea.it
 @@||browser.sentry-cdn.com/*/bundle.min.js$script,domain=blick.ch
 @@||bt.dk^$script,~third-party
 @@||btloader.com/tag?$xmlhttprequest,domain=quackr.io
@@ -15396,6 +15402,7 @@ voz.vn/b/image.gif?p=$image
 @@||click.allkeyshop.com/*&source=allkeyshop.com
 @@||click.allkeyshop.com/*&source=www.allkeyshop.com
 @@||click.redditmail.com^*ref_source=email
+@@||clickiocmp.com^$script,domain=highlights.legaseriea.it
 @@||client.perimeterx.net/PXzYvFOXaC/main.min.js$script,domain=chegg.com
 @@||clouderrorreporting.googleapis.com^$domain=waze.com
 @@||cloudflare.com/ajax/libs/*$script,domain=androidcentral.com
@@ -16723,8 +16730,8 @@ voz.vn/b/image.gif?p=$image
 @@||zigforums.com/js/*$xmlhttprequest,~third-party
 @@||ziyu.net^$domain=tenki-yoho.com
 @@||zqtk.net^$script,domain=wsj.com
-a-z-animals.com,brewerfanatic.com,fishonfirst.com,mediaite.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
-a-z-animals.com,brewerfanatic.com,fishonfirst.com,northsidebaseball.com,pimylifeup.com,twinsdaily.com#@#.adthrive
+a-z-animals.com,brewerfanatic.com,damndelicious.net,fishonfirst.com,mediaite.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
+a-z-animals.com,brewerfanatic.com,damndelicious.net,fishonfirst.com,northsidebaseball.com,pimylifeup.com,twinsdaily.com#@#.adthrive
 abczdrowie.pl#@#.article__textbox
 abczdrowie.pl#@#[class^="content-aside__"], div[class^="article "], div[class^="article__textbox "]
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,bild.de,deliciousmagazine.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl#@#.ads
