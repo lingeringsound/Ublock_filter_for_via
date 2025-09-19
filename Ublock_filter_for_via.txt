@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oQxo10cWqFi24EDuCd/DeA
-! Title: Ublock filter for Via(2025-09-19 00:15:01)
-! Version: 20250919001501
+! Checksum: 3MjVbkdM4bhslEcs5Ujnhg
+! Title: Ublock filter for Via(2025-09-19 08:55:04)
+! Version: 20250919085504
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-19 00:15:01
-! Total Count: 17014
-! Blocked Filters: 17014
+! Last modified: 2025-09-19 08:55:04
+! Total Count: 17016
+! Blocked Filters: 17016
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8064
+!<<<<<域名规则>>>>>8065
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -557,6 +557,7 @@
 ||aphenunci.com^
 ||aphrodite-astrology.net^
 ||api-ng.pons.com/*/pons-ads-idm.js
+||api-transactional.farmatodo.com/*/home/banners/
 ||api-widget.soundcloud.com/me?client_id=
 ||api.*.com/v1/videos?channel_handle=$xmlhttprequest,~third-party
 ||api.aieasypic.com/api/civit_model_version/ad_list/$xmlhttprequest,third-party
@@ -8078,7 +8079,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5583
+!<<<<<网站单独规则>>>>>5584
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9744,6 +9745,7 @@ fapnado.*##.pause-ad-pullup
 fapnado.*##[class^="zpot"]
 fapomania.com##.menuraduo2
 faptitans.com,pussysaga.com##.cross-promo-bnr
+farmatodo.com.ve##.cont-banner-login
 faselhd.*##.alert-danger.alert
 fastapi.tiangolo.com###announce-right .item:has(.sponsor-badge)
 fastcoin.ga##.justify-content-center.col-sm-12.row > .overflow > center > .slide.carousel
