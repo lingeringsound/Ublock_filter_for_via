@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DhYgGd5wLnsJzay9vhyyxw
-! Title: Ublock filter for Via(2025-09-21 00:12:34)
-! Version: 20250921001234
+! Checksum: YnxR9z5RymKPpNjQp3aStQ
+! Title: Ublock filter for Via(2025-09-21 08:57:53)
+! Version: 20250921085753
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-21 00:12:34
-! Total Count: 17029
-! Blocked Filters: 17029
+! Last modified: 2025-09-21 08:57:53
+! Total Count: 17030
+! Blocked Filters: 17030
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -14850,7 +14850,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2202
+!<<<<<放行白名单>>>>>2203
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16363,6 +16363,7 @@ voz.vn/b/image.gif?p=$image
 @@||sharecast.ws/clappr.min.js$script,~third-party
 @@||sharecast.ws/player-bundle.min.js$script,~third-party
 @@||shop.bbc.com/skin/$script,~third-party
+@@||shop.pilotinstitute.com/*^cls=*&cls=$removeparam
 @@||shortenbuddy.com^$script,~third-party
 @@||showheroes.com/playlist/*$xmlhttprequest,domain=bz-berlin.de
 @@||shrink.icu/prebid.js$script
