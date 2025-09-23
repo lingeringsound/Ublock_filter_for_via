@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: B1yA6eqfRgAISHmYUDBvQA
-! Title: Ublock filter for Via(2025-09-23 08:54:03)
-! Version: 20250923085403
+! Checksum: nW5iMDJ4R1oE0f1ebU/AtQ
+! Title: Ublock filter for Via(2025-09-24 00:16:34)
+! Version: 20250924001634
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-23 08:54:03
-! Total Count: 17073
-! Blocked Filters: 17073
+! Last modified: 2025-09-24 00:16:34
+! Total Count: 17085
+! Blocked Filters: 17085
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8082
+!<<<<<域名规则>>>>>8086
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1067,6 +1067,7 @@
 ||bnewsblite.me^
 ||boardband.univer.se^
 ||boarfishesquandangsunderdried.com^
+||boaststockingsaucer.com^
 ||bobonheur.com^
 ||bobs-tube.com/sw$script,~third-party
 ||bohubrihi.com^$third-party
@@ -1530,6 +1531,7 @@
 ||coc-gov.com^
 ||cocoro-liberty.com^
 ||cod-luxurybag-jp.shop^
+||code.adclickppc.com^
 ||code.jquery.com/jquery-$script,domain=mega-mkv.com
 ||codeanyapp.com/*/DKB_new/
 ||codeanyapp.com/*/SWISSPASSC/
@@ -7275,6 +7277,8 @@
 ||up-load.io/sw.js$xmlhttprequest,~third-party
 ||up-loop.net^
 ||up.ch3m1stry.com^
+||upa1bit.
+||upbitbr.
 ||upcommunity.click^
 ||upcommunity.net^
 ||update-macosx.com^
@@ -8096,7 +8100,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5593
+!<<<<<网站单独规则>>>>>5598
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8241,6 +8245,8 @@ $script,domain=zdnet.fr,third-party
 25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,jetseotools.com,key-hub.eu,kwamkidhen.com,leechpremium.link,letmeread.net,lightnovelworld.*,lightnovelworld.com,listatv.pl,logaritmo.org,lootdb.com,loveawake.com,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vedetta.org,vidlii.com,vinstartheme.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,work.ink,worldaide.fr,yoursavegames.com,zikloud.com##ins.adsbygoogle
 2conv.com,flvto.biz##.content-right-bar
 2conv.com,flvto.biz##.horizontal-area
+2embed.*###bgImage
+2embed.*##.playbtnx
 2th.me##.pc-container
 2the.space,cryptofenz.xyz,faucetcrypto.net##[id^="wcfloatDiv"]
 360haven.com###ad_global_above_footer
@@ -9075,6 +9081,7 @@ cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .relan, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .ri-ative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
+check-host.net###hostabq, .hostabq, [id^="amtpeayvraea"], .specjo, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvraeapp-liaryt, #amtpeayvraeapp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, [id^="amtpeayvraea"], .specjo, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvraeapp-liaryt, #amtpeayvraeapp-liaryt2, .ri-btive, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostavq, #antkeayvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeayvhaeaalexhost, #antkeayvhaeapp-juiaryt, #antkeayvhaeapp-juiaryt2, .ry-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
 check-host.net###hostacq, .hostavq, #antkeatvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeatvhaeaalexhost, #antkeatvhaeapp-juiaryt, #antkeatvhaeapp-juiaryt2, .rr-elative, [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
@@ -9164,6 +9171,7 @@ cnbc.com##[class^="CreditCardCalloutWildcard-styles-select"]:has([href*="/?lid="
 cnnamador.com##.cards__item:has([href*="loboclick"])
 cnnamador.com##.is-ad-visible
 cnx-software.com##div[class*=" "]:has(img[src*="webp"])
+cnx-software.com##div[class*="-s0ngle "]:has(img)
 cnx-software.com##div[class*="-single "]:has(img)
 cockmeter.com,jizz.us,spycock.com###alfa_promo_parent
 code2care.org##.right-content
@@ -13598,6 +13606,7 @@ xnxx-sexfilme.com###wa-banner
 xnxx-sexfilme.com##.grid_box:has(a[target="_blank"])
 xnxx-sexfilme.com##.preroll-blocker
 xnxx-sexfilme.com##.preroll-skip-button
+xnxx.*,xvideos.*###ad-footer
 xnxx.com##.videoad-title
 xnxx.com,xvideos.*###ad-footer
 xnxx.com,xvideos.com###ad-header-mobile
@@ -13692,7 +13701,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>895
+!<<<<<通配符规则>>>>>897
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13799,6 +13808,7 @@ $script,domain=zdnet.fr,third-party
 .click/?user=*&h=$script,third-party
 .club/js/popunder.js$third-party
 .co.in/01/?cid=
+.co.in/a0x1/?cid=
 .co/?mlk=
 .com/1?z=$script,third-party
 .com/2?z=$script,third-party
@@ -14357,6 +14367,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
+/text_tel.js$domain=app|dev|fit
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tmp/vmo.html
@@ -14888,7 +14899,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2208
+!<<<<<放行白名单>>>>>2209
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16858,6 +16869,7 @@ calgarysun.com,canoe.com,edmontonsun.com,financialpost.com,nationalpost.com,otta
 call2friends.com#@#.adWrapper
 chavesnamao.com.br,dip-badajoz.es,xunta.gal#@##anuncio
 cinedesi.in,thevouz.in,tejtime24.com,techishant.in#@#.quads-location
+cnx-software.com#@#div[class*=" "]:has(img[src*="webp"])
 codeproject.com#@#[style*="base64"]
 colonist.io#@#.adsbyvli
 comidoc.net#@#.googlead
