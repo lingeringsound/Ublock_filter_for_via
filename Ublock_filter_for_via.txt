@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OjBNKDJSpEkPsXKVEu2TCQ
-! Title: Ublock filter for Via(2025-09-23 00:15:47)
-! Version: 20250923001547
+! Checksum: B1yA6eqfRgAISHmYUDBvQA
+! Title: Ublock filter for Via(2025-09-23 08:54:03)
+! Version: 20250923085403
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-23 00:15:47
-! Total Count: 17071
-! Blocked Filters: 17071
+! Last modified: 2025-09-23 08:54:03
+! Total Count: 17073
+! Blocked Filters: 17073
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8096,7 +8096,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5591
+!<<<<<网站单独规则>>>>>5593
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9549,9 +9549,9 @@ echo-online.de##div.frontpageOverview__child
 ecmweb.com%2Fimages%2Fshim.png$image
 ecmweb.com/images/shim.png$image
 economictimes.com##.amazon.ttpwidget
+economictimes.com,eisamay.com,iamgujarat.com,indiatimes.com,maharashtratimes.com,samayam.com,vijaykarnataka.com##.fbnad
 economictimes.com,eisamay.com,indiatimes.com,maharashtratimes.com,samayam.com,vijaykarnataka.com##.ad1
 economictimes.com,eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.ads-between-story.story-content
-economictimes.com,eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.fbnad
 economictimes.com,eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##div > .ad-wrapper-625
 editpad.org##.inlinADs
 editpad.org##.top_ad_box
@@ -9574,11 +9574,12 @@ ehotpics.com,upicsz.com##figure[style^="width: 310px;"]
 einfachtitten.com,halloporno.com,pornodavid.com,pornofelix.com,pornofisch.com,pornohammer.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com##.send_event.widget_btn.cf
 einthusan.*##.adspace-lb
 einthusan.*##.adspace-lr
-eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.advertorialwrapper
+eisamay.com###holderContainer
+eisamay.com,iamgujarat.com,indiatimes.com,maharashtratimes.com,samayam.com,vijaykarnataka.com##.wdt-taboola
+eisamay.com,iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.advertorialwrapper
 eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.atf-wrapper
 eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.pwa-deals.wdt_amz
 eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.top-atf-enabled-wrapper
-eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##.wdt-taboola
 eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##div[class="news-card col4"]
 ekstrabladet.dk##.eb-placement
 elahmad.com###ad_asd
@@ -10643,6 +10644,7 @@ indianshortner.com##a[href^="https://t.me/"]
 indiatimes.com##.PPD_ADS_JS
 indiatimes.com##.article_first_ad
 indiatimes.com##.wzrk-overlay
+indiatimes.com,maharashtratimes.com,samayam.com,vijaykarnataka.com##[href^="https://apnabazaar.indiatimes.com/"]
 indiatoday.in,indiatoday.intoday.in##.ad_bn.row
 indobo.com,informaxonline.com,tutorialsaya.com,ufacw.com###wpsafe-generate, #wpsafe-link:others()
 indojavstream.com##.box_item_ads_popup
