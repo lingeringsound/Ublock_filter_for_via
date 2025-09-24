@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: IYuIWhSkI5+O8WzgeLoG3A
-! Title: Ublock filter for Via(2025-09-24 08:53:53)
-! Version: 20250924085353
+! Checksum: gY+1EvhT/H+bVba3Wo7jxg
+! Title: Ublock filter for Via(2025-09-25 00:14:52)
+! Version: 20250925001452
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-24 08:53:53
-! Total Count: 17085
-! Blocked Filters: 17085
+! Last modified: 2025-09-25 00:14:52
+! Total Count: 17090
+! Blocked Filters: 17090
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8086
+!<<<<<域名规则>>>>>8087
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7922,6 +7922,7 @@
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
 ||xzo.jp^
+||y-comblnator.com^
 ||y-tradie.com^
 ||y2mate.*/themes/js/pn.js
 ||y2mate.com/themes/js/pn.js
@@ -8100,7 +8101,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5598
+!<<<<<网站单独规则>>>>>5601
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11250,6 +11251,7 @@ metro.co.uk###we-need-monies
 metro.co.uk##.metro__ad_area_left
 metro.co.uk##.metro__ad_area_right
 metro.co.uk,uwupad.me##.ad-slot-container
+metro.style###adBlock-bottom-fix
 mg.mail.notion.so%2F$image
 mg.mail.notion.so/$image
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
@@ -11688,6 +11690,8 @@ pallabmobile.in,wooseotools.com##a[class][href="#"] img
 pallabmobile.in,wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 panda-novel.com,zebranovel.com##[class^="novel-ins"]
 pandamovies.pw,pornwatch.ws,streamporn.pw,xopenload.me,xopenload.pw,xxxparodyhd.net,xxxstream.me##.btn-lg.btn-block.btn
+pandaspor.live##[href^="https://go.aff."]
+pandaspor.live##[onclick^="trackBannerClick"]
 panel.freemcserver.net##body > #main-wrapper > .page-wrapper > .container-fluid > .row > .col-md-10 > [class] > .row > .col > ul:first-child + [class="row justify-content-center mb-3 billboard_responsive text-center"]
 panel.freemcserver.net##body > #main-wrapper > .page-wrapper > .container-fluid > .row > .col-md-10 > [class] > .row > [class^="col-"] > [style*="min-height"][style*="flex"]:has(> [id^="stpd-"][style^="position:"]:first-child + div + div:last-child)
 papahd1.xyz##.entry > p > button[onclick]:not([onclick*="papahd1.xyz/"])
@@ -13701,7 +13705,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>897
+!<<<<<通配符规则>>>>>898
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13746,6 +13750,7 @@ $script,domain=zdnet.fr,third-party
 *.gif$domain=nekopoi.*,image
 *.gif$domain=oploverz.*,image
 *.gif$domain=otakudesu.*,image
+*.gif$domain=pandaspor.live,image
 *.gif$domain=visionias.net,image
 *.gif$domain=www.visionias.net,image
 *.gif$domain=ytlarge.com,image
@@ -14367,7 +14372,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|dev|fit
+/text_tel.js$domain=app|dev|fit|page
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tmp/vmo.html
