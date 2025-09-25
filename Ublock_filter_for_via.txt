@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: gY+1EvhT/H+bVba3Wo7jxg
-! Title: Ublock filter for Via(2025-09-25 00:14:52)
-! Version: 20250925001452
+! Checksum: DBVt3nlg+37H0xjcflsaWg
+! Title: Ublock filter for Via(2025-09-25 08:55:05)
+! Version: 20250925085505
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-25 00:14:52
-! Total Count: 17090
-! Blocked Filters: 17090
+! Last modified: 2025-09-25 08:55:05
+! Total Count: 17092
+! Blocked Filters: 17092
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8087
+!<<<<<域名规则>>>>>8088
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5291,6 +5291,7 @@
 ||paradise-angel.com^
 ||paradise.shine-site.com^
 ||paradizeconstruction.com^
+||paradlgm.com^
 ||paradoxcheat.fun^
 ||pardaotopazes.shop^
 ||parlouroutlayfavor.com^
@@ -8101,7 +8102,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5601
+!<<<<<网站单独规则>>>>>5602
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13370,6 +13371,7 @@ web.facebook.com,www.facebook.com###seo_pivots ~ div > div[style^="max-width"] >
 web.facebook.com,www.facebook.com##a[aria-labelledby][attributionsrc][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-label][aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc][href^="http"][target="_blank"]
+web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc][href^="http"][target="_blank"][role="link"][rel="nofollow noreferrer"]:has(img[src])
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[aria-label][attributionsrc="_blank"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
@@ -17007,6 +17009,7 @@ nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
 okwave.jp#@#.adfunnel.user_ranking
+omuzaani.me,wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 oogiri-chaya.com#@#.adsText
 oogiri-chaya.com#@#.ads_insert
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
@@ -17101,7 +17104,6 @@ vuejs.org#@##sponsors
 warszawawpigulce.pl#@#.code-block-5, .eklama, #undermenu-block, .code-block-6
 washingtonpost.com#@#.pb-md.pt-md
 watchhentai.net#@#.adbox:not(.adbar)
-wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 wiki.yjsnpi.nu#@##mw-content-text div[style] a[href*="contents.fc2.com"]
 winaero.com#@#.entry-content > div > div
 windowspro.de#@##block-views-sponsoredpromo-block
