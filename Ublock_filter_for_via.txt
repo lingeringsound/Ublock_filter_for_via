@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: DOuh2Q1gRfJMA/vRulGVAQ
-! Title: Ublock filter for Via(2025-09-26 08:52:39)
-! Version: 20250926085239
+! Checksum: TjHBciIhLF4Z6GOGVYWqsQ
+! Title: Ublock filter for Via(2025-09-27 00:15:04)
+! Version: 20250927001504
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-26 08:52:39
-! Total Count: 17107
-! Blocked Filters: 17107
+! Last modified: 2025-09-27 00:15:04
+! Total Count: 17112
+! Blocked Filters: 17112
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8099
+!<<<<<域名规则>>>>>8103
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3731,6 +3731,8 @@
 ||js.allporncomic.com^
 ||js.helltraffic.com/fluidplayer/scripts/webvtt.min.js$script,domain=tubewolf.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.
+||jsda-check.com^
+||jsdajp.click^
 ||jsdelivr.at^
 ||jsdelivr.net/*/adb-analytics$script,third-party
 ||jsdelivr.net/*/levelmaxblock.js$script,third-party
@@ -8015,6 +8017,7 @@
 ||yurizono.com^
 ||yy4rhgzd.com^
 ||yy8j.com^
+||yyqxjp.vip^
 ||z-lib.ai^
 ||z-lib.club^
 ||z-lib.dev^
@@ -8036,6 +8039,7 @@
 ||z-library.help^
 ||z-library.live^
 ||z-library.wiki^
+||z13.web.core.windows.net/*/?clickid=
 ||z3d.rip/main_script.js
 ||z9iq6vt.com^
 ||za.gl^$script,third-party
@@ -13719,7 +13723,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>900
+!<<<<<通配符规则>>>>>901
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13985,6 +13989,7 @@ $script,domain=zdnet.fr,third-party
 /a/ipn/js/*
 /a/na/js/*$third-party
 /a/pop/js/*
+/a0ler0tm0s.mp3$domain=dev|online|shop
 /ab/thejsfile.js
 /aclib.js$script
 /aclib.js?v=$script
