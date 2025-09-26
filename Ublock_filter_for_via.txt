@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: eCUYMQzMHP+s3hl2n6UsSA
-! Title: Ublock filter for Via(2025-09-26 00:15:08)
-! Version: 20250926001509
+! Checksum: DOuh2Q1gRfJMA/vRulGVAQ
+! Title: Ublock filter for Via(2025-09-26 08:52:39)
+! Version: 20250926085239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-26 00:15:09
-! Total Count: 17104
-! Blocked Filters: 17104
+! Last modified: 2025-09-26 08:52:39
+! Total Count: 17107
+! Blocked Filters: 17107
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8097
+!<<<<<域名规则>>>>>8099
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -152,6 +152,7 @@
 ||7zip.it^
 ||86pmafno21mst.com^
 ||88btbtt.com^
+||8jfbt5va3r.com^
 ||8q7tvj34.xyz^
 ||8senjya.jp^
 ||8yy-ca-w-i9-z.com^
@@ -7241,6 +7242,7 @@
 ||uly-sses8888.com^
 ||um-bredirect.com^
 ||umami.*/script.js|$script
+||umami.webtor.io^
 ||unableirreplaceablegaze.com^
 ||unactkiosk.com^
 ||unafei-kokusai.com^
@@ -8111,7 +8113,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5602
+!<<<<<网站单独规则>>>>>5603
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11981,6 +11983,7 @@ pornid.*##.spots-title
 pornjapanese.me##.bottom-spot-area
 pornjapanese.me##[class$="spots-area"]
 pornl.com##.adv-list--footer
+pornlore.com##.koukoku_1
 porno-baguette.com##.daily-premium
 porno-baguette.com##.get-premium
 porno-baguette.com##.grid-layout__col:has(> .video-item--zeder)
