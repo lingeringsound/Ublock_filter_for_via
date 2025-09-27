@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ISPZZky91WBz10nxKzWwbw
-! Title: Ublock filter for Via(2025-09-27 08:50:55)
-! Version: 20250927085055
+! Checksum: kh14Un9hLuzlG2RQhcWJdQ
+! Title: Ublock filter for Via(2025-09-28 00:12:19)
+! Version: 20250928001219
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-27 08:50:55
-! Total Count: 17112
-! Blocked Filters: 17112
+! Last modified: 2025-09-28 00:12:19
+! Total Count: 17120
+! Blocked Filters: 17120
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8103
+!<<<<<域名规则>>>>>8109
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1484,6 +1484,7 @@
 ||clicksgenie.com^$third-party
 ||clicksocialimage.top^
 ||client-telemetry.roblox.com^
+||client.*-blockfi.com^
 ||clinicaimplantologica3d.com^
 ||clinitex.fr/META5KYC/
 ||clipbongda.info^
@@ -1809,6 +1810,7 @@
 ||d1q4kshf6f0axi.cloudfront.net/main/prebid-$script
 ||d1t4ekjh9ps4ob.cloudfront.net^
 ||d2cmedia.ca^$~image,~font
+||d2klx87bgzngce.cloudfront.net^
 ||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 ||d2r3dgsh5nr4kg.cloudfront.net/installer/
 ||d2wpknqle9nuv8.cloudfront.net^
@@ -2959,6 +2961,7 @@
 ||go.*.com/smartpop/
 ||go.bundlebyte.net^
 ||go.errpgrt.com^
+||go.ezodn.com/hb/dall.js
 ||go.xlirdr.com^$xmlhttprequest,removeparam
 ||go2click.online^
 ||go4kora.tv/assets/js/script_antiAdBlock_*.js$script,~third-party
@@ -3469,6 +3472,7 @@
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=foxnews.com
 ||img.alandal.com/promo/$image,domain=asura.gg|asurascans.com
+||img.mykadri.click/asvla2/
 ||img.stomp.com.sg/sites/all/themes/stompst/images/placeholder.jpg$image
 ||img.topddl.net^$image,domain=nanimex.com
 ||imgair.net/vip/splitest.html
@@ -4792,6 +4796,7 @@
 ||myhotdates.com^
 ||myhuaweicloud.com/app/Bitchat_*.apk
 ||myjobdhl.earcu.com^
+||mykadri.tv/preroll/
 ||mylead.global^$third-party,domain=shortenbuddy.com
 ||mylust.com/*.jsx
 ||mylust.com/assets/script.js
@@ -4849,6 +4854,7 @@
 ||natu.natural-natural-pure.com^
 ||naturalbd.com/sw.js$script,~third-party
 ||naturalnews.com^$script
+||naturesucrefoot.fr^
 ||naughtydate.com^
 ||naughtyfever.com^
 ||naughtymachinima.com/*banner
@@ -8117,7 +8123,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5603
+!<<<<<网站单独规则>>>>>5605
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11452,6 +11458,7 @@ myflixer.*##.premodal.modal
 myflixer.*##.show.modal-backdrop
 myfxbook.com##.ad-disclaimer
 myfxbook.com##.ads-margin
+mykadri.tv##.avc-asvla
 mylegalporno.com##.rmedia
 mylegalporno.com,pornfay.*,vidsvidsvids.com##.zone
 mylink.*,my1ink.*,myl1nk.*,myli3k.*##a[href^="https://go.nordvpn.net/"], [src^="/nordcode.php"]
@@ -13056,6 +13063,7 @@ tubsxxx.com##.aBlock
 tubsxxx.com##.videoAd
 tumblr.com##a[href^="https://www.bonecoin.com/"]
 tune.pk###tpk-revenue-sharing-program
+tunein.com##div[class^="bottom-banner"]
 tureng.com###tureng-cambly-ad-placeholder
 turkanime.*###sponsored
 turkanime.*##.AltkisimMenu
