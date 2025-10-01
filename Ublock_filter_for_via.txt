@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: UaW2IExz64sZa/jVmQ1vsQ
-! Title: Ublock filter for Via(2025-10-01 09:00:16)
-! Version: 20251001090016
+! Checksum: EgmRcFuovP6/WMtxZ0Ww5w
+! Title: Ublock filter for Via(2025-10-02 00:15:38)
+! Version: 20251002001539
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-01 09:00:16
-! Total Count: 17152
-! Blocked Filters: 17152
+! Last modified: 2025-10-02 00:15:39
+! Total Count: 17157
+! Blocked Filters: 17157
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8123
+!<<<<<域名规则>>>>>8128
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -896,6 +896,7 @@
 ||beetlestaircaselobster.com^
 ||befuls.shop^
 ||beinsports.com/*/adbw/
+||beldooschae.com^
 ||belezaesaudeinnovations.com^
 ||bell-02.com^
 ||bell-03.com^
@@ -1046,6 +1047,7 @@
 ||blogspot.*/*.gif$image,domain=komikcast.*
 ||blogspot.com/*/s336/Upshrink336x280.jpg
 ||blogtopsites.com^$third-party
+||blondassignappear.com^
 ||bloxplay.com^
 ||bloxstrapmenu.com^$domain=~bloxstraplabs.com
 ||blozoo.info/js/inouttool/
@@ -1662,6 +1664,7 @@
 ||core.windows.net/media/webs.mp4
 ||core.windows.net/takashi.mp3
 ||core.windows.net/yaketsuku.mp3
+||coreadness.com^
 ||coronasfapps.net^
 ||corported.com^$third-party
 ||cosdate.jp^
@@ -3620,6 +3623,7 @@
 ||irs-ein-gov.us^
 ||irs.gov-
 ||irs.gov.*.com^
+||isabellaentire.com^
 ||iscidine.com^
 ||ishort.in^$script,third-party
 ||island-vanity.com^
@@ -6966,6 +6970,7 @@
 ||theverge.com/api/coral-counts
 ||thevidhd.*/sw.js$script,~third-party
 ||theweddingmahotsav.com^
+||thingsmadenavy.com^
 ||thirdads.me^
 ||thongtincancuoc.com^
 ||thor-swap.xyz^
