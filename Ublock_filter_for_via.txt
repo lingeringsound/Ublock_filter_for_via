@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ocxK5uUs+/gBAfDXPQS64A
-! Title: Ublock filter for Via(2025-10-03 08:52:00)
-! Version: 20251003085200
+! Checksum: zENCBpl/efVJU5oRB1cnhA
+! Title: Ublock filter for Via(2025-10-04 00:14:58)
+! Version: 20251004001458
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-03 08:52:00
-! Total Count: 17168
-! Blocked Filters: 17168
+! Last modified: 2025-10-04 00:14:58
+! Total Count: 17174
+! Blocked Filters: 17174
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8134
+!<<<<<域名规则>>>>>8138
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4004,6 +4004,7 @@
 ||lanky-bar.com^
 ||lapdatinternet.net^
 ||lapmangsctv.com.vn^
+||largeboyfriend.com^
 ||last-love.com^
 ||latenightlovers.com^
 ||launcherleaks.net/*main_script.js$script,~third-party
@@ -4327,6 +4328,7 @@
 ||malatienukki.com^
 ||malaysianwireless.com/wp-content/banners/*$image,~third-party
 ||malenirt.site^
+||malluporno.com/red-sea-
 ||malurusoenone.top^
 ||mama-piece.com^
 ||mamagathering.org^
@@ -5021,6 +5023,7 @@
 ||nxcli.io/pub/swissii/
 ||nxishctcjccry.com^
 ||nxprime.in/ads
+||nxxgfdaervlym.com^
 ||ny4yze.com^
 ||nyancokuji.xyz^
 ||nydlaepytwuekwhfyvivsf.com^
@@ -6185,6 +6188,7 @@
 ||senuti.org^
 ||sered.net^$third-party
 ||seren1.com^
+||serenoirs.com^
 ||serev.net^
 ||serialsoft.org^
 ||sersh.com^
@@ -8148,7 +8152,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5615
+!<<<<<网站单独规则>>>>>5617
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11306,6 +11310,8 @@ mg.mail.notion.so%2F$image
 mg.mail.notion.so/$image
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
+mh.baxoi.buzz##.wp-manga.c-bottom-sidebar.c-sidebar[style="background-color:#ffffff; "]
+mh.baxoi.buzz##.wp-manga.c-top-sidebar.c-sidebar[style="background-color:#262626; "]
 mi-globe.com##.td-is-sticky
 micloudfiles.com##[href*="medbooksvn.org/"]
 micloudfiles.com##[href*="usmlematerials.net/"]
