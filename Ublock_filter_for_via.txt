@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GvTsOGyU6rE+oZf+eJi6YQ
-! Title: Ublock filter for Via(2025-10-04 08:49:13)
-! Version: 20251004084913
+! Checksum: 6ABAIlWke3JN5Cm05hdT/A
+! Title: Ublock filter for Via(2025-10-05 00:13:31)
+! Version: 20251005001331
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-04 08:49:13
-! Total Count: 17175
-! Blocked Filters: 17175
+! Last modified: 2025-10-05 00:13:31
+! Total Count: 17193
+! Blocked Filters: 17193
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8138
+!<<<<<域名规则>>>>>8152
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -358,6 +358,7 @@
 ||ahskummakjt.com^
 ||aht42trk.com^
 ||ahvradotws.com^
+||ai-atomic.org^
 ||ai-mono.jp^
 ||ai-ne.net^
 ||ai-referee.com^
@@ -2427,6 +2428,7 @@
 ||executiveclub-x3.com^
 ||exo.io/cloudcask/
 ||exoclick.com^$third-party
+||exoduswallet.at^
 ||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=fastcompany.com
 ||experiencedlawsuit.com^
 ||explorads.xml-v4.ak-is2.net^
@@ -3370,6 +3372,7 @@
 ||hrzonvohdppab.com^
 ||hsrvu.com^
 ||htagpa.tech^
+||htex-panel.at^
 ||htjrs-fgds.com^
 ||html-load.cc^
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
@@ -5061,6 +5064,7 @@
 ||official-kmspico.co^
 ||official-kmspico.com^
 ||official-kmspico.org^
+||official-ledger-app.live^
 ||official-ledger.live^
 ||official-xai.com^
 ||official.step-up-line.com^
@@ -5380,6 +5384,7 @@
 ||pcnhdukovmhslmie-vgrbx.com^
 ||pctnew.*/sw.js$script
 ||pctopkey.com^
+||pddeploy.com^
 ||pddgov.cc^
 ||pdfsam.com^
 ||pdss3a1r.jp^
@@ -5823,6 +5828,8 @@
 ||rapidgator.net/images/pics/36_300%D1%85250_$third-party
 ||rapidsend.cfd^
 ||rarepepewtf.pages.dev^
+||rarible.io-nft.guru^
+||rarible.nft-markets.org^
 ||rarz-uploader.com^
 ||raspberrysliceq.jp^
 ||rat.xxx/xdman/*
@@ -6204,6 +6211,7 @@
 ||servicewebformoes.weebly.com^
 ||seselagi.com^
 ||setkuttina.pages.dev^
+||setup-ledger.live^
 ||setupbot.info^
 ||sevensmooon.com^
 ||sex-empire.org/templates/*/js/add.js
@@ -6296,6 +6304,11 @@
 ||simpcity.*/smp/d.min.js
 ||simplebits.io/ads/
 ||simplebits.io/sh/ads/
+||simpleswap.ac^
+||simpleswap.at^
+||simpleswap.ltd^
+||simpleswap.online^
+||simpleswap.to^
 ||simpletraffic.co^$third-party
 ||simptown.su/api/juice/all
 ||sinder8.com^
@@ -6707,6 +6720,7 @@
 ||suno.com/v1//rgstr
 ||sunpass-etoll-id.kupu.desa.id^
 ||sunpass.com-
+||sunperp.icu^
 ||sunporno.com/*.php$script,~third-party
 ||super-grander.jp^
 ||supercast2.com/z-$script,~third-party
@@ -8152,7 +8166,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5618
+!<<<<<网站单独规则>>>>>5622
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12911,6 +12925,10 @@ thehackernews.com##.akku
 thehackernews.com##[href="https://thehackernews.uk/wiz-kubernetes-security"]
 thehackernews.com##body:has(article) .cf > a[href^="https://thehackernews.uk/"][target="_blank"]
 thehackernews.com##section.cf.rocking
+thehealthsite.com##.adBlocker-lightbox
+thehealthsite.com##.ads-fixed
+thehealthsite.com##.atf-desktop
+thehealthsite.com##.taboola-code
 thehindu.com###gsi_overlay
 thehouseofportable.com###mt > [onclick][data-user]
 thehouseofportable.com##a[href*="/aff.php?aff="]
