@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: x9iTM6OXN6E6/wQikWjzHg
-! Title: Ublock filter for Via(2025-10-04 01:51:55)
-! Version: 20251004015155
+! Checksum: GvTsOGyU6rE+oZf+eJi6YQ
+! Title: Ublock filter for Via(2025-10-04 08:49:13)
+! Version: 20251004084913
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-04 01:51:55
-! Total Count: 17174
-! Blocked Filters: 17174
+! Last modified: 2025-10-04 08:49:13
+! Total Count: 17175
+! Blocked Filters: 17175
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8152,7 +8152,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5617
+!<<<<<网站单独规则>>>>>5618
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -10602,6 +10602,7 @@ hulldailymail.co.uk##div[data-testid^="commercial-"]
 hulu.com###banner-ad-container
 hulu.com##.ad-choices
 hunter.fm##.pwby_hiper
+hurriyet.com.tr##.mobileMasthead
 hxfile.co##a.btn-block
 hyipstats.net##.w-125px
 hyundaitucson.info##.display_ads
