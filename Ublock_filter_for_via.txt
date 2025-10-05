@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: u4Wep2aofdvhZxtamNu3eQ
-! Title: Ublock filter for Via(2025-10-05 08:59:13)
-! Version: 20251005085913
+! Checksum: UrzoKhsA3Stp5pCwFEySWw
+! Title: Ublock filter for Via(2025-10-06 00:13:19)
+! Version: 20251006001319
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-05 08:59:13
-! Total Count: 17194
-! Blocked Filters: 17194
+! Last modified: 2025-10-06 00:13:19
+! Total Count: 17197
+! Blocked Filters: 17197
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8152
+!<<<<<域名规则>>>>>8153
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -287,6 +287,7 @@
 ||ads-verification-for-pay.vercel.app^
 ||ads.adrise.tv^$third-party
 ||ads.adthrive.com/*/prebid.min.js$script,domain=laurelberninteriors.com
+||ads.desustream.com^
 ||ads.digital.disneyadvertising.com^
 ||ads.pinterest.com^$third-party
 ||ads.the.tube^
@@ -13792,7 +13793,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>906
+!<<<<<通配符规则>>>>>907
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14599,6 +14600,7 @@ $script,domain=zdnet.fr,third-party
 ://ecmweb.com/images/shim.png$image
 ://email-analytics.meetup.com/$image
 ://ev.ri-*gb.com/home/home.php
+://geoloc2.*/private/geo*.js
 ://html-load.com/loader.min.js$domain=~dogdrip.net|~infinityfree.com|~mentalfloss.com|~smsonline.cloud
 ://link.nzz.ch/v1/emailopen?$image
 ://link.patch.com/img/*.gif$image
@@ -15000,7 +15002,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2217
+!<<<<<放行白名单>>>>>2218
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15940,6 +15942,7 @@ voz.vn/b/image.gif?p=$image
 @@||googletagservices.com/tag/js/gpt.js$script,domain=abola.pt|arcai.com|blastingnews.com|gentside.*|maxisciences.com|ohmymag.*|phonearena.com|pitchfork.com|satoshi-win.xyz|viz.com
 @@||googletagservices.com/tag/js/gpt.js$script,redirect-rule,domain=thedailybeast.com
 @@||googletagservices.com/tag/js/gpt.js^$script,redirect-rule,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||gostyn24.pl/pl/js/trustmeimadolphin/*.js|$script,~third-party
 @@||gouv.fr/*_adv.js
 @@||govbusi.info^$script,domain=satoshi-win.xyz
 @@||gplinks.in/track/$script,xmlhttprequest,domain=gplinks.*|mastharyana.com|quickimageconverter.com|remixbass.com|studyfut.com|techipop.com|techyember.com
