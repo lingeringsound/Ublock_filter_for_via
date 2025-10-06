@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IfnWLie3VgUERm6kgNTs9A
-! Title: Ublock filter for Via(2025-10-06 08:53:49)
-! Version: 20251006085349
+! Checksum: WjLTOaI1P2eshZ7wTTmfsw
+! Title: Ublock filter for Via(2025-10-07 00:15:11)
+! Version: 20251007001511
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-06 08:53:49
-! Total Count: 17199
-! Blocked Filters: 17199
+! Last modified: 2025-10-07 00:15:11
+! Total Count: 17202
+! Blocked Filters: 17202
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8168,7 +8168,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5624
+!<<<<<网站单独规则>>>>>5626
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11274,6 +11274,7 @@ mcleaks.net##div.col-lg-12[style="margin-bottom: 30px;"]
 mcrypto.club###wpsafelink-countdown
 mcrypto.club##div[id^="promo"]
 mcrypto.club##table
+md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 mdbekjwqa.pw,mdfx9dc8n.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 mdn.lol##div[style^="width:"][style$=" height: 90px;"]
 mdpr.jp##.p-articleList__heading:has(+ div#taboola-below-article-thumbnails-desktop)
@@ -12475,6 +12476,7 @@ sexlist.tv##.link-premium
 sexodi.com###video_reklamy
 sexpuss.org##.bn1
 sexpuss.org##.tu-sexc3
+sextb.net##.right:has(script)
 sextgem.com##div[id][style*="z-index: 999999999;"]
 sextu.com##.afs_ads + span[style] > div > div:not(:last-child)
 sextu.com##.thumbs__banner
@@ -13795,7 +13797,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>907
+!<<<<<通配符规则>>>>>908
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13943,7 +13945,7 @@ $script,domain=zdnet.fr,third-party
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
 .gif$domain=enryucomics.com,image
 .gif$domain=nekopoi.*,image
-.gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
+.gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|otakudesu.*|otakudesu.best|otakudesu.org|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=filmvitrini.net|idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
 .html?cep=*&cost=0.
@@ -14319,7 +14321,7 @@ $script,domain=zdnet.fr,third-party
 /lemon7.$script,~third-party
 /leo7.$script,~third-party
 /lhzbsrfkjf/js/*$third-party
-/lib.js$domain=icelz.to|processbigger.com
+/lib.js$domain=icelz.to|processbigger.com|tv247us.live
 /lib/f_ad_code.js
 /line.my.salesforce.com/s.gif$image
 /line.my.salesforce.com/servlet/servlet.ImageServer?oid=$image
@@ -14329,6 +14331,7 @@ $script,domain=zdnet.fr,third-party
 /local_ssu.js|
 /log/*$xmlhttprequest,domain=vizcloud.*|vizcloud2.*
 /lp/?lID=*&zone=
+/lv/esnk/*$script
 /lv/esnk/*$script,third-party,domain=japscan.lol
 /lvesnk.html?zoneid=$third-party
 /ma.js^$script,domain=1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.*|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
