@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: UrzoKhsA3Stp5pCwFEySWw
-! Title: Ublock filter for Via(2025-10-06 00:13:19)
-! Version: 20251006001319
+! Checksum: IfnWLie3VgUERm6kgNTs9A
+! Title: Ublock filter for Via(2025-10-06 08:53:49)
+! Version: 20251006085349
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-06 00:13:19
-! Total Count: 17197
-! Blocked Filters: 17197
+! Last modified: 2025-10-06 08:53:49
+! Total Count: 17199
+! Blocked Filters: 17199
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8153
+!<<<<<域名规则>>>>>8154
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4348,6 +4348,7 @@
 ||manga1000.top/app/manga/themes/*/ads/pop.js
 ||manga18fx.com/nmme2023/nmme_frend.js
 ||mangabuddy.com/static/js/detect.dev.js$script,~third-party
+||mangadex.org/promo/
 ||mangaspdf.xyz/js/list-*.js
 ||mangogo.jp^
 ||mangogo.work^
@@ -8167,7 +8168,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5623
+!<<<<<网站单独规则>>>>>5624
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11231,6 +11232,7 @@ makemoneywithurl.com##.box-main > div:not([class])
 malaysiastock.biz##.RightPanel_Rectangle1
 manga18fx.com##.kadx
 mangabuddy.com###chapter__content > div.container:nth-of-type(3)
+mangadex.org##a[href^="https://www.runoperagx.com/"]
 mangahere.onl##.container.ads-container
 mangahub.io###adblock-notice
 mangahub.io##.ads-container
