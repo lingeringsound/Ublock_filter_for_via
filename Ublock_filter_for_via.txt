@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qA/17sbYG6+TWGHaV6eD8A
-! Title: Ublock filter for Via(2025-10-07 08:53:55)
-! Version: 20251007085355
+! Checksum: Eol3QGHPEhKoV0KiziTIRg
+! Title: Ublock filter for Via(2025-10-08 00:15:56)
+! Version: 20251008001556
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-07 08:53:55
-! Total Count: 17202
-! Blocked Filters: 17202
+! Last modified: 2025-10-08 00:15:56
+! Total Count: 17206
+! Blocked Filters: 17206
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8154
+!<<<<<域名规则>>>>>8156
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1597,7 +1597,7 @@
 ||com/cams-widget-ext/
 ||com/on.js?var=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=38.114.120.167
@@ -2101,6 +2101,7 @@
 ||dosudosuo.com^
 ||dosukoudo.net^
 ||dot-acc.xyz^
+||dotabuff.com/cargo.js
 ||doublebangers.com^
 ||doubleclick.net/tag/js/gpt.js$script,domain=webmd.com
 ||doubleclick.net^$domain=laurelberninteriors.com|pccomponentes.com|repretel.com
@@ -4911,7 +4912,7 @@
 ||nephef.com^
 ||neptunclicks.com^
 ||net.redroses.top^
-||net/|$xmlhttprequest,third-party,method=head,domain=andyday.*|andyday.pe|anime3rb.com|animeflv.net|animeunity.*|animez.org|bflix.*|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|fojik.*|fojik.com|freemoviesfull.com|futemais.net|giize.com|goku.sx|hianime.*|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mlbb.space|moviesjoy.*|mywatchseries.*|mywatchseries.cyou|olympustaff.com|playerflixapi.com|pressplay.cam|reliabletv.me|rivestream.org|souq-design.com|sportshub.*|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tvableon.me|ups2up.fun|vecloud.eu|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|way2movies.*|webxzplay.cfd|xoxocomic.com|yuppow.com
+||net/|$xmlhttprequest,third-party,method=head,domain=andyday.*|andyday.pe|anime3rb.com|animeflv.net|animeunity.*|animez.org|bflix.*|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|fojik.*|fojik.com|freemoviesfull.com|futemais.net|giize.com|goku.sx|hianime.*|hoca6.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mlbb.space|moviesjoy.*|mywatchseries.*|mywatchseries.cyou|olympustaff.com|playerflixapi.com|pressplay.cam|reliabletv.me|rivestream.org|souq-design.com|sportshub.*|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|vecloud.eu|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|way2movies.*|webxzplay.cfd|xoxocomic.com|yuppow.com
 ||net/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||netaffiliation.com^$third-party
 ||netcoislogin-zone.webflow.io^
@@ -7236,6 +7237,7 @@
 ||tusfiles.com/sw.js$script,~third-party
 ||tusser.site^
 ||tutamail.net^
+||tutvlive.ru/player/lib.js
 ||tvaplus.ca/api/log^
 ||tvngrq6yat.com^
 ||tvs-widget.com/rcl/
@@ -7982,7 +7984,7 @@
 ||xyz-trade.com^
 ||xyz/akbank/
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
@@ -8168,7 +8170,7 @@
 ||zxcprogs.shop^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5626
+!<<<<<网站单独规则>>>>>5627
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9956,6 +9958,7 @@ fitdynamos.com##.d-md-block:has(> div[style] > [data-placement-id])
 fitdynamos.com,jobzhub.store,labgame.io###step, #next, #scroll, #glink, #countdown, #surl, #captcha-container, [src*="google.com/recaptcha/"], [src*="recaptcha.net/recaptcha"]:others()
 fitnessbr.click,freexcafe.com,journaldemontreal.com,live-sport.duktek.pro,minhareceita.xyz###banner
 fivemturk.com##[src^="https://i.hizliresim.com/"]
+flamecomics.xyz##main > div[class]:has(> iframe)
 flaticon.com##.soul-p-nsba
 flickr.com##.nav-ad-container
 flickr.com##.sub-photo-submoola-view
@@ -14321,7 +14324,7 @@ $script,domain=zdnet.fr,third-party
 /lemon7.$script,~third-party
 /leo7.$script,~third-party
 /lhzbsrfkjf/js/*$third-party
-/lib.js$domain=icelz.to|processbigger.com|tv247us.live
+/lib.js$domain=icelz.to|processbigger.com|tutvlive.ru|tv247us.live
 /lib/f_ad_code.js
 /line.my.salesforce.com/s.gif$image
 /line.my.salesforce.com/servlet/servlet.ImageServer?oid=$image
@@ -15007,7 +15010,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2218
+!<<<<<放行白名单>>>>>2219
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15226,6 +15229,7 @@ voz.vn/b/image.gif?p=$image
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
 @@||ads.poshtata.online/adsbygoogle.js$script,domain=seir-sanduk.com
+@@||ads.poshtata.online/loader.js$script,domain=seirsanduk.*|seirsanduk.com|seirsanduk.net
 @@||ads.poshtata.online/loader.js^$script,domain=seir-sanduk.com
 @@||ads.pubmatic.com/AdServer/*/pwt.js$script,domain=ondemandkorea.com
 @@||ads.pubmatic.com/AdServer/js/pwt$script,domain=zeenews.india.com
