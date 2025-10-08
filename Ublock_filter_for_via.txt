@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: N2WWEGlhXXYfQ+l5UkDk4g
-! Title: Ublock filter for Via(2025-10-08 08:54:06)
-! Version: 20251008085406
+! Checksum: Ar0fTplal73OsD7wI2o6WA
+! Title: Ublock filter for Via(2025-10-09 00:14:42)
+! Version: 20251009001442
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-08 08:54:06
-! Total Count: 17206
-! Blocked Filters: 17206
+! Last modified: 2025-10-09 00:14:42
+! Total Count: 17212
+! Blocked Filters: 17212
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8156
+!<<<<<域名规则>>>>>8160
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3870,6 +3870,7 @@
 ||kiktu.com/wp-content/plugins/azee-safelink/img/download_btns*.png$image,~third-party
 ||kiktu.com/wp-content/plugins/azee-safelink/img/play*.jpg$image,~third-party
 ||kiktu.com/wp-json/wp-statistics/$xmlhttprequest
+||killmalware.click^
 ||kimikoi8.com^
 ||kin-un2023.com^
 ||kind-lecture.com^
@@ -4525,6 +4526,7 @@
 ||metamasek.cc^
 ||metamask*.webflow.io^
 ||metamsklogix.godaddysites.com^
+||meteolive.it/wp-content/cache/min/1/azrn_grd.js$script,~third-party
 ||methodsbillboardssurface.com^
 ||metrics.gocloudmaps.com^
 ||metrics.surinenglish.com^
@@ -4580,6 +4582,7 @@
 ||millionget.top^
 ||mimiray-k.jp^
 ||mindbodygreen.com/js/optimizely-$script,~third-party
+||minecraftskins.com/miscjs/as*.js
 ||minerva.devices.a2z.com^
 ||mingvip.com^
 ||miniurl.*/sw.js$script,~third-party
@@ -7543,6 +7546,7 @@
 ||virtualbox.es^
 ||virtualbox.pl^
 ||virusscanner.live^
+||viruswarning*.web.core.windows.net^
 ||visiblyhiemal.shop^
 ||vitop7eg5sqwgbk.jpn.com^
 ||viva-asorte.com^
@@ -13800,7 +13804,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>908
+!<<<<<通配符规则>>>>>909
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14374,6 +14378,7 @@ $script,domain=zdnet.fr,third-party
 /oho.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ebooksite.org|emulatorsite.com|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
 /other/btn/*/index.html?*p1=
 /p13n/batch/action/*$image
+/paga-ofertas/bancolombia/*
 /page_beg_wb.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /panel\.freemcserver\.net\/.{90,}\?v=17/$script,~third-party,domain=panel.freemcserver.net
 /php_code.php?sid=$domain=promo-visits.site|satoshi-win.xyz|shorterall.com
@@ -15010,7 +15015,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2219
+!<<<<<放行白名单>>>>>2220
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15228,6 +15233,7 @@ voz.vn/b/image.gif?p=$image
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
+@@||ads.poshtata.online/*.js|$script,domain=seirsanduk.*|seirsanduk.com|seirsanduk.net
 @@||ads.poshtata.online/adsbygoogle.js$script,domain=seir-sanduk.com
 @@||ads.poshtata.online/loader.js$script,domain=seirsanduk.*|seirsanduk.com|seirsanduk.net
 @@||ads.poshtata.online/loader.js^$script,domain=seir-sanduk.com
