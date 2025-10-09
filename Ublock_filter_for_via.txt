@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: cTbpm+44E/xAKU18YIXKKw
-! Title: Ublock filter for Via(2025-10-09 08:54:53)
-! Version: 20251009085453
+! Checksum: U3UKa65CdnZw8ZlqLEFB5w
+! Title: Ublock filter for Via(2025-10-10 00:16:59)
+! Version: 20251010001659
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-09 08:54:53
-! Total Count: 17212
-! Blocked Filters: 17212
+! Last modified: 2025-10-10 00:16:59
+! Total Count: 17237
+! Blocked Filters: 17237
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8160
+!<<<<<域名规则>>>>>8183
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -764,6 +764,7 @@
 ||audacity.it^
 ||audacity.pl^
 ||audiobooks4soul.com/*.custom-ads-block-detector.
+||audiocircuit.dk/wp-content/plugins/awiftysw/
 ||augustboyby.com^
 ||aura-and-color.com^
 ||auraloads.com^
@@ -839,6 +840,7 @@
 ||backend.dna-delivery.com^$domain=france.tv|rt.com
 ||backend.store.eset.co.il/pub/*/ESETUnleashed_*.zip^
 ||backletseamen.com^
+||bacteriaministry.com^
 ||badana.me^
 ||badshores.com^
 ||baeldung.com/*recovery.min.js^$script,~third-party
@@ -1008,6 +1010,7 @@
 ||bithow.com^
 ||bitkub.onrender.com^
 ||bitlk.com^$third-party
+||bitoranges.com^
 ||bitporno.to/popup18.js
 ||bitsroll.com^$third-party
 ||bittorrent.es^
@@ -1148,6 +1151,7 @@
 ||bulksms.services/*/NetFlxinc/
 ||bulksms.services/NetFxs/
 ||bulletadopt.com^
+||bullishapp.cc^
 ||bunkr-cache.se/js/script.js$script,domain=bunkr.*
 ||bunkr.la/build/lv.js$script,~third-party
 ||buono2023-web.com^
@@ -1241,6 +1245,7 @@
 ||cc.ashemaletube.com/*/black-header.jpg$image
 ||cc.ashemaletube.com/*/black-main.jpg$image,~third-party
 ||cc.ashemaletube.com/*/header-black.jpg$image
+||cc^$ipaddress=15.207.81.128
 ||ccappu-ccinno.com^
 ||ccappuccinno.com^
 ||ccbcavn.cc^
@@ -1292,6 +1297,7 @@
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
 ||cdn.jsdelivr.net/npm/disable-devtool@$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@*$script,domain=redecanais.*|redecanaistv.*|redisex.*
+||cdn.jsdelivr.net/npm/disable-devtool@latest$script,domain=vidapi.xyz
 ||cdn.jsdelivr.net/npm/maari/dist/maari.min.js$script,third-party
 ||cdn.jsdelivr.net/npm/statsig-js
 ||cdn.jsdelivr.net^*/arlinablock.js$script
@@ -1600,6 +1606,7 @@
 ||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
+||com^$ipaddress=206.82.7.123
 ||com^$ipaddress=38.114.120.167
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -3104,6 +3111,7 @@
 ||gtrewe.co.in^
 ||guarda.dev^
 ||guardan.io^
+||guardedoccupybatter.com^
 ||guardlnkcaptcha.com^
 ||guddledberith.com^
 ||guiamuriae.com.br/*.gif$image
@@ -3373,6 +3381,7 @@
 ||hrtya.com^
 ||hrzonvohdppab.com^
 ||hsrvu.com^
+||hswgs.com^
 ||htagpa.tech^
 ||htex-panel.at^
 ||htjrs-fgds.com^
@@ -4642,6 +4651,7 @@
 ||mojgov.weebly.com^
 ||molekinha.com.br/*/alibaba.com/
 ||moloco-cr.jiocinema.com/creative/$xmlhttprequest,~third-party
+||mom^$ipaddress=206.82.7.123
 ||momentary.link^
 ||momoshopvip.com^
 ||momvids.com/mm*/mv.js
@@ -5181,6 +5191,7 @@
 ||oprirgreifeuprdlojeocg.com^
 ||optable.co^$third-party
 ||optimizely.com^$domain=mindbodygreen.com
+||orange-connexion*.godaddysites.com^
 ||orange234.wixsite.com^
 ||orange53.yolasite.com^
 ||orangeclickmedia.com/api/adserver/
@@ -5477,7 +5488,7 @@
 ||pl.allsports4u.club^
 ||placid-jaded.com^
 ||planetwealthbuilders.net^
-||platform.pubadx.one/pubadx-ad.js$script,domain=japscan.*|japscan.lol|japscan.si
+||platform.pubadx.one/pubadx-ad.js$script,domain=japscan.*|japscan.lol|japscan.si|japscan.vip
 ||platform.pubadx.one^$third-party
 ||plati-num.com^
 ||platinumpla2023.com^
@@ -5498,6 +5509,7 @@
 ||play.google.com/store/apps/details?id=gift.tadaapo.tadadeai&
 ||play.turbommo.com^$third-party
 ||playbrain.io/analytics/
+||playedsophomore.com^
 ||player-api.s4c-cdn.co.uk/analytics/$domain=s4c.cymru
 ||player-feedback*.glomex.*^
 ||player-feedback.p7s1video.net/pf/$script
@@ -5754,6 +5766,7 @@
 ||pussyspace.*/live/meet-and-fuck/
 ||putlocker.*/*.gif$image
 ||putlocker.*^*banner
+||putrans.com^
 ||puttyconnect.info^
 ||puxmju.top^
 ||pvpoke-re.com/actpvpoke.min.js
@@ -5774,6 +5787,8 @@
 ||qip.ru^
 ||qiwi.gg/sw.js$script,~third-party
 ||qloi-jjcl.com^
+||qqh4.mom^
+||qqh5.mom^
 ||qsshc.xyz^
 ||qty3e.pro^
 ||qualityhealth.com^
@@ -6421,6 +6436,7 @@
 ||snapbabes9.com^
 ||snapdrop.net^
 ||snappass.fr^
+||snfee.com^
 ||snggov.com^
 ||snhjsbs.shop^
 ||snickerdoodle.top^
@@ -6582,7 +6598,7 @@
 ||static.addevweb.com/integrations$script,third-party
 ||static.chotot.com/storage/js/prebid-ads.js$script
 ||static.clmbtech.com^$script,domain=indiatimes.com
-||static.cloudflareinsights.com/beacon.min.js/$script,domain=japscan.*|japscan.lol|japscan.si
+||static.cloudflareinsights.com/beacon.min.js/$script,domain=japscan.*|japscan.lol|japscan.si|japscan.vip
 ||static.gamezop.com/creatives^$image,third-party
 ||static.kicker.de/content/js/vendor/homad
 ||static.klaviyo.com/onsite/js/$third-party
@@ -7090,6 +7106,7 @@
 ||toonvideos.me^$third-party
 ||top-official-app.com^
 ||top.mail.ru^$third-party
+||top^$ipaddress=15.207.81.128
 ||topblockchainsolutions.*^
 ||topen.im^
 ||topg.jp^
@@ -7514,6 +7531,7 @@
 ||vidmoly.to/static/vastAD.js$script
 ||vidomo.xyz/assets/js/devtools-detector.js
 ||vidop.*/sw.js$script,~third-party
+||vidsrc.*.js?_=17*$script
 ||vidsrc.cc/saas/js/script.all.js
 ||vidsrc.net/*.js?_=$script
 ||vidsrc.net/*.js?_=$script,~third-party
@@ -7543,6 +7561,7 @@
 ||violation-*.surge.sh^
 ||vip-money2024.com^
 ||vip-salon.net^
+||vip^$ipaddress=15.207.81.128
 ||virtualbox.es^
 ||virtualbox.pl^
 ||virusscanner.live^
@@ -7927,6 +7946,7 @@
 ||xigh.ru^
 ||xir6y7ey3ate.com^
 ||xiuty.com^
+||xml.clickmediahub.com^
 ||xmlwolf.com^
 ||xmorex.com^$third-party
 ||xmx.nineb-ittalk.com^
@@ -8075,6 +8095,7 @@
 ||yy4rhgzd.com^
 ||yy8j.com^
 ||yyqxjp.vip^
+||yzzrst.com^
 ||z-lib.ai^
 ||z-lib.club^
 ||z-lib.dev^
@@ -8107,6 +8128,7 @@
 ||zalukaj.io/detector.js$script
 ||zbporn.*/tri/zp.js
 ||zbporn.*/ttt/
+||zbzqgm.com^
 ||zcxoin.work^
 ||zebg.top^
 ||zeddexexchange.live^
@@ -8172,9 +8194,10 @@
 ||zvogo.com^
 ||zwuucugezzjhhi.com^
 ||zxcprogs.shop^
+||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5627
+!<<<<<网站单独规则>>>>>5628
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8321,6 +8344,7 @@ $script,domain=zdnet.fr,third-party
 2conv.com,flvto.biz##.horizontal-area
 2embed.*###bgImage
 2embed.*##.playbtnx
+2embed.cc###gate
 2th.me##.pc-container
 2the.space,cryptofenz.xyz,faucetcrypto.net##[id^="wcfloatDiv"]
 360haven.com###ad_global_above_footer
@@ -13804,7 +13828,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>909
+!<<<<<通配符规则>>>>>910
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13917,6 +13941,7 @@ $script,domain=zdnet.fr,third-party
 .co/?mlk=
 .com/1?z=$script,third-party
 .com/2?z=$script,third-party
+.com/SecurityPlugin.zip
 .com/add.php^$xmlhttprequest,third-party
 .com/afu.php?zoneid=
 .com/api/users*^in=false&pii=
@@ -15088,7 +15113,7 @@ voz.vn/b/image.gif?p=$image
 1cloudfile.com#@#.advert-wrapper
 9db.jp#@##footer
 @@*$image,domain=a2zupload.com|cursomecanet.com|rtxkeeda.com
-@@*$image,xmlhttprequest,script,domain=japscan.*|japscan.lol|japscan.si
+@@*$image,xmlhttprequest,script,domain=japscan.*|japscan.lol|japscan.si|japscan.vip
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=45er.de|antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|btv.bg|btvnovinite.bg|btvsport.bg|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|infinityscans.net|infinityscans.xyz|kryptografie.de|mailtool.de|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|net-tools.de|net-tours.de|photo-alben.de|poqzn.xyz|promo-visits.site|quesignifi.ca|qul.de|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|softwareengineer.de|solvetube.*|starkroboticsfrc.com|such-maschine.de|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz|web-spiele.de|wetter-vorhersage.de
