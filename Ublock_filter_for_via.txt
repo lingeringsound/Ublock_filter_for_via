@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: U3UKa65CdnZw8ZlqLEFB5w
-! Title: Ublock filter for Via(2025-10-10 00:16:59)
-! Version: 20251010001659
+! Checksum: qSpL+DR9yBdlqKdzY9AaKQ
+! Title: Ublock filter for Via(2025-10-10 08:54:13)
+! Version: 20251010085413
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-10 00:16:59
-! Total Count: 17237
-! Blocked Filters: 17237
+! Last modified: 2025-10-10 08:54:13
+! Total Count: 17240
+! Blocked Filters: 17240
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8183
+!<<<<<域名规则>>>>>8186
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3582,6 +3582,7 @@
 ||inspirationhistorical.com^
 ||inspirationwillingviagiant.com^
 ||instacart.ca/graphql?operationName=DisplayAdPlacement^$xmlhttprequest,~third-party
+||instagitkbs.sbs^
 ||instagram-$ipaddress=43.135.101.145
 ||instagram-nextjs-three.vercel.app^
 ||instagram-vip.cc^
@@ -4934,6 +4935,7 @@
 ||netflix.com/log/
 ||netlify.app/errox01/?
 ||netlify.app/help/support/client_id=
+||netronline.dev^
 ||netsgram.com^
 ||nettix.fi/*/nettiauto_analytics.js$script,domain=nettiauto.com
 ||network-jpn.com^
@@ -5277,6 +5279,7 @@
 ||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 ||pagead2.googlesyndication.com/pagead/sma8.js$script,domain=anydebrid.com|hotdebrid.com
 ||pagead2.googlesyndication.com/tag/js/gpt.js$script,domain=wunderground.com
+||pagefair.net^
 ||pagerrentablespotlight.com^
 ||pages.dev/*/Fm7-alert.wav
 ||pages.dev/*/ai2.mp3
