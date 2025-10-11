@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: lSa49UiZkHatkCAvhWjsaA
-! Title: Ublock filter for Via(2025-10-11 08:51:36)
-! Version: 20251011085136
+! Checksum: mUv2yPkVa+lGhRMHIiwCNA
+! Title: Ublock filter for Via(2025-10-12 00:14:11)
+! Version: 20251012001411
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-11 08:51:36
-! Total Count: 17246
-! Blocked Filters: 17246
+! Last modified: 2025-10-12 00:14:11
+! Total Count: 17255
+! Blocked Filters: 17255
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8190
+!<<<<<域名规则>>>>>8198
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -528,6 +528,7 @@
 ||aneurismuox.click^
 ||angelchance.com^
 ||angularpoppyrobbing.com^
+||anikai.to/sw.js^
 ||anime-jl.net^$third-party,script
 ||animeflv.*/api/pop.php
 ||animeheaven.*/api/pop.php$xmlhttprequest,~third-party
@@ -1361,6 +1362,7 @@
 ||cere.network/*-dhlshipmailchecker.shtml^
 ||certificate-certificate.gettrials.com^
 ||certify-issues-details-case.netlify.app^
+||cfd^$ipaddress=43.166.238.4
 ||cffsbbhost-aniamaria*.codeanyapp.com^
 ||cfgr2.com^
 ||cfgr3.com/popin/$script,third-party
@@ -4151,6 +4153,7 @@
 ||loader.crosswordsolver.com/loader.min.js
 ||loader.gutefrage.net^
 ||loader.horairesdouverture24.fr^
+||loader.motor-talk.de^
 ||loader.nyitvatartas24.hu^
 ||loader.worldhistory.org^
 ||loaderaura.com^
@@ -4687,6 +4690,7 @@
 ||more-followers.com^
 ||moremorelove.net^
 ||moremoremail.net^
+||morganryan.shop^
 ||mostream.us/popuv.js^
 ||motaikhoanchungkhoanvps.com^
 ||mother-sku.jp^
@@ -6654,6 +6658,7 @@
 ||stemcommunty.com^
 ||stereosfeet.com^
 ||stern.de/__assets/homad
+||stewportfoliomeaning.com^
 ||stiflersmoms.com/yes/
 ||stomatico.com^
 ||stookroocoudray.com^
@@ -7208,6 +7213,7 @@
 ||triangle123.com^
 ||tributeparticle.com^
 ||trifms.com^
+||tring-tring.com^
 ||tritinia.org/wp-content/plugins/from-grave-and-back-hidden/js/custom.js
 ||tritondigital.com^$domain=accuradio.com
 ||trkabfbmedia.eu^
@@ -7423,6 +7429,7 @@
 ||usmlematerials.net^$image,domain=micloudfiles.com
 ||usmusk.net^
 ||uspac.sbs^
+||uspost.*.cfd^
 ||usps-packages-*.com^
 ||usps.*.sbs^
 ||uspsparcels.net^
@@ -8150,6 +8157,7 @@
 ||zeroapo.com^
 ||zeroappointment.com^
 ||zerocha.jp^
+||zeroclampentice.com^
 ||zeroendeapo.com^
 ||zeroglamour.com^
 ||zeroupload.info^
@@ -8841,7 +8849,7 @@ bdupload.*##[href*="/dloadbutton.php"]
 bearteach.com###externalinject-gpt-passback-iframe
 beastx.top,chillx.top,playerx.stream###theotherads
 beatricedailysun.com,helenair.com,qctimes.com,siouxcityjournal.com,stltoday.com,wcfcourier.com##.tnt-ads-container
-beaumontenterprise.com,bigrapidsnews.com,cookpad.com,ctinsider.com,ctpost.com,darientimes.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sheltonherald.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,wiltonbulletin.com,yourconroenews.com###modals
+beaumontenterprise.com,bigrapidsnews.com,cookpad.com,ctinsider.com,ctpost.com,darientimes.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sheltonherald.com,stamfordadvocate.com,statesman.com,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,wiltonbulletin.com,yourconroenews.com###modals
 bedavapdf.com##.Image.widget, #footer-sec1, #footer-sec3
 beegsexxx.com##.preview:has(> .prev > script[data-ad_sub])
 beeimg.com##.offer
@@ -13836,7 +13844,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>910
+!<<<<<通配符规则>>>>>911
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14627,6 +14635,7 @@ $script,domain=zdnet.fr,third-party
 ://adv.$third-party,domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.sciconnect.unsw.edu.au|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://api.*.com/?rt=
 ://api.*.com/?zrt=
+://api.*/?zqs=
 ://api.*/?zrs=
 ://api.*/lib/native.wasm$third-party
 ://backcb.one^
@@ -15188,7 +15197,7 @@ voz.vn/b/image.gif?p=$image
 @@/popup*$script,~third-party,domain=streamingcommunity.*
 @@/signup.php?mode=async&action=show_security_code$image,~third-party
 @@/site=*/viewid=*/size=$script,domain=idnes.cz
-@@/sites/jquery.adx.js^$script,~third-party,domain=beaumontenterprise.com|bigrapidsnews.com|ctinsider.com|ctpost.com|darientimes.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|registercitizen.com|sfchronicle.com|sheltonherald.com|stamfordadvocate.com|theheraldreview.com|thehour.com|theintelligencer.com|theridgefieldpress.com|thetelegraph.com|timesunion.com|trumbulltimes.com|wiltonbulletin.com|yourconroenews.com
+@@/sites/jquery.adx.js^$script,~third-party,domain=beaumontenterprise.com|bigrapidsnews.com|ctinsider.com|ctpost.com|darientimes.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|registercitizen.com|sfchronicle.com|sheltonherald.com|stamfordadvocate.com|statesman.com|theheraldreview.com|thehour.com|theintelligencer.com|theridgefieldpress.com|thetelegraph.com|timesunion.com|trumbulltimes.com|wiltonbulletin.com|yourconroenews.com
 @@/templates/dfp/dfp-component-template.html$xmlhttprequest,~third-party
 @@/wp-content/plugins/ad-inserter/js/*.js?ver=$script,xmlhttprequest,~third-party
 @@/wp-content/plugins/adsanity-adblock-detection/public/js/lazyad-loader.min.js$script,~third-party
@@ -16995,7 +17004,7 @@ arstechnica.com,beppegrillo.it,hdblog.it,hwupgrade.it#@#a[href^="https://www.ama
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#@#div[id^="dfp-ad-"]
 backcar.fr,flat-ads.com,job.inshokuten.com,kontol.in#@#.ad-content:not(:empty)
 bde4.*#@#a[href*=".yabo816."]
-beaumontenterprise.com,bigrapidsnews.com,ctinsider.com,ctpost.com,darientimes.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sheltonherald.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,wiltonbulletin.com,yourconroenews.com#@#[name^="google_ads_iframe"]
+beaumontenterprise.com,bigrapidsnews.com,ctinsider.com,ctpost.com,darientimes.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sheltonherald.com,stamfordadvocate.com,statesman.com,theheraldreview.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,wiltonbulletin.com,yourconroenews.com#@#[name^="google_ads_iframe"]
 best-hit.tv#@##gStickyAd
 best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com,localch.net,shukatsubbs.com#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 best-hit.tv,h178.com,j-baseball.club,j-basketball.club,j-rugby.club,j-volleyball.club,jukenbbs.com,localch.net,shukatsubbs.com#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
