@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZV9adRAtfyj0YD6IjBW0uQ
-! Title: Ublock filter for Via(2025-10-13 08:58:30)
-! Version: 20251013085830
+! Checksum: eXtmXIilWlFpLxWxMfQwVA
+! Title: Ublock filter for Via(2025-10-14 00:14:08)
+! Version: 20251014001408
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-13 08:58:30
-! Total Count: 17267
-! Blocked Filters: 17267
+! Last modified: 2025-10-14 00:14:08
+! Total Count: 17294
+! Blocked Filters: 17294
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8207
+!<<<<<域名规则>>>>>8229
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -438,6 +438,7 @@
 ||alnobala.ae/owasetup/
 ||aloha.walea-lino.com^
 ||alone-here.online^
+||alor1-j6g2t.com^
 ||alpaca-flnance.com^
 ||alpacaflnance.com^
 ||alphaporno.com/bravoplayer/custom/alphapornocom/scripts/inplaybn-
@@ -1119,6 +1120,7 @@
 ||bridgetrack.com^$third-party
 ||brightadnetwork.com^
 ||brighteon.com/api-v*/public/visit-tracking
+||brillante-etoile.com^
 ||brilliant.ohana-pilina.com^
 ||brinifcall.com^
 ||brkbk.202226.net/jump/index.html
@@ -1362,6 +1364,7 @@
 ||cere.network/*-dhlshipmailchecker.shtml^
 ||certificate-certificate.gettrials.com^
 ||certify-issues-details-case.netlify.app^
+||cf67ahu-mkooh.com^
 ||cfd^$ipaddress=43.166.238.4
 ||cffsbbhost-aniamaria*.codeanyapp.com^
 ||cfgr2.com^
@@ -1883,6 +1886,7 @@
 ||darppadar.com^
 ||dashboard.fingerprint.com^$script,third-party,xmlhttprequest,domain=dashboard.fingerprint.com
 ||dashboard.fingerprint.com^$third-party,xmlhttprequest,domain=dashboard.fingerprint.com
+||dasikmonnb9.sbs^
 ||data-saver-cindi.herokuapp.com^
 ||data.anisearch.
 ||data.cheatography.com^
@@ -2948,6 +2952,7 @@
 ||github.com/_private/browser/errors
 ||github.com/linarweloper/Blumfarmbot^
 ||github.io/health-records-x-ray
+||github.io/iossupport/
 ||github.io/samedaydelivery/
 ||giuntaexhort.com^
 ||givememmastreams.com^$third-party
@@ -2966,6 +2971,7 @@
 ||glitch.me/pdf.html?email=
 ||glitch.me/public/NFCUAccess00.HTML^
 ||glitch.me/public/index_CNC.html^
+||glitter-2025.com^
 ||glitter-girls.net^
 ||gll.metricaga.com^
 ||global-riward77.com^
@@ -3489,6 +3495,7 @@
 ||iir.ai/sw$script,~third-party
 ||iirrrrrrii.wixsite.com^
 ||ija.xwi.mybluehost.me^
+||ik-v60jh3j.com^
 ||ikea-euonline.com^
 ||ilil.in^
 ||illinformed-imagination.com^
@@ -3733,6 +3740,7 @@
 ||jivo-ce.jp^
 ||jizz.us/loco/$script
 ||jizzberry.com/static/js/initsite.min.js
+||jjiu3sqw.sbs^
 ||jjmrmeovo.world^
 ||jjvkbzdungkop.com^
 ||jkoi.jp^
@@ -3757,6 +3765,7 @@
 ||jootizud.net^
 ||jorpetz.com/kahitano/banner.gif
 ||jourl.live^
+||journey-of-truth.com^
 ||jousteevoofooge.net^
 ||joyrodetoment.com^
 ||jp-helplineweb-chrsmjinfgtizonedswebs-01.s3.ap-southeast-2.amazonaws.com^
@@ -3838,6 +3847,7 @@
 ||kantei-oracle.com^
 ||karakuloutmate.com^
 ||karconsulting.us^$third-party
+||kardon-rsa.com^
 ||karinaroom.wixsite.com^
 ||karistudio.com/wp-content/plugins/wp-statistics/assets/js/tracker.js^
 ||karistudio.com/wp-content/themes/blogarise-child/check2.js
@@ -3881,6 +3891,7 @@
 ||khuyenmaidacbiet-
 ||khuyenmaithang-
 ||kiemtragplx.vn^
+||kikon-match.co.jp^
 ||kiktu.com/wp-content/plugins/azee-safelink/img/Download*.png$image,~third-party
 ||kiktu.com/wp-content/plugins/azee-safelink/img/StartDownload*.gif$image,~third-party
 ||kiktu.com/wp-content/plugins/azee-safelink/img/clickheretodownload*.png$image,~third-party
@@ -3998,6 +4009,7 @@
 ||kuronekoyamzyato.top^
 ||kuvirixa.com^
 ||kvador.com/images/*.gif$image
+||kvgp201er.sbs^
 ||kvkmodule.4dq.com^
 ||kvv.jxc.mybluehost.me^
 ||kwai.net/bs2/ad-i18n-dsp/
@@ -4023,6 +4035,7 @@
 ||lambda-url.*.on.aws/v1/rgstr?
 ||lameo.buzz^
 ||lamilagq.com^
+||lamp-keeper-tomori.com^
 ||landings.namapper.com^
 ||lanky-bar.com^
 ||lapdatinternet.net^
@@ -4643,6 +4656,7 @@
 ||mmsefdrkcdpsrkdr-meaha.com^
 ||mn-meiun.com^
 ||mn-shop.com^$third-party
+||mn6q-6tw4h.com^
 ||mo11.biz^
 ||mobile-facebook.com.vn^
 ||mobile-tracker-free.com/dashboard/scripts/detectBlockAds/isPremiumDemo.php
@@ -5227,6 +5241,7 @@
 ||orownsdow.com^
 ||orundompes.com^
 ||oshleofurts.com^
+||osjdd4d.sbs^
 ||ostupsaury.net^
 ||osubstancenasubstitute.com^
 ||otakukan.com/sw.js$script,~third-party
@@ -5417,6 +5432,7 @@
 ||pctopkey.com^
 ||pddeploy.com^
 ||pddgov.cc^
+||pdf-up.com^
 ||pdfsam.com^
 ||pdss3a1r.jp^
 ||pdupmdatdenrfojs-wmzds.com^
@@ -5467,6 +5483,7 @@
 ||phim1080.in/mmo/
 ||phineypet.com/2x.png
 ||phineypet.com/300x600.png
+||phm-2g.com^
 ||phoenixvilla.rw/wp-about/*.html^
 ||photo-gallery-picture2398.com^
 ||photonlabs.app^
@@ -5760,6 +5777,7 @@
 ||punishmentsupport.com^
 ||punosy.top^$third-party
 ||pupok.link^
+||pure-ppre-r.com^
 ||purpleiyvf.com^
 ||purplex.app/js/gqad.js$script
 ||purring-wood-magnolia.glitch.me^
@@ -5840,6 +5858,7 @@
 ||r30address.com^
 ||r30deai.com^
 ||r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com^
+||r9-2an.com^
 ||rabbitx.pro^
 ||rabbltx.xyz^
 ||racks.pages.dev^
@@ -7003,6 +7022,7 @@
 ||theannoyingsite.com^
 ||thebalan-er.com^
 ||thebestoffers4you.net^
+||thebook.digital^
 ||thecartoonporntube.com/*.gif$image
 ||thecontentserver.com^
 ||thecontroversialfiles.net^
@@ -7465,6 +7485,7 @@
 ||v4-biswap.com^
 ||va.huya.com^
 ||vablecable.click^
+||vaccination.gov.ng^
 ||vader.amperwave.net/*/instream/$xmlhttprequest,third-party
 ||valid-check-tl-
 ||validacionesoutlookmailwebadmin.glitch.me^
@@ -7658,6 +7679,7 @@
 ||w-g-wn-hn.com^
 ||w0o.eu^
 ||w0of-woof.com^
+||w0sqoketsl.sbs^
 ||w1thy0u.com^
 ||wa-groupbebe.pages.dev^
 ||wa-nago-wagona.com^
@@ -8221,7 +8243,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5632
+!<<<<<网站单独规则>>>>>5635
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11297,6 +11319,8 @@ mangahub.io###adblock-notice
 mangahub.io##.ads-container
 mangaraw.org,rawmanga.top##.banner-block
 mangaraw.org,rawmanga.top##.banner-landscape
+mangaread.org###promo-desktop
+mangaread.org###promo-mobile
 mangovideo.*##[target="_blank"]
 manhwaid.org##.c-top-sidebar
 manhwaus.net##.my2023
@@ -11440,6 +11464,7 @@ mobalytics.gg##body > div[class^="m-"]:not([id]):has(#poe-2-nitro-video)
 mobalytics.gg##main > div[class^="m-"]:has(> div > div[id^="web-poe-2-display-"])
 mobalytics.gg##section[data-section-id] > div[class]:has(> section#ad-placeholder-id)
 mobile.de##.sticky-billboard
+mobygames.com##.square-ad-wrapper
 moddedguru.com##div.banner
 moddingzone.in,model-tas-terbaru.com,therootdroid.com,worldappsstore.xyz###wpsafe-wait2
 modebaca.com##[href="https://www.tautan.pro/"]
@@ -13856,7 +13881,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>911
+!<<<<<通配符规则>>>>>912
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13975,6 +14000,7 @@ $script,domain=zdnet.fr,third-party
 .com/api/users*^in=false&pii=
 .com/api/users*^in=false&token=
 .com/api/users*^pii=&in=false^
+.com/article/auth=
 .com/bilder/*.jpg|$script,~third-party,domain=com
 .com/bot-captcha-1?h=
 .com/btag.min.js|$third-party
@@ -14531,7 +14557,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|dev|fit|page
+/text_tel.js$domain=app|dev|fit|github.io|page
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tmp/vmo.html
@@ -15069,7 +15095,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2221
+!<<<<<放行白名单>>>>>2222
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15572,6 +15598,7 @@ voz.vn/b/image.gif?p=$image
 @@||cdn.mavic.com/sites/default/files/google_tag/google_tag/*$script,~third-party
 @@||cdn.mxpnl.com/libs/mixpanel-*-latest.min.js$script,domain=groupme.com
 @@||cdn.mxpnl.com/libs/mixpanel-*.min.js$script,domain=demandforce.com
+@@||cdn.optimizely.com/*.json$xmlhttprequest
 @@||cdn.pendo.io/agent/static/*/pendo.js$script,domain=achieve.macmillanlearning.com|adp.com|secure.backblaze.com
 @@||cdn.pendo.io/agent/static/*/pendo.js^$script,domain=bjs.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
