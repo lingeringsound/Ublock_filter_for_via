@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GOJQSBfkCxkPM3jXDqEMpg
-! Title: Ublock filter for Via(2025-10-14 08:54:28)
-! Version: 20251014085428
+! Checksum: ZqaMYENkCHeJYP/DvQBEuw
+! Title: Ublock filter for Via(2025-10-15 00:16:23)
+! Version: 20251015001623
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-14 08:54:28
-! Total Count: 17295
-! Blocked Filters: 17295
+! Last modified: 2025-10-15 00:16:23
+! Total Count: 17302
+! Blocked Filters: 17302
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8229
+!<<<<<域名规则>>>>>8236
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -951,6 +951,7 @@
 ||bethonaickou.com^
 ||beverfood.com/immagini/*1920$image
 ||beyourxfriend.com^
+||bg-gledai.video/wp-content/plugins/crypto-converter-widget/$script,~third-party
 ||bg-mania.jp/assets/js/anymanagerrecover.js^
 ||bg1tey0a6eoe.jp^
 ||bgmateriali.com/js/detector.js$script,~third-party
@@ -1126,6 +1127,7 @@
 ||brkbk.202226.net/jump/index.html
 ||brotherorgan.com^
 ||browimeto.click^
+||browser.events.data.microsoft.com^$domain=apps.microsoft.com
 ||browser9182.web.fc2.com^
 ||browsersjsfiles.com^
 ||browsingcontredir.com^
@@ -1134,6 +1136,7 @@
 ||brvgov.com^
 ||brwasnlipggqq.com^
 ||bs-03-6743-2266.net^
+||bsc-testnet.bnbchain.org^$xmlhttprequest
 ||bse.bb64bb8.com^
 ||bsnltowersite.in^
 ||bsodsm8r.xamzgjedu.com^
@@ -1291,6 +1294,7 @@
 ||cdn.jsdelivr.net/gh/The-3Labs-Team/js-anti-adblock$script
 ||cdn.jsdelivr.net/gh/The-3Labs-Team/potatoshield@main/dist/potatoshield.min.ob.js$script
 ||cdn.jsdelivr.net/gh/cnmseo/LookMother$third-party
+||cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget$script,domain=bg-gledai.video
 ||cdn.jsdelivr.net/gh/itspro-dev/*/js/main.js$script
 ||cdn.jsdelivr.net/gh/lookatdons/gasak^
 ||cdn.jsdelivr.net/gh/magiclen/adblock-checker
@@ -6438,6 +6442,7 @@
 ||sma-talk.com^
 ||smab.jp^
 ||smahxdfxxdc.com^
+||smallencode.me/small.js
 ||smart-ex-jp.top^
 ||smart-redirecting.com^
 ||smart-tds.com^
@@ -6734,6 +6739,7 @@
 ||stupdownloadf.com^
 ||stw.dl-protect.link^
 ||stw.zone-telechargement.
+||stylexlab.ru^
 ||stylish-knife.com^
 ||sub.astroline.today^
 ||submit-application-job.com^
@@ -8004,6 +8010,7 @@
 ||xnxx.com/cams/
 ||xoty55.cfd^
 ||xoxnetwork.com^
+||xpoalswwkjddsljsy.com^
 ||xqfefdkey.xyz^
 ||xrares.com/sw.js$script,~third-party
 ||xrp-electrum.net^
