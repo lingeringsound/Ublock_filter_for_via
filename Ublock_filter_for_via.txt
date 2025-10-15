@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fD/PkBa8untH9hyRAG/fUg
-! Title: Ublock filter for Via(2025-10-15 08:56:09)
-! Version: 20251015085609
+! Checksum: aSHrvpJNTpDIa9g0xLcZQA
+! Title: Ublock filter for Via(2025-10-16 00:14:39)
+! Version: 20251016001439
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-15 08:56:09
+! Last modified: 2025-10-16 00:14:39
 ! Total Count: 17304
 ! Blocked Filters: 17304
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -8555,7 +8555,7 @@ adultasianporn.com##[src*=".php"]
 adultcomixxx.com##.adsnative
 adultcomixxx.com,apk-gamers.com,apps2app.com,appsmodz.com,bloggertheme.xyz,isekaipalace.com,skiplinks.xyz,sturls.com,yurasu.xyz###timer
 advertiserandtimes.co.uk###nagBG
-advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,meetdownload.com,mp4mania1.net,tmohentai.com,waploaded.com##.advert
+advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,haaretz.com,meetdownload.com,mp4mania1.net,tmohentai.com,waploaded.com##.advert
 advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,northern-scot.co.uk,stratford-herald.com##.MPU
 advertisingexcel.com,allcryptoz.net,batmanfactor.com,crewbase.net,crewus.net,documentaryplanet.xyz,gametechreviewer.com,midebalonu.net,misterio.ro,phineypet.com,seory.xyz,shinbhu.net,shinchu.net,substitutefor.com,talkforfitness.com,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
