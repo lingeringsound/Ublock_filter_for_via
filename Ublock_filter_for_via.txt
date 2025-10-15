@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZqaMYENkCHeJYP/DvQBEuw
-! Title: Ublock filter for Via(2025-10-15 00:16:23)
-! Version: 20251015001623
+! Checksum: fD/PkBa8untH9hyRAG/fUg
+! Title: Ublock filter for Via(2025-10-15 08:56:09)
+! Version: 20251015085609
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-15 00:16:23
-! Total Count: 17302
-! Blocked Filters: 17302
+! Last modified: 2025-10-15 08:56:09
+! Total Count: 17304
+! Blocked Filters: 17304
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8236
+!<<<<<域名规则>>>>>8237
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4420,6 +4420,7 @@
 ||marketplace-item-*.000.pe^
 ||marketrom.shop^
 ||marketsoilmart.com^
+||marktplaats.ch^
 ||maroohost.online^
 ||marootrack.co^
 ||marykayintouch.autos^
@@ -8250,7 +8251,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5635
+!<<<<<网站单独规则>>>>>5636
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12033,6 +12034,7 @@ poedb.tw##.text-center:has([src*="webp"]):has([style])
 poedb.tw##[target="_blank"]:has([src*="webp"])
 pogdesign.co.uk##.box728
 pogdesign.co.uk##div[data-ad-slot]:has(ins.adsbygoogle)
+pogift.click,povast.click###ageModal
 pogo.com###leaderboard-ad
 pogo.com##.hideableAd
 pogo.com##[class*="gameSkyscraperAd"]
