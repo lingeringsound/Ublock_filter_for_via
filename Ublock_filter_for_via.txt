@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: QjFTofs72ajZV+7bWx9Byw
-! Title: Ublock filter for Via(2025-10-16 08:54:25)
-! Version: 20251016085425
+! Checksum: eTFxt9fHZWErLR8R6s3IYA
+! Title: Ublock filter for Via(2025-10-17 00:15:21)
+! Version: 20251017001521
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-16 08:54:25
-! Total Count: 17304
-! Blocked Filters: 17304
+! Last modified: 2025-10-17 00:15:21
+! Total Count: 17310
+! Blocked Filters: 17310
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8237
+!<<<<<域名规则>>>>>8242
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -586,6 +586,7 @@
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
 ||api.gitbook.com/v1/orgs/*/insights/events
 ||api.gogoanime.zip/promo
+||api.gplinks.com/track/js/power-cdn.js$script,domain=djamix.net
 ||api.intelligems.io/v*/track|
 ||api.kio.ac/v0/collection/get
 ||api.lhkmedia.in^$third-party
@@ -1711,6 +1712,7 @@
 ||cpmlink.net^$third-party
 ||cpmstar.com^$third-party
 ||cprapid.com^
+||cptchdm.icu^
 ||cpttrcklnk.com^
 ||cpx-research.com^$third-party
 ||cqcwalvjljddvrebl.com^
@@ -2904,6 +2906,7 @@
 ||get-kmspico.com^
 ||get-link.xyz^
 ||getchance.top^
+||getfix.win^
 ||getkmspico.com^
 ||getkmspico.medium.com^
 ||getm.site^
@@ -4941,6 +4944,7 @@
 ||nbtbank.architect-cert.fiservapps.com^
 ||nc2.site^
 ||ncewb8eo.cloud^
+||ncloud.icu^
 ||ncracked.com^
 ||ndinast.com^
 ||ndpxzxyqpwcnz.click^
@@ -6162,6 +6166,7 @@
 ||santanderstaging.interviewtoolkit.io^
 ||santangelo.eng.br/owasetup/
 ||sanynouncem.org^
+||saocloud.icu^
 ||sapjp.com^
 ||sard1.com^
 ||saro-nelmng.com^
@@ -13890,7 +13895,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>913
+!<<<<<通配符规则>>>>>914
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14408,6 +14413,7 @@ $script,domain=zdnet.fr,third-party
 /js/static/header/sda/ppsuma*.js$script
 /js/wb_ban.js$script,domain=45er-de.translate.goog|45er.de|c--ix-de.translate.goog|c-ix.de|cool--domains-de.translate.goog|cool--web-de.translate.goog|cool-domains.de|cool-web.de|cooldns-de.translate.goog|cooldns.de|coolsoftware-de.translate.goog|coolsoftware.de|fun--seiten-de.translate.goog|fun-seiten.de|gps--cache-de.translate.goog|gps-cache.de|hardware--entwicklung-de.translate.goog|hardware-entwicklung.de|hilfen-de.translate.goog|hilfen.de|kryptografie-de.translate.goog|kryptografie.de|mailtool-de.translate.goog|mailtool.de|net--tools-de.translate.goog|net--tours-de.translate.goog|net-tools.de|net-tours.de|photo--alben-de.translate.goog|photo-alben.de|qul-de.translate.goog|qul.de|softwareengineer-de.translate.goog|softwareengineer.de|such--maschine-de.translate.goog|such-maschine.de|web--spiele-de.translate.goog|web-spiele.de|wetter--vorhersage-de.translate.goog|wetter-vorhersage.de
 /js/wb_dead.js$script,~third-party
+/jsrepo?rnd=$script,third-party
 /jump/next.php?r=
 /klesd7.$script,~third-party
 /kzdh7.$script,~third-party
