@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: gCJdmLhSFmFF3e/GBr2beQ
-! Title: Ublock filter for Via(2025-10-17 08:53:58)
-! Version: 20251017085358
+! Checksum: zucLtel1SOb36tUaOmQHvw
+! Title: Ublock filter for Via(2025-10-18 00:15:27)
+! Version: 20251018001527
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-17 08:53:58
-! Total Count: 17313
-! Blocked Filters: 17313
+! Last modified: 2025-10-18 00:15:27
+! Total Count: 17329
+! Blocked Filters: 17329
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8245
+!<<<<<域名规则>>>>>8259
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1447,6 +1447,7 @@
 ||childernplay.online^
 ||childrenoftheclouds.com^
 ||china-sister-hong-ty.blogspot.com^
+||chinaprecentalsindu.com^
 ||chinhphu.*.org^
 ||chinhphu.cc^
 ||chip.de/*&$script,~third-party
@@ -2084,6 +2085,7 @@
 ||djin.site^
 ||dl-protect.link/images2/afl*.png
 ||dl-protect.net/main.js?v=$script,~third-party
+||dl4d3y1ajyv3q.cloudfront.net^
 ||dlhessell.wixsite.com/att-support/
 ||dlmonitize.com^
 ||dlscord*.
@@ -5072,6 +5074,8 @@
 ||nuide.net^
 ||nuts.sugar1105.com^
 ||nuzostgcylun.com^
+||nvcleanstal.
+||nvcleanstall.
 ||nvxcvyfedg.com^
 ||nwberjyhruvqxswo-qxwne.com^
 ||nwch.az-cdn.ch^$script,domain=solothurnerzeitung.ch
@@ -5103,6 +5107,7 @@
 ||obs-software.cc^
 ||ocalam.com:8443/impact^
 ||ocbcccreonline.com^
+||ocraslicer.
 ||od.atami.no/one_drive.html
 ||odeal.fi/amndes/*.php^
 ||odeal.fi/fr/AMA/*.php^
@@ -5235,10 +5240,17 @@
 ||orawakle.com^
 ||orca-slicer.
 ||orca-slicer.com^
+||orca3dslicer.
+||orcaslice.
 ||orcaslicer.
 ||orcaslicer.co^
 ||orcaslicer.info^
 ||orcaslicer.net^
+||orcaslicer3d.
+||orcaslicerdownload.
+||orcaslicerofficial.
+||orcaslicerr.
+||orcaslicers.
 ||orcaslicers.com^
 ||order78916.live^
 ||orders-processed.com^
@@ -5264,6 +5276,7 @@
 ||otonanona.jp^
 ||otonatime.net^
 ||ouchoamsulrey.com^
+||oundhertobeconsist.org^
 ||ouo.*/js/jbitly.js$script,~third-party
 ||ouo.*/js/webpush.ma.js$script,~third-party
 ||ouo.*/sw$script,~third-party
@@ -7050,6 +7063,7 @@
 ||themagisk.com^
 ||thenorthfacegreece.com^
 ||theonlygames.com/ps_banner/
+||theorcaslicer.
 ||theorcaslicer.com^
 ||thepatrones.blob.core.windows.net^
 ||thepiratebay.org/sw.js
@@ -8259,7 +8273,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5636
+!<<<<<网站单独规则>>>>>5638
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11463,6 +11477,7 @@ mixdrop.*##div[onclick^="$(this).remove"]
 mkvcinemas.*###SH-Ads
 mkvcinemas.*##a[title="mkvAnime"]
 mlb66.ir##.overlay-wrapper
+mlbbox.me##.m-1.fw-bold.btn-danger.btn
 mlbstream.tv,nbastream.tv,nflstream.tv,nhlstream.tv##[href*="allsports4free.online/"]
 mlbstream.tv,nbastream.tv,nhlstream.tv##[href^="https://pl.allsports4free.club/"]
 mlsbd.*##.link > a[href*="?key"]
@@ -11798,6 +11813,7 @@ okstream.*##[id^="click"]
 okutta.net##.article__footer > div[style="height:500px; overflow-y:scroll;"]
 olamovies.*##*[style="display: flex;"]
 olx.in###main_content div[class]:has(> .baxter-style-dfp-default-default)
+omuzaani.me##div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 oncehelp.com##[href*="?token"]
 ondemandkorea.com##.banner_728x90
 ondemandkorea.com##.floatBanner
