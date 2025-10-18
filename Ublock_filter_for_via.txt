@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: AMbxxYhnuRPrkeQ2gi2HvA
-! Title: Ublock filter for Via(2025-10-18 08:52:50)
-! Version: 20251018085250
+! Checksum: RoD0q6OmzeNFmWuMky3mXg
+! Title: Ublock filter for Via(2025-10-19 00:13:52)
+! Version: 20251019001352
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-18 08:52:50
-! Total Count: 17329
-! Blocked Filters: 17329
+! Last modified: 2025-10-19 00:13:52
+! Total Count: 17335
+! Blocked Filters: 17335
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8259
+!<<<<<域名规则>>>>>8264
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -598,6 +598,7 @@
 ||api.terashare.co/api/analytics$~third-party
 ||api.tumblr.com/*/share/stats$script,third-party
 ||api.vuukle.com/api/v1/getModal$xmlhttprequest,third-party
+||api.xfantazy.com/ad-scripts
 ||apifetchmethod.com^
 ||apilond.com^
 ||apimate.net/ad.js
@@ -1303,6 +1304,7 @@
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
 ||cdn.jsdelivr.net/npm/as-essential^
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
+||cdn.jsdelivr.net/npm/disable-devtool$script,domain=perverzija.com|xtremestream.xyz
 ||cdn.jsdelivr.net/npm/disable-devtool@$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@*$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@latest$script,domain=vidapi.xyz
@@ -1761,6 +1763,7 @@
 ||crowdstrikeupdate.com^
 ||crowdstuck.com^
 ||crpostbelnk.glitch.me^
+||crunchyscan.fr/build/assets/module|
 ||crunchyscan.fr/build/assets/sjs_
 ||crunchyscan.fr/js/safe_user.js
 ||cryp-prel.com^
@@ -7851,6 +7854,7 @@
 ||willalland.info^
 ||win32diskimager.org^
 ||windirstat.org^
+||windorange.info^
 ||windows-line.com^
 ||windows.net*/esc.js
 ||windows.net/*/bxsafe.js
@@ -8046,6 +8050,7 @@
 ||xtgem.com/images/influenza/
 ||xtgem.com/images/xtvid/
 ||xtits.*/static/js/custom.js$script,~third-party
+||xtremestream.xyz/player/devtools-detector/$script,~third-party
 ||xtremetop100.com/horizontalBanner.jpg
 ||xtremetop100.com/images/UWSidebanner.gif
 ||xtremetop100.com/images/right_adspot2.jpg
@@ -8273,7 +8278,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5638
+!<<<<<网站单独规则>>>>>5639
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9130,6 +9135,7 @@ buktube.com,fullxh.com,galleryxh.site,hamsterix.*,megaxh.com,movingxh.world,seex
 bullrun2024.online,cdn256.xyz,newcdn.lol,pererecadoida.life###obrazek
 bullrun2024.online,cdn256.xyz,newcdn.lol,pererecadoida.life###overover
 bullrun2024.online,daddylive.*,iseeyouandyouseeme.me,newcdn.lol,pererecadoida.life###floatLayer1
+bunshun.jp##.recommend-articles:has(> div[class^="taboola"])
 buondua.com##.main-body div[class]:has(> .adsbyexoclick)
 buondua.com##.pagination + br + div[class]
 buondua.com##.view-list > div:not([class]):has(iframe)
