@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: PPB6m5yycLPhQ45H9pO6ew
-! Title: Ublock filter for Via(2025-10-19 09:01:27)
-! Version: 20251019090127
+! Checksum: WkIoUhGcjqdBCDAohjkt1A
+! Title: Ublock filter for Via(2025-10-20 00:13:45)
+! Version: 20251020001345
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-19 09:01:27
-! Total Count: 17336
-! Blocked Filters: 17336
+! Last modified: 2025-10-20 00:13:45
+! Total Count: 17344
+! Blocked Filters: 17344
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8264
+!<<<<<域名规则>>>>>8267
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1616,7 +1616,7 @@
 ||com/cams-widget-ext/
 ||com/on.js?var=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
-||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||com/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|asd.*|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||com/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||com^$ipaddress=206.82.7.123
@@ -1871,7 +1871,7 @@
 ||daftmovie.xyz/player/assets/js/jquery.js
 ||dai.google.com/*/id3-events.json
 ||dai.google.com/ondemand/dash/content/*/time-events.json$domain=goplay.be|play.tv
-||dai.google.com/ondemand/hls/content/*/time-events.json$domain=play.aetv.com
+||dai.google.com/ondemand/hls/content/*/time-events.json$domain=play.aetv.com|play.mylifetime.com
 ||daily-description.com^
 ||dailycamera.com^$third-party
 ||dailymail.co.uk/*/client/sync/fpc?$image
@@ -2648,6 +2648,7 @@
 ||fitgirls-repack.*^$domain=~fitgirl-repacks.site
 ||fitgirltorrent.*^$domain=~fitgirl-repacks.site
 ||fiverr-receiving-page.world^
+||fiverr.com/gig_widgets?$third-party
 ||fixatessoused.com^
 ||fizzlepopcorn.top^
 ||fklngauc.com^
@@ -3075,6 +3076,7 @@
 ||googleusercontent.com/*/s320/download-button-gif-$domain=loptelink.com
 ||googleusercontent.com/*/wf/open?upn=$image
 ||googleusercontent.com^$domain=foodtechnos.in
+||googlevideo.com/initplayback?source=youtube&*c=TVHTML5&*oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 ||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
@@ -3414,7 +3416,7 @@
 ||html-load.com/loader.min.js$domain=badmouth1.com|freemcserver.net
 ||html-load.com/loader.min.js|$domain=infinityfree.com|smsonline.cloud
 ||html-load.com^$domain=convertcase.net|manta.com|tportal.hr|tvtropes.org|wouldurather.io|zeta-ai.io
-||html-load.com^$script,xmlhttprequest,domain=12thmanrising.com|24sata.hr|2chblog.jp|2monkeys.jp|373news.com|46matome.net|actugaming.net|aerotrader.com|akb48glabo.com|akb48matomemory.com|alc.co.jp|alfa.lt|alfalfalfa.com|all-nationz.com|allthetests.com|anihatsu.com|animanch.com|aniroleplay.com|apkmirror.com|aqua2ch.net|areaconnect.com|aroundthefoghorn.com|arrowheadaddict.com|as-web.jp|atvtrader.com|aucfree.com|autoby.jp|autoc-one.jp|autofrage.net|automobile-catalog.com|bab.la|babla.*|babla.cn|babla.co.id|babla.co.th|babla.gr|babla.no|babla.ru|babla.vn|badgerofhonor.com|bamahammer.com|baseballchannel.jp|beargoggleson.com|beyondtheflag.com|bg-mania.jp|bien.hu|bilis.lt|blackandteal.com|blog.esuteru.com|blog.jp|blog.livedoor.jp|blogmura.com|blogo.jp|blogredmachine.com|bluemanhoop.com|boltbeat.com|boredpanda.com|bosoxinjection.com|buffalowdown.com|bunshun.jp|buzzfeed.com|buzzfeednews.com|calculatorsoup.com|caneswarning.com|catcrave.com|cesoirtv.com|chanto.jp.net|chaos2ch.com|choco0202.work|chopchat.com|cinetrafic.fr|climbingtalshill.com|cocokara-next.com|collinsdictionary.com|commercialtrucktrader.com|computerfrage.net|crosswordsolver.com|cruciverba.it|crx7601.com|cubbiescrib.com|cults3d.com|culturequizz.com|cycletrader.com|daily.co.jp|dailydot.com|dailyknicks.com|dailynewshungary.com|dairylandexpress.com|dallashoopsjournal.com|danseisama.com|dareda.net|dawindycity.com|dawnofthedawg.com|dayspedia.com|demotywatory.pl|detroitjockcity.com|dictionary.cambridge.org|dictionnaire.lerobert.com|digital-thread.com|dnevno.hr|dodgersway.com|doorblog.jp|dreamchance.net|dropgame.jp|drweil.com|dziennik.pl|ebonybird.com|ecranlarge.com|eigachannel.jp|eikan.liblo.jp|equipmenttrader.com|etaplius.lt|ev-times.com|exawarosu.net|fansided.com|fesoku.net|ff14net.2chblog.jp|fgochaldeas.com|finanzfrage.net|fiveslot777.com|football-2ch.com|footballchannel.jp|forsal.pl|futabanet.jp|fxstreet-id.com|fxstreet-vn.com|fxstreet.*|fxstreet.com|fxstreet.com.tr|fxstreet.de.com|fxstreet.es|fxstreet.hk|fxstreet.ru.com|game8.jp|gamejksokuhou.com|games.arkadium.com|gamewith.jp|gardeningsoul.com|gazetaprawna.pl|gbmwolverine.com|gekiyaku.com|genialetricks.de|gesundheitsfrage.net|gifu-np.co.jp|gigafile.nu|girlsreport.net|girlsvip-matome.com|globalrph.com|gloria.hr|gmenhq.com|golf-live.at|golog.jp|grapee.jp|grasoku.com|gundamlog.com|gutefrage.net|hacchaka.net|hailfloridahail.com|happymoments.lol|hardwoodhoudini.com|hb-nippon.com|heartlife-matome.com|heureka.cz|honyaku-channel.net|horairesdouverture24.fr|horseshoeheroes.com|hotcopper.co.nz|hotcopper.com.au|housethathankbuilt.com|hoyme.jp|huskercorner.com|hvac-talk.com|idokep.hu|ikarishintou.com|imas-cg.net|imihu.net|infor.pl|insidetheiggles.com|inutomo11.com|itainews.com|itaishinja.com|iza.ne.jp|j-cast.com|j-town.net|j7p.jp|jablickar.cz|javatpoint.com|jawapos.com|jaysjournal.com|jiji.com|jikayosha.jp|jin115.com|jisaka.com|jmty.jp|jnews1.com|joemonster.org|judgehype.com|jumpsokuhou.com|justblogbaby.com|jyoseisama.com|kckingdom.com|keyakizaka46matomemory.net|kidan-m.com|kijoden.com|kijolariat.net|kijolifehack.com|kijomatomelog.com|kijyokatu.com|kijyomatome-ch.com|kijyomatome.com|kijyomita.com|kingjamesgospel.com|kinmaweb.jp|kirarafan.com|kitimama-matome.net|kitizawa.com|km77.com|kobe-journal.com|kompasiana.com|konoyubitomare.jp|kotaro269.com|kreuzwortraetsel.de|kurashinista.jp|kurashiru.com|kyoteibiyori.com|kyousoku.net|lacuarta.com|lakeshowlife.com|laleggepertutti.it|lamire.jp|langenscheidt.com|laposte.net|lawyersgunsmoneyblog.com|ldblog.jp|ldoceonline.com|leckerschmecker.me|letemsvetemapplem.eu|liblo.jp|lifehacker.jp|listentotaxman.com|livedoor.biz|livedoor.blog|livenewschat.eu|lombardiave.com|luremaga.jp|m.economictimes.com|mafab.hu|mahjongchest.com|mainichi.jp|majikichi.com|maketecheasier.com|malaymail.com|mamastar.jp|mariowiki.com|matacoco.com|mathplayzone.com|matome-tarou.ldblog.jp|matomeblade.com|matomelotte.com|matometemitatta.com|meeco.kr|mentalfloss.com|meteo60.fr|midhudsonnews.com|minesweeperquest.com|minkou.jp|mirrored.to|mistrzowie.org|mmm.lt|modhub.us|modsfire.com|moin.de|mojomojo-licarca.com|morikinoko.com|motherlyvisions.com|motor-talk.de|motorbikecatalog.com|motorcitybengals.com|motorradfrage.net|motscroises.fr|movie-locations.com|muragon.com|musketfire.com|namemc.com|nana-press.com|nandemo-uketori.com|natalie.mu|nationaltoday.com|nbadraft.net|ndtvprofit.com|netatama.net|newatlas.com|news-buzz1.com|news.zerkalo.io|news30over.com|news4vip.livedoor.biz|newsinlevels.com|newsweekjapan.jp|nflspinzone.com|niketalk.com|nikkan-gendai.com|nikkansports.com|ninernoise.com|nishinippon.co.jp|nlab.itmedia.co.jp|nmb48-mtm.com|norisoku.com|notebookcheck-cn.com|notebookcheck-hu.com|notebookcheck-ru.com|notebookcheck-tr.com|notebookcheck.*|notebookcheck.biz|notebookcheck.com|notebookcheck.info|notebookcheck.it|notebookcheck.net|notebookcheck.nl|notebookcheck.org|notebookcheck.pl|notebookcheck.se|nouvelobs.com|npb-news.com|nugglove.com|nyitvatartas24.hu|ocsoku.com|oeffnungszeitenbuch.de|okusama-kijyo.com|ondemandkorea.com|onecall2ch.com|onihimechan.com|onlineradiobox.com|operawire.com|optionsprofitcalculator.com|oraridiapertura24.it|oricon.co.jp|orusoku.com|otakomu.jp|otoko-honne.com|oumaga-times.com|outdoormatome.com|oxfordlearnersdictionaries.com|pachinkopachisro.com|palabr.as|paranormal-ch.com|pashplus.jp|persoenlich.com|petitfute.com|phinphanatic.com|picksandparlays.net|picrew.me|pistonpowered.com|play-games.com|pons.com|popdaily.com.tw|powerpyx.com|pptvhd36.com|predominantlyorange.com|profitline.hu|programme-tv.net|puzzlegarage.com|pwctrader.com|quefaire.be|rabitsokuhou.2chblog.jp|radio-australia.org|radio-osterreich.at|raetsel-hilfe.de|raider.io|ramblinfan.com|ranking.net|raskakcija.lt|recosoku.com|redbirdrants.com|references.be|reisefrage.net|relevantmagazine.com|reptilesmagazine.com|reviewingthebrew.com|riggosrag.com|ripcityproject.com|risingapple.com|roleplayer.me|rostercon.com|rumbunter.com|s2-log.com|saikyo-jump.com|samsungmagazine.eu|sankei.com|sanspo.com|scarletandgame.com|scribens.com|scribens.fr|section215.com|shuraba-matome.com|sidelionreport.com|ske48matome.net|slapthesign.com|slashdot.org|snowmobiletrader.com|soccerdigestweb.com|sodomojo.com|solitairehut.com|sourceforge.net|southhemitv.com|speisekarte.de|sportalkorea.com|sportlerfrage.net|squallchannel.com|statecollege.com|steamidfinder.com|stillcurtain.com|stormininnorman.com|stripehype.com|sudokutable.com|sukattojapan.com|sumaburayasan.com|superhonda.com|sutekinakijo.com|suzusoku.blog.jp|syosetu.com|szamoldki.hu|talkwithstranger.com|tbs.co.jp|tbsradio.jp|techdico.com|thatballsouttahere.com|the-crossword-solver.com|thecelticblog.com|thedigestweb.com|thefirearmblog.com|thejetpress.com|thelandryhat.com|thepewterplank.com|thesmokingcuban.com|thestockmarketwatch.com|thevikingage.com|thunderousintentions.com|traicy.com|transparentcalifornia.com|transparentnevada.com|trilltrill.jp|tunebat.com|tvtv.ca|tvtv.us|tweaktown.com|twn.hu|tyda.se|ufret.jp|universalis.fr|uptodown.com|uranai.nosv.org|uscreditcardguide.com|usi32.com|uwakich.com|uwakitaiken.com|valleyofthesuns.com|vault76.info|verkaufsoffener-sonntag.com|vimm.net|vipnews.jp|vippers.jp|vipsister23.com|vtubernews.jp|wamgame.jp|watarukiti.com|watchdocumentaries.com|wattedoen.be|webdesignledger.com|weldingweb.com|wetteronline.de|wfmz.com|whodatdish.com|wieistmeineip.*|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de|winfuture.de|word-grabber.com|world-fusigi.net|worldjournal.com|worldle.teuteuf.fr|wort-suchen.de|woxikon.*|woxikon.bg|woxikon.cl|woxikon.co|woxikon.co.uk|woxikon.com|woxikon.com.br|woxikon.de|woxikon.dk|woxikon.es|woxikon.fr|woxikon.it|woxikon.mx|woxikon.nl|woxikon.pl|woxikon.pt|woxikon.ru|woxikon.se|yakkun.com|yanksgoyard.com|young-machine.com|yugioh-starlight.com|yutura.net|zagreb.info|zakuzaku911.com|zakzak.co.jp|zch-vip.com
+||html-load.com^$script,xmlhttprequest,domain=12thmanrising.com|24sata.hr|2chblog.jp|2monkeys.jp|373news.com|46matome.net|actugaming.net|aerotrader.com|akb48glabo.com|akb48matomemory.com|alc.co.jp|alfa.lt|alfalfalfa.com|all-nationz.com|allthetests.com|anihatsu.com|animanch.com|aniroleplay.com|apkmirror.com|aqua2ch.net|areaconnect.com|aroundthefoghorn.com|arrowheadaddict.com|as-web.jp|atvtrader.com|aucfree.com|autoby.jp|autoc-one.jp|autofrage.net|automobile-catalog.com|bab.la|babla.*|babla.cn|babla.co.id|babla.co.th|babla.gr|babla.no|babla.ru|babla.vn|badgerofhonor.com|bamahammer.com|baseballchannel.jp|beargoggleson.com|beyondtheflag.com|bg-mania.jp|bien.hu|bilis.lt|blackandteal.com|blog.esuteru.com|blog.jp|blog.livedoor.jp|blogmura.com|blogo.jp|blogredmachine.com|bluemanhoop.com|boltbeat.com|boredpanda.com|bosoxinjection.com|buffalowdown.com|bunshun.jp|buzzfeed.com|buzzfeednews.com|calculatorsoup.com|caneswarning.com|catcrave.com|cesoirtv.com|chanto.jp.net|chaos2ch.com|choco0202.work|chopchat.com|cinetrafic.fr|climbingtalshill.com|cocokara-next.com|collinsdictionary.com|commercialtrucktrader.com|computerfrage.net|crosswordsolver.com|cruciverba.it|crx7601.com|cubbiescrib.com|cults3d.com|culturequizz.com|cycletrader.com|daily.co.jp|dailydot.com|dailyknicks.com|dailynewshungary.com|dairylandexpress.com|dallashoopsjournal.com|danseisama.com|dareda.net|dawindycity.com|dawnofthedawg.com|dayspedia.com|demotywatory.pl|detroitjockcity.com|dictionary.cambridge.org|dictionnaire.lerobert.com|digital-thread.com|dnevno.hr|dodgersway.com|doorblog.jp|dreamchance.net|dropgame.jp|drweil.com|dziennik.pl|ebonybird.com|ecranlarge.com|eigachannel.jp|eikan.liblo.jp|equipmenttrader.com|etaplius.lt|ev-times.com|exawarosu.net|fansided.com|fesoku.net|ff14net.2chblog.jp|fgochaldeas.com|finanzfrage.net|fiveslot777.com|football-2ch.com|footballchannel.jp|forsal.pl|futabanet.jp|fxstreet-id.com|fxstreet-vn.com|fxstreet.*|fxstreet.com|fxstreet.com.tr|fxstreet.de.com|fxstreet.es|fxstreet.hk|fxstreet.ru.com|game8.jp|gamejksokuhou.com|games.arkadium.com|gamewith.jp|gardeningsoul.com|gazetaprawna.pl|gbmwolverine.com|gekiyaku.com|genialetricks.de|gesundheitsfrage.net|gifu-np.co.jp|gigafile.nu|girlsreport.net|girlsvip-matome.com|globalrph.com|gloria.hr|gmenhq.com|golf-live.at|golog.jp|grapee.jp|grasoku.com|gundamlog.com|gutefrage.net|hacchaka.net|hailfloridahail.com|happymoments.lol|hardwoodhoudini.com|hb-nippon.com|heartlife-matome.com|heureka.cz|honyaku-channel.net|horairesdouverture24.fr|horseshoeheroes.com|hotcopper.co.nz|hotcopper.com.au|housethathankbuilt.com|hoyme.jp|huskercorner.com|hvac-talk.com|idokep.hu|ikarishintou.com|imas-cg.net|imihu.net|infor.pl|insidetheiggles.com|inutomo11.com|itainews.com|itaishinja.com|iza.ne.jp|j-cast.com|j-town.net|j7p.jp|jablickar.cz|javatpoint.com|jawapos.com|jaysjournal.com|jiji.com|jikayosha.jp|jin115.com|jisaka.com|jmty.jp|jnews1.com|joemonster.org|judgehype.com|jumpsokuhou.com|justblogbaby.com|jyoseisama.com|kckingdom.com|keyakizaka46matomemory.net|kidan-m.com|kijoden.com|kijolariat.net|kijolifehack.com|kijomatomelog.com|kijyokatu.com|kijyomatome-ch.com|kijyomatome.com|kijyomita.com|kingjamesgospel.com|kinmaweb.jp|kirarafan.com|kitimama-matome.net|kitizawa.com|km77.com|kobe-journal.com|kompasiana.com|konoyubitomare.jp|kotaro269.com|kreuzwortraetsel.de|kurashinista.jp|kurashiru.com|kyoteibiyori.com|kyousoku.net|lacuarta.com|lakeshowlife.com|laleggepertutti.it|lamire.jp|langenscheidt.com|laposte.net|lawyersgunsmoneyblog.com|ldblog.jp|ldoceonline.com|leckerschmecker.me|letemsvetemapplem.eu|liblo.jp|lifehacker.jp|listentotaxman.com|livedoor.biz|livedoor.blog|livenewschat.eu|lombardiave.com|luremaga.jp|m.economictimes.com|mafab.hu|mahjongchest.com|mainichi.jp|majikichi.com|maketecheasier.com|malaymail.com|mamastar.jp|mariowiki.com|matacoco.com|mathplayzone.com|matome-tarou.ldblog.jp|matomeblade.com|matomelotte.com|matometemitatta.com|meeco.kr|mentalfloss.com|meteo60.fr|midhudsonnews.com|minesweeperquest.com|minkou.jp|mirrored.to|mistrzowie.org|mmm.lt|modhub.us|modsfire.com|moin.de|mojomojo-licarca.com|morikinoko.com|motherlyvisions.com|motor-talk.de|motorbikecatalog.com|motorcitybengals.com|motorradfrage.net|motscroises.fr|movie-locations.com|muragon.com|musketfire.com|namemc.com|nana-press.com|nandemo-uketori.com|natalie.mu|nationaltoday.com|nbadraft.net|ndtvprofit.com|netatama.net|newatlas.com|news-buzz1.com|news.zerkalo.io|news30over.com|news4vip.livedoor.biz|newsinlevels.com|newsweekjapan.jp|nflspinzone.com|niketalk.com|nikkan-gendai.com|nikkansports.com|ninernoise.com|nishinippon.co.jp|nlab.itmedia.co.jp|nmb48-mtm.com|norisoku.com|notebookcheck-cn.com|notebookcheck-hu.com|notebookcheck-ru.com|notebookcheck-tr.com|notebookcheck.*|notebookcheck.biz|notebookcheck.com|notebookcheck.info|notebookcheck.it|notebookcheck.net|notebookcheck.nl|notebookcheck.org|notebookcheck.pl|notebookcheck.se|nouvelobs.com|npb-news.com|nugglove.com|nyitvatartas24.hu|ocsoku.com|oeffnungszeitenbuch.de|okusama-kijyo.com|ondemandkorea.com|onecall2ch.com|onihimechan.com|onlineradiobox.com|operawire.com|optionsprofitcalculator.com|oraridiapertura24.it|oricon.co.jp|orusoku.com|otakomu.jp|otoko-honne.com|oumaga-times.com|outdoormatome.com|oxfordlearnersdictionaries.com|pachinkopachisro.com|palabr.as|paranormal-ch.com|pashplus.jp|persoenlich.com|petitfute.com|phinphanatic.com|picksandparlays.net|picrew.me|pistonpowered.com|play-games.com|pons.com|popdaily.com.tw|powerpyx.com|pptvhd36.com|predominantlyorange.com|profitline.hu|programme-tv.net|puzzlegarage.com|pwctrader.com|quefaire.be|rabitsokuhou.2chblog.jp|radio-australia.org|radio-osterreich.at|raetsel-hilfe.de|raider.io|ramblinfan.com|ranking.net|raskakcija.lt|recosoku.com|redbirdrants.com|references.be|reisefrage.net|relevantmagazine.com|reptilesmagazine.com|reviewingthebrew.com|riggosrag.com|ripcityproject.com|risingapple.com|roleplayer.me|rostercon.com|rumbunter.com|s2-log.com|saikyo-jump.com|samsungmagazine.eu|sankei.com|sanspo.com|scarletandgame.com|scribens.com|scribens.fr|section215.com|shuraba-matome.com|si.com|sidelionreport.com|ske48matome.net|slapthesign.com|slashdot.org|snowmobiletrader.com|soccerdigestweb.com|sodomojo.com|solitairehut.com|sourceforge.net|southhemitv.com|speisekarte.de|sportalkorea.com|sportlerfrage.net|squallchannel.com|statecollege.com|steamidfinder.com|stillcurtain.com|stormininnorman.com|stripehype.com|sudokutable.com|sukattojapan.com|sumaburayasan.com|superhonda.com|sutekinakijo.com|suzusoku.blog.jp|syosetu.com|szamoldki.hu|talkwithstranger.com|tbs.co.jp|tbsradio.jp|techdico.com|thatballsouttahere.com|the-crossword-solver.com|thecelticblog.com|thedigestweb.com|thefirearmblog.com|thejetpress.com|thelandryhat.com|thepewterplank.com|thesmokingcuban.com|thestockmarketwatch.com|thevikingage.com|thunderousintentions.com|traicy.com|transparentcalifornia.com|transparentnevada.com|trilltrill.jp|tunebat.com|tvtv.ca|tvtv.us|tweaktown.com|twn.hu|tyda.se|ufret.jp|universalis.fr|uptodown.com|uranai.nosv.org|uscreditcardguide.com|usi32.com|uwakich.com|uwakitaiken.com|valleyofthesuns.com|vault76.info|verkaufsoffener-sonntag.com|vimm.net|vipnews.jp|vippers.jp|vipsister23.com|vtubernews.jp|wamgame.jp|watarukiti.com|watchdocumentaries.com|wattedoen.be|webdesignledger.com|weldingweb.com|wetteronline.de|wfmz.com|whodatdish.com|wieistmeineip.*|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de|winfuture.de|word-grabber.com|world-fusigi.net|worldhistory|worldjournal.com|worldle.teuteuf.fr|wort-suchen.de|woxikon.*|woxikon.bg|woxikon.cl|woxikon.co|woxikon.co.uk|woxikon.com|woxikon.com.br|woxikon.de|woxikon.dk|woxikon.es|woxikon.fr|woxikon.it|woxikon.mx|woxikon.nl|woxikon.pl|woxikon.pt|woxikon.ru|woxikon.se|yakkun.com|yanksgoyard.com|young-machine.com|yugioh-starlight.com|yutura.net|zagreb.info|zakuzaku911.com|zakzak.co.jp|zch-vip.com
 ||htmlgames.com/js/yolla.php
 ||http://marketplace-item-details-*.zya.me^
 ||hubu.cloud/app/js/in/
@@ -4965,7 +4967,7 @@
 ||nephef.com^
 ||neptunclicks.com^
 ||net.redroses.top^
-||net/|$xmlhttprequest,third-party,method=head,domain=andyday.*|andyday.pe|anime3rb.com|animeflv.net|animeunity.*|animez.org|bflix.*|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|fojik.*|fojik.com|freemoviesfull.com|futemais.net|giize.com|goku.sx|hianime.*|hoca6.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mlbb.space|moviesjoy.*|mywatchseries.*|mywatchseries.cyou|olympustaff.com|playerflixapi.com|pressplay.cam|reliabletv.me|rivestream.org|souq-design.com|sportshub.*|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|vecloud.eu|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|way2movies.*|webxzplay.cfd|xoxocomic.com|yuppow.com
+||net/|$xmlhttprequest,third-party,method=head,domain=andyday.*|andyday.pe|anime3rb.com|animeflv.net|animeunity.*|animez.org|asd.*|bflix.*|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|fojik.*|fojik.com|freemoviesfull.com|futemais.net|giize.com|goku.sx|hianime.*|hoca6.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mlbb.space|moviesjoy.*|mywatchseries.*|mywatchseries.cyou|olympustaff.com|playerflixapi.com|pressplay.cam|reliabletv.me|rivestream.org|souq-design.com|sportshub.*|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamlord.com|streamup.ws|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|vecloud.eu|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|way2movies.*|webxzplay.cfd|xoxocomic.com|yuppow.com
 ||net/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||netaffiliation.com^$third-party
 ||netcoislogin-zone.webflow.io^
@@ -5552,6 +5554,7 @@
 ||play-lust.com^
 ||play-lustgoddess.com^
 ||play-quartz-sanctuary.xyz^
+||play.*.com/vendor/$domain=play.aetv.com|play.mylifetime.com
 ||play.aetv.com/vendor/MediaSDK.min.js$script
 ||play.aetv.com/vendor/Samba.min.js$script
 ||play.aetv.com/vendor/amplitude.js$script
@@ -8085,7 +8088,7 @@
 ||xyz-trade.com^
 ||xyz/akbank/
 ||xyz/script/www.dolldivine.com.js
-||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
+||xyz/|$xmlhttprequest,third-party,method=head,domain=alldownplay.xyz|andyday.*|andyday.pe|andyday.tv|anime3rb.com|animeflv.net|animenexus.in|animeunity.*|animeunity.so|animeunity.to|animez.org|aniwatchtv.to|asd.*|bflix.*|bflix.sh|braflix.tube|capo5play.com|caq21harderv991gpluralplay.xyz|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.*|dlhd.click|dokoembed.pw|dorawatch.net|drop.download|ebook-hunter.org|embedcanais.com|embedtv.net|fbstreams.pm|flixhd.cc|fmoviesto.cc|fojik.*|fojik.com|fojik.site|freemoviesfull.com|futemais.net|giize.com|goku.sx|gostream.to|hianime.*|hoca6.com|instalker.org|kaa.mx|likemanga.ink|luckypatchers.com|luluvdoo.com|mapple.tv|mlbb.space|movieku.ink|moviesapi.to|movieshdwatch.to|moviesjoy.*|moviesjoy.to|myflixerz.to|mywatchseries.*|mywatchseries.cyou|nmac.to|nsw2u.com|olympustaff.com|playerflixapi.com|pressplay.cam|pressplay.top|reliabletv.me|rivestream.org|seeflix.to|souq-design.com|spcdn.xyz|sportshub.*|sportshub.stream|spotifylists.com|streaming-community.*|streamingcommunityz.*|streamingcommunityz.life|streamingunity.to|streamlord.com|streamup.ws|strmup.to|telepisodes.org|tfp.is|tutvlive.ru|tvableon.me|ups2up.fun|ustream.to|vecloud.eu|veplay.top|vidora.stream|vipbox.*|vipbox.lc|watch.ug|watchf1full.com|watchug.to|way2movies.*|way2movies.live|webxzplay.cfd|wmovies.xyz|xoxocomic.com|yoxplay.xyz|yuppow.com|zoechip.cc
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\./
 ||xyz/|$xmlhttprequest,third-party,method=head,ipaddress=/^139\.45\.19[5-7]\.\d{1,3}/
 ||xyzxyz55.xyz^
@@ -8278,7 +8281,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5640
+!<<<<<网站单独规则>>>>>5642
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9348,6 +9351,7 @@ clubsarajay.com###mpc-container
 cluset.com##.item.romina.tumba
 cluset.com##.item:has(> div.spot)
 cmphost.com,drinkspartner.com,uploadsoon.com,wp.uploadfiles.in,viralxns.com,posterify.net,headlinerpost.com###timeout, #btn1, #tp-snp2:others()
+cmsdetect.com##.results-bottom-banner
 cnbc.com##[class^="CreditCardCalloutWildcard-styles-select"]:has([href*="/?lid="])
 cnnamador.com##.cards__item:has([href*="loboclick"])
 cnnamador.com##.is-ad-visible
@@ -11447,6 +11451,7 @@ metro.co.uk,uwupad.me##.ad-slot-container
 metro.style###adBlock-bottom-fix
 mg.mail.notion.so%2F$image
 mg.mail.notion.so/$image
+mgeko.cc###hero-ad
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 mh.baxoi.buzz##.wp-manga.c-bottom-sidebar.c-sidebar[style="background-color:#ffffff; "]
@@ -13921,7 +13926,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>914
+!<<<<<通配符规则>>>>>915
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14454,6 +14459,7 @@ $script,domain=zdnet.fr,third-party
 /line.my.salesforce.com/s.gif$image
 /line.my.salesforce.com/servlet/servlet.ImageServer?oid=$image
 /ll/click.php?key=
+/loader.min.js|$domain=worldhistory.org
 /loadme/com/*.js$script
 /local_p.js^
 /local_ssu.js|
@@ -15137,7 +15143,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2222
+!<<<<<放行白名单>>>>>2224
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16151,7 +16157,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest,domain=spiele.bild.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com|goplay.be|play.aetv.com|play.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com|goplay.be|play.aetv.com|play.mylifetime.com|play.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
@@ -16461,6 +16467,7 @@ voz.vn/b/image.gif?p=$image
 @@||pix.spot.im/api/$xmlhttprequest,domain=allthingsvegas.com
 @@||pixel.adsafeprotected.com/services/pub$xmlhttprequest,domain=gentside.*|maxisciences.com|ohmymag.*|reuters.com
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=teleboy.ch
+@@||play.*.com/vendor/VisitorAPI.js$script,~third-party,domain=play.aetv.com|play.mylifetime.com
 @@||play.aetv.com/vendor/VisitorAPI.js$script,~third-party
 @@||play.history.com/vendor/VisitorAPI.js$~third-party
 @@||play.tv3.ee^$script,~third-party
@@ -16516,6 +16523,7 @@ voz.vn/b/image.gif?p=$image
 @@||pubads.g.doubleclick.net/gampad/ads*wuxiaworld.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/gampad/ads?*barstoolsports.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/gampad/live/*.mediapason.it$xmlhttprequest,domain=imasdk.googleapis.com
+@@||pubads.g.doubleclick.net/ondemand/$xmlhttprequest,domain=goplay.be|play.tv
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/streams$xmlhttprequest,domain=cbs.com|paramountplus.com
 @@||pubads.g.doubleclick.net/ondemand/dash/content/*/streams$xmlhttprequest,domain=10.com.au|10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xmlhttprequest,domain=10.com.au|10play.com.au
@@ -17252,7 +17260,7 @@ nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
 okwave.jp#@#.adfunnel.user_ranking
-omuzaani.me,wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
+omuzaani.me,strikeout.im,wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 oogiri-chaya.com#@#.adsText
 oogiri-chaya.com#@#.ads_insert
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
