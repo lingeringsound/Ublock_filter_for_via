@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: RoD0q6OmzeNFmWuMky3mXg
-! Title: Ublock filter for Via(2025-10-19 00:13:52)
-! Version: 20251019001352
+! Checksum: PPB6m5yycLPhQ45H9pO6ew
+! Title: Ublock filter for Via(2025-10-19 09:01:27)
+! Version: 20251019090127
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-19 00:13:52
-! Total Count: 17335
-! Blocked Filters: 17335
+! Last modified: 2025-10-19 09:01:27
+! Total Count: 17336
+! Blocked Filters: 17336
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8278,7 +8278,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5639
+!<<<<<网站单独规则>>>>>5640
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11819,6 +11819,7 @@ okstream.*##[id^="click"]
 okutta.net##.article__footer > div[style="height:500px; overflow-y:scroll;"]
 olamovies.*##*[style="display: flex;"]
 olx.in###main_content div[class]:has(> .baxter-style-dfp-default-default)
+omuzaani.me##.abg-backdrop
 omuzaani.me##div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 oncehelp.com##[href*="?token"]
 ondemandkorea.com##.banner_728x90
