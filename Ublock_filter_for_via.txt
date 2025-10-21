@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: e7JujLO6xTGAUrSacbhKFg
-! Title: Ublock filter for Via(2025-10-21 08:58:19)
-! Version: 20251021085819
+! Checksum: zSXlsuxyqa7MdSJIsQjvDw
+! Title: Ublock filter for Via(2025-10-22 00:15:38)
+! Version: 20251022001538
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-21 08:58:19
-! Total Count: 17350
-! Blocked Filters: 17350
+! Last modified: 2025-10-22 00:15:38
+! Total Count: 17353
+! Blocked Filters: 17353
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8270
+!<<<<<域名规则>>>>>8271
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7247,6 +7247,7 @@
 ||trafficjunction.com^
 ||traffmgnt.com^
 ||trafic.ro^$third-party
+||tranimeizle.io/js/mm*.js
 ||tranny.one/trannystatic/ads/
 ||transparency-business.com^
 ||transportationlies.org/images/*.gif$image
@@ -15148,7 +15149,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2225
+!<<<<<放行白名单>>>>>2227
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15286,6 +15287,7 @@ voz.vn/b/image.gif?p=$image
 @@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|thestar.co.uk|webdesignledger.com|yorkshirepost.co.uk
 @@/mma/?t$image,domain=newsblaze.com
 @@/popup*$script,~third-party,domain=streamingcommunity.*
+@@/prebid/*$script,domain=decompiler.com
 @@/signup.php?mode=async&action=show_security_code$image,~third-party
 @@/site=*/viewid=*/size=$script,domain=idnes.cz
 @@/sites/jquery.adx.js^$script,~third-party,domain=beaumontenterprise.com|bigrapidsnews.com|ctinsider.com|ctpost.com|darientimes.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|registercitizen.com|sfchronicle.com|sheltonherald.com|stamfordadvocate.com|statesman.com|theheraldreview.com|thehour.com|theintelligencer.com|theridgefieldpress.com|thetelegraph.com|timesunion.com|trumbulltimes.com|wiltonbulletin.com|yourconroenews.com
@@ -17132,6 +17134,7 @@ calgarysun.com,canoe.com,edmontonsun.com,financialpost.com,nationalpost.com,otta
 call2friends.com#@#.adWrapper
 chavesnamao.com.br,dip-badajoz.es,xunta.gal#@##anuncio
 cinedesi.in,thevouz.in,tejtime24.com,techishant.in#@#.quads-location
+clarin.com#@#div[class^="sc-"]:has(> div[id^="div-gpt-ad"])
 cnx-software.com#@#div[class*=" "]:has(img[src*="webp"])
 codeproject.com#@#[style*="base64"]
 colonist.io#@#.adsbyvli
