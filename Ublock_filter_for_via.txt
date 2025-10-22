@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: JaWH3ztIfnpi2BCoWEVCJA
-! Title: Ublock filter for Via(2025-10-22 08:58:02)
-! Version: 20251022085802
+! Checksum: hFeun24dP3nKP/zOI9SSGQ
+! Title: Ublock filter for Via(2025-10-23 00:16:37)
+! Version: 20251023001637
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-22 08:58:02
-! Total Count: 17357
-! Blocked Filters: 17357
+! Last modified: 2025-10-23 00:16:37
+! Total Count: 17362
+! Blocked Filters: 17362
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8273
+!<<<<<域名规则>>>>>8275
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5988,6 +5988,7 @@
 ||refriesbharata.com^
 ||regie-cpc.com^$third-party
 ||regiltxii.com^
+||region1.google-analytics.com/g/collect?$removeparam,xmlhttprequest,domain=stateless.me
 ||register-turnamen.free.nf^
 ||register.blissfulltimes.com^
 ||reifenachbarn.com^
@@ -6685,6 +6686,7 @@
 ||staticfonts.com^
 ||statify.online^
 ||statlstic.shop^
+||stats.g.doubleclick.net/g/collect?$removeparam,xmlhttprequest,domain=stateless.me
 ||stats.pronouns.page^
 ||stats.webgames.io^
 ||statspots.com^
@@ -15153,7 +15155,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2227
+!<<<<<放行白名单>>>>>2230
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15843,7 +15845,7 @@ voz.vn/b/image.gif?p=$image
 @@||delmarlearning.com^$~third-party,script
 @@||deploy.mopinion.com^$script,xmlhttprequest,domain=findmystreet.co.uk
 @@||dev.visualwebsiteoptimizer.com/cdn/edrv/$script,domain=searchengineland.com
-@@||dev.visualwebsiteoptimizer.com/j.php$domain=watch.impress.co.jp
+@@||dev.visualwebsiteoptimizer.com/j.php$domain=dominos.jp|watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com/server-side/settings$xmlhttprequest,domain=dominos.co.in
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=cars.usnews.com
@@ -16168,7 +16170,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest,domain=spiele.bild.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com|goplay.be|play.aetv.com|play.mylifetime.com|play.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com|goplay.be|play.aetv.com|play.mylifetime.com|play.tv|ted.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
@@ -16567,6 +16569,7 @@ voz.vn/b/image.gif?p=$image
 @@||redefineadpl.hit.gemius.pl^$xmlhttprequest,domain=polsatsport.pl
 @@||redfin.com/rift$xmlhttprequest,~third-party
 @@||redketchup.io^$script,~third-party
+@@||region1.google-analytics.com/g/collect$xmlhttprequest,domain=stateless.me
 @@||register.drupal.org/ga*.js$xmlhttprequest,~third-party
 @@||registerdisney.go.com/*/responder/responder.js$script,domain=espn.com
 @@||registry.api.cnn.io^$script,domain=cnn.com
@@ -16796,6 +16799,7 @@ voz.vn/b/image.gif?p=$image
 @@||statics.estadao.com.br/*/portal/js/comscore/$script,domain=estadao.com.br
 @@||statics.estadao.com.br/*/utils/publicidade/dfp.min.js$script,domain=estadao.com.br
 @@||stats.g.doubleclick.net/dc.js$script,domain=ticketfly.com
+@@||stats.g.doubleclick.net/g/collect$xmlhttprequest,domain=stateless.me
 @@||storage.oraclecloud.com/*/smartclip-services/sc_player/$script,~third-party
 @@||stpd.cloud^$script,domain=dgb.lol|smsonline.cloud
 @@||streamingcommunity.*/$xmlhttprequest,~third-party
@@ -17342,6 +17346,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 spotifydown.com#@#.semi-transparent
 stamfordmercury.co.uk#@#.MPU
 startpage.com#@#[style]:has(path):has([href*="aff"])
+stateless.me#@#.ad-btn
 surfline.com#@#.ad-box:not(#ad-banner):not(:empty)
 tamin.ir#@#.ads2
 techradar.com#@#a[href^="https://amazon."][href*="tag="]
