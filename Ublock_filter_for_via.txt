@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: zSXlsuxyqa7MdSJIsQjvDw
-! Title: Ublock filter for Via(2025-10-22 00:15:38)
-! Version: 20251022001538
+! Checksum: JaWH3ztIfnpi2BCoWEVCJA
+! Title: Ublock filter for Via(2025-10-22 08:58:02)
+! Version: 20251022085802
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-22 00:15:38
-! Total Count: 17353
-! Blocked Filters: 17353
+! Last modified: 2025-10-22 08:58:02
+! Total Count: 17357
+! Blocked Filters: 17357
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8271
+!<<<<<域名规则>>>>>8273
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1906,6 +1906,7 @@
 ||datahub.center^
 ||dataprovider.biz^
 ||datasecurity-review-status.vercel.app^
+||dataunlocker.com/_next/static/chunks/1296-b802d5205251cf39.js$script,~third-party
 ||dataunlocker.com/_next/static/chunks/431-d4c0cbdf7a75befd.js$script,~third-party
 ||dataunlocker.com/api/$~script,~third-party
 ||datavibe.sbs^
@@ -3571,6 +3572,7 @@
 ||inficourses.com/_next/static/chunks/pages/course/%5Bslug%5D-$~third-party,script
 ||infinitehentai.com/uploads/banners/
 ||infinity-api.gameskinny.com/campaign/$xmlhttprequest,~third-party
+||infinity-js.destructoid.com/destructoid
 ||infinityserve.life^
 ||infinitytweet.com^
 ||infinitytweet.me^
@@ -8285,7 +8287,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5644
+!<<<<<网站单独规则>>>>>5646
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9555,6 +9557,7 @@ desiremovies.*##.code-block-2.code-block
 desishoot.fun##.islemag-content-right > .widget_custom_html
 desiupload.*###container > center > a[href][target="_blank"] > img
 desktophut.com###loading-ad
+destructoid.com##.wp-block-gamurs-ad
 detroitnews.com###partner-poster-0
 deutschsex.mobi##.default__interest-block
 devast.io###advert
@@ -9613,6 +9616,7 @@ dl.gamecopyworld.*##.t2 > tbody > tr:nth-of-type(1) > td
 dl.gamecopyworld.*##td:nth-of-type(2)
 dl.gamecopyworld.*##tr:nth-of-type(6) > td
 dlink.mobilejsr.com##[src*="png"]
+docs.dataunlocker.com##div[class^="PageTransition_overlay__"]
 doge25.in##.alert-success.alert .ads
 doge25.in##.row.text-center > .ads
 doge25.in##[id^="hbagency_space"]
