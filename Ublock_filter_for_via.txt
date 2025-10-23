@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hFeun24dP3nKP/zOI9SSGQ
-! Title: Ublock filter for Via(2025-10-23 00:16:37)
-! Version: 20251023001637
+! Checksum: cSZKWyNjYm6NGepMP/6eHQ
+! Title: Ublock filter for Via(2025-10-23 08:55:02)
+! Version: 20251023085502
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-23 00:16:37
-! Total Count: 17362
-! Blocked Filters: 17362
+! Last modified: 2025-10-23 08:55:02
+! Total Count: 17369
+! Blocked Filters: 17369
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8275
+!<<<<<域名规则>>>>>8278
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -907,6 +907,7 @@
 ||beetlestaircaselobster.com^
 ||befuls.shop^
 ||beinsports.com/*/adbw/
+||beixisys.com^
 ||beldooschae.com^
 ||belezaesaudeinnovations.com^
 ||bell-02.com^
@@ -1704,6 +1705,7 @@
 ||coup-ling-dm.net^
 ||coup-ling.net^
 ||coupletalk2024.com^
+||coupletime2525.com^
 ||coursecopy.com^
 ||coursera.org/*/eventing/
 ||coverapi.space/*.js?_=$script
@@ -4901,6 +4903,7 @@
 ||mysoft.rest^
 ||mysoftiloria.shop^
 ||mystery-forest.com^
+||mysticechohaven.com^
 ||mytemp.website/amazon-prime-video-com-br/
 ||mytemp.website/safetyfileaccess.htm^
 ||mywatchseries.*/sw.js$script,~third-party
@@ -14856,7 +14859,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>296
+!<<<<<通用Css规则>>>>>300
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -14929,10 +14932,12 @@ voz.vn/b/image.gif?p=$image
 ##.ad-area:not(.text-ad)
 ##.ad-content:not(:empty)
 ##.ad-link:not(.adsbox)
+##.ad-placeholder:not(#detect, #detect_ad_empire, #filter_ads_by_classname, .adsbox)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
 ##.ad-space:not(.textads):not(.adbox)
 ##.ad-unit:not(.text-ad):not(.textads)
+##.ad-zone:not(.adsbox, .textads)
 ##.ad-zone:not(.textads)
 ##.ad_slot:not(.text-ad)
 ##.ad_unit:not(.text-ad)
@@ -15139,10 +15144,12 @@ voz.vn/b/image.gif?p=$image
 ~dogdrip.net,~infinityfree.com,~smsonline.cloud##ins[style$="height:    90px; width:    728px;"]
 ~ekitan.com,~kissanadu.com##.sidebar-ad:not(.adsbygoogle)
 ~freehostbox.net,~hatenablog.com,~puzzle-ch.com###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+~instapundit.com,~nieru.net##.ad-space:not(.adbox, .adsbox, .textads)
 ~job.inshokuten.com,~netmile.co.jp##.ad-area:not(.text-ad)
 ~kojodan.jp##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ~kojodan.jp##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ~lamire.jp,*##.ad-unit:not(.text-ad):not(.textads)
+~lamire.jp,~tinhte.vn##.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 ~ma-bank.net,~rxlife.net,~video.tv-tokyo.co.jp###adspace:not([style^="position: absolute; left: -5000px"])
 ~mmiyue.com##.google-ad:not(.testAd)
 ~musmus.main.jp,~streetinsider.com###ad_space:not([style^="position: absolute; left: -5000px"])
