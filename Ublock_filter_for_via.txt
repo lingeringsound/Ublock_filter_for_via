@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oxdQGYPsc3eLLChIJ0K55g
-! Title: Ublock filter for Via(2025-10-25 08:53:32)
-! Version: 20251025085332
+! Checksum: WmMV5ptuciAISjYT6Rzucw
+! Title: Ublock filter for Via(2025-10-26 00:12:45)
+! Version: 20251026001245
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-25 08:53:32
-! Total Count: 17385
-! Blocked Filters: 17385
+! Last modified: 2025-10-26 00:12:45
+! Total Count: 17394
+! Blocked Filters: 17394
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8290
+!<<<<<域名规则>>>>>8295
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4070,6 +4070,7 @@
 ||lapmangsctv.com.vn^
 ||largeboyfriend.com^
 ||last-love.com^
+||lastpassrecovery.com^
 ||latenightlovers.com^
 ||launcherleaks.net/*main_script.js$script,~third-party
 ||laurenmjackson.serv00.net^
@@ -4902,6 +4903,7 @@
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||myocean.jp^
 ||myosoteruins.com^
+||mypasskey.info^
 ||myreadingmanga.info/*.php$script,xmlhttprequest
 ||myreadingmanga.info/vjs/mrm_
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
@@ -5437,6 +5439,7 @@
 ||partners2.das-onlinespiel.de^$third-party
 ||partyroll.xyz^
 ||passionsex.vip^
+||passkeysetup.com^
 ||paste.fo/*?as=*&tkn=$xmlhttprequest
 ||paste.fo^$image,~third-party
 ||pastebin.store/js.js
@@ -7660,6 +7663,8 @@
 ||vip-money2024.com^
 ||vip-salon.net^
 ||vip^$ipaddress=15.207.81.128
+||vipifsa.com/api/ad
+||vipifsa.com/api/popup
 ||virtualbox.es^
 ||virtualbox.pl^
 ||virusscanner.live^
@@ -8304,7 +8309,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5649
+!<<<<<网站单独规则>>>>>5652
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8564,7 +8569,7 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
+abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,cloud.hownetwork.xyz,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fullfreeimage.com,gametechreviewer.com,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,seory.xyz,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,viz.com,webhostingpost.com###overlay
 abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,myflixertv.to,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
@@ -13062,6 +13067,8 @@ tetris.com##.horizontalAxContainer
 tetris.com##div[class^="verticalAxContainer"]
 textreverse.com##.clearfix
 textreverse.com##.moretooladd
+th.gl##.h-\[600px\].w-\[300px\].text-center.justify-center.flex-col.flex.text-gray-500.bg-zinc-800\/30.rounded
+th.gl##.hidden.md\:block.md\:rounded-md.rounded-none.shadow.text-card-foreground.bg-card.overflow-hidden.border.shrink-0.pointer-events-auto.relative
 th.gl##.pointer-events-auto:has([href="https://www.th.gl/support-me"])
 th.gl##.text-gray-400.justify-center
 thaitrieuvi.live##center ~ .mh-clearfix.mh-wrapper
@@ -13943,6 +13950,7 @@ zdnet.com##.c-adSkyBox
 zefoy.com##.vfx-loader
 zemporn.com##.player-aside-banners
 zeroupload.com##[href="https://301alldomain.xyz/"]
+zive.cz##[class^="ad-list"]
 zlut.com##.add-bottom
 zmamobile.com##main > center > a[target="_blank"][rel="nofollow noreferrer noopener"]
 zona-leros.net##.Body > .Container > ul.Rows > li:first-child:has(> article > a[href][target="_blank"])
@@ -15177,7 +15185,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2231
+!<<<<<放行白名单>>>>>2232
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17244,6 +17252,7 @@ iwin.com#@##sponsorText
 japan-webike.*,webike.*,webike-china.cn#@#.ad_box
 japan-webike.*,webike.*,webike-china.cn#@#.ad_title
 japscan.*#@#.navbar-nav > li.nav-item > a.text-truncate.nav-link.font-weight-bold[href*="?"]
+japscan.*#@#body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid
 japscan.*#@#div.container > [href]
 japscan.lol#@##main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 japscan.lol#@#.navbar-nav > li#navpromo2.nav-item
