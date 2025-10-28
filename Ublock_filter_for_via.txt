@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ip066GiSl1nXG4E3zwSWKw
-! Title: Ublock filter for Via(2025-10-28 08:55:05)
-! Version: 20251028085505
+! Checksum: ct9Aue2nMvdx5toKGwfOfA
+! Title: Ublock filter for Via(2025-10-29 00:17:06)
+! Version: 20251029001706
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-28 08:55:05
-! Total Count: 17418
-! Blocked Filters: 17418
+! Last modified: 2025-10-29 00:17:06
+! Total Count: 17422
+! Blocked Filters: 17422
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8303
+!<<<<<域名规则>>>>>8307
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3133,6 +3133,9 @@
 ||greenshot.fr^
 ||greenshot.org^
 ||griffithdds.com/*/madeinchina.com/
+||grok.com/_data/v1/analytics/
+||grok.com/api/log_metric
+||grok.com/api/statsig/log_event
 ||grootcam.shop^
 ||group-postban.firebaseapp.com^
 ||groupbycloud.com/gb-tracker-client-3.min.js$domain=officedepot.*
@@ -3916,6 +3919,7 @@
 ||kev8ffh2n9a8.jp^
 ||keychron.in/wp-includes/certificates/home^
 ||keydoordasher.shop^
+||kgms.top^
 ||khach-hang-
 ||khach-hang-the-
 ||khantv.live/ad2.php^
