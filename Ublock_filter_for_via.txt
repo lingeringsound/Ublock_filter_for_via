@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ct9Aue2nMvdx5toKGwfOfA
-! Title: Ublock filter for Via(2025-10-29 00:17:06)
-! Version: 20251029001706
+! Checksum: TPh/nYHvqWAJwO7XgIOrhA
+! Title: Ublock filter for Via(2025-10-29 08:59:14)
+! Version: 20251029085914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-29 00:17:06
-! Total Count: 17422
-! Blocked Filters: 17422
+! Last modified: 2025-10-29 08:59:14
+! Total Count: 17424
+! Blocked Filters: 17424
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8307
+!<<<<<域名规则>>>>>8309
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4313,6 +4313,7 @@
 ||luminous-encounter.org^
 ||luna-ria.jp^
 ||luna-t.net^
+||lunexmods.cc^
 ||luofinality.com^
 ||lurefy.com^
 ||lurk-online.com^
@@ -4533,6 +4534,7 @@
 ||mediafire.com/folder/6o9s1qrtygrwr/
 ||mediafire.com/folder/86rkvkl7eswi2/
 ||mediafire.com/folder/90qj06387ezr8/
+||mediafire.com/folder/hh6g372sijmjr/
 ||mediafire.com/folder/hm0b7x2593fh1/
 ||mediafire.com/folder/oagotlqizjthi/
 ||mediafire.com/folder/ofa1qju50ffaz/
