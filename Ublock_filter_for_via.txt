@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: J62fD1Wc+rTBp5WMNfay5Q
-! Title: Ublock filter for Via(2025-10-31 08:55:53)
-! Version: 20251031085554
+! Checksum: VuHVOOwJzvtgczavEV4ZWA
+! Title: Ublock filter for Via(2025-11-01 00:16:08)
+! Version: 20251101001608
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-31 08:55:54
-! Total Count: 17430
-! Blocked Filters: 17430
+! Last modified: 2025-11-01 00:16:08
+! Total Count: 17443
+! Blocked Filters: 17443
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8314
+!<<<<<域名规则>>>>>8325
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -216,6 +216,7 @@
 ||accounts.maxweb.academy^
 ||accuradio.com/sweeper/json/fetch/$xmlhttprequest
 ||accuradio.com/vast
+||accustomjumper.com^
 ||achang-tw.github.io^
 ||acir.postofficeweb.com/grupoacir/
 ||acortalo.*^$third-party
@@ -1445,6 +1446,7 @@
 ||check-host.net/images/ypndguarh$image,~third-party
 ||check-host.net/images/ypndguath$image,~third-party
 ||check-tl-
+||checkfv.pages.dev^
 ||checking-your-browser.com^
 ||checkisreal.com^
 ||checkup08.biz^
@@ -1834,6 +1836,8 @@
 ||cyberduck.es^
 ||cyberduck.fr^
 ||cyberduck.it^
+||cyou/player/assets/js/ads.js?v=$script,~third-party
+||cyou/player/assets/js/jquery.js?v=$script,~third-party
 ||d*wsapp.icu^
 ||d-hiyori.com^
 ||d-position.com^
@@ -2224,6 +2228,7 @@
 ||dydynight.org^
 ||dynamicopenfonts.app^
 ||dzhzp0zlnyoe8.cloudfront.net^
+||dzqsslysklwgo.cloudfront.net^
 ||e-c.tokyo^
 ||e-chat1.com^
 ||e-cmv.ph^
@@ -2470,6 +2475,7 @@
 ||exchange.add-solution.de^
 ||excitableknee.com^
 ||exclusivelearnt.com^
+||excruciationaccident.com^
 ||exe.io^$third-party
 ||execute-api.*.amazonaws.com/forms-impressions
 ||executiveclub-x3.com^
@@ -2871,6 +2877,7 @@
 ||gamecygenn.com^
 ||gamedock.io^$third-party
 ||gamefabrique.com^
+||gamefiledo6.pages.dev^
 ||gamefree.vip^
 ||gameportpc.ru^
 ||gamerplay*.space^$domain=hotmediahub.com|terabox.fun|fansonlinehub.com|teralink.me|terashare.me|teraearn.com
@@ -3071,6 +3078,7 @@
 ||golnkz.com^
 ||golovanov.net^
 ||golsoe033.info^
+||gomabalerainc.top^
 ||gomovies.*/sw.js$script,~third-party
 ||gonakedowing.com^
 ||goneleft.com^
@@ -5092,6 +5100,7 @@
 ||novastakingwallet.com^
 ||novastraem.com^
 ||novelgames.com/flashgames/*/banner_660x250.png
+||novizer.org/api/send
 ||nowtuma.net^
 ||noxbits.com^
 ||nozoakamsaun.net^
@@ -6530,6 +6539,7 @@
 ||smism.jp^
 ||smmax.jp^
 ||smnewd.com^
+||smog.smugpsstplus.com^
 ||smoothie-smoothie.jp^
 ||smore91.net^
 ||smplayer.org^
@@ -8044,6 +8054,7 @@
 ||xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com^
 ||xbjav.com/*/adv/adv.js$script
 ||xbjav.com/asset/js/vast.js$script
+||xblocktest.pages.dev^
 ||xcafe.com/js/initsite.js
 ||xceteu.com^
 ||xcheckx.pages.dev^
@@ -8328,7 +8339,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5664
+!<<<<<网站单独规则>>>>>5666
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8825,6 +8836,7 @@ arolinks.com,vplink.in##.telegram-banner
 arrowos.net##.card-content:has(> .adsbygoogle)
 arstechnica.com,bild.de##.ad-wrapper
 art19.com##.art19-notifications-list
+artru.net##.artru-ads
 aruble.net###top-ads
 aruble.net,faucethero.com,faucetpot.me,krypto-trend.de###middle-adspace
 ashemaletube.*##.no-popup:has(> a[href^="/link/out/"])
@@ -11946,6 +11958,7 @@ oxy.*##[href*=".info"]
 oxy.*,~oxy.edu###divdownload > div[data-template][data-source_url]
 oxy.*,~oxy.edu##[href*=".info"]
 p2pplay.pro##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
+pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 pages.lazada.co.id##.lzd-call-app-download-popup
 paginadanoticia.com.br##.banner-img
 paid4.link##.box > div[align="center"] > .card
