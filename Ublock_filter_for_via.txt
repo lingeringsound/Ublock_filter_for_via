@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: D5F9Gttsr5jztoD9O2za0w
-! Title: Ublock filter for Via(2025-11-04 08:56:01)
-! Version: 20251104085601
+! Checksum: G5anHmjK/Q4Rbsek3j8fcA
+! Title: Ublock filter for Via(2025-11-05 00:15:26)
+! Version: 20251105001526
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-04 08:56:01
-! Total Count: 17485
-! Blocked Filters: 17485
+! Last modified: 2025-11-05 00:15:26
+! Total Count: 17491
+! Blocked Filters: 17491
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8354
+!<<<<<域名规则>>>>>8355
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7329,6 +7329,7 @@
 ||transparency-business.com^
 ||transportationlies.org/images/*.gif$image
 ||transportgoline.com^
+||transtxxx.com/static/tf/videos.*.json
 ||traolerjoe.org^
 ||trava-dapps.pages.dev^
 ||traveltraffic.cc^
@@ -8368,7 +8369,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5677
+!<<<<<网站单独规则>>>>>5678
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -10323,6 +10324,7 @@ fucksporn.com##.adv_banners
 fucksporn.com##.prefix-player-out
 full-count.jp##.s-entry > section > div.c-heading:has(> div#taboola-below-article-thumbnails-desktop)
 fullassia.com,newassia.com##[class^="ban"]
+fullboys.com###fullpage-overlay
 fullcinema.*,fullreal.*##.mobile-btn
 fullcinema.*,fullreal.*##.mvic-btn
 fullcinema.*,fullreal.*##div.content-kuss
@@ -14967,7 +14969,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>300
+!<<<<<通用Css规则>>>>>301
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -15101,6 +15103,7 @@ voz.vn/b/image.gif?p=$image
 ##.kln > a[href^="https://www.polybuzz.ai/"]
 ##.mdp-deblocker-wrapper
 ##.menu-item a[href^="https://go.rmhfrtnd.com"]
+##.nav-item[href^="https://candyai.gg/"]
 ##.ninja-recommend-block
 ##.overlay-advertising-new
 ##.player-bns-block
@@ -15270,7 +15273,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2238
+!<<<<<放行白名单>>>>>2241
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15553,6 +15556,7 @@ voz.vn/b/image.gif?p=$image
 @@||analytics.edgesuite.net/html5/akamaihtml5-min.js$script,domain=sky.de
 @@||analytics.global.sky.com/sky-tags/*/sky-tags-without-adobe.min.js$script,~third-party
 @@||analytics.google.com^$domain=firebase.google.com
+@@||analytics.tiktok.com/i18n/pixel/events.js$xmlhttprequest,domain=10.com.au
 @@||anghamiwebcdn.akamaized.net/ads.$script,domain=play.anghami.com
 @@||animedao*.stream^$script,~third-party
 @@||animefire.plus^$script,~third-party
@@ -16377,6 +16381,7 @@ voz.vn/b/image.gif?p=$image
 @@||linkneverdie.net^$script,domain=techtnet.com
 @@||litix.io/core/$script,domain=velocity.com|motortrend.com
 @@||litix.io/videojs/$script,domain=questod.co.uk
+@@||live-media-aka.warnermediacdn.com^$xmlhttprequest,domain=adultswim.com
 @@||liveadexchanger.com/a/display.php$script,domain=prem.link
 @@||liveindex.org/wp-content/plugins/imedia-basic/*$script,~third-party
 @@||lngtd.com/ehftv_ros.js$script,domain=ehftv.com
@@ -17419,6 +17424,7 @@ player.tubia.com#@#.companion-ads
 pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,recensionihot.com,torino2006.it#@#a[href^="https://www.moscarossa.biz/"]
+pornohexen.com#@##adsbox
 pvpoke-re.com#@#div[id^="nitro"]
 qlover.jp#@#.jss128
 queerpride.de#@#.category-advertorial
