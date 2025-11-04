@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: iPYOFVW0s6PW6vBiAIxaWw
-! Title: Ublock filter for Via(2025-11-04 00:14:42)
-! Version: 20251104001442
+! Checksum: D5F9Gttsr5jztoD9O2za0w
+! Title: Ublock filter for Via(2025-11-04 08:56:01)
+! Version: 20251104085601
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-04 00:14:42
-! Total Count: 17480
-! Blocked Filters: 17480
+! Last modified: 2025-11-04 08:56:01
+! Total Count: 17485
+! Blocked Filters: 17485
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8352
+!<<<<<域名规则>>>>>8354
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3270,6 +3270,7 @@
 ||hdbraze.com/sw.js$script,~third-party
 ||hdfilmce.com/bt.webp$image
 ||hdfilmizlesen.com/ponpis.js^
+||hdmp4mania2.com/antiadblock.php
 ||hdpornup.com/*/js.php
 ||hdsex.org/agent.php
 ||hdthevid.online/mavennofile.js
@@ -5162,6 +5163,7 @@
 ||o-ka-pilina.com^
 ||o-rakuenn.com^
 ||o0bc.com^$third-party,domain=~boston.com|~bostonglobe.com
+||o2videos.com/images/banner
 ||oabaubsutha.com^
 ||oasisministries.com/fr/postale/
 ||ob.*.com/i/*.js|$script,third-party
@@ -8366,7 +8368,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5674
+!<<<<<网站单独规则>>>>>5677
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -10641,6 +10643,9 @@ hdhub4u.*##.watch-hd
 hdhub4u.*##[href*="?aff"]
 hdjavonline.com##.happy-inside-player
 hdmp4mania1.net,mp4mania1.net,tvshows4mobile.*##.prop_native1
+hdmp4mania2.com##.download:has(a[rel="sponsored"], a[href*="obqj2.com"])
+hdmp4mania2.com##.listing:has(a[rel="sponsored"], a[href*="obqj2.com"])
+hdmp4mania2.com##form > a[href*="/4/"]
 hdmp4mania2.com,o2tvseries.com,tvshows4mobile.org##.gsc-promotion
 hdmp4mania2.com,o2tvseries.com,tvshows4mobile.org##[href*="starmeetonline.com/"]
 hdmp4mania2.com,o2tvseries.com,tvshows4mobile.org##[href^="https://oabaubsutha.com/"]
