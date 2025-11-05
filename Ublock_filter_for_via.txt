@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: G5anHmjK/Q4Rbsek3j8fcA
-! Title: Ublock filter for Via(2025-11-05 00:15:26)
-! Version: 20251105001526
+! Checksum: atgce4oJoOzlwORPZ4u0SA
+! Title: Ublock filter for Via(2025-11-05 08:59:16)
+! Version: 20251105085916
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-05 00:15:26
-! Total Count: 17491
-! Blocked Filters: 17491
+! Last modified: 2025-11-05 08:59:16
+! Total Count: 17493
+! Blocked Filters: 17493
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -14050,7 +14050,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>916
+!<<<<<通配符规则>>>>>917
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14110,6 +14110,7 @@ $script,domain=zdnet.fr,third-party
 */?pu=$script
 */advertisement/video/static/advantage.xml$xmlhttprequest
 */bouncy.php?*&inPopUp=
+*/dai/pub/global/$xmlhttprequest,domain=nowtv.com
 */das/$image,domain=xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 */player/plugins/vast-*.js$script
 */plugin/advertisement/$image
@@ -15273,7 +15274,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2241
+!<<<<<放行白名单>>>>>2242
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16966,6 +16967,7 @@ voz.vn/b/image.gif?p=$image
 @@||tao.barstoolsports.com/v2/$xmlhttprequest,~third-party
 @@||tao.barstoolsports.com/v2/i^$xmlhttprequest,~third-party
 @@||taplytics-umami.grubhub.com/jssdk/$script,~third-party
+@@||target.microsoft.com^$xmlhttprequest,~third-party
 @@||taximail.com/js/analytics.js$script,~third-party
 @@||tda.io^$xmlhttprequest,domain=tagesanzeiger.ch
 @@||tdn.da-services.ch/libs/prebid$script,domain=tagesanzeiger.ch
