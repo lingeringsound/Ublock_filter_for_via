@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wc0LAzVuQ1R/bJdamzfPTA
-! Title: Ublock filter for Via(2025-11-07 08:57:49)
-! Version: 20251107085749
+! Checksum: XFSrp8NhVtiDOXDXTl6yNg
+! Title: Ublock filter for Via(2025-11-08 00:14:44)
+! Version: 20251108001444
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-07 08:57:49
-! Total Count: 17500
-! Blocked Filters: 17500
+! Last modified: 2025-11-08 00:14:44
+! Total Count: 17512
+! Blocked Filters: 17512
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8360
+!<<<<<域名规则>>>>>8371
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1795,6 +1795,7 @@
 ||cryptocreed.com^$third-party
 ||cryptomusk.io^
 ||cs-portalintranet.com/pf/
+||cs2beneluxtour.com^
 ||csgo.xyz^
 ||cshort.org/themes/cshort_theme/assets/js/vanta.birds.min.js$script,~third-party
 ||cskh-vib-
@@ -2387,6 +2388,7 @@
 ||ephokeerailoon.net^
 ||epicgames-store.org^
 ||epicpotec.com^
+||eplproseason25.com^
 ||eporner.com/cppb/
 ||eporner.com/dotm/
 ||eporner.com/js/bowser.php
@@ -2410,8 +2412,12 @@
 ||errorordufhwe.s3.ap-south-1.amazonaws.com^
 ||ersties.com^$third-party
 ||erwksojkxxlff.icu^
+||eslplayers.com^
+||eslplayers25.com^
+||eslpromasters.com^
 ||espace-documents-authsec-appmovil.codeanyapp.com^
 ||espleestrick.com^
+||esportsbenelux.com^
 ||essence-one.net^
 ||essentialmost.com^
 ||est-host.com/promo/$image
@@ -2889,6 +2895,7 @@
 ||gameportpc.ru^
 ||gamerplay*.space^$domain=hotmediahub.com|terabox.fun|fansonlinehub.com|teralink.me|terashare.me|teraearn.com
 ||games-blacksoft.com^
+||gameseason22.com^
 ||gamesforpcfree.com^
 ||gameskinny.com/wp-json/navy/v*/tag?pid=
 ||gamezop.com^$domain=gplinks.*|uploadraja.com
@@ -3864,6 +3871,7 @@
 ||jump-hi-quality55.com^
 ||jump-hi-quality77.com^
 ||juneauempire.com/wp-content/plugins/incognito_dectector/
+||juniorsvote.com^
 ||just-bet.net^
 ||justdakota.top^
 ||justjavhd.com/wp-content/uploads/2017/05/300.gif
@@ -4166,6 +4174,7 @@
 ||lien-lienam.com^
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
+||ligabenelux.com^
 ||ligheechoagool.com^
 ||light678o.fun^
 ||lightboxcdn.com/*/digibox.gif?
@@ -4471,6 +4480,7 @@
 ||mantra7.net^
 ||mantra77.jp^
 ||manualpeasantconnoisseur.com^
+||mapple.uk/bundle-prod.js$script
 ||mappletv.uk/bundle-prod.js$script
 ||marabase-bi.com^
 ||marchshotgun.com^
@@ -5793,6 +5803,7 @@
 ||problems-center.com^
 ||procdnvids.net^
 ||processesdisplease.com^
+||proeslgaming.com^
 ||profile-ourtime.*.workers.dev^
 ||profileclub.info^
 ||profullversion.net^
@@ -14057,7 +14068,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>917
+!<<<<<通配符规则>>>>>918
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14137,6 +14148,7 @@ $script,domain=zdnet.fr,third-party
 */|$xmlhttprequest,domain=moviesapi.to,third-party
 *banner$domain=beforeitsnews.com,image
 *preRoll$xmlhttprequest,domain=porngo.com
+*two-gun-volley.pages.dev^$third-party
 -ez-pass.com^
 -google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
 -ledger.live^
