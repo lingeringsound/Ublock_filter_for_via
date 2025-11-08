@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Yw+h8zFF6w/vNOSn255bJA
-! Title: Ublock filter for Via(2025-11-08 08:53:17)
-! Version: 20251108085317
+! Checksum: cZPmhV0MhlDH+9o5Txrg4A
+! Title: Ublock filter for Via(2025-11-09 00:13:17)
+! Version: 20251109001317
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-08 08:53:17
-! Total Count: 17512
-! Blocked Filters: 17512
+! Last modified: 2025-11-09 00:13:17
+! Total Count: 17521
+! Blocked Filters: 17521
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8371
+!<<<<<域名规则>>>>>8377
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -192,6 +192,7 @@
 ||aajdrp.com^
 ||aas.medialaben.no/a/
 ||aawspeedy.com^
+||aaxr.shop^
 ||abacus-prefix.com^
 ||abattuehagbuts.com^
 ||abc-ckd.com/facebook/
@@ -296,6 +297,7 @@
 ||ads.pinterest.com^$third-party
 ||ads.the.tube^
 ||ads.youtube.com^$domain=~ads.youtube.com
+||adsafeprotected.com/iasPET.$script,domain=reuters.com
 ||adsco.re^$xmlhttprequest,domain=doods.to|poophq.com|veev.to
 ||adserver.inflightinternet.com^
 ||adservice.google.*/adsid/integrator.js?domain=$script,domain=anydebrid.com|hotdebrid.com
@@ -471,6 +473,7 @@
 ||amazon-analytic.com^
 ||amazon-shopping.shop^
 ||amazon.com/1/action-impressions/
+||amazon.com/follow/log-metrics
 ||amazon.dev/getAds
 ||amazon.dev/getVideoAds
 ||amazon8898.com^
@@ -2124,6 +2127,7 @@
 ||dlvideosfre.click^
 ||dm09.biz^
 ||dmads.dailymotion.com^
+||dmca-security.com^
 ||dmlqidmx8frkz90.ywufsjhc4.jp^
 ||dmp.theadex.com^*/adex.js$domain=kino.de
 ||dmxleo.dailymotion.com^
@@ -7510,6 +7514,7 @@
 ||unionplus-card.click^
 ||unionplus-card.click^$document
 ||uniproject.substack.com^
+||uniqlo-nz.com^
 ||unisettings.pro^
 ||uniswapbot.team^
 ||united-infos.net^$domain=gmx.*|web.de
@@ -7635,6 +7640,7 @@
 ||vanilla-japan.net^
 ||vantechdns.com/bpnew/
 ||variationsradio.com^
+||vast.pet^
 ||vawk0ap3.xyz^
 ||vb09cl.com^
 ||vcnbbtrack.com^
@@ -8385,7 +8391,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5680
+!<<<<<网站单独规则>>>>>5682
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11013,6 +11019,7 @@ iseekgirls.com##[href="https://www.iseekgirls.com/af/webcam"], [href^="https://w
 iseekgirls.com##[href="https://www.iseekgirls.com/isg/header-ads"]
 iseekgirls.com##[href^="https://www.iseekgirls.com/"][target="_blank"]
 it.in-jpn.com##body > a[rel*="sponsored"]
+itest.5ch.net##.ad_nth:not([style])
 itijobalert.in,techkhulasha.com###waiting, h4, #form, #popup-button:others()
 its.porn##.desk-banners
 its.porn##.spot_large
@@ -14055,6 +14062,7 @@ zefoy.com##.vfx-loader
 zemporn.com##.player-aside-banners
 zeroupload.com##[href="https://301alldomain.xyz/"]
 zive.cz##[class^="ad-list"]
+zkillboard.com##.pbcen
 zlut.com##.add-bottom
 zmamobile.com##main > center > a[target="_blank"][rel="nofollow noreferrer noopener"]
 zona-leros.net##.Body > .Container > ul.Rows > li:first-child:has(> article > a[href][target="_blank"])
@@ -15293,7 +15301,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2242
+!<<<<<放行白名单>>>>>2243
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15514,7 +15522,7 @@ voz.vn/b/image.gif?p=$image
 @@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
 @@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
-@@||ads.poshtata.online/*.js|$script,domain=seirsanduk.*|seirsanduk.com|seirsanduk.net
+@@||ads.poshtata.online/*.js|$script,domain=seir-sanduk.com|seirsanduk.*|seirsanduk.com|seirsanduk.net|seirsanduk.online
 @@||ads.poshtata.online/adsbygoogle.js$script,domain=seir-sanduk.com
 @@||ads.poshtata.online/loader.js$script,domain=seirsanduk.*|seirsanduk.com|seirsanduk.net
 @@||ads.poshtata.online/loader.js^$script,domain=seir-sanduk.com
@@ -16227,7 +16235,7 @@ voz.vn/b/image.gif?p=$image
 @@||googletagmanager.com/gtag/js$third-party,script,domain=trinket.io
 @@||googletagmanager.com/gtag/js$xmlhttprequest,domain=quackr.io|streamingcommunity.*
 @@||googletagmanager.com/gtag/js?id=G$script,domain=riteaid.com
-@@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|jumbo.cl|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
+@@||googletagmanager.com/gtm.js$domain=btcbitco.in|btcsatoshi.net|buhitter.com|cashier.dmm.co.jp|cashier.dmm.com|crypto4yu.com|gainl.ink|go.bitcosite.com|go.freetrx.fun|jumbo.cl|nissan.co.jp|pointmall.rakuten.co.jp|readbitcoin.org|wiour.com|www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=aarhustech.dk|abcam.com|abczdrowie.pl|akbank.com|all.accor.com|aruba.it|carvana.com|ciudad.com.ar|coronavirus.vic.gov.au|dpoint.jp|dzonline.de|eclipse.org|festool.*|festoolcanada.com|festoolusa.com|findmystreet.co.uk|formulatv.com|freepik.com|fullcontact.com|gall.nl|giftcards.com|girlsnews.tv|globo.com|hellofresh.com|holidaypark.de|insideevs.com|kaspersky.fr|kingarthurbaking.com|lacuracao.pe|lavanguardia.com|linternaute.com|lippu.fi|login.accor.com|marveloptics.com|mavic.com|megacritic.ru|microcenter.com|movistar.es|mumzworld.com|nespresso.com|nrj-play.fr|nykaa.com|pec.it|pochta.ru|radio-canada.ca|radiox.co.uk|raiplayradio.it|rappi.com.mx|reuters.com|riteaid.com|rtl.de|savethechildren.*|shakeshack.com|shockwave.com|slack.com|sloways.eu|suspilne.media|target.com.au|teds.com.au|tele2.ee|the-independent.com|thenorthface.com|tsbohemia.cz|videolyrics.in|videoslyrics.com|vier.be|villeroy-boch.fr|vw-sklep.pl|well.ca|wn.de|www.radiox.co.uk|www.shockwave.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=bela.gifts|corsair.com|jumbo.cl|lingvolive.com|mf-realty.jp|rocketnews24.com|simon.com|soranews24.com
 @@||googletagmanager.com/gtm.js$script,third-party,domain=al.com|cleveland.com|eu.community.samsung.com|lehighvalleylive.com|masslive.com|mlive.com|nj.com|oregonlive.com|pennlive.com|silive.com|syracuse.com
@@ -17364,6 +17372,7 @@ infogenyus.top#@#.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1
 instapundit.com#@#.ad-space:not(.textads)
 instapundit.com#@#.postad
 iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
+itest.5ch.net#@#.ad_nth
 iwin.com#@##sponsorText
 japan-webike.*,webike.*,webike-china.cn#@#.ad_box
 japan-webike.*,webike.*,webike-china.cn#@#.ad_title
