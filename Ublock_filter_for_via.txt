@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: gTIbsbDEH7Efey7+hUZBOQ
-! Title: Ublock filter for Via(2025-11-10 00:14:36)
-! Version: 20251110001436
+! Checksum: Dv0Mt53fg85ts7j012iv5A
+! Title: Ublock filter for Via(2025-11-10 08:59:31)
+! Version: 20251110085932
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-10 00:14:36
-! Total Count: 17525
-! Blocked Filters: 17525
+! Last modified: 2025-11-10 08:59:32
+! Total Count: 17532
+! Blocked Filters: 17532
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8380
+!<<<<<域名规则>>>>>8383
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1404,6 +1404,7 @@
 ||cha-nce.net^
 ||chairmanalienxanthopsia.com^
 ||cham-soc-the-
+||champagne.futurecdn.net/champagne.js
 ||champion-place77.com^
 ||chamsockhachang-
 ||chamsockhachhang-
@@ -2812,6 +2813,7 @@
 ||freewebhostmost.com/DARKSIDE/hype/
 ||freewebhostmost.com/consegna-pacchi/avviso/
 ||freex2line.online/dwcn/Assets/js/jquery.countdown360.min.js$script,~third-party
+||freyr.futurecdn.net/freyr.js
 ||friends-connect.com^
 ||friendxroom.com^
 ||frogletutopism.com^
@@ -6549,6 +6551,7 @@
 ||sldg02.com^
 ||sleetposition.website^
 ||sleevegrope.com^
+||slice.vanilla.futurecdn.net/*/js/externals.js
 ||slimhealth.us^
 ||slobeg.com^
 ||slorpeyes.top^
@@ -8394,7 +8397,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5683
+!<<<<<网站单独规则>>>>>5684
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8586,7 +8589,7 @@ $script,domain=zdnet.fr,third-party
 69games.xxx,gamcore.com###tvnotice
 69games.xxx,go.pointlinks.in,v2links.me###footer
 6hiidude.gold,sabishares.com##p > a[href*="/4/"][target="_blank"]
-720pstream.*,embedsports.me,embedstream.me,jumbtv.com,reliabletv.me##.bg-dark.position-absolute
+720pstream.*,embedsports.me,embedstream.me,jumbtv.com,qatarstreams.me,reliabletv.me##.bg-dark.position-absolute
 7mmtv.sx##.mvspan_2_s_k_i_p_row
 7mmtv.sx##.player_tv_pop
 7movierulzfree.*##.display\:none\;\"hd-buttons\"
@@ -12451,6 +12454,7 @@ puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com
 puzzles.msn.com##[class*="displayAd"], .ark-ad-message
 pvpoke-re.com##.nitro-any
 qashbits.com##.mx-auto
+qatarstreams.me##button[data-openuri*="/4/"]
 qmh.sex##.vip1-play-overlay
 qub.ca##.jss2
 quicksounds.com##.ad-head
@@ -15001,7 +15005,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>301
+!<<<<<通用Css规则>>>>>302
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -15223,6 +15227,7 @@ voz.vn/b/image.gif?p=$image
 ##a[onclick="openAuc();"]
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
 ##body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"]
+##button.btn[data-openuri*="/4/"]
 ##div#spot-holder.spot-holder[style="display: block;"]
 ##div[class$="player-promo-col"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
@@ -15305,7 +15310,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2243
+!<<<<<放行白名单>>>>>2245
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15719,6 +15724,7 @@ voz.vn/b/image.gif?p=$image
 @@||bonjourdefrance.com^$script,~third-party
 @@||boomtrain.com/identify/resolve$xmlhttprequest,domain=snopes.com
 @@||boots.*/wcsstore/eBootsStorefrontAssetStore/javascript/Analytics.js$xmlhttprequest,~third-party
+@@||bordeaux.futurecdn.net/bordeaux.js$domain=pcgamer.com
 @@||bounceexchange.com^$domain=thelaundress.com
 @@||brid.tv/player/build/plugins/adunit.js$script,domain=pluralist.com
 @@||brittlesturdyunlovable.com/*/code.js^$script,third-party,domain=empire-anime.*|empire-stream.*|empire-streaming.*|empire-streamz.*
@@ -15990,6 +15996,7 @@ voz.vn/b/image.gif?p=$image
 @@||datadome.co/|$domain=paypal.com
 @@||dcbbwymp1bhlf.cloudfront.net^$script,domain=uploadbank.com|uploadmall.com
 @@||dcode.fr^$xmlhttprequest,~third-party
+@@||dd.auspost.com.au/js/$xmlhttprequest,~third-party
 @@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
 @@||de-config.sensic.net/sui-connector.js$script,domain=sportschau.de
 @@||dealersite4.d2cmedia.ca^$domain=schlueterhyundai.com
