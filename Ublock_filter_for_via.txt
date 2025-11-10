@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Dv0Mt53fg85ts7j012iv5A
-! Title: Ublock filter for Via(2025-11-10 08:59:31)
-! Version: 20251110085932
+! Checksum: +4L2coUI2Sp5SuHkqT3YQA
+! Title: Ublock filter for Via(2025-11-11 00:15:45)
+! Version: 20251111001545
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-10 08:59:32
-! Total Count: 17532
-! Blocked Filters: 17532
+! Last modified: 2025-11-11 00:15:45
+! Total Count: 17540
+! Blocked Filters: 17540
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8383
+!<<<<<域名规则>>>>>8390
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -553,6 +553,7 @@
 ||ant.spica-telescope.com^
 ||antai-gouv-fr.troliga.sk^
 ||anti-automation-v*.b-cdn.net^
+||antitrojanwalls.live^
 ||antivirus.landerhd.com^
 ||antoiew.com^
 ||antonellapouncedcrewels.com^
@@ -2211,6 +2212,7 @@
 ||drtuber.*/footer_tiz.php
 ||dsccams.com^$third-party
 ||dslr-forum.de/ads/$image
+||dsu-adguard.pro^
 ||dsxwcas.com^
 ||dtioykqj1u8de.cloudfront.net^
 ||du0.jp^
@@ -2387,6 +2389,7 @@
 ||eniedu.com^
 ||enigmaswhereas.com^
 ||enjoylife2001.net^
+||ennatcaraposin.com^
 ||enraptureminims.com^
 ||epayu.cc^
 ||ephemeral9.com^
@@ -2502,6 +2505,7 @@
 ||exoduswallet.at^
 ||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=fastcompany.com
 ||experiencedlawsuit.com^
+||expleboted.com^
 ||explorads.xml-v4.ak-is2.net^
 ||exponea.com^$third-party
 ||exs.pl/embed*.php$script,domain=~wgospodarce.pl|~szczecinek.com|~polityka.pl|~ototorun.pl|~natemat.pl|~plonszczak.pl|~24jgora.pl|~24wroclaw.pl|~brodnica-cbr.pl|~ciechanowinaczej.pl|~ddb24.pl|~e-wyszogrod.pl|~egarwolin.pl|~egorzow.pl|~ekspresjaroslawski.pl|~eprzasnysz.pl|~esiemiatycze.pl|~fakty.bialystok.pl|~galopuje.pl|~golub-cgd.pl|~gpr24.pl|~ibialoleka.pl|~ibielsk.pl|~ikampinos.pl|~imokotow.pl|~inowroclaw.info.pl|~iochota.pl|~iotwock.pl|~ipragapoludnie.pl|~iskierniewice.pl|~itvpiaseczno.pl|~izabelin24.pl|~izoliborz.pl|~izyrardow.pl|~kurierbytowski.com.pl|~kurierpodlaski.pl|~lipno-cli.pl|~lowicz24.eu|~mylomza.pl|~nolesnica.pl|~nowinynyskie.com.pl|~nswiecie.pl|~nwloclawek.pl|~olawa24.pl|~poluje.pl|~pultusk24.pl|~rypin-cry.pl|~sejny.net|~splendo.pl|~tp.com.pl|~tulegnica.pl|~twojradom.pl|~wabrzezno.pl|~wideoportal.tv|~wio.waw.pl|~wterenie.pl|~zambrow.org|~zlotowskie.pl|~zycie.pila.pl|~zyciekalisza.pl
@@ -3417,6 +3421,7 @@
 ||hootbio.com/bellmail
 ||hope-for-shiningday.com^
 ||hopgp.com^
+||hoplariumped.com^
 ||hori-hori.xyz^
 ||horlzonhub.com^
 ||hornydateclub.link^
@@ -4969,6 +4974,7 @@
 ||myreadingmanga.info/vjs/mrm_
 ||myreadingmanga.info/wp-content/uploads/*.gif$image
 ||mysecurify.com^
+||myshielstore.xyz^
 ||mysign-mircrosoft.com^
 ||mysoft.rest^
 ||mysoftiloria.shop^
@@ -5804,6 +5810,7 @@
 ||privatedates.link^
 ||privatelife.jp^
 ||privatesinglesmeet.com^
+||prizecloud.sa.com^
 ||prizegift.top^
 ||proai.club^
 ||probableregret.com^
@@ -8397,7 +8404,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5684
+!<<<<<网站单独规则>>>>>5685
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12455,6 +12462,7 @@ puzzles.msn.com##[class*="displayAd"], .ark-ad-message
 pvpoke-re.com##.nitro-any
 qashbits.com##.mx-auto
 qatarstreams.me##button[data-openuri*="/4/"]
+qatarstreams.me,stream.nflbox.me##.position-absolute.top-0
 qmh.sex##.vip1-play-overlay
 qub.ca##.jss2
 quicksounds.com##.ad-head
