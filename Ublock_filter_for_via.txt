@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 7VHEt7POp9qcToMZh/V9OQ
-! Title: Ublock filter for Via(2025-11-13 00:17:25)
-! Version: 20251113001725
+! Checksum: qxkBoXhpBsSTV4exTMNXeQ
+! Title: Ublock filter for Via(2025-11-13 08:57:21)
+! Version: 20251113085721
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-13 00:17:25
-! Total Count: 17547
-! Blocked Filters: 17547
+! Last modified: 2025-11-13 08:57:21
+! Total Count: 17550
+! Blocked Filters: 17550
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8391
+!<<<<<域名规则>>>>>8394
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -143,6 +143,7 @@
 ||6xy-zg.com^
 ||71l0b.com^
 ||76ghe-5dsr-wr.com^
+||7743832.cfd^
 ||777.funnyy.net^
 ||77jjxx.com^
 ||78b78ff8.xyz^
@@ -266,6 +267,7 @@
 ||adforge.io^
 ||adition.com^$domain=spiegel.de
 ||aditserve.com^
+||adjust.com^$reason=tracker
 ||admin-2.dataunlocker.com^$~script
 ||admin-matching-pair.jp^
 ||admin.animesrbija.com/playertag
@@ -5796,6 +5798,7 @@
 ||preservehalt.com^
 ||press-continue.*.top^
 ||prewhipmamamu.com^
+||prf.hn^$reason=tracker
 ||primal.premium-prism.net^
 ||primeleech.com^
 ||primeos.in/wp-content/uploads/*/Sidebar-Ad*$image
