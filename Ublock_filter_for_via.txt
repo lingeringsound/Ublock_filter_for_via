@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: sbO0UxJgSfyExgj2ONZE+Q
-! Title: Ublock filter for Via(2025-11-16 00:12:38)
-! Version: 20251116001238
+! Checksum: AhrEwAFKzYZKom4F7N6M+g
+! Title: Ublock filter for Via(2025-11-16 09:00:33)
+! Version: 20251116090033
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-16 00:12:38
-! Total Count: 17560
-! Blocked Filters: 17560
+! Last modified: 2025-11-16 09:00:33
+! Total Count: 17562
+! Blocked Filters: 17562
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8401
+!<<<<<域名规则>>>>>8403
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3598,6 +3598,7 @@
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cnet.com|givemesport.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=foxnews.com
+||imessagegreetins.de^
 ||img.alandal.com/promo/$image,domain=asura.gg|asurascans.com
 ||img.mykadri.click/asvla2/
 ||img.stomp.com.sg/sites/all/themes/stompst/images/placeholder.jpg$image
@@ -5357,6 +5358,7 @@
 ||orcaslicerr.
 ||orcaslicers.
 ||orcaslicers.com^
+||order18252.cfd^
 ||order78916.live^
 ||orders-processed.com^
 ||org-earn.com^
