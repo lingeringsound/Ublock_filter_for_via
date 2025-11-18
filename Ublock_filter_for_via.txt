@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wjG5FFQzxr1uM60etKTrZQ
-! Title: Ublock filter for Via(2025-11-18 00:16:42)
-! Version: 20251118001642
+! Checksum: kFHBnG9dO9MUiaILcLyYGw
+! Title: Ublock filter for Via(2025-11-18 08:56:27)
+! Version: 20251118085627
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-18 00:16:42
-! Total Count: 17570
-! Blocked Filters: 17570
+! Last modified: 2025-11-18 08:56:27
+! Total Count: 17577
+! Blocked Filters: 17577
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8405
+!<<<<<域名规则>>>>>8408
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -313,6 +313,7 @@
 ||adslink.pw/*.php
 ||adsloboclick.com^
 ||adslop.com^$third-party
+||adsmediabox.com^
 ||adsmoloco.com^$xmlhttprequest,domain=jiocinema.com
 ||adsok.co^$third-party
 ||adspy.javrank.com^
@@ -5307,6 +5308,7 @@
 ||online-ops.mypasschange.com^
 ||onlineplus.click^
 ||onlinepromotionsusa.com^
+||onlinestream.live/js/osb.js
 ||only-fans.uk^
 ||only.hearty-community.com^
 ||onlyfans.com/api2/v2/users/clicks-stats^
@@ -8412,6 +8414,7 @@
 ||zp-gzs2-yts-a.com^
 ||zqvee2re50mr.com^
 ||zs.peachparadise.vip^
+||zu9opx.com^
 ||zurich-interactive.jp^
 ||zvogo.com^
 ||zwuucugezzjhhi.com^
@@ -8419,7 +8422,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5692
+!<<<<<网站单独规则>>>>>5696
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8763,7 +8766,7 @@ allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
 allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,servers-mc.net,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mplay.*,streamp1ay.*,streanplay.*,supersextube.pro,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomic.com,lowendbox.com##iframe
-allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,readytechflip.com,romadd.com,sampledrive.org,studydhaba.com,taoruseitai.com,taradinhos.com,toursetlist.com,towelstretches.com##.widget_custom_html
+allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,readytechflip.com,romadd.com,sampledrive.org,studydhaba.com,taoruseitai.com,taradinhos.com,thedigitaltheater.com,toursetlist.com,towelstretches.com##.widget_custom_html
 allround-pc.com##.inlineAd
 allround-pc.com##.singlePostAd
 allsmo.com##[id^="ezoic-pub-ad-placeholder"]
@@ -10971,6 +10974,7 @@ imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
 imgbaron.com##div[style^="display: block; position: fixed; z-index"]
 imgbaron.com##p.newsbar_b
 imgbaron.com,kvador.com,picbaron.com###fadeinbox
+imgbox.com##div[style="display: inline-block;width:300px;height:250px"]
 imgprime.com##.overlayBg
 imgshots.com###introOverlayBg
 imgspice.com###interdiv
@@ -12011,6 +12015,7 @@ onlinepornhub.net##.header-area
 onlineporno.cc##.spot-box
 onlineporno.cc##.w-spots
 onlinesoccermanager.com###advertisement-leaderboard-container
+onlinestream.live##[src^="/banners/"]
 onlinevideoconverter.*##.music-container > div[style] > a[href][target] > img
 onlylesbiantube.com##.hor_bs
 onlylesbiantube.com##.video_av_bl
@@ -13224,6 +13229,8 @@ theblockcrypto.com##.modal-bg
 thecartoonporntube.com###advertising [href]
 thecartoonporntube.com##[href="/go/tube.php"]
 thedailywtf.com##.article-body > div:has(a[href*="utm_medium"])
+thedigitaltheater.com###block-20
+thedigitaltheater.com###block-22
 thefappeningblog.com##.dogytop
 thefappeningblog.com##.textwidget > a[href][target="_blank"]:not([href*="thefappeningblog.com"])
 thefappeningblog.com##.wbar
