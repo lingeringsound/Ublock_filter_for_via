@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 01Fi9S1ZBO9E868eB8cfLA
-! Title: Ublock filter for Via(2025-11-19 08:56:57)
-! Version: 20251119085657
+! Checksum: 6610QPOQ2TDHUKq0Vti3YQ
+! Title: Ublock filter for Via(2025-11-20 00:16:20)
+! Version: 20251120001620
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-19 08:56:57
-! Total Count: 17581
-! Blocked Filters: 17581
+! Last modified: 2025-11-20 00:16:20
+! Total Count: 17585
+! Blocked Filters: 17585
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8424,7 +8424,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5698
+!<<<<<网站单独规则>>>>>5702
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12500,6 +12500,7 @@ quizack.com##[class*="_mosori"]
 quizglobal.com##div[ng-if="vm.showAds"]
 quizlet.com##.SetPageTerms-embeddedDesktopAdWrapper
 quizlet.com##.StickyAdz
+quizz.biz##.pause_pub
 quora.com##.AdBundle
 quora.com##.AdStory
 quora.com##.PromptsList
@@ -13220,8 +13221,10 @@ tetris.com##.horizontalAxContainer
 tetris.com##div[class^="verticalAxContainer"]
 textreverse.com##.clearfix
 textreverse.com##.moretooladd
+th.gl##.fixed.overflow-hidden.border
 th.gl##.h-\[600px\].w-\[300px\].text-center.justify-center.flex-col.flex.text-gray-500.bg-zinc-800\/30.rounded
 th.gl##.hidden.md\:block.md\:rounded-md.rounded-none.shadow.text-card-foreground.bg-card.overflow-hidden.border.shrink-0.pointer-events-auto.relative
+th.gl##.hidden.overflow-hidden.border
 th.gl##.pointer-events-auto:has([href="https://www.th.gl/support-me"])
 th.gl##.text-gray-400.justify-center
 thaitrieuvi.live##center ~ .mh-clearfix.mh-wrapper
@@ -13790,6 +13793,7 @@ web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcomp
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
 web2.0rechner.de,web2.0calc.*###nocreditsmodal
 web2.0rechner.de,web2.0calc.*##.first
+webcamera.pl##.text-center.screening-background
 webcras.com##body > b + br + div[id][class]
 webflow.io##html.w-mod-js:not(.wf-active) > body:not([class]):not([id]) > a[class="w-inline-block"][href^="http"]
 webnovelworld.org##:is(#chapter-container, .comment-list, .container, .rank-novels) > div[class]:has(> [id^="pf-"])
