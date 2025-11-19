@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2zU6XHNBH41NGLkbUG/rNQ
-! Title: Ublock filter for Via(2025-11-19 00:16:49)
-! Version: 20251119001649
+! Checksum: 01Fi9S1ZBO9E868eB8cfLA
+! Title: Ublock filter for Via(2025-11-19 08:56:57)
+! Version: 20251119085657
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-19 00:16:49
-! Total Count: 17580
-! Blocked Filters: 17580
+! Last modified: 2025-11-19 08:56:57
+! Total Count: 17581
+! Blocked Filters: 17581
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8424,7 +8424,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5697
+!<<<<<网站单独规则>>>>>5698
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11692,6 +11692,7 @@ modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"] 
 modrinth.com##section.normal-page__content [href^="https://bisecthosting.com/"][href*="?r="] img
 modrinth.com##section.normal-page__content a[href*="/redirect/"] img
 modrinth.com##section.normal-page__content p > img[alt^="Use code"]
+moenime.com###\31 xbet
 momondo.*##div[data-resultid$="-sponsored"]
 momondo.*##div[id$=-list] div[role=tab]
 momondo.com##[onclick*="inline.ad"]
