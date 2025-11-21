@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AwmxMHoAlqr2dcaxzMeplg
-! Title: Ublock filter for Via(2025-11-21 00:15:30)
-! Version: 20251121001530
+! Checksum: /oiVmlrYyYGDdgZiiFikiQ
+! Title: Ublock filter for Via(2025-11-21 08:56:16)
+! Version: 20251121085616
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-21 00:15:30
-! Total Count: 17588
-! Blocked Filters: 17588
+! Last modified: 2025-11-21 08:56:16
+! Total Count: 17590
+! Blocked Filters: 17590
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8424,7 +8424,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5705
+!<<<<<网站单独规则>>>>>5707
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13225,9 +13225,11 @@ tetris.com##div[class^="verticalAxContainer"]
 textreverse.com##.clearfix
 textreverse.com##.moretooladd
 th.gl##.fixed.overflow-hidden.border
+th.gl##.fixed.pointer-events-auto
 th.gl##.h-\[600px\].w-\[300px\].text-center.justify-center.flex-col.flex.text-gray-500.bg-zinc-800\/30.rounded
 th.gl##.hidden.md\:block.md\:rounded-md.rounded-none.shadow.text-card-foreground.bg-card.overflow-hidden.border.shrink-0.pointer-events-auto.relative
 th.gl##.hidden.overflow-hidden.border
+th.gl##.hidden.pointer-events-auto.relative
 th.gl##.pointer-events-auto:has([href="https://www.th.gl/support-me"])
 th.gl##.text-gray-400.justify-center
 thaitrieuvi.live##center ~ .mh-clearfix.mh-wrapper
