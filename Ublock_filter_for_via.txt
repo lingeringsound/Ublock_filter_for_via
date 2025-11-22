@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: o2/THpxaUBES+UuGE4fAUA
-! Title: Ublock filter for Via(2025-11-22 08:54:20)
-! Version: 20251122085420
+! Checksum: ZzD+amAdrbI3L72af3zSWA
+! Title: Ublock filter for Via(2025-11-23 00:13:06)
+! Version: 20251123001306
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-22 08:54:20
-! Total Count: 17623
-! Blocked Filters: 17623
+! Last modified: 2025-11-23 00:13:06
+! Total Count: 17630
+! Blocked Filters: 17630
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8441
+!<<<<<域名规则>>>>>8445
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3095,6 +3095,7 @@
 ||go2click.online^
 ||go4kora.tv/assets/js/script_antiAdBlock_*.js$script,~third-party
 ||goal.starsites.fun/prisnetajne.js
+||goalsport.info/fox/plugins/block1/dublocker.js
 ||gocast2.com/z-$script,~third-party
 ||gocheck.pages.dev^
 ||gocolonial.local-user.com^
@@ -5753,6 +5754,7 @@
 ||popcdn.day/magnitude.js^
 ||popcdn.day/stream/floating.js^
 ||popcent.org^$third-party
+||popcornpump.xyz^
 ||popsads.link^
 ||poptival.com^
 ||popular-resort-ads.com^
@@ -6801,6 +6803,7 @@
 ||startwork-introduce.com^
 ||stash.adcat.moe/script.js$script
 ||statcounter.com^$third-party
+||stateless.me/yxz1/$script,~third-party
 ||static-fonts.com^
 ||static.accesstrade.vn/js/atsmarttag.min.js
 ||static.addevweb.com/integrations$script,third-party
@@ -8167,6 +8170,7 @@
 ||xbasugigqiuegiwqdbsx.s3.ap-northeast-1.amazonaws.com^
 ||xbjav.com/*/adv/adv.js$script
 ||xbjav.com/asset/js/vast.js$script
+||xblocklist*.pages.dev^
 ||xblocktest.pages.dev^
 ||xcafe.com/js/initsite.js
 ||xceteu.com^
@@ -8455,7 +8459,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5707
+!<<<<<网站单独规则>>>>>5710
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12094,6 +12098,7 @@ oxy.*##[href*=".info"]
 oxy.*,~oxy.edu###divdownload > div[data-template][data-source_url]
 oxy.*,~oxy.edu##[href*=".info"]
 p2pplay.pro##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
+pages.dev##html:not([class]) > body.gradient-bg.min-h-screen.flex.items-center.justify-center > div.glass-card.max-w-md.w-full.text-center > form#loginForm.flex.flex-col
 pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.max-w-md.mx-auto > form#login-form
 pages.lazada.co.id##.lzd-call-app-download-popup
@@ -13255,12 +13260,14 @@ tetris.com##.horizontalAxContainer
 tetris.com##div[class^="verticalAxContainer"]
 textreverse.com##.clearfix
 textreverse.com##.moretooladd
+th.gl##.fixed.border
 th.gl##.fixed.overflow-hidden.border
 th.gl##.fixed.pointer-events-auto
 th.gl##.h-\[600px\].w-\[300px\].text-center.justify-center.flex-col.flex.text-gray-500.bg-zinc-800\/30.rounded
 th.gl##.hidden.md\:block.md\:rounded-md.rounded-none.shadow.text-card-foreground.bg-card.overflow-hidden.border.shrink-0.pointer-events-auto.relative
 th.gl##.hidden.overflow-hidden.border
 th.gl##.hidden.pointer-events-auto.relative
+th.gl##.hidden.relative
 th.gl##.pointer-events-auto:has([href="https://www.th.gl/support-me"])
 th.gl##.text-gray-400.justify-center
 thaitrieuvi.live##center ~ .mh-clearfix.mh-wrapper
