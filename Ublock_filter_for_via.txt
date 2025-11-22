@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: xUaU8Przmme4kDcMQTabyg
-! Title: Ublock filter for Via(2025-11-22 00:15:18)
-! Version: 20251122001518
+! Checksum: o2/THpxaUBES+UuGE4fAUA
+! Title: Ublock filter for Via(2025-11-22 08:54:20)
+! Version: 20251122085420
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-22 00:15:18
-! Total Count: 17620
-! Blocked Filters: 17620
+! Last modified: 2025-11-22 08:54:20
+! Total Count: 17623
+! Blocked Filters: 17623
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8440
+!<<<<<域名规则>>>>>8441
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -257,6 +257,7 @@
 ||adblock.fr^
 ||adblock.static-cloudflare.workers.dev^
 ||adblock1.com^
+||adblock3.static-cloudflare.workers.dev^
 ||adblockenterpriseedition.com^
 ||adblockerapp.com^
 ||adblockfast.com^
@@ -15394,7 +15395,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2249
+!<<<<<放行白名单>>>>>2251
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15590,6 +15591,7 @@ voz.vn/b/image.gif?p=$image
 @@||ad.doubleclick.net/clk*travel*&destinationURL=
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.unieuro.it
 @@||ad.plus/cdn-cgi/trace|$xmlhttprequest,method=head,domain=opentunnel.net
+@@||adblock1.static-cloudflare.workers.dev^$script,domain=axiang.cc
 @@||addthis.com/js/*/addthis_widget.js$script,domain=sainsburys.jobs
 @@||adengine.snigelweb.com/falixnodes.net/$script,domain=client.falixnodes.net
 @@||adengine.snigelweb.com/w3schools.com/*/adngin.js^$script,third-party,domain=w3schools.com
@@ -17536,6 +17538,7 @@ omuzaani.me,strikeout.im,wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 oogiri-chaya.com#@#.adsText
 oogiri-chaya.com#@#.ads_insert
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
+open.fm#@#style + div[class]
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
 otakomu.jp#@#div[class^="article-body"] > blockquote:has(> a[target="_blank"] ~ div.amazlet-box)
