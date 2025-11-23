@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ZzD+amAdrbI3L72af3zSWA
-! Title: Ublock filter for Via(2025-11-23 00:13:06)
-! Version: 20251123001306
+! Checksum: yVdq9Vy3EWjlLbcmXuQAyg
+! Title: Ublock filter for Via(2025-11-23 09:04:00)
+! Version: 20251123090400
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-23 00:13:06
-! Total Count: 17630
-! Blocked Filters: 17630
+! Last modified: 2025-11-23 09:04:00
+! Total Count: 17632
+! Blocked Filters: 17632
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8459,7 +8459,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5710
+!<<<<<网站单独规则>>>>>5712
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13270,6 +13270,8 @@ th.gl##.hidden.pointer-events-auto.relative
 th.gl##.hidden.relative
 th.gl##.pointer-events-auto:has([href="https://www.th.gl/support-me"])
 th.gl##.text-gray-400.justify-center
+th.gl##next-route-announcer + div[style*="--destructive-foreground"]
+th.gl##script[src^="https://s.nitropay.com/"] + div
 thaitrieuvi.live##center ~ .mh-clearfix.mh-wrapper
 thapcam.net##.mmo
 the-independent.com###top-banner-wrapper
