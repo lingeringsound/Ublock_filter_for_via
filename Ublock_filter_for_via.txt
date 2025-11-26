@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: iFks8QygJxWw9G2jnD2CHA
-! Title: Ublock filter for Via(2025-11-26 00:16:08)
-! Version: 20251126001608
+! Checksum: P7E5ItcerspvqkyXEWMLNA
+! Title: Ublock filter for Via(2025-11-26 08:57:04)
+! Version: 20251126085704
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-26 00:16:08
-! Total Count: 17646
-! Blocked Filters: 17646
+! Last modified: 2025-11-26 08:57:04
+! Total Count: 17647
+! Blocked Filters: 17647
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -15418,7 +15418,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2251
+!<<<<<放行白名单>>>>>2252
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -15848,6 +15848,7 @@ voz.vn/b/image.gif?p=$image
 @@||btloader.com/tag?$xmlhttprequest,domain=quackr.io
 @@||btloader.com/tag?h=prismamedia-com&upapi=true$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||btstatic.com/tag.js$script,domain=vw.com
+@@||btvplus.bg/static/bg/shared/vjs/videojs-contrib-ads.js$script,~third-party
 @@||builder-assets.unbounce.com/published-js/main.bundle-$script,domain=duden.de
 @@||burzowo.info^$~third-party,script
 @@||businessinsider.in/analytics_js/*$script,~third-party
@@ -16445,7 +16446,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com|goplay.be|play.aetv.com|play.mylifetime.com|play.tv|ted.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|btvplus.bg|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js^$script,domain=timesnownews.com|virginmediatelevision.ie
