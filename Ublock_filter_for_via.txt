@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: xRQoYHU/ZDDNgPwM9d7GVA
-! Title: Ublock filter for Via(2025-11-27 08:56:19)
-! Version: 20251127085619
+! Checksum: ADk1oohASJfLRQkwP/K8YQ
+! Title: Ublock filter for Via(2025-11-28 00:14:50)
+! Version: 20251128001450
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-27 08:56:19
-! Total Count: 17656
-! Blocked Filters: 17656
+! Last modified: 2025-11-28 00:14:50
+! Total Count: 17664
+! Blocked Filters: 17664
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8461
+!<<<<<域名规则>>>>>8468
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1230,6 +1230,7 @@
 ||bvwozybuqztvg.com^
 ||bws.bar-diningjaycowe.com^
 ||bwtsrv.com^$third-party
+||bxchx.pages.dev^
 ||bxn45.com^
 ||bxtongji.cc^
 ||bybygnom.com^
@@ -5536,6 +5537,7 @@
 ||panlcake.net^
 ||panoramacharter.click^
 ||panoramacharter.click^$document
+||pantomimemailman.com^
 ||papamagic.net^
 ||paradise-angel.com^
 ||paradise.shine-site.com^
@@ -5805,6 +5807,7 @@
 ||pornvideotop.com/js/popec.js
 ||pornvxxxcn.com/*/js.php
 ||pornwatchers.com/sw.js$script,~third-party
+||pornwex.tv/cdn.js
 ||pornwhite.com/js/customscript.js
 ||pornxp.*/sp/$subdocument
 ||pornxs.com/*.php
@@ -7127,6 +7130,7 @@
 ||teams-live.com^
 ||tech-cloud.org^
 ||tech-softwares.com^
+||tech.powergothgirls.com/repo/xyz.js
 ||tech426.com^$third-party
 ||tech4u.app^
 ||techblogs.cc^
@@ -7897,6 +7901,7 @@
 ||w0of-woof.com^
 ||w0sqoketsl.sbs^
 ||w1thy0u.com^
+||w3schools.com/lib/sparteo.css
 ||wa-groupbebe.pages.dev^
 ||wa-nago-wagona.com^
 ||wafflegirl.com/galleries/banner/$third-party
@@ -8102,6 +8107,7 @@
 ||wooqi.win^
 ||woowebtools.com/*.png$image
 ||wordsdelivery.com^
+||workers.dev^$domain=axiang.cc
 ||workerz1.com^
 ||workshop-users.com^
 ||world.ex-advantage.jp^
@@ -8240,6 +8246,7 @@
 ||xsharenode.com^
 ||xsph.ru/*/netfi2k/
 ||xsportshd.com/bet.gif$image
+||xsuki*.pages.dev^
 ||xszav.club/nb/
 ||xtgem.com/images/influenza/
 ||xtgem.com/images/xtvid/
@@ -8475,7 +8482,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5719
+!<<<<<网站单独规则>>>>>5720
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11882,6 +11889,7 @@ mylust.com###wrapper > div[style*="height:18px"]
 mylust.com##.list_videos_ad
 mylust.com##.no_pop.centeredbox
 mylust.com##iframe.clear_both
+mym-db.com###swup > .row > div:has(> .card > div[data-ad-site])
 myp2p.*###reklama_sidebar
 myp2p.*##a[rel="sponsored"]
 myplexi.fr##center:has([href])
@@ -17502,7 +17510,7 @@ indiatimes.com#@#.adhide
 indiatimes.com#@#a[onclick*="/click.htm?"]
 indiatimes.com#@#div:has(> div[id^="div-gpt-ad-"])
 indoxx1.center#@#.lazy
-infogenyus.top#@#.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
+infogenyus.top,saboroso.blog#@#.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 instapundit.com#@#.ad-space:not(.textads)
 instapundit.com#@#.postad
 iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
