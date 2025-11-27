@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: gT2NOkXB+mkGvd436R/zEQ
-! Title: Ublock filter for Via(2025-11-27 00:15:29)
-! Version: 20251127001529
+! Checksum: xRQoYHU/ZDDNgPwM9d7GVA
+! Title: Ublock filter for Via(2025-11-27 08:56:19)
+! Version: 20251127085619
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-27 00:15:29
-! Total Count: 17651
-! Blocked Filters: 17651
+! Last modified: 2025-11-27 08:56:19
+! Total Count: 17656
+! Blocked Filters: 17656
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8457
+!<<<<<域名规则>>>>>8461
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -407,6 +407,7 @@
 ||aitimaforou.web.app^
 ||aitoolnet.com^$image,domain=novelhall.com
 ||aitradx.com/js/$script,third-party
+||aj2403.online^
 ||ajmaboxanherulv*.b-cdn.net^
 ||ajv06.com^
 ||akaihentai.com/fro_
@@ -2647,6 +2648,7 @@
 ||feve-r.com^
 ||fevertime.com/wasop/
 ||fewcents.co^$third-party
+||ffb7df5a878b59e42e257c042f54bed2.com^
 ||fffvviuebyw.bond^
 ||fflink.net^$third-party
 ||ffmovies.lol/jss/dectector-
@@ -6117,6 +6119,7 @@
 ||redisex.*/player3/dt.api$xmlhttprequest,domain=redisex.*
 ||reductioncarnival.com^
 ||reepratic.com^
+||refpa58144.com^
 ||refpamjeql.top^
 ||refriesbharata.com^
 ||regie-cpc.com^$third-party
@@ -6441,6 +6444,7 @@
 ||services.haaretz.co.il^$from=~haaretz.co.il|~haaretz.com
 ||serviceteasfreem.weebly.com^
 ||servicewebformoes.weebly.com^
+||serving.adserver.live^
 ||seselagi.com^
 ||setkuttina.pages.dev^
 ||setup-ledger.live^
@@ -8471,7 +8475,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5718
+!<<<<<网站单独规则>>>>>5719
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13647,6 +13651,7 @@ v1.safevideo.click###register-overlay
 v1.safevideo.click###video-container
 v1.safevideo.click##.butt
 v1.safevideo.click##.hov
+v2movies.click,v2movies.me##[href^="https://refpa58144.com/"]
 vaa.jp,yonelabo.com###nankafix
 vanillatweaks.net##.banner-spot
 vanis.io###player-data > div:nth-of-type(1)
