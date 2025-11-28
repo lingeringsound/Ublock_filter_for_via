@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ADk1oohASJfLRQkwP/K8YQ
-! Title: Ublock filter for Via(2025-11-28 00:14:50)
-! Version: 20251128001450
+! Checksum: /FbQDj2VcJoJ0A0dv1zRVw
+! Title: Ublock filter for Via(2025-11-28 08:54:51)
+! Version: 20251128085451
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-28 00:14:50
-! Total Count: 17664
-! Blocked Filters: 17664
+! Last modified: 2025-11-28 08:54:51
+! Total Count: 17669
+! Blocked Filters: 17669
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8468
+!<<<<<域名规则>>>>>8473
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3682,6 +3682,7 @@
 ||info-tracking*.cc^
 ||info-trackingcas.cc^
 ||infograph.top^
+||infolkwitness.shop^
 ||infomessagehappy.com^
 ||infonet.sbs^
 ||informationpolicy.cloud^
@@ -5034,6 +5035,7 @@
 ||n9zxgxpdu6.com^
 ||nachdiewelt.click^
 ||nachhilfeteam.net^
+||naegaithumoreragau.qpon^
 ||nagpurtoday.in/wp-content/plugins/popup-builder/$script,~third-party
 ||nagpurtoday.in/wp-content/uploads/*-adv.$image
 ||nah-versorger.de^$third-party
@@ -5851,6 +5853,7 @@
 ||printablecreative.com/wp-content/uploads/pixel.gif
 ||printcaretech.com^
 ||printslamdunk.com^
+||prissyupland.qpon^
 ||privacyguides.io^
 ||privacyharbor.net^
 ||private-hide.com^
@@ -6795,6 +6798,7 @@
 ||sso--en--cobo--trsuted-auth.webflow.io^
 ||sso-nndax-io-auth.webflow.io^
 ||sso.biglobe.jp.net^
+||ssp.goplay.su^$xmlhttprequest
 ||ssp.wp.pl^
 ||ssq.spofbd99.com^
 ||ssr1000.com^
@@ -8302,6 +8306,7 @@
 ||yamcha.xyz^
 ||yandexmetrica.com^
 ||yautube.com^
+||yawperalluvio.cyou^
 ||yceleb.com^
 ||yeahmylol.sbs^
 ||yenrtonm3367.top^
@@ -10223,8 +10228,8 @@ fileplanet.com##.opera-banner
 fileplanet.com##.trs-ader
 fileplanet.com##a[href^="https://url.totaladblock.com/"]
 filerox.com##.mhide
-filespayout.com###normal-box
 filespayout.com##center > a[rel]
+filespayout.com,filespayouts.com###normal-box
 filespayout.com,mycoolmoviez.*,shortenlinks.top,uploadhive.com##[href="javascript:void(0);"]
 filesq.net##._button-now
 filext.com###c1c
