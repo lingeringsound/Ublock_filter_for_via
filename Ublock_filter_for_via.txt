@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: KvVcEI3+NroJ609ho55zBQ
-! Title: Ublock filter for Via(2025-11-29 00:14:38)
-! Version: 20251129001438
+! Checksum: XkIJAD0jT4mGiZED9jUBbQ
+! Title: Ublock filter for Via(2025-11-29 08:55:29)
+! Version: 20251129085529
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-29 00:14:38
-! Total Count: 17672
-! Blocked Filters: 17672
+! Last modified: 2025-11-29 08:55:29
+! Total Count: 17674
+! Blocked Filters: 17674
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8475
+!<<<<<域名规则>>>>>8477
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -237,6 +237,7 @@
 ||activistpost.com^$script,~third-party
 ||acttas.com^
 ||ad-doge.com^$third-party
+||ad-ipd.sxp.smartclip.net/select?type=vast$xmlhttprequest,domain=toggo.de
 ||ad-shield.cc^
 ||ad.kissasian.*^$script,~third-party
 ||ad.kisscartoon.*^$script,~third-party
@@ -2283,6 +2284,7 @@
 ||e-tax-nta.web.app^
 ||e-xt.top^
 ||e-zpass.com-
+||e.revenue.cat^
 ||e5r6e9u.com^
 ||e95nfjld.com^
 ||eadvertisingd.biz^
