@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ha0ni9K4nWQShjobkhebUg
-! Title: Ublock filter for Via(2025-11-30 00:13:40)
-! Version: 20251130001340
+! Checksum: 79Mls5ooUHMWvAn3bXvJqw
+! Title: Ublock filter for Via(2025-11-30 09:04:05)
+! Version: 20251130090405
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-30 00:13:40
-! Total Count: 17680
-! Blocked Filters: 17680
+! Last modified: 2025-11-30 09:04:05
+! Total Count: 17687
+! Blocked Filters: 17687
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8483
+!<<<<<域名规则>>>>>8485
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4802,6 +4802,7 @@
 ||mobile-facebook.com.vn^
 ||mobile-tracker-free.com/dashboard/scripts/detectBlockAds/isPremiumDemo.php
 ||mobilelegendsmycode.com^
+||mobileoffers-ep-download.com^$domain=dropgalaxy.*|financemonk.net
 ||mobilerefreshpro.xyz^
 ||mobileverify.net^
 ||mobiltr-islemlerim.com.tr^
@@ -5754,6 +5755,7 @@
 ||pobierzgrepc.com/templates/games/js/p0per.js
 ||pobre.*/wp-banners.js
 ||pocketlove.jp^
+||pocpoc.io^$domain=dropgalaxy.*|financemonk.net
 ||podu.me/*/advertisement^$xmlhttprequest,~third-party
 ||poison-idea.com^
 ||poixtre.click^
@@ -8497,7 +8499,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5720
+!<<<<<网站单独规则>>>>>5724
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9895,6 +9897,9 @@ driveup.space##center > iframe[id="adapred"]
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
 drop.carbikenation.com,game5s.com,link.djbassking.live,linkss.rcccn.in,tech5s.co,tech8s.net##.fluidprimary, #go_d, .adb_detected > h2
 drop.download##.row > .col-md-8
+dropgalaxy.*,financemonk.net##[id*="gpt-"]
+dropgalaxy.com##[id^="TR-"]
+dropgalaxy.com,financemonk.net##.downloadPage.page.pt-5.container > center:has([src="https://assets.financemonk.net/images/dgpromo.jpg"])
 droplink.co##p, .form-link, footer
 droplink.co##p, .form-link, footer, .text-left
 drtuber.*###spot_video_partner_banner
@@ -10280,6 +10285,7 @@ filmyzilla.*##[href^="https://ak.hetadinh.com/"]
 financacerta.com,encurtads.net###wpsafe-link, .text-center.wpsafe-top > div > h1:others()
 finance.marketrook.com###gcont
 financebolo.com,gorating.in,letest25.co,loanteacher.in,rphost.in,techkeshri.com,truevpnlover.com###tp-snp2:others()
+financemonk.net###dgpromo
 financenova.online##.aside-top-ads
 financenova.online,utkarshonlinetest.com,financewada.com##.process, .txt_top
 financenova.online,utkarshonlinetest.com,financewada.com##h4, .get_btn:others()
@@ -14220,7 +14226,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>918
+!<<<<<通配符规则>>>>>919
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14707,6 +14713,7 @@ $script,domain=zdnet.fr,third-party
 /hy.js?q22q2q2
 /iframe.php?spotID=
 /images/*/analytics.js$domain=girlsofdesire.org
+/images/ads/*.gif$image,~third-party,domain=lookmovie.pn|lookmovie2.la|lookmovie2.to
 /img/server-hunter*.jpg$image,~third-party,domain=arras.io|arras.netlify.app|arrax.io
 /index.html?Aniph=1-
 /index.html?Anph=1-
@@ -16960,7 +16967,7 @@ voz.vn/b/image.gif?p=$image
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config^$xmlhttprequest,redirect-rule,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pcs/view/*$xmlhttprequest,domain=joyn.de
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|epaper.eenadu.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|poczta.o2.pl|poczta.wp.pl|thedailybeast.com|timesofindia.indiatimes.com|tvaplus.ca|voici.fr|wikihow.com|www.wikihow.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|dropgalaxy.com|epaper.eenadu.net|financemonk.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|poczta.o2.pl|poczta.wp.pl|thedailybeast.com|timesofindia.indiatimes.com|tvaplus.ca|voici.fr|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
