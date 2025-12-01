@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rkJ5mj4OynfeJTVwculijg
-! Title: Ublock filter for Via(2025-12-01 09:08:34)
-! Version: 20251201090834
+! Checksum: tDebN2afak6PvMzS24H6sA
+! Title: Ublock filter for Via(2025-12-02 00:17:26)
+! Version: 20251202001726
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-01 09:08:34
+! Last modified: 2025-12-02 00:17:26
 ! Total Count: 17696
 ! Blocked Filters: 17696
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -14918,7 +14918,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|dev|fit|github.io|page
+/text_tel.js$domain=app|dev|fit|github.io|me|page
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tmp/vmo.html
