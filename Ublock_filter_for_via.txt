@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: n+78zJ3xjmDOWSHNUrAzcg
-! Title: Ublock filter for Via(2025-12-01 00:13:33)
-! Version: 20251201001334
+! Checksum: rkJ5mj4OynfeJTVwculijg
+! Title: Ublock filter for Via(2025-12-01 09:08:34)
+! Version: 20251201090834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-01 00:13:34
-! Total Count: 17687
-! Blocked Filters: 17687
+! Last modified: 2025-12-01 09:08:34
+! Total Count: 17696
+! Blocked Filters: 17696
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8485
+!<<<<<域名规则>>>>>8487
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5658,6 +5658,7 @@
 ||phineypet.com/2x.png
 ||phineypet.com/300x600.png
 ||phm-2g.com^
+||phncdn.com/pics/promobanners/
 ||phoenixvilla.rw/wp-about/*.html^
 ||photo-gallery-picture2398.com^
 ||photonlabs.app^
@@ -5965,6 +5966,7 @@
 ||purplex.app/js/gqad.js$script
 ||purring-wood-magnolia.glitch.me^
 ||pururin.to/assets/js/pop.js$script
+||push-me-once.com^
 ||push-sdk.$third-party
 ||push.zhanzhang.baidu.com/push.js$script,domain=huim.com
 ||pushlandings.b-cdn.net^
@@ -8499,7 +8501,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5724
+!<<<<<网站单独规则>>>>>5731
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9691,6 +9693,7 @@ cryptorank.io##tr.sc-a321a998-0:not(.init-scroll)
 cryptowin.io##.hidden-xs
 cryptowin.io##.panel-body > p[style=" color:#818181; background-color: #fffdc4; text-align: center; font-size: 14px; border-radius: 2px; width: 320px; max-width: 100%; margin: auto; margin-top: 15px; "]
 csrevo.com,escapegames24.com###HTML3
+csst.at##a[href^="https:"] > [alt*="banner"]
 cstalking.tv##.blockhead
 ctrl.blog##.boxa
 cuckold-videos.org###v-ad
@@ -12417,14 +12420,20 @@ pornhub-sexfilme.net,pornojenny.net,pornoleon.com##aside[id]:has(> div > ins.ads
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com##aside[id^="wa_"]
 pornhub.*###pb_block
 pornhub.*###relatedVideosCenter > .wrapVideoBlock
+pornhub.*##.ad-tabSplit
 pornhub.*##.floatLeft.leftSide > div[class]:nth-of-type(2)
 pornhub.*##.joinNowCPPBtn
+pornhub.*##.js-adsRemoveButton
+pornhub.*##.js-becomeFancentroFanBtn
 pornhub.*##.js-becomeUviuFanBtn
 pornhub.*##.js-liveCam
 pornhub.*##.js_joinNowCPPBtn
 pornhub.*##.livesex
 pornhub.*##.menuLinkDiv:has(a[href^="https://www.spicevids.com/"])
 pornhub.*##.mgp_overlayContainer
+pornhub.*##.middleAdContainer
+pornhub.*##.noBottom
+pornhub.*##.premiumPromoBannerWrapper
 pornhub.*##.realsex
 pornhub.*##.sniperModeEngaged
 pornhub.*##.topAdContainter
