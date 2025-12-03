@@ -399,6 +399,12 @@ local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|
  -e 's/\,xhr$/\,xmlhttprequest/g' \
  -e 's/\,~xhr\,/\,~xmlhttprequest\,/g' \
  -e 's/\,~xhr$/\,~xmlhttprequest/g' \
+ -e 's/\$css/\$stylesheet/g' \
+ -e 's/\$~css/\$~stylesheet/g' \
+ -e 's/\,css$/\,stylesheet/g' \
+ -e 's/\,css\,/\,stylesheet\,/g' \
+ -e 's/\,~css$/\,~stylesheet/g' \
+ -e 's/\,~css\,/\,~stylesheet\,/g' \
  -e 's/\$important$//g' \
  -e 's/\$important,/\$/g' \
  -e 's/\,important\,/\,/g' \
