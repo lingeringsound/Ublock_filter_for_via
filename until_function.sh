@@ -381,10 +381,16 @@ test ! -f "${target_file}" && return 0
 local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|#\?#|##\^|#\+js\(|#\%#\/\/scriptlet|redirect=|\,replace=|\$replace=|\$urlskip=|\,urlskip=|\$uritransform=|\,uritransform=|redirect-rule=|to=|^/(\^|\\|\[|\(\?)|^\*\$|\$badfilter|\$cname|\$css|\$empty|\$frame|\$generichide|\$ghide|\$match-case|\$media|\$object|\$object-subrequest|\$ping|\$popunder|\$popup|\$~badfilter|\$~cname|\$~css|\$~empty|\$~frame|\$~generichide|\$~ghide|\$~match-case|\$~media|\$~object|\$~object-subrequest|\$~ping|\$~popunder|\$~popup|\,badfilter$|\,badfilter\,|\,cname$|\,cname\,|\,css$|\,css\,|\,empty$|\,empty\,|\,frame$|\,frame\,|\,generichide$|\,generichide\,|\,ghide$|\,ghide\,|\,match-case$|\,match-case\,|\,media$|\,media\,|\,object$|\,object-subrequest$|\,object-subrequest\,|\,object\,|\,ping$|\,ping\,|\,popunder$|\,popunder\,|\,popup$|\,popup\,|\,~badfilter$|\,~badfilter\,|\,~cname$|\,~cname\,|\,~css$|\,~css\,|\,~empty$|\,~empty\,|\,~frame$|\,~frame\,|\,~generichide$|\,~generichide\,|\,~ghide$|\,~ghide\,|\,~match-case$|\,~match-case\,|\,~media$|\,~media\,|\,~object$|\,~object-subrequest$|\,~object-subrequest\,|\,~object\,|\,~ping$|\,~ping\,|\,~popunder$|\,~popunder\,|\,~popup$|\,~popup\,|\$csp|\,csp=|\,denyallow=|permissions=|removeparam=|\:matches-path|:remove\(\)|:-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath' "${target_file}" | busybox sed -e '/^\!/d;/^[[:space:]]*$/d' \
  -e 's/\$3p/\$third-party/g' \
  -e 's/\$1p/\$~third-party/g' \
+ -e 's/\$~3p/\$~third-party/g' \
+ -e 's/\$~1p/\$third-party/g' \
  -e 's/\,1p$/\,~third-party/g' \
  -e 's/\,1p\,/\,~third-party\,/g' \
  -e 's/\,3p$/\,third-party/g' \
  -e 's/\,3p\,/\,third-party\,/g' \
+ -e 's/\,~1p$/\,third-party/g' \
+ -e 's/\,~1p\,/\,third-party\,/g' \
+ -e 's/\,~3p$/\,~third-party/g' \
+ -e 's/\,~3p\,/\,~third-party\,/g' \
  -e 's/\,strict3p/\,third-party/g' \
  -e 's/\$strict3p/\$third-party/g' \
  -e 's/\$xhr/\$xmlhttprequest/g' \
@@ -416,7 +422,7 @@ local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|
  -e 's/\$~doc$//g' \
  -e 's/\$~doc,/\$/g' \
  -e 's/\,~doc\,//g' \
- -e 's/\,~doc$//g' )"
+ -e 's/\,~doc$//g' | sort | uniq)"
  echo "${transfer_file}" > "${target_file}"
 }
 
