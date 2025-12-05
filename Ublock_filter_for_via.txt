@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: gkZbHfgIwXaVHLukjduzhw
-! Title: Ublock filter for Via(2025-12-05 00:17:17)
-! Version: 20251205001717
+! Checksum: 6fYNOcfEc8iNu6Tz6aatMw
+! Title: Ublock filter for Via(2025-12-05 08:58:35)
+! Version: 20251205085835
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-05 00:17:17
-! Total Count: 17608
-! Blocked Filters: 17608
+! Last modified: 2025-12-05 08:58:35
+! Total Count: 17610
+! Blocked Filters: 17610
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -15378,7 +15378,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2253
+!<<<<<放行白名单>>>>>2255
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16129,6 +16129,7 @@ voz.vn/b/image.gif?p=$image
 @@||earnvids.com/ad?type=$script
 @@||eastprodcdn.azureedge.net/bundles/*velaro$script
 @@||easy-firmware.com/templates/default/html/en/assets/js/fingerprint2.min.js$script,~third-party
+@@||easyfun.gg/js/adscroll.js$script,~third-party
 @@||easyupload.io/cdn-cgi/zaraz/s.js$~third-party
 @@||easyweb.td.com/*/loggingService.js$script,~third-party
 @@||ebates.com/dist/static/*/analytics/*$script,~third-party
@@ -16642,6 +16643,7 @@ voz.vn/b/image.gif?p=$image
 @@||oasjs.kataweb.it^$script,domain=repubblica.it
 @@||objetconnecte.net/detroitchicago/dayton.js$script,~third-party
 @@||odb.outbrain.com/utils/get?url$script,domain=nypost.com|pagesix.com
+@@||oe24-cdn.relevant-digital.com/static/tags/$script,domain=oe24.at
 @@||ogjs.infoglobo.com.br/*/scripts/templates/advertising/$script,domain=oglobo.globo.com
 @@||omggamer.com/detroitchicago/dayton.js$script,~third-party
 @@||onasider.top/tc$xmlhttprequest,domain=free-content.pro
