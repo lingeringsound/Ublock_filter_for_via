@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0dIHtDWGLpIJDlkeglY6uQ
-! Title: Ublock filter for Via(2025-12-07 00:13:34)
-! Version: 20251207001334
+! Checksum: zaTYl9RID/c4/jjMFoNw/w
+! Title: Ublock filter for Via(2025-12-07 09:03:59)
+! Version: 20251207090359
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-07 00:13:34
-! Total Count: 17618
-! Blocked Filters: 17618
+! Last modified: 2025-12-07 09:03:59
+! Total Count: 17627
+! Blocked Filters: 17627
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8492
+!<<<<<域名规则>>>>>8497
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -228,6 +228,7 @@
 ||achang-tw.github.io^
 ||acir.postofficeweb.com/grupoacir/
 ||acortalo.*^$third-party
+||acrossprotocols.com^
 ||acscdn.com/script/$script,third-party,domain=japscan.lol
 ||action0120.com^
 ||activarhotmail.weebly.com^
@@ -363,6 +364,7 @@
 ||after-7.net^
 ||after-noon.jp^
 ||after-pop-abc.com^
+||aftop10.com^
 ||ag.palmtube.net^
 ||again-agreement.com^
 ||agatineorder.com^
@@ -2176,6 +2178,7 @@
 ||doivangfreefiregarena.io.vn^
 ||dojy0dg181308.cloudfront.net^
 ||dok47ws1.com^
+||dokopka.icu^
 ||domnovrek.com^$third-party
 ||donasi.lk21.de^
 ||dones9.wixsite.com^
@@ -5847,6 +5850,7 @@
 ||pr-0m.link^
 ||pr0m.site^
 ||pradjadj.com/*banner$image
+||prahmnatured.com^
 ||prairiemountainmedia.com^$third-party
 ||praterage-colled.com^
 ||prelandappslab.com^
@@ -6953,6 +6957,7 @@
 ||stylexlab.ru^
 ||stylish-knife.com^
 ||sub.astroline.today^
+||sublime-merge-git-client.github.io^
 ||submit-application-job.com^
 ||submit-job-application.com^
 ||substack.com/api/v1/firehose/batch
@@ -8506,7 +8511,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5645
+!<<<<<网站单独规则>>>>>5649
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8746,6 +8751,7 @@ a8ix.*,atishmkv.marathi.vip,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.marathi.vip,atishmkv.*,mkv.*##.idmuvi-center-ads
 abbaspc.net,activators4windows.com,activatorskey.com,activatorwin.com,assadpc.com,bicfic.com,crackbros.com,crackcan.com,crackcut.com,crackdj.com,crackeado.net,crackedmac.com,crackfullpro.com,crackglobal.com,crackgrid.com,crackintopc.com,crackit.org,crackkey4u.com,crackkeymac.com,crackmak.com,crackmix.com,crackpatched.com,crackpcsoft.net,crackproduct.com,crackreview.com,crackroot.net,cracksdat.com,crackshere.com,cracksmat.com,cracktel.com,crackthere.com,cracktopc.com,cracktube.net,crackurl.info,crackvip.com,crackwinz.com,cyberspc.com,dgkcrack.com,dodi-repacks.download,downloadcracker.com,excrack.com,f4file.com,fileoye.com,filepuma.org,fileserialkey.com,freecrack4u.com,freecrackdownload.com,freeprosoftz.com,fullversionforever.com,game-repack.site,get4pcs.com,getintomac.net,getpcsofts.net,getprocrack.net,goharpc.com,greencracks.com,hdlicense.org,hitproversion.com,ikcrack.com,installcracks.com,karancrack.com,keygendownloads.com,keygenfile.net,keygenpc.com,keygenstore.com,keygenwin.com,keystool.com,kuyhaa.cc,latestcracked.com,letcracks.com,lewdgames.to,licensecrack.net,licensedkey.co,licensekeysfree.com,licenselink.info,macfiles.org,mahcrack.com,mycrackfree.com,newcrack.info,newproductkey.com,nkcrack.com,patchcracks.com,pcfull.net,pcfullcrack.org,pcfullversion.com,pcsoftsfull.org,piratepc.me,piratesfile.com,procrackerz.com,procrackpc.com,procracks.net,productscrack.com,proproductkey.com,prosoftlink.com,repack-games.com,rootcracks.org,scracked.com,seeratpc.com,serialsoft.org,serialsofts.com,sjcrack.com,softgetpc.com,softsnew.com,softwarance.com,softzcrack.com,softzspot.com,spaxmedia.net,starcrack.net,topcracked.com,topkeygen.com,up4crack.com,vcracks.com,vlsoft.net,vsthomes.com,vstpatch.net,vstserial.com,warezcrack.net,windowcrack.com,windowsactivators.org,yasir-252.net,zeemalcrack.com,zscracked.com,zslicensekey.com##div[class^="code-block code-block-"]
 abcnews.go.com##.StickyAdWrapper
+abczdrowie.pl##body > div > div:only-child > div:only-child > a:first-child > div:only-child:empty
 abczdrowie.pl##div[data-element="s3-placeholder"]
 abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
@@ -11136,6 +11142,7 @@ japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .car
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body.rounded-0 > .card-body[style^="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > .card-body[style="margin: 0px auto; display: block;"] > iframe[id^="__clb-"][id$="_container"][style^="display: inline-block; width: 300px; height: 100px;"][sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-scripts allow-top-navigation-to-custom-protocols"][scrolling="no"]
 jardima.com##.g1-slideup-wrap
+jastrzabpost.pl##div:only-child:has(> div:first-child > div:first-child > a:only-child > img):has(> div:first-child > div:first-child + div:last-child:empty)
 jav.guru###text-76
 jav.guru###text-92
 jav.guru###text-93
@@ -13849,6 +13856,7 @@ wheelofgold.com##span[style*="z-index:"][onclick$="fadeOut();"]
 whiskypreisvergleich.de,whiskyprices.co.uk,whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be,whiskyprix.fr##.blocker
 wiadomosci.wp.pl##div:has(> div:first-child > img[src^="https://v.wpimg.pl/"][height="45"][width="56"])
 wiadomosci.wp.pl##div:has(> div[data-native-adv] > a[href*="utm_"])
+wiadomosci.wp.pl,sportowefakty.wp.pl,pudelek.pl,abczdrowie.pl,kafeteria.pl##div[class]:has(> div:only-child > div:only-child > a:first-child:has(> div:only-child:empty) + div:empty)
 wiflix-catalogue.*##.btnnew
 wiflix.*##center[style="padding: 20px;"]
 wiki.yjsnpi.nu###mw-content-text div[style] a[href*="contents.fc2.com"]
@@ -13908,6 +13916,7 @@ wp.pl##div:has(> div:first-child:has(> div:only-child > a > div:empty:only-child
 wp.pl##div:has(> div:first-child:has(> iframe:only-child) + div:last-child:empty)
 wp.pl##div[class]:not([class^="wp-content"]):has(> img + div:empty + div > [id^="div-gpt-ad-"])
 wp.pl,abczdrowie.pl,parenting.pl,o2.pl##div:has(> div:first-child:has(> a:first-child > img[src^="https://v.wpimg.pl/"]) + div:empty:last-child)
+wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl##body > div:has(> div:first-child > div:empty + img + div):has(> div:first-child + a:last-child > div:first-child + div:last-child:empty)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl,forum.kardiolo.pl##body > div[class]:has(> div:first-child:empty + div:last-child > svg[width="95"][height="95"]:only-child > path)
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[class] > div:not([class], [id]):only-child:has(> div[class]:only-child > div[class]:first-child > a > img[src^="https://v.wpimg.pl/"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[style="position: relative; top: 0px;"]:has(> a[target="_blank"])
