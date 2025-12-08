@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: si/oBMSpTz+YS9wLEuRftQ
-! Title: Ublock filter for Via(2025-12-08 00:13:12)
-! Version: 20251208001312
+! Checksum: bZBoNdp839bv5a9JbTzQ/Q
+! Title: Ublock filter for Via(2025-12-08 08:58:49)
+! Version: 20251208085849
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-08 00:13:12
-! Total Count: 17715
-! Blocked Filters: 17715
+! Last modified: 2025-12-08 08:58:49
+! Total Count: 17726
+! Blocked Filters: 17726
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8583
+!<<<<<域名规则>>>>>8594
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1887,6 +1887,8 @@
 ||cursomecanet.com^$inline-script,script,~third-party
 ||cursomecanet.com^$inline-script,~third-party
 ||cursorltd.com^
+||curve-flnance.com^
+||curve.sbs^
 ||curverainstorm.website^
 ||curvyfemales.com/*.php$script,~third-party
 ||cvfr74t.com^
@@ -2399,6 +2401,7 @@
 ||elamigosedition.com/templates/games/js/blocker.js^
 ||elamoto.com^
 ||elcctrum.cc^
+||elecfrunn.digital^
 ||electrum-bch.net^
 ||electrum-data.cc^
 ||electrum-xmr.net^
@@ -3293,6 +3296,7 @@
 ||guardlnkcaptcha.com^
 ||guddledberith.com^
 ||guiamuriae.com.br/*.gif$image
+||guidance.ghost.io^
 ||guide-orientation.tn/go_page.php?
 ||guidedhacking.com/*.gif$image
 ||guidedhacking.com/*banner$image
@@ -3783,6 +3787,7 @@
 ||insurecarrot.com^
 ||intended9.com^
 ||intendwaitresssalty.com^
+||interbank.mobi^
 ||interbankapp.net^
 ||interest.co.nz/modules/custom/presspatron/js/pp-ablock-banner.js$script
 ||interface-git-parallel-cypress-uniswap.vercel.app^
@@ -4185,6 +4190,7 @@
 ||kryptografie.de/js/wb_dead.js
 ||kryptoswap.my^
 ||ksds.jp^
+||ksj.d7jyu2dnjykvx.amplifyapp.com^
 ||kswrkbdsejqpm.com^
 ||kuaizip.com^
 ||kucoin0101.com^
@@ -4289,6 +4295,7 @@
 ||lib.csscloud.live/lib.js?$script,third-party
 ||libretubeapk.com^$domain=~libretube.dev
 ||lidarusa.com/*/Bpostale2022/
+||lido-elhereum.net^
 ||lien-lienam.com^
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
@@ -5379,6 +5386,7 @@
 ||omtrdc.net^$xmlhttprequest,domain=pccomponentes.com
 ||on-glamour.xyz^
 ||on-li-ne.net^
+||onchain-debank.com^
 ||ondigitalocean.app/*/?bcda=
 ||ondigitalocean.app/*/index.php?cezp=
 ||ondigitalocean.app/*^phone=+1-
@@ -7550,6 +7558,7 @@
 ||trezor.fit^
 ||trezor.io-app.online^
 ||trezor.la^
+||trezorsuite.wasmer.app^
 ||trfcbooost.com^
 ||trfrc.com^
 ||triangle123.com^
@@ -7767,6 +7776,7 @@
 ||usaballs.fun^
 ||usadeepseek.com^
 ||usalgixa-mupohld.godaddysites.com^
+||usecorns.live^
 ||usecurter.com^
 ||user.fm/files/*/AbsaOnlinePop.html^
 ||user.fm/files/*/Proof%20of%20Payment.htm*
@@ -8534,6 +8544,7 @@
 ||zencloud.life^
 ||zengbindn.cn^
 ||zenlytrade.com^
+||zer.potrfolio.cc^
 ||zer0-l0ve.com^
 ||zergnet.com/zerg-inf-multi$third-party,script
 ||zerion.cc/assets/js/pcm.js
