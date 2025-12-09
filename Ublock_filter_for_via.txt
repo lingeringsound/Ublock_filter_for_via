@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Rb5YDptd4san75Xg6BYO0w
-! Title: Ublock filter for Via(2025-12-09 00:16:58)
-! Version: 20251209001658
+! Checksum: 4E7T2TXrHyZqAIc+J3HO1w
+! Title: Ublock filter for Via(2025-12-09 08:58:28)
+! Version: 20251209085828
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-09 00:16:58
-! Total Count: 17765
-! Blocked Filters: 17765
+! Last modified: 2025-12-09 08:58:28
+! Total Count: 17785
+! Blocked Filters: 17785
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8631
+!<<<<<域名规则>>>>>8649
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -753,6 +753,7 @@
 ||assistancesosh.wixsite.com^
 ||assitechnique.net^
 ||ast.techbook.de^
+||aster-dex.run^
 ||astirduller.com^
 ||astraeus-star.site^
 ||astrolivesports.com^
@@ -2713,6 +2714,8 @@
 ||ff-exchange.space^
 ||ff-exchange.top^
 ||ff-exchange.vip^
+||ff-excharge.cyou^
+||ff-excharge.icu^
 ||ff-info-online.com^
 ||ff-io.to^
 ||ffb7df5a878b59e42e257c042f54bed2.com^
@@ -3417,6 +3420,7 @@
 ||help-for-work-*.pages.dev^
 ||helplive-ledger.com^
 ||helps-center-page-number-
+||helpwithledgerdevice.com^
 ||hentai-tube.me^
 ||hentai2read.com/ark/*.js^$script,~third-party
 ||hentai2w.com/templates/default/js/ab.functions.js
@@ -3794,6 +3798,7 @@
 ||instapass.fr^
 ||instapornvideos.com/back.js
 ||instogromv.com^
+||insurebitbox.com^
 ||insurecarrot.com^
 ||intended9.com^
 ||intendwaitresssalty.com^
@@ -3812,6 +3817,7 @@
 ||investxai.pro^
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
 ||inzerille.com^
+||io-kly.com^
 ||io-sol.org^
 ||io-sol.vip^
 ||io-swap.net^
@@ -4198,6 +4204,7 @@
 ||koy.jp^
 ||koyso.*/static/js/abcd.js
 ||kraftonevent.com^
+||kraken-exchange.com^
 ||krx18.com/show-promote.js
 ||kryptografie.de/js/wb_dead.js
 ||kryptoswap.my^
@@ -4279,6 +4286,7 @@
 ||leesaushoah.net^
 ||legamee.jp^
 ||legder.at^
+||legderhealth.com^
 ||legiswoollen.shop^
 ||legropth.com^
 ||lemonde.fr/*?s=$xmlhttprequest,method=post
@@ -4543,6 +4551,7 @@
 ||madnna.jp^
 ||madnna.net^
 ||madonnaoasis.com^
+||magazineschnappstrusting.com^
 ||magic.prism.gg^
 ||magicslimnhatban.com^
 ||magictrack1.com^
@@ -5251,6 +5260,7 @@
 ||nlfhtxehjzeti.com^
 ||nnggo.com^
 ||noaa.maps.arcgis.com/apps/instant/*/AppMeasurement.js$~third-party
+||nodego.network^
 ||nogruptexn.com^
 ||nohat.me^$third-party
 ||noi9va4ewa.com^
@@ -5751,6 +5761,7 @@
 ||phineypet.com/300x600.png
 ||phm-2g.com^
 ||phncdn.com/pics/promobanners/
+||phnto.com^
 ||phoenixvilla.rw/wp-about/*.html^
 ||photo-gallery-picture2398.com^
 ||photonlabs.app^
@@ -6459,6 +6470,7 @@
 ||sbs^$ipaddress=166.117.237.67
 ||scandichotels.com/Static/js/tracking/tracking-data-init.js^$script,~third-party
 ||scane.click^
+||scanledgerapi.com^
 ||scanlonchiro.com^
 ||scearmcommnymnlty.com^
 ||scene7goal3.work^
@@ -7475,6 +7487,7 @@
 ||tomorrowwillbehotmaybe.com^
 ||tomtom.pages.dev^
 ||too-gle.com^
+||tookfree.com^
 ||toolss.net^$third-party
 ||toonvideos.me^$third-party
 ||top-official-app.com^
@@ -7576,6 +7589,8 @@
 ||trezor.fit^
 ||trezor.io-app.online^
 ||trezor.la^
+||trezordevices.io^
+||trezordevicesupport.com^
 ||trezorsuite.wasmer.app^
 ||trezzrsuite.framer.ai^
 ||trfcbooost.com^
@@ -8520,10 +8535,13 @@
 ||yupoo-husky.ru^
 ||yupoo-megamillions.ru^
 ||yupoo-powerball.ru^
+||yupoo.biz^
 ||yupoo.site^
 ||yupooclothes.com^
+||yupooclothing.com^
 ||yupoofrance.ru^
 ||yupoonetherlands.ru^
+||yupooshoes.org^
 ||yupoosunglasses.ru^
 ||yupooz.com^
 ||yuppdownload.com^
@@ -8645,7 +8663,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5652
+!<<<<<网站单独规则>>>>>5654
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11016,6 +11034,7 @@ hindustantimes.com##[class^="adHeight"]
 hindustantimes.com##[class^="adMinHeight"]
 hints.littlealchemy2.com###yb_anchor_wrapper
 hiraethtranslation.com,knightnoscanlation.com,swarmmanga.com##.c-sidebar
+historicaerials.com##.border-bottom.container:has(#historicaerials_728x90_ATF)
 history.com##aside:has([class*="-ad-"])
 hitbdsm.com##[href*="aff_ad"]
 hitomi.la##.container > div[class$="content"] > div[class]:has(> script)
@@ -11748,6 +11767,7 @@ mcrypto.club##div[id^="promo"]
 mcrypto.club##table
 md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
+md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 mdbekjwqa.pw,mdfx9dc8n.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 mdn.lol##div[style^="width:"][style$=" height: 90px;"]
 mdpr.jp##.p-articleList__heading:has(+ div#taboola-below-article-thumbnails-desktop)
