@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mCruDnAJfbXqyqC0eYOsJQ
-! Title: Ublock filter for Via(2025-12-10 00:17:00)
-! Version: 20251210001700
+! Checksum: E+RaJ5iKOMeK1C56VP9J/g
+! Title: Ublock filter for Via(2025-12-10 08:59:53)
+! Version: 20251210085953
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-10 00:17:00
-! Total Count: 17786
-! Blocked Filters: 17786
+! Last modified: 2025-12-10 08:59:53
+! Total Count: 17792
+! Blocked Filters: 17792
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8649
+!<<<<<域名规则>>>>>8651
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3262,6 +3262,7 @@
 ||gr93.sbs^
 ||grab.tc^$third-party
 ||grabgiftcard.net^
+||grabtrust.icu^
 ||grace-pot.com^
 ||graettingerlaw.com^
 ||grahurgum.com^
@@ -8274,6 +8275,7 @@
 ||worlddating365.com^
 ||worshippers.store^
 ||worthlessbend.com^
+||worthwhile-draw.com^
 ||worthyboxersympathy.com^
 ||wow-site.site^
 ||wp.com*/banner$image,domain=komikmama.net
@@ -8663,7 +8665,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5655
+!<<<<<网站单独规则>>>>>5659
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9513,7 +9515,7 @@ bunshun.jp##.recommend-articles:has(> div[class^="taboola"])
 buondua.com##.main-body div[class]:has(> .adsbyexoclick)
 buondua.com##.pagination + br + div[class]
 buondua.com##.view-list > div:not([class]):has(iframe)
-business.nikkei.com###pianoRecommendBottom
+business.nikkei.com,nikkei.com###pianoRecommendBottom
 businessinsider.de##.adup-wrap
 businessinsider.de##.bi-injected-ad
 businessinsider.de##.bi-superbanner
@@ -10630,6 +10632,7 @@ g-porno.com,g-streaming.com,giga-streaming.com##.popup-overlay
 g-status.com##.topadv_placeholder
 g3g.*##.text-center.alert-danger.alert-dismissible.alert
 g5u.pw##A[href$=".html"][rel="nofollow norefferer noopener"]
+g9r6.com##body.video-embed-mode > div[class][style]:not(#root)
 gadgetguideonline.com##.ai-track
 gadgets.ndtv.com###ndtv-message-userss
 gainbtc.click##._hide
@@ -11262,6 +11265,8 @@ iseekgirls.com##[href^="https://www.iseekgirls.com/"][target="_blank"]
 it.in-jpn.com##body > a[rel*="sponsored"]
 itest.5ch.net##.ad_nth:not([style])
 itmedia.co.jp###endlinkConnection
+itmedia.co.jp##.format--subheading:has(+ .is-recommend:empty)
+itmedia.co.jp##.is-recommend:empty
 its.porn##.desk-banners
 its.porn##.spot_large
 its.porn##aside
@@ -13353,6 +13358,7 @@ taoruseitai.com,towelstretches.com##a[href^="https://link-a.net/gate.php"]
 taoruseitai.com,towelstretches.com##div[style$="border: 3px solid #EDEDED; border-radius: 10px;"]
 tapetus.pl##div[style="box-sizing: border-box; padding:0px 5px 0px 0px; text-align:center;"]
 taradinhos.com##.under-player-ad
+target.com##div[class*="overlay"]:has(a[href*="health-policy"])
 tattle.life##.visitorAdPost
 taufiqhdyt.com###big-ads
 taxi-point.co.uk##div[id^="comp-"]:has(> a[data-testid="linkElement"] > wix-image[data-src$="~mv2.gif"])
