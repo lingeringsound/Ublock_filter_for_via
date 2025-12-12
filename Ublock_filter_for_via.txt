@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: l+dxSEczWERaOCDtcYRhFQ
-! Title: Ublock filter for Via(2025-12-12 09:00:01)
-! Version: 20251212090001
+! Checksum: isKsiKuaT6xx42A49cj4MA
+! Title: Ublock filter for Via(2025-12-13 00:14:52)
+! Version: 20251213001452
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-12 09:00:01
-! Total Count: 17810
-! Blocked Filters: 17810
+! Last modified: 2025-12-13 00:14:52
+! Total Count: 17829
+! Blocked Filters: 17829
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8668
+!<<<<<域名规则>>>>>8684
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -66,6 +66,7 @@
 ||1gr.cz/*/reklama.svg
 ||1link.vip/download.jpg$image
 ||1litteno.home-walil1.jp^
+||1lnch.fi-v2.to^
 ||1movies.*/sw.js$script,~third-party
 ||1primewire.com/addons/$image
 ||1st-mail.jp^
@@ -648,6 +649,7 @@
 ||app-uni-infos.com^
 ||app.adjust.net.in^
 ||app.altlayer.ink^
+||app.conigecko.live^
 ||app.corn-staging.com^
 ||app.darppadar.com^
 ||app.deflliama.tech^
@@ -1115,6 +1117,7 @@
 ||blocksly.org^
 ||blog24.me/dss.php$script
 ||blogfoster.com^$third-party
+||blogger.com^$script,domain=foodtechnos.in|gamesmain.xyz
 ||blogger.googleusercontent.com/*.gif^$image,third-party,domain=idlixofficialx.net
 ||blogger.googleusercontent.com/img/$domain=/^main\.uxsyplayer[a-z0-9-]+\.click$/
 ||blogger.googleusercontent.com/img/$image,domain=idlixofficials.com|idlixplus.com|idlixplus.net|idlixofficial.co|idlixofficial.net
@@ -1341,6 +1344,7 @@
 ||cdn.adsninja.ca/biddertypelibrary/$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 ||cdn.ay.gy/js/$script,third-party
+||cdn.bluebillywig.com^$script,domain=foodtechnos.in|gamesmain.xyz
 ||cdn.branch.io/branch-latest.min.js$domain=nbc.com|pac-12.com
 ||cdn.briefly.co.za/briefly/js/monetization.
 ||cdn.concert.io/fins/segment
@@ -2425,6 +2429,7 @@
 ||elements.video^
 ||elephant-904.com^
 ||elevisions.biz^
+||elevon-payment.com^
 ||elitepaysites.com/photos/*.gif$image
 ||eliteplayadvantage.shop^
 ||elitepvpers.com/123/oddeven_btc_de_4x.png$image,~third-party
@@ -2619,7 +2624,7 @@
 ||facebook-login.mobiletracker.pk^
 ||facebook.com/async/wbloks/log/
 ||facebook.com/security/hsts-pixel.gif
-||facebook.net^$domain=foodtechnos.in
+||facebook.net^$domain=foodtechnos.in|gamesmain.xyz
 ||facebooks-com.vn^
 ||facesnotebook.com^
 ||facevideosc.com^
@@ -2980,6 +2985,7 @@
 ||fure-ai.com^
 ||fure-ai.site^
 ||furykms.com^
+||fusebox-elavon.org^
 ||fusionhacks.cc^
 ||fusionhacks.fun^
 ||fusionhacks.pro^
@@ -3176,6 +3182,7 @@
 ||go-90i.com^
 ||go-ld-li-ne.site^
 ||go-to-zlibrary.com^
+||go-trust.co.com^
 ||go.*.com/easy?
 ||go.*.com/smartpop/
 ||go.bundlebyte.net^
@@ -3245,7 +3252,7 @@
 ||googletagservices.com^$domain=pccomponentes.com
 ||googleusercontent.com/*/s320/download-button-gif-$domain=loptelink.com
 ||googleusercontent.com/*/wf/open?upn=$image
-||googleusercontent.com^$domain=foodtechnos.in
+||googleusercontent.com^$domain=foodtechnos.in|gamesmain.xyz
 ||googlevideo.com/initplayback?source=youtube&*c=TVHTML5&*oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
@@ -4195,6 +4202,7 @@
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^
 ||kokanjo.net^
 ||kokocha.site^
+||kolorowey.bbvms.com^$script,domain=foodtechnos.in|gamesmain.xyz
 ||komiklokal.me/wp-content/uploads/*-1024x512.png
 ||kongtuke.com^
 ||konmm.com^
@@ -5763,6 +5771,7 @@
 ||pfunding-01.com^
 ||pgk.te1p-a4ir.com^
 ||phantomcorestudios.net^
+||phanton-wallet.fi-v2.to^
 ||pharmaceutical-technology.com/wp-content/*skin.jpg$image
 ||phila.revenue*.cc^
 ||phim1080.in/mmo/
@@ -6161,6 +6170,7 @@
 ||r9-2an.com^
 ||rabbitx.pro^
 ||rabbltx.xyz^
+||rabby.fi-v2.to^
 ||racks.pages.dev^
 ||rackweb-----support*.weebly.com^
 ||radar-home.com^
@@ -6692,6 +6702,7 @@
 ||simpleswap.name^
 ||simpleswap.online^
 ||simpleswap.to^
+||simpleswapp.com^
 ||simpletraffic.co^$third-party
 ||simptown.su/api/juice/all
 ||sinder8.com^
@@ -6826,6 +6837,7 @@
 ||softronline.click^
 ||softs-download.com^
 ||soha.jp^
+||soiflare.fi-v2.to^
 ||soijoy-sence.com^
 ||soildly.pro^
 ||soildly.xyz^
@@ -7102,6 +7114,7 @@
 ||suitablepartner.life^
 ||suite-trezor.click^
 ||suite.tem3.io^
+||suitee-trezorrsuite.com^
 ||sukien-pubg.io.vn^
 ||sukui01.com^
 ||sukui02.com^
@@ -7122,6 +7135,7 @@
 ||sunpass.com-
 ||sunperp.icu^
 ||sunporno.com/*.php$script,~third-party
+||sunswap.nexus^
 ||super-grander.jp^
 ||supercast2.com/z-$script,~third-party
 ||supervision6912305847.jp^
@@ -7554,6 +7568,7 @@
 ||tracker.club-os.com^
 ||trackertrak.com^
 ||trackhere.pl^
+||tracki.click/ads/js/embed.js$script
 ||trackingboost.com^
 ||tracklyfast.com^
 ||tracksgloss.com^
@@ -7602,6 +7617,7 @@
 ||trezor.la^
 ||trezordevices.io^
 ||trezordevicesupport.com^
+||trezorsafety.com^
 ||trezorsuite.wasmer.app^
 ||trezzrsuite.framer.ai^
 ||trfcbooost.com^
@@ -8682,7 +8698,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5660
+!<<<<<网站单独规则>>>>>5663
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -10487,7 +10503,7 @@ folhabv.com.br##.publicidade-asynchronous
 fontyukle.net##div.sponsor
 food.ndtv.com##.overlay__side-nav
 foodtechnos.in###content-wrapper, #header-wrap, .btn-danger.btn, .footer-widgets-wrap, #menu-footer, .create-link.btn-primary.btn, #get-now-button, .spinner-border, .bb_iawr
-foodtechnos.in##[href="#report"]
+foodtechnos.in,gamesmain.xyz##[href="#report"]
 foodupe.com###doad,.locked-action-link
 forbes.com###featured-partners
 forbes.com##.ad-rail
@@ -10697,6 +10713,8 @@ games4king.com##[id^="leaderboard"]
 games4king.com,megawarez.org##[class^="ads"]
 gamesfrog.com##.banner > span
 gameshop4u.com,regenzi.site##[href^="https://fulvideozrt.click/"]
+gamesmain.xyz,foodtechnos.in###countdown-display
+gamesmain.xyz,foodtechnos.in###get-now-button
 gamezizo.com,labgame.io##[id^="ad"]
 gamezone.cam##.div-over
 gamezop.com##[data-native-ad]
@@ -12459,6 +12477,7 @@ pnd.*##A[href$=".html"][rel="nofollow norefferer noopener"]
 pobre.*###bannerOverLay
 pobre.*###messageModal
 pobre.*##.generalModal
+poczta.o2.pl,poczta.wp.pl##.d_flex.flex-d_column.h_full.pos_relative
 poder360.com.br##.box-advertising
 podu.me##.adv-contanier
 poedb.tw###bottombanner970
