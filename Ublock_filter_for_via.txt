@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EwThZhpYRS04xjyEiz3ZOg
-! Title: Ublock filter for Via(2025-12-14 00:13:52)
-! Version: 20251214001352
+! Checksum: tCQrxG5zN936hPuuC60jtw
+! Title: Ublock filter for Via(2025-12-14 09:04:26)
+! Version: 20251214090426
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-14 00:13:52
-! Total Count: 17848
-! Blocked Filters: 17848
+! Last modified: 2025-12-14 09:04:26
+! Total Count: 17849
+! Blocked Filters: 17849
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8714,7 +8714,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5665
+!<<<<<网站单独规则>>>>>5666
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9175,6 +9175,7 @@ apnews.com##.SovrnAd
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
 app.hellovaia.com,app.studysmarter.de,app.vaia.com##aside > .ng-star-inserted
 appnee.com##[href^="https://appnee.com/advertising/"] > [src^="https://img.appnee.com/other/"][alt="Ads Place"]
+appnee.com##div[id*="overlay"]
 appnee.com##div[id*="overlay_"]
 appnee.com,arrowos.net,blog.aming.info,freetutorialsus.com,myuploadedpremium.de,tvshows4mobile.*###babasbmsgx
 appsmodz.com##.sticky-ads
