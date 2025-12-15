@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: VHQARbb5lJOlX3HC0Rgi0g
-! Title: Ublock filter for Via(2025-12-15 09:02:27)
-! Version: 20251215090227
+! Checksum: Pj6HUzjDh7g5gQVDy4pB2A
+! Title: Ublock filter for Via(2025-12-16 00:18:46)
+! Version: 20251216001846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-15 09:02:27
-! Total Count: 17890
-! Blocked Filters: 17890
+! Last modified: 2025-12-16 00:18:46
+! Total Count: 17901
+! Blocked Filters: 17901
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8740
+!<<<<<域名规则>>>>>8747
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -642,10 +642,12 @@
 ||apl*.me/js/pop.js^
 ||apmplus.volces.com/monitor_web/collect$xmlhttprequest,method=post
 ||app-aplell.com^
+||app-atomic.co.com^
 ||app-bitbanlk-cc.weebly.com^
 ||app-defituna.github.io^
 ||app-lido-finance-v2.com^
 ||app-maplerpc.online^
+||app-phantom.co.com^
 ||app-slash.co.com^
 ||app-trust.co.com^
 ||app-uni-infos.com^
@@ -1692,6 +1694,7 @@
 ||coinbase-yield.info^
 ||coinbaseexnsion.webflow.io^
 ||coincodex.com/*/position/ccx_pos-min2.php^$script
+||coinomi.co.com^
 ||coinomi.ing^
 ||coinomiwallet.cc^
 ||cointiply.com^$third-party
@@ -6531,6 +6534,7 @@
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/$domain=fandom.com|tvguide.com
 ||scrutinizeordealscrutinize.com^
+||scxjugrsizhfo.com^
 ||sdfsshop1.com^
 ||sdhjak.com^
 ||sdk.optimove.net^
@@ -7683,6 +7687,8 @@
 ||trungtam-dienmayxanh.com^
 ||trusltwcllct.com^
 ||trusltwcllet.com^
+||trust-download.co.com^
+||trust-wallet-app.to^
 ||trust.wallet-web3.ing^
 ||trustwallct.cc^
 ||trustwallet-app.io^
@@ -8559,6 +8565,7 @@
 ||yautube.com^
 ||yawperalluvio.cyou^
 ||yceleb.com^
+||ydfgbmla.com^
 ||yeahmylol.sbs^
 ||yearn.fi-home.org^
 ||yenrtonm3367.top^
@@ -8754,7 +8761,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5666
+!<<<<<网站单独规则>>>>>5669
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -8979,6 +8986,7 @@ $script,domain=zdnet.fr,third-party
 ^s=*&z=*&svar=*&ssk=
 ^svar=*&ssk=*&s=*&z=
 a-ads.com##.size300x250
+a-eroland.net,hhmanga.com,nyahentai.*##.__isboostReturnAd
 a-eroland.net,hhmanga.com,nyahentai.re##.__isboostReturnAd
 a-hentai.tv##.support-frame
 a-hentai.tv,javhoho.com,nukigazo.com###text-2
@@ -9164,6 +9172,7 @@ anime7.download,babaktv.com,bitview.cloud,bolly4u.*,convallariaslibrary.com,cric
 animedao.*##.ab
 animedao.*##.gads
 animedao.*##hr
+animefire.io##.col-lg-12.divSection3
 animefire.plus##.divSection3:has(iframe[src^="//ad.a-ads.com/"])
 animeid.tv##[href^="http://play.leadzupc.com/"]
 animekuro.org##.mks_ads_widget
@@ -9499,6 +9508,7 @@ blackporn.tube,mrgay.tube,sextu.com,xmilf.com##.wrapper > section
 blackporn.tube,mrgay.tube,xmilf.com##article > section
 blasensex.com##.w300
 bleepingcomputer.com###bc-home-news-main-wrap > li:has(> a[href$="/deals/"])
+bleepingcomputer.com##a[rel="sponsored noopener"]
 blick.ch##[class*="_ad_"]
 blick.ch##aside:has(> div[id^="ad-placement"])
 blindhypnosis.com##.abcd
@@ -15655,7 +15665,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2258
+!<<<<<放行白名单>>>>>2259
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16358,6 +16368,7 @@ voz.vn/b/image.gif?p=$image
 @@||deploy.mopinion.com^$script,xmlhttprequest,domain=findmystreet.co.uk
 @@||dev.visualwebsiteoptimizer.com/cdn/edrv/$script,domain=searchengineland.com
 @@||dev.visualwebsiteoptimizer.com/j.php$domain=dominos.jp|watch.impress.co.jp
+@@||dev.visualwebsiteoptimizer.com/j.php$xmlhttprequest,domain=dominos.com.my
 @@||dev.visualwebsiteoptimizer.com/server-side/settings$xmlhttprequest,domain=dominos.co.in
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=cars.usnews.com|dominos.jp
