@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: R46YX5lNZvfTWh5ZWE8MWQ
-! Title: Ublock filter for Via(2025-12-15 00:13:42)
-! Version: 20251215001342
+! Checksum: VHQARbb5lJOlX3HC0Rgi0g
+! Title: Ublock filter for Via(2025-12-15 09:02:27)
+! Version: 20251215090227
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-15 00:13:42
-! Total Count: 17850
-! Blocked Filters: 17850
+! Last modified: 2025-12-15 09:02:27
+! Total Count: 17890
+! Blocked Filters: 17890
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8700
+!<<<<<域名规则>>>>>8740
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -646,6 +646,7 @@
 ||app-defituna.github.io^
 ||app-lido-finance-v2.com^
 ||app-maplerpc.online^
+||app-slash.co.com^
 ||app-trust.co.com^
 ||app-uni-infos.com^
 ||app.adjust.net.in^
@@ -911,6 +912,7 @@
 ||bancolombiaapp.glitch.me^
 ||bandi-cam.cc^
 ||banditsmutter.qpon^
+||bankplus.co.com^
 ||banque-online.com^
 ||banquet-barbecue.com^
 ||baoviet*.top^
@@ -921,6 +923,7 @@
 ||baovietn.vip^
 ||baovietvay.top^
 ||baovietvc.top^
+||barclaycerdus.top^
 ||baremetrics.com^$third-party
 ||barian-therd.com^
 ||barlear.ru^
@@ -1221,6 +1224,7 @@
 ||btt.community/plugins/discourse-fingerprint/javascripts/fp.js$script,~third-party
 ||buddygays.com^
 ||budhump.com^
+||buff163.co.com^
 ||bughter.com^
 ||builder.hufs.ac.kr/goLink.jsp?url=xn-
 ||bulkagetufas.com^
@@ -1750,6 +1754,7 @@
 ||contextbar.ru^$third-party
 ||contoso-travel.com/login^
 ||contributor.google.com/scripts/*/loader.js$script,domain=citationmachine.net
+||convergepay.co.com^
 ||convertwithwave.com^
 ||conveyancingportal.com^
 ||coolcast2.com/z-$script
@@ -2622,6 +2627,7 @@
 ||f8dt6.com^
 ||fab-inst.com^
 ||fabricforrel.com^
+||face-it.co.com^
 ||faceb00k.com.vn^
 ||facebock-page-center.com^
 ||facebooc.jp^
@@ -3098,6 +3104,7 @@
 ||getmackeepersoftpro.xyz^
 ||getmagic.moe^
 ||getmatch.jp^
+||getmoss.co.com^
 ||getnaughty.com^
 ||getprocrack.net^
 ||getsecurify.com^
@@ -3982,6 +3989,7 @@
 ||jobs-apply-now.com^
 ||jobs-apply.com^
 ||join-our-team.com^
+||join-slash.co.com^
 ||joinads.me^$third-party
 ||joinhoney.com/evs
 ||jolly.treasure-pleasure.com^
@@ -5402,6 +5410,9 @@
 ||oficialinesp.wixsite.com^
 ||ofiii.com/library/comscore/comscore.js
 ||ofsetvideofre.click^
+||ofx-app.co.com^
+||ofx-login.top^
+||ofx.co.com^
 ||ofyou-beautiful.com^
 ||ogladajanime.pl/command_processor.php
 ||ogrencilerbirligi.com^
@@ -5709,6 +5720,8 @@
 ||paybyplatema.cfd^
 ||paybyplatema.cfd^$document
 ||payer-ma-acture-*.mystrikingly.com^
+||payhawk.co.com^
+||paymentech.co.com^
 ||paynote.my^
 ||paypal*.blogspot.
 ||paypal-complete.com^
@@ -6539,6 +6552,7 @@
 ||secure---sso---robinhood---com-cdn.webflow.io^
 ||secure-57v.pages.dev^
 ||secure-line-network.com^
+||secure-paymentech.co.com^
 ||secure.gdcstatic.com^
 ||secure.globalultracdn.com^
 ||secure.mygov.
@@ -6763,10 +6777,14 @@
 ||sk3-renew.com^
 ||skae3299.top^
 ||skeatrighter.com^
+||skinsmnky.com^
+||skinsmonkey.co.com^
+||skinsmonkye.com^
 ||skipalos.xyz^
 ||skiptheadz.com^
 ||skmedix.pl/cdn-cgi/zaraz/$script,~third-party
 ||skollett.site^
+||skrill-app.co.com^
 ||skvxbool.xyz^
 ||sky567o.fun^
 ||skylarkspb.ru/raiffeisentwint/
@@ -6774,6 +6792,8 @@
 ||skype-com.cn^
 ||skyscrapertowel.com^
 ||skysportspro.com^
+||slash-ap.co.com^
+||slash-on.co.com^
 ||slb3cr9dx9.jp^
 ||slc.cbssports.com^
 ||sldg02.com^
@@ -6915,6 +6935,7 @@
 ||speedtestnow.site^
 ||speedynews.xyz^$third-party
 ||spendabit-payment.xyz^
+||spendesk.co.com^
 ||spermyporn.com/js/my.js
 ||spexjs.com^
 ||spiddefrexpron.com^
@@ -7619,6 +7640,7 @@
 ||trckotang.com^
 ||trcp.gamefantech.com^
 ||treasuredata.com^$third-party
+||treasury-simmonsbank.co.com^
 ||tree345o.fun^
 ||trelconf.com^
 ||trelconf.net^
@@ -8341,12 +8363,30 @@
 ||wufazpappk.com^
 ||wwbudmh.ru^
 ||www-askfollow-us.translate.goog^
+||www-bankplus.top^
+||www-convergapay.top^
 ||www-facebook-
 ||www-facebook-com.vn^
 ||www-facebook.
 ||www-facebooks.
 ||www-facebooks.com.vn^
+||www-firsthorlzan.top^
+||www-firsthorlzon.top^
+||www-flrstherizen.top^
+||www-getmass.top^
+||www-getmoss.top^
+||www-mechanicsbank.co.com^
+||www-mechonics.top^
 ||www-mfacebook.
+||www-payhawk.top^
+||www-paymontech.top^
+||www-simmonsbank.top^
+||www-simmonsbonk.top^
+||www-slash.co.com^
+||www-spendesk.top^
+||www-tipalti.co.com^
+||www-tipalti.top^
+||www-tipolti.top^
 ||www-winbank-lfremhmida*.codeanyapp.com^
 ||www.*.icu^$ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
 ||www.*.vip^$ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
