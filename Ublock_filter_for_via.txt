@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Pj6HUzjDh7g5gQVDy4pB2A
-! Title: Ublock filter for Via(2025-12-16 00:18:46)
-! Version: 20251216001846
+! Checksum: /t/Vd9eEcwzzHvuFeWoo5g
+! Title: Ublock filter for Via(2025-12-16 09:00:27)
+! Version: 20251216090027
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-16 00:18:46
-! Total Count: 17901
-! Blocked Filters: 17901
+! Last modified: 2025-12-16 09:00:27
+! Total Count: 17911
+! Blocked Filters: 17911
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8747
+!<<<<<域名规则>>>>>8757
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1746,6 +1746,7 @@
 ||connect-s2-chat.com^
 ||connect-wp.net^
 ||connectifylink.com^
+||connexpay-app.co.com^
 ||conohawing.com/*/outlook-
 ||constellationbedriddenexams.com^
 ||consumerproductsusa.com^
@@ -2808,6 +2809,7 @@
 ||firebaseapp.com/Autentimine^
 ||firebasestorage.googleapis.com/v0/b/gosyndication.appspot.com^
 ||firefaucet.win/*.gif$image
+||first-horizon.co.com^
 ||fishstrap.com^$domain=~fishstrap.app
 ||fitgirl-repack.*^$domain=~fitgirl-repacks.site
 ||fitgirl-repacks-site.org^$domain=~fitgirl-repacks.site
@@ -6153,6 +6155,7 @@
 ||qip.ru^
 ||qiwi.gg/sw.js$script,~third-party
 ||qloi-jjcl.com^
+||qonto-app.co.com^
 ||qqh4.mom^
 ||qqh5.mom^
 ||qsshc.xyz^
@@ -6231,6 +6234,7 @@
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 ||rawgit.com/Pocketart/$script,third-party
 ||rawgit.com/fahimraza/FK/master/ad-unblocker.js^$script
+||ray-dium.cyou^
 ||ray-sol.net^
 ||ray-swap.net^
 ||raydium-io.to^
@@ -6687,6 +6691,7 @@
 ||shop22.fishkillbaptistnurseryschool.org^
 ||shopamzselling.com^
 ||shopeesallers.com^
+||shopify-app.co.com^
 ||shoponlinemelike.shop^
 ||short.freeltc.top/info.html
 ||short.freeltc.top/news.html
@@ -6789,6 +6794,7 @@
 ||skmedix.pl/cdn-cgi/zaraz/$script,~third-party
 ||skollett.site^
 ||skrill-app.co.com^
+||skrill-app.top^
 ||skvxbool.xyz^
 ||sky567o.fun^
 ||skylarkspb.ru/raiffeisentwint/
@@ -7652,6 +7658,7 @@
 ||trendgurupro.com^
 ||trendor.website^
 ||trendori.shop^
+||trezor-app-suite.co.com^
 ||trezor.fit^
 ||trezor.io-app.online^
 ||trezor.la^
@@ -8377,6 +8384,7 @@
 ||www-facebooks.
 ||www-facebooks.com.vn^
 ||www-firsthorlzan.top^
+||www-firsthorlzen.top^
 ||www-firsthorlzon.top^
 ||www-flrstherizen.top^
 ||www-getmass.top^
@@ -8392,12 +8400,14 @@
 ||www-spendesk.top^
 ||www-tipalti.co.com^
 ||www-tipalti.top^
+||www-tipelti.top^
 ||www-tipolti.top^
 ||www-winbank-lfremhmida*.codeanyapp.com^
 ||www.*.icu^$ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
 ||www.*.vip^$ipaddress=/^(13\.227\.254\.\d{2}|2600:9000:2(00a|1d1):[a-z0-9]{2}00:1[1c]:(7b7c|2741):(1ac|2d0)0:93a1)$/
 ||www.academicsingles.jp^
 ||www.black-magic.jp^
+||www.exodusupdate.app^
 ||www.iprima.cz^$xmlhttprequest,~third-party,strict1p
 ||www.jersey-yupoo.com^
 ||www.mercadolivre.com.br/recommendations*?client=*-pads-$xmlhttprequest,~third-party
@@ -16296,7 +16306,7 @@ voz.vn/b/image.gif?p=$image
 @@||components2.rcsobjects.it/rcs_adv/*/distro/dfp/common/prebid$script,domain=video.gazzetta.it
 @@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid$script,domain=oggi.it
 @@||confirmit.com/api/$domain=lenovo.com
-@@||connatix.com/*connatix.player.$third-party,script,domain=accesousa.com|accuweather.com|adweek.com|app.kultivi.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|interestingengineering.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|sport-fm.gr|sport24.gr|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|tvline.com|variety.com|w3schools.com
+@@||connatix.com/*connatix.player.$third-party,script,domain=accesousa.com|accuweather.com|adweek.com|app.kultivi.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|interestingengineering.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|reuters.com|sacbee.com|sanluisobispo.com|sport-fm.gr|sport24.gr|sportal.gr|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|tvline.com|variety.com|w3schools.com
 @@||connatix.com/core/story^$xmlhttprequest,method=post,third-party,domain=adweek.com
 @@||connatix.com^$script,domain=accuweather.com|deadline.com
 @@||connect.facebook.*/*/AudienceNetworkPrebid.js$script,domain=cbssports.com
@@ -17631,7 +17641,7 @@ apkmirror.com#@#.gooWidget
 apkmirror.com#@#.google-ad-leaderboard
 app-ranking.net#@#.haj
 app.involve.asia#@#.ads-banner
-app.kultivi.com,deadline.com,hollywoodreporter.com,huffpost.com,sacbee.com,sport-fm.gr,sport24.gr,tvline.com,w3schools.com#@#.cnx-player-wrapper
+app.kultivi.com,deadline.com,hollywoodreporter.com,huffpost.com,sacbee.com,sport-fm.gr,sport24.gr,sportal.gr,tvline.com,w3schools.com#@#.cnx-player-wrapper
 app.kultivi.com,hollywoodreporter.com,huffpost.com,sacbee.com,sport-fm.gr,sport24.gr,tvline.com,w3schools.com#@#[id^="jwplayer"]
 arcade.buzzrtv.com,arcade.dailygazette.com,arcade.lemonde.fr,arena.gamesforthebrain.com,bestpuzzlesandgames.com,cointiply.arkadiumarena.com,gamelab.com,gameplayneo.com,games.abqjournal.com,games.amny.com,games.arkadium.com,games.bellinghamherald.com,games.besthealthmag.ca,games.bnd.com,games.boston.com,games.bostonglobe.com,games.bradenton.com,games.centredaily.com,games.charlottegames.cnhinews.com,games.charlotteobserver.com,games.cnhinews.com,games.crosswordgiant.com,games.dailymail.co.uk,games.dallasnews.com,games.daytondailynews.com,games.denverpost.com,games.everythingzoomer.com,games.fresnobee.com,games.games.newsgames.parade.com,games.games.newsobserver.com,games.gameshownetwork.com,games.get.tv,games.greatergood.com,games.heraldonline.com,games.heraldsun.com,games.idahostatesman.com,games.insp.com,games.islandpacket.com,games.journal-news.com,games.kansas.com,games.kansascity.com,games.kentucky.com,games.lancasteronline.com,games.ledger-enquirer.com,games.macon.com,games.mashable.com,games.mercedsunstar.com,games.metro.us,games.metv.com,games.miamiherald.com,games.modbee.com,games.moviestvnetwork.com,games.myrtlebeachonline.com,games.nationalreview.com,games.newsobserver.com,games.parade.com,games.pressdemocrat.com,games.puzzlebaron.com,games.puzzler.com,games.puzzles.ca,games.qns.com,games.readersdigest.ca,games.sacbee.com,games.sanluisobispo.com,games.sixtyandme.com,games.sltrib.com,games.springfieldnewssun.com,games.star-telegram.com,games.startribune.com,games.sunherald.com,games.theadvocate.com,games.thenewstribune.com,games.theolympian.com,games.theportugalnews.com,games.thestar.com,games.thestate.com,games.tri-cityherald.com,games.triviatoday.com,games.usnews.com,games.word.tips,games.wordgenius.com,games.wtop.com,jeux.meteocity.com,juegos.as.com,juegos.elnuevoherald.com,juegos.elpais.com,philly.arkadiumarena.com,play.dictionary.com,puzzles.bestforpuzzles.com,puzzles.centralmaine.com,puzzles.crosswordsolver.org,puzzles.independent.co.uk,puzzles.nola.com,puzzles.pressherald.com,puzzles.standard.co.uk,puzzles.sunjournal.com#@#display-ad-component
 arkadium.com#@#div[class^="Ad-adContainer"]
