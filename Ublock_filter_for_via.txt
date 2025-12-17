@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: s2qPjQ8gljon4tdecc36mA
-! Title: Ublock filter for Via(2025-12-17 08:56:14)
-! Version: 20251217085615
+! Checksum: PtohMWQHztRoFlv3YPOCpQ
+! Title: Ublock filter for Via(2025-12-18 00:17:14)
+! Version: 20251218001714
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-17 08:56:15
-! Total Count: 17931
-! Blocked Filters: 17931
+! Last modified: 2025-12-18 00:17:14
+! Total Count: 17934
+! Blocked Filters: 17934
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8777
+!<<<<<域名规则>>>>>8778
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5530,6 +5530,7 @@
 ||oppoteammate.com^
 ||oprirgreifeuprdlojeocg.com^
 ||optable.co^$third-party
+||optimism-lab.network^
 ||optimizely.com^$domain=mindbodygreen.com
 ||orange-connexion*.godaddysites.com^
 ||orange234.wixsite.com^
@@ -8791,7 +8792,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5669
+!<<<<<网站单独规则>>>>>5671
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11615,6 +11616,7 @@ koramaup.com##[href^="http://u87yuo9ojh.world/"]
 koramaup.com##div.text-center.col-md-12:has([href*="//gjxmcla.pro/"])
 korinthostv.gr,romaniataramea.com,youwatch.*##.sgpb-popup-dialog-main-div-wrapper
 kpkuang.org###sterra-ad-onmid
+krakenfiles.com##.myad-box
 krakenfiles.com##.native-banner
 kropic.com,kvador.com,picbaron.com##.newsbar_blue
 krx18.com###dynamic-image
@@ -13746,6 +13748,7 @@ tribuna.com##[class^="Main_main-layout__fixed-banners"]
 tricksplit.io##div[class^="ads_longAd_"]
 tripadvisor.*###component_2 > div[class^="_"]:has(> div > div[class^="iab_"][style="min-height:90px"])
 tripadvisor.*##.ui_container > div[class] > div[class^="_"]:has(> .iab_medRec:only-child)
+trueachievements.com,truesteamachievements.com,truetrophies.com###pw_player
 trueachievements.com,truesteamachievements.com,truetrophies.com##.nn_player_w > .pro-upgrade
 truthlion.com##.ad-banner-revcontent
 truthsocial.com###modal-overlay:has(+ div[data-testid="modal"] div[data-type="ad"])
@@ -16398,7 +16401,7 @@ voz.vn/b/image.gif?p=$image
 @@||deploy.mopinion.com^$script,xmlhttprequest,domain=findmystreet.co.uk
 @@||dev.visualwebsiteoptimizer.com/cdn/edrv/$script,domain=searchengineland.com
 @@||dev.visualwebsiteoptimizer.com/j.php$domain=dominos.jp|watch.impress.co.jp
-@@||dev.visualwebsiteoptimizer.com/j.php$xmlhttprequest,domain=dominos.com.my
+@@||dev.visualwebsiteoptimizer.com/j.php$xmlhttprequest,domain=dominos.com.my|dominos.com.sg|dominoslk.com
 @@||dev.visualwebsiteoptimizer.com/server-side/settings$xmlhttprequest,domain=dominos.co.in
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=cars.usnews.com|dominos.jp
