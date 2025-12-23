@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: zJyU5KfJy3lO84nrWpMiEw
-! Title: Ublock filter for Via(2025-12-23 00:15:34)
-! Version: 20251223001534
+! Checksum: FB7eL8UhldaW2x1C9Qtqtw
+! Title: Ublock filter for Via(2025-12-23 09:00:05)
+! Version: 20251223090005
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-23 00:15:34
-! Total Count: 18053
-! Blocked Filters: 18053
+! Last modified: 2025-12-23 09:00:05
+! Total Count: 18055
+! Blocked Filters: 18055
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8878
+!<<<<<域名规则>>>>>8879
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1541,6 +1541,7 @@
 ||check-host.net/images/naeza-$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
 ||check-host.net/images/rpndguarg$image,~third-party
+||check-host.net/images/thehosting$image,~third-party
 ||check-host.net/images/tmpndguarg$image,~third-party
 ||check-host.net/images/tpndguarg$image,~third-party
 ||check-host.net/images/u1host.png$image,~third-party
@@ -8892,7 +8893,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5686
+!<<<<<网站单独规则>>>>>5687
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -9877,6 +9878,7 @@ cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .relan, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .ri-ative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
+check-host.net###hostabq, .hostabq, [id^="amtpeayv"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"], a[href^="https://the.hosting"]
 check-host.net###hostabq, .hostabq, [id^="amtpeayvraea"], .specjo, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvraeapp-liaryt, #amtpeayvraeapp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, [id^="amtpeayvraea"], .specjo, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvraeapp-liaryt, #amtpeayvraeapp-liaryt2, .ri-btive, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostavq, #antkeayvhaeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antkeayvhaeaalexhost, #antkeayvhaeapp-juiaryt, #antkeayvhaeapp-juiaryt2, .ry-elative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"]
