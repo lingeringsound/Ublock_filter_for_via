@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: q+gTRJtZyvC4By9KGWnMGg
-! Title: Ublock filter for Via(2025-12-25 00:15:43)
-! Version: 20251225001543
+! Checksum: GQO+F+wwBRhiEApJW6rtLw
+! Title: Ublock filter for Via(2025-12-25 08:59:50)
+! Version: 20251225085950
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-25 00:15:43
-! Total Count: 18069
-! Blocked Filters: 18069
+! Last modified: 2025-12-25 08:59:50
+! Total Count: 18070
+! Blocked Filters: 18070
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8882
+!<<<<<域名规则>>>>>8883
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7124,6 +7124,7 @@
 ||static.chotot.com/storage/js/prebid-ads.js$script
 ||static.clmbtech.com^$script,domain=indiatimes.com
 ||static.cloudflareinsights.com/beacon.min.js/$script,domain=japscan.*|japscan.lol|japscan.si|japscan.vip
+||static.diaridetarragona.com/dab/detector.js
 ||static.gamezop.com/creatives^$image,third-party
 ||static.kicker.de/content/js/vendor/homad
 ||static.klaviyo.com/onsite/js/$third-party
