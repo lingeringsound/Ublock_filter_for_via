@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wR1UJY0pBDxXP5KyXeJLYw
-! Title: Ublock filter for Via(2025-12-26 00:15:09)
-! Version: 20251226001509
+! Checksum: v6AEoHz2Gv9k2oIDUMd9eQ
+! Title: Ublock filter for Via(2025-12-26 09:00:10)
+! Version: 20251226090010
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-26 00:15:09
-! Total Count: 18073
-! Blocked Filters: 18073
+! Last modified: 2025-12-26 09:00:10
+! Total Count: 18076
+! Blocked Filters: 18076
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8884
+!<<<<<域名规则>>>>>8886
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1125,6 +1125,7 @@
 ||blexad.shop^
 ||bleyeare.com^
 ||blfeiywbthjom.com^
+||blinksbobblepadding.com^
 ||blisterlngdate.com^
 ||blizzboygames.net/sw.js$script,~third-party
 ||blob.core.windows.net/$web/*index.html
@@ -5352,6 +5353,7 @@
 ||nhanvienghtk.com^
 ||nhanvienhanghoa.com^
 ||nhym-ddth.com^
+||nibaz.com^
 ||nice.par-even.com^
 ||nicking-unding.com^
 ||nifty-pie.com^
@@ -8898,7 +8900,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5694
+!<<<<<网站单独规则>>>>>5695
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11949,6 +11951,7 @@ m.timesofindia.com##.adsinview
 m.timesofindia.com##.asAffiliate
 m.timesofindia.com##[href*="app.goo.gl"]
 m.washingtontimes.com,thephoblographer.com##.mrf-adv__wrapper
+m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m4u.*,xprime4u.*##.onclick-input
 m9.news##.m9-ad-modal
 mac-torrent-download.net##[href^="//sundhopen.site/"]
