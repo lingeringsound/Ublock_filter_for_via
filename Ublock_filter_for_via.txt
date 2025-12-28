@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: m3TxDjpVSRewrtRvSQZnuQ
-! Title: Ublock filter for Via(2025-12-28 00:14:23)
-! Version: 20251228001423
+! Checksum: tEb6bd2jB98Ltri5MWAYGw
+! Title: Ublock filter for Via(2025-12-28 09:07:41)
+! Version: 20251228090741
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-28 00:14:23
-! Total Count: 18080
-! Blocked Filters: 18080
+! Last modified: 2025-12-28 09:07:41
+! Total Count: 18081
+! Blocked Filters: 18081
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8887
+!<<<<<域名规则>>>>>8888
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -752,6 +752,7 @@
 ||askfollow.us^
 ||askme4date.com^
 ||askozvar.sk/*/amendesgouv/
+||asliceza.org^
 ||asset.kompas.com/data/*/kgmedia/js/*notif$script
 ||assets.adobedtm.com/*source.min.js$script,domain=accounts.o2.co.uk
 ||assets.adobedtm.com/launch-$script,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|theolympian.com|thenewstribune.com|thestate.com|tri-cityherald.com
