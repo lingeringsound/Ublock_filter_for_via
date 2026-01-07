@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wjuhJzm2N53iRIV0LjIgcA
-! Title: Ublock filter for Via(2026-01-07 00:17:08)
-! Version: 20260107001708
+! Checksum: sh3JdFWJ+PJloN+4rW2CDA
+! Title: Ublock filter for Via(2026-01-07 09:02:10)
+! Version: 20260107090210
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-07 00:17:08
-! Total Count: 18130
-! Blocked Filters: 18130
+! Last modified: 2026-01-07 09:02:10
+! Total Count: 18131
+! Blocked Filters: 18131
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8937,7 +8937,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5703
+!<<<<<网站单独规则>>>>>5704
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -11695,6 +11695,7 @@ jumpmanclubbrasil.com.br##.home-ad-con
 junkyponk.com,healthfirstweb.com,vocalley.com,yogablogfit.com,howifx.com,en.financerites.com,mythvista.com,livenewsflix.com,cureclues.com,apekite.com###gads
 justjavhd.com###advads_ad_widget-2
 justlightnovels.com,thetruedefender.com,tvnation.me##.adsbyvli
+justwatch.com##.vpn-link
 jzzo.com##.ios_img
 kachelmannwetter.com###meteosafe
 kachelmannwetter.com##[href="https://pflotsh.com"]
