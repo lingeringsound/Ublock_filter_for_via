@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1VqXX2FWUnIQ4iwMb+IfUA
-! Title: Ublock filter for Via(2026-01-17 08:59:46)
-! Version: 20260117085946
+! Checksum: xqeV1HTIT7G2UqpQoo/tTw
+! Title: Ublock filter for Via(2026-01-18 00:13:56)
+! Version: 20260118001356
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-17 08:59:46
-! Total Count: 18172
-! Blocked Filters: 18172
+! Last modified: 2026-01-18 00:13:56
+! Total Count: 18174
+! Blocked Filters: 18174
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8936
+!<<<<<域名规则>>>>>8937
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -547,6 +547,7 @@
 ||analytics-collect.karakuri.ai^
 ||analytics-service.api.linkme.global^
 ||analytics.bitchute.com^
+||analytics.fmovies4u.com^
 ||analytics.google.com^$third-party
 ||analytics.strapi.io^
 ||analytics.tiendaenoferta.com^
@@ -15921,7 +15922,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2274
+!<<<<<放行白名单>>>>>2275
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16405,6 +16406,7 @@ voz.vn/b/image.gif?p=$image
 @@||cdn.cookielaw.org/*/OtAutoBlock.js$script,xmlhttprequest,domain=html5.gamedistribution.com
 @@||cdn.cookielaw.org^$xmlhttprequest,domain=soundcloud.com
 @@||cdn.cxense.com/cx.$script,domain=elconfidencial.com|journaldemontreal.com
+@@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl|nikkansports.com|tvaplus.ca
 @@||cdn.dqst.pl/assets/ads.js$xmlhttprequest,domain=tko.pl
 @@||cdn.dynamicyield.com/api/$script,domain=washingtonexaminer.com
