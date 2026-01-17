@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NL9s+2wV/rTpRihzk6HQYA
-! Title: Ublock filter for Via(2026-01-17 00:18:01)
-! Version: 20260117001801
+! Checksum: 1VqXX2FWUnIQ4iwMb+IfUA
+! Title: Ublock filter for Via(2026-01-17 08:59:46)
+! Version: 20260117085946
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-17 00:18:01
-! Total Count: 18170
-! Blocked Filters: 18170
+! Last modified: 2026-01-17 08:59:46
+! Total Count: 18172
+! Blocked Filters: 18172
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8950,7 +8950,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5712
+!<<<<<网站单独规则>>>>>5714
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -12149,6 +12149,7 @@ mh.baxoi.buzz##.wp-manga.c-top-sidebar.c-sidebar[style="background-color:#262626
 mi-globe.com##.td-is-sticky
 micloudfiles.com##[href*="medbooksvn.org/"]
 micloudfiles.com##[href*="usmlematerials.net/"]
+miklpro.com##.box-main > .blog-item
 milf300.com##.bottom_space
 milf300.com##.container > .text-center[style="height: 100px;"]
 milf300.com##div[style="width: 300px;height: 250px;"]
@@ -13380,6 +13381,7 @@ shoppinglys.blogspot.com##iframe[src^="data:"]
 short-url.link##center > [src$=".html"]
 short.croclix.me##.banner-container
 short.goldenfaucet.io##.rectangles
+shortearn.*##.box-main > .blog-item
 shorten.*###chromepop
 shortenbuddy.com###noNeed,#noNeedTwo
 shortenbuddy.com##.cus-dalert
