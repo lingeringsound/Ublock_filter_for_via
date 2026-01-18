@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xqeV1HTIT7G2UqpQoo/tTw
-! Title: Ublock filter for Via(2026-01-18 00:13:56)
-! Version: 20260118001356
+! Checksum: 8FtbtDAVtl2B44nm3nevbg
+! Title: Ublock filter for Via(2026-01-18 09:07:02)
+! Version: 20260118090702
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-18 00:13:56
-! Total Count: 18174
-! Blocked Filters: 18174
+! Last modified: 2026-01-18 09:07:02
+! Total Count: 18173
+! Blocked Filters: 18173
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -8951,7 +8951,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5714
+!<<<<<网站单独规则>>>>>5713
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -13127,9 +13127,9 @@ redisex.*##div[style*="z-index:2147483647"]
 redketchup.io##.potato_modal
 redtube.*###paid_tabs_list
 redtube.*##.abovePlayer
-redtube.*##.adsbytrafficjunky
 redtube.*##.remove_ads
 redtube.*##li:has(.adsbytrafficjunky)
+redtube.*,tube8.*,you-porn.com,youporn.*,youporngay.com,youpornru.com##.adsbytrafficjunky
 reidoplacar.com###divactioncheck > .mb-3
 remodelista.com##[data-advert]
 rentry.co##article:has(#download-your-archive-file)
@@ -13969,7 +13969,6 @@ tube.shegods.com##.main-gal > .right-gallery
 tube8.*###flvplayer > [style]:has(.js-remove-ads-premium-link)
 tube8.*###result_container > [class]:not(.video_box)
 tube8.*###result_container_wrapper > [style]:has(.js-remove-ads-premium-link)
-tube8.*##.adsbytrafficjunky
 tube8.*##.gridList > [class]:has(.adsbytrafficjunky)
 tube8.*##.js-remove-ads-premium-link
 tube8.*##[href^="https://ads.trafficjunky.net/ads"]
@@ -14622,10 +14621,10 @@ ymp4.download###mp3button
 yna.co.kr##.sub-content > .aside-box01
 yoshare.net##button[onclick^="handleDownload"]
 you-porn.com##[id^="adblock"]
+you-porn.com,youporn.*##.e8-column
 you-porn.com,youporn.*##[data-removelink="removeLink"]
 you-porn.com,youporn.*,youporngay.com,youpornru.com##.ad-bottom-text
 you-porn.com,youporn.*,youporngay.com,youpornru.com##.adLinkText
-you-porn.com,youporn.*,youporngay.com,youpornru.com##.adsbytrafficjunky
 you-porn.com,youporn.*,youpornru.com##.e8-column
 you-porn.com,youporngay.com,youpornru.com###pb_template
 youjizz.com###desktopFooterPr
