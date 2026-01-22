@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OsoLlhNtvv6KCPDIc10ycA
-! Title: Ublock filter for Via(2026-01-22 16:17:37)
-! Version: 20260122161737
+! Checksum: kTdXAd74pZMi0kWvolYTmg
+! Title: Ublock filter for Via(2026-01-23 00:22:55)
+! Version: 20260123002255
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-22 16:17:37
-! Total Count: 18203
-! Blocked Filters: 18203
+! Last modified: 2026-01-23 00:22:55
+! Total Count: 18204
+! Blocked Filters: 18204
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -14692,7 +14692,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>930
+!<<<<<通配符规则>>>>>931
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fcmail.bitcasino.io%2F$image
@@ -14840,7 +14840,7 @@ $script,domain=zdnet.fr,third-party
 .de/d8323ll?t=
 .de/image/*.gif|$script,~third-party
 .de/image/*.gif|$script,~third-party,domain=de
-.fb2.html-load.com/player/
+.fb2.html-load.com/player/$domain=~dogdrip.net|~smsonline.cloud
 .fiverr.com%2Fjs_event_tracking%2Fv1%2Ftrack_email_open%2F$image
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
 .gif$domain=enryucomics.com,image
@@ -14848,7 +14848,8 @@ $script,domain=zdnet.fr,third-party
 .gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|otakudesu.*|otakudesu.best|otakudesu.org|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=filmvitrini.net|idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
-.html-load.com/*/d/
+.html-load.com/*/a/$font,domain=~dogdrip.net|~smsonline.cloud
+.html-load.com/*/d/$domain=~dogdrip.net|~smsonline.cloud
 .html-load.com/*/n/
 .html?cep=*&cost=0.
 .hubspotlinks.com%2FCto%2F$image
