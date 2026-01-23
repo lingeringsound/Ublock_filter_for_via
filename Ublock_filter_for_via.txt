@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kTdXAd74pZMi0kWvolYTmg
-! Title: Ublock filter for Via(2026-01-23 00:22:55)
-! Version: 20260123002255
+! Checksum: Cu7DGEIkioweNJJyv3rE2A
+! Title: Ublock filter for Via(2026-01-23 09:03:24)
+! Version: 20260123090324
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-23 00:22:55
-! Total Count: 18204
-! Blocked Filters: 18204
+! Last modified: 2026-01-23 09:03:24
+! Total Count: 18207
+! Blocked Filters: 18207
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8947
+!<<<<<域名规则>>>>>8949
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -157,6 +157,8 @@
 ||79180284.xyz^
 ||7sb3.com^
 ||7wbb.com^
+||7zip.cloud^
+||7zip.com^
 ||7zip.es^
 ||7zip.fr^
 ||7zip.it^
@@ -15950,7 +15952,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2277
+!<<<<<放行白名单>>>>>2278
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16530,6 +16532,7 @@ voz.vn/b/image.gif?p=$image
 @@||cds.connatix.com/p/*/connatix.playspace.dc.js^$script,third-party,domain=adweek.com
 @@||cds.connatix.com/p/*/elements.ui.$third-party,script
 @@||challenge.seyra.online/challenge.js?api_key=$script
+@@||challenges.cloudflare.com/cdn-cgi/$subdocument,domain=dropmms.*
 @@||challenges.cloudflare.com/turnstile/$third-party,script
 @@||chanrycz.com/cdn-cgi/apps/head/*.js|$script,~third-party
 @@||cheatsquad.gg^$script,xmlhttprequest,~third-party
