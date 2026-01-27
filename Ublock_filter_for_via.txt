@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: g5/s9oTfog1BNIXdZfRo3A
-! Title: Ublock filter for Via(2026-01-27 00:22:22)
-! Version: 20260127002222
+! Checksum: PfhLve7LJ+fglYzks2b5fg
+! Title: Ublock filter for Via(2026-01-27 09:06:13)
+! Version: 20260127090613
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-27 00:22:22
-! Total Count: 18236
-! Blocked Filters: 18236
+! Last modified: 2026-01-27 09:06:13
+! Total Count: 18237
+! Blocked Filters: 18237
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -15657,7 +15657,7 @@ voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>321
+!<<<<<通用Css规则>>>>>322
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -15736,6 +15736,7 @@ voz.vn/b/image.gif?p=$image
 ##.ad-space:not(.textads):not(.adbox)
 ##.ad-unit:not(.text-ad):not(.textads)
 ##.ad-zone:not(.adsbox, .textads)
+##.ad-zone:not(.adsbox, .textads, .adsbygoogle)
 ##.ad-zone:not(.textads)
 ##.ad_slot:not(.text-ad)
 ##.ad_unit:not(.text-ad)
