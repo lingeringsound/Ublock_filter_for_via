@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 8YN6xFQxP/0fleaM06OtoA
-! Title: Ublock filter for Via(2026-01-28 00:19:18)
-! Version: 20260128001918
+! Checksum: OBiBNIvHiUHUz6FI8LVRtQ
+! Title: Ublock filter for Via(2026-01-28 09:02:47)
+! Version: 20260128090247
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-28 00:19:18
-! Total Count: 18245
-! Blocked Filters: 18245
+! Last modified: 2026-01-28 09:02:47
+! Total Count: 18249
+! Blocked Filters: 18249
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>8960
+!<<<<<域名规则>>>>>8963
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -192,6 +192,7 @@
 ||a.orbsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||a.pemsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||a.slashdotmedia.com^
+||a.stateless.me^
 ||a.streamoupload.$script
 ||a.tlineat.jp^
 ||a1-multisite.aphex.me^$image,third-party
@@ -6409,6 +6410,7 @@
 ||recessionspeaksanybody.com^
 ||recipe000.tokyo^
 ||recklessdroughtburglar.com^
+||recommend.9gag.com/interact/event/?ip
 ||recompensaszurichsantander.com.mx^
 ||recouphh.top^
 ||recovernj.com^
@@ -7209,6 +7211,7 @@
 ||staticfonts.com^
 ||statify.online^
 ||statlstic.shop^
+||stats.g.doubleclick.net/g/$removeparam,domain=androidacy.com
 ||stats.g.doubleclick.net/g/collect?$removeparam,xmlhttprequest,domain=stateless.me
 ||stats.pronouns.page^
 ||stats.webgames.io^
@@ -15990,7 +15993,7 @@ voz.vn/b/image.gif?p=$image
 ~zunda.site###ad_box:not([style^="position: absolute; left: -5000px"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2278
+!<<<<<放行白名单>>>>>2279
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17663,6 +17666,7 @@ voz.vn/b/image.gif?p=$image
 @@||statics.estadao.com.br/*/portal/js/comscore/$script,domain=estadao.com.br
 @@||statics.estadao.com.br/*/utils/publicidade/dfp.min.js$script,domain=estadao.com.br
 @@||stats.g.doubleclick.net/dc.js$script,domain=ticketfly.com
+@@||stats.g.doubleclick.net/g/$xmlhttprequest,domain=androidacy.com
 @@||stats.g.doubleclick.net/g/collect$xmlhttprequest,domain=stateless.me
 @@||storage.oraclecloud.com/*/smartclip-services/sc_player/$script,~third-party
 @@||stpd.cloud^$script,domain=dgb.lol|smsonline.cloud
