@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: eJIsBdvsnqnlvUflNvkIIA
-! Title: Ublock filter for Via(2026-02-01 00:16:52)
-! Version: 20260201001652
+! Checksum: RI97i7Riiv91JtBHPQGGCw
+! Title: Ublock filter for Via(2026-02-01 09:23:35)
+! Version: 20260201092336
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-01 00:16:52
-! Total Count: 18344
-! Blocked Filters: 18344
+! Last modified: 2026-02-01 09:23:36
+! Total Count: 18345
+! Blocked Filters: 18345
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -14786,7 +14786,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>966
+!<<<<<通配符规则>>>>>967
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15660,6 +15660,7 @@ $script,domain=zdnet.fr,third-party
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
 ://media.*/js/code.min.js|$script,third-party
+://message1*.z13.web.core.windows.net^
 ://mg.mail.notion.so/$image
 ://mucp.api.account.microsoft.com/m/v2/v?d=$image
 ://myanimelist.net/pixel?$image
