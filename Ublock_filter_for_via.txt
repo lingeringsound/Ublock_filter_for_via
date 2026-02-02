@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: XTW4qm8P50iS9i3M4VQdPw
-! Title: Ublock filter for Via(2026-02-02 00:18:44)
-! Version: 20260202001845
+! Checksum: iLN0yahEenkBmsZcaxtcxQ
+! Title: Ublock filter for Via(2026-02-02 09:15:37)
+! Version: 20260202091537
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-02 00:18:45
-! Total Count: 18352
-! Blocked Filters: 18352
+! Last modified: 2026-02-02 09:15:37
+! Total Count: 18354
+! Blocked Filters: 18354
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9018
+!<<<<<域名规则>>>>>9019
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5815,6 +5815,7 @@
 ||pages.dev/webs.mp4
 ||pages.dev/yaketsuku.mp3
 ||pages.dev^$script,domain=1shows.live|1shows.ru|enma.lol|rgshows.me|rgshows.ru
+||paid-task.com^
 ||paidnetwork-migration.com^
 ||paie-locli.com^
 ||painaltube.com/min/747b35c9/painaltube/p/
@@ -9032,7 +9033,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5757
+!<<<<<网站单独规则>>>>>5758
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12706,6 +12707,7 @@ palcomix.com##table[width="800"]:has(img[src^="../ads/"])
 pallabmobile.in,wooseotools.com##a[class][href="#"] img
 pallabmobile.in,wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 panda-novel.com,zebranovel.com##[class^="novel-ins"]
+pandamovies.org###video-overlay
 pandamovies.pw,pornwatch.ws,streamporn.pw,xopenload.me,xopenload.pw,xxxparodyhd.net,xxxstream.me##.btn-lg.btn-block.btn
 pandaspor.live##[href^="https://go.aff."]
 pandaspor.live##[onclick^="trackBannerClick"]
