@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: uLKC4I24A1uAN9HhrKUAUA
-! Title: Ublock filter for Via(2026-02-07 09:10:36)
-! Version: 20260207091036
+! Checksum: qUkhbCubU3CEpH9bIysChw
+! Title: Ublock filter for Via(2026-02-08 00:19:02)
+! Version: 20260208001902
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-07 09:10:36
-! Total Count: 18388
-! Blocked Filters: 18388
+! Last modified: 2026-02-08 00:19:02
+! Total Count: 18401
+! Blocked Filters: 18401
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9029
+!<<<<<域名规则>>>>>9031
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2961,6 +2961,7 @@
 ||fmtp-nqyh.com^
 ||fnkbfrqhwmjzj.xyz^
 ||fo4nz.com^
+||fokstatic.nl/fp/global/*adshield.js
 ||foodrailway.cfd^
 ||footyhunter3.xyz/papahd/myblock.php$script
 ||for-precious.net^
@@ -3981,6 +3982,7 @@
 ||ipify.org^$domain=realmoasis.com
 ||iploits.com^
 ||iplus-fianc24h.online^
+||iporngay.com^
 ||iptvsat-forum.com/banners/$image
 ||ipultcbpgbs.com^
 ||ipvertnet.com/clickunder/
@@ -9043,7 +9045,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5760
+!<<<<<网站单独规则>>>>>5763
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9869,6 +9871,8 @@ box-manga.com###ads728x90top
 boyfriendtv.com##li[class]:has(a[href^="https://boyfriend.show/"][rel="sponsored"])
 boysfood.com,freeviewmovies.com###pause-container
 boystube.link##.table:has(> div > [data-zoneid])
+boysxclusive.com##[href^="https://tsyndicate.com/"]
+boysxclusive.com,camhub.cc,kissjav.*##.asside-link
 brainly.*##[class^="BrainlyAdsPlaceholder"]
 brainly.*,eodev.com##.brn-ads-box
 brainly.*,eodev.com##.js-scroll-to-unlock-section.brn-kodiak-answer-redesigned__unlock
@@ -9975,7 +9979,6 @@ camclips.tv##[src^="https://camclips.tv/player/html.php?aid"]
 camclips.tv##div.cbchat
 camclips.tv,camflow.tv,camhoes.tv##.box.rltd
 camhub.*##.popunder-opener
-camhub.cc##.asside-link
 camhub.cc##.link-offer
 caminspector.net,mangovideo.*,watchmdh.to##.top
 camseek.tv##div[style$="height: 240px; background: white"]
@@ -11889,7 +11892,6 @@ kissasians.org##.btn-success[href*="?key="]
 kisscartoon.*###upgrade_pop
 kisscos.net##[id$="-overlay"]
 kisscos.net##span[id$="related"] > div[id^="container-"]
-kissjav.*##.asside-link
 kissjav.*##.column:has(> .card > .adv)
 kissjav.*##.is-12-touch.is-narrow-desktop.has-text-centered
 kissmaturestube.com,yummysextubes.com##.block-a
@@ -12127,6 +12129,7 @@ m.timesofindia.com##.adsinview
 m.timesofindia.com##.asAffiliate
 m.timesofindia.com##[href*="app.goo.gl"]
 m.washingtontimes.com,thephoblographer.com##.mrf-adv__wrapper
+m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m4u.*,xprime4u.*##.onclick-input
 m9.news##.m9-ad-modal
@@ -13834,6 +13837,8 @@ taxidrivermovie.com###scroll-div
 taxidrivermovie.com##.adboard-top
 tbdailynews.com##[id^="custom_html"]
 tcbonepiecechapters.com###sidebar-ad-widget
+tcbonepiecechapters.com##.half-page-ad-container
+tcbonepiecechapters.com##.sticky-footer-simple
 tech.hindustantimes.com##.centerAd768
 tech.hindustantimes.com##div.mobileNone
 tech.pubghighdamage.com###adtera
@@ -14806,7 +14811,7 @@ zuperdrive.my.id###directAds
 zuperdrive.my.id###iframeAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>989
+!<<<<<通配符规则>>>>>997
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14838,6 +14843,7 @@ $script,domain=zdnet.fr,third-party
 &tb=redirect&allb=redirect&ob=redirect&href=
 &vast=$xmlhttprequest,domain=homemoviestube.com
 &zoneid=*&rb=$xmlhttprequest,third-party
+*%2Fapi.controld.com%2Fpixel%2F$image
 *%2Fbabia.to%2Fb%2Fimage.gif$image
 *%2Fcampaign%2F*%2Fpx.png$image
 *%2Fcampaigns.blip.net%2Ft%2F$image
@@ -14854,6 +14860,7 @@ $script,domain=zdnet.fr,third-party
 *%2Fhello.heroku.com%2Fr%2F*%2Fopen%2F$image
 *%2Flink.koyeb.com%2Fe%2F$image
 *%2Flinks.mail.vistaprint.com%2Fs%2F$image
+*%2Flinks1*%2Fq%2F$image
 *%2Fmessaging-callback-api.msg.traveloka.com%2Fo%3F$image
 *%2Fplatform-collector.viki.com%2Femail%2F$image
 *%2Fpost.spmailtechnolo.com%2Fq%2F$image
@@ -15009,6 +15016,8 @@ $script,domain=zdnet.fr,third-party
 .monster/?t=
 .net/1?z=$script,third-party
 .net/2?z=$script,third-party
+.ondemandmsg.sbs.com.au%2Fr%2F$image
+.ondemandmsg.sbs.com.au/r/$image
 .one/?h=*&user=$script,third-party
 .online/?h=*&user=$script,third-party
 .online/js/esc.js
@@ -15036,6 +15045,8 @@ $script,domain=zdnet.fr,third-party
 .sahibinden.com/trace/email/read/$image
 .salesforce.com%2Fservlet%2Fservlet.ImageServer%3F$image
 .sbs/c/*?s1=
+.sendpul.se%3A*%2Fimage%2Fui%2F$image
+.sendpul.se:*/image/ui/$image
 .shop/?h=*&user=$script,third-party
 .site/?h=*&user=$script,third-party
 .store/?h=*&user=$script,third-party
@@ -15163,6 +15174,7 @@ $script,domain=zdnet.fr,third-party
 /aot-content/assets/*/cb-ads/*$domain=asiaon.top|asiaontop.com
 /apc/r.gif
 /apc/trans.gif
+/api.controld.com/pixel/*$image
 /api.kimonix.com/kimonix_analytics.js
 /api/click/*?c=$image
 /api/delivery/knowledge?callback=window._an.setABShow
@@ -15398,6 +15410,7 @@ $script,domain=zdnet.fr,third-party
 /line.my.salesforce.com/s.gif$image
 /line.my.salesforce.com/servlet/servlet.ImageServer?oid=$image
 /link.koyeb.com/e/*$image
+/links1.*/q/*$image
 /listmonk.serveo.net/campaign/*/px.png$image
 /ll/click.php?key=
 /loader.min.js|$domain=worldhistory.org
