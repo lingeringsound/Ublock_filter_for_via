@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MvWzt93Vyf7QEard3ht6AA
-! Title: Ublock filter for Via(2026-02-07 00:33:45)
-! Version: 20260207003345
+! Checksum: uLKC4I24A1uAN9HhrKUAUA
+! Title: Ublock filter for Via(2026-02-07 09:10:36)
+! Version: 20260207091036
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-07 00:33:45
-! Total Count: 18387
-! Blocked Filters: 18387
+! Last modified: 2026-02-07 09:10:36
+! Total Count: 18388
+! Blocked Filters: 18388
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -5404,7 +5404,7 @@
 ||netsgram.com^
 ||nettix.fi/*/nettiauto_analytics.js$script,domain=nettiauto.com
 ||network-jpn.com^
-||network-loop.com/campaigns/banners/$domain=japscan.*|japscan.lol|japscan.si|japscan.vip
+||network-loop.com/campaigns/banners/$domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 ||new-bllog-i.com^
 ||new-skip.speedrun.com/d?upapi=true^$~third-party,method=post
 ||new-skip.speedrun.com/v?upapi=true^$~third-party,method=post
@@ -9043,7 +9043,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5759
+!<<<<<网站单独规则>>>>>5760
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10426,8 +10426,8 @@ doomovie-hd.*##div[class*="banana-container"]
 doomovie-hd.*##iframe + div[style^="position: absolute;"]
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp,vipstyle.tokyo##.plugin-memo:has(> div.side > div.ninja-recommend-block)
 dotabuff.com##.retaliate.mana-void
-dotadostube.com##.happy-player-beside
 dotadostube.com,taradinhos.com##div:has(> .video-block-happy)
+dotadostube.com,watchporn4k.com##.happy-player-beside
 dottech.org###Azadify
 doujinblog.org##.wppopups-whole
 douploads.*##[href^="https://href.li/"]
@@ -12189,6 +12189,7 @@ marketrealist.com##.gXgoom > div
 marriedgames.com.br##._ning_cont:has(.adsbygoogle)
 marriedgames.com.br##.show-prompt
 mathebibel.de###banner-bottom
+mathplayground.com##.bottom-leader
 mathportal.org##.googleOglasVrhCalculatorResp
 mathway.com###static-ad-right-alt
 maxcheaters.com##.ipsContained.ipsImage
@@ -12718,7 +12719,7 @@ palcomix.com##table[width="800"]:has(img[src^="../ads/"])
 pallabmobile.in,wooseotools.com##a[class][href="#"] img
 pallabmobile.in,wooseotools.com##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 panda-novel.com,zebranovel.com##[class^="novel-ins"]
-pandamovies.org###video-overlay
+pandamovies.org,watchporn4k.com###video-overlay
 pandamovies.pw,pornwatch.ws,streamporn.pw,xopenload.me,xopenload.pw,xxxparodyhd.net,xxxstream.me##.btn-lg.btn-block.btn
 pandaspor.live##[href^="https://go.aff."]
 pandaspor.live##[onclick^="trackBannerClick"]
@@ -16199,7 +16200,7 @@ voz.vn/b/image.gif?p=$image
 1cloudfile.com#@#.advert-wrapper
 @@*$image,domain=a2zupload.com|cursomecanet.com|rtxkeeda.com
 @@*$image,xmlhttprequest,domain=bg-gledai.*|bg-gledai.video|cdn.bg-gledai.*|cdn.bg-gledai.video|cdn.gledaitv.*|cdn.gledaitv.fan|cdn.gledaitv.live|gledaitv.*|gledaitv.fan|gledaitv.live
-@@*$image,xmlhttprequest,script,domain=japscan.*|japscan.lol|japscan.si|japscan.vip
+@@*$image,xmlhttprequest,script,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 @@*$redirect-rule,domain=d3ward.github.io
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=45er.de|antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|btv.bg|btvnovinite.bg|btvsport.bg|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|infinityscans.net|infinityscans.xyz|kryptografie.de|mailtool.de|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|net-tools.de|net-tours.de|photo-alben.de|poqzn.xyz|promo-visits.site|quesignifi.ca|qul.de|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|softwareengineer.de|solvetube.*|starkroboticsfrc.com|such-maschine.de|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz|web-spiele.de|wetter-vorhersage.de
