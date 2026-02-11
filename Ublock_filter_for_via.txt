@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: LcCr8DHDBICaG/OrvLr4GQ
-! Title: Ublock filter for Via(2026-02-11 09:24:56)
-! Version: 20260211092456
+! Checksum: veknM9Rvu3PltghyJSO18w
+! Title: Ublock filter for Via(2026-02-12 00:54:51)
+! Version: 20260212005451
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-11 09:24:56
-! Total Count: 18217
-! Blocked Filters: 18217
+! Last modified: 2026-02-12 00:54:51
+! Total Count: 18222
+! Blocked Filters: 18222
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9034
+!<<<<<域名规则>>>>>9035
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1233,6 +1233,7 @@
 ||brazz-girls.com/chaturbate/
 ||brazz-girls.com/scripts/yall.*.js
 ||brcknkblue.com^
+||briarcostshadow.com^
 ||bride1be.com^
 ||bridge-home.net^
 ||bridgetrack.com^$third-party
@@ -9048,7 +9049,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5613
+!<<<<<网站单独规则>>>>>5616
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9747,6 +9748,7 @@ bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,hax.co.id,jelonka
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
+bgmiconfig.ink##.ad-zone
 bianity.net##.bn-lg-sidebar
 bianity.net##.bn-lg.bn-p-b
 bibliotechsuper.com##[href="https://bibliotechsuper.com/"]
@@ -12153,6 +12155,7 @@ mercatinomusicale.com##[id^="skin"]
 mercedesclub.cz##ins.adsbygoogle, [class^="side_ad_"]
 mercurynews.com###mobile-adhesion
 mercurynews.com,poststar.com,roanoke.com,stltoday.com##.dfp-ad
+messycloud.com##div.ad-zone
 mesyuu.com##div[class$="_outline"]:has(> div > div.plugin-freearea > div.ninja-recommend-block)
 metager.org##.result:has(.partnershop-info)
 metastats.net###page-wrapper > div.row:nth-of-type(1)
@@ -14034,6 +14037,7 @@ tw-calc.net##.vertical_large_2.container
 twi-fans.com##.fixed.data-\[state\=open\]\:animate-in
 twitch.tv##.stream-display-ad__wrapper
 twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
+twitchnosub.com/static/js/runtime.mq.js
 txxx.*##.index-page > .wrapper > .row + div[class]
 txxx.*##.jw-atitle.nopop:has(> [href*="g2fame.com"][href*="&campaign"])
 txxx.*##.pwa-ad
@@ -14664,7 +14668,7 @@ zuketcreation.net##.cente-1
 zuperdrive.my.id###directAds
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>993
+!<<<<<通配符规则>>>>>994
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15656,6 +15660,7 @@ static.adsugar.ch/img?ord=$image
 thepiratebay3.com^
 tlr.stripocdn.email%2Fcontent%2Fguids%2F$image
 tlr.stripocdn.email/content/guids/$image
+twitchnosub.com/static/js/runtime.mq.js
 voz.vn%2Fb%2Fimage.gif%3Fp%3D$image
 voz.vn/b/image.gif?p=$image
 !<<<<<通配符规则 结束>>>>>
