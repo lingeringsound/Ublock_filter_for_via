@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lMiveuFT2Fhsd8/QoIt+4w
-! Title: Ublock filter for Via(2026-02-13 00:47:37)
-! Version: 20260213004737
+! Checksum: jYNQACny50gA+oVNBxOGmQ
+! Title: Ublock filter for Via(2026-02-13 09:20:57)
+! Version: 20260213092057
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-13 00:47:37
-! Total Count: 18226
-! Blocked Filters: 18226
+! Last modified: 2026-02-13 09:20:57
+! Total Count: 18230
+! Blocked Filters: 18230
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9050,7 +9050,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5619
+!<<<<<网站单独规则>>>>>5623
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14660,6 +14660,10 @@ zemporn.com##.player-aside-banners
 zeroupload.com##[href="https://301alldomain.xyz/"]
 zive.cz##[class^="ad-list"]
 zkillboard.com##.pbcen
+zkillboard.com##a[href^="http://store.markeedragon.com/affiliate.php"]
+zkillboard.com##a[href^="https://jitarun.com/?r="]
+zkillboard.com##center > div[style="background-color: #223800; color: white; border-radius: 1em; width: 100%; max-width: 100%"]
+zkillboard.com##div.alert-info:has([href^="https://www.eveonline.com/signup?"])
 zlut.com##.add-bottom
 zmamobile.com##main > center > a[target="_blank"][rel="nofollow noreferrer noopener"]
 zona-leros.net##.Body > .Container > ul.Rows > li:first-child:has(> article > a[href][target="_blank"])
