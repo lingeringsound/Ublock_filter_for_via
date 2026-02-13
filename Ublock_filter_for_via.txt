@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: jYNQACny50gA+oVNBxOGmQ
-! Title: Ublock filter for Via(2026-02-13 09:20:57)
-! Version: 20260213092057
+! Checksum: VRIZwXI81cUqP+pT3Y39OQ
+! Title: Ublock filter for Via(2026-02-14 00:35:02)
+! Version: 20260214003502
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-13 09:20:57
-! Total Count: 18230
-! Blocked Filters: 18230
+! Last modified: 2026-02-14 00:35:02
+! Total Count: 18232
+! Blocked Filters: 18232
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9036
+!<<<<<域名规则>>>>>9037
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5156,6 +5156,7 @@
 ||moviehdkh.com/assets/*.gif$image,~third-party
 ||moviesboys.com/*.shtml
 ||moviezaddiction.icu/pop.js$script,~third-party
+||mp.lura.live/vod/vast.info/
 ||mp4hentai.com/holy-cell-feb3/
 ||mparticle.com/js/v2/*/mparticle.js$script,domain=nbcsports.com
 ||mparticle.com^$third-party
@@ -9050,7 +9051,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5623
+!<<<<<网站单独规则>>>>>5624
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14541,6 +14542,7 @@ www.wp.pl##div[data-st-area] + div > div > div:has(> div > div > div[id^="div-gp
 www.yahoo.com##.sticky[class*="top-"]:has(style)
 www.yahoo.com##[id^="mid-center-ad"]
 www.yahoo.com##div[id]:has(> div[id^="top_center-frontpage_"])
+www.youtube.com##yt-playability-error-supported-renderers#error-screen
 x.com##a[href="https://twitter.undefined/"]
 x.com##article[data-testid="tweet"] a[href^="https://linkneverdiel.com"]
 x1337x.eu##.mgbox
