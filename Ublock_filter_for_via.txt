@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tIMpTgBFGau3rTWmIhw/vg
-! Title: Ublock filter for Via(2026-02-15 09:20:36)
-! Version: 20260215092036
+! Checksum: h1bGaiRGhG5e3doma/zdkQ
+! Title: Ublock filter for Via(2026-02-16 00:18:51)
+! Version: 20260216001851
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-15 09:20:36
-! Total Count: 18244
-! Blocked Filters: 18244
+! Last modified: 2026-02-16 00:18:51
+! Total Count: 18247
+! Blocked Filters: 18247
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9057,7 +9057,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5630
+!<<<<<网站单独规则>>>>>5632
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9321,7 +9321,7 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,amritadrino.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,cloud.hownetwork.xyz,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fstream365.com,fullfreeimage.com,gametechreviewer.com,gktech.uk,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,myprivatejobs.com,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playermeow.com,playhydrax.com,playstore.pw,plusone8.com,pngreal.com,rufiiguta.com,seory.xyz,sexuhot.com,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,streamporn.pw,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,vidcloud.*,viz.com,watchpornx.com,webhostingpost.com,wikitraveltips.com###overlay
+abysscdn.com,acetack.com,adsy.pw,allcryptoz.net,allfeeds.*,aman-dn.blogspot.com,amritadrino.com,androidquest.com,apklox.com,batmanfactor.com,chhaprawap.in,cloud.hownetwork.xyz,crewbase.net,crewus.net,deportealdia.live,documentaryplanet.xyz,doooood.co,earnbee.xyz,ezeviral.com,fitdynamos.com,fstream365.com,fullfreeimage.com,gametechreviewer.com,gktech.uk,gleanster.com,gujarativyakaran.com,hydraxcdn.biz,imagelovers.com,indiamaja.com,kashmirstudentsinformation.in,kisantime.com,live-sport.duktek.pro,loan.techybull.in,made-by.org,midebalonu.net,misterio.ro,myprivatejobs.com,newdmn.*,noticiasesports.live,oii.io,pastescript.com,phineypet.com,playembedapi.site,playermeow.com,playhydrax.com,playstore.pw,plusone8.com,pngreal.com,rufiiguta.com,seory.xyz,sexuhot.com,sharer.pw,shetkaritoday.in,shinbhu.net,shinchu.net,streambtw.com,streamporn.pw,substitutefor.com,telerium.*,teleriumtv.*,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,trimorspacks.com,tutlehd5.com,ultraten.net,uniqueten.net,up-load.one,updrop.link,vidcloud.*,viz.com,watchpornx.com,webhostingpost.com,wikitraveltips.com###overlay
 abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,f2movies.to,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
@@ -14457,6 +14457,7 @@ wp.pl,o2.pl##.wp-comments-adv-wrapper:not(:has(> .wp-comments-moth-teaser-contai
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[class] > div:not([class], [id]):only-child:has(> div[class]:only-child > div[class]:first-child > a > img[src^="https://v.wpimg.pl/"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[style="position: relative; top: 0px;"]:has(> a[target="_blank"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,jastrzabpost.pl,forum.kardiolo.pl##div:has(> div > iframe[src^="https://v.wpimg.pl/"][frameborder="0"][scrolling="no"]:first-child)
+wpb.shueisha.co.jp##.list-basic-a__item:has(> div.c-ad)
 wpking.in##section > center > .adbox
 writedroid.*###timerContainer > div:has(#timerPercentage)
 wsj.com##.css-1fl953o
@@ -14554,6 +14555,7 @@ www.wp.pl##div[data-st-area] + div > div > div:has(> div > div > div[id^="div-gp
 www.yahoo.com##.sticky[class*="top-"]:has(style)
 www.yahoo.com##[id^="mid-center-ad"]
 www.yahoo.com##div[id]:has(> div[id^="top_center-frontpage_"])
+www.youtube.com###page-manager:has(#player-error-message-container) yt-playability-error-supported-renderers#error-screen
 www.youtube.com##yt-playability-error-supported-renderers#error-screen
 x.com##a[href="https://twitter.undefined/"]
 x.com##article[data-testid="tweet"] a[href^="https://linkneverdiel.com"]
@@ -16007,7 +16009,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2260
+!<<<<<放行白名单>>>>>2261
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18203,6 +18205,7 @@ scan-manga.com#@##carouselTOPContainer
 search.crowdsearch.net#@##adslot1
 sextb.*#@#.ad-placeholder:not(#detect, #detect_ad_empire, #filter_ads_by_classname, .adsbox)
 shiropro-re.net#@##ad_link
+shueisha.co.jp#@#.list-basic-a:has(> li > div.c-ad)
 si.com#@#.is-below-header-ad
 smartadserver.*#@#[href*=".smartadserver.com"]
 smartadserver.*#@#a[href*=".smartadserver.com"]
