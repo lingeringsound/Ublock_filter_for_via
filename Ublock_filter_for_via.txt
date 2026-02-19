@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uzCG686vdVS5qI5GudLfZQ
-! Title: Ublock filter for Via(2026-02-19 00:53:45)
-! Version: 20260219005345
+! Checksum: eXVdU/9oosS3h+zg2ZVffg
+! Title: Ublock filter for Via(2026-02-19 09:17:59)
+! Version: 20260219091759
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-19 00:53:45
-! Total Count: 18391
-! Blocked Filters: 18391
+! Last modified: 2026-02-19 09:17:59
+! Total Count: 18392
+! Blocked Filters: 18392
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9072,7 +9072,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5693
+!<<<<<网站单独规则>>>>>5694
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10095,7 +10095,7 @@ celebmasta.com##img.size-medium
 celebritymovieblog.com##.banner_top
 celebritynakeds.com##.show-over-1000.async-reklam-placeholder
 cety.app,cutlink.net,cutnet.net,cutsy.net,cutty.app,cutyurls.com,exego.app,jixo.online##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions
-cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.com,exego.app,exnion.com,jixo.online##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions, .earning-steps, article:has(p), footer, header
+cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.com,exego.app,exeygo.com,exnion.com,jixo.online##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions, .earning-steps, article:has(p), footer, header
 cfake.com###over
 cgcosplay.org###page + div[id][class*=" "]
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -12061,6 +12061,7 @@ livingincebuforums.com##[data-blockid*="AdsWidget"]
 livingincebuforums.com##[id^="nbAdWidget"]
 lk21official.my##[id^="btop-"] > [href^="https://kredit-mobil-dp-murah.pages.dev/"]
 lk21official.pics###top-b
+lksfy.com##[href="https://telegram.me/linkshortify"] > .button-image
 lnk.news,lnk.parts##.child-centered.display-300x250
 loadout.tf##.header:has(> div[data-i18n^="#ad"])
 loadout.tf##.header:has(> div[data-i18n^="#ad"]) + div:empty:last-child
@@ -14181,7 +14182,7 @@ unsplash.com##div[data-test="SearchInFeedAd-AffiliateFallback-Container"]
 unsplash.com##div[data-test^="masonry-grid"] > div[style^="--row"] > div:not([itemprop="image"])
 uol.com.br##.bg-banner
 up-load.one##.iframe_id
-upfion.com,upfiles.app,upfiles-urls.com##fieldset, .faqs, footer
+upfiles-urls.com,upfiles.app,upfilesgo.com,upfion.com##fieldset, .faqs, footer
 uploadbank.com###container > div[style="width:970px; height:200px;"]
 uploadbox.cc##.hopa
 uploadbox.cc##.soundy
@@ -17994,7 +17995,7 @@ voz.vn/b/image.gif?p=$image
 @@||venatusmedia-d.openx.net/w/1.0/arj$xmlhttprequest,domain=aternos.org
 @@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=tf1.fr
 @@||vexby.xyz^$script,domain=infinityscans.xyz|infinityscans.net
-@@||vhit.io/scripts/vhit.js$script,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exnion.com|jixo.online
+@@||vhit.io/scripts/vhit.js$script,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exeygo.com|exnion.com|jixo.online
 @@||viafoura.*^$script,domain=20minutes.fr
 @@||viafoura.co^$domain=masslive.com
 @@||vice.com/*/AdobeAnalyticsSDK$script,~third-party
