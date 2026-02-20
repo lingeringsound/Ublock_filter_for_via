@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: SaORot8BBahXtLOEcCy7mw
-! Title: Ublock filter for Via(2026-02-20 09:13:12)
-! Version: 20260220091312
+! Checksum: b5QtZFfNjJ196KmJwmTvSg
+! Title: Ublock filter for Via(2026-02-21 00:27:52)
+! Version: 20260221002752
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-20 09:13:12
-! Total Count: 18398
-! Blocked Filters: 18398
+! Last modified: 2026-02-21 00:27:52
+! Total Count: 18404
+! Blocked Filters: 18404
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9059
+!<<<<<域名规则>>>>>9063
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2894,6 +2894,8 @@
 ||finelucckyy.jp^
 ||finessebaitsupply.com^
 ||fingerboarding.com^
+||fingerprint.com/Vtu1bhY5s/
+||fingerprint.com/_mintlify/api/v1/e
 ||fingerprint.com^$script,third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
 ||fingerprint.com^$third-party,domain=fingerprint.com|~dashboard.fingerprint.com|~dev.fingerprint.com|~docs.fingerprint.com
 ||fingudotlet.com^
@@ -3848,6 +3850,7 @@
 ||ilovu.store^
 ||im-excellent.com^
 ||ima55notice.biz^
+||imacdn.com/apics/*.gif
 ||image-play.net^
 ||imagebet.ph^
 ||imagedelivery.net^$domain=novelfull.com
@@ -5921,6 +5924,7 @@
 ||payhawk.co.com^
 ||paymentech.co.com^
 ||paynote.my^
+||payout-chatgpt.com^
 ||paypal*.blogspot.
 ||paypal-complete.com^
 ||paypal.com/v1/r/d/b/$image
@@ -9073,7 +9077,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5699
+!<<<<<网站单独规则>>>>>5701
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10225,6 +10229,7 @@ comicxxx.eu,pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*,watchfreexxx.net
 comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: auto; min-height: 266px; max-width: 100vw;"]
 comidoc.net##div[style="text-align:center;margin-left:auto;margin-right:auto;min-height:266px;max-width:90vw"]
 comidoc.net,tricksplit.io##div:has(> .adsbygoogle)
+comix.to,westmanga.*,westmanga.fun,westmanga.org##[src*=".gif"]
 comousarzararadio.blogspot.com###HTML10, #HTML9
 complex.com##.base__header-ad
 compucalitv.com##.botondescarga
@@ -14269,6 +14274,8 @@ vidmoly.*###dos_vlock
 vidmoly.*###mg_vd
 vidmoly.*###voc_block
 vidmoly.to###vope
+vidnest.live##a[href^="https://candai.online/"]
+vidnest.live##a[href^="https://clearwatch.tv/"]
 vidoza.net###plo_0
 vidoza.net##.download-green
 vidoza.net##.in-block
@@ -14452,7 +14459,6 @@ welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src] > .ob-widget > .ob-cards > 
 welt.de##[id^="outbrain_widget_"].OUTBRAIN[data-src]:has(> .ob-widget > .ob-widget-items-container > .ob-dynamic-rec-container > a[data-adv-id][rel*="sponsored"])
 wericmartin.com###billboard-home
 wericmartin.com##.ad-spacer
-westmanga.*,westmanga.fun,westmanga.org##[src*=".gif"]
 westword.com##.AirBillboardInlineContentresponsive
 weszlo.com##.ad-placeholder-bg
 wetpussy.sexy##.mansonry-item
