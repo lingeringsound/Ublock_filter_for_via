@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: G+kfps/f0g725aNNp6dwoA
-! Title: Ublock filter for Via(2026-02-20 00:41:14)
-! Version: 20260220004114
+! Checksum: SaORot8BBahXtLOEcCy7mw
+! Title: Ublock filter for Via(2026-02-20 09:13:12)
+! Version: 20260220091312
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-20 00:41:14
-! Total Count: 18395
-! Blocked Filters: 18395
+! Last modified: 2026-02-20 09:13:12
+! Total Count: 18398
+! Blocked Filters: 18398
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -2895,7 +2895,7 @@
 ||finessebaitsupply.com^
 ||fingerboarding.com^
 ||fingerprint.com^$script,third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
-||fingerprint.com^$third-party,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
+||fingerprint.com^$third-party,domain=fingerprint.com|~dashboard.fingerprint.com|~dev.fingerprint.com|~docs.fingerprint.com
 ||fingudotlet.com^
 ||firavave.club^
 ||firebase.googleapis.com^$domain=hotmediahub.com
@@ -9073,7 +9073,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5696
+!<<<<<网站单独规则>>>>>5699
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14605,6 +14605,9 @@ www.etsy.com##[data-results-grid-container] > li > div:not([data-appears-event-d
 www.iprima.cz##.appendix
 www.iprima.cz##.leader_box
 www.mindbodygreen.com##div:has(> section > .network-ad)
+www.reddit.com,sh.reddit.com###main-content:has(>shreddit-title[title$="r/uBlockOrigin"])+#right-sidebar-container [data-slug="pdp_right_rail_related"]
+www.reddit.com,sh.reddit.com##in-feed-community-recommendations[subreddit-name="uBlockOrigin"]
+www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~[id^="comment-tree-content-anchor-"]+div:has(>[id^="answers-suggested-queries"])
 www.uol##.content-lightbox
 www.uol##.overlay-lightbox
 www.walmart.com##[data-testid="flex-container"] > div > span:has(a[link-identifier][href^="https://wrd.walmart.com"])
