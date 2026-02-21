@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HCEP3VjT/JXomx7KYxdRag
-! Title: Ublock filter for Via(2026-02-21 09:11:27)
-! Version: 20260221091127
+! Checksum: wLrN5r6n0FtPw036TTkUeA
+! Title: Ublock filter for Via(2026-02-22 00:18:48)
+! Version: 20260222001848
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-21 09:11:27
-! Total Count: 18405
-! Blocked Filters: 18405
+! Last modified: 2026-02-22 00:18:48
+! Total Count: 18415
+! Blocked Filters: 18415
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9077,7 +9077,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5702
+!<<<<<网站单独规则>>>>>5711
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10864,6 +10864,13 @@ filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_header_0
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##.r_header_2
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##a.play_ust_txt
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net##a[onclick^="tiklakapat"]
+filmizletv.*###rekgecyen
+filmizletv.*##.footer_fad
+filmizletv.*##.r_filmbaslik-alti_0
+filmizletv.*##.r_header_0
+filmizletv.*##.r_header_2
+filmizletv.*##a.play_ust_txt
+filmizletv.*##a[onclick^="tiklakapat"]
 filmoviplex.com##[href*="/affiliate"]
 filmoviplex.com##[target="_blank"][href]
 filmpertutti.*##.no_pop
@@ -12127,6 +12134,7 @@ m.timesofindia.com##.adsinview
 m.timesofindia.com##.asAffiliate
 m.timesofindia.com##[href*="app.goo.gl"]
 m.washingtontimes.com,thephoblographer.com##.mrf-adv__wrapper
+m1xdrop.bz,m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m4u.*,xprime4u.*##.onclick-input
 m9.news##.m9-ad-modal
@@ -14211,6 +14219,7 @@ upornia.*##.jw-title-secondary
 upornia.*##.video-videos-slider
 upornia.com##section:not(:empty)
 uprafa.com###stickyFooterBoxColseBtn
+uptoplay.net###ad-link
 urbanmilwaukee.com###fancybox-container-1
 urlaubspartner.net##.text-center.col-lg-4.visible-lg-block > span
 usatoday.com##.gnt_x_w
@@ -16164,7 +16173,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2264
+!<<<<<放行白名单>>>>>2265
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17393,6 +17402,7 @@ voz.vn/b/image.gif?p=$image
 @@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,~third-party
 @@||my.petinsurance.com/assets/js/new-relic.js$script,~third-party
 @@||myaccounts.capitalone.com^$script,~third-party
+@@||mybbc-analytics.files.bbci.co.uk^$script,domain=bbc.com
 @@||mylivesignature.com/$script,~third-party
 @@||myntra.com/beacon/user-data^$xmlhttprequest,~third-party
 @@||mypearson.com^*/ga.min.js
