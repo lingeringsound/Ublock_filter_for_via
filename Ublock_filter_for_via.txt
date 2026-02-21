@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: b5QtZFfNjJ196KmJwmTvSg
-! Title: Ublock filter for Via(2026-02-21 00:27:52)
-! Version: 20260221002752
+! Checksum: HCEP3VjT/JXomx7KYxdRag
+! Title: Ublock filter for Via(2026-02-21 09:11:27)
+! Version: 20260221091127
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-21 00:27:52
-! Total Count: 18404
-! Blocked Filters: 18404
+! Last modified: 2026-02-21 09:11:27
+! Total Count: 18405
+! Blocked Filters: 18405
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9077,7 +9077,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5701
+!<<<<<网站单独规则>>>>>5702
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14612,6 +14612,7 @@ www.iprima.cz##.appendix
 www.iprima.cz##.leader_box
 www.mindbodygreen.com##div:has(> section > .network-ad)
 www.reddit.com,sh.reddit.com###main-content:has(>shreddit-title[title$="r/uBlockOrigin"])+#right-sidebar-container [data-slug="pdp_right_rail_related"]
+www.reddit.com,sh.reddit.com##in-feed-community-recommendations:is([subreddit-name="uBlockOrigin"],[subreddit-id="t5_37z6i"])
 www.reddit.com,sh.reddit.com##in-feed-community-recommendations[subreddit-name="uBlockOrigin"]
 www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~[id^="comment-tree-content-anchor-"]+div:has(>[id^="answers-suggested-queries"])
 www.uol##.content-lightbox
