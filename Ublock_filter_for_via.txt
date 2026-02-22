@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: riHn38mfQSt83yyVM0BWCQ
-! Title: Ublock filter for Via(2026-02-22 09:17:16)
-! Version: 20260222091716
+! Checksum: CMNaLSZ08sMfh8pkUekQ/Q
+! Title: Ublock filter for Via(2026-02-23 00:19:39)
+! Version: 20260223001939
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-22 09:17:16
-! Total Count: 18415
-! Blocked Filters: 18415
+! Last modified: 2026-02-23 00:19:39
+! Total Count: 18426
+! Blocked Filters: 18426
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9063
+!<<<<<域名规则>>>>>9068
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1508,6 +1508,7 @@
 ||certify-issues-details-case.netlify.app^
 ||cf67ahu-mkooh.com^
 ||cfd/tags/$script,domain=akirabox.to
+||cfd/tags/*.js$script,third-party
 ||cfd^$ipaddress=43.166.238.4
 ||cffsbbhost-aniamaria*.codeanyapp.com^
 ||cfgr2.com^
@@ -1590,6 +1591,7 @@
 ||checkfv.pages.dev^
 ||checking-your-browser.com^
 ||checkisreal.com^
+||checkpointviewzen.com^
 ||checkup08.biz^
 ||checkx.pages.dev^
 ||cheesydrinks.com^
@@ -5703,6 +5705,7 @@
 ||opportunityforeigntoward.com^
 ||oppoteammate.com^
 ||oprirgreifeuprdlojeocg.com^
+||opsecdefcloud.com^
 ||optable.co^$third-party
 ||optimism-lab.network^
 ||optimizely.com^$domain=mindbodygreen.com
@@ -6029,6 +6032,7 @@
 ||pineapplecake-yummy.com^
 ||pinehollow-glade.com^
 ||ping.anizm.net^
+||ping.fb-cdn.net^
 ||pingergauss.com^
 ||pingit.*/sw.js$script,~third-party,domain=~pingit.com
 ||pink-sale.pages.dev^
@@ -7670,6 +7674,7 @@
 ||teslacore.io^
 ||teslafond.io^
 ||teslamaked.com^
+||tesseract-ocr.com^
 ||testbooksolutions.com^
 ||testmyaa.pages.dev^
 ||testra*-covid.weebly.com^
@@ -9077,7 +9082,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5711
+!<<<<<网站单独规则>>>>>5713
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12078,6 +12083,8 @@ lksfy.com##[href="https://telegram.me/linkshortify"] > .button-image
 lnk.news,lnk.parts##.child-centered.display-300x250
 loadout.tf##.header:has(> div[data-i18n^="#ad"])
 loadout.tf##.header:has(> div[data-i18n^="#ad"]) + div:empty:last-child
+lofi-nopixel.com##.font-semibold.hover\:underline.text-primary.cursor-pointer.group.p-0\.5.text-xs.text-center.block
+lofi-nopixel.com##.nitro-ad-container
 logikfx.com##.wix-blog-print-in-full-width[data-testid="mesh-container-content"] > div[class^="_"] > div[style="padding-left: 30px;"]
 logikfx.com##div[style="width:740px"]
 longporn.xyz##[href="http://toplivesexcams.net"]
@@ -15850,7 +15857,7 @@ voz.vn/b/image.gif?p=$image
 }
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>320
+!<<<<<通用Css规则>>>>>322
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -15965,6 +15972,8 @@ voz.vn/b/image.gif?p=$image
 ##.exo-horizontal
 ##.ez-sidebar-wall
 ##.fints-block__row
+##.fkrc-checkbox-window
+##.fkrc-verifywin-window
 ##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
 ##.fp-ui > a[href][target="_blank"][style^="position: absolute; inset: 0px;"]
 ##.full-ave-pl
@@ -16173,7 +16182,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2265
+!<<<<<放行白名单>>>>>2267
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -16805,6 +16814,7 @@ voz.vn/b/image.gif?p=$image
 @@||collect.mopinion.com/assets/surveys/*/js/survey.min.js$script,domain=findmystreet.co.uk
 @@||collector-*.px-cloud.net/b/$xmlhttprequest,domain=crunchbase.com|www.crunchbase.com
 @@||colonist.io^$script,~third-party
+@@||com/js/*.js|$script,~third-party,domain=upfilesgo.com|upfion.com|upfiles.app|upfiles-urls.com
 @@||commentsmodule.com/js/js.load.1.js$xmlhttprequest,domain=reproductor.telenovelas-turcas.com.es
 @@||components2.rcsobjects.it/rcs_adv/*/distro/dfp/common/prebid$script,domain=video.gazzetta.it
 @@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid$script,domain=oggi.it
@@ -17402,6 +17412,7 @@ voz.vn/b/image.gif?p=$image
 @@||my.hrw.com/dashboard/js/workbench/utils/analytics.js$script,~third-party
 @@||my.petinsurance.com/assets/js/new-relic.js$script,~third-party
 @@||myaccounts.capitalone.com^$script,~third-party
+@@||mybbc-analytics.files.bbci.co.uk^$domain=bbc.com
 @@||mybbc-analytics.files.bbci.co.uk^$script,domain=bbc.com
 @@||mylivesignature.com/$script,~third-party
 @@||myntra.com/beacon/user-data^$xmlhttprequest,~third-party
