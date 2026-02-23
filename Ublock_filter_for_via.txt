@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: CMNaLSZ08sMfh8pkUekQ/Q
-! Title: Ublock filter for Via(2026-02-23 00:19:39)
-! Version: 20260223001939
+! Checksum: gtEdUHfFnMWz2/SKsg4EIw
+! Title: Ublock filter for Via(2026-02-23 09:16:13)
+! Version: 20260223091613
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-23 00:19:39
-! Total Count: 18426
-! Blocked Filters: 18426
+! Last modified: 2026-02-23 09:16:13
+! Total Count: 18436
+! Blocked Filters: 18436
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9068
+!<<<<<域名规则>>>>>9075
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1815,6 +1815,7 @@
 ||connexpay-app.co.com^
 ||connexpay-app.top^
 ||conohawing.com/*/outlook-
+||consent.preference-center.com/v2/edge
 ||constellationbedriddenexams.com^
 ||consumerproductsusa.com^
 ||contact-supportbusinessmanager.ubpages.com^
@@ -6796,8 +6797,14 @@
 ||secure-paymentech.co.com^
 ||secure.gdcstatic.com^
 ||secure.globalultracdn.com^
+||secure.loverugbyleague.com/cms/v1/api/*/events
+||secure.loverugbyleague.com/edge/v2/e
+||secure.loverugbyleague.com/engine/v1/e
 ||secure.mygov.
 ||secure.payment*.xin^
+||secure.planetrugby.com/cms/v1/api/*/events
+||secure.planetrugby.com/edge/v2/e
+||secure.planetrugby.com/engine/v1/e
 ||securecloudtorrent.com^
 ||securecracked.info^
 ||securefilelink.info^
@@ -9082,7 +9089,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5713
+!<<<<<网站单独规则>>>>>5716
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12105,6 +12112,9 @@ losmovies.*##.aPlaceHolder
 love4u.net,nicomanga.com,nihonkuni.com,rawinu.com,weloma.art###unlock_box
 love4u.net,nicomanga.com,nihonkuni.com,rawinu.com,weloma.art##.chapter-content > #unlock-box
 lovejav.net##div[style="text-align:center;min-height:100px;margin-top:10px"]
+loverugbyleague.com##.ps-block-a
+loverugbyleague.com##.ps-block-a-top
+loverugbyleague.com,planetrugby.com##article.lg\:my-0.w-full.h-auto.my-5.mx-auto
 lowcygier.pl##.content-wrapper > div[id]:has(> a[target="_blank"])
 lowcygier.pl##.tile-container-small:has(> a[href*="/?utm_term=index&utm_source=mainpage-tile-"] > img)
 lowendbox.com##[href="https://vpsdime.com/"]
