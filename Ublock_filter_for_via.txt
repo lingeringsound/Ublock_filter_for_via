@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wpeeHhCxluZggtRumT+Rrg
-! Title: Ublock filter for Via(2026-02-26 00:59:51)
-! Version: 20260226005951
+! Checksum: geltwE99HzxjCs1+R8xuqQ
+! Title: Ublock filter for Via(2026-02-26 09:13:58)
+! Version: 20260226091358
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-26 00:59:51
-! Total Count: 18543
-! Blocked Filters: 18543
+! Last modified: 2026-02-26 09:13:58
+! Total Count: 18544
+! Blocked Filters: 18544
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9081
+!<<<<<域名规则>>>>>9082
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -903,6 +903,7 @@
 ||azuki-*.vercel.app^
 ||azureedge.net/*/esc.js
 ||azureedge.net/*/flscn.js
+||azurefd.net/media/beep.mp3
 ||azureus.es^
 ||azurewebsites.net/alertmicrosoft.mp3
 ||b-7.jp^
@@ -11116,7 +11117,7 @@ g-status.com##.topadv_placeholder
 g3g.*##.text-center.alert-danger.alert-dismissible.alert
 g5u.pw##A[href$=".html"][rel="nofollow norefferer noopener"]
 g9r6.com##body.video-embed-mode > div[class][style]:not(#root)
-gadgetguideonline.com##.ai-track
+gadgetguideonline.com,volksliederarchiv.de##.ai-track
 gadgets.ndtv.com###ndtv-message-userss
 gainbtc.click##._hide
 gainbtc.click##.panel-heading > center
@@ -15652,7 +15653,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|dev|fit|github.io|me|page
+/text_tel.js$domain=app|dev|fit|github.io|me|page|site
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tmp/vmo.html
