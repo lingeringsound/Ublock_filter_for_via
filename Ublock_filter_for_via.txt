@@ -1,21 +1,22 @@
 [Adblock Plus 2.0]
-! Checksum: geltwE99HzxjCs1+R8xuqQ
-! Title: Ublock filter for Via(2026-02-26 09:13:58)
-! Version: 20260226091358
+! Checksum: OwdIpqUA1TCfHOnx0xh3Zw
+! Title: Ublock filter for Via(2026-02-27 00:47:06)
+! Version: 20260227004706
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-26 09:13:58
-! Total Count: 18544
-! Blocked Filters: 18544
+! Last modified: 2026-02-27 00:47:06
+! Total Count: 18546
+! Blocked Filters: 18546
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9082
+!<<<<<域名规则>>>>>9083
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
 ||*ontent.steamplay.*^
+||/api/tracking-codes?type=ads_$xmlhttprequest,domain=oxxfile.*
 ||0.gp/greece2^
 ||007itshop.com^
 ||00ebjdbagyqwt.club^
@@ -9096,7 +9097,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5735
+!<<<<<网站单独规则>>>>>5736
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9868,9 +9869,11 @@ bing.com##li.b_algo:has(> [class="b_caption"] > p[class*=" "])
 bing.com##li.b_algo:has(> h2 > a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
 bing.com##li.b_algo[ads="1"]
+bing.com##ol#b_results > li.b_algo:has(> .b_caption > p[ads])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bingotingo.com###please-wait
+biovetro.net,digiztechno.com,shrtslug.biz,srtslug.biz,technons.com,tournguide.com,yrtourguide.com##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper
 birdurls.com###bg_popup
 birdurls.com###link-view > br
 birdurls.com##.box-main center
@@ -14798,7 +14801,6 @@ youtubetomp3.*##a[href="/button.php"]
 youwatch.*###custom_html-65
 youwatch.*##[href^="https://minilink.id/"]
 youx.xxx##.thumb_banner
-yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper
 ytlarge.com##ins.adsbygoogle[data-ad-slot]
 yts.*##.cborz-bordered
 yts.*##.madikf
