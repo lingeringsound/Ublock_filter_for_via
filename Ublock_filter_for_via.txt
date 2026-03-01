@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tJwhXngadsS9PJyH5oSIYQ
-! Title: Ublock filter for Via(2026-03-01 00:17:04)
-! Version: 20260301001704
+! Checksum: NE+XL6ioGl9bawMtyAwMzA
+! Title: Ublock filter for Via(2026-03-01 09:22:52)
+! Version: 20260301092253
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-01 00:17:04
-! Total Count: 18563
-! Blocked Filters: 18563
+! Last modified: 2026-03-01 09:22:53
+! Total Count: 18565
+! Blocked Filters: 18565
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -14848,7 +14848,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1142
+!<<<<<通配符规则>>>>>1144
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14937,6 +14937,7 @@ $script,domain=zdnet.fr,third-party
 *%2Ft.ac.pandora.com%2F*$image
 *%2Ftrack%2Fopen.php%3F*$image
 *%2Ftrack%2Fopens%2F*$image
+*%2Ftrack-opening%2F*$image
 *%2Ftracking.logistics.post.ch%2Fq%2F$image
 *%2Ftracking.logistics.post.ch%2Fq%2F*$image
 *%2Ftracking.mail.shopee.$image
@@ -15677,6 +15678,7 @@ $script,domain=zdnet.fr,third-party
 /tmp/vmo.html
 /tortoise.min.js$domain=boards.net|freeforums.net|proboards.com
 /tp/filter.php?pro=
+/track-opening/*$image
 /track/open.php?$image
 /track/opens/*$image
 /tracking.logistics.post.ch/q/*$image
