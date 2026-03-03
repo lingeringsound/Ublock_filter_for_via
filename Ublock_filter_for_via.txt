@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: upeaLs3a+q3VCTyQ0v7Q0w
-! Title: Ublock filter for Via(2026-03-03 09:17:18)
-! Version: 20260303091719
+! Checksum: H4PJMQNXPNEPgYvBwgaFQg
+! Title: Ublock filter for Via(2026-03-04 00:36:44)
+! Version: 20260304003644
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-03 09:17:19
-! Total Count: 18594
-! Blocked Filters: 18594
+! Last modified: 2026-03-04 00:36:44
+! Total Count: 18598
+! Blocked Filters: 18598
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9090
+!<<<<<域名规则>>>>>9093
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -642,6 +642,7 @@
 ||api.bilibili.com/x/web-frontend/data/collector^
 ||api.busuu.com/ads/
 ||api.cryptorank.io/v0/banners^
+||api.extensionanalyticspro.top^
 ||api.flipkart.com/4/data/collector/business
 ||api.gettyimages.com/v3/search/images/creative?*referral_destinations$xmlhttprequest,domain=flaticon.com
 ||api.gitbook.com/v1/orgs/*/insights/events
@@ -2514,6 +2515,7 @@
 ||egyanime.com^$domain=vidia.tv
 ||eharmonysingle.online^
 ||ehnax.sbs^
+||ehteraf.online^$domain=pxtech.site
 ||eight85.com^
 ||eika-akie220202.com^
 ||einthusan.tv/promo/$xmlhttprequest
@@ -7595,6 +7597,7 @@
 ||tapad.com^$domain=~crportal.tapad.com
 ||tapi2.jp^
 ||taradinhos.com^$third-party
+||tariprotocol.com^
 ||tarjetarojaenvivo.lat/lib.js^
 ||tarto.net^
 ||tasktrivialaggregated.com^
@@ -9104,7 +9107,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5745
+!<<<<<网站单独规则>>>>>5746
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10360,6 +10363,7 @@ cutscenes.net##.item:has(> div[id^="ts_ad_native"])
 cutscenes.net##.item:has(> iframe[src^="https://go."])
 cutt.net##.aspace
 cutty.app,m4news.com,shoot-yalla.to,shoot-yalla.tv,tv.shoot-yalla.live,vivercomsaude.online,yalla-shoot-tv.io,yalla-shoots.tv##.demand-supply
+cybar.to##.hbu-banner,.ad-button-container
 cyberdefensemagazine.com###bsaIframe
 cyberdefensemagazine.com##[href^="https://www.coresecurity.com/"]
 cybermania.ws###zdn-adblock-overlay
