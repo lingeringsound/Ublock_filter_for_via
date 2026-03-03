@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HGsSStH+IxT2I5JxD3wr9w
-! Title: Ublock filter for Via(2026-03-03 00:33:02)
-! Version: 20260303003302
+! Checksum: upeaLs3a+q3VCTyQ0v7Q0w
+! Title: Ublock filter for Via(2026-03-03 09:17:18)
+! Version: 20260303091719
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-03 00:33:02
-! Total Count: 18575
-! Blocked Filters: 18575
+! Last modified: 2026-03-03 09:17:19
+! Total Count: 18594
+! Blocked Filters: 18594
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -14852,7 +14852,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1149
+!<<<<<通配符规则>>>>>1168
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14915,6 +14915,7 @@ $script,domain=zdnet.fr,third-party
 *%2Felink.thedailybeast.com%2F*$image
 *%2Fem.rumble.com%2Ft%2F*$image
 *%2Femail%2Ftracking.gif%3F*$image
+*%2Femail-analytics.*%2Fq%2F$image
 *%2Femail-interact-v2%2Fview%2F*$image
 *%2Fendeavor.omeclk.com%2Fportal%2Fwts%2F%2A.gif$image
 *%2Fgithub.com%2Fnotifications%2Fbeacon%2F$image
@@ -14929,21 +14930,27 @@ $script,domain=zdnet.fr,third-party
 *%2Flinks.mail.vistaprint.com%2Fs%2F*$image
 *%2Flinks1*%2Fq%2F$image
 *%2Flinks1*%2Fq%2F*$image
+*%2Fmail_tracking.php%3F*$image
 *%2Fmessaging-callback-api.msg.traveloka.com%2Fo%3F$image
 *%2Fmessaging-callback-api.msg.traveloka.com%2Fo%3F*$image
+*%2Fmkt.kultivi.com%2Femail%2F$image
 *%2Fnetmail01gm.gmarket.co.kr%2F*$image
+*%2Fone-alnk.com%2F*$image
 *%2Fopen.php%3F*$image
 *%2Fplatform-collector.viki.com%2Femail%2F$image
 *%2Fplatform-collector.viki.com%2Femail%2F*$image
 *%2Fpost.spmailtechnolo.com%2Fq%2F$image
 *%2Fpost.spmailtechnolo.com%2Fq%2F*$image
 *%2Fr.*%2Ftr%2Fop%2F*$image
+*%2Fr.news.zbigz.com%2Ftr%2F$image
 *%2Fs%2Feo%2F$image
 *%2Fs%2Feo%2F*$image
+*%2Fstatic-hello.bitdefender.com%2Fmo%2F*.gif*$image
 *%2Ft.ac.pandora.com%2F*$image
 *%2Ftrack%2Fopen.php%3F*$image
 *%2Ftrack%2Fopens%2F*$image
 *%2Ftrack-opening%2F*$image
+*%2Ftracking.*%2Fbeacon$image
 *%2Ftracking.logistics.post.ch%2Fq%2F$image
 *%2Ftracking.logistics.post.ch%2Fq%2F*$image
 *%2Ftracking.mail.shopee.$image
@@ -15094,11 +15101,15 @@ $script,domain=zdnet.fr,third-party
 .hubspotlinks.com%2FCto%2F$image
 .hubspotlinks.com%2FCto%2F*$image
 .hubspotlinks.com/Cto/$image
+.hubspotlinksstarter.com%2F*to%2F*$image
 .hubspotlinksstarter.com%2FCto%2F*$image
+.hubspotlinksstarter.com/*to/$image
 .hubspotlinksstarter.com/Cto/$image
 .icu/?h=*&user=$script,third-party
 .info/?h=*&user=$script,third-party
 .info/?key=*&pixel=
+.k-trk.com%2F*$image
+.k-trk.com/$image
 .life/js/popunder.js$third-party
 .live/1*.html?cep=
 .live/web/?sid=t*~
@@ -15328,6 +15339,7 @@ $script,domain=zdnet.fr,third-party
 /bonus/com-*.php?c=
 /bot-verification-check-re*.html^
 /bouncy.php?*&inPopUp=
+/c.*/CI0/*$image
 /c.easyfundraising.org.uk/*$image
 /cachingjs/settings.js
 /cachingjs/turboturbo.js
@@ -15414,6 +15426,7 @@ $script,domain=zdnet.fr,third-party
 /elink.thedailybeast.com/*$image
 /em.*/t/*$image
 /em.rumble.com/t/*$image
+/email-analytics.*/q/*$image
 /email-interact-v2/view/*$image
 /email/tracking.gif?$image
 /embed-1/ajax/e-1/banners|$xmlhttprequest
@@ -15535,6 +15548,7 @@ $script,domain=zdnet.fr,third-party
 /lv/esnk/*$script,third-party,domain=japscan.lol
 /lvesnk.html?zoneid=$third-party
 /ma.js^$script,domain=1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.*|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
+/mail_tracking.php?$image
 /main.js$script,third-party,domain=criptologico.com
 /mc-test/*/index.php?cid=
 /measurements/*.ts?rnd=$xmlhttprequest,third-party
@@ -15544,6 +15558,7 @@ $script,domain=zdnet.fr,third-party
 /merrx01/^
 /messaging-callback-api.msg.traveloka.com/o?$image
 /metrics^|$script,~third-party,domain=anizle.com|anizm.net|puffytr.com
+/mkt.kultivi.com/email/*$image
 /mlxhl/v*/for-page?$xmlhttprequest
 /mm.js^$script,domain=1337x.*|1337x.ninjaproxy1.com|x1337x.*
 /mod_ablockdetector/*
@@ -15571,6 +15586,7 @@ $script,domain=zdnet.fr,third-party
 /nt.js$domain=fc-lc.*|fc-lc.xyz|fc.lc|fitdynamos.com|jobzhub.store|labgame.io|tmail.io
 /nyaa\.land\/static\/[a-z0-9]{32}\.jpg$/$image,~third-party,domain=nyaa.land
 /oho.js$script,domain=androidapks.biz|androidsite.net|animeonlinefree.org|animesite.net|computercrack.com|crackedsoftware.biz|crackfree.org|cracksite.info|downloadapk.info|downloadapps.info|downloadgames.info|downloadmusic.info|downloadsite.org|ebooksite.org|emulatorsite.com|fmovies24.com|freeflix.info|freemoviesu4.com|freesoccer.net|fseries.org|gamefast.org|gamesite.info|gostreamon.net|hindisite.net|isosite.org|macsite.info|mangasite.org|megamovies.org|moviefree2.com|moviesite.app|moviesx.org|musicsite.biz|patchsite.net|pdfsite.net|play1002.com|productkeysite.com|romsite.org|seriesite.net|siteapk.net|siteflix.org|sitegames.net|sitekeys.net|sitepdf.com|sitesunblocked.*|sitetorrent.com|softwaresite.net|superapk.org|supermovies.org|tvonlinesports.com|ultramovies.org|warezsite.net|watchmovies2.com|watchmoviesforfree.org|watchsite.net|youapk.net
+/one-alnk.com/*$image
 /open.php?$image
 /other/btn/*/index.html?*p1=
 /p13n/batch/action/*$image
@@ -15614,6 +15630,7 @@ $script,domain=zdnet.fr,third-party
 /pw/waWQiOjEw*=eyJ.js^$script
 /quwet.js$script,~third-party
 /r.*/tr/op/*$image
+/r.news.zbigz.com/tr/*$image
 /rass7.$script,~third-party
 /realize.js$domain=redwap.me|redwap2.com|redwap3.com
 /recaptcha-v*-protocol-
@@ -15653,6 +15670,7 @@ $script,domain=zdnet.fr,third-party
 /smartlink/?a=
 /sp.*/q/*$image
 /splash.php?idzone=
+/static-hello.bitdefender.com/mo/*.gif$image
 /static/*/froload.js?v=$script,~third-party
 /static/exnb/froload.js?v=$script,~third-party
 /static/js/abb.js|$script,~third-party
@@ -15690,6 +15708,7 @@ $script,domain=zdnet.fr,third-party
 /track-opening/*$image
 /track/open.php?$image
 /track/opens/*$image
+/tracking.*/beacon$image
 /tracking.logistics.post.ch/q/*$image
 /tracking.mail.shopee.$image
 /tracking.vegasgems.com/*$image
