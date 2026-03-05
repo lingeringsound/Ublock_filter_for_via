@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: iyOyKU9HXbmtekDxES3Sdg
-! Title: Ublock filter for Via(2026-03-05 00:32:58)
-! Version: 20260305003258
+! Checksum: JowTleysTShyl3dpuL2TWA
+! Title: Ublock filter for Via(2026-03-05 09:15:44)
+! Version: 20260305091544
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-05 00:32:58
-! Total Count: 18622
-! Blocked Filters: 18622
+! Last modified: 2026-03-05 09:15:44
+! Total Count: 18623
+! Blocked Filters: 18623
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9096
+!<<<<<域名规则>>>>>9097
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6628,6 +6628,7 @@
 ||romancetime.jp^
 ||romancetrain.jp^
 ||romgoc.net^$third-party
+||romhandbook.com/assets/lib/adblock-
 ||ronnoble.com^
 ||room2021.net^
 ||roomoshirase.net^
@@ -9922,8 +9923,8 @@ blick.ch##[class*="_ad_"]
 blick.ch##aside:has(> div[id^="ad-placement"])
 blindhypnosis.com##.abcd
 blisseyhusband.net##.refresh-btn-styled
+blisseyhusband.net,fitnesstipz.com,meilblog.com##.adblock_title
 blisseyhusband.net,meilblog.com##.adblock_subtitle
-blisseyhusband.net,meilblog.com##.adblock_title
 blizzboygames.net##.gp-entry-text > div > div[style] > .vc_row.wpb_row.vc_row-fluid
 blizzboygames.net##[href*="bit.ly"]
 blog.aming.info##[href="https://om.aming.info/cpmadsterra"]
@@ -10954,6 +10955,7 @@ finya.de##div[class^="sc-"]:has(> div[class^="sc-"]:only-child > #desktop_top[st
 firefaucet.win##[class^="sticky-ad"]
 fitdynamos.com##.col-auto:has(> div[style] > [data-placement-id])
 fitdynamos.com##.d-md-block:has(> div[style] > [data-placement-id])
+fitnesstipz.com,getintopcm.com,howtocivil.com##body > .adblock_subtitle > p
 fivemturk.com##[src^="https://i.hizliresim.com/"]
 flacdownloader.com##.promo-banner
 flamecomics.xyz##main > div[class]:has(> iframe)
@@ -11232,7 +11234,6 @@ get.getpczone.com,rahim-soft.com,uploadrar.*###commonId > a[target="_blank"]
 get.instantearn.in##.banner-inner 
 getexploits.com##div.self-center
 getintopcm.com###block-23
-getintopcm.com,howtocivil.com##body > .adblock_subtitle > p
 getintopcm.com,howtocivil.com##body > .adblock_title
 getintopcm.com,howtocivil.com##body > div[class=""]
 getintoway.com###wpsafe-generate,div[id^="wpsafe-wait"]
