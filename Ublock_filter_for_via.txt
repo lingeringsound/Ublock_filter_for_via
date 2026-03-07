@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: cDB5bk9x7qvnRfBEg6Kixw
-! Title: Ublock filter for Via(2026-03-07 09:10:37)
-! Version: 20260307091037
+! Checksum: 9PN3fr5NN3t+lUdDgqHDdA
+! Title: Ublock filter for Via(2026-03-08 00:18:16)
+! Version: 20260308001816
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-07 09:10:37
-! Total Count: 18666
-! Blocked Filters: 18666
+! Last modified: 2026-03-08 00:18:16
+! Total Count: 18670
+! Blocked Filters: 18670
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9106
+!<<<<<域名规则>>>>>9108
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -905,6 +905,8 @@
 ||azuki-*.vercel.app^
 ||azureedge.net/*/esc.js
 ||azureedge.net/*/flscn.js
+||azurefd.net/?bcda=
+||azurefd.net/fullscreen.js
 ||azurefd.net/media/beep.mp3
 ||azureus.es^
 ||azurewebsites.net/alertmicrosoft.mp3
@@ -9120,7 +9122,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5752
+!<<<<<网站单独规则>>>>>5754
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9590,6 +9592,7 @@ animevietsub.*##.Adv
 animevietsub.*##.mobile-catfish-top
 animevietsub.*##.mobile-catfixx
 animevietsub.*##.pc-catfixx
+aniroleplay.com##.ad-top
 anisearch.com###content > #start + .pagewidth[style^="margin-left: 11px;"]
 anisearch.com###rightA
 anitube.*###iframeCore____
@@ -11803,6 +11806,7 @@ jacquieetmicheltv.net,porno-baguette.com##.espace-cam
 jalshamoviezhd.*##[href^="https://usounoul.com/"]
 japannews.yomiuri.co.jp##.pr_custom2
 japannews.yomiuri.co.jp##div[class^="ad_background"]
+japscan.*##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 japscan.lol###main > div.card.copinness:has(> div.tab-content.my-0 > div.manga_list.d-flex.flex-wrap.m-2 > div.p-2[style] > a.donate[target="_blank"][rel="noopener noreferrer nofollow"][href^="https://www.touribora.shop/manga/?type="] > img)
 japscan.lol###reader img[src="/110.png"]
 japscan.lol##.FjZoRa
