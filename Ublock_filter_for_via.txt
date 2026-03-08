@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 9PN3fr5NN3t+lUdDgqHDdA
-! Title: Ublock filter for Via(2026-03-08 00:18:16)
-! Version: 20260308001816
+! Checksum: QV5mDR1h4fFYDa2dV0QBHg
+! Title: Ublock filter for Via(2026-03-08 09:15:43)
+! Version: 20260308091543
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-08 00:18:16
-! Total Count: 18670
-! Blocked Filters: 18670
+! Last modified: 2026-03-08 09:15:43
+! Total Count: 18672
+! Blocked Filters: 18672
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9108
+!<<<<<域名规则>>>>>9109
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2757,6 +2757,7 @@
 ||facture-pdf-secure-*.vercel.app^
 ||faecbook.vn^
 ||fair.alivio-platform.com^
+||fairscrew.com^
 ||fairytail-tube.org/templates/caprica/amz$image,~third-party
 ||faithfuldifficulty.com^
 ||fakeserhelpsreivew-
@@ -9122,7 +9123,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5754
+!<<<<<网站单独规则>>>>>5755
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13172,6 +13173,7 @@ prepostseo.com###top-head-ad
 president.jp##.recommend
 pressplay.top##.btn-custom[target="_blank"]
 primeos.in##.elementor-popup-modal
+primevid.click##div[style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100vh; z-index: 3; background-color: transparent;"]
 primewire.*##.ico.close
 printablecreative.com##.gda-home-box
 prinxy.app##.native-ads-wrapper
