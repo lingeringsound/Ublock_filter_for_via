@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: pfKpdyVscOMWSXUFu2z0kg
-! Title: Ublock filter for Via(2026-03-09 00:18:21)
-! Version: 20260309001821
+! Checksum: e14q0mVXyUzLFkIpkcpfIQ
+! Title: Ublock filter for Via(2026-03-09 09:16:05)
+! Version: 20260309091605
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-09 00:18:21
-! Total Count: 18710
-! Blocked Filters: 18710
+! Last modified: 2026-03-09 09:16:05
+! Total Count: 18712
+! Blocked Filters: 18712
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9112
+!<<<<<域名规则>>>>>9113
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6106,6 +6106,7 @@
 ||player-feedback*.glomex.*^
 ||player-feedback.p7s1video.net/pf/$script
 ||player.*.sbs/adsconfig.json
+||player.*/adsconfig.json
 ||player.234us.sbs/adsconfig.json
 ||player.cuevana.ac/cdn-cgi/trace$xmlhttprequest,~third-party
 ||player.gliacloud.com^$third-party
@@ -14886,7 +14887,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1249
+!<<<<<通配符规则>>>>>1250
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15379,6 +15380,7 @@ $script,domain=zdnet.fr,third-party
 /api/models/vast$xmlhttprequest,domain=buktube.com|colourxh.site|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|unlockxh4.com|valuexh.life|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhchannel2.com|xhdate.world|xhday.com|xhday1.com|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtab2.com|xhtab4.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwebsite5.com|xhwide1.com|xhwide2.com|xhwide5.com|xhxh3.xyz
 /api/models/vast?userId=*&adblocked=$xmlhttprequest,~third-party
 /api/models?userId=$xmlhttprequest,domain=buktube.com|colourxh.site|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|unlockxh4.com|valuexh.life|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhchannel2.com|xhdate.world|xhday.com|xhday1.com|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtab2.com|xhtab4.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwebsite5.com|xhwide1.com|xhwide2.com|xhwide5.com|xhxh3.xyz
+/api/popads-code
 /api/popv2.php$xmlhttprequest,~third-party
 /api/spots/*&kw=$xmlhttprequest
 /api/spots/*^fill=$xmlhttprequest
