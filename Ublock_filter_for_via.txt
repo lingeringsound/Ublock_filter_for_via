@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hzV1Rd33pvML2DN65j6JQA
-! Title: Ublock filter for Via(2026-03-14 09:13:00)
-! Version: 20260314091300
+! Checksum: oGb5whRX9nsDFyMXqbmZXA
+! Title: Ublock filter for Via(2026-03-15 00:20:36)
+! Version: 20260315002036
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-14 09:13:00
-! Total Count: 18770
-! Blocked Filters: 18770
+! Last modified: 2026-03-15 00:20:36
+! Total Count: 18778
+! Blocked Filters: 18778
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9128
+!<<<<<域名规则>>>>>9135
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1611,6 +1611,7 @@
 ||chervindi.com^
 ||chess.com/service/user-activity/chesscom.user_activity.v1.UserActivityHttpBridgeService/DispatchEventBatch
 ||chesscheckersvariation.com^
+||chessgames.com/opt.js
 ||chi-yo-1807chiyo.com^
 ||chicavora.com^
 ||chief-child.com^
@@ -2026,6 +2027,8 @@
 ||cylindrical-suggestion.com^
 ||cyou/player/assets/js/ads.js?v=$script,~third-party
 ||cyou/player/assets/js/jquery.js?v=$script,~third-party
+||cyrexmods.cc^
+||cyrexmods.to^
 ||d*wsapp.icu^
 ||d-hiyori.com^
 ||d-position.com^
@@ -3920,6 +3923,7 @@
 ||imtoken.org.cn^
 ||incorcg.com^
 ||incorenext.com^
+||increaserev4.static-cloudflare.workers.dev^
 ||indeedlikewise-342.com^
 ||indi-ana.jp^
 ||indiatimes.com/detector$script
@@ -4412,6 +4416,7 @@
 ||kousenkan.com^
 ||koy.jp^
 ||koyso.*/static/js/abcd.js
+||kpopsingers.com/*.php?t=
 ||kraftonevent.com^
 ||kraken-exchange.com^
 ||krx18.com/show-promote.js
@@ -5092,6 +5097,7 @@
 ||mingvip.com^
 ||miniurl.*/sw.js$script,~third-party
 ||mintiia.com^
+||minutemedia-prebid.com^
 ||mio-love2.wixsite.com^
 ||miracle-door.com^
 ||miracle.magic-connect.net^
@@ -7319,6 +7325,7 @@
 ||stash.adcat.moe/script.js$script
 ||statcounter.com^$third-party
 ||stateless.me/yxz1/$script,~third-party
+||static-cloudflare.workers.dev/?target=aHR0c*$script,third-party
 ||static-fonts.com^
 ||static.accesstrade.vn/js/atsmarttag.min.js
 ||static.addevweb.com/integrations$script,third-party
@@ -16522,7 +16529,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2271
+!<<<<<放行白名单>>>>>2272
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18787,6 +18794,7 @@ winscreener.live#@#.ad-block
 worldpopulationreview.com#@##top_ad_container
 wp.pl#@#[class^="css-"]
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl#@#[class^="advertisement"]
+www.google.*#@#div[data-async-context] [style]:has(a[href^="/aclk?sa="])
 xissmie.xfolio.jp,misskey.art#@#div[data-sticky-container-header-height] > div[refresher] div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"])
 yourmomdoesporn.com#@#[data-revive-zoneid]
 youtube.com#@##player-ads
