@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OJdXgXr8XxzFafgX3n9b+g
-! Title: Ublock filter for Via(2026-03-16 00:21:45)
-! Version: 20260316002145
+! Checksum: 3wAaob5kvb7dC5FwHIbfRQ
+! Title: Ublock filter for Via(2026-03-16 09:24:50)
+! Version: 20260316092450
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-16 00:21:45
-! Total Count: 18793
-! Blocked Filters: 18793
+! Last modified: 2026-03-16 09:24:50
+! Total Count: 18794
+! Blocked Filters: 18794
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -16544,7 +16544,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2272
+!<<<<<放行白名单>>>>>2273
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17877,6 +17877,7 @@ voz.vn/b/image.gif?p=$image
 @@||pandora.com/web-version/*.json$xmlhttprequest,~third-party
 @@||pandora.com/web-version/*_comscore.$script,~third-party
 @@||pandora.com/web-version/*_googleAnalytics.$script,~third-party
+@@||panel.play.hosting^$script,~third-party
 @@||panelist.cint.com/assets/embed.min.js^$script,domain=surveyrewardz.com
 @@||paraphrasing-tool.com^$script,~third-party
 @@||parse.ly/page-data/help/api/analytics/$xmlhttprequest,~third-party
