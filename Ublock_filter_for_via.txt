@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: xBHrUH3/NJ5sEYYmL/zr+g
-! Title: Ublock filter for Via(2026-04-05 09:28:38)
-! Version: 20260405092838
+! Checksum: Qh19TsASESzh+MLOa2kHmw
+! Title: Ublock filter for Via(2026-04-05 22:13:35)
+! Version: 20260405221335
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-05 09:28:38
-! Total Count: 19072
-! Blocked Filters: 19072
+! Last modified: 2026-04-05 22:13:35
+! Total Count: 19086
+! Blocked Filters: 19086
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9239
+!<<<<<域名规则>>>>>9240
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1034,7 +1034,7 @@
 ||befuls.shop^
 ||beinsports.com/*/adbw/
 ||beixisys.com^
-||beixisys.com^$script,domain=cekresi.me|datapendidikan.com|go.fakta.id|tempatwisata.pro
+||beixisys.com^$script,domain=cekresi.me|crm.urlwebsite.com|datapendidikan.com|go.fakta.id|tempatwisata.pro
 ||beldooschae.com^
 ||belezaesaudeinnovations.com^
 ||bell-02.com^
@@ -4680,6 +4680,7 @@
 ||loader.horairesdouverture24.fr^
 ||loader.kreuzwortraetsel.de^
 ||loader.motor-talk.de^
+||loader.motscroises.fr^
 ||loader.nyitvatartas24.hu^
 ||loader.oeffnungszeitenbuch.de^
 ||loader.oraridiapertura24.it^
@@ -6582,7 +6583,7 @@
 ||rbchidraulica.com.br/info/verify^
 ||rblx-copier.vercel.app^
 ||rblx.land^
-||rc.patagonenki.shop^$domain=cekresi.me|datapendidikan.com|go.fakta.id|tempatwisata.pro
+||rc.patagonenki.shop^$domain=cekresi.me|crm.urlwebsite.com|datapendidikan.com|go.fakta.id|tempatwisata.pro
 ||rcestershir.com^
 ||rcsobjects.it/rcs_anti-adblocker
 ||rcuacroossonec.com.ua^
@@ -9766,6 +9767,7 @@ apkpure.com##.ad-box-auto
 apl374.me###adbtm
 apnews.com##.SovrnAd
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
+app.cekresi.me,crm.urlwebsite.com,datapendidikan.com,go.fakta.id,tempatwisata.pro##button[x-on\:click="openPopup"]:not([x-bind\:disabled])
 app.hellovaia.com,app.studysmarter.de,app.vaia.com##aside > .ng-star-inserted
 appnee.com##[href^="https://appnee.com/advertising/"] > [src^="https://img.appnee.com/other/"][alt="Ads Place"]
 appnee.com##div[class][id]:has(div.aao_box)
@@ -11440,7 +11442,6 @@ gmanetwork.com##div[class*="-leaderboard"]
 gmx.*###adservice-top
 gmx.*##.ad-content
 gmx.*##.main [data-ac]:empty
-go.fakta.id,datapendidikan.com,app.cekresi.me,tempatwisata.pro##button[x-on\:click="openPopup"]:not([x-bind\:disabled])
 go.freetrx.fun##form center > div[id^="_"]
 go.gets4link.com##.mx-auto > center
 go.publicearn.com##.page-header > h3, .banner, .bg-soft-primary
@@ -15049,7 +15050,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1432
+!<<<<<通配符规则>>>>>1444
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15152,6 +15153,7 @@ $script,domain=zdnet.fr,third-party
 *%2Fhsctaimages.net%2Fctas%2F%2A%2Fpublic%2Fcs%2Fil%2F%3F$image
 *%2Flink%2Fo%2F*$image
 *%2Flink-mf.*%2FCI0%2F$image
+*%2Flink.*%2Fq%2F$image
 *%2Flink.koyeb.com%2Fe%2F$image
 *%2Flink.koyeb.com%2Fe%2F*$image
 *%2Flinks.*%2Fe%2Feo%3F$image
@@ -15182,6 +15184,7 @@ $script,domain=zdnet.fr,third-party
 *%2Fnetmail01gm.gmarket.co.kr%2F*$image
 *%2Fnewsletter%2Fp%2F%3F$image
 *%2Fnewsletter.*%2Fmo%2F$image
+*%2Fnewsletters.*%2Ft%2F$image
 *%2Fnotification%2Fconvo%2Fread%2F$image
 *%2Fo%2Fp%2F$image
 *%2Fone-alnk.com%2F*$image
@@ -15362,6 +15365,10 @@ $script,domain=zdnet.fr,third-party
 .com/static/new_popunder5.js|$script,~third-party
 .com/t6pp7e3?t=
 .com/v.js?v=3|$~third-party
+.comms.yahoo.net%2FO%2F$image
+.comms.yahoo.net/O/$image
+.communications.yahoo.com%2Ft%2F$image
+.communications.yahoo.com/t/*$image
 .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
 .convertkit-mail.com%2Fo%2F$image
 .convertkit-mail.com/o/$image
@@ -15721,6 +15728,7 @@ $script,domain=zdnet.fr,third-party
 /click?pid=*&offer_id=
 /click?pid=*&sub1=
 /clickemail/*$image
+/clicks.anghami.com/q/*$image
 /cloudflare-v1-getup-*.html^
 /cmail.bitcasino.io/*$image
 /code/script/back.php|
@@ -15791,6 +15799,7 @@ $script,domain=zdnet.fr,third-party
 /email.communications.yahoo.com/t/*$image
 /email.marketing.*/o/*$image
 /email.marketing.go-jek.com/o/*$image
+/email.mkt.deviantart.com/o/*$image
 /email.start.me/o/*$image
 /email.unsplash.com/o/*$image
 /email/tracking.gif?$image
@@ -15915,7 +15924,9 @@ $script,domain=zdnet.fr,third-party
 /line.my.salesforce.com/s.gif$image
 /line.my.salesforce.com/servlet/servlet.ImageServer?oid=$image
 /link-mf.*/CI0/*$image
+/link.*/q/*$image
 /link.koyeb.com/e/*$image
+/link.surfline.com/q/*$image
 /link/o/*$image
 /links.*/e/eo?
 /links.*/e/o/ey*==^$image
@@ -15992,6 +16003,8 @@ $script,domain=zdnet.fr,third-party
 /newsletter.*/mo/*$image
 /newsletter.franzis.de/mo/*$image
 /newsletter/p/?$image
+/newsletters.*/t/*$image
+/newsletters.cbc.ca/t/*$image
 /ng-device-detector.min.js|$script,third-party
 /ng.gif?s*&e=$image,script,third-party
 /ng.gif?s*&e=$image,third-party
@@ -16309,7 +16322,7 @@ $script,domain=zdnet.fr,third-party
 ://link.patch.com/img/*.gif$image
 ://link.patch.com/img/*.gif^$image
 ://links1.pawns.app/q/$image
-://loader.*.js|$script,~third-party,domain=crosswordsolver.com|gutefrage.net|kreuzwortraetsel.de|oeffnungszeitenbuch.de|word-grabber.com|wort-suchen.de
+://loader.*.js|$script,~third-party,domain=crosswordsolver.com|gutefrage.net|kreuzwortraetsel.de|motscroises.fr|oeffnungszeitenbuch.de|word-grabber.com|wort-suchen.de
 ://loc.*.com/renderer/renderer.js|$script,third-party
 ://log.$image,~third-party,domain=znews.vn|zingnews.vn
 ://media.*/js/code.min.js|$script,third-party
@@ -16813,7 +16826,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2282
+!<<<<<放行白名单>>>>>2283
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18879,6 +18892,7 @@ ewybory.eu#@#.advertisment
 exploader.net#@#a[href^="https://al.dmm.co"]
 exploader.net#@#a[style*="display:"][href^="https://al.dmm.co.jp"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 fapeza.com#@#.azz_div
 fontyukle.net#@#div[class^="sag-ust"]
 forbes.it#@#.ad-row
