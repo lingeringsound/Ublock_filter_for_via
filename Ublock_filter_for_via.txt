@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: CyDrJrk5ep4Ce7m4zRCvMw
-! Title: Ublock filter for Via(2026-04-08 09:26:11)
-! Version: 20260408092611
+! Checksum: zxLV4U9ltRvEN33ryFIn2w
+! Title: Ublock filter for Via(2026-04-09 00:52:07)
+! Version: 20260409005207
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-08 09:26:11
-! Total Count: 19152
-! Blocked Filters: 19152
+! Last modified: 2026-04-09 00:52:07
+! Total Count: 19160
+! Blocked Filters: 19160
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9283
+!<<<<<域名规则>>>>>9288
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -987,6 +987,7 @@
 ||bancolombiaapp.glitch.me^
 ||bandi-cam.cc^
 ||banditsmutter.qpon^
+||bangyoul.cn^
 ||bankplus.co.com^
 ||banque-online.com^
 ||banquet-barbecue.com^
@@ -3443,6 +3444,7 @@
 ||goneleft.com^
 ||good.toll.trave-talk.jp^
 ||goodstream.one/js2/noadblocker.js
+||googgle-chrrome.hl.cn^
 ||googie-anaiytics.com^
 ||google-analyticals.com^
 ||google-analytics.com^$xmlhttprequest,domain=japscan.lol
@@ -4102,6 +4104,7 @@
 ||irene-fortuna.com^
 ||irha.jp^
 ||iri195.net^
+||iridia.me^
 ||irie3.net^
 ||iris-808.com^
 ||iris-making.com^
@@ -4530,6 +4533,7 @@
 ||lab-chaingpt.net^
 ||lacqplus.tests.step.eco^
 ||lacworkamenty.com^
+||laiwujiaoyu.com^
 ||lalielynaualish.com^
 ||lalien10.com^
 ||lambda-url.*.on.aws/v1/rgstr?
@@ -6503,6 +6507,7 @@
 ||qakzfubfozaj.com^
 ||qbittorrent.com^
 ||qbk1.com/1.gif?
+||qeeyou.cn^
 ||qeucuzpbv6jq.jp^
 ||qf6tm5ug.com^
 ||qhigh.com^
@@ -9297,7 +9302,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5797
+!<<<<<网站单独规则>>>>>5799
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9442,7 +9447,7 @@ $script,domain=zdnet.fr,third-party
 21porno.com###s-container
 21porno.com###s-title
 22pixx.xyz##[class^="resp-container"]
-25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,bithub.win,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,claimbits.io,classic-retro-games.com,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,digitask.ru,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,faucetcrypto.net,fautsy.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gainbtc.click,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i-bits.io,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,is2btc.com,jetseotools.com,jiocinema.com,key-hub.eu,kwamkidhen.com,larvelfaucet.com,leechpremium.link,letmeread.net,lightnovelworld.*,lightnovelworld.com,linfoweb.com,listatv.pl,logaritmo.org,lootdb.com,loveawake.com,luckydice.net,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,mercedesclub.cz,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,multifaucet.org,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,starbux.io,swift4claim.com,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vedetta.org,vidlii.com,vinstartheme.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,work.ink,worldaide.fr,yoursavegames.com,ytlarge.com,zikloud.com,~dogdrip.net,~infinityfree.com,~smsonline.cloud##ins
+25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,alfaloji.org,allkaicerteam.com,an1me.*,animet.tv,appnee.com,aradramatv.co,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,bithub.win,boardgamesonline.net,bookmarksway.com,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,checkz.net,claimbits.io,classic-retro-games.com,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,digitask.ru,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,faucetcrypto.net,fautsy.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freecoursewebsite.com,freetutorialsus.com,freevstplugins.net,fulltip.net,g-status.com,gainbtc.click,gamebrew.org,gastroepato.it,gatevidyalay.com,genelpara.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i-bits.io,i8086.de,idalponse.blogspot.com,info-desk.co.za,iphonetweak.fr,is2btc.com,jetseotools.com,jiocinema.com,key-hub.eu,kwamkidhen.com,larvelfaucet.com,leechpremium.link,letmeread.net,lightnovelworld.*,lightnovelworld.com,linfoweb.com,listatv.pl,litomi.in,logaritmo.org,lootdb.com,loveawake.com,luckydice.net,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,menjelajahi.com,mercedesclub.cz,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,multifaucet.org,mysavenshare.com,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,nxmac.com,onuploads.com,otakukan.com,oztoml.com,pinsystem.co.uk,plg.ovakode.com,ponselharian.com,precitaj.si,premid.app,printerprojects.com,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,robloxexploitz.com,romadd.com,rtxkeeda.com,safelinkunited.blogspot.com,safetxt.*,sandalwoodking.rocks,seirsanduk.*,seopolarity.com,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,sport-tv-guide.live,starbux.io,swift4claim.com,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,theinnews.com,themosvagas.com.br,thizissam.in,toolss.net,tripolicastle.com,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadmx.com,uploadshare.net,userstyles.org,userupload.*,vedetta.org,vidlii.com,vinstartheme.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,wikihow.com,windisgood.com,work.ink,worldaide.fr,yoursavegames.com,ytlarge.com,zikloud.com,~dogdrip.net,~infinityfree.com,~smsonline.cloud##ins
 25cineframes.com,a2zapk.*,a2zupload.com,acilissaati.com,adproceed.com,akwams.*,allkaicerteam.com,an1me.*,appnee.com,arrowos.net,audiotools.*,ausfile.com,automodeler.com,bigwavedave.ca,boardgamesonline.net,british-birdsongs.uk,canalnatelinhaonline.blogspot.com,charbelnemnom.com,cloudstorageoptions.com,club-opel.com,code2care.org,cours-de-droit.net,cpu-world.com,cyberbunkers.com,dcode.fr,designoptimal.com,dutchycorp.*,dynamicpapers.com,escapegames24.com,evileaks.*,explosivemenu.com,famfonts.com,file-upload.*,filezipa.com,finalboss.io,football-highlight.com,forum.iptvkalite.com,foxella.com,freecourseweb.com,freevstplugins.net,g-status.com,gamebrew.org,gastroepato.it,gatevidyalay.com,getfreecourses.*,getpaidstock.com,grafixfather.com,granadaesnoticia.com,guiamuriae.com.br,gulf-up.com,guncelakademi.com,hayastantv.me,homedecoratione.com,hunter.fm,i8086.de,info-desk.co.za,iphonetweak.fr,key-hub.eu,kwamkidhen.com,leechpremium.link,listatv.pl,lootdb.com,loveawake.com,m.kuku.lu,magiclen.org,mathportal.org,memexcomputer.it,memoriadatv.com,meteo365.es,minorpatch.com,mitly.us,motoroids.com,mtabrasil.com.br,myshorturls.blogspot.com,myuploadedpremium.de,nekomeowmeow.com,novelgo.id,numbersinwords.net,otakukan.com,oztoml.com,ponselharian.com,precitaj.si,premid.app,quizglobal.com,rawstory.com,reactgo.com,redheadpassions.com,renault-club.cz,safelinkunited.blogspot.com,safetxt.*,seirsanduk.*,shana.pe.kr,shrtfly.*,smallseo.tools,sms-anonyme.net,smscodeonline.com,software-on.com,techdracula.com,techperiod.com,tekfiz.com,teknolojiprojeleri.com,tercihiniyap.net,thebookee.net,thehouseofportable.com,themosvagas.com.br,uniquetutorialsnew.blogspot.com,unlockapk.com,uploadshare.net,userstyles.org,userupload.*,vedetta.org,vidlii.com,vinstartheme.com,vww.yggtorrent.fr,walkingenglishman.com,wallpaperwaifu.com,webserver.one,webtvhd.com,why-tech.it,wikihandbk.com,windisgood.com,work.ink,worldaide.fr,yoursavegames.com##ins.adsbygoogle
 2conv.com,flvto.biz##.content-right-bar
 2conv.com,flvto.biz##.horizontal-area
@@ -12466,6 +12471,7 @@ marketrealist.com##.gXgoom > div
 marriedgames.com.br##._ning_cont:has(.adsbygoogle)
 marriedgames.com.br##.show-prompt
 mathebibel.de###banner-bottom
+mathplayground.com###revcatch_modal
 mathplayground.com##.bottom-leader
 mathportal.org##.googleOglasVrhCalculatorResp
 mathway.com###static-ad-right-alt
@@ -14238,6 +14244,7 @@ theswagsports.com##a[rel*="sponsored"]
 thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 thetimes.co.uk##[class*="responsive__NativeAd"]
 thetimes.com##.channel-header-ad
+theverge.com##.duet--homepage--hero > div[class] > div[class] > div[class]:has(> div[data-concert="medrec_frontpage_hero_mobile"])
 thevidhd.*##.video_batman
 thevidhd.*##h1
 thingiverse.com##[class*="ThingPage__topAd"]
@@ -16892,7 +16899,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2283
+!<<<<<放行白名单>>>>>2284
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18877,6 +18884,7 @@ ads.snapchat.com,cyfostreams.com,porntn.com#@#.banner_ad
 adsrt.*#@#div[id*="ScriptRoot"]
 advertisertape.com,tapeadsenjoyer.com,tapeadvertisement.com,tapeantiads.com,tapelovesads.org,tapenoads.com,watchadsontape.com#@#.skyscraper.ad
 allround-pc.com#@#a[rel="noopener external"] > img[src^="/"]
+alltransistors.com#@##reklama
 aman-dn.blogspot.com#@#.ads-ad
 amazon.*#@#div[data-csa-c-type="widget"]:has([data-ad-feedback-label-id])
 ameblo.jp#@##entryLi > li.skin-mod-bg-color.skinOpacity
