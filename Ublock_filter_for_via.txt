@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: qCMFzsEmFBNwsQ65Sjsiqg
-! Title: Ublock filter for Via(2026-04-09 09:18:19)
-! Version: 20260409091819
+! Checksum: b+pThm69jLqP1cPp6gyqfw
+! Title: Ublock filter for Via(2026-04-10 00:58:05)
+! Version: 20260410005805
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-09 09:18:19
-! Total Count: 19160
-! Blocked Filters: 19160
+! Last modified: 2026-04-10 00:58:05
+! Total Count: 19166
+! Blocked Filters: 19166
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9288
+!<<<<<域名规则>>>>>9293
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1431,6 +1431,7 @@
 ||cd7z7b.com^
 ||cda-online.pl/wp-content/uploads/*.js$script
 ||cdi.ofiii.com/*/video/ad_urls
+||cdn-n.net^
 ||cdn-npmjs.com^
 ||cdn-prod.securiti.ai/consent/auto_blocking/$domain=xfinity.com
 ||cdn-server.beer/api/css.js
@@ -1438,6 +1439,8 @@
 ||cdn-surfline.com/*/preroll_$image,third-party,domain=surfline.com
 ||cdn-telegram.com^
 ||cdn-webstats.com^
+||cdn-x.net^
+||cdn-z.net^
 ||cdn.710k.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
 ||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -7806,6 +7809,8 @@
 ||tekhacks.net^
 ||teknofenomen.com/forum/ext/*/js/adblock_detection.js
 ||telaagam.maxisl.vip^
+||telega.info^
+||telega.me^
 ||telegeram.work^
 ||telegerasm.work^
 ||telegr.am/user_mgt/login
@@ -9302,7 +9307,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5799
+!<<<<<网站单独规则>>>>>5800
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14761,6 +14766,7 @@ web.facebook.com,www.facebook.com##a[aria-labelledby][attributionsrc][href^="htt
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-label][aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc][href^="http"][target="_blank"][role="link"][rel="nofollow noreferrer"]:has(img[src])
+web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/./?eid="][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[aria-label][attributionsrc="_blank"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
