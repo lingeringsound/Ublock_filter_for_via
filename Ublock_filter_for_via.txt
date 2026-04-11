@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Pk52z/kdVlwXPM4VevkVfw
-! Title: Ublock filter for Via(2026-04-11 09:22:25)
-! Version: 20260411092225
+! Checksum: vzbvz0+JlDtk5DztIUQ8fQ
+! Title: Ublock filter for Via(2026-04-12 00:26:41)
+! Version: 20260412002641
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-11 09:22:25
-! Total Count: 19182
-! Blocked Filters: 19182
+! Last modified: 2026-04-12 00:26:41
+! Total Count: 19190
+! Blocked Filters: 19190
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9298
+!<<<<<域名规则>>>>>9305
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4523,6 +4523,7 @@
 ||kyberswap-v2.xyz^
 ||kyberwsap.net^
 ||kygt-tpnr.com^
+||kyrelune.net^
 ||kyrmtjxzbdzszrrkgt.com^
 ||kythuatdmayxanh.com^
 ||kz3wnibp.cfd^
@@ -4625,6 +4626,7 @@
 ||lidarusa.com/*/Bpostale2022/
 ||lido-elhereum.net^
 ||lien-lienam.com^
+||life-certain.jp^
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
 ||ligabenelux.com^
@@ -6355,6 +6357,7 @@
 ||pradjadj.com/*banner$image
 ||prahmnatured.com^
 ||prairiemountainmedia.com^$third-party
+||prasquinor.jp^
 ||praterage-colled.com^
 ||prelandappslab.com^
 ||premium-2023.click^
@@ -6764,6 +6767,7 @@
 ||rochestertrend.com^
 ||rogueleader.org^
 ||rokuseikantei.com^
+||roll-tooth.com^
 ||rollfa.net^
 ||rolpenszimocca.com^
 ||romacsystems.com/*/CHFINAL/
@@ -8291,6 +8295,7 @@
 ||underwaterexilemovements.com^
 ||undianhadiah.erhinfo.com^
 ||undoneferocious.com^
+||undoubtedlydoerdivided.com^
 ||unetbootin.net^
 ||unetbootin.org^
 ||unfurlsburgesshalvas.qpon^
@@ -8626,6 +8631,7 @@
 ||vugpakba.com^
 ||vugqkeanmhm.com^
 ||vulnerableimmigrateaboveaverage.com^
+||vultenok.net^
 ||vutipseethu.net^
 ||vutkaqlakbp.com^
 ||vuwomoby.pro^
@@ -9224,6 +9230,7 @@
 ||zaf.api.fanbyte.com/stable/js/
 ||zaisofohow.net^
 ||zaitaku-baito.com^
+||zalenith.com^
 ||zalukaj.io/detector.js$script
 ||zbporn.*/tri/zp.js
 ||zbporn.*/ttt/
@@ -10095,7 +10102,8 @@ bing.com##ol#b_results > li.b_algo:has(> .b_caption > p[ads])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bingotingo.com###please-wait
-biovetro.net,dailyjobposting.xyz,digiztechno.com,shrtslug.biz,srtslug.biz,technons.com,tournguide.com,yrtourguide.com##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper
+biovetro.net,dailyjobposting.xyz,digiztechno.com,shrtslug.biz,srtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper
+biovetro.net,dailyjobposting.xyz,digiztechno.com,shrtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##.entry-header, hr, figure.wp-block-table, #right-sidebar, .inside-article > .entry-meta, .comments-area, .site-footer, .max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(.clever-core-ads), div.w-full.flex.flex-wrap.items-center.justify-evenly.gap-3
 birdurls.com###bg_popup
 birdurls.com###link-view > br
 birdurls.com##.box-main center
@@ -10593,7 +10601,6 @@ daftporn.com###lay2Blur
 daftsex.net##.videos > div:not([id])
 daihatsu-club.net##[class^="side_ad_left_"]
 daihatsu-club.net##[class^="side_ad_right_"]
-dailyjobposting.xyz,biovetro.net,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz##.entry-header, hr, figure.wp-block-table, #right-sidebar, .inside-article > .entry-meta, .comments-area, .site-footer, .max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(.clever-core-ads), div.w-full.flex.flex-wrap.items-center.justify-evenly.gap-3
 dailymail.co.uk##.mol-ads-label-container
 dailymail.co.uk##ad-slot
 dailymotion.com##.WatchingDiscovery__adSection___eLtfR
@@ -16920,7 +16927,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2285
+!<<<<<放行白名单>>>>>2286
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17550,6 +17557,7 @@ voz.vn/b/image.gif?p=$image
 @@||code.adsales.snidigital.com/conf/ads-config.js$script,domain=foodnetwork.com|travelchannel.com
 @@||code.giraff.io/data/widget-vslv.js$script,domain=vs.lv
 @@||code.jquery.com^$script,domain=pch.com
+@@||codicibancari.it/*/prebid_*.js$domain=decompiler.com
 @@||codicibancari.it/scripts/tracking/pixel/conversion/prebid_*.js$domain=decompiler.com
 @@||cohesion.bankrate.com/cohesion/cohesion-latest.min.js$script,~third-party
 @@||coinlyhub.com^$script,~third-party
