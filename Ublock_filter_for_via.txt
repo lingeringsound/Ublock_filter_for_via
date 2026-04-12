@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: uWMEFwkCuVmCWlKIc//oHg
-! Title: Ublock filter for Via(2026-04-12 09:45:00)
-! Version: 20260412094500
+! Checksum: HV4dV/uWHN8E2gr2DCnuxA
+! Title: Ublock filter for Via(2026-04-13 00:28:33)
+! Version: 20260413002834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-12 09:45:00
-! Total Count: 19191
-! Blocked Filters: 19191
+! Last modified: 2026-04-13 00:28:34
+! Total Count: 19195
+! Blocked Filters: 19195
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9305
+!<<<<<域名规则>>>>>9307
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1710,6 +1710,7 @@
 ||clasm.live^
 ||clc-link.me^
 ||clean-2-clean.club^
+||cleanguard.tech^
 ||cleanmymacos.org^
 ||cleanphonefast.com^
 ||cleanupharm.com^
@@ -4165,6 +4166,7 @@
 ||japanonlinebroadcast.live^
 ||japanporn.tv/rg3y/*$script
 ||japantimes.co.jp/wp-content/themes/jt_theme/library/css/piano.css
+||jartibbinght.com^
 ||jasnathvibes.com^
 ||jav-xx.com/wp-content/uploads/*.gif$image
 ||javaninja.shop^
@@ -9319,7 +9321,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5808
+!<<<<<网站单独规则>>>>>5809
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9665,7 +9667,7 @@ advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,haaret
 advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,northern-scot.co.uk,stratford-herald.com##.MPU
 advertisingexcel.com,allcryptoz.net,batmanfactor.com,crewbase.net,crewus.net,documentaryplanet.xyz,gametechreviewer.com,midebalonu.net,misterio.ro,phineypet.com,seory.xyz,shinbhu.net,shinchu.net,substitutefor.com,talkforfitness.com,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
-advicefunda.com,anhdep24.com,asideway.com,bestloanoffer.net,computerpedia.in,cryptonetos.ru,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreoweb.es,eldia.es,elperiodico.com,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,epe.es,farodevigo.es,g-porno.com,g-streaming.com,giga-streaming.com,gofile.download,informacion.es,lacronicabadajoz.com,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat,soccerinhd.com,superdeporte.es,techconnection.inn,universitiesonline.xyz,ustream.to##.popup
+advicefunda.com,anhdep24.com,asideway.com,bestloanoffer.net,computerpedia.in,computerpedia.inn,cryptonetos.ru,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreoweb.es,eldia.es,elperiodico.com,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,epe.es,farodevigo.es,g-porno.com,g-streaming.com,giga-streaming.com,gofile.download,informacion.es,lacronicabadajoz.com,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat,soccerinhd.com,superdeporte.es,techconnection.inn,universitiesonline.xyz,ustream.to##.popup
 advicefunda.com,bestloanoffer.net,businesstimes.com.sg,castmax.live,computerpedia.in,eroticmoviesonline.me,evano.com,fairyanime.com,food.ndtv.com,go.linkify.ru,imgprime.com,is2btc.com,mlb66.ir,moviesonlinefree.net,phica.net,pornhd.com,realgfporn.com,scrambled.world,shellshock.io,skidrowcodex.net,swift4claim.com,techconnection.in,tokuzilla.net,tokuzl.net,universitiesonline.xyz,ustream.to,vkspeed.com,vuinsider.com,worldsex.com,www.uol##.overlay
 adweek.com##.widget-adweek-sticky-next:has(> .htl-ad-wrapper)
 adz7short.space###banner_slider_right
@@ -9692,6 +9694,7 @@ alemannia-aachen.de###grid-image-head
 alemannia-aachen.de##.b-error
 alexsports.*,btvsports.my,buffsports.me,buffstreams.*,cr7-soccer.store,cracksports.me,cricwatch.io,e2link.link,fbstream.*,fbstreams.*,fsportshd.xyz,kakarotfoot.ru,mlbbox.me,nbabox.co,nflstreams.me,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipbox.*,vipboxtv.*,viprow.*,vipstand.pm,worldcupstream.pm,worldsports.*,~vipbox.pl##.position-absolute
 alexsports.*,btvsports.my,cr7-soccer.store,cracksports.me,cricwatch.io,e2link.link,fsportshd.xyz,kakarotfoot.ru,nbabox.co,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipstand.pm,worldsports.*##.position-absolute.top-0
+alexsports.*,cr7-soccer.store,cracksports.me,cricwatch.io,e2link.link,fsportshd.xyz,kakarotfoot.ru,nbabox.co,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipstand.pm,worldsports.*##.position-absolute.top-0
 alkas.lt###stpd-tablet-1
 alkas.lt##.vc_hidden-xs.vc_hidden-sm.vc_hidden-md.vc_col-sm-12.vc_column_container.wpb_column
 allafricangirls.net##[id^="exo_"]
@@ -15130,7 +15133,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1466
+!<<<<<通配符规则>>>>>1467
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15435,6 +15438,7 @@ $script,domain=zdnet.fr,third-party
 .com/bilder/*.jpg|$script,~third-party,domain=com
 .com/bot-captcha-1?h=
 .com/btag.min.js|$third-party
+.com/casino?registration=1&cid=
 .com/dating/*/index.html?lang=
 .com/f_lo.js|$script,~third-party
 .com/fr.js|$~third-party
