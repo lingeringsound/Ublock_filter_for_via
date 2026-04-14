@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yJdMouCpDXYFER2aLyFtNA
-! Title: Ublock filter for Via(2026-04-14 00:55:10)
-! Version: 20260414005510
+! Checksum: Ccqy4VWhPiK03l2LOjV4VQ
+! Title: Ublock filter for Via(2026-04-14 09:45:07)
+! Version: 20260414094507
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-14 00:55:10
-! Total Count: 19233
-! Blocked Filters: 19233
+! Last modified: 2026-04-14 09:45:07
+! Total Count: 19241
+! Blocked Filters: 19241
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9356,7 +9356,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5810
+!<<<<<网站单独规则>>>>>5813
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11142,7 +11142,10 @@ file-converter-online.com##.clearfix.entry > small
 file-converter-online.com##.lead-responsive
 file-converter-online.com##div[style^="margin-top:10px;min-height:250px"]
 file4go.*##div.banner300b, .lateral
+filecrypt.*###jh34[onmousedown^="var lsj = this;loc.href="]
+filecrypt.*##button[onclick*="duckier.com"]
 filecrypt.*##div:has(> [href*=".html"])
+filecrypt.*##div[class^="fiIItheadblock"]
 filecrypt.co###jh34[onmousedown^="var lsj = this;loc.href="]
 filehaus.*##div:has(> a[href] > img[src^="ads/"])
 fileplanet.com##.opera-banner
@@ -15169,7 +15172,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1468
+!<<<<<通配符规则>>>>>1471
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15654,6 +15657,7 @@ $script,domain=zdnet.fr,third-party
 .youtube.com/attribution_link?$image
 /$.min.js|$script,third-party
 /*.php$domain=maxlinks.online|maxstream.video|maxstreams.site|vidmoly.*
+/*.php^$~third-party,domain=filecrypt.cc|filecrypt.co
 /.api/admiral
 //images\/(?:Banner\d{1,2}\.|[a-z]{3}\/)/$image,~third-party,domain=thesquarshers.com
 /1/index.html?c=
@@ -15774,8 +15778,10 @@ $script,domain=zdnet.fr,third-party
 /api/models?userId=$xmlhttprequest,domain=buktube.com|colourxh.site|fullxh.com|galleryxh.site|hamsterix.*|megaxh.com|movingxh.world|seexh.com|unlockxh4.com|valuexh.life|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhchannel2.com|xhdate.world|xhday.com|xhday1.com|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtab2.com|xhtab4.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwebsite5.com|xhwide1.com|xhwide2.com|xhwide5.com|xhxh3.xyz
 /api/popads-code
 /api/popv2.php$xmlhttprequest,~third-party
+/api/site/tracking-config^$xmlhttprequest,~third-party,domain=filecrypt.cc|filecrypt.co
 /api/spots/*&kw=$xmlhttprequest
 /api/spots/*^fill=$xmlhttprequest
+/api/track$xmlhttprequest,~third-party,domain=filecrypt.cc|filecrypt.co
 /api/trpc/event.tracking|$xmlhttprequest
 /api/users/*&ev=$script
 /api/users/*^fill=$xmlhttprequest
@@ -16969,7 +16975,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2287
+!<<<<<放行白名单>>>>>2289
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17094,6 +17100,7 @@ voz.vn/b/image.gif?p=$image
 @@/akam/13/*$script,xmlhttprequest,~third-party,domain=easyjet.com|ing.nl
 @@/aot-content/modules/*/assests$script,~third-party,domain=asiaon.*|asiaontop.com
 @@/blockadblock.$script,domain=blockadblock.com
+@@/captcha/captcha.php$image,~third-party,domain=filecrypt.cc|filecrypt.co
 @@/cdn-cgi/pe/bag2?*optimizely.com$domain=coindesk.com
 @@/components/js/analytics.js|$xmlhttprequest,~third-party
 @@/evergage.min.js^$script,domain=pvrcinemas.com
@@ -17796,6 +17803,7 @@ voz.vn/b/image.gif?p=$image
 @@||fbcdn.net/safe_image.php?$image,domain=facebook.com|facebookcorewwwi.onion|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||fiches-auto.fr^$script,~third-party
 @@||file4go.*/ads.js$script,~third-party
+@@||filecrypt.cc/captcha/
 @@||filecrypt.co/captcha/
 @@||filecrypt.co/captcha/captcha.php$image,~third-party
 @@||filegrade.com^$script,~third-party
