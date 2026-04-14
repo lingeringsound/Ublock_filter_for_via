@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Ccqy4VWhPiK03l2LOjV4VQ
-! Title: Ublock filter for Via(2026-04-14 09:45:07)
-! Version: 20260414094507
+! Checksum: /hWeR2j9ygOB/8ld2haH0w
+! Title: Ublock filter for Via(2026-04-15 00:56:35)
+! Version: 20260415005635
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-14 09:45:07
-! Total Count: 19241
-! Blocked Filters: 19241
+! Last modified: 2026-04-15 00:56:35
+! Total Count: 19252
+! Blocked Filters: 19252
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9342
+!<<<<<域名规则>>>>>9346
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2215,6 +2215,7 @@
 ||dbloader.leboncoin.info^
 ||dbs.applerewardsstore.com^
 ||dc.tensgpt.com^
+||dcrtb-pixel.com^
 ||dcs-mcdn.mp.lura.live/prod/*$xmlhttprequest,third-party
 ||ddacn6pr5v0tl.cloudfront.net^
 ||dddiey-s1d2.com^
@@ -4770,6 +4771,7 @@
 ||loogginhomebtcom.weebly.com^
 ||lookblock.pages.dev^
 ||lopfly.com^
+||loseyourip.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
 ||lot.luck-fortune.com^
@@ -7600,6 +7602,7 @@
 ||strumyk.net/assets/z-
 ||student-finance-auth.firebaseapp.com^
 ||studio-blender.com^
+||studio-obs.net^
 ||studiogiamberardino.it^
 ||studyeffect.com^
 ||stupdownloadf.com^
@@ -8033,6 +8036,7 @@
 ||todesk.im^
 ||todeskapp.com^
 ||todeskappa.com.cn^
+||todeskk.com^
 ||todordigital.co.uk^
 ||todyrade.com^
 ||together.com^
@@ -9356,7 +9360,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5813
+!<<<<<网站单独规则>>>>>5815
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12780,6 +12784,7 @@ myanimelist.net##a.ga-click
 myanimelist.net##a.ga-click[data-ga-click-type="hia"]
 myanimelist.net##div[class*="bookstores-recommend-plugin-"]:has(span[class="sponsored"])
 myanimelist.net##div[id$="_NXU_wrap"]
+myanimelist.net##div[id$="_NXU_wrap"], div[id$="_NXU_TITLE_wrap"]
 myanimelist.net%2Fstatic%2Flogging.gif%3F$image
 myanimelist.net%2Fstatic%2Flogging.gif%3F*$image
 myanimelist.net/pixel?$image
@@ -15136,6 +15141,7 @@ youtubetomp3.*##a[href="/button.php"]
 youwatch.*###custom_html-65
 youwatch.*##[href^="https://minilink.id/"]
 youx.xxx##.thumb_banner
+ytlarge.com##.overflow-hidden.items-center.flex-col:has([id^="ezoic-pub-ad-"])
 ytlarge.com##ins.adsbygoogle[data-ad-slot]
 yts.*##.cborz-bordered
 yts.*##.madikf
@@ -15172,7 +15178,7 @@ zuperdrive.my.id###directAds
 }
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1471
+!<<<<<通配符规则>>>>>1472
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15892,6 +15898,7 @@ $script,domain=zdnet.fr,third-party
 /dating/adult/*/index.html?
 /dating/adult/*/index.html?*p1=
 /dating_lp?keyword=
+/dc?pl=*&click_id=
 /dedicated-captcha-page.html^
 /dedxk.r.ag.d.sendibm3.com/*$image
 /delivery.hideout.tv/*$image
@@ -16975,7 +16982,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2289
+!<<<<<放行白名单>>>>>2293
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17608,6 +17615,7 @@ voz.vn/b/image.gif?p=$image
 @@||code.jquery.com^$script,domain=pch.com
 @@||codicibancari.it/*/prebid_*.js$domain=decompiler.com
 @@||codicibancari.it/scripts/tracking/pixel/conversion/prebid_*.js$domain=decompiler.com
+@@||codicibancari.it^$script,domain=decompiler.com
 @@||cohesion.bankrate.com/cohesion/cohesion-latest.min.js$script,~third-party
 @@||coinlyhub.com^$script,~third-party
 @@||cointraffic.io/js/$script,domain=viefaucet.com
@@ -17672,6 +17680,7 @@ voz.vn/b/image.gif?p=$image
 @@||dailymotion.com/nativeads.js|
 @@||dancewave.online^$script,~third-party
 @@||das-bumerang-projekt.de/*/boomerang.js$script,~third-party
+@@||dash.ezmob.com/ss/js/ads.js$script,domain=nathanmichaelphoto.com
 @@||data-dda7d24eb2.derstandard.at/iomm/latest/manager/base/es6/bundle.js$script,domain=derstandard.at|derstandard.de
 @@||data.bilibili.com/v2/log/web?$xmlhttprequest,~third-party
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
@@ -17915,6 +17924,7 @@ voz.vn/b/image.gif?p=$image
 @@||googleadapis.l.google.com^$xmlhttprequest,domain=acorta-enlace.com|finanzasdomesticas.com
 @@||googleads.g.doubleclick.net/ads/preferences/*/opt*?continue
 @@||googleads.g.doubleclick.net/pagead/*games2rule$xmlhttprequest,domain=imasdk.googleapis.com
+@@||googleads.g.doubleclick.net/pagead/ads$subdocument,domain=nathanmichaelphoto.com
 @@||googleads.g.doubleclick.net/pagead/interaction/$domain=cryptednews.space
 @@||googleads.g.doubleclick.net/pagead/test_domain.js$script,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$script,domain=climatempo.com.br|cultura.uol.com.br
@@ -18896,6 +18906,7 @@ voz.vn/b/image.gif?p=$image
 @@||wltreport.com^$image,~third-party
 @@||wohnungsboerse.net^$xmlhttprequest,~third-party
 @@||wondrium.com/static/version1632408975/frontend/Wondrium/default/en_US/js/analytics.js$script,~third-party
+@@||worder.cat/$script,~third-party
 @@||worder.cat/exitsplash.php$script,~third-party
 @@||work.ink^$xmlhttprequest,~third-party
 @@||worker.clerkprod-cloudflare.net^$xmlhttprequest,domain=qiwi.gg
