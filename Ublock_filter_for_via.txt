@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wjgQoJHqipFntEEKtf2Gcg
-! Title: Ublock filter for Via(2026-04-16 09:48:31)
-! Version: 20260416094831
+! Checksum: Y9xE8PshUBgXZBCJSGHy4Q
+! Title: Ublock filter for Via(2026-04-17 01:04:40)
+! Version: 20260417010440
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-16 09:48:31
-! Total Count: 19253
-! Blocked Filters: 19253
+! Last modified: 2026-04-17 01:04:40
+! Total Count: 19259
+! Blocked Filters: 19259
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9347
+!<<<<<域名规则>>>>>9348
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -367,6 +367,7 @@
 ||aduptaihafy.net^
 ||adverdirect.com^
 ||advertere.zamunda.net^
+||advertising.civitai.com^$xmlhttprequest
 ||advertising.com^$third-party
 ||advidates.com^
 ||advisorthrowbible.com^
@@ -9361,7 +9362,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5815
+!<<<<<网站单独规则>>>>>5819
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12275,6 +12276,8 @@ l2top.co##.rightBarAd
 l2top.co##div.leftBarAd
 lamoda.pl##[class*="REKLAMA"]
 lamoda.pl##body [class*="REKLAMA"]
+lamontagne.fr###cf-digiteka-player
+lamontagne.fr##.w-full.mb-7.relative
 lared.cl##ned-ad
 larvelfaucet.com###bottomRightFloatingAd
 larvelfaucet.com###ptcAdIframe
@@ -13114,6 +13117,8 @@ pccomponentes.com##div[id^="div-gpt-ad-"]
 pcgamer.com##.listingResult:has(> div.sponsored-post)
 pcgamer.com##.onesignal-customlink-container
 pcgamer.com##div[style="position: fixed; bottom: 0px; left: 0px; width: 100%; min-height: 90px; background-color: rgba(245, 245, 245, 0.8); z-index: 9995;"]
+pcgames.de##.cms-teaser:has([href][target="_blank"])
+pcgames.de##.innerArticleModule
 pcgamesn.com,theloadout.com##.legion_primiswrapper
 pcgamestorrents.com,pcgamestorrents.org##a[href][aria-label="awed"]
 pcgamestorrents.com,pcgamestorrents.org##a[href^="https://pcgamestorrents."][href*="/cuskilo"]
@@ -16983,7 +16988,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2293
+!<<<<<放行白名单>>>>>2294
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18111,6 +18116,7 @@ voz.vn/b/image.gif?p=$image
 @@||koshien-live.net/*/adtag.xml$xmlhttprequest,domain=vk.sportsbull.jp
 @@||kusonime.com^$script,~third-party
 @@||kwik.*^$script,~third-party
+@@||lamontagne.fr^$script,~third-party
 @@||laola1.at/?proxy=js/build/layout$script,~third-party
 @@||laptopoutlet.co.uk/wysiwyg/asus/rise-up/popunder-$image,~third-party
 @@||laptopoutlet.co.uk/wysiwyg/lenovo/*_popunder_$image,~third-party
@@ -18317,7 +18323,7 @@ voz.vn/b/image.gif?p=$image
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=busuu.com|cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_$script,domain=rekidai-info.github.io
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense^$script,third-party,domain=fplstatistics.co.uk
-@@||pagead2.googlesyndication.com^$script,domain=chromeactions.com|gledaitv.fan|mixesoft.com|mycinema.pro|nathanmichaelphoto.com|next-episode.net|torupload.com
+@@||pagead2.googlesyndication.com^$script,domain=bg-gledai.*|bg-gledai.video|chromeactions.com|gledaitv.*|gledaitv.fan|gledaitv.live|mixesoft.com|mycinema.pro|nathanmichaelphoto.com|next-episode.net|torupload.com
 @@||pagead2.googlesyndication.com^$third-party,xmlhttprequest,method=head,domain=smsonline.cloud
 @@||pagead2.googlesyndication.com^$xmlhttprequest,domain=acorta-enlace.com|blog24.me|finanzasdomesticas.com|krunker.io|op.gg
 @@||pagead2.googlesyndication.com^$xmlhttprequest,third-party,domain=tmailor.com
