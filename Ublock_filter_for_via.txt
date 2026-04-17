@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Y9xE8PshUBgXZBCJSGHy4Q
-! Title: Ublock filter for Via(2026-04-17 01:04:40)
-! Version: 20260417010440
+! Checksum: jOv2tYRsJc7d6WauHZn4tw
+! Title: Ublock filter for Via(2026-04-17 09:45:07)
+! Version: 20260417094507
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-17 01:04:40
-! Total Count: 19259
-! Blocked Filters: 19259
+! Last modified: 2026-04-17 09:45:07
+! Total Count: 19261
+! Blocked Filters: 19261
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9348
+!<<<<<域名规则>>>>>9349
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2376,6 +2376,7 @@
 ||dlmonitize.com^
 ||dlscord*.
 ||dlscrod*.
+||dlstreams.*/*-adbanner.html
 ||dlstreams.top/*-adbanner.html
 ||dlvideosfre.click^
 ||dlworker.top^
@@ -16988,7 +16989,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2294
+!<<<<<放行白名单>>>>>2295
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17127,6 +17128,7 @@ voz.vn/b/image.gif?p=$image
 @@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|thestar.co.uk|webdesignledger.com|yorkshirepost.co.uk
 @@/mma/?t$image,domain=newsblaze.com
 @@/popup*$script,~third-party,domain=streamingcommunity.*
+@@/prebid.$script,from=decompiler.com
 @@/prebid/*$script,domain=decompiler.com
 @@/signup.php?mode=async&action=show_security_code$image,~third-party
 @@/site=*/viewid=*/size=$script,domain=idnes.cz
