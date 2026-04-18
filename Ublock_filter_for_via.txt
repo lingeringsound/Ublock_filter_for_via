@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5q1kuMK7ZSdlum9j0Uc2Pg
-! Title: Ublock filter for Via(2026-04-18 00:45:09)
-! Version: 20260418004509
+! Checksum: hlFP9YPT9Bl3bQ1QBeXUJA
+! Title: Ublock filter for Via(2026-04-18 09:24:56)
+! Version: 20260418092457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-18 00:45:09
-! Total Count: 19269
-! Blocked Filters: 19269
+! Last modified: 2026-04-18 09:24:57
+! Total Count: 19270
+! Blocked Filters: 19270
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9368,7 +9368,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5821
+!<<<<<网站单独规则>>>>>5822
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14848,6 +14848,7 @@ web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/./?eid="][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"][target="_blank"]
+web.facebook.com,www.facebook.com##div[role="complementary"] a[attributionsrc][href^="http"][target="_blank"][role="link"][rel*="noreferrer"]:has(img[src])
 web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow noreferrer external"][attributionsrc^="/privacy_sandbox/comet/register/source/"][attributionsrc*="?eid="]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[aria-label][attributionsrc="_blank"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
