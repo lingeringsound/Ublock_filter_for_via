@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JPVjcfzCNqanaL18Vo1lKQ
-! Title: Ublock filter for Via(2026-04-19 00:29:08)
-! Version: 20260419002908
+! Checksum: BKgBaWp2xXibMAbTPHcd9A
+! Title: Ublock filter for Via(2026-04-19 09:49:11)
+! Version: 20260419094911
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-19 00:29:08
-! Total Count: 19282
-! Blocked Filters: 19282
+! Last modified: 2026-04-19 09:49:11
+! Total Count: 19288
+! Blocked Filters: 19288
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9374,7 +9374,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5824
+!<<<<<网站单独规则>>>>>5829
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13073,6 +13073,11 @@ otakudesu.*##.box_item_ads_popup
 otomi-games.com##.otomi-widget
 otomi-games.com##a[href^="https://t.trcktr.com/"]
 otomoto.pl##[data-testid="banner-link"]
+ottplay.com##.infinite-scroll-component > div[style^="min-height:"]:not([class])
+ottplay.com##.lazy-loaded
+ottplay.com##.newsDetails-right > div[style="min-width: 300px; min-height: 250px; margin-bottom: 10px;"]
+ottplay.com##.newsDetails-right div[style="height: 250px; width: 300px;"]
+ottplay.com##div[class^="MastHead_ad"]
 ouo.*##.dlbtns
 ouo.*##[href^="https://dynamicadx.com/"]
 ouo.*##[style*="width:300px"] > a[href][target="_blank"] > img
@@ -17010,7 +17015,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2295
+!<<<<<放行白名单>>>>>2296
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17844,6 +17849,7 @@ voz.vn/b/image.gif?p=$image
 @@||filecrypt.cc/captcha/
 @@||filecrypt.co/captcha/
 @@||filecrypt.co/captcha/captcha.php$image,~third-party
+@@||fileditchfiles.me/js/prebid.js$~third-party
 @@||filegrade.com^$script,~third-party
 @@||filmoviplex.com^$script,~third-party
 @@||firestonecompleteautocare.com/*/VisitorAPI.js$script,~third-party
