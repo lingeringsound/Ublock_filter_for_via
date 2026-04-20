@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: DGl/RBOdrRnDgkbQklpqAQ
-! Title: Ublock filter for Via(2026-04-20 09:51:00)
-! Version: 20260420095100
+! Checksum: sKdGAhhzMNgsYDOuYHbsTg
+! Title: Ublock filter for Via(2026-04-21 00:56:15)
+! Version: 20260421005615
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-20 09:51:00
-! Total Count: 19414
-! Blocked Filters: 19414
+! Last modified: 2026-04-21 00:56:15
+! Total Count: 19421
+! Blocked Filters: 19421
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9482
+!<<<<<域名规则>>>>>9484
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -549,6 +549,7 @@
 ||amazouo9.com^
 ||amboya6.com^
 ||ambrkx.click^
+||amcnreil.pro^
 ||amcombank.co.com^
 ||amehuns.cc^
 ||amentsmodder.com^
@@ -3625,6 +3626,7 @@
 ||guardedoccupybatter.com^
 ||guardlnkcaptcha.com^
 ||guddledberith.com^
+||guessthemovie.name/ads/
 ||guiamuriae.com.br/*.gif$image
 ||guidance.ghost.io^
 ||guide-ledegr.framer.media^
@@ -9496,7 +9498,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5831
+!<<<<<网站单独规则>>>>>5836
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11764,6 +11766,7 @@ gsmware.com##.kabaradd
 gtainside.com##div.col-sm-6:has(> div.ad)
 gtainside.com##div[style]:has(> div#gtainside_com_sidebar)
 gtainside.com##div[style]:has(> div.ads)
+guessthemovie.name##.fallback-side-ad
 guiamuriae.com.br##.e3lan-top
 guiamuriae.com.br,pirate4all.com,saveearning.com,thessdreview.com##.e3lan
 guiamuriae.com.br,saveearning.com##.theiaStickySidebar
@@ -12540,6 +12543,8 @@ livescience.com##.widget-ads
 livescore.deccanchronicle.com##.cnitem_add_area_outer
 livesport24.net##[href^="https://b-partner.xyz/"]
 livestreams.*,maxicast.*###openLinks
+livetv.moviebite.cc##div.w-full:has(> div[data-ad-container])
+livetv.moviebite.cc##div[data-ad-container]
 livingincebuforums.com##[data-blockid*="AdsWidget"]
 livingincebuforums.com##[id^="nbAdWidget"]
 lk21official.my##[id^="btop-"] > [href^="https://kredit-mobil-dp-murah.pages.dev/"]
@@ -13085,6 +13090,7 @@ now.gg,now.us###div-ad-app-page-leaderboard-container
 now.gg,now.us##.jUWcJN.sc-978a7a9c-0:has(#div-ad-square-midroll-video-container)
 nowgoal.com##[href^="/ad/"]
 nrl.com##[id^="publift-ad-"]
+ntv.cx##.watch-ad-banner
 nude-teen-18.com##.cht6
 nude-teen-18.com##.rtrrtrlight-in-2
 nudecelebforum.com###floatingbar
@@ -15322,6 +15328,7 @@ zona-leros.net##.Body > .Container > ul.Rows > li:first-child:has(> article > a[
 zone-telechargement.*##a[href^="https://dl-protect.link/"] img
 zone-telechargement.*,wawacity.*##a[href^="https://dl-protect.link/req-direct-url"]
 zovo2.top##[href*="javascript:void"] > button
+zpaste.net##a[onclick*="window.open"]
 zpaste.net,pixeldrain.com###sponsors
 zplayer.live##.user
 zshort.*###showContainer,.textfk
