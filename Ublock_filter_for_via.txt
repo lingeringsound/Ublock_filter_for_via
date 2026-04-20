@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: wqufsIebc6aIycMG1C38BQ
-! Title: Ublock filter for Via(2026-04-20 00:29:59)
-! Version: 20260420002959
+! Checksum: DGl/RBOdrRnDgkbQklpqAQ
+! Title: Ublock filter for Via(2026-04-20 09:51:00)
+! Version: 20260420095100
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-20 00:29:59
-! Total Count: 19411
-! Blocked Filters: 19411
+! Last modified: 2026-04-20 09:51:00
+! Total Count: 19414
+! Blocked Filters: 19414
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9481
+!<<<<<域名规则>>>>>9482
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2167,6 +2167,7 @@
 ||daftmovie.xyz/player/assets/js/jquery.js
 ||dai.google.com/*/id3-events.json
 ||dai.google.com/linear/pods/$xmlhttprequest,from=sbt.com.br
+||dai.google.com/linear/pods/$xmlhttprequest,from=sbtnews.sbt.com.br
 ||dai.google.com/ondemand/dash/content/*/time-events.json$domain=goplay.be|play.tv
 ||dai.google.com/ondemand/hls/content/*/time-events.json$domain=play.aetv.com|play.mylifetime.com
 ||dai.google.com/ssai/event/*/streams$xmlhttprequest,domain=sbt.com.br
@@ -9495,7 +9496,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5829
+!<<<<<网站单独规则>>>>>5831
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9955,6 +9956,7 @@ animedao.*##hr
 animefire.io##.col-lg-12.divSection3
 animefire.plus##.divSection3:has(iframe[src^="//ad.a-ads.com/"])
 animeid.tv##[href^="http://play.leadzupc.com/"]
+animekai.*##body > [href="#"][target="_blank"]
 animekuro.org##.mks_ads_widget
 animesanka.*##[id*="-ads-"]
 animeshqip.org###__popup_overlay
@@ -12769,6 +12771,7 @@ mirror.co.uk##div[class^="Header_masthead"]
 mirror.co.uk##div[data-testid*="commercial-"]
 mirrorace.*##[href*="search/"]
 mirrored.to##.container.dl-width form[target="_blank"][method="POST"][action^="//"]:has(> input[type="image"])
+miruro.*##[href*="getdirectbonus.com"]
 missav.*,missav123.com,missav789.com,missav888.com,myav.com##div[x-show="showBanner"]
 mitly.us##[href^="http://deloplen.com/"]
 mittelhessen.de##.adSlot
