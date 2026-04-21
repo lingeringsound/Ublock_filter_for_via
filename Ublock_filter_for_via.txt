@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yBrw3ZdiqkV+ZMU8P1+DFQ
-! Title: Ublock filter for Via(2026-04-21 09:45:44)
-! Version: 20260421094544
+! Checksum: MKTACr+GgVxdrb+0yCkmwg
+! Title: Ublock filter for Via(2026-04-22 00:49:21)
+! Version: 20260422004921
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-21 09:45:44
-! Total Count: 19423
-! Blocked Filters: 19423
+! Last modified: 2026-04-22 00:49:21
+! Total Count: 19424
+! Blocked Filters: 19424
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9498,7 +9498,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5838
+!<<<<<网站单独规则>>>>>5839
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11013,6 +11013,7 @@ easyfun.gg##.shrink-0.w-300px.order-last:has(ins.stpdwrapper)
 easylinkref.com##center > a[href][target=_blank] > img
 easymp3converter.com##div[id^="waldo-tag"]
 ebony8.com,freeporn8.com,maturetubehere.com,shemalesin.com##.item.pignr
+ebooksyard.com##.admania_themead
 ecamrips.com,showcamrips.com##[href*="ads"]
 echo-online.de##.mainFooter__ccePosition
 echo-online.de##.recommendations__cceWidget
