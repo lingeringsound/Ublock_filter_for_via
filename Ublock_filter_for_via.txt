@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MKTACr+GgVxdrb+0yCkmwg
-! Title: Ublock filter for Via(2026-04-22 00:49:21)
-! Version: 20260422004921
+! Checksum: +uMntCCgqzFucumlkVPG1A
+! Title: Ublock filter for Via(2026-04-22 09:30:18)
+! Version: 20260422093018
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-22 00:49:21
-! Total Count: 19424
-! Blocked Filters: 19424
+! Last modified: 2026-04-22 09:30:18
+! Total Count: 19426
+! Blocked Filters: 19426
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9484
+!<<<<<域名规则>>>>>9485
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3214,6 +3214,7 @@
 ||ftuapps.dev^
 ||ftuapps.io^
 ||ftx.onlyfuns.win^
+||fubuki-umami.space^
 ||fuckandcdn.com/*/ads/
 ||fuckandcdn.com/*/frms/
 ||fuckflix.click/assets/js/trafficstars_ads.js
@@ -9498,7 +9499,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5839
+!<<<<<网站单独规则>>>>>5840
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11576,6 +11577,7 @@ gamearter.com##div[id^="ga_sp_"]
 gamedrive.org##.code-block a[href][target="_blank"] > img[data-recalc-dims]
 gamedrive.org##.hbo-banner
 gamedrive.org##.netflix-banner
+gamedrive.org##[id^="gridlove-module-"] > .gridlove-text-module-content > div:is(:has([data-format]), [onclick*='window.open'])
 gamedrive.org##a[href][target="_blank"][rel="noopener noreferrer"] > img
 gameofporn.com###container
 gameofporn.com##.block-pub-side
