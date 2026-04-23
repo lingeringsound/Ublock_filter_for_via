@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WNnSF85BaU0GL76tFVtmYw
-! Title: Ublock filter for Via(2026-04-23 00:49:52)
-! Version: 20260423004952
+! Checksum: 0t2+vdlED0OjzxEm8X3LgA
+! Title: Ublock filter for Via(2026-04-23 09:49:06)
+! Version: 20260423094906
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-23 00:49:52
-! Total Count: 19427
-! Blocked Filters: 19427
+! Last modified: 2026-04-23 09:49:06
+! Total Count: 19429
+! Blocked Filters: 19429
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9500,7 +9500,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5840
+!<<<<<网站单独规则>>>>>5841
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15326,6 +15326,7 @@ zive.cz##[class^="ad-list"]
 zkillboard.com##.pbcen
 zkillboard.com##a[href^="http://store.markeedragon.com/affiliate.php"]
 zkillboard.com##a[href^="https://jitarun.com/?r="]
+zkillboard.com##center > div:nth-of-type(3):has([href*="/affiliate.php"])
 zkillboard.com##center > div[style="background-color: #223800; color: white; border-radius: 1em; width: 100%; max-width: 100%"]
 zkillboard.com##div.alert-info:has([href^="https://www.eveonline.com/signup?"])
 zlut.com##.add-bottom
@@ -17154,7 +17155,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2296
+!<<<<<放行白名单>>>>>2297
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17293,6 +17294,7 @@ voz.vn/b/image.gif?p=$image
 @@/loader.min.js$xmlhttprequest,script,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud|thestar.co.uk|webdesignledger.com|yorkshirepost.co.uk
 @@/mma/?t$image,domain=newsblaze.com
 @@/popup*$script,~third-party,domain=streamingcommunity.*
+@@/prebid*$script,from=decompiler.com
 @@/prebid.$script,from=decompiler.com
 @@/prebid/*$script,domain=decompiler.com
 @@/signup.php?mode=async&action=show_security_code$image,~third-party
