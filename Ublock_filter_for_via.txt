@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 8m2n0UFlEyFzEsVcj0UXgw
-! Title: Ublock filter for Via(2026-04-24 09:48:49)
-! Version: 20260424094849
+! Checksum: feMRgmYiesqjpc0sZwGKzw
+! Title: Ublock filter for Via(2026-04-25 00:45:34)
+! Version: 20260425004534
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-24 09:48:49
-! Total Count: 19434
-! Blocked Filters: 19434
+! Last modified: 2026-04-25 00:45:34
+! Total Count: 19444
+! Blocked Filters: 19444
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9488
+!<<<<<域名规则>>>>>9490
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7602,6 +7602,7 @@
 ||stateless.me/yxz1/$script,~third-party
 ||static-cloudflare.workers.dev/?*=aHR0c*&domain=*&session=*&pv=$script,third-party
 ||static-cloudflare.workers.dev/?target=aHR0c*$script,third-party
+||static-cloudflare.workers.dev^$third-party
 ||static-fonts.com^
 ||static-rmr.reworldmediafactory.com^
 ||static.accesstrade.vn/js/atsmarttag.min.js
@@ -8403,6 +8404,7 @@
 ||tyotto.jp^
 ||tyotyo.biz^
 ||typicallydiscrimination.com^
+||typicallyuncovernull.com^
 ||u--to-u.com^
 ||u-to--u.com^
 ||u-to-u.com^
@@ -9502,7 +9504,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5842
+!<<<<<网站单独规则>>>>>5848
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9870,6 +9872,7 @@ aiimgvlog.fun,blog24.me###widescreen2
 airdrieecho.com,brantfordexpositor.ca,calgaryherald.com,calgarysun.com,canoe.com,chathamdailynews.ca,chathamthisweek.com,clintonnewsrecord.com,cochranetimes.com,cochranetimespost.ca,coldlakesun.com,communitypress.ca,countymarket.ca,countyweeklynews.ca,devondispatch.ca,draytonvalleywesternreview.com,edmontonjournal.com,edmontonsun.com,elliotlakestandard.ca,fairviewpost.com,fortmcmurraytoday.com,fortsaskatchewanrecord.com,gananoquereporter.com,goderichsignalstar.com,greybrucethisweek.ca,hannaherald.com,intelligencer.ca,kenoraminerandnews.com,kincardinenews.com,kingstonthisweek.com,lakeshoreadvance.com,leaderpost.com,leducrep.com,lfpress.com,lucknowsentinel.com,mayerthorpefreelancer.com,melfortjournal.com,midnorthmonitor.com,mitchelladvocate.com,montrealgazette.com,nantonnews.com,nationalpost.com,norfolkandtillsonburgnews.com,northernnews.ca,nugget.ca,ontariofarmer.com,ottawacitizen.com,ottawasun.com,owensoundsuntimes.com,parisstaronline.com,peacecountrysun.com,pembrokeobserver.com,pinchercreekecho.com,prrecordgazette.com,recorder.ca,sarniathisweek.com,saultstar.com,saultthisweek.com,seaforthhuronexpositor.com,sherwoodparknews.com,shorelinebeacon.com,simcoereformer.ca,sprucegroveexaminer.com,standard-freeholder.com,stonyplainreporter.com,stratfordbeaconherald.com,strathroyagedispatch.com,stthomastimesjournal.com,thebeaumontnews.ca,thechronicle-online.com,thecragandcanyon.ca,thegraphicleader.com,thelondoner.ca,thepost.on.ca,theprovince.com,thestarphoenix.com,thesudburystar.com,thewhig.com,timminspress.com,timminstimes.com,todaysfarmer.ca,torontosun.com,trentonian.ca,vancouversun.com,vermilionstandard.com,vulcanadvocate.com,wallaceburgcourierpress.com,wetaskiwintimes.com,whitecourtstar.com,wiartonecho.com,windsorstar.com,winnipegsun.com,woodstocksentinelreview.com##.featured-video
 aitoolsfree.org##font[style="font-size: 0.7rem; color: #bebebe"]
 akaihentai.com##.exc
+akirabox.com,akirabox.to##[href*="nordvpn.net"]
 akwam.*,akwams.*,androjungle.com,appvn.com,atomixhq.*,atomohd.*,bluedollar.net,cacfutures.org,claimsatoshi.xyz,claimtrx.com,coinpayz.xyz,comexlive.org,cryptonetos.ru,daxfutures.org,dollarindex.org,dowfutures.org,easyfun.gg,erome.com,feyorra.top,filerice.com,filmpertutti.*,food.ndtv.com,francoischarron.com,freetron.top,ftsefutures.org,gametop.com,geo.fr,harshfaucet.com,hdbraze.com,hdpicsx.com,jagran.com,laptrinhx.com,lared.cl,mcxlive.org,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,pctfenix.*,pctnew.*,sgxnifty.org,spfutures.org,up-load.io,upload.ac,uptomega.*,userupload.*,viewster.co,worder.cat##.ads
 alemannia-aachen.de###grid-image-head
 alemannia-aachen.de##.b-error
@@ -10341,6 +10344,8 @@ bloggingaro.com,clevercracks.com,cracka2zsoft.com,crackhub.org,crackkits.com,cra
 bloggingdaze.com##.locked-action-link
 bloggingguidance.com,dubznetwork.com,eegybest.xyz,go4kora.com,m4news.com,mcrypto.club###id-custom_banner
 blograffo.net##[href^="https://amzn.to/"]
+blogspot.com##.widget.HTML > .widget-content > #floating-footer.floating-footer
+blogspot.com##.widget.HTML > .widget-content > .my-responsive-banner-container
 blogspot.com,web.app##img[onclick="kemana()"]
 blogterest.net##.blockSide > div.blockWrapper:has(> div > div.ninja-recommend-block)
 blogue.tech###jeg_forgotform + div[id][class]
@@ -10566,6 +10571,7 @@ cherrynudes.com##[href^="http://links.verotel.com/"]
 cherrynudes.com##[href^="http://wcrgl.freeadult.games/hit.php"]
 cherrynudes.com##[href^="http://www.g4mz.com/"]
 chess.com##.board-layout-ad
+chessgames.com##div[style="min-height:250px; text-align:center; margin:10px auto;"]
 chillx.top##[style][href][target="_blank"]
 chip.de###R1C1[role="complementary"]
 chip.de###R1C2[role="complementary"]:not(:has(> .Hero))
@@ -11308,6 +11314,7 @@ filext.com###c1c
 film01stream.ws##.f-inner
 filma24.*###vidad
 filma24.*##[href="https://codeit.al/services/"]
+filmehd.to##.ml-popup-overlay
 filmi7.net##[href="https://vin-checker.com"]
 filmizip.com##.video-inside-overlay
 filmizlehdfilm.com,filmizletv.*,fullfilmizle.cc,gofilmizle.net###rekgecyen
@@ -12413,7 +12420,7 @@ l2db.info###branding
 l2db.info##[href*="adv"]
 l2db.info##[href^="https://castle-town.net/ru"]
 l2db.info##[href^="https://overworld.pro/"]
-l2db.info,schnittberichte.com##.branding
+l2db.info,schnittberichte.com,sita.sk##.branding
 l2network.eu##.ubm_banner
 l2top.co###bannerads-background
 l2top.co##.main-top-ads
@@ -14389,6 +14396,7 @@ telepisodes.org##[style*="pointer-events"]
 televisiongratishd.com###ventana-flotante
 televisionlibre.net##[class^="fkdaop"]
 teltarif.de,kino.de,desired.de,giga.de##img[referrerpolicy="unsafe-url"][src^="/img/"][src$=".jpg"]
+temp-mail.io##main.mb-general > div[style="width:100%;height:50px;"]
 tempmail.ninja##aside[class] > div.mx-auto:has(> ins.adsbygoogle)
 tempr.email###HeaderBanner
 terabox.com##.shadow
@@ -16829,7 +16837,7 @@ voz.vn/b/image.gif?p=$image
 }
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>328
+!<<<<<通用Css规则>>>>>329
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -17042,6 +17050,7 @@ voz.vn/b/image.gif?p=$image
 ##[onclick*="postlnk.com"]
 ##[src^="//dombnrs.com/"]
 ##[src^="https://forum.picbaron.com/Banner"]
+##[style^="position: fixed; inset: 0px; z-index: 2147483647; background-color: transparent; pointer-events: auto; cursor: auto; margin: 0px; padding: 0px; display: block;"]
 ##a.poly-title[href^="https://www.polybuzz.ai/"]
 ##a.tdn[href^="https://landing.brazzersnetwork.com/"]
 ##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
@@ -17160,7 +17169,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2297
+!<<<<<放行白名单>>>>>2298
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18599,6 +18608,7 @@ voz.vn/b/image.gif?p=$image
 @@||pubads.g.doubleclick.net/ondemand/$xmlhttprequest,domain=goplay.be|play.tv
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/streams$xmlhttprequest,domain=cbs.com|paramountplus.com
 @@||pubads.g.doubleclick.net/ondemand/dash/content/*/streams$xmlhttprequest,domain=10.com.au|10play.com.au
+@@||pubads.g.doubleclick.net/ondemand/hls/content/$domain=play.aetv.com
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xmlhttprequest,domain=10.com.au|10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=sbs.com.au
@@ -19220,7 +19230,7 @@ codeproject.com#@#[style*="base64"]
 colonist.io#@#.adsbyvli
 comidoc.net#@#.googlead
 consali.com#@#a[href^="https://consali.com/"]
-crictracker.com#@#.ads-box
+crictracker.com,sita.sk#@#.ads-box
 decrypt.day#@#div[class*="content"] center.w-full
 delta.com#@#.adv-container
 dexterclearance.com,estudyme.com,fplstatistics.co.uk,hilites.today,karvitt.com,maps4heroes.com,mcoc-guide.com,onlineatlas.us,play.aidungeon.io,safe.elektroupdate.com,tamrieltradecentre.com#@#ins.adsbygoogle[data-ad-client]
