@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: khmp0T0qXwrL5l1agQAzDg
-! Title: Ublock filter for Via(2026-04-25 09:27:59)
-! Version: 20260425092759
+! Checksum: /i6P46om6uYJ1X95ufEmtQ
+! Title: Ublock filter for Via(2026-04-26 00:32:07)
+! Version: 20260426003207
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-25 09:27:59
-! Total Count: 19447
-! Blocked Filters: 19447
+! Last modified: 2026-04-26 00:32:07
+! Total Count: 19459
+! Blocked Filters: 19459
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9491
+!<<<<<域名规则>>>>>9496
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -683,6 +683,7 @@
 ||api.terashare.co/api/analytics$~third-party
 ||api.tumblr.com/*/share/stats$script,third-party
 ||api.vuukle.com/api/v1/getModal$xmlhttprequest,third-party
+||api.xfantazy.com/*/ad-scripts
 ||api.xfantazy.com/ad-scripts
 ||apifetchmethod.com^
 ||apilond.com^
@@ -764,6 +765,7 @@
 ||appvip-download.cc^
 ||appxfree.com^
 ||appxfree.top^
+||aprilads.online^
 ||aps-wps.com.cn^
 ||aptlyerring.com^
 ||aqmessage.jp^
@@ -1296,6 +1298,7 @@
 ||brazz-girls.com/chaturbate/
 ||brazz-girls.com/scripts/yall.*.js
 ||brcknkblue.com^
+||breedsmuteexams.com^
 ||briarcostshadow.com^
 ||bride1be.com^
 ||bridge-home.net^
@@ -2116,6 +2119,7 @@
 ||cyou/player/assets/js/jquery.js?v=$script,~third-party
 ||cyrexmods.cc^
 ||cyrexmods.to^
+||cza.crazygames.com^
 ||d*wsapp.icu^
 ||d-hiyori.com^
 ||d-position.com^
@@ -2933,6 +2937,7 @@
 ||fastndio.s3.eu-central-1.amazonaws.com^
 ||fastorfar.com^
 ||fastpic.org/view/*.html|$script,~third-party
+||fastporndelivery.hqporner.com/HQpornerJSP.js
 ||faststream.xyz^$third-party
 ||fate-15.com^
 ||faucettrx.store/default.php
@@ -9505,7 +9510,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5850
+!<<<<<网站单独规则>>>>>5856
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9624,7 +9629,7 @@ $script,domain=zdnet.fr,third-party
 1cloudfile.com##.content-preview-wrapper
 1cloudfile.com##.preview-download-wrapper
 1ink.cc,lbprate.com##[id^="Ad"]
-1jour1film.cyou,hds-streaming.*,vumoo.cc,yabaisub.cloud###fakeplayer
+1jour1film.cyou,hds-streaming.*,onionplay.io,vumoo.cc,yabaisub.cloud###fakeplayer
 1link.vip##[href^="https://1frozenthrone1.com"]
 1link.vip##[href^="https://runreferences.com"]
 1link.vip,bingsport.xyz##[href^="https://www.highrevenuegate.com/"]
@@ -9908,8 +9913,11 @@ alrakoba.net,alvinreports.com,androidweblog.com,azhar-c.info,concienciaradio.com
 alrakoba.net,ispazio.net,scrapywar.com##.stream-item-widget
 altema.jp###sidebar-in > div.widget_text:has(.tuika-widget > a[href*="utm_"])
 altema.jp##.koukoku_common_tag
+alternativeto.net##[href*="aff_c?"]
 alternativeto.net##div[style]:has(> div[class^="Adsense"])
 alternativeto.net##li[data-testid]:has([href^="/outgoing/"])
+alternativeto.net##main > div.flex.justify-center > div.w-full.box-border.flex > div.w-full.container.wide-container
+alternativeto.net##main > section.container.wide-container > div.container > div.mt-10
 alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-testid="adsense-wrapper"])
 alternativeto.net##section#alternative-list > ol > li:has(> .bannerLink)
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
@@ -12028,6 +12036,7 @@ howtoremove.guide###solution_v2_de
 howtoremove.guide##div[style^="border:2px"]
 hqbang.com###list_videos_related_videos > center
 hqporner.com##.uvb_wrapper
+hqporner.com,myp2p.*,pornoxo.com##a[rel="sponsored"]
 hqporner.top##.box_b > small
 hqq.*,justswallows.net,multiup.us,player.tabooporns.com,player.tormalayalamhd.*,yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 hqq.*,justswallows.net,player.tabooporns.com,player.tormalayalamhd.*,yandexcdn.com##a[onclick="openAuc();"]
@@ -12983,7 +12992,6 @@ mylust.com##.no_pop.centeredbox
 mylust.com##iframe.clear_both
 mym-db.com###swup > .row > div:has(> .card > div[data-ad-site])
 myp2p.*###reklama_sidebar
-myp2p.*##a[rel="sponsored"]
 myplexi.fr##center:has([href])
 mypornhere.com##.item > [href^="https://www.mrporngeek.com/"]
 mypornhere.com##.item[style="text-align:center !important;"]
@@ -13033,6 +13041,7 @@ neoseeker.com###page_top_content
 neoseeker.com##.section-vu:has(> div[data-ad-unit-id])
 netembed.xyz##div[style^="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; opacity: 0; pointer-events: auto; background: transparent;"]
 netfapx.com##[id^="ads-position"]
+netfilm.world###downloadBanner
 netflav.com##.video_iframe_overlay_absolute_background_container
 netmovies.to###iframe[src^="about:blank"]
 netmovies.to##.advertising-link
@@ -13421,6 +13430,8 @@ pobre.*###messageModal
 pobre.*##.generalModal
 poczta.o2.pl,poczta.wp.pl##.d_flex.flex-d_column.h_full.pos_relative
 poder360.com.br##.box-advertising
+podjav.tv##.player-banner-ads-top
+podjav.tv##.sidebar-box:has(> div[data-banner-id])
 podu.me##.adv-contanier
 poedb.tw###bottombanner970
 poedb.tw###topbanner970
@@ -13568,7 +13579,6 @@ pornoxo.com##.detail-info-links > li:has(> .ads-stripchat-link)
 pornoxo.com##.js-toggle-content-wrapper:has(> .adblock)
 pornoxo.com##.wgt-container
 pornoxo.com##a.blinker
-pornoxo.com##a[rel="sponsored"]
 pornoxo.com##li.media-item.no-popup
 pornpaw.com##.ipprtcnt
 pornpaw.com##div[style="height:250px;display:block;"]
@@ -15186,6 +15196,7 @@ www.mindbodygreen.com##div:has(> section > .network-ad)
 www.reddit.com,sh.reddit.com###main-content:has(>shreddit-title[title$="r/uBlockOrigin"])+#right-sidebar-container [data-slug="pdp_right_rail_related"]
 www.reddit.com,sh.reddit.com##in-feed-community-recommendations:is([subreddit-name="uBlockOrigin"],[subreddit-id="t5_37z6i"])
 www.reddit.com,sh.reddit.com##in-feed-community-recommendations[subreddit-name="uBlockOrigin"]
+www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~:is([id^="comment-tree-content-anchor-"],shreddit-comment-tree)~div:has(>[id^="answers-suggested-queries"])
 www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~[id^="comment-tree-content-anchor-"]+div:has(>[id^="answers-suggested-queries"])
 www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~[id^="comment-tree-content-anchor-"]~div:has(>[id^="answers-suggested-queries"])
 www.uol##.content-lightbox
@@ -16840,7 +16851,7 @@ voz.vn/b/image.gif?p=$image
 }
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>329
+!<<<<<通用Css规则>>>>>330
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -16994,6 +17005,7 @@ voz.vn/b/image.gif?p=$image
 ##.samCodeUnit
 ##.sharethis-inline-share-buttons.st-hidden
 ##.sidebar-ad:not(.adsbygoogle)
+##.skel-layers-fixed a[href*=".com/smartpop/"]
 ##.stream-item-widget
 ##.trafficjunky-float-right
 ##.vertbars
