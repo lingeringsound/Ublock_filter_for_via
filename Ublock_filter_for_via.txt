@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: SyHNJ2CxwJOflKQX1RIrdw
-! Title: Ublock filter for Via(2026-04-26 09:51:01)
-! Version: 20260426095101
+! Checksum: WU6YZXCkv6x8xfkCOXMWeg
+! Title: Ublock filter for Via(2026-04-27 00:33:24)
+! Version: 20260427003324
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-26 09:51:01
-! Total Count: 19460
-! Blocked Filters: 19460
+! Last modified: 2026-04-27 00:33:24
+! Total Count: 19471
+! Blocked Filters: 19471
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9497
+!<<<<<域名规则>>>>>9502
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -181,6 +181,9 @@
 ||939l.xyz^
 ||9888.st^
 ||99box.com^
+||9anime.vip/assets/js/jquery-*.min.js
+||9anime.vip/banner/
+||9anime.vip/js/dab.min.js
 ||9gcpz8hu.com^
 ||9l3s3fnhl.com^
 ||9npze.com^
@@ -2679,6 +2682,7 @@
 ||embedaio.cc/cdn-cgi/trace
 ||embedmoon.*/js/baf.js$script
 ||embedplayer.xyz/embed/guard.js$script,~third-party
+||embedsports.top/js/jquery.min.js
 ||embedstreams.top/js/script.js
 ||ember-cf-netlify.cdn-x.net^
 ||embols.com^
@@ -9065,6 +9069,7 @@
 ||wps-cnzh.com^
 ||wps.ac.cn^
 ||wrc-gh.org/redelivery
+||wretchedclearance.com^
 ||wrgov.com^
 ||wse.yts248ds.jp^
 ||wsimg.com/signals/$script,third-party
@@ -9511,7 +9516,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5856
+!<<<<<网站单独规则>>>>>5861
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9653,6 +9658,9 @@ $script,domain=zdnet.fr,third-party
 2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.sidebar_download_inner > :not(.voting-box):not(.colorbg-grey)
 2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,ioys.gr,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,semvirus.pt,senzavirus.it,tanpavirus.web.id,udenvirus.dk,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,zondervirus.nl##.ui-content > .win
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list_w > .ar_block_description
+20min.ch##div[class^="ContentPage_contentPage"] > div[class]:not([class^=""]):has(> div > div > div[data-ad-unit-id])
+20min.ch##div[type="ad"]
+20min.ch##section aside:has(> div > div > div[data-ad-unit-id])
 21porno.com###s-container
 21porno.com###s-title
 22pixx.xyz##[class^="resp-container"]
@@ -9858,7 +9866,7 @@ advertiserandtimes.co.uk,northern-scot.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,northern-scot.co.uk,stratford-herald.com##.MPU
 advertisingexcel.com,allcryptoz.net,batmanfactor.com,crewbase.net,crewus.net,documentaryplanet.xyz,gametechreviewer.com,midebalonu.net,misterio.ro,phineypet.com,seory.xyz,shinbhu.net,shinchu.net,substitutefor.com,talkforfitness.com,thefitbrit.co.uk,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
 advicefunda.com,anhdep24.com,asideway.com,bestloanoffer.net,computerpedia.in,computerpedia.inn,cryptonetos.ru,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreoweb.es,eldia.es,elperiodico.com,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,epe.es,farodevigo.es,g-porno.com,g-streaming.com,giga-streaming.com,gofile.download,informacion.es,lacronicabadajoz.com,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat,soccerinhd.com,superdeporte.es,techconnection.inn,universitiesonline.xyz,ustream.to##.popup
-advicefunda.com,bestloanoffer.net,businesstimes.com.sg,castmax.live,computerpedia.in,eroticmoviesonline.me,evano.com,fairyanime.com,food.ndtv.com,go.linkify.ru,imgprime.com,is2btc.com,mlb66.ir,moviesonlinefree.net,phica.net,pornhd.com,realgfporn.com,scrambled.world,shellshock.io,skidrowcodex.net,swift4claim.com,techconnection.in,tokuzilla.net,tokuzl.net,universitiesonline.xyz,ustream.to,vkspeed.com,vuinsider.com,worldsex.com,www.uol##.overlay
+advicefunda.com,bestloanoffer.net,businesstimes.com.sg,castmax.live,computerpedia.in,eroticmoviesonline.me,evano.com,fairyanime.com,food.ndtv.com,go.linkify.ru,imgprime.com,is2btc.com,mlb66.ir,moviesonlinefree.net,phica.net,pornhd.com,realgfporn.com,scrambled.world,shellshock.io,skidrowcodex.net,swift4claim.com,techconnection.in,tokuzilla.net,tokuzl.net,tukoz.com,universitiesonline.xyz,ustream.to,vkspeed.com,vuinsider.com,worldsex.com,www.uol##.overlay
 adweek.com##.widget-adweek-sticky-next:has(> .htl-ad-wrapper)
 adz7short.space###banner_slider_right
 adz7short.space,atdhe.*,bullrun2024.online,chip.de,divxtotal.*,divxtotal1.*,eropaste.net,freexcafe.com,hulu.com,izismile.com,journaldemontreal.com,l2top.co,live-sport.duktek.pro,mathebibel.de,pererecadoida.life,pobre.*,senpa.io,sexvid.*###banner
@@ -10643,6 +10651,7 @@ client.pylexnodes.net##.ad-banner-square
 clik.pw,oko.sh,short.pe,uii.io##a[href^="https://href.li/"]
 clik.pw,short.pe,shurt.pw,uii.io,wordcounter.icu##div[style*="z-index:99999"] > div[style*="width:300px"]
 clik.pw,short.pe,uii.io##body > div[style]:has(input[type="button"])
+cloubix.com##.d0a-upgrade-wrap, .cb-footer, .d0a-status-bar, .cb-hamburger, .d0a-card-head, .d0a-features-row, .d0a-speed-box, .d0a-btn-note, .d0a-ads-section, .dl1-report-btn, .dl1-actions, .dl1-codes
 cloudstorageoptions.com##.adslot_left
 cloutgist.com,codesnse.com##[href^="https://app.adjust.com/"]
 club-opel.com##.side_ad_left_160
@@ -14393,6 +14402,7 @@ techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][h
 techpowerup.com##div.s--item:has(a[href^="/reviyuu/"])
 techpp.com##.side-inserter
 techpp.com##.tppAds
+techsynchron.com##.sh-aawp-box
 techusnews.com##div[id^="tp-wait"]
 techy.veganab.co##.text-left, div.inst.box, .banner-inner
 tecnicalboy.com##fixedbanner
@@ -17185,7 +17195,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2298
+!<<<<<放行白名单>>>>>2299
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18711,6 +18721,7 @@ voz.vn/b/image.gif?p=$image
 @@||script.wikia.nocookie.net/fandom-ae-assets/identity-service/$domain=metacritic.com
 @@||scripts.repubblica.it/$script,domain=gelocal.it
 @@||scriptsoup.nx.tc/prebid.js$script
+@@||scuolamaternamaffei.it^$script,domain=decompiler.com
 @@||scws.xyz^$xmlhttprequest,domain=streamingcommunity.*
 @@||scylla.wgplayer.com/f_webp/$image
 @@||sdv.fr^$script,domain=ladepeche.fr
