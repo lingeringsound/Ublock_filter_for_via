@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kcrOcLvSZueyynGksGptwA
-! Title: Ublock filter for Via(2026-04-27 09:54:37)
-! Version: 20260427095437
+! Checksum: s4PeeCEyAtZY1VlD9TstZQ
+! Title: Ublock filter for Via(2026-04-28 01:15:46)
+! Version: 20260428011546
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-27 09:54:37
-! Total Count: 19477
-! Blocked Filters: 19477
+! Last modified: 2026-04-28 01:15:46
+! Total Count: 19478
+! Blocked Filters: 19478
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -16868,7 +16868,7 @@ voz.vn/b/image.gif?p=$image
 }
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>330
+!<<<<<通用Css规则>>>>>331
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -16935,6 +16935,7 @@ voz.vn/b/image.gif?p=$image
 ###video-id_fluid_html_on_pause
 ###video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"]
 ###weatherad:not(:empty)
+###wrapper ~ a[target="_blank"][href="#"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
 ###zdn-adblock-overlay
 ##.Ad-Container:not(.adsbygoogle)
 ##.aan_fake
