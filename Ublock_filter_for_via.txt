@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: dKm8doAOmEo9m8ZXmpUB4w
-! Title: Ublock filter for Via(2026-04-30 10:02:53)
-! Version: 20260430100253
+! Checksum: TMkyZ65z0eWLAguK6oShxQ
+! Title: Ublock filter for Via(2026-05-01 01:10:06)
+! Version: 20260501011006
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-30 10:02:53
-! Total Count: 19501
-! Blocked Filters: 19501
+! Last modified: 2026-05-01 01:10:06
+! Total Count: 19502
+! Blocked Filters: 19502
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9520
+!<<<<<域名规则>>>>>9521
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1907,6 +1907,7 @@
 ||compass-holding.com^
 ||complete-to-continue.pages.dev^
 ||computer-bild.de/_static-assets/homad/homad.js
+||comradegoodsfloor.com^
 ||conackmar.com^
 ||conceivesaucerfalcon.com^
 ||condemnfundraiserjune.com^
@@ -12390,7 +12391,7 @@ katfile.com###container > p > a[href*="?"]:has(> img)
 katmoviehd.*###sidebar > #custom_html-6
 kavgle.com##[href^="https://go.vrbangers.com/"], [href^="https://asiafriendfinder.com/"]
 kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
-kdramasmaza.com.pk,series9movies.com##a[href*="?key="][target="_blank"]
+kdramasmaza.com.pk,paste4free.site,series9movies.com##a[href*="?key="][target="_blank"]
 kelasexcel.id##.sacret-share
 kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
