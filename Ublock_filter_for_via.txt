@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TMkyZ65z0eWLAguK6oShxQ
-! Title: Ublock filter for Via(2026-05-01 01:10:06)
-! Version: 20260501011006
+! Checksum: FYGhz+sePWh8eb6a9fBVAg
+! Title: Ublock filter for Via(2026-05-01 10:06:38)
+! Version: 20260501100639
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-01 01:10:06
-! Total Count: 19502
-! Blocked Filters: 19502
+! Last modified: 2026-05-01 10:06:39
+! Total Count: 19505
+! Blocked Filters: 19505
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9535,7 +9535,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5866
+!<<<<<网站单独规则>>>>>5869
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13445,6 +13445,7 @@ playeriframe.sbs##body > a[href][target="_blank"][rel*="noopener"]
 playhub.com,playpink.com##.ad-title-sky
 playmod24.com##div[download-process-box]
 playoffsstream.com###opalayer
+playpaste.net##.flex-center > [href*="rapidshare"]
 playporngames.com##.sidebarcont > .widget_text:not(#text-2)
 playretrogames.com,sisterasian.com##.adblock
 playsexgames.xxx##.widget:not(#text-2)
@@ -14770,6 +14771,7 @@ unblocked.name##.cborz-bordered
 unblocked.name##.durs-bordered
 unblocked.name##[id^="cookie"]
 unblocked.name##[style*="decoration"]:not([style^="width"])
+unblockedgames.world##.font-semibold~*, p, h2, h3, li, ul, .sub-title
 unblockit.*###ni-overlay
 unblocknow.*###cookieConsentVPN666
 unblocknow.*##.adstg
@@ -15055,6 +15057,7 @@ web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[aria-labelledby][attributionsrc^="/privacy_sandbox/comet/register/source/?eid="][href^="http"][target="_blank"]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[attributionsrc][href^="http"][target="_blank"][role="link"][rel*="noreferrer"]:has(img[src])
+web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow noreferrer external"][attributionsrc^="/privacy_sandbox/comet/register/"][attributionsrc*="?eid="]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow noreferrer external"][attributionsrc^="/privacy_sandbox/comet/register/source/"][attributionsrc*="?eid="]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[aria-label][attributionsrc="_blank"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
