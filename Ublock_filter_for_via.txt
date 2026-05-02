@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: jWvq05HBenbpyrsCUECrtA
-! Title: Ublock filter for Via(2026-05-02 00:45:17)
-! Version: 20260502004517
+! Checksum: fXdyvoGiwJxNxWnWHmB0LA
+! Title: Ublock filter for Via(2026-05-02 09:53:47)
+! Version: 20260502095347
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-02 00:45:17
-! Total Count: 19507
-! Blocked Filters: 19507
+! Last modified: 2026-05-02 09:53:47
+! Total Count: 19509
+! Blocked Filters: 19509
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9535,7 +9535,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5871
+!<<<<<网站单独规则>>>>>5873
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13652,6 +13652,7 @@ povaddict.com##.adv-square
 pradjadj.com##.ABD_display
 pradjadj.com##[href="/advertise"]
 praxistipps.chip.de##div[data-bc-data-trackvars]
+premium-unlock.rajababucox.workers.dev###action-btn
 prepostseo.com###above_button_ad
 prepostseo.com###after_button_ad_desktop_2
 prepostseo.com###after_title_ad
@@ -14870,6 +14871,7 @@ vfxdownload.net##[href^="https://aejuice.com"]
 vibehubs.com##.code-block-4.code-block > [href]
 vibehubs.com##[href^="https://www.star-clicks.com/"]
 vid4up.*###aoverlay
+vidbox.dev##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:px-6.px-4.max-w-\[1440px\].mx-auto:has(#ad-container)
 vidcloud.*###overlay-center
 vide-greniers.org###mnfDetail_adSenseHead
 videakid.hu##.single-video-right-sidebar-ads
