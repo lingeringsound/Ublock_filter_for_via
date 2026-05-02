@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: fXdyvoGiwJxNxWnWHmB0LA
-! Title: Ublock filter for Via(2026-05-02 09:53:47)
-! Version: 20260502095347
+! Checksum: K7AdWy32eQKPDcqtUKbo1g
+! Title: Ublock filter for Via(2026-05-03 00:37:42)
+! Version: 20260503003742
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-02 09:53:47
-! Total Count: 19509
-! Blocked Filters: 19509
+! Last modified: 2026-05-03 00:37:42
+! Total Count: 19514
+! Blocked Filters: 19514
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9521
+!<<<<<域名规则>>>>>9524
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -690,6 +690,7 @@
 ||api.terashare.co/api/analytics$~third-party
 ||api.tumblr.com/*/share/stats$script,third-party
 ||api.vuukle.com/api/v1/getModal$xmlhttprequest,third-party
+||api.x.com/1.1/graphql/error_log.json
 ||api.xfantazy.com/*/ad-scripts
 ||api.xfantazy.com/ad-scripts
 ||apifetchmethod.com^
@@ -4628,6 +4629,8 @@
 ||kuronekoyamato-jp.com^
 ||kuronekoyamzyato.top^
 ||kuvirixa.com^
+||kuyhaa.me/*.php
+||kuyhaa.me/pmbut.js
 ||kvador.com/images/*.gif$image
 ||kveesh6.il-
 ||kvgp201er.sbs^
@@ -9535,7 +9538,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5873
+!<<<<<网站单独规则>>>>>5875
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9603,7 +9606,7 @@ $script,domain=zdnet.fr,third-party
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 103.70.114.35###idmuvi-popup
 10crack.com,activators4windows.com,allsoftwarekeys.com,cracklabel.com,crackpcsoft.net,crackproductkey.com,cracksole.com,crackwinz.com,datanodes.to,f4file.com,filedownloads.store,freecrackdownload.com,freelicensekey.org,fullcrackedpc.com,genuineactivator.com,goharpc.com,idmfullcrack.info,idmpatched.com,patchcracks.com,pccrackbox.com,pcsoftz.net,pcwarezbox.com,procrackhere.com,productkeyforfree.com,productkeyfree.org,proproductkey.com,rootscrack.com,serialkey360.com,softwar2crack.com,topcracked.com,wazusoft.com,zuketcreation.net##[onclick*="open"]
-10short.*,droplink.co,lollty.pro,mamahawa.com,short-jambo.ink,solarchaine.com,techy.veganab.co,tfly.link,tinys.click,try2link.com,zovo2.top##.text-left
+10short.*,droplink.co,go.zovo.ink,lollty.pro,mamahawa.com,short-jambo.ink,solarchaine.com,techy.veganab.co,tfly.link,tinys.click,try2link.com,zovo2.top##.text-left
 111.90.150.10###secondary > .widget_custom_html
 111.90.150.149##.idmuvi-topbanner-aftermenu
 111.90.150.149##[href*="buaksib.in"]
@@ -12459,6 +12462,7 @@ kukaj.io###gldprr
 kupujemprodajem.com##.bnrBox
 kurierostrowiecki.pl,ostrowiec24.info,panoramaplock.pl,7dni.pila.pl###bottom-sticky-ads-container
 kusonime.com##.iklanads
+kuyhaa.me###protected-content
 l2db.info###branding
 l2db.info##[href*="adv"]
 l2db.info##[href^="https://castle-town.net/ru"]
@@ -13573,6 +13577,7 @@ pornhub.*##.video-wrapper > #player ~ .hd.clear
 pornhub.*##.watchpageAd
 pornhub.*##[data-event="header_paid_tabs"]
 pornhub.*##a[href^="http://ads.trafficjunky.net/"]
+pornhub.*##a[href^="https://fancentro.com"]
 pornhub.*##a[href^="https://landing.spicevids.com"]
 pornhub.*##a[href^="https://www.uviu.com"]
 pornhub.*##div[id^="customSkin"]
