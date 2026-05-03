@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K7AdWy32eQKPDcqtUKbo1g
-! Title: Ublock filter for Via(2026-05-03 00:37:42)
-! Version: 20260503003742
+! Checksum: huu3E5QYc9zHG0s/ohDfZg
+! Title: Ublock filter for Via(2026-05-03 09:57:35)
+! Version: 20260503095735
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-03 00:37:42
+! Last modified: 2026-05-03 09:57:35
 ! Total Count: 19514
 ! Blocked Filters: 19514
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -10721,7 +10721,7 @@ comicxxx.eu,pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*,watchfreexxx.net
 comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: auto; min-height: 266px; max-width: 100vw;"]
 comidoc.net##div[style="text-align:center;margin-left:auto;margin-right:auto;min-height:266px;max-width:90vw"]
 comidoc.net,tricksplit.io##div:has(> .adsbygoogle)
-comix.to,westmanga.*,westmanga.fun,westmanga.org##[src*=".gif"]
+comix.to,idlixku.com,westmanga.*,westmanga.fun,westmanga.org##[src*=".gif"]
 comousarzararadio.blogspot.com###HTML10, #HTML9
 complex.com##.base__header-ad
 compucalitv.com##.botondescarga
