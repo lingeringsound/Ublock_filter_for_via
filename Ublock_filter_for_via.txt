@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: huu3E5QYc9zHG0s/ohDfZg
-! Title: Ublock filter for Via(2026-05-03 09:57:35)
-! Version: 20260503095735
+! Checksum: YsEwH31uIXdwUNhralfNoQ
+! Title: Ublock filter for Via(2026-05-04 00:38:34)
+! Version: 20260504003834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-03 09:57:35
-! Total Count: 19514
-! Blocked Filters: 19514
+! Last modified: 2026-05-04 00:38:34
+! Total Count: 19516
+! Blocked Filters: 19516
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9524
+!<<<<<域名规则>>>>>9525
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1522,7 +1522,7 @@
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
 ||cdn.jsdelivr.net/npm/as-essential^
 ||cdn.jsdelivr.net/npm/devtools-detector$script,domain=superembeds.com
-||cdn.jsdelivr.net/npm/disable-devtool$script,domain=perverzija.com|xtremestream.xyz
+||cdn.jsdelivr.net/npm/disable-devtool$script,domain=myapiplay.top|perverzija.com|xtremestream.xyz
 ||cdn.jsdelivr.net/npm/disable-devtool@$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@*$script,domain=redecanais.*|redecanaistv.*|redisex.*
 ||cdn.jsdelivr.net/npm/disable-devtool@latest$script,domain=vidapi.xyz
@@ -5481,6 +5481,7 @@
 ||mugicom.live^
 ||mullvaad.net^
 ||multiadblock.com^
+||multicanaistt.space/pop/pop.js$script
 ||multilocal-leboncoin.com^
 ||multinews.me^$third-party
 ||multipledrawers.com^
@@ -9538,7 +9539,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5875
+!<<<<<网站单独规则>>>>>5876
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12995,6 +12996,7 @@ myanimelist.net%2Fstatic%2Flogging.gif%3F$image
 myanimelist.net%2Fstatic%2Flogging.gif%3F*$image
 myanimelist.net/pixel?$image
 myanimelist.net/static/logging.gif?$image
+myapiplay.top###popup-overlay
 mycinema.pro##[fdo]
 mydaddy.cc###adc
 mydaddy.cc###ovrl_ad
