@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YsEwH31uIXdwUNhralfNoQ
-! Title: Ublock filter for Via(2026-05-04 00:38:34)
-! Version: 20260504003834
+! Checksum: xYNYnbUJZfoeRWX/FHg1tQ
+! Title: Ublock filter for Via(2026-05-04 09:58:40)
+! Version: 20260504095841
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-04 00:38:34
-! Total Count: 19516
-! Blocked Filters: 19516
+! Last modified: 2026-05-04 09:58:41
+! Total Count: 19517
+! Blocked Filters: 19517
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -15418,7 +15418,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1482
+!<<<<<通配符规则>>>>>1483
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16438,6 +16438,7 @@ $script,domain=zdnet.fr,third-party
 /post.spmailtechnol.com/q/*$image
 /post.spmailtechnolo.com/q/*$image
 /post/FileRotator_ID*/download.php?subid=$xmlhttprequest
+/postsImgs/$image,~third-party,domain=faiviral.com|vijviral.com|wealthcatal.com|heqviral.com
 /preferences.blackbull.com/r/*/open/*$image
 /prelanders/dating-survey/index.html?
 /preroll.engine?
