@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Bw0CX7wbdntb5mZqy3uLJg
-! Title: Ublock filter for Via(2026-05-07 10:01:04)
-! Version: 20260507100105
+! Checksum: ffTFJLnmnws4Tdu9ToGe0Q
+! Title: Ublock filter for Via(2026-05-08 01:42:39)
+! Version: 20260508014239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-07 10:01:05
-! Total Count: 19536
-! Blocked Filters: 19536
+! Last modified: 2026-05-08 01:42:39
+! Total Count: 19586
+! Blocked Filters: 19586
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9537
+!<<<<<域名规则>>>>>9581
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -216,6 +216,7 @@
 ||a2zapk.*/js/notification.js
 ||a2ztechworld.com^$third-party
 ||aa.pornvideotop.com^
+||aaa-youdao.com.cn^
 ||aajdrp.com^
 ||aas.medialaben.no/a/
 ||aawspeedy.com^
@@ -706,6 +707,7 @@
 ||app-atomic.co.com^
 ||app-bitbanlk-cc.weebly.com^
 ||app-defituna.github.io^
+||app-dingding.com.cn^
 ||app-google-zh.hl.cn^
 ||app-ledger-desktop.wasmer.app^
 ||app-lido-finance-v2.com^
@@ -1714,6 +1716,9 @@
 ||choseoffhandsight.com^
 ||choucreme.com^
 ||chpok.site^
+||chrome-chrome-
+||chrome-chrome-cn.hl.cn^
+||chrome-chrome-zh.hl.cn^
 ||chrome-gooogle-zh.hl.cn^
 ||chrome-hl.hl.cn^
 ||chrome-web.com^
@@ -1822,6 +1827,7 @@
 ||cmprotraf.club^
 ||cmtg1.com^
 ||cn-idm.com^
+||cn-qishui-music-zh.hl.cn^
 ||cn-steam.com^
 ||cn-wps-zh.com.cn^
 ||cnangelly.online^
@@ -1930,6 +1936,7 @@
 ||connexpay-app.top^
 ||conohawing.com/*/outlook-
 ||consent.preference-center.com/v2/edge
+||consent.wegotthiscovered.com^
 ||constellationbedriddenexams.com^
 ||consumerproductsusa.com^
 ||contact-supportbusinessmanager.ubpages.com^
@@ -2272,6 +2279,7 @@
 ||dcs-mcdn.mp.lura.live/prod/*$xmlhttprequest,third-party
 ||ddacn6pr5v0tl.cloudfront.net^
 ||dddiey-s1d2.com^
+||de-todesk.com.cn^
 ||deai-labo.site^
 ||deaiai55.com^
 ||deaimatch.jp^
@@ -2642,6 +2650,7 @@
 ||ee-payment-issue.web.app^
 ||ee-payment-method-issue.firebaseapp.com^
 ||ee-pending-payment.firebaseapp.com^
+||ee-web-youdao.com.cn^
 ||eevblog.com/forum/fp.php
 ||eevblog.com/images/*.gif$image
 ||eezy.api.kustomerapp.com/c/v1/tracking/
@@ -2933,6 +2942,7 @@
 ||fantasticcommunity.com^
 ||fantasy-federation.com^
 ||fantia.paid-task.com^
+||fanxa-youdao.com.cn^
 ||fap.bar/p.js
 ||fapdig.com/sw.js$script,~third-party
 ||fapello.xyz^
@@ -3075,6 +3085,7 @@
 ||firebaseapp.com/Autentimine^
 ||firebasestorage.googleapis.com/v0/b/gosyndication.appspot.com^
 ||firefaucet.win/*.gif$image
+||firefox-zh.com.cn^
 ||first-horizon.co.com^
 ||fishstrap.com^$domain=~fishstrap.app
 ||fitgirl-repack.*^$domain=~fitgirl-repacks.site
@@ -3502,6 +3513,7 @@
 ||go-todesk.hl.cn^
 ||go-trust.co.com^
 ||go-wegame.com^
+||go-youdao.com.cn^
 ||go.*.com/easy?
 ||go.*.com/smartpop/
 ||go.bundlebyte.net^
@@ -3559,6 +3571,7 @@
 ||google-analytics.com^$xmlhttprequest,domain=japscan.lol
 ||google-ch-chrome.com.cn^
 ||google-chrrome-zh.hl.cn^
+||google-google-chrome-google-com.hl.cn^
 ||google-stare.com^
 ||google-zhcn-chrome.com.cn^
 ||google.com/recaptcha/api.js$script,domain=skiplink.me
@@ -3850,6 +3863,7 @@
 ||hit.api.useinsider.com^$domain=akbank.com
 ||hitadsmedia.com^$third-party
 ||hitcashtag.com^$third-party
+||hj-wps.com.cn^
 ||hjr-wq.com^
 ||hjytu75fro0.jp^
 ||hk668.cc^
@@ -3936,6 +3950,7 @@
 ||hphp-dy.net^
 ||hpilzison-r.online^
 ||hprofits.com^$domain=gogaytube.tv|shemaleporntube.tv
+||hq-wps.com.cn^
 ||hqbang.com/n/
 ||hqbang.com/neverb/
 ||hqq.*/cdn-cgi/trace$xmlhttprequest,~third-party
@@ -3965,9 +3980,12 @@
 ||humiliatingregion.com^
 ||humilityslammedslowing.com^
 ||humpbuds.com^
+||huoronggk.com^
+||huoronggw.org.cn^
 ||hushemail.net^
 ||huskilyvroom.com^
 ||huskinessimminentstylus.com^
+||hv-youdao.com.cn^
 ||hvacpartstechnician.com^
 ||hxh.jp^
 ||hyadain.com^
@@ -4464,6 +4482,7 @@
 ||katfile.com/images/dlli.png$image
 ||katfile.online^$image,domain=vidnest.live
 ||kawaiilabs.org^
+||kb-wps.com.cn^
 ||kbkb.bet^
 ||kbthuhoivontreo.com^
 ||kby.oqp.mybluehost.me^
@@ -4624,6 +4643,7 @@
 ||kryptografie.de/js/wb_dead.js
 ||kryptoswap.my^
 ||kryvessa.xenithra.site^
+||ks-wps.com.cn^
 ||ksds.jp^
 ||ksj.d7jyu2dnjykvx.amplifyapp.com^
 ||kswrkbdsejqpm.com^
@@ -4778,8 +4798,11 @@
 ||lincolnforestlakeproject.com^
 ||line-bs.com^
 ||line-channel-info.com^
+||line-go.hl.cn^
 ||line-special-information.com^
 ||line.pm/*/SNF-GKFF.FR/
+||line163.com^
+||lineapps.com.cn^
 ||linelife.home-chat.jp^
 ||linemail.work^
 ||lines.fxmwjjeusmulsjf.com^
@@ -4826,6 +4849,7 @@
 ||ll-m-work-2020.com^
 ||ll.liberrttyy.com^
 ||llbeanblackfridays.shop^
+||lline.com.cn^
 ||llq.rsq.mybluehost.me^
 ||lm-mousey-happy.com^
 ||lmoox5.net^
@@ -4990,6 +5014,7 @@
 ||m-hentai.net/JS/exoclick%20popunder.js
 ||m-i4.cn^
 ||m-k-r-5.com^
+||m-todesk.com.cn^
 ||m.economictimes.com/mpetat/commons/images/rbc-red.png$image
 ||m.forgee.xyz/js/jquery.countdown360.min.js$script
 ||m.gamehub.cam/js/jquery.countdown360.min.js$script
@@ -5004,6 +5029,7 @@
 ||ma-t-chy.link^
 ||ma-tching.com^
 ||ma3ion.com^
+||mac-youdao.com^
 ||macapp-apple.com^
 ||macapps-apple.com^
 ||macclear.com^
@@ -5483,6 +5509,7 @@
 ||mtsa.com.my/mtcs.php/pageview/track^$image
 ||mttk2020.jp^
 ||mtvnservices.com/aria/bentojs.js
+||mu-qishuimusic.com.cn^
 ||mudacban.com^
 ||mugen-online.com^
 ||mugicom.live^
@@ -5619,6 +5646,7 @@
 ||mywatchtones.com^
 ||myway.com^
 ||mywebsitetransfer.com/chase/auth^
+||n-todesk.com.cn^
 ||n.fcd.su^
 ||n06.biz^
 ||n1g459ky7y.com^
@@ -6419,6 +6447,7 @@
 ||pngvnreward.pages.dev^
 ||pnieair.cloud^
 ||pnw0kbzjtt.com^
+||po-todesk.com.cn^
 ||pobierzgrepc.com/templates/games/js/blocker.js
 ||pobierzgrepc.com/templates/games/js/p0per.js
 ||pobre.*/wp-banners.js
@@ -6682,6 +6711,7 @@
 ||qeeyou.cn^
 ||qeucuzpbv6jq.jp^
 ||qf6tm5ug.com^
+||qh-qishuiyinyue.hl.cn^
 ||qhigh.com^
 ||qik.cc^$third-party
 ||qip.ru^
@@ -6693,6 +6723,7 @@
 ||qishuiie.com^
 ||qishuiit.com^
 ||qishuimusic-app.com.cn^
+||qishuiq.com.cn^
 ||qishuui.com.cn^
 ||qiwi.gg/sw.js$script,~third-party
 ||qloi-jjcl.com^
@@ -7516,6 +7547,7 @@
 ||sos-bg-sof-*.exo.io^
 ||sotemnovinhas.com/*.gif$image
 ||soubtcevent.com^
+||sougoucom.cn^
 ||sougoupy.com.cn^
 ||souhoazapee.net^
 ||soul-ft.com^
@@ -7730,6 +7762,7 @@
 ||storage.googleapis.com/my*server/*/index.html
 ||storage.googleapis.com/pravda-ad-script/
 ||storageapi-new.fleek.co/*/yss/ind.html
+||store-sogou.com^
 ||store.steampowered.com/app/usabilitytracking/
 ||story-story.life^
 ||stowers-service.com^
@@ -8192,6 +8225,7 @@
 ||to6s.biz^
 ||tobias-neller.link^
 ||todayswigcontagious.com^
+||todesk-web.hl.cn^
 ||todesk-zh.cn^
 ||todesk-zh.hl.cn^
 ||todesk.ac.cn^
@@ -8304,6 +8338,7 @@
 ||trafic.ro^$third-party
 ||tranimeizle.io/js/mm*.js
 ||tranny.one/trannystatic/ads/
+||translate-youdao.com.cn^
 ||transparency-business.com^
 ||transportationlies.org/images/*.gif$image
 ||transportgoline.com^
@@ -8852,7 +8887,9 @@
 ||w-atomicwallet.com^
 ||w-chat25.com^
 ||w-dbl.com^
+||w-dingding.com.cn^
 ||w-g-wn-hn.com^
+||w-todesk.com.cn^
 ||w0o.eu^
 ||w0of-woof.com^
 ||w0sqoketsl.sbs^
@@ -8910,6 +8947,7 @@
 ||web-interface.eu^
 ||web-telegram.net^
 ||web-telegvm.org^
+||web-todesk.com.cn^
 ||web-tonkeep.website^
 ||web.core.windows.net*/js/leave.js
 ||web.core.windows.net*/js/mouse.js
@@ -9064,6 +9102,7 @@
 ||wixstudio.io/mysiteattmail940940^
 ||wiztube.xyz/cdn-cgi/trace^$xmlhttprequest
 ||wjptf.top^
+||wk-wps.com.cn^
 ||wkdk.jp^
 ||wlct-three.de^$third-party
 ||wlko-hcqg.com^
@@ -9329,6 +9368,7 @@
 ||yautube.com^
 ||yawperalluvio.cyou^
 ||yceleb.com^
+||yd-fanyi.hl.cn^
 ||ydfgbmla.com^
 ||yeahmylol.sbs^
 ||yearn.fi-home.org^
@@ -9349,6 +9389,7 @@
 ||yoloo-official.zendesk.com^
 ||you2ubeconverter.com^
 ||you4love.jp^
+||youdaoi.com^
 ||youfindadate.top^
 ||youku.earth^
 ||youku.tv^
@@ -9401,6 +9442,7 @@
 ||ytrevanced.$domain=~revanced.app
 ||ytsubme.com/assets/adblock/
 ||ytvancedpro.com^$domain=~revanced.app
+||yu-qishui.com.cn^
 ||yu0287tk.com^
 ||yuktamedia.com^$third-party
 ||yumajhsbsff.com^
@@ -9497,7 +9539,9 @@
 ||zetporn.com/*/custom_vast/$xmlhttprequest
 ||zh-googlle-chrome.hl.cn^
 ||zh-tenxun.com^
+||zh-todesk-cn.hl.cn^
 ||zhandouxian.com^
+||zhcn-chrome-chrome.com.cn^
 ||zhcn-googele.hl.cn^
 ||zhikunux.com^
 ||zhongwen-telegram.com^
@@ -9551,7 +9595,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5879
+!<<<<<网站单独规则>>>>>5880
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10351,8 +10395,8 @@ bing.com##ol#b_results > li.b_algo:has(> .b_caption > p[ads])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bingotingo.com###please-wait
+biovetro.net,dailyjobposting.xyz,digiztechno.com,jobnoid.net,shrtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##.entry-header, hr, figure.wp-block-table, #right-sidebar, .inside-article > .entry-meta, .comments-area, .site-footer, .max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(.clever-core-ads), div.w-full.flex.flex-wrap.items-center.justify-evenly.gap-3
 biovetro.net,dailyjobposting.xyz,digiztechno.com,shrtslug.biz,srtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper
-biovetro.net,dailyjobposting.xyz,digiztechno.com,shrtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##.entry-header, hr, figure.wp-block-table, #right-sidebar, .inside-article > .entry-meta, .comments-area, .site-footer, .max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(.clever-core-ads), div.w-full.flex.flex-wrap.items-center.justify-evenly.gap-3
 birdurls.com###bg_popup
 birdurls.com###link-view > br
 birdurls.com##.box-main center
@@ -12364,6 +12408,7 @@ jizzbunker.com##.panel-rklcontent-wide
 jizzbunker2.com##.partner-site
 jobfind.gr##div[id^="bannerzone"]
 jobnib.com##.kln.mlb.blox
+jobnoid.net,stfly.me,dailyjobposting.xyz,biovetro.net,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper, [href*="uploadex.net/"]
 jockantv.com###toasts
 jockantv.com##.modal-content
 jockantv.com##.modal.fade.show
@@ -15433,7 +15478,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1484
+!<<<<<通配符规则>>>>>1488
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15682,6 +15727,7 @@ $script,domain=zdnet.fr,third-party
 *preRoll$xmlhttprequest,domain=porngo.com
 *two-gun-volley.pages.dev^$third-party
 -->
+-dingding.com.cn^
 -ez-pass.com^
 -google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
 -ledger.live^
@@ -15689,9 +15735,12 @@ $script,domain=zdnet.fr,third-party
 -load.com/script/$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud
 -ndax-*.webflow.io^
 -sso-*.webflow.io^
+-todesk.com.cn^
 -track.atlassian.com%2FCI0%2F$image
 -track.atlassian.com%2FCI0%2F*$image
 -track.atlassian.com/CI0/$image
+-wps.com.cn^
+-youdao.com.cn^
 .*%2Fwf%2Fopen%3Fupn%3D$image
 .*%2Fwf%2Fopen%3Fupn%3D*$image
 ./M5q5.js$script
@@ -17254,7 +17303,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2305
+!<<<<<放行白名单>>>>>2306
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18805,13 +18854,13 @@ voz.vn/b/image.gif?p=$image
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/$script,domain=smsonline.cloud|timesofindia.indiatimes.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*$script,domain=moviepilot.de
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,third-party,domain=w3schools.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt|mediaite.com|scotsman.com|today.line.me|wikihow.com|www.wikihow.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=jn.pt|mediaite.com|nathanmichaelphoto.com|scotsman.com|today.line.me|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,third-party,domain=journaldemontreal.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config^$xmlhttprequest,redirect-rule,domain=kumparan.com
 @@||securepubads.g.doubleclick.net/pcs/view/*$xmlhttprequest,domain=joyn.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect-rule,domain=athlonsports.com|autoblog.com|bikemag.com|dengarden.com|mensfitness.com|mensjournal.com|parade.com|paradehomeandgarden.com|paradepets.com|pethelpful.com|powder.com|shophq.com|surfer.com|thespun.com|thestreet.com|travelhost.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|dropgalaxy.com|epaper.eenadu.net|financemonk.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|poczta.o2.pl|poczta.wp.pl|thedailybeast.com|timesofindia.indiatimes.com|tvaplus.ca|voici.fr|wikihow.com|www.wikihow.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=aternos.org|dropgalaxy.com|epaper.eenadu.net|financemonk.net|gala.fr|gentside.*|geo.fr|jn.pt|meteoetradar.com|nathanmichaelphoto.com|ohmymag.*|ojogo.pt|panel.freemcserver.net|plataformamedia.com|poczta.o2.pl|poczta.wp.pl|thedailybeast.com|timesofindia.indiatimes.com|tvaplus.ca|voici.fr|wikihow.com|www.wikihow.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule,domain=gamedeveloper.com|golf.com|honestjohn.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,domain=journaldemontreal.com|w3schools.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,third-party,redirect-rule,domain=ani.gamer.com.tw
@@ -19034,6 +19083,7 @@ voz.vn/b/image.gif?p=$image
 @@||toolbaz.com/tardisrocinante/screx.js$script,~third-party
 @@||toolbaz.com/tardisrocinante/vitals.js$script,~third-party
 @@||top.gg/js/$script,~third-party
+@@||topcountry.eu^$script,domain=decompiler.com
 @@||topsong.eu^$script,domain=decompiler.com
 @@||topsongs.eu^$script,domain=decompiler.com
 @@||toss.onelink.me/*service.toss.im$~third-party
