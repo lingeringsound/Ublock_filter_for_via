@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: T6kjBKY/4wENNCVCF/FzFg
-! Title: Ublock filter for Via(2026-05-09 10:01:27)
-! Version: 20260509100127
+! Checksum: cOC3Jh+tnMjX1x3Xu6X4tA
+! Title: Ublock filter for Via(2026-05-10 00:42:32)
+! Version: 20260510004232
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-09 10:01:27
-! Total Count: 19592
-! Blocked Filters: 19592
+! Last modified: 2026-05-10 00:42:32
+! Total Count: 19593
+! Blocked Filters: 19593
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9596,7 +9596,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5882
+!<<<<<网站单独规则>>>>>5883
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13020,6 +13020,7 @@ msn.cn##.eastday-post-article-container
 msn.cn##msft-article[id^="native_ad_nativead"]
 msn.com##.colombiaintraarticleads
 msn.com##.extnativeaditem, .serversidenativead > h3
+msn.com##.gem-display-ad
 msn.com##.stripecontainer:has(.adslabel)
 msn.com##.todayshowcasead
 msn.com##.vd-ad
