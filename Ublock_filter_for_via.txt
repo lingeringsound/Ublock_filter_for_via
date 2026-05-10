@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: P62y44nHBspc9jm5MA/SgA
-! Title: Ublock filter for Via(2026-05-10 10:00:49)
-! Version: 20260510100049
+! Checksum: 4Muy8Aazrn7+j8ZWIOvKsQ
+! Title: Ublock filter for Via(2026-05-11 00:43:01)
+! Version: 20260511004301
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-10 10:00:49
-! Total Count: 19593
-! Blocked Filters: 19593
+! Last modified: 2026-05-11 00:43:01
+! Total Count: 19594
+! Blocked Filters: 19594
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9596,7 +9596,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5883
+!<<<<<网站单独规则>>>>>5884
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9985,6 +9985,7 @@ allgemeine-zeitung.de,buerstaedter-zeitung.de,echo-online.de,lampertheimer-zeitu
 alliptvlinks.com###arlinablock
 allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
+allporncomic.com##[href^="https://s.zlink0.com/"], [href^="https://s.zline0.com/"]
 allporncomic.com,anitube.*,av01.media,av01.tv,bamgosu.site,boobsrealm.com,chan.sankakucomplex.com,comic.pixiv.net,cpmlink.net,crazyblog.in,doomovie-hd.*,dragontea.ink,exactpay.online,fc-lc.*,fc-lc.com,fc-lc.xyz,fitdynamos.com,gamezizo.com,javhdporn.net,jpvhub.com,kiddyearner.com,labgame.io,lowendbox.com,luxuretv.com,mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*,mylust.com,netmovies.to,oii.io,ouo.*,pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*,redecanais.*,sharemods.com,shoppinglys.blogspot.com,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*,studyuo.com,uploadbank.com,uploady.io,uploadydl.com,urbharat.xyz,webhostingpost.com,ygosu.com,ylilauta.org,zuperdrive.my.id##iframe
 allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,novelcrow.com,readytechflip.com,romadd.com,sampledrive.org,soranews24.com,studydhaba.com,taoruseitai.com,taradinhos.com,thedigitaltheater.com,toursetlist.com,tousatu-ch.net,towelstretches.com##.widget_custom_html
