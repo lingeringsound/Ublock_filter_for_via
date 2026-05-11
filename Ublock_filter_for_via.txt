@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: KX0B8pjAm/eqQQD63yd+6Q
-! Title: Ublock filter for Via(2026-05-11 10:10:30)
-! Version: 20260511101030
+! Checksum: 3GUqsi41L0Ux8gJbGNVpFw
+! Title: Ublock filter for Via(2026-05-12 01:49:28)
+! Version: 20260512014928
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-11 10:10:30
-! Total Count: 19595
-! Blocked Filters: 19595
+! Last modified: 2026-05-12 01:49:28
+! Total Count: 19632
+! Blocked Filters: 19632
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9583
+!<<<<<域名规则>>>>>9614
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -58,6 +58,7 @@
 ||135buy.com^
 ||164.132.74.156^
 ||165-227-173-120.plesk.page^
+||16gift.com^
 ||178368-coinbase.com^
 ||19093.jp^
 ||1919-chat.tv^
@@ -138,6 +139,7 @@
 ||57zyazmk.jp^
 ||587.jp^
 ||587jtu3.com^
+||599cdn.com/Philippines/ph*.jpg$image,domain=top
 ||5dgja.com^
 ||5hjd9t.com^
 ||5jd2tj2idrool.com^
@@ -442,7 +444,9 @@
 ||airupgreece.net^
 ||airupitaly.it^
 ||aisi-i4.com^
+||aisi-zhi.com.cn^
 ||aisi.nx.cn^
+||aisiapp.com.cn^
 ||aisipc.net^
 ||aitai.biz^
 ||aitimaforou.web.app^
@@ -769,6 +773,7 @@
 ||apps-google-hl.hl.cn^
 ||apps-sougoupinyin.com^
 ||apps-tencent.com^
+||apps-wps-offce.com.cn^
 ||appsflyer.com^$third-party
 ||appsuites.framer.ai^
 ||apptospace.com^
@@ -1607,6 +1612,7 @@
 ||cfolks.pl/*/swisscom/
 ||cfw.dexscreener.com^
 ||cgcsarz0opg.jp^
+||ch-qishui-music.com.cn^
 ||ch3l.net^
 ||cha-nce.net^
 ||chairmanalienxanthopsia.com^
@@ -2568,6 +2574,7 @@
 ||dwp-yous*.top^
 ||dx-tv.com^$third-party
 ||dxyezzxkrvqf.top^
+||dy-qishuimusic.hl.cn^
 ||dydynight.org^
 ||dyiket.com^
 ||dynamicopenfonts.app^
@@ -2581,6 +2588,7 @@
 ||e-messsage.com^
 ||e-navy*.weebly.com^
 ||e-outlook-online.com^
+||e-sanpei.com^
 ||e-serviceparts.info^
 ||e-stat.huya.com^
 ||e-stata.ru/track/1/
@@ -2861,6 +2869,7 @@
 ||exo.io/cloudcask/
 ||exoclick.com^$third-party
 ||exodus-wallets.io^
+||exodus.com.ag^
 ||exodus.net-sys.at^
 ||exodus.walletv3.com^
 ||exodusl.com^
@@ -3421,6 +3430,7 @@
 ||getsecuritysuite.com^
 ||getsexgames.com/templates/sexgames/$image,~third-party
 ||getstylify.com^
+||gf-qishuiapp.com.cn^
 ||gg.deals/redirections/report/
 ||gg.garrnnet.com^
 ||ggcake.tindersplus.net^
@@ -3981,6 +3991,7 @@
 ||humiliatingregion.com^
 ||humilityslammedslowing.com^
 ||humpbuds.com^
+||huoronggh.com^
 ||huoronggk.com^
 ||huoronggw.org.cn^
 ||hushemail.net^
@@ -4685,6 +4696,7 @@
 ||l1ve-com.444774.shop^
 ||l2db.info/uploads/banners/$image
 ||lab-chaingpt.net^
+||labor-day-*.top^
 ||lacqplus.tests.step.eco^
 ||lacworkamenty.com^
 ||laiwujiaoyu.com^
@@ -5527,6 +5539,7 @@
 ||murphy.zoho.in/murphy/*/clientmetricslog?logtype=clientmetrics
 ||murphy.zoho.in/murphy/*/exceptions
 ||murphy.zoho.in/murphy/*/ingest/infoLogs
+||music-qishuiyinle.hl.cn^
 ||musicboxcr.com^
 ||musicinmysoul.biz^
 ||musk-project.com^
@@ -6273,6 +6286,7 @@
 ||pc1968.onrender.com^
 ||pc2512.com^
 ||pcapp.store^
+||pccare-360.cn^
 ||pccdirect.site^
 ||pcconelove.xyz^
 ||pcgamestorrents.com/*.gif$image
@@ -6717,16 +6731,24 @@
 ||qik.cc^$third-party
 ||qip.ru^
 ||qishmusic.com.cn^
+||qishui-*.com.cn^
+||qishui-eom.com.cn^
+||qishui-gf.com.cn^
 ||qishui-yinle.hl.cn^
 ||qishui-zn.hl.cn^
+||qishui.bj.cn^
 ||qishui.team^
 ||qishuide.com.cn^
 ||qishuiie.com^
 ||qishuiit.com^
 ||qishuimusic-app.com.cn^
+||qishuimusic-cn.hl.cn^
 ||qishuiq.com.cn^
+||qishuiyinyue-music.hl.cn^
+||qishuiyy.com.cn^
 ||qishuui.com.cn^
 ||qiwi.gg/sw.js$script,~third-party
+||ql-qishui.com.cn^
 ||qloi-jjcl.com^
 ||qole-oracle.jp^
 ||qonto-app.co.com^
@@ -7083,6 +7105,7 @@
 ||saddlegirls.com/saddlegirls/ph/v/*_video.mp4$~third-party
 ||safeageplan.link^
 ||safelinkconverter.com^$script,third-party
+||safepal.com.co^
 ||safesendclub.com^
 ||safety-line-message.com^
 ||safety-profiles-fb-ads-*.vercel.app^
@@ -7278,6 +7301,7 @@
 ||sgeiruehou.cfd^
 ||sgoke0333.info^
 ||sgua.jp^
+||sh-qishuimusic.com.cn^
 ||shacsda.name^$third-party
 ||shadowinject.com^
 ||shadowofff.neocities.org^
@@ -7511,6 +7535,7 @@
 ||softlab.fun^
 ||softronline.click^
 ||softs-download.com^
+||sogou-ai.com.cn^
 ||sogou-sogou.cn^
 ||sogou2.com.cn^
 ||sogoushurf.com^
@@ -7557,6 +7582,7 @@
 ||soundcloud.com/audio-ad$~third-party,xmlhttprequest
 ||soundcloud.com/promoted$~third-party,xmlhttprequest
 ||soundcore.com/metrics/$xmlhttprequest,method=post
+||sowgou.com.cn^
 ||soyte.cc^
 ||sp-ciro-gov.com^
 ||sp.aircsgo.com^
@@ -8267,6 +8293,7 @@
 ||top-official-app.com^
 ||top-wegame.com^
 ||top.mail.ru^$third-party
+||top/single.php|$script,~third-party
 ||top^$ipaddress=15.207.81.128
 ||topblockchainsolutions.*^
 ||topen.im^
@@ -8397,6 +8424,7 @@
 ||tronilnk.com^
 ||tronkwintun.com^
 ||tronlink-walletextension.webflow.io^
+||tronlink.com.co^
 ||tronssan.github.io^
 ||tropicalbegrudge.com^
 ||trr59rrt.com^
@@ -9140,6 +9168,7 @@
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
 ||wpenginepowered.com/usps/
 ||wploits.com^
+||wpp-wps.cn^
 ||wppanel.icu^
 ||wps-cnzh.com^
 ||wps.ac.cn^
@@ -9152,6 +9181,7 @@
 ||wsws1234.net^
 ||wswsnews.net^
 ||wufazpappk.com^
+||ww-qishui.com.cn^
 ||ww-sogou.cn^
 ||wwbudmh.ru^
 ||www-askfollow-us.translate.goog^
@@ -9380,6 +9410,7 @@
 ||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 ||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
+||yinyue-qishui.hl.cn^
 ||ykjnjicn.xyz^
 ||yl-0-wf.com^
 ||yoads.network^$third-party
@@ -9597,7 +9628,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5884
+!<<<<<网站单独规则>>>>>5888
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10354,7 +10385,7 @@ bezpolitickekorektnosti.cz,javfull.pro##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
-bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,hax.co.id,jelonka.com,leechpremium.net,rangerboard.com,wallpaperplay.com##.adsbygoogle
+bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,hax.co.id,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -10787,6 +10818,7 @@ comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: aut
 comidoc.net##div[style="text-align:center;margin-left:auto;margin-right:auto;min-height:266px;max-width:90vw"]
 comidoc.net,tricksplit.io##div:has(> .adsbygoogle)
 comix.to,idlixku.com,westmanga.*,westmanga.fun,westmanga.org##[src*=".gif"]
+comix.to,ymix.to##a[target="_blank"][href="#"]
 comousarzararadio.blogspot.com###HTML10, #HTML9
 complex.com##.base__header-ad
 compucalitv.com##.botondescarga
@@ -12441,6 +12473,7 @@ kalicrack.com##center > .button-container:has(> #directDownload)
 kalileaks.com##[href^="https://alexhost.com/"]
 kaotic.com##.track_outbound_post.grid-item
 kaotic.com##div.hard-5.col-xs-12.col-sm-3:has(.track_outbound_post)
+karanpc.com##.entry-content div[onclick][data-matrix]
 kat.*,katbay.*,kickass.*,kickasshydra.*,kickasskat.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*##[href="/k.php?q=q"]
 kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkickass.*,kkat.*,kickasst.*,kick4ss.*,katbay.*,kickasshydra.*,kickasskat.*,kickassbay.*,torrentkat.*,kickassuk.*,torrentskickass.*,kickasspk.*,kickasstrusty.*,katkickass.*,kickassindia.*,kickass-usa.*,kickassaustralia.*,kickassdb.*,kathydra.*,kickassminds.*,katkickass.*,kickassunlocked.*,kickassmovies.*,kickassfull.*,bigkickass.*,kickasstracker.*,katfreak.*##[style*="decoration"]:not([style^="width"])
 katerionews.com##div[style]:has(> iframe[src^="/hot-news/addon.php"])
@@ -14029,6 +14062,7 @@ schnittberichte.com##.section__adbanner
 schnittberichte.com##[href^="/goto.php?ID="]
 schools.snap.app##div.ant-modal-root:has(img[alt="Advertisement"])
 scloud.ws##a[class*="download"]
+scloud.ws##article > div[class][style^="text-align:"] > a[href]:not([href*="/"])
 scotsman.com##[class*="AdContainer"]
 scotsman.com##[class*="AdLoading"]
 scotsman.com##[class*="Ads__Container"]
@@ -14670,6 +14704,7 @@ tokyomotion.com##.videos > .column:not([id])
 tonpornodujour.com###disclaimerId
 toonstream.*##.SH-Ads
 toonstream.*##.fake-player-overlay
+top##body > center + .A + .post
 top-faucet.com##div[style]:has(> span[id^="ezoic"])
 top.gg###parent_nn_player
 top.gg###rewarded-video
@@ -15484,7 +15519,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1488
+!<<<<<通配符规则>>>>>1490
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15733,6 +15768,7 @@ $script,domain=zdnet.fr,third-party
 *preRoll$xmlhttprequest,domain=porngo.com
 *two-gun-volley.pages.dev^$third-party
 -->
+-chrome-chrome.com.cn^
 -dingding.com.cn^
 -ez-pass.com^
 -google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
@@ -15740,6 +15776,7 @@ $script,domain=zdnet.fr,third-party
 -load.com/loader.min.js|$domain=dogdrip.net|infinityfree.com|smsonline.cloud
 -load.com/script/$xmlhttprequest,domain=dogdrip.net|infinityfree.com|slashdot.org|smsonline.cloud
 -ndax-*.webflow.io^
+-qishui.com.cn^
 -sso-*.webflow.io^
 -todesk.com.cn^
 -track.atlassian.com%2FCI0%2F$image
