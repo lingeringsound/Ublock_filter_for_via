@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3GUqsi41L0Ux8gJbGNVpFw
-! Title: Ublock filter for Via(2026-05-12 01:49:28)
-! Version: 20260512014928
+! Checksum: 44C9eQmNUX8bG1yZ/YLh3g
+! Title: Ublock filter for Via(2026-05-12 10:06:16)
+! Version: 20260512100616
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-12 01:49:28
-! Total Count: 19632
-! Blocked Filters: 19632
+! Last modified: 2026-05-12 10:06:16
+! Total Count: 19633
+! Blocked Filters: 19633
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9660,6 +9660,7 @@ $script,domain=zdnet.fr,third-party
 01fmovies.com##.ico.close
 01fmovies.com##.jw-logo
 01fmovies.com##[src^="/addons/"]
+0vg9r.com,398fitus.com,arbitrarydecisions.com,bysebuho.com,bysedikamoum.com,bysefujedu.com,bysejikuar.com,bysekoze.com,byseqekaho.com,byseraguci.com,bysesayeveum.com,bysesukior.com,bysetayico.com,bysewihe.com,dramathical.stream,f16px.com,f75s.com,filemoon.*,g9r6.com,ystream.id##body.video-embed-mode > div[class][style]:not(#root)
 10.com.au,10play.com.au##.content__ad__content
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src*="/"][src*="_"])
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/"][src*="_"])
@@ -11700,7 +11701,6 @@ g-porno.com,g-streaming.com##.popup-overlay
 g-status.com##.topadv_placeholder
 g3g.*##.text-center.alert-danger.alert-dismissible.alert
 g5u.pw##A[href$=".html"][rel="nofollow norefferer noopener"]
-g9r6.com##body.video-embed-mode > div[class][style]:not(#root)
 gadgetguideonline.com,volksliederarchiv.de##.ai-track
 gadgets.ndtv.com###ndtv-message-userss
 gainbtc.click##._hide
@@ -17346,7 +17346,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2309
+!<<<<<放行白名单>>>>>2310
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17913,7 +17913,7 @@ voz.vn/b/image.gif?p=$image
 @@||cdn.zidedge.com/zp/ranker/$script,domain=ranker.com
 @@||cdn.ziffstatic.com/pg/ign.$script,domain=ign.com
 @@||cdn4ads.com/*/xhumane.min.js$script,domain=torupload.com|nathanmichaelphoto.com
-@@||cdn4ads.com/T/myaUVE/xhumane.min.js$script,domain=torupload.com|nathanmichaelphoto.com
+@@||cdn4ads.com/T/myaUVE/xhumane.min.js$script,domain=nathanmichaelphoto.com|torupload.com
 @@||cdn4ads.com^$script,domain=nathanmichaelphoto.com|torupload.com
 @@||cdnb.4strokemedia.com/carousel/v4/comScore-JS-$script,domain=formulapassion.it
 @@||cdnjs.cloudflare.com/ajax/$script,domain=pch.com
@@ -19129,6 +19129,7 @@ voz.vn/b/image.gif?p=$image
 @@||toolbaz.com/tardisrocinante/screx.js$script,~third-party
 @@||toolbaz.com/tardisrocinante/vitals.js$script,~third-party
 @@||top.gg/js/$script,~third-party
+@@||topcountries.eu^$script,domain=decompiler.com
 @@||topcountry.eu^$script,domain=decompiler.com
 @@||topsong.eu^$script,domain=decompiler.com
 @@||topsongs.eu^$script,domain=decompiler.com
