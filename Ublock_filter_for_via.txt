@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 44C9eQmNUX8bG1yZ/YLh3g
-! Title: Ublock filter for Via(2026-05-12 10:06:16)
-! Version: 20260512100616
+! Checksum: 1xHhlz1dJ023awxCxt6fCw
+! Title: Ublock filter for Via(2026-05-13 01:53:49)
+! Version: 20260513015349
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-12 10:06:16
-! Total Count: 19633
-! Blocked Filters: 19633
+! Last modified: 2026-05-13 01:53:49
+! Total Count: 19642
+! Blocked Filters: 19642
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9614
+!<<<<<域名规则>>>>>9619
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -765,6 +765,7 @@
 ||apply-todayjobs.com^
 ||applynow-jobs.com^
 ||applytoday-jobs.com^
+||applzr.com^
 ||appmemekombatclaim.pages.dev^
 ||appnext.hs.llnwd.net^
 ||apppleheaddd.jp^
@@ -804,6 +805,7 @@
 ||ariase.com/get-module?moduleType=BANDEAU_BAS
 ||ariva.de/js/fcm-sw.js$script,~third-party
 ||arkadiumhosted.com/*/adsBlob/$xmlhttprequest,domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|miamiherald.com|standard.co.uk|word.tips
+||armour-inc-down.net^
 ||armpitgratitudecruelty.com^
 ||arousalx.com^
 ||arrakis2.com^
@@ -2668,6 +2670,7 @@
 ||efljiccdztabg.com^
 ||egisela.com^
 ||egnatius-ear.com^$script,domain=ouo.*
+||egotisticexcavateplywood.com^
 ||egwj-ossi.com^
 ||egyanime.com^$domain=vidia.tv
 ||eharmonysingle.online^
@@ -7459,6 +7462,7 @@
 ||skysportspro.com^
 ||slash-ap.co.com^
 ||slash-on.co.com^
+||slate.com/analytics
 ||slb3cr9dx9.jp^
 ||slc.cbssports.com^
 ||sldg02.com^
@@ -7852,6 +7856,7 @@
 ||suissscomee-correo*.codeanyapp.com^
 ||suitablepartner.life^
 ||suite-trezor.click^
+||suite.co.com^
 ||suite.tem3.io^
 ||suitee-trezorrsuite.com^
 ||suites-en.framer.ai^
@@ -9628,7 +9633,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5888
+!<<<<<网站单独规则>>>>>5889
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11805,6 +11810,7 @@ getsexgames.com##.center > table[cellspacing="0"]:last-child > tbody > tr:last-c
 getsexgames.com##.center > table[cellspacing="5"] > tbody > tr:last-child:has(> td > h1)
 getsexgames.com##.menuAff
 getsexgames.com##.menuPointPic
+getthispdf.com##.content > #pageAdSlot
 gifhq.com,hardgif.com,nsfwmonster.com##.unique-banner
 giga.de##.alice-video-feed__ad
 giphy.com##div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="htlad-"][class$="top_leaderboard_detail"])
@@ -15519,7 +15525,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1490
+!<<<<<通配符规则>>>>>1491
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15882,6 +15888,7 @@ $script,domain=zdnet.fr,third-party
 .gif$image,domain=107.152.37.223|bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|dizipal4.com|otakudesu.*|otakudesu.best|otakudesu.org|sadisflix.*|series-d.com|urlbluemedia.*|xyzsports111.xyz|xyzsports112.xyz|xyzsports113.xyz|xyzsports114.xyz|xyzsprtsfrmr1.site|xyzsprtsfrmr2.site
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=filmvitrini.net|idlixvip.*|idlixvip.asia|mangaku.*|universitiesonline.xyz|vcloud.lol|~mangaku.win
+.go?pid=*&spaceid=*&ctrlid=
 .google-analytics.com%2F*
 .google.com%2Fappserve%2Fmkt%2Fimg%2F$image
 .google.com/appserve/mkt/img/$image
@@ -17346,7 +17353,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2310
+!<<<<<放行白名单>>>>>2312
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18310,6 +18317,7 @@ voz.vn/b/image.gif?p=$image
 @@||googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$domain=searchftps.net
 @@||googlesyndication.com/pagead/show_ads.js$script,domain=searchftps.net
 @@||googlesyndication.com^$script,xmlhttprequest,domain=ytlarge.com
+@@||googlesyndication.com^$subdocument,domain=nathanmichaelphoto.com
 @@||googlesyndication.com^$xmlhttprequest,domain=extremereportbot.com
 @@||googlesyndication.com^$xmlhttprequest,script,domain=manofadan.com
 @@||googletagmanager.com/gtag/*$script,domain=redx.com.bd
@@ -19532,6 +19540,7 @@ msn.com#@#.intra-article-module
 music.amazon.*#@##overlay:has([href*="privacyprefs/"])
 musmus.main.jp,streetinsider.com#@##ad_space:not([style^="position: absolute; left: -5000px"])
 mytempsms.com#@##container-ad
+nathanmichaelphoto.com#@##gdpr-cookie-notice
 ndtv.com#@##taboola-below-article-thumbnails
 ndtv.com#@#amp-embed[type="taboola"]
 needgayporn.com#@#.is-ad-visible
