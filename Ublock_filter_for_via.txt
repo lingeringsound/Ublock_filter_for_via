@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hg9pE9CWQPrdGK7rCSTcAg
-! Title: Ublock filter for Via(2026-05-13 10:11:46)
-! Version: 20260513101146
+! Checksum: 4inzXZJj7d4llMuWkca9dg
+! Title: Ublock filter for Via(2026-05-14 01:55:41)
+! Version: 20260514015541
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-13 10:11:46
-! Total Count: 19642
-! Blocked Filters: 19642
+! Last modified: 2026-05-14 01:55:41
+! Total Count: 19654
+! Blocked Filters: 19654
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9619
+!<<<<<域名规则>>>>>9629
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -204,6 +204,7 @@
 ||a.b.napiszar.com^
 ||a.fapcat.com^
 ||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?$script,domain=sourceforge.net
+||a.hentaiocean.com^
 ||a.magsrv.com/ad-provider.js$xmlhttprequest,domain=doods.to|poophq.com|veev.to
 ||a.orbsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||a.pemsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
@@ -528,6 +529,7 @@
 ||amari-ama.com^
 ||amateurdough.com/promomaterials/*/banners/$image,domain=shegods.com
 ||amateurporn.net/*.gif$image
+||amateursubs.com/wp-content/special/
 ||amazing.mirage-road.com^
 ||amazingmeaning.com^
 ||amazon-*.shop^
@@ -695,6 +697,7 @@
 ||api.qmh.sex/api/banner/
 ||api.terashare.co/api/analytics$~third-party
 ||api.tumblr.com/*/share/stats$script,third-party
+||api.viphubss.shop/api/banner
 ||api.vuukle.com/api/v1/getModal$xmlhttprequest,third-party
 ||api.x.com/1.1/graphql/error_log.json
 ||api.xfantazy.com/*/ad-scripts
@@ -821,6 +824,7 @@
 ||asadcdn.com^$script,domain=welt.de
 ||asap15.com^
 ||asdmcm.com^
+||ash.automobile-catalog.com/core.js
 ||ashameskirmishcontinuing.com^
 ||ashemaletube.*/ads/$xmlhttprequest
 ||asianmilfhub.com/wp-content/uploads/ad/
@@ -1742,6 +1746,7 @@
 ||chy.jp^
 ||ciaberibu.com^
 ||cineby.*/scripts/gk.js
+||cineby.*/scripts/os.js
 ||cinemaxxl.de/js/adblock.js$script
 ||circle7-bd.com^
 ||cit-rine.com^
@@ -3471,6 +3476,7 @@
 ||git44share.quest^
 ||gitbook.com/v1/integrations/googleanalytics/
 ||gitcompiler.com^
+||gitconnect-online.web.app^
 ||gitfrominstall.com^
 ||github.com/_private/browser/errors
 ||github.com/linarweloper/Blumfarmbot^
@@ -5923,6 +5929,7 @@
 ||official-xai.com^
 ||official.step-up-line.com^
 ||official.treasure-fan.com^
+||officialgithubweb3.pages.dev^
 ||officialkmspico.com^
 ||officialkmspico.download^
 ||officialkmspico.info^
@@ -6494,6 +6501,7 @@
 ||popcdn.day/stream/floating.js^
 ||popcent.org^$third-party
 ||popcornpump.xyz^
+||poplarcoinsyeah.com^
 ||popsads.link^
 ||poptival.com^
 ||popular-resort-ads.com^
@@ -7106,12 +7114,14 @@
 ||sacolamobile.influenciadormagalu.com.br^
 ||sadbaguette.com^
 ||saddlegirls.com/saddlegirls/ph/v/*_video.mp4$~third-party
+||safe3.top^
 ||safeageplan.link^
 ||safelinkconverter.com^$script,third-party
 ||safepal.com.co^
 ||safesendclub.com^
 ||safety-line-message.com^
 ||safety-profiles-fb-ads-*.vercel.app^
+||sagou.com.cn^
 ||saham.hugaf.dev^
 ||saicepeage.com^
 ||sakudon293ssp.jp^
@@ -9633,7 +9643,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5889
+!<<<<<网站单独规则>>>>>5890
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9753,7 +9763,7 @@ $script,domain=zdnet.fr,third-party
 1cloudfile.com##.content-preview-wrapper
 1cloudfile.com##.preview-download-wrapper
 1ink.cc,lbprate.com##[id^="Ad"]
-1jour1film.cyou,hds-streaming.*,onionplay.io,vumoo.cc,yabaisub.cloud###fakeplayer
+1jour1film.cyou,hdmozi.hu,hds-streaming.*,onionplay.io,vumoo.cc,yabaisub.cloud###fakeplayer
 1link.vip##[href^="https://1frozenthrone1.com"]
 1link.vip##[href^="https://runreferences.com"]
 1link.vip,bingsport.xyz##[href^="https://www.highrevenuegate.com/"]
@@ -10234,6 +10244,7 @@ atdhe.*###bannerInCenter
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org###placement-takeover
 atglinks.com##.blog-item, .separator, .banner-inner, .box-main > [href], #footer
+atglinks.com##.row > .banner.banner-captcha:has(iframe)
 atglinks.com##body > div[style*="width:300px;height:250px"]:has(a[href][target="_blank"])
 atglinks.com,go.bloggingaro.com,go.gets4link.com,go.gyanitheme.com,go.hipsonyc.com,go.theforyou.in,golink.bloggerishyt.in,namaidani.com,set.seturl.in,shrink.*,shrink.icu,shrink.yt,swiftlnx.com,youshort.me##.blog-item
 atozmath.com###vi-smartbanner
@@ -15525,7 +15536,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1491
+!<<<<<通配符规则>>>>>1492
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16723,6 +16734,7 @@ $script,domain=zdnet.fr,third-party
 /video_app/adult/*/index.html?*p1=
 /video_app/new/adult/*/index.html?
 /videojs-vast-vpaid/*
+/videojsxvast.js
 /views/choice/*/start.php^
 /views/go/start.php^
 /visilabs.min.js
