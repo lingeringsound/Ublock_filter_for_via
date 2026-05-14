@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kD/g9C1IJIYfsv9kp5oDtQ
-! Title: Ublock filter for Via(2026-05-14 10:14:18)
-! Version: 20260514101418
+! Checksum: YehV+aSvH8/+o1cXYSGq7Q
+! Title: Ublock filter for Via(2026-05-15 01:42:51)
+! Version: 20260515014251
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-14 10:14:18
-! Total Count: 19654
-! Blocked Filters: 19654
+! Last modified: 2026-05-15 01:42:51
+! Total Count: 19661
+! Blocked Filters: 19661
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9629
+!<<<<<域名规则>>>>>9632
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5929,11 +5929,13 @@
 ||official-xai.com^
 ||official.step-up-line.com^
 ||official.treasure-fan.com^
+||officialgitechpage.web.app^
 ||officialgithubweb3.pages.dev^
 ||officialkmspico.com^
 ||officialkmspico.download^
 ||officialkmspico.info^
 ||officialkmspico.net^
+||officialplenty.com^
 ||officials-kmspico.com^
 ||officialxai.com^
 ||offiio-wps.com.cn^
@@ -6583,6 +6585,7 @@
 ||press-continue.*.top^
 ||prewhipmamamu.com^
 ||prf.hn^$reason=tracker
+||pricklyassociation.com^
 ||primal.premium-prism.net^
 ||primeleech.com^
 ||primeos.in/wp-content/uploads/*/Sidebar-Ad*$image
@@ -9643,7 +9646,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5890
+!<<<<<网站单独规则>>>>>5894
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11059,6 +11062,7 @@ dl.gamecopyworld.*##.t2 > tbody > tr:nth-of-type(1) > td
 dl.gamecopyworld.*##td:nth-of-type(2)
 dl.gamecopyworld.*##tr:nth-of-type(6) > td
 dlink.mobilejsr.com##[src*="png"]
+dobreprogramy.pl##div[class*=" "]:not([class*="-"], [id]):has(> img[src^="https://v.wpimg.pl/"])
 docs.dataunlocker.com##div[class^="PageTransition_overlay__"]
 doge25.in##.alert-success.alert .ads
 doge25.in##.row.text-center > .ads
@@ -14136,7 +14140,10 @@ seriu.jp##body > .site-footer + div[id][class*=" "]
 servedez.com##[id^="ad_"]
 servers-mc.net###server-ad-left
 servers-mc.net###server-ad-right
+servustv.com##._1tu2i3m0
 servustv.com##.backdrop-filter
+servustv.com##.ha52x01.ha52x00.ha52x07
+servustv.com##.ha52x04.ha52x05.ha52x00.ha52x06
 sexjobs.es##.topBanners
 sexlist.tv##.camitems
 sexlist.tv##.link-premium
