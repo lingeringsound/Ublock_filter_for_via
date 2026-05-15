@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YehV+aSvH8/+o1cXYSGq7Q
-! Title: Ublock filter for Via(2026-05-15 01:42:51)
-! Version: 20260515014251
+! Checksum: LEqwtMtqYbWhDtIyCSVy1w
+! Title: Ublock filter for Via(2026-05-15 10:12:00)
+! Version: 20260515101200
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-15 01:42:51
-! Total Count: 19661
-! Blocked Filters: 19661
+! Last modified: 2026-05-15 10:12:00
+! Total Count: 19662
+! Blocked Filters: 19662
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9646,7 +9646,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5894
+!<<<<<网站单独规则>>>>>5895
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12436,7 +12436,7 @@ javrank.com##.text-center:has(> div.koukoku_1)
 javrave.club,javraveclub.com##.leader_banner
 javrookies.com,javzh.com,sakurajav.com,sakuravrjav.com###isLatest
 javsister.com##.boxzilla-center-container
-javsister.com##.boxzilla-overlay
+javsister.com,thesaltysoldier.com##.boxzilla-overlay
 javsister.com,unibilgi.net###custom_html-11
 javtiful.com##body > div[style*="z-index:"]
 javtrailers.com###cta
@@ -14651,6 +14651,7 @@ thepiratebay.org##[href^="http://www.coiwqe.site/"]
 thepiratebay3.com^
 theporngod.com##.closebox
 theporngod.com##[id^="cw-"]
+thesaltysoldier.com##.boxzilla-the-salty-soldier-uncensored
 thesaurus.net##.grammarly-bnr, #grammarly_link, #clickable-area-left, #clickable-area-right, a[href^="https://grammarly.go2cloud.org/"], a[href*="aff_"]
 thesimsresource.com##.crtv-bottom-wrapper
 thesimsresource.com##.pleasewaitad
