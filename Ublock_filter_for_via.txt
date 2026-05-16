@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yIml8pPRUkH5mw1ZLBVKUA
-! Title: Ublock filter for Via(2026-05-16 10:04:21)
-! Version: 20260516100421
+! Checksum: Dfgox8UuYrf/IS93mrfSWQ
+! Title: Ublock filter for Via(2026-05-17 00:46:34)
+! Version: 20260517004634
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-16 10:04:21
-! Total Count: 19666
-! Blocked Filters: 19666
+! Last modified: 2026-05-17 00:46:34
+! Total Count: 19672
+! Blocked Filters: 19672
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9649,7 +9649,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5895
+!<<<<<网站单独规则>>>>>5901
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -9976,6 +9976,9 @@ adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##center:has(> a[href="javascript:hidepromol();"])
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##table[class^="a"]
 additudemag.com##.primary-sidebar-ad
+adhs-zentrum.de##div.box:has(.adsbygoogle)
+adhs-zentrum.de,appnee.com,arrowos.net,myuploadedpremium.de###babasbmsgx
+adhs-zentrum.de,bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,hax.co.id,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
 adinsurance.xyz,insurglobal.xyz,prepostseo.com,work.ink##div[id^="bsa-zone_"]
 adshnk.com##a.item[href^="https://plarium.com/"]
 adshnk.com,mixrootmod.com##.custom-modal
@@ -10181,7 +10184,6 @@ appnee.com##[href^="https://appnee.com/advertising/"] > [src^="https://img.appne
 appnee.com##div[class][id]:has(div.aao_box)
 appnee.com##div[id*="overlay"]
 appnee.com##div[id*="overlay_"]
-appnee.com,arrowos.net,myuploadedpremium.de###babasbmsgx
 appsmodz.com##.sticky-ads
 appuals.com##.appua-reimage-top
 appuals.com##.info.box
@@ -10408,7 +10410,6 @@ bezpolitickekorektnosti.cz,javfull.pro##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
-bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,hax.co.id,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -12181,6 +12182,9 @@ hotscopes.*##.ml-auto.navbar-nav
 hotstar.com##div [data-testid^="bbtype-video"]
 hotstar.com##div[data-testid^="bbtype-image"]
 hotstar.com##div[data-testid^="bbtype-video"]
+hotukdeals.com###comments > .box--content:has(#ad-belowDescription)
+hotukdeals.com##div.box--content:has(#ad-belowComments)
+hotukdeals.com##div.box--content:has(#ad-belowDetails)
 hotxxxpussy.com,openxxxporn.com,xxxlargeporn.com,xxxpussyclips.com,xxxpussysextube.com##.imbar
 howtoremove.guide###gray_de
 howtoremove.guide###solution_v2_de
@@ -12769,6 +12773,7 @@ luciferdonghua.in##.kln
 luciferdonghua.in##.video-content > div[id][style]:has(> div > span[onclick])
 luciferdonghua.in##body > div[id][style]:has(> .kln)
 luckydice.net##div[style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
+luisterradio.fm##div.max-w-full:has(> .uppercase)
 luscious.net##.ad_lead
 luscious.net##.ad_section
 luscious.net##a[rel$="sponsored"]
@@ -14943,6 +14948,7 @@ uploadraja.com##a[href^="https://so-gr3at3.com/"]
 uploadrar.*###commonId > a[target="_blank"]
 uploadrar.*##.ad-label, .adsbygoogle
 uploadrar.*##.footer, span > .text-muted, .card, .m-2.submit-btn.btn-primary.btn
+uploadrar.*##.fs-5, p, ul, li, #how-to-open, .download-controls, .ad-box + center
 uploadrar.*##.fs-5, p, ul, li, #how-to-open, .p-0.block, .download-controls, .ad-box + center
 uploadrar.*##form > center:has(.btn):has([href])
 uploadrar.*##main > center > a.btn-primary
