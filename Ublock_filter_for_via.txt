@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: +1qSnifHO5NvIReHnSgdNQ
-! Title: Ublock filter for Via(2026-05-17 10:07:25)
-! Version: 20260517100725
+! Checksum: oxDyrRh48o2hWb4OEb5WuQ
+! Title: Ublock filter for Via(2026-05-18 00:46:52)
+! Version: 20260518004652
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-17 10:07:25
-! Total Count: 19672
-! Blocked Filters: 19672
+! Last modified: 2026-05-18 00:46:52
+! Total Count: 19679
+! Blocked Filters: 19679
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9635
+!<<<<<域名规则>>>>>9637
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -140,6 +140,7 @@
 ||587.jp^
 ||587jtu3.com^
 ||599cdn.com/Philippines/ph*.jpg$image,domain=top
+||599cdn.com^
 ||5dgja.com^
 ||5hjd9t.com^
 ||5jd2tj2idrool.com^
@@ -5404,6 +5405,7 @@
 ||mixxporn.com/b1.php
 ||mjedge.net/js/customscript.js
 ||mk90.shop^
+||mkvtoolnix.org^
 ||ml.ml.wawahrsdfrhfsdfh.com^
 ||mland.jp^
 ||mlb66.ir/*.php$script,~third-party
@@ -9649,7 +9651,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5901
+!<<<<<网站单独规则>>>>>5903
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10044,7 +10046,7 @@ allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
 allporncomic.com##[href^="https://s.zlink0.com/"], [href^="https://s.zline0.com/"]
 allporncomic.com,anitube.*,av01.media,av01.tv,bamgosu.site,boobsrealm.com,chan.sankakucomplex.com,comic.pixiv.net,cpmlink.net,crazyblog.in,doomovie-hd.*,dragontea.ink,exactpay.online,fc-lc.*,fc-lc.com,fc-lc.xyz,fitdynamos.com,gamezizo.com,javhdporn.net,jpvhub.com,kiddyearner.com,labgame.io,lowendbox.com,luxuretv.com,mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*,mylust.com,netmovies.to,oii.io,ouo.*,pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*,redecanais.*,sharemods.com,shoppinglys.blogspot.com,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*,studyuo.com,uploadbank.com,uploady.io,uploadydl.com,urbharat.xyz,webhostingpost.com,ygosu.com,ylilauta.org,zuperdrive.my.id##iframe
-allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,spiele.spiegel.de,steamplay.*,steanplay.*,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
+allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,spiele.spiegel.de,steamplay.*,steanplay.*,straemplay.org,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,novelcrow.com,readytechflip.com,romadd.com,sampledrive.org,soranews24.com,studydhaba.com,taoruseitai.com,taradinhos.com,thedigitaltheater.com,toursetlist.com,tousatu-ch.net,towelstretches.com##.widget_custom_html
 allround-pc.com##.inlineAd
 allround-pc.com##.singlePostAd
@@ -11944,7 +11946,7 @@ gsmware.com##.kabaradd
 gtainside.com##div.col-sm-6:has(> div.ad)
 gtainside.com##div[style]:has(> div#gtainside_com_sidebar)
 gtainside.com##div[style]:has(> div.ads)
-guessthemovie.name##.fallback-side-ad
+guessthemovie.name,guessthephrase.xyz##.fallback-side-ad
 guiamuriae.com.br##.e3lan-top
 guiamuriae.com.br,pirate4all.com,saveearning.com,thessdreview.com##.e3lan
 guiamuriae.com.br,saveearning.com##.theiaStickySidebar
@@ -14455,6 +14457,8 @@ stooq.*##div[style="position:relative;width:300px;height:250px"]
 stooq.*##div[style="position:relative;width:970px;height:250px"]
 stooq.*##td#f13:nth-of-type(3) > table:nth-of-type(4):has(> tbody > tr > td)
 store.petvalu.com##.store_locator_loading
+straemplay.org,stre4mpay.one,slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streampiay.*###uverlay
+straemplay.org,stre4mpay.one,stre4mplay.*##div[style*="z-index: 1000"][style*="background: transparent"]
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
 strdef.world###stream-banner
 strdef.world##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
@@ -15553,7 +15557,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1492
+!<<<<<通配符规则>>>>>1493
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16123,6 +16127,7 @@ $script,domain=zdnet.fr,third-party
 /adpup/*.js$script,third-party
 /adraw?zone=
 /ads.js?api_key=*&header=
+/ads/*$domain=guessthemovie.name|guessthephrase.xyz
 /ads/creative/*
 /adsensebase.js$script
 /adus.js|$script,domain=metrolagu.cam|poop.*
@@ -17383,7 +17388,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2312
+!<<<<<放行白名单>>>>>2314
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17531,6 +17536,7 @@ voz.vn/b/image.gif?p=$image
 @@/site=*/viewid=*/size=$script,domain=idnes.cz
 @@/sites/jquery.adx.js^$script,~third-party,domain=beaumontenterprise.com|bigrapidsnews.com|ctinsider.com|ctpost.com|darientimes.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|registercitizen.com|sfchronicle.com|sheltonherald.com|stamfordadvocate.com|statesman.com|theheraldreview.com|thehour.com|theintelligencer.com|theridgefieldpress.com|thetelegraph.com|timesunion.com|trumbulltimes.com|wiltonbulletin.com|yourconroenews.com
 @@/templates/dfp/dfp-component-template.html$xmlhttprequest,~third-party
+@@/tracking/pixel/conversion/$script,domain=decompiler.com
 @@/wp-content/plugins/ad-inserter/js/*.js?ver=$script,xmlhttprequest,~third-party
 @@/wp-content/plugins/adsanity-adblock-detection/public/js/lazyad-loader.min.js$script,~third-party
 @@/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js$script,~third-party
@@ -19167,6 +19173,7 @@ voz.vn/b/image.gif?p=$image
 @@||toolbaz.com/tardisrocinante/screx.js$script,~third-party
 @@||toolbaz.com/tardisrocinante/vitals.js$script,~third-party
 @@||top.gg/js/$script,~third-party
+@@||topcities.eu/tracking/pixel/conversion/$script,domain=decompiler.com
 @@||topcountries.eu^$script,domain=decompiler.com
 @@||topcountry.eu^$script,domain=decompiler.com
 @@||topsong.eu^$script,domain=decompiler.com
