@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oKD2zk0rvOns5hW3CTWnbw
-! Title: Ublock filter for Via(2026-05-18 10:29:33)
-! Version: 20260518102933
+! Checksum: IBzcAC5q+62FFpuZhFRWxg
+! Title: Ublock filter for Via(2026-05-19 01:52:45)
+! Version: 20260519015245
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-18 10:29:33
-! Total Count: 19679
-! Blocked Filters: 19679
+! Last modified: 2026-05-19 01:52:45
+! Total Count: 19688
+! Blocked Filters: 19688
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9637
+!<<<<<域名规则>>>>>9641
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -700,6 +700,7 @@
 ||api.terashare.co/api/analytics$~third-party
 ||api.tumblr.com/*/share/stats$script,third-party
 ||api.viphubss.shop/api/banner
+||api.viphubss.shop/api/link-rotation/
 ||api.vuukle.com/api/v1/getModal$xmlhttprequest,third-party
 ||api.x.com/1.1/graphql/error_log.json
 ||api.xfantazy.com/*/ad-scripts
@@ -2566,6 +2567,7 @@
 ||duh0b8nl8uhfn.cloudfront.net^
 ||dulge9.com^
 ||dummymerchandise.com^
+||dump.mewcdn.online^
 ||dump.xxx/sw.js$script,~third-party
 ||dunabear.com^
 ||duplichecker.com/asets/img/logo.svg$image,~third-party
@@ -5326,6 +5328,7 @@
 ||mevfrontbot.info^
 ||mevsetup.site^
 ||mevtime.com^
+||mewcdn.online^$script
 ||mexcgbaip.vip^
 ||mfacebook-com.vn^
 ||mfacebook.net.vn^
@@ -6767,6 +6770,7 @@
 ||qiwi.gg/sw.js$script,~third-party
 ||ql-qishui.com.cn^
 ||qloi-jjcl.com^
+||qmh.*/assets/js/simpleblocker.js
 ||qole-oracle.jp^
 ||qonto-app.co.com^
 ||qqh4.mom^
@@ -9651,7 +9655,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5903
+!<<<<<网站单独规则>>>>>5904
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12471,6 +12475,7 @@ jizzbunker.com##.banner-popup
 jizzbunker.com##.panel-body
 jizzbunker.com##.panel-rklcontent-wide
 jizzbunker2.com##.partner-site
+jlaforums.com##.postbody ins.adsbygoogle[data-ad-slot]
 jobfind.gr##div[id^="bannerzone"]
 jobnib.com##.kln.mlb.blox
 jobnoid.net,stfly.me,dailyjobposting.xyz,biovetro.net,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper, [href*="uploadex.net/"]
@@ -17388,7 +17393,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2314
+!<<<<<放行白名单>>>>>2318
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17506,6 +17511,7 @@ voz.vn/b/image.gif?p=$image
 @@/ads/prebid/ads/prebid/ads/prebid/ads-prebid/*$script,domain=decompiler.com
 @@/adsAPI.js$script,third-party,domain=infinityscans.xyz|infinityscans.net
 @@/adsscript*$script,domain=decompiler.com
+@@/adstracking*$script,domain=decompiler.com
 @@/advertisements-$image,domain=jennifer-lawrence.com
 @@/advertisements_$image,domain=jessica-biel.at
 @@/advertising_$image,domain=timfahlbusch.com
@@ -17793,6 +17799,7 @@ voz.vn/b/image.gif?p=$image
 @@||bcvc.ink/prebid-ads.js$script,~third-party
 @@||benkhouya.com^$script,domain=anonymousemail.me
 @@||besthdgayporn.com/wp-content/plugins/$script,~third-party
+@@||bestuniversities.eu^$script,domain=decompiler.com
 @@||bid.g.doubleclick.net/dbm/vast$xmlhttprequest,domain=safeframe.googlesyndication.com
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
 @@||bigappboi.com/captchalocker/js/popup.js.php
@@ -18496,6 +18503,7 @@ voz.vn/b/image.gif?p=$image
 @@||jetpunk.com^$script,~third-party
 @@||jill.fc.yahoo.com/v1/client/js$script,domain=techcrunch.com
 @@||jimmyjohns.com/Scripts/angularytics*.js$~third-party,script
+@@||jlaforums.com^$script,~third-party
 @@||jobillico.com/js/vuejs/gtag/gtag.js$script,~third-party
 @@||jpopsingles.eu^$image,~third-party
 @@||js-agent.newrelic.com^$script,domain=chaturbate.com
@@ -18709,6 +18717,7 @@ voz.vn/b/image.gif?p=$image
 @@||oninet.ne.jp/sakigakesoft/s/leaf_main.js$script,~third-party,strict1p
 @@||onlinetvrecorder.com^$xmlhttprequest,~third-party
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
+@@||opentracker.net^$domain=jlaforums.com
 @@||openx.tv/embed/$domain=m4ufree.com
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
 @@||outbrain.com^$redirect-rule,domain=stuff.co.nz
@@ -18721,7 +18730,7 @@ voz.vn/b/image.gif?p=$image
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=decrypt.day
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rekidai-info.github.io|skmedix.pl|video-ac.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|correotemporal.org|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|kiktu.com|mrnussbaum.com|nathanmichaelphoto.com|pasty.*|play.aidungeon.io|premid.app|sudoku-aktuell.de|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|torupload.com|trangchu.news|upshrink.com|www.busuu.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|banaraswap.in|boo.tw|busuu.com|correotemporal.org|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|jlaforums.com|kiktu.com|mrnussbaum.com|nathanmichaelphoto.com|pasty.*|play.aidungeon.io|premid.app|sudoku-aktuell.de|tamrieltradecentre.com|techcyan.com|terabox.fun|teraearn.com|teralink.me|terashare.me|torupload.com|trangchu.news|upshrink.com|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=amachamusic.chagasi.com|cursomecanet.com|heim.jp|radioviainternet.nl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,third-party,domain=fplstatistics.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10.com.au|10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|in-jpn.com|kienthucrangmieng.com|loot-link.com|lootdest.*|tiodonghua.com|tremamnon.com|vnpttelle.com|yhocdata.com
@@ -18730,7 +18739,7 @@ voz.vn/b/image.gif?p=$image
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=sudoku-aktuell.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,third-party,domain=fplstatistics.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|infinityfree.com|slashdot.org|smsonline.cloud|webdesignledger.com
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com|jlaforums.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$script,domain=busuu.com|cpu-world.com|decrypt.day|play.aidungeon.io|www.busuu.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_$script,domain=rekidai-info.github.io
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense^$script,third-party,domain=fplstatistics.co.uk
