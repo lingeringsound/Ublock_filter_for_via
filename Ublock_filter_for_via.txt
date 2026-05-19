@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: IBzcAC5q+62FFpuZhFRWxg
-! Title: Ublock filter for Via(2026-05-19 01:52:45)
-! Version: 20260519015245
+! Checksum: rI9iZ8VVVZ0YJW1r4+SZ1A
+! Title: Ublock filter for Via(2026-05-19 10:28:45)
+! Version: 20260519102846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-19 01:52:45
-! Total Count: 19688
-! Blocked Filters: 19688
+! Last modified: 2026-05-19 10:28:46
+! Total Count: 19690
+! Blocked Filters: 19690
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9641
+!<<<<<域名规则>>>>>9642
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2813,6 +2813,7 @@
 ||etharticles.substack.com^
 ||ethelium.club^
 ||etheliumcheats.pro^
+||ethicalads.io^$script,domain=decompiler.com
 ||ethics-whisk.com^
 ||ethmevsetup.group^
 ||etisalat-amazonprime.com^
@@ -3612,7 +3613,7 @@
 ||googletagmanager.com/gtm.js$domain=dmax.de|fandom.com|jumbo.cl,removeparam|plaion.com
 ||googletagmanager.com/gtm.js$script,domain=oxylabs.io
 ||googletagmanager.com^$domain=9to5google.com|9to5mac.com
-||googletagmanager.com^$script,domain=foxnews.com
+||googletagmanager.com^$script,domain=decompiler.com|foxnews.com
 ||googletagservices.com^$domain=pccomponentes.com
 ||googleusercontent.com/*/s320/download-button-gif-$domain=loptelink.com
 ||googleusercontent.com/*/wf/open?upn=$image
@@ -17393,7 +17394,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2318
+!<<<<<放行白名单>>>>>2319
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17469,6 +17470,7 @@ voz.vn/b/image.gif?p=$image
 @@*$image,xmlhttprequest,domain=bg-gledai.*|bg-gledai.video|cdn.bg-gledai.*|cdn.bg-gledai.video|cdn.gledaitv.*|cdn.gledaitv.fan|cdn.gledaitv.live|gledaitv.*|gledaitv.fan|gledaitv.live
 @@*$image,xmlhttprequest,script,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 @@*$redirect-rule,domain=d3ward.github.io
+@@*$script,third-party,domain=decompiler.com
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=45er.de|antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|btv.bg|btvnovinite.bg|btvplus.bg|btvsport.bg|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|infinityscans.net|infinityscans.xyz|kryptografie.de|mailtool.de|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|net-tools.de|net-tours.de|photo-alben.de|poqzn.xyz|promo-visits.site|quesignifi.ca|qul.de|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|softwareengineer.de|solvetube.*|starkroboticsfrc.com|such-maschine.de|svetatnazdraveto.bg|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz|web-spiele.de|wetter-vorhersage.de
 @@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|cdn.bg-gledai.*|cdn.bg-gledai.video|cdn.gledaitv.*|cdn.gledaitv.fan|cdn.gledaitv.live|cursomecanet.com|designtagebuch.de|imagereviser.com|kiktu.com|poophq.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com|veev.to
