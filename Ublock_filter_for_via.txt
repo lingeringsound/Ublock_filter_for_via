@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 01c1qUNgvZxkSTP2jejzDA
-! Title: Ublock filter for Via(2026-05-21 02:10:19)
-! Version: 20260521021020
+! Checksum: hb08KNmILbKtM+1tULNEVA
+! Title: Ublock filter for Via(2026-05-21 10:28:46)
+! Version: 20260521102846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-21 02:10:20
-! Total Count: 19692
-! Blocked Filters: 19692
+! Last modified: 2026-05-21 10:28:46
+! Total Count: 19693
+! Blocked Filters: 19693
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9657,7 +9657,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5905
+!<<<<<网站单独规则>>>>>5906
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12652,6 +12652,7 @@ lewdzone.com##.alzd
 lewdzone.com##.item.widget_text
 lewdzone.com##.site-margin > .container-block div:has(> .item.widget_text)
 lg-firmwares.com##.cc-window, .buy_on_amazon, .post-ads
+lgbtqnation.com##div.skin\:bg-transparent.py-8.bg-gray-100:has([data-adbridg-ad-class])
 li { display: table-cell; font-weight: bold; width: 1%; }
 lidovky.cz###content > div[id^="space-"]:has(> script)
 lidovky.cz##.s_nativ_advertorial
