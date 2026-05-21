@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hb08KNmILbKtM+1tULNEVA
-! Title: Ublock filter for Via(2026-05-21 10:28:46)
-! Version: 20260521102846
+! Checksum: 806yDx6zw3fJDmflrguRHw
+! Title: Ublock filter for Via(2026-05-22 01:50:27)
+! Version: 20260522015027
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-21 10:28:46
-! Total Count: 19693
-! Blocked Filters: 19693
+! Last modified: 2026-05-22 01:50:27
+! Total Count: 19697
+! Blocked Filters: 19697
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9643
+!<<<<<域名规则>>>>>9646
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1569,6 +1569,7 @@
 ||cdn.rawgit.com^*/AdblockRampok.js$script
 ||cdn.rawgit.com^*/arlinablock.js$script
 ||cdn.rawgit.com^*/wdbloogablock.js$script
+||cdn.s73cloud.com^$domain=mais.sbt.com.br
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script
 ||cdn.srxy.xyz^
 ||cdn.staticmoly.me/*.php$domain=vidmoly.*
@@ -6169,7 +6170,7 @@
 ||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 ||pagead2.googlesyndication.com/pagead/sma8.js$script,domain=anydebrid.com|hotdebrid.com
 ||pagead2.googlesyndication.com/tag/js/gpt.js$script,domain=wunderground.com
-||pagead2.googlesyndication.com^$script,domain=vnjpclub.com
+||pagead2.googlesyndication.com^$script,domain=stream.googleapiscdn.com|vnjpclub.com
 ||pagefair.net^
 ||pagerrentablespotlight.com^
 ||pages.dev/*/Fm7-alert.wav
@@ -9486,6 +9487,8 @@
 ||youtube.com/embed/*$domain=1shortlink.com
 ||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$xmlhttprequest,method=get
 ||youtube.com/watch?v=ZsAUT2PmbZk
+||youtube.com/youtubei/v1/log_event
+||youtube.com/youtubei/v1/player/heartbeat
 ||youtube.com^$domain=1link.vip|cinedesi.in|techishant.in|tejtime24.com|thevouz.in
 ||youtubee.com^
 ||youtuberevanced.*^$domain=~revanced.app
@@ -17397,7 +17400,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2319
+!<<<<<放行白名单>>>>>2320
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18088,6 +18091,7 @@ voz.vn/b/image.gif?p=$image
 @@||cupid.iqiyi.com/mixer$script,domain=iqiyi.com
 @@||cursomecanet.com^$script,~third-party
 @@||cutcaptcha.com/captcha/*$script,domain=filecrypt.cc|filecrypt.co
+@@||cxense.com/cx.js$domain=gizmodo.jp
 @@||cxense.com/cx.js$script,domain=letelegramme.fr
 @@||cyclismactu.net/adserver.js$script,~third-party
 @@||cz.mrezadosa.com^$xmlhttprequest,domain=uschovna.cz
