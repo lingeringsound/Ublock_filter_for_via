@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Q1LWUxcwmaSgMqMBSnsYIA
-! Title: Ublock filter for Via(2026-05-22 10:30:39)
-! Version: 20260522103039
+! Checksum: mfEju00GKHuCrlUJ0bjbwQ
+! Title: Ublock filter for Via(2026-05-23 01:45:44)
+! Version: 20260523014544
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-22 10:30:39
-! Total Count: 19698
-! Blocked Filters: 19698
+! Last modified: 2026-05-23 01:45:44
+! Total Count: 19703
+! Blocked Filters: 19703
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9647
+!<<<<<域名规则>>>>>9649
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3395,6 +3395,8 @@
 ||gaypornhot.com/wp-content/uploads/ountsvf.js
 ||gaypornrape.net/js/3LQkZfQVN7mWARVbozLgE.js
 ||gaytail.com/fancy-mode-7abe/
+||gayxnow.com/bn/
+||gayxnow.com/static/js/promo-
 ||gayxxxtube.net/img_bnnrs/
 ||gazzettaobjects.it/rcs_anti-adblocker/$third-party
 ||gbads.net^
@@ -15570,7 +15572,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1493
+!<<<<<通配符规则>>>>>1494
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16688,6 +16690,7 @@ $script,domain=zdnet.fr,third-party
 /static/js/ad-provider.js|$script
 /static/js/amvn.js
 /static/jwplayer/vast.js
+/static/players/*/vast.js$~third-party
 /stats.php?*event=$image
 /stats/pixel.php?$image
 /store.steampowered.com/emi/*.gif$image
@@ -17066,7 +17069,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>332
+!<<<<<通用Css规则>>>>>334
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -17111,6 +17114,8 @@ voz.vn/b/image.gif?p=$image
 ###invideo_2
 ###invideo_data
 ###invideo_new
+###kt_player #ads_iframe
+###kt_player .fp-brand
 ###leader_ad:not(:empty)
 ###micast_ads
 ###midadd:not(:empty)
