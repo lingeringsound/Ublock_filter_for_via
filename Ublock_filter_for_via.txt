@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: x3ewnF2fC6CpbibnkwE60g
-! Title: Ublock filter for Via(2026-05-23 10:06:33)
-! Version: 20260523100633
+! Checksum: R1QFiNF54G5mNF2ZhF3oQw
+! Title: Ublock filter for Via(2026-05-24 00:52:00)
+! Version: 20260524005200
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-23 10:06:33
-! Total Count: 19703
-! Blocked Filters: 19703
+! Last modified: 2026-05-24 00:52:00
+! Total Count: 19706
+! Blocked Filters: 19706
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9649
+!<<<<<域名规则>>>>>9650
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -9042,6 +9042,7 @@
 ||webapp.ghost.io^
 ||webarbitraging.pro^
 ||webassetsapp.ghost.io^
+||webcinevs*.com/api/app/vast-ads
 ||webcinevs.com/api/app/vast-ads
 ||webd.home.news.cn/1.gif?
 ||webdeai.jp^
@@ -9663,7 +9664,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5906
+!<<<<<网站单独规则>>>>>5908
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11312,6 +11313,8 @@ encurtads.net,financacerta.com##.wpsafe-top > div > center > a[href][target="_bl
 enjoyfuck.com,pornokeep.com##.advin
 entapark.jp##div[id$="-pickup"][style^="height"]
 enterinit.com##.bs-wrap-gdpr-law
+enternity.gr##.ad_02
+enternity.gr##.aent-mis
 eoreuni.com##a[href^="https://iherb.co/"]
 epidemia-koronawirus.pl###sgpb-popup-dialog-main-div-wrapper
 epidemia-koronawirus.pl,korinthostv.gr,romaniataramea.com,youwatch.*##.sgpb-popup-overlay
