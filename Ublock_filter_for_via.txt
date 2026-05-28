@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: OsQrwtgNM0SLwD/9S2XVmg
-! Title: Ublock filter for Via(2026-05-28 10:08:45)
-! Version: 20260528100845
+! Checksum: dQL77e3oOHNpHU60rcX07g
+! Title: Ublock filter for Via(2026-05-29 02:31:15)
+! Version: 20260529023115
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-28 10:08:45
-! Total Count: 19727
-! Blocked Filters: 19727
+! Last modified: 2026-05-29 02:31:15
+! Total Count: 19735
+! Blocked Filters: 19735
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9661
+!<<<<<域名规则>>>>>9667
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2143,6 +2143,7 @@
 ||cviezjsg.com^
 ||cvt.finallygotthexds.site/pmolink/$xmlhttprequest
 ||cwa-2020.com^
+||cxad.cxense.com^$reason=tracker
 ||cxbvnmyeruw.com^
 ||cxense.com^$third-party
 ||cyberblast.info^
@@ -6303,6 +6304,7 @@
 ||paypou.com/newbanner
 ||payskip.org/sw.js$script,~third-party
 ||paytoll*.top/ezdrivema^
+||paytr.com/securemetric/
 ||paytrace-app.co.com^
 ||paywall.folha.uol.com.br/wall.jsonp?callback=paywall.inicio$domain=blogfolha.uol.com.br|educacao.uol.com.br|folha.uol.com.br
 ||payzoneparking.info^
@@ -6366,6 +6368,8 @@
 ||personas.devbam.com^
 ||perutzxrqe.ru.com^
 ||pervclips.com/tube/js/customscript.js
+||petametrics.com/*/__activity.
+||petametrics.com^$~script
 ||petri.com/wp-content/plugins/bww-wp-advertising^
 ||petri.com/wp-json/bww-advertising^
 ||pewgame.com/js/hre.js^
@@ -7248,6 +7252,7 @@
 ||securefiles.pro^
 ||securemetrics.apple.com/b/ss/*maps$image
 ||securepubads.g.doubleclick.net/*gpt$script,domain=play.tv
+||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=athlonsports.com|autoblog.com|bikemag.com|dengarden.com|mensfitness.com|mensjournal.com|parade.com|paradehomeandgarden.com|paradepets.com|pethelpful.com|powder.com|shophq.com|surfer.com|thespun.com|thestreet.com|travelhost.com
 ||secureserver.net/myswisscom
 ||secureserver.net/ruckstantung907921/
 ||securevault.top^
@@ -9295,6 +9300,7 @@
 ||x-sogou.com^
 ||x-yz6asktoi.com^
 ||x-yzn6.com^
+||x.com/i/api/1.1/graphql/user_flow.json
 ||x.kinja-static.com/assets/packaged-js/OnionAM.$script,domain=avclub.com|clickhole.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 ||x.kinja-static.com/assets/packaged-js/trackers$script,domain=clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 ||x.shopsavvy.com^$third-party
@@ -9805,7 +9811,7 @@ $script,domain=zdnet.fr,third-party
 1movies.life##div[id^="___"][style="display: block;"]
 1movietv.com##[target="_blank"][href$=".html"]
 1primewire.com##[id]:has(> [class="close ico"])
-1shorten.com,4cash.me,7r6.com,adcorto.*,adfloz.*,adlinkweb.com,adultasianporn.com,amateur-twink.com,automodeler.com,bblink.com,best18porn.com,bestcash2020.com,blog.linksfire.co,bonedo.de,boundingintocomics.com,cblink.crazyblog.in,ccurl.net,celebritymovieblog.com,cenoteka.rs,charexempire.com,ckk.ai,cnnamador.com,coinlyhub.com,cookinggames.com,cryptolink.trxking.xyz,cryptosh.pro,cut-fly.com,cutdl.xyz,deutschekanale.com,domainwheel.com,donnaglamour.it,du-link.in,dz-linkk.com,dz4link.com,encurtandourl.com,ex-foary.com,exe.app,exee.io,fc.lc,femdomtb.com,fssquad.com,fuckedporno.com,gamesfrog.com,get.instantearn.in,go.gets4link.com,go.linkify.ru,gogoanime.*,gtlink.co,gyanlight.com,hdtube.porn,heavyfetish.com,hiddenobjectgames.com,highporn.net,icutlink.com,iir.la,imgtorrnt.in,indianshortner.com,jetpunk.com,jizzbunker.com,joomlabeginner.com,link.paid4file.com,link1s.*,linkfinal.com,linkjust.com,linkszia.co,lite-link.*,liveschauen.com,lnbz.la,mangaraw.org,marca.com,math-aids.com,miklpro.com,miniurl.*,mousecity.com,mtabrasil.com.br,myshrinker.com,newsbomb.gr,nightdreambabe.com,odisha-remix.com,oei.la,oii.la,oko.sh,oncehelp.com,ondemandkorea.com,paginadanoticia.com.br,paid4.link,pkr.pw,planhub.ca,pnd.*,pornexpanse.com,pornfd.com,pornoreino.com,pornstarsadvice.com,positive-feedback.com,pureshort.*,rawmanga.top,realgfporn.com,recipestutorials.com,rock.porn,satoshi-win.xyz,set.seturl.in,short-jambo.ink,short.croclix.me,shortearn.*,shorteet.com,shortenbuddy.com,shortzzy.*,shrink.*,shrink.icu,shrink.yt,shrtfly.*,solarchaine.com,spieleklassiker.com,themix.net,theporngod.com,tii.la,tmearn.*,tpi.li,tribuna.com,tvi.la,uii.io,uporno.xxx,upshrink.com,vanillatweaks.net,vidoo.org,viu.com,vklinks.com,vplink.in,vz.lt,xpshort.com,xxxdl.net,zplayer.live##.banner
+1shorten.com,4cash.me,7r6.com,adcorto.*,adfloz.*,adlinkweb.com,adultasianporn.com,amateur-twink.com,automodeler.com,bblink.com,best18porn.com,bestcash2020.com,blog.linksfire.co,bonedo.de,boundingintocomics.com,cblink.crazyblog.in,ccurl.net,celebritymovieblog.com,cenoteka.rs,charexempire.com,ckk.ai,cnnamador.com,coinlyhub.com,cookinggames.com,cryptolink.trxking.xyz,cryptosh.pro,cut-fly.com,cutdl.xyz,deutschekanale.com,domainwheel.com,donnaglamour.it,du-link.in,dz-linkk.com,dz4link.com,encurtandourl.com,ex-foary.com,exe.app,exee.io,fc.lc,femdomtb.com,fssquad.com,fuckedporno.com,gamesfrog.com,get.instantearn.in,go.gets4link.com,go.linkify.ru,gogoanime.*,gtlink.co,gyanlight.com,hdtube.porn,heavyfetish.com,hiddenobjectgames.com,highporn.net,icutlink.com,iir.la,imgtorrnt.in,indianshortner.com,jetpunk.com,jizzbunker.com,joomlabeginner.com,link.paid4file.com,link1s.*,linkfinal.com,linkjust.com,linkszia.co,lite-link.*,liveschauen.com,lnbz.la,mangaraw.org,marca.com,math-aids.com,miklpro.com,miniurl.*,mousecity.com,mtabrasil.com.br,myshrinker.com,newsbomb.gr,nightdreambabe.com,odisha-remix.com,oei.la,oii.la,oko.sh,oncehelp.com,ondemandkorea.com,paginadanoticia.com.br,paid4.link,pilotsglobal.com,pkr.pw,planhub.ca,pnd.*,pornexpanse.com,pornfd.com,pornoreino.com,pornstarsadvice.com,positive-feedback.com,pureshort.*,rawmanga.top,realgfporn.com,recipestutorials.com,rock.porn,satoshi-win.xyz,set.seturl.in,short-jambo.ink,short.croclix.me,shortearn.*,shorteet.com,shortenbuddy.com,shortzzy.*,shrink.*,shrink.icu,shrink.yt,shrtfly.*,solarchaine.com,spieleklassiker.com,themix.net,theporngod.com,tii.la,tmearn.*,tpi.li,tribuna.com,tvi.la,uii.io,uporno.xxx,upshrink.com,vanillatweaks.net,vidoo.org,viu.com,vklinks.com,vplink.in,vz.lt,xpshort.com,xxxdl.net,zplayer.live##.banner
 1shortlink.com,duit.cc,dutchycorp.*,kissasian.*,kwamkidhen.com,leechpremium.link,linksly.co,masihbelajar.com,onbatch.my.id,ouo.*,putlocker.*,vidoza.net,watchonlyfoolsandhorses.com,webserver.one,webtvhd.com##[id*="ScriptRoot"]
 1todaypk.*,todaypk.*##[href="/watchnow.php"]
 1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
@@ -17430,7 +17436,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2320
+!<<<<<放行白名单>>>>>2322
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17932,6 +17938,7 @@ voz.vn/b/image.gif?p=$image
 @@||cdn.cxense.com/cx.js$script,domain=mega.cl|nikkansports.com|tvaplus.ca
 @@||cdn.dqst.pl/assets/ads.js$xmlhttprequest,domain=tko.pl
 @@||cdn.dynamicyield.com/api/$script,domain=washingtonexaminer.com
+@@||cdn.ex.co/content/$xmlhttprequest
 @@||cdn.frvr.com/fran/pubads_$script,domain=krunker.io
 @@||cdn.fuseplatform.net/publift/$third-party,script,xmlhttprequest,domain=quackr.io
 @@||cdn.fuseplatform.net^$script,domain=zkillboard.com
@@ -18252,6 +18259,7 @@ voz.vn/b/image.gif?p=$image
 @@||estaticos.*/elementosWeb/ew/js/multimedia/player/videojs-contrib-ads/videojs.ads.min.js$xmlhttprequest,domain=diaridegirona.cat|diariodeibiza.es|diariodemallorca.es|diarioinformacion.com|eldia.es|emporda.info|farodevigo.es|laopinioncoruna.es|laopiniondemalaga.es|laopiniondemurcia.es|laopiniondezamora.es|laprovincia.es|levante-emv.com|lne.es|mallorcazeitung.es|regio7.cat|superdeporte.es
 @@||europarl.europa.eu/website/webanalytics/*$script,~third-party
 @@||evidon.com/geo/*$script,domain=cnet.com|marieclaire.com|techrepublic.com|zdnet.com
+@@||ex.co/player/$script,domain=standard.co.uk
 @@||exmarketplace.com^$domain=tvserial.it
 @@||exoclick.com^$xmlhttprequest,domain=hostingsgratis.com|infomania.space
 @@||exosrv.com/popunder1000.js$script,domain=uflash.tv
