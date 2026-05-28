@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: s3px1qj0ywWbJwDwR60gKQ
-! Title: Ublock filter for Via(2026-05-28 02:20:47)
-! Version: 20260528022048
+! Checksum: OsQrwtgNM0SLwD/9S2XVmg
+! Title: Ublock filter for Via(2026-05-28 10:08:45)
+! Version: 20260528100845
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-28 02:20:48
-! Total Count: 19724
-! Blocked Filters: 19724
+! Last modified: 2026-05-28 10:08:45
+! Total Count: 19727
+! Blocked Filters: 19727
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9658
+!<<<<<域名规则>>>>>9661
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7206,6 +7206,7 @@
 ||script-at.iocnt.net/iam.js$domain=oe24.at
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/$domain=fandom.com|tvguide.com
+||scripts.stay22.com^
 ||scrutinizeordealscrutinize.com^
 ||scxjugrsizhfo.com^
 ||sdfsshop1.com^
@@ -7774,6 +7775,8 @@
 ||statstoday.org^
 ||statswpmy.com^
 ||staukaptaicm.net^
+||stay22.com/googleanalytics/
+||stay22.com/thumbmark
 ||stay22.com^$third-party
 ||stb-media.xyz^
 ||stc.tools^
