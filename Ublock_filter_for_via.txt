@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BT1573y2v8B2hyz4CQXZzg
-! Title: Ublock filter for Via(2026-05-29 10:13:04)
-! Version: 20260529101304
+! Checksum: VGMOHvS9ZKK5tv3n8V2TOA
+! Title: Ublock filter for Via(2026-05-30 02:27:16)
+! Version: 20260530022716
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-29 10:13:04
-! Total Count: 19737
-! Blocked Filters: 19737
+! Last modified: 2026-05-30 02:27:16
+! Total Count: 19740
+! Blocked Filters: 19740
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9681,7 +9681,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5914
+!<<<<<网站单独规则>>>>>5917
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10812,6 +10812,8 @@ cinetux.*##span.button
 citethisforme.com##.ads_top_middle
 citethisforme.com##.sbm-ad
 citynow.it##.advads-close-button
+cjr.org###interContainer
+cjr.org###interVeil
 ckk.ai,fusevideo.net,gamedrive.org,ier.ai,iir.la,katfile.com,krakenfiles.com,lnbz.la,oei.la,oii.la,oko.sh,tii.la,tpi.li,tvi.la,twing.live##a[href][target="_blank"]
 claimbits.io,fautsy.com,i-bits.io##ins[class][style^="display:inline-block;width:"]
 claimcoins.site##div[style]:has(> [id^="adm-container"])
@@ -14509,6 +14511,7 @@ stream2watch.*##p[style="color:white;"]
 stream4free.*###promo
 streamango.*###ad_buts
 streambolt.tv,strmbolt.com##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
+streamcash.to###preroll-gate
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"] img
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"]:has(img) + button.ring-offset-background
 streamfare.com##[id^="wb_AdText"]
