@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: b+ihEcoiiHWRrOqsIjQC5A
-! Title: Ublock filter for Via(2026-05-30 10:09:13)
-! Version: 20260530100913
+! Checksum: VJj0MlOjqqWkX5M90MCUJw
+! Title: Ublock filter for Via(2026-05-31 00:53:08)
+! Version: 20260531005308
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-30 10:09:13
-! Total Count: 19741
-! Blocked Filters: 19741
+! Last modified: 2026-05-31 00:53:08
+! Total Count: 19747
+! Blocked Filters: 19747
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9667
+!<<<<<域名规则>>>>>9670
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1968,6 +1968,7 @@
 ||convergepay.co.com^
 ||convertwithwave.com^
 ||conveyancingportal.com^
+||cookiebot.com^$domain=nexusmods.com
 ||coolcast2.com/z-$script
 ||coomer.su/api/v1/creators|
 ||copeescan.es^
@@ -4030,6 +4031,7 @@
 ||hyper-liquid.to^
 ||hyperilquid.org^
 ||hyperilquid.xyz-trade.com^
+||hypersonicmedia.workers.dev/proxy/
 ||hypixei.com^
 ||hypixelstorexyz.pages.dev^
 ||hypocrisyyard.com^
@@ -8593,6 +8595,7 @@
 ||ultra-rv.com^$third-party
 ||ultraomelette.com^
 ||ultratime.info^
+||ultraviolence.buzz^
 ||uly-sses8888.com^
 ||um-bredirect.com^
 ||umami.*/script.js|$script
@@ -9681,7 +9684,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5917
+!<<<<<网站单独规则>>>>>5920
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11811,6 +11814,7 @@ gamesfrog.com##.banner > span
 gameshop4u.com,regenzi.site##[href^="https://fulvideozrt.click/"]
 gamesmain.xyz,foodtechnos.in###countdown-display
 gamesmain.xyz,foodtechnos.in###get-now-button
+gamewith.jp##.gdb-cta-banner-outer
 gamezizo.com,labgame.io##[id^="ad"]
 gamezone.cam##.div-over
 gamezop.com##[data-native-ad]
@@ -15056,6 +15060,7 @@ vibehubs.com##.code-block-4.code-block > [href]
 vibehubs.com##[href^="https://www.star-clicks.com/"]
 vid4up.*###aoverlay
 vidbox.dev##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:px-6.px-4.max-w-\[1440px\].mx-auto:has(#ad-container)
+vidbox.dev##section[aria-label="Sponsored content"]
 vidcloud.*###overlay-center
 vide-greniers.org###mnfDetail_adSenseHead
 videakid.hu##.single-video-right-sidebar-ads
@@ -15248,6 +15253,7 @@ web.facebook.com,www.facebook.com##div[role="complementary"] a[attributionsrc][h
 web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow noreferrer external"][attributionsrc^="/privacy_sandbox/comet/register/"][attributionsrc*="?eid="]
 web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow noreferrer external"][attributionsrc^="/privacy_sandbox/comet/register/source/"][attributionsrc*="?eid="]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[aria-label][attributionsrc="_blank"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
+web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[href*="fbclid"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[rel="nofollow noreferrer tag"][aria-labelledby^="_R_"]
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
 web2.0rechner.de,web2.0calc.*###nocreditsmodal
