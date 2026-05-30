@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VGMOHvS9ZKK5tv3n8V2TOA
-! Title: Ublock filter for Via(2026-05-30 02:27:16)
-! Version: 20260530022716
+! Checksum: b+ihEcoiiHWRrOqsIjQC5A
+! Title: Ublock filter for Via(2026-05-30 10:09:13)
+! Version: 20260530100913
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-30 02:27:16
-! Total Count: 19740
-! Blocked Filters: 19740
+! Last modified: 2026-05-30 10:09:13
+! Total Count: 19741
+! Blocked Filters: 19741
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -17441,7 +17441,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2322
+!<<<<<放行白名单>>>>>2323
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17894,8 +17894,9 @@ voz.vn/b/image.gif?p=$image
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
 @@||c.adsco.re/|$script,domain=doods.to|hotfrog.*|poophq.com|veev.to
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
-@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|thedailybeast.com|video.gazzetta.it
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=client.falixnodes.net|hints.littlealchemy2.com|mylifetime.com|oggi.it|the-independent.com|thedailybeast.com|video.gazzetta.it
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=ladbible.com|gamingbible.*|tyla.com|unilad.com
+@@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$xmlhttprequest,domain=client.falixnodes.net
 @@||c.paypal.com/da/r/fb*$script,~third-party
 @@||c.tmyzer.com^$xmlhttprequest,domain=promo-visits.site|shorterall.com
 @@||ca.edge.optable.co^$xmlhttprequest,domain=tvaplus.ca
