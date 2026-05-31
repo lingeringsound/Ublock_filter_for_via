@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 0cl1hjDuOWD6rU9akZek+A
-! Title: Ublock filter for Via(2026-05-31 10:35:03)
-! Version: 20260531103503
+! Checksum: wiZeveBWL9Jv+VaEhbzanA
+! Title: Ublock filter for Via(2026-06-01 00:57:45)
+! Version: 20260601005745
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-05-31 10:35:03
-! Total Count: 19747
-! Blocked Filters: 19747
+! Last modified: 2026-06-01 00:57:45
+! Total Count: 19760
+! Blocked Filters: 19760
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9670
+!<<<<<域名规则>>>>>9674
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7610,6 +7610,7 @@
 ||sonvupload.xyz^
 ||soonpubplatform.online^
 ||soougou.com.cn^
+||sophiaaccoladewest.com^
 ||soppe86.life^
 ||sorosehottie.com^
 ||sorteiosbrasil.netlify.app^
@@ -8621,6 +8622,8 @@
 ||unhesiss.shop^
 ||uni-setup.media^
 ||uni-trading.pro^
+||unic0re.
+||unicore.pw^
 ||uniformdating.com^
 ||uniguide.media^
 ||union.macoms.la^
@@ -9006,6 +9009,7 @@
 ||watchmygf.me/js/popupimage.js
 ||watchonlinehd123.sbs/cdn-cgi/trace$xmlhttprequest,~third-party
 ||watchporn.to/banners.php
+||watchporn.to/banners/
 ||watchseries.*/sw.js$script,~third-party
 ||watchserieshd.watch/ajax/banner/$xmlhttprequest,~third-party
 ||watchtvseries.*/sw.js$script,~third-party
@@ -9684,7 +9688,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5920
+!<<<<<网站单独规则>>>>>5924
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11761,6 +11765,9 @@ fxmag.pl##[class*="Container_header_ad"] > div[style^="min-height:90px"]
 fxmag.pl##[class^="Ad_text"]
 fxstreet.*##.fxs_leaderboard
 fxstreet.com##.fxs_stickyAd-mobile
+fyxxr.to##[href^="https://go.mavrtracktor.com/"]
+fyxxr.to##[href^="https://seduced.com/tour"]
+fyxxr.to,watchdirty.to,watchmdh.to##.block-video > .table
 fztvseries.ng##div[class="code-block code-block-6"][style="margin: 8px 0; clear: both;"]
 g-porno.com,g-streaming.com##.popup-overlay
 g-status.com##.topadv_placeholder
@@ -13844,7 +13851,9 @@ primevid.click##div[style="position: fixed; top: 0px; left: 0px; width: 100vw; h
 primewire.*##.ico.close
 printablecreative.com##.gda-home-box
 prinxy.app##.native-ads-wrapper
+prinxy.app##.related
 prinxy.app##.sticky-banner
+prinxy.app##.xoxo
 prismmarketingco.com##.prism-widget
 privatehomeclips.com##.content > div > .wrapper + div[class]:not(.wrapper)
 privatehomeclips.com##.left + div:not([class]):last-child
@@ -15205,7 +15214,6 @@ watchallchannels.com##.widget-title
 watchallchannels.com##[href^="https://www.xvinlink.com/"]
 watchanime.video##.video_box
 watchcartoononline.bz##.BorderColorChangeElement
-watchdirty.to,watchmdh.to##.block-video > .table
 watchdoctorwhoonline.com##.sidebar_episodes2
 watchfree.*###vpnvpn
 watchfreejavonline.co##[href*="affpa.top"]
@@ -17108,7 +17116,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>336
+!<<<<<通用Css规则>>>>>341
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -17146,9 +17154,12 @@ voz.vn/b/image.gif?p=$image
 ###close-teaser
 ###donate > a[href][style][onclick="thank_you()"][target="_blank"][rel="nofollow"]
 ###dontfoid
+###download a[download="Unicore.zip"]
 ###downloadAd:not(:empty)
 ###go-to-top + div[id][class*=" "]
 ###go-to-top + div[id][class]
+###hero + div.marquee-wrap + section#games + section#features + #download
+###hero a[download="Unicore.zip"]
 ###invid_call
 ###invideo_2
 ###invideo_data
@@ -17226,6 +17237,8 @@ voz.vn/b/image.gif?p=$image
 ##.close-btn3[onclick="closeAd3()"]
 ##.close-btn4[onclick="closeAd4()"]
 ##.close-btn[onclick="closeAd()"]
+##.container a[href^="https://go.mavrtracktor.com/"]
+##.container a[href^="https://seduced.com"][href*="ref="]
 ##.exo-horizontal
 ##.ez-sidebar-wall
 ##.fints-block__row
