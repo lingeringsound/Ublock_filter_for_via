@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: EMYF/7LOPX6F2PFlx/wWVw
-! Title: Ublock filter for Via(2026-06-03 10:50:51)
-! Version: 20260603105051
+! Checksum: EALSZT6M2GcTmN6a2qBcCg
+! Title: Ublock filter for Via(2026-06-04 03:42:25)
+! Version: 20260604034225
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-03 10:50:51
-! Total Count: 19776
-! Blocked Filters: 19776
+! Last modified: 2026-06-04 03:42:25
+! Total Count: 19779
+! Blocked Filters: 19779
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9681
+!<<<<<域名规则>>>>>9683
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -9679,6 +9679,8 @@
 ||zontent.powvideo.net^
 ||zoologyfibre.com^
 ||zoom.us*web.us^
+||zoom.us/*/app-telemetry.
+||zoom.us/*/fingerprintjs-
 ||zoosk.online^
 ||zoroalteedrich.net^
 ||zorpleflux.top^
@@ -9727,7 +9729,7 @@ $script,domain=zdnet.fr,third-party
 01fmovies.com##.ico.close
 01fmovies.com##.jw-logo
 01fmovies.com##[src^="/addons/"]
-0vg9r.com,398fitus.com,arbitrarydecisions.com,bysebuho.com,bysedikamoum.com,bysefujedu.com,bysejikuar.com,bysekoze.com,byseqekaho.com,byseraguci.com,bysesayeveum.com,bysesukior.com,bysetayico.com,bysewihe.com,dramathical.stream,f16px.com,f75s.com,filemoon.*,g9r6.com,ystream.id##body.video-embed-mode > div[class][style]:not(#root)
+0vg9r.com,398fitus.com,arbitrarydecisions.com,bysebuho.com,bysedikamoum.com,bysefujedu.com,bysejikuar.com,bysekoze.com,byseqekaho.com,byseraguci.com,bysesayeveum.com,bysesukior.com,bysetayico.com,bysewihe.com,dramathical.stream,f16px.com,f75s.com,filemoon.*,g9r6.com,mdplay.top,rupertisdivingintoocean.com,ystream.id##body.video-embed-mode > div[class][style]:not(#root)
 10.com.au,10play.com.au##.content__ad__content
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src*="/"][src*="_"])
 1001tracklists.com###fpLeft > div:not(div[id="lSt"][class=""]):has(a img[src^="/"][src*="_"])
@@ -17475,7 +17477,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2324
+!<<<<<放行白名单>>>>>2325
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19761,6 +19763,7 @@ startpage.com#@#[style]:has(path):has([href*="aff"])
 surfline.com#@#.ad-box:not(#ad-banner):not(:empty)
 tamin.ir#@#.ads2
 techradar.com#@#a[href^="https://amazon."][href*="tag="]
+tek.no,e24.no,minmote.no,vg.no#@#div[id^="sp_message_container_"]
 teket.jp#@#div[aria-label="cookieconsent"]
 thequint.com#@#._4xQrn
 thespruceeats.com#@#[data-ad-width]
