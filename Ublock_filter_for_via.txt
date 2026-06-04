@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EALSZT6M2GcTmN6a2qBcCg
-! Title: Ublock filter for Via(2026-06-04 03:42:25)
-! Version: 20260604034225
+! Checksum: fSdDl5vC9UlkH6roQmoKfQ
+! Title: Ublock filter for Via(2026-06-04 10:46:05)
+! Version: 20260604104605
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-04 03:42:25
-! Total Count: 19779
-! Blocked Filters: 19779
+! Last modified: 2026-06-04 10:46:05
+! Total Count: 19780
+! Blocked Filters: 19780
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9697,7 +9697,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5931
+!<<<<<网站单独规则>>>>>5932
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14541,6 +14541,7 @@ stream4free.*###promo
 streamango.*###ad_buts
 streambolt.tv,strmbolt.com##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 streamcash.to###preroll-gate
+streamcash.to###vc-overlay
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"] img
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"]:has(img) + button.ring-offset-background
 streamfare.com##[id^="wb_AdText"]
