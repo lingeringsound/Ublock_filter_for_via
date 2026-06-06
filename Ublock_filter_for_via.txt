@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: WOJCrpo5HdboM6SNj6nu9g
-! Title: Ublock filter for Via(2026-06-06 01:47:46)
-! Version: 20260606014746
+! Checksum: seI13662ogG4b1hEnY6B2g
+! Title: Ublock filter for Via(2026-06-06 10:12:07)
+! Version: 20260606101207
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-06 01:47:46
-! Total Count: 19792
-! Blocked Filters: 19792
+! Last modified: 2026-06-06 10:12:07
+! Total Count: 19793
+! Blocked Filters: 19793
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9693
+!<<<<<域名规则>>>>>9694
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -9193,6 +9193,7 @@
 ||wired.com/ams/page-ads.js$script
 ||wishhoree1890.com^
 ||wisoper.click^
+||wispbyte.com/client/scripts/wisp-cmp-bridge.js$script
 ||wispbyte.com/client/scripts/wisp-guard.js$script
 ||with-with.net^
 ||with.2-on-line.com^
