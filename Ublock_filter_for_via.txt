@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VaQIn5HeC5kLRHDBLe9cmg
-! Title: Ublock filter for Via(2026-06-08 01:06:25)
-! Version: 20260608010625
+! Checksum: M0cnihhRx8jjJSBiZxFRVw
+! Title: Ublock filter for Via(2026-06-08 10:42:31)
+! Version: 20260608104231
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-08 01:06:25
-! Total Count: 19809
-! Blocked Filters: 19809
+! Last modified: 2026-06-08 10:42:31
+! Total Count: 19810
+! Blocked Filters: 19810
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9718,7 +9718,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5937
+!<<<<<网站单独规则>>>>>5938
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13407,6 +13407,7 @@ o2.pl,www.wp.pl##div:is([style="width:100%"], [style="width:100%;height:100%"]):
 o2tvseries4u.com,tvshows4mobile.org##[href^="https://obqj2.com/4/"]
 obf-io.deobfuscate.io##.self-center.overflow-hidden:has(> img[src="/nexus_banner.webp"]:only-child)
 ocregister.com##a[href^="http://www.webpublished.com"]
+odiadance.com,sayphotobooth.com##.BR-Overlay, .single-layout-1.ast-post-format-, #BR-Footer-Ads, .wp-post-image, #comments, .post-navigation.navigation, .ast-pagination, .ast-article-inner.ast-post-format-
 oemdtc.com##.blocker-notice, .blocker-overlay
 oemdtc.com##.easyazon-block
 oemdtc.com##[src^="https://cdn.flowdee.de/"], [href^="https://www.amazon.com/b"]
