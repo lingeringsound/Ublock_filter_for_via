@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YIZ3MDXN93VSbKMPsnD96g
-! Title: Ublock filter for Via(2026-06-09 02:19:55)
-! Version: 20260609021955
+! Checksum: Og8U0yBbVLP9lPuSaWpTCA
+! Title: Ublock filter for Via(2026-06-09 10:08:49)
+! Version: 20260609100849
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-09 02:19:55
-! Total Count: 19818
-! Blocked Filters: 19818
+! Last modified: 2026-06-09 10:08:49
+! Total Count: 19819
+! Blocked Filters: 19819
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -17514,7 +17514,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2327
+!<<<<<放行白名单>>>>>2328
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19744,6 +19744,7 @@ pgportal.gov.in#@#.ad_image
 phineypet.com#@##adsiframe
 pl#@#[class$="-ads"]
 player.tubia.com#@#.companion-ads
+plus.fm-p.jp#@#.ad_overlay
 pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,recensionihot.com,torino2006.it#@#a[href^="https://www.moscarossa.biz/"]
