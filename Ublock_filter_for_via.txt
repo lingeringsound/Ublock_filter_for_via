@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1b7TSjkfadQ4WFOWSucNTA
-! Title: Ublock filter for Via(2026-06-10 01:53:05)
-! Version: 20260610015305
+! Checksum: YfyynBs49y3m+9Vf7qOPMA
+! Title: Ublock filter for Via(2026-06-10 10:33:10)
+! Version: 20260610103310
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-10 01:53:05
-! Total Count: 19824
-! Blocked Filters: 19824
+! Last modified: 2026-06-10 10:33:10
+! Total Count: 19826
+! Blocked Filters: 19826
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9720,7 +9720,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5943
+!<<<<<网站单独规则>>>>>5945
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10180,6 +10180,7 @@ androidpolice.com,cbr.com,collider.com,dualshockers.com,gamerant.com,howtogeek.c
 androidweblog.com##[class^="andro-random-paragraph"]
 anghami.com##anghami-ads
 anhdep24.com##.popup-container, .text-center h2~*, .text-center h2, .site-logo
+animalia.bio##.s-ad-banner-horizontal
 animasu.club###lmd-iklan
 anime-drama.jp###block-11
 anime-loads.org###leaderwidget
@@ -14954,6 +14955,7 @@ tv-sport-hd.com##[src="/rcl/reclama.php"]
 tv2.no##.article-recommended
 tv247.us##.afc_popup
 tv24livestream.de###abmmx
+tvasports.ca##[data-testid="ad-container"]
 tvi.la,iir.la,tii.la,oko.sh,ckk.ai,oei.la,lnbz.la,oii.la,tpi.li##.td-post-template-default.td-container
 tvmd.info###crosscol-overflow
 tvn.pl##.on-top.ad-ph
