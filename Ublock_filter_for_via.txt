@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AzgTW5pYdDCJI8H3X8m+vQ
-! Title: Ublock filter for Via(2026-06-12 10:38:42)
-! Version: 20260612103842
+! Checksum: x0lkEV1KVqTzuMBb+z8GPg
+! Title: Ublock filter for Via(2026-06-13 02:00:06)
+! Version: 20260613020006
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-12 10:38:42
-! Total Count: 19837
-! Blocked Filters: 19837
+! Last modified: 2026-06-13 02:00:06
+! Total Count: 19839
+! Blocked Filters: 19839
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10050,9 +10050,9 @@ adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,shavetape.*,s
 adbull.*,aii.sh,oko.sh##[src^="https://i.imgur.com/"]
 adcorto.*##.box-main > table
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,crazyblog.in,datacheap.io,hbz.us,javporn.tv,owsafe.com,savego.org,sportweb.info,sulasok.*,sulasokvids.net##.floating-banner
-adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##.adslr
-adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##center:has(> a[href="javascript:hidepromol();"])
-adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info##table[class^="a"]
+adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,owsafe.com,savego.org,sportweb.info##.adslr
+adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,owsafe.com,savego.org,sportweb.info##center:has(> a[href="javascript:hidepromol();"])
+adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,owsafe.com,savego.org,sportweb.info##table[class^="a"]
 additudemag.com##.primary-sidebar-ad
 adhs-zentrum.de##div.box:has(.adsbygoogle)
 adhs-zentrum.de,appnee.com,arrowos.net,myuploadedpremium.de###babasbmsgx
@@ -10240,6 +10240,7 @@ anysex.com###content > .naf_dd
 anysex.com##[class^="content"] > .no_pop
 aov-news.com,summonersky.com##[id^="ads_vertical_reader_"]
 apcvpc.com,drinkspartner.com,headlinerpost.com,manishclasses.in,posterify.net##nav, .remove-sticky, .widget-area, .entry-content, .entry-header, .entry-meta, .comments-area, .wpjankari-social-wrapper, .site-footer, .gb-container, .featured-image, .has-inline-mobile-toggle.site-header, #top-container-2
+apekite.com,cureclues.com,en.financerites.com,healthfirstweb.com,howifx.com,junkyponk.com,livenewsflix.com,mythvista.com,vocalley.com,yogablogfit.com###gads
 apk4all.com##.control.field > .is-danger.button
 apkcombo.com##div[class*=-ad]
 apkdone.com##.adplaceholder-top
@@ -11614,7 +11615,7 @@ filmyzilla.*##[href^="https://ak.hetadinh.com/"]
 finance.marketrook.com###gcont
 financemonk.net###dgpromo
 financenova.online##.aside-top-ads
-financenova.online,utkarshonlinetest.com,financewada.com##.process, .txt_top
+financenova.online,financewada.com,utkarshonlinetest.com##.process, .txt_top
 finanzas-vida.com##[href="https://zplayer.live/"]
 finanzen.net##.background-color-info:has(.ad-hint)
 finanzen.net##.edge:has(> .ad-hint)
@@ -12303,6 +12304,7 @@ html5.gamedistribution.com###gd__adblocker__overlay
 https://github.com/uBlockOrigin/uAssets/issues/27173
 hubcloud.*##.ads-btns
 hubcloud.*##.img-fluid
+hubdrive.*##[src="/snvhost.jpg"]
 hubu.cloud##.mn
 huffpost.com,huffingtonpost.jp##.advertisement-holder
 hulldailymail.co.uk##.react-loading-skeleton
@@ -12590,7 +12592,6 @@ jpvhub.com##iframe ~ .MuiBox-root
 juazeiro.ba.gov.br###tie-block_1735
 juazeiro.ba.gov.br###tie-block_3287
 jumpmanclubbrasil.com.br##.home-ad-con
-junkyponk.com,healthfirstweb.com,vocalley.com,yogablogfit.com,howifx.com,en.financerites.com,mythvista.com,livenewsflix.com,cureclues.com,apekite.com###gads
 justjavhd.com###advads_ad_widget-2
 justlightnovels.com,thetruedefender.com,tvnation.me##.adsbyvli
 justwatch.com##.vpn-link
@@ -14350,8 +14351,7 @@ shortzzy.*##.box-main > center > a[href][target="_blank"]
 shortzzy.*##.btnlink
 shortzzy.*##.navbar-right.navbar-nav.nav
 shrib.com##[style="display: block;"]:has(.adsbygoogle)
-shrink.*##h3, p
-shrink.icu,shrink.yt##h3, p
+shrink.*,shrink.icu,shrink.yt##h3, p
 shrinke.*,shrinkme.*##.expop, .blog-item, footer, [src*="shrinkme."], .box-main h3, [hight="250px"]
 shrinkforearn.in##[class*="wp-image"]
 shrinkforearn.in##[href*="waufooke.com"], .footer, .banner-inner, .w-nav.nav-rounded-center
@@ -15678,7 +15678,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1501
+!<<<<<通配符规则>>>>>1502
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16777,6 +16777,7 @@ $script,domain=zdnet.fr,third-party
 /script/ncsu.js$third-party
 /script/ndsu.js$third-party
 /script/su.js$script,third-party
+/scripts/delayed.js|$script,~third-party
 /scripts/monetag-special.js
 /security-challenge-captcha.html^
 /sendy.clyp.it/t/*$image
@@ -17182,7 +17183,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>345
+!<<<<<通用Css规则>>>>>346
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -17275,6 +17276,7 @@ voz.vn/b/image.gif?p=$image
 ##.ad-zone:not(.textads)
 ##.ad_slot:not(.text-ad)
 ##.ad_unit:not(.text-ad)
+##.ad_unit:not(.text-ad, .adsbox)
 ##.adde_modal-overlay
 ##.adde_modal_detector
 ##.addthis_toolbox
@@ -17611,7 +17613,7 @@ voz.vn/b/image.gif?p=$image
 @@*$script,~third-party,domain=45er.de|antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|btv.bg|btvnovinite.bg|btvplus.bg|btvsport.bg|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|dawenet.com|decompiler.com|dshytb.com|erzar.xyz|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|infinityscans.net|infinityscans.xyz|kryptografie.de|mailtool.de|maxlinks.online|maxstream.video|maxstreams.site|mobitaak.com|my1ink.*|myl1nk.*|myli3k.*|mylink.*|net-tools.de|net-tours.de|photo-alben.de|poqzn.xyz|promo-visits.site|quesignifi.ca|qul.de|rezst.xyz|rezsx.xyz|satoshi-win.xyz|sinonimos.de|softwareengineer.de|solvetube.*|starkroboticsfrc.com|such-maschine.de|svetatnazdraveto.bg|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz|web-spiele.de|wetter-vorhersage.de
 @@*$xmlhttprequest,domain=adclickersbot.com|app.molotov.tv|banaraswap.in|cdn.bg-gledai.*|cdn.bg-gledai.video|cdn.gledaitv.*|cdn.gledaitv.fan|cdn.gledaitv.live|cursomecanet.com|designtagebuch.de|imagereviser.com|kiktu.com|poophq.com|rekidai-info.github.io|techcyan.com|thehouseofportable.com|trangchu.news|upshrink.com|veev.to
 @@*$xmlhttprequest,method=head|get,domain=app.axenthost.com,third-party
-@@*$xmlhttprequest,redirect-rule,method=head,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
+@@*$xmlhttprequest,redirect-rule,method=head,domain=antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|poqzn.xyz|quesignifi.ca|rezst.xyz|rezsx.xyz|sinonimos.de|starkroboticsfrc.com|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz
 @@*$xmlhttprequest,script,~third-party,domain=allcryptoz.net|batmanfactor.com|crewbase.net|crewus.net|documentaryplanet.xyz|gametechreviewer.com|midebalonu.net|misterio.ro|seory.xyz|shinbhu.net|shinchu.net|substitutefor.com|talkforfitness.com|thefitbrit.co.uk|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
 @@*$xmlhttprequest,third-party,domain=infinityscans.net|infinityscans.org|infinityscans.xyz
 @@*$xmlhttprequest,~third-party,domain=cookiewebplay.xyz|cursomecanet.com|ilovetoplay.xyz|quest4play.xyz|streamcaster.live|topembed.pw
@@ -17646,7 +17648,7 @@ voz.vn/b/image.gif?p=$image
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json$~third-party
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
 @@/adbl_checkurl.js?$script,domain=cool-web.de|gps-cache.de|web-spiele.de|fun-seiten.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de|cool-domains.de|net-tours.de|such-maschine.de|qul.de|mailtool.de|c-ix.de|softwareengineer.de|net-tools.de|hilfen.de|45er.de|cooldns.de|hardware-entwicklung.de|cool--web-de.translate.goog|gps--cache-de.translate.goog|web--spiele-de.translate.goog|fun--seiten-de.translate.goog|photo--alben-de.translate.goog|wetter--vorhersage-de.translate.goog|coolsoftware-de.translate.goog|kryptografie-de.translate.goog|cool--domains-de.translate.goog|net--tours-de.translate.goog|such--maschine-de.translate.goog|qul-de.translate.goog|mailtool-de.translate.goog|c--ix-de.translate.goog|softwareengineer-de.translate.goog|net--tools-de.translate.goog|hilfen-de.translate.goog|45er-de.translate.goog|cooldns-de.translate.goog|hardware--entwicklung-de.translate.goog
-@@/adpartner.min.js$script,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
+@@/adpartner.min.js$script,domain=antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|poqzn.xyz|quesignifi.ca|rezst.xyz|rezsx.xyz|sinonimos.de|starkroboticsfrc.com|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz
 @@/ads/prebid/ads/prebid/ads/prebid/ads-prebid/*$script,domain=decompiler.com
 @@/adsAPI.js$script,third-party,domain=infinityscans.xyz|infinityscans.net
 @@/adsscript*$script,domain=decompiler.com
@@ -18967,7 +18969,7 @@ voz.vn/b/image.gif?p=$image
 @@||privacy-mgmt.com^$script,domain=bild.de|chip.de|cmp.netzwelt.de|faz.net|focus.de|golem.de|handelsblatt.com|n-tv.de|praxisvita.de|stern.de|wunderweib.de
 @@||production-api.androidacy.com^$script,~third-party
 @@||products.wera.de^$xmlhttprequest,~third-party
-@@||profitsfly.com^$script,domain=starkroboticsfrc.com|sinonimos.de|antonimos.de|quesignifi.ca|tiktokrealtime.com|tiktokcounter.net|tpayr.xyz|poqzn.xyz|ashrfd.xyz|rezsx.xyz|tryzt.xyz|ashrff.xyz|rezst.xyz|dawenet.com|erzar.xyz|waezm.xyz|waezg.xyz|blackwoodacademy.org|cryptednews.space|vivuq.com|swgop.com|vbnmll.com|telcoinfo.online|dshytb.com
+@@||profitsfly.com^$script,domain=antonimos.de|ashrfd.xyz|ashrff.xyz|blackwoodacademy.org|cryptednews.space|dawenet.com|dshytb.com|erzar.xyz|poqzn.xyz|quesignifi.ca|rezst.xyz|rezsx.xyz|sinonimos.de|starkroboticsfrc.com|swgop.com|telcoinfo.online|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|tryzt.xyz|vbnmll.com|vivuq.com|waezg.xyz|waezm.xyz
 @@||projectkorra.com/*/siropu/*/ads$script,~third-party
 @@||promo.com/shopify-backend/*/user-videos/public/video-urls$xmlhttprequest
 @@||promo.com/shopify/shopify-store-script.js$script
