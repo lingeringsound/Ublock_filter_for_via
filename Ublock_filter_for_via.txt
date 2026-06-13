@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: x0lkEV1KVqTzuMBb+z8GPg
-! Title: Ublock filter for Via(2026-06-13 02:00:06)
-! Version: 20260613020006
+! Checksum: fvgISOb2wvQYLndZoqkMPg
+! Title: Ublock filter for Via(2026-06-13 10:31:40)
+! Version: 20260613103140
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-13 02:00:06
-! Total Count: 19839
-! Blocked Filters: 19839
+! Last modified: 2026-06-13 10:31:40
+! Total Count: 19842
+! Blocked Filters: 19842
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9726,7 +9726,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5949
+!<<<<<网站单独规则>>>>>5952
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14584,8 +14584,10 @@ stream2watch.*##p[style="color:white;"]
 stream4free.*###promo
 streamango.*###ad_buts
 streambolt.tv,strmbolt.com##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
+streamcash.to###player-ui-layer[style="position:absolute;inset:0;z-index:99;cursor:pointer;"]
 streamcash.to###preroll-gate
 streamcash.to###vc-overlay
+streamcash.to##div.banner-zone
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"] img
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"]:has(img) + button.ring-offset-background
 streamfare.com##[id^="wb_AdText"]
@@ -14595,6 +14597,7 @@ streamingcommunity.*##.slide-banner:has(> .slide-banner__container)
 streamingcommunity.computer##div.centered.modal
 streamobs.net###AgeModal
 streamsb.*##body > div[style*="z-index:"]
+streamvid.dev##.ad_mobile
 strikeout.*##.d-none.d-lg-block.col-lg-3
 strikeout.*##.m-1.btn-danger.btn
 strikeout.*##.w-100.position-absolute.h-100
