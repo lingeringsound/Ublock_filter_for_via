@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +3vDRbSMSAmlF9SEK1WNbA
-! Title: Ublock filter for Via(2026-06-14 01:12:27)
-! Version: 20260614011227
+! Checksum: aptH//xro9w8bkyXrboI9A
+! Title: Ublock filter for Via(2026-06-14 10:43:07)
+! Version: 20260614104307
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-14 01:12:27
-! Total Count: 19843
-! Blocked Filters: 19843
+! Last modified: 2026-06-14 10:43:07
+! Total Count: 19844
+! Blocked Filters: 19844
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9726,7 +9726,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5952
+!<<<<<网站单独规则>>>>>5953
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14584,6 +14584,7 @@ stream2watch.*##p[style="color:white;"]
 stream4free.*###promo
 streamango.*###ad_buts
 streambolt.tv,strmbolt.com##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
+streamcash.to###main-video ~ div[style]
 streamcash.to###player-ui-layer[style="position:absolute;inset:0;z-index:99;cursor:pointer;"]
 streamcash.to###preroll-gate
 streamcash.to###vc-overlay
