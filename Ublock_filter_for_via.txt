@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: E8ZJpYEa8FuKTxmWcmIAQg
-! Title: Ublock filter for Via(2026-06-17 08:22:17)
-! Version: 20260617082218
+! Checksum: Sp2O5L6VR/Y6WiQR8Ramkg
+! Title: Ublock filter for Via(2026-06-17 10:45:19)
+! Version: 20260617104519
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-17 08:22:18
-! Total Count: 19853
-! Blocked Filters: 19853
+! Last modified: 2026-06-17 10:45:19
+! Total Count: 19857
+! Blocked Filters: 19857
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9716
+!<<<<<域名规则>>>>>9718
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7772,6 +7772,7 @@
 ||starttrezor.wordpress.com^
 ||startwork-introduce.com^
 ||stash.adcat.moe/script.js$script
+||stat-res.workers.dev^
 ||statcounter.com^$third-party
 ||stateless.me/yxz1/$script,~third-party
 ||static-cloudflare.workers.dev/?*=aHR0c*&domain=*&session=*&pv=$script,third-party
@@ -9172,6 +9173,7 @@
 ||will-kantei.com^
 ||will-lucky-will.com^
 ||willalland.info^
+||willow-assets.space^
 ||win-sogou.com^
 ||win32diskimager.org^
 ||windirstat.org^
@@ -9730,7 +9732,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5957
+!<<<<<网站单独规则>>>>>5958
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10538,6 +10540,7 @@ bing.com##li.b_algo:has(> h2 > a[href^="https://www.bing.com/aclk?"])
 bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
 bing.com##li.b_algo[ads="1"]
 bing.com##ol#b_results > li.b_algo:has(> .b_caption > p[ads])
+bing.com##ol#b_results > li.b_algo:has(> .b_title > h2 > a[id][ads])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bingotingo.com###please-wait
@@ -15690,7 +15693,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1503
+!<<<<<通配符规则>>>>>1504
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16552,6 +16555,7 @@ $script,domain=zdnet.fr,third-party
 /index.html?Anph=1-
 /index.html?ph0n=1-
 /index.html?ph0nq=
+/index.js|$script,third-party,domain=chessgames.com|safood.tw
 /index.php?key=*&t1=
 /index.php?uid=*&code=ad^
 /index/index/*Trade/tradelist^
