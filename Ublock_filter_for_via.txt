@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Sp2O5L6VR/Y6WiQR8Ramkg
-! Title: Ublock filter for Via(2026-06-17 10:45:19)
-! Version: 20260617104519
+! Checksum: TaZ7szu8puaN3ty0UXUIWQ
+! Title: Ublock filter for Via(2026-06-18 02:08:50)
+! Version: 20260618020850
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-17 10:45:19
-! Total Count: 19857
-! Blocked Filters: 19857
+! Last modified: 2026-06-18 02:08:50
+! Total Count: 19866
+! Blocked Filters: 19866
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9718
+!<<<<<域名规则>>>>>9724
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4073,6 +4073,7 @@
 ||i.imgur.com^$domain=1link.vip|anime-hentai.jp.net|deseneledublate.com|ezjav.com|hentaitube1.lol|megalink.*|samfw.com
 ||i.imgur.com^$image,domain=anhdep24.com|dreamcheeky.com|fidlarmusic.com|kiemlua.com|lucidcam.com|myflixer.*|nousdecor.com|publicananker.com|rezence.com|up-load.one|vinaurl.*|vizcloud.*|vizcloud2.*
 ||i.jsrdn.com/i/1.gif?
+||i.meetu.best^
 ||i.pinimg.com/564x/$domain=jav720.net|phimsexkhongche.net
 ||i.redi-ana.jp^
 ||i1.wp.com/ryuukoi.web.id/wp-content/uploads/*/ANTIADBLOCK$image
@@ -4248,6 +4249,7 @@
 ||instagram.irancell-10g-free.rf.gd^
 ||instagram0639.blogspot.
 ||install-ledger.live^
+||instant-gaming.com/api/banner/
 ||instant-job-apply.com^
 ||instant-job-appply.com^
 ||instapass.fr^
@@ -5787,6 +5789,7 @@
 ||netflix.com/log/
 ||netlify.app/errox01/?
 ||netlify.app/help/support/client_id=
+||netlify.app/text.js|$~third-party
 ||netronline.dev^
 ||netsgram.com^
 ||nettix.fi/*/nettiauto_analytics.js$script,domain=nettiauto.com
@@ -5940,6 +5943,7 @@
 ||obeseglobewimp.com^
 ||obiaheroid.top^
 ||obs-software.cc^
+||observe.runpod.io/static/web-vitals.js
 ||ocalam.com:8443/impact^
 ||ocbcccreonline.com^
 ||ocraslicer.
@@ -6404,6 +6408,8 @@
 ||pharmaceutical-technology.com/wp-content/*skin.jpg$image
 ||phila.revenue*.cc^
 ||phim1080.in/mmo/
+||phimcn.*/assets/pu.js
+||phimcn.*/graph/api?action=init-load-ads
 ||phineypet.com/2x.png
 ||phineypet.com/300x600.png
 ||phm-2g.com^
@@ -9732,7 +9738,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5958
+!<<<<<网站单独规则>>>>>5959
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10598,6 +10604,7 @@ bloggingaro.com,clevercracks.com,cracka2zsoft.com,crackhub.org,crackkits.com,cra
 bloggingdaze.com##.locked-action-link
 bloggingguidance.com,dubznetwork.com,eegybest.xyz,go4kora.com,m4news.com,mcrypto.club###id-custom_banner
 blograffo.net##[href^="https://amzn.to/"]
+blogspot.com##.my-responsive-banner-container
 blogspot.com##.widget.HTML > .widget-content > #floating-footer.floating-footer
 blogspot.com##.widget.HTML > .widget-content > .my-responsive-banner-container
 blogspot.com,web.app##img[onclick="kemana()"]
@@ -11329,8 +11336,8 @@ eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##div[class="news-card 
 ekstrabladet.dk##.eb-placement
 elahmad.com###ad_asd
 elahmad.com##div[id^="ads"]
-elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net##.iframeDiv
-elamigos-games.com,elamigos-games.net,elamigosgames.org,elamigosgamez.net,zona-leros.net##.content_store
+elamigos-games.com,elamigos-games.net,elamigosgames.net,elamigosgames.org,elamigosgamez.net##.iframeDiv
+elamigos-games.com,elamigos-games.net,elamigosgames.net,elamigosgames.org,elamigosgamez.net,zona-leros.net##.content_store
 elamigosgames.org##.store_text
 elamigosgames.org,zona-leros.com##.store_fondo
 elecdiags.com##.itc-modal
@@ -17200,7 +17207,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>346
+!<<<<<通用Css规则>>>>>347
 ###TapatalkFooterDesktopAds
 ###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 ###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
@@ -17476,6 +17483,7 @@ voz.vn/b/image.gif?p=$image
 ##html[lang="tr"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-click-right
 ##html[lang="tr"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-desktop-wrapper
 ##html[lang="tr"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-mobile-wrapper
+##html[lang="vi"] .sspp-area
 ##html[lang="vi"] > body.home > .mmo-fixbot
 ##html[lang="vi"] > body[class] .mmo
 ##html[lang="vi"] > body[class] > .mmo + .mzdal
@@ -17549,7 +17557,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2331
+!<<<<<放行白名单>>>>>2332
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19627,6 +19635,7 @@ bitzite.com#@#.banner-ad
 brasilescola.uol.com.br#@#.banner
 brewerfanatic.com,damndelicious.net,fishonfirst.com,mediaite.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
 brewerfanatic.com,damndelicious.net,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive
+bus-location.1507t.xyz#@#.ad-area:not(.text-ad)
 calgaryherald.com#@#.local-branding
 calgarysun.com,canoe.com,edmontonsun.com,financialpost.com,nationalpost.com,ottawasun.com,theprovince.com,torontosun.com,winnipegsun.com#@#.adsizewrapper
 call2friends.com,inverse.com#@#.adWrapper
