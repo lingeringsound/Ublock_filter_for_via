@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kFARw/jqWrcWj3wPj3j0KQ
-! Title: Ublock filter for Via(2026-06-18 10:41:48)
-! Version: 20260618104148
+! Checksum: M4XGdh0Er9t7Vjr0Jgq3ZA
+! Title: Ublock filter for Via(2026-06-19 02:20:59)
+! Version: 20260619022059
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-18 10:41:48
-! Total Count: 19866
-! Blocked Filters: 19866
+! Last modified: 2026-06-19 02:20:59
+! Total Count: 19878
+! Blocked Filters: 19878
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9724
+!<<<<<域名规则>>>>>9731
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1681,10 +1681,16 @@
 ||check-host.net/images/alexehost.png$image,~third-party
 ||check-host.net/images/alexrhost.png$image,~third-party
 ||check-host.net/images/baeza-$image,~third-party
+||check-host.net/images/denwcor.png$image,~third-party
+||check-host.net/images/dhost3alosen.png$image,~third-party
 ||check-host.net/images/dhostealos$image,~third-party
 ||check-host.net/images/dowaith$image,~third-party
+||check-host.net/images/dowaitjen.png$image,~third-party
+||check-host.net/images/menwcor.png$image,~third-party
+||check-host.net/images/mhost3alosen.png$image,~third-party
 ||check-host.net/images/mhostealo$image,~third-party
 ||check-host.net/images/mowaith$image,~third-party
+||check-host.net/images/mowaitjen.png$image,~third-party
 ||check-host.net/images/naez-$image,~third-party
 ||check-host.net/images/naeza-$image,~third-party
 ||check-host.net/images/rmpndguarg$image,~third-party
@@ -4529,6 +4535,7 @@
 ||karakuloutmate.com^
 ||karconsulting.us^$third-party
 ||kardon-rsa.com^
+||karedeutschland.com^
 ||karinaroom.wixsite.com^
 ||karistudio.com/wp-content/plugins/wp-statistics/assets/js/tracker.js^
 ||karistudio.com/wp-content/themes/blogarise-child/check2.js
@@ -9738,7 +9745,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5959
+!<<<<<网站单独规则>>>>>5961
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10816,6 +10823,7 @@ charbelnemnom.com,scubidu.eu###custom_html-16
 chat.deepseek.com##.ds-modal-overlay
 cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
+check-host.net###amspeaytpuikprivatealps, .hostabw, [id^="amspeay"], .ri-ctive, [id^="amspeaytpuikpp-liaryt"], .blockxs, [href*="&utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"], a[href^="https://the.hosting"], a[href^="https://mhost.ee"], a[href^="https://waicore.net/"]
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .relan, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .ri-ative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, [id^="amtpeayv"], .specjo, .telan, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #amtpeayvrkebpp-liaryt, #amtpeayvrkebpp-liaryt2, .relan, .ri-btive, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"], a[href^="https://the.hosting"]
@@ -12891,8 +12899,10 @@ lowendbox.com##[href="https://vpsdime.com/"]
 lowendbox.com##a[href][rel=noreferrer] > img[height="250"][width="300"]
 lowendbox.com##div.block:has([id^="bsa"])
 lowfuelmotorsport.com##.mat-card[style] a[target="_blank"][href] > img
+lowfuelmotorsport.com##.topbanner-center
 lowfuelmotorsport.com##:is(elastic-toolbar-navigation, mat-card-content) div[style] > a[target="_blank"][href] > img
 lowfuelmotorsport.com##elastic-ad-service
+lowfuelmotorsport.com,wh40k.lexicanum.com##.vm-placement
 luciferdonghua.in##.kln
 luciferdonghua.in##.video-content > div[id][style]:has(> div > span[onclick])
 luciferdonghua.in##body > div[id][style]:has(> .kln)
@@ -15377,7 +15387,6 @@ wetter.de##.outbrain-ad-slot
 wetteronline.*###topcontainer
 wetteronline.de###woCsiAdContent
 wetteronline.de###woRect
-wh40k.lexicanum.com##.vm-placement
 whathifi.com###ultimedia_wrapper
 whathifi.com##.dfp-leaderboard-container
 whatsappmods.net##.fa-clock-o
@@ -15700,7 +15709,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1504
+!<<<<<通配符规则>>>>>1505
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16457,6 +16466,7 @@ $script,domain=zdnet.fr,third-party
 /e.emails.*/o/p/*$image
 /e.emails.ugg.com/o/p/*$image
 /e.mailer.*/o/p/*$image
+/e/*^ip=*^beacon=
 /e1t/o/*$image
 /e2t/o/*$image
 /e2t/to/*$image
@@ -17557,7 +17567,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2332
+!<<<<<放行白名单>>>>>2334
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18408,6 +18418,7 @@ voz.vn/b/image.gif?p=$image
 @@||filecrypt.cc/captcha/
 @@||filecrypt.co/captcha/
 @@||filecrypt.co/captcha/captcha.php$image,~third-party
+@@||fileditchfiles.me/*.js|$script,~third-party
 @@||fileditchfiles.me/js/prebid.js$~third-party
 @@||filegrade.com^$script,~third-party
 @@||filmoviplex.com^$script,~third-party
@@ -19681,6 +19692,7 @@ freeopenvpn.org#@##advert_top
 fuqer.com#@#.spot-thumbs > .right
 gala.fr,geo.fr,voici.fr#@#[data-ads-core]
 galaxyfirmware.*#@#.textad
+game8.jp#@#.track_mario
 gamingbible.co.uk,ladbible.com,sportbible.com,tyla.com,unilad.co.uk#@#div[class*="margin-Advert"]
 getcoloringpages.com#@#.adsBlock
 go.com#@#.has-ad
