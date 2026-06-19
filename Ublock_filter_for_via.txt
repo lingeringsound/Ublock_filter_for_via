@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: M4XGdh0Er9t7Vjr0Jgq3ZA
-! Title: Ublock filter for Via(2026-06-19 02:20:59)
-! Version: 20260619022059
+! Checksum: coQ4xrszHShkOjR5+QBCZw
+! Title: Ublock filter for Via(2026-06-19 10:58:18)
+! Version: 20260619105818
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-19 02:20:59
-! Total Count: 19878
-! Blocked Filters: 19878
+! Last modified: 2026-06-19 10:58:18
+! Total Count: 19879
+! Blocked Filters: 19879
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9745,7 +9745,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5961
+!<<<<<网站单独规则>>>>>5962
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10878,6 +10878,7 @@ cinedesi.in,thevouz.in,tejtime24.com,techishant.in##.remove-sticky
 cinedetodo.*##.alignnone
 cinedetodo.*##.bnr
 cinedetodo.*##[id*="yellow"]
+cinehd.app##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:px-6.px-4.max-w-\[1440px\]:has(.native-ads-slot)
 cinepiroca.com,dvd-flix.com,moonline.*,openloading.com###clickfakeplayer
 cinepiroca.com,highstream.tv##.cover
 cineplateforme.*,cpasfo.*##.g-buttons
