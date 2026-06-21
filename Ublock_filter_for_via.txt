@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: p/qob9nMCgzvNYXrvkzlGw
-! Title: Ublock filter for Via(2026-06-21 10:45:43)
-! Version: 20260621104543
+! Checksum: bHV4iri/ec6fbzTGGisMlA
+! Title: Ublock filter for Via(2026-06-22 01:19:03)
+! Version: 20260622011903
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-21 10:45:43
-! Total Count: 19915
-! Blocked Filters: 19915
+! Last modified: 2026-06-22 01:19:03
+! Total Count: 19919
+! Blocked Filters: 19919
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9754
+!<<<<<域名规则>>>>>9756
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2768,6 +2768,7 @@
 ||emorasp8.com^
 ||emoti-on.com^
 ||emovies.si/api/pop.php
+||empirenovel.com/po.js
 ||emta-ee-authst.firebaseapp.com^
 ||emyqsvk7zw.com^
 ||en-bitcoin.org^
@@ -4196,6 +4197,7 @@
 ||impoverishedordealscrutinize.com^
 ||impressexaltsculptor.com^
 ||improveyourhand.online^
+||imrobpolit.pro^
 ||imtoken-bl.click^
 ||imtoken.org.cn^
 ||inborn-awash.com^
@@ -9768,7 +9770,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5972
+!<<<<<网站单独规则>>>>>5974
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10326,7 +10328,7 @@ arcadepunks.com##[class*="ads"]:not(#jetblocker-detect)
 arcadepunks.com##[href^="https://gameroomsolutions.com/"]
 arcadepunks.com##[href^="https://www.arcadepunks.com/go/"]
 arcadepunks.com,bdnewszh.com,blackporn.tube,code2care.org,fuqer.com,glosbe.com,l2top.co,manysex.com,manysex.tube,mrgay.*,pornhits.com,positive-feedback.com,rainostreams.com,redporno.cz,sextb.net,sextu.com,timesnowhindi.com,timesnownews.com,xjav.tube,xmilf.com##.right
-arcadepunks.com,bigleaguepolitics.com,bonobono.com,erospots.info,grantorrents.*,watchdoctorwhoonline.com##.custom-html-widget
+arcadepunks.com,bigleaguepolitics.com,bonobono.com,erospots.info,grantorrents.*,luciferdonghua.in,watchdoctorwhoonline.com##.custom-html-widget
 archpaper.com##.an-ads
 area51.porn##.under-video-banner
 arealgamer.org##a[href="javascript:void(0)"][onclick^="window.open"]
@@ -10393,6 +10395,7 @@ augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 auto.am##.azd-top
 auto.am##.bncont
 auto.am##.toggle-adv-search
+autoembed.app,vidbox.dev##section[aria-label="Sponsored content"]
 autofaucet.dutchycorp.space##.show-on-medium
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space,pcgamestorrents.com##[href*="banner"]
@@ -12927,6 +12930,8 @@ lowfuelmotorsport.com##.topbanner-center
 lowfuelmotorsport.com##:is(elastic-toolbar-navigation, mat-card-content) div[style] > a[target="_blank"][href] > img
 lowfuelmotorsport.com##elastic-ad-service
 lowfuelmotorsport.com,wh40k.lexicanum.com##.vm-placement
+luciferdonghua.in##.afu-ab
+luciferdonghua.in##.afu-banner
 luciferdonghua.in##.kln
 luciferdonghua.in##.video-content > div[id][style]:has(> div > span[onclick])
 luciferdonghua.in##body > div[id][style]:has(> .kln)
@@ -15190,7 +15195,6 @@ vibehubs.com##.code-block-4.code-block > [href]
 vibehubs.com##[href^="https://www.star-clicks.com/"]
 vid4up.*###aoverlay
 vidbox.dev##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:px-6.px-4.max-w-\[1440px\].mx-auto:has(#ad-container)
-vidbox.dev##section[aria-label="Sponsored content"]
 vidcloud.*###overlay-center
 vide-greniers.org###mnfDetail_adSenseHead
 videakid.hu##.single-video-right-sidebar-ads
