@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: zRyku2QWlpeRDZkn4LkyUQ
-! Title: Ublock filter for Via(2026-06-21 01:15:22)
-! Version: 20260621011522
+! Checksum: p/qob9nMCgzvNYXrvkzlGw
+! Title: Ublock filter for Via(2026-06-21 10:45:43)
+! Version: 20260621104543
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-21 01:15:22
-! Total Count: 19908
-! Blocked Filters: 19908
+! Last modified: 2026-06-21 10:45:43
+! Total Count: 19915
+! Blocked Filters: 19915
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9747
+!<<<<<域名规则>>>>>9754
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -594,6 +594,7 @@
 ||analytics-collect.karakuri.ai^
 ||analytics-service.api.linkme.global^
 ||analytics.bitchute.com^
+||analytics.dawg.network^
 ||analytics.fmovies4u.com^
 ||analytics.google.com^$third-party
 ||analytics.strapi.io^
@@ -627,6 +628,7 @@
 ||animekai.*/sw.js^
 ||animeshqip.org/security_check.php$script,domain=anishqip.com
 ||animesrbija.com/popads.js
+||animevice.net^
 ||animevietsub.*/ads/$script
 ||anishqip.com/skagje.js
 ||anitube.*/sw.js$script,~third-party
@@ -1111,6 +1113,7 @@
 ||bequettehomes.com/ahost/
 ||berangkasilmu.com^$third-party
 ||berate-expressive.com^
+||beroniw.com^$reason=malicious
 ||bertchou.com/wp-content/languages-old/config^
 ||besluor.com^
 ||best-chat.net^
@@ -2266,6 +2269,7 @@
 ||dashboard.fingerprint.com^$third-party,xmlhttprequest,domain=dashboard.fingerprint.com
 ||dashboard.www.legder.at^
 ||dasikmonnb9.sbs^
+||daskljtitaskastvv.pro^$reason=malicious
 ||data-saver-cindi.herokuapp.com^
 ||data.anisearch.
 ||data.cheatography.com^
@@ -3620,6 +3624,7 @@
 ||golsoe033.info^
 ||gomabalerainc.top^
 ||gomovies.*/sw.js$script,~third-party
+||gomoviescdn.online^
 ||gonakedowing.com^
 ||goneleft.com^
 ||good.toll.trave-talk.jp^
@@ -5544,6 +5549,7 @@
 ||movie4night.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||moviedokan.*/wp-content/plugins/popup-builder/public/js/Popup.js
 ||moviehdkh.com/assets/*.gif$image,~third-party
+||movienewsgo.xyz^
 ||moviesboys.com/*.shtml
 ||moviezaddiction.icu/pop.js$script,~third-party
 ||mp.lura.live/vod/vast.info/
@@ -9536,6 +9542,7 @@
 ||ygabgga.click^
 ||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 ||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
+||yifysearch.com^
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 ||yinyue-qishui.hl.cn^
 ||ykjnjicn.xyz^
