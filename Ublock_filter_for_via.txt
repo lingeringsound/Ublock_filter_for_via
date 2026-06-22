@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: NTzBNBzNL5NL1awfoXqF/w
-! Title: Ublock filter for Via(2026-06-22 10:47:55)
-! Version: 20260622104755
+! Checksum: pIVZ8H2+2KXUKaB9sCgs/w
+! Title: Ublock filter for Via(2026-06-23 03:17:49)
+! Version: 20260623031749
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-22 10:47:55
-! Total Count: 19919
-! Blocked Filters: 19919
+! Last modified: 2026-06-23 03:17:49
+! Total Count: 19931
+! Blocked Filters: 19931
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9756
+!<<<<<域名规则>>>>>9759
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -311,6 +311,7 @@
 ||adition.com^$domain=spiegel.de
 ||aditserve.com^
 ||adjust.com^$reason=tracker
+||adme2.click^
 ||admin-2.dataunlocker.com^$~script
 ||admin-matching-pair.jp^
 ||admin.animesrbija.com/playertag
@@ -1788,6 +1789,7 @@
 ||claimspaace.pages.dev^
 ||clasicotas.org/themes/*/js/links.js$script,~third-party
 ||clasm.live^
+||claudverification-id.beer/api.php
 ||clc-link.me^
 ||clean-2-clean.club^
 ||cleanguard.tech^
@@ -1960,6 +1962,7 @@
 ||conceivesaucerfalcon.com^
 ||condemnfundraiserjune.com^
 ||confiant-integrations.global.ssl.fastly.net/*/gpt_and_prebid$script,domain=seeitlive.co
+||confidecross.com^
 ||config-factory.com^$third-party
 ||config.fp.measure.office.com/conf/v*/*/fpconfig.min.json$script
 ||congbac.com^
@@ -9770,7 +9773,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5974
+!<<<<<网站单独规则>>>>>5979
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10481,6 +10484,10 @@ barchart.com##[id^=customAd]
 barfuck.com###im-layer
 barstoolsports.com##.relative:has(> .ad_skeleton)
 barstoolsports.com##.videoList__ad
+base64decode.org,urldecoder.org##.column.img_header_box
+base64decode.org,urldecoder.org##.column.img_left_box
+base64decode.org,urldecoder.org##.column.img_right_bottom_box
+base64decode.org,urldecoder.org##.column.img_right_top_box
 baseballpost.jp###highschool-pickup
 bblink.com##.banner-img-promotion
 bccondos.net###exampleModal
@@ -10840,6 +10847,8 @@ celebritynakeds.com##.show-over-1000.async-reklam-placeholder
 cety.app,cutlink.net,cutnet.net,cutsy.net,cutty.app,cutyurls.com,exego.app,jixo.online##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions
 cety.app,cutlink.net,cutnet.net,cuttlinks.com,cuttty.com,cutty.app,exe-links.com,exe-urls.com,exego.app,exeygo.com,exnion.com,jixo.online##.steps-to-earn, .flex.share-icons-container, .register-banner, fieldset, .partners-container, .actions, .earning-steps, article:has(p), footer, header
 cfake.com###over
+cg-gamespc.net,elamigos-games.com,elamigos-games.net,elamigosgames.net,elamigosgames.org,elamigosgamez.net##.iframeDiv
+cg-gamespc.net,elamigos-games.com,elamigos-games.net,elamigosgames.net,elamigosgames.org,elamigosgamez.net,zona-leros.net##.content_store
 cgcosplay.org###page + div[id][class*=" "]
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
 channel4.com##.advertsMpu
@@ -11371,8 +11380,6 @@ eisamay.com,indiatimes.com,samayam.com,vijaykarnataka.com##div[class="news-card 
 ekstrabladet.dk##.eb-placement
 elahmad.com###ad_asd
 elahmad.com##div[id^="ads"]
-elamigos-games.com,elamigos-games.net,elamigosgames.net,elamigosgames.org,elamigosgamez.net##.iframeDiv
-elamigos-games.com,elamigos-games.net,elamigosgames.net,elamigosgames.org,elamigosgamez.net,zona-leros.net##.content_store
 elamigosgames.org##.store_text
 elamigosgames.org,zona-leros.com##.store_fondo
 elecdiags.com##.itc-modal
@@ -15395,6 +15402,7 @@ web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow nor
 web.facebook.com,www.facebook.com##div[role="complementary"] a[rel="nofollow noreferrer external"][attributionsrc^="/privacy_sandbox/comet/register/source/"][attributionsrc*="?eid="]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[aria-label][attributionsrc="_blank"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[href*="fbclid"][href*="utm_medium"][href*="utm_source"][href*="utm_id"][href*="utm_content"][href*="utm_term"][href*="utm_campaign"]
+web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[rel="nofollow noreferrer noopener"][target="rhcad2"]
 web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-dynamic"] a[rel="nofollow noreferrer tag"][aria-labelledby^="_R_"]
 web2.0rechner.de,web2.0calc.*###abmodal, body > .in.modal-backdrop
 web2.0rechner.de,web2.0calc.*###nocreditsmodal
@@ -17607,7 +17615,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2335
+!<<<<<放行白名单>>>>>2339
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18085,6 +18093,7 @@ voz.vn/b/image.gif?p=$image
 @@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$script,domain=gamespot.com
 @@||ccdn.es/advertising-UseCases-factory-js-factory.$script,domain=coches.net
 @@||cd.connatix.com/connatix.playspace.js^$script,third-party,domain=adweek.com
+@@||cdn-media.brightline.tv/config/v*.json$domain=adultswim.com
 @@||cdn-net.com/cc.js$script,domain=showroomprive.com
 @@||cdn-ue1-prod.tsv2.amagi.tv/beacon$xmlhttprequest,domain=watch.truecrimenetworktv.com
 @@||cdn.adpushup.com/*/adpushup.js$xmlhttprequest,domain=tejtime24.com
@@ -18822,6 +18831,7 @@ voz.vn/b/image.gif?p=$image
 @@||media.truex.com/release/*TrueXRenderer.js$script,domain=fxnetworks.com
 @@||media2.intoday.in/aajtak/$script,domain=aajtak.intoday.in|indiatoday.intoday.in
 @@||mediaite.com^$script,~third-party
+@@||medium.ngtv.io/v2/media/live*$domain=adultswim.com
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js$script,~third-party
 @@||megaup.net/imageads/$image,~third-party
 @@||mensjournal.com.cdn.ezoic.net^$domain=mensjournal.com
@@ -18942,6 +18952,7 @@ voz.vn/b/image.gif?p=$image
 @@||oninet.ne.jp/sakigakesoft/s/leaf_main.js$script,~third-party,strict1p
 @@||onlinetvrecorder.com^$xmlhttprequest,~third-party
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
+@@||openlua.cloud/*.js?_=$~third-party
 @@||opentracker.net^$domain=jlaforums.com
 @@||openx.tv/embed/$domain=m4ufree.com
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
@@ -19636,6 +19647,7 @@ ads.flytant.com,browser.lol,h-flash.com,rakuten.com#@#.google-ads
 ads.snapchat.com,cyfostreams.com,porntn.com#@#.banner_ad
 adsrt.*#@#div[id*="ScriptRoot"]
 advertisertape.com,tapeadsenjoyer.com,tapeadvertisement.com,tapeantiads.com,tapelovesads.org,tapenoads.com,watchadsontape.com#@#.skyscraper.ad
+allporncomic.com#@#iframe
 allround-pc.com#@#a[rel="noopener external"] > img[src^="/"]
 alltransistors.com#@##reklama
 aman-dn.blogspot.com#@#.ads-ad
