@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: bkExBJGB6cj8lufrYN/uBg
-! Title: Ublock filter for Via(2026-06-23 10:13:57)
-! Version: 20260623101357
+! Checksum: o21zzWGXG3VdQvS7FBaoXw
+! Title: Ublock filter for Via(2026-06-24 01:44:21)
+! Version: 20260624014421
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-23 10:13:57
-! Total Count: 19931
-! Blocked Filters: 19931
+! Last modified: 2026-06-24 01:44:21
+! Total Count: 19936
+! Blocked Filters: 19936
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9759
+!<<<<<域名规则>>>>>9764
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1508,9 +1508,12 @@
 ||cdn-z.net^
 ||cdn.710k.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
+||cdn.adsninja.ca/*an_sn.js^
+||cdn.adsninja.ca/adsninja_worker.js^
 ||cdn.adsninja.ca/adsninja_worker.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/an_sn.js^$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/an_sn.js^$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+||cdn.adsninja.ca/biddertypelibrary/
 ||cdn.adsninja.ca/biddertypelibrary/$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 ||cdn.adsninja.ca/biddertypelibrary/$script,domain=androidpolice.com|carbuzz.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 ||cdn.ay.gy/js/$script,third-party
@@ -4294,6 +4297,7 @@
 ||investing.com/gcode/
 ||investxai.pro^
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
+||invites-tracker-app.com^
 ||invoice-guide.com^
 ||inzerille.com^
 ||io-kly.com^
@@ -8208,6 +8212,7 @@
 ||telegramtn.com^
 ||telegremapp.me^
 ||telemetry*.transcend.io^
+||telemetry.adsninja.ca^
 ||teleqpnm.cn^
 ||telergaom.top^
 ||telergctm.vip^
