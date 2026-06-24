@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oIzeDIyw/qQMFDV4wPVk1Q
-! Title: Ublock filter for Via(2026-06-24 10:25:46)
-! Version: 20260624102546
+! Checksum: TirVrqp76PCKw1ltBvI4mQ
+! Title: Ublock filter for Via(2026-06-25 01:46:58)
+! Version: 20260625014658
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-24 10:25:46
-! Total Count: 19936
-! Blocked Filters: 19936
+! Last modified: 2026-06-25 01:46:58
+! Total Count: 19941
+! Blocked Filters: 19941
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9764
+!<<<<<域名规则>>>>>9766
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5536,6 +5536,7 @@
 ||moonworks.in/jpcpanel/
 ||moorsmerops.top^
 ||mopiez.com^
+||mopo.de/*/adshield.js
 ||mor.chance-10dayful.com^
 ||moraeru.top^
 ||morale-yellow.com^
@@ -6638,6 +6639,7 @@
 ||pornxvideos.org/js/QeCMJoCzLeIl3Pm.js
 ||pornzog.com/assets/inpage/banner.js
 ||pororin081.com^
+||portal.librus.pl/ad^
 ||possessedcrackinghart.com^
 ||post.nationalrent.ru^
 ||postimg.cc^$image,domain=uploadingsite.info|uploadraja.com
@@ -9778,7 +9780,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5979
+!<<<<<网站单独规则>>>>>5982
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10183,6 +10185,7 @@ allround-pc.com##.singlePostAd
 allsmo.com##[id^="ezoic-pub-ad-placeholder"]
 allstreaming.online###tab-ad
 alltechnerd.com,conservativebrief.com,fifaultimateteam.it,jootc.com,sqlserveregitimleri.com,thecustomrom.com##.ai_widget
+almelo1.nl##.almelo-ad
 alpha.vidzstore.com,kissmanga.*,leechpremium.link,mangastream.mobi,streamtwo.vidzstore.com###myModal
 alphaporno.com##.movies-block > div[style*="text-align:center;"]
 alphaporno.com,hellmoms.com,hellporno.*,tubewolf.com,xbabe.com,zedporn.com##.bnnr
@@ -13807,8 +13810,10 @@ porn00.*##.content [class^="headline"][style^="margin:"]
 porn00.*##.member2link
 porn00.*##a[href="https://porn00.org/best-casino/"]
 porn00.org##div.headline[style]
+porn4fans.com###spot_player
 porn4fans.com##.bottom-links
 porn4fans.com##.top-links
+porn4fans.com##a.ID_live_cam_inner
 porn555.com##.vda-x2
 porn613.net##[src="about:blank"]
 pornbimbo.com##.bottom-adv
