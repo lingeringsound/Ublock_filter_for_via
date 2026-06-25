@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: SxWFW21Y+BF4uJZp87qPeQ
-! Title: Ublock filter for Via(2026-06-25 10:26:59)
-! Version: 20260625102659
+! Checksum: KJYRDqR1gjhvxzfBxX3sQg
+! Title: Ublock filter for Via(2026-06-26 02:02:38)
+! Version: 20260626020238
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-25 10:26:59
-! Total Count: 19942
-! Blocked Filters: 19942
+! Last modified: 2026-06-26 02:02:38
+! Total Count: 20025
+! Blocked Filters: 20025
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9766
+!<<<<<域名规则>>>>>9848
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -20,6 +20,7 @@
 ||0.gp/greece2^
 ||007itshop.com^
 ||00ebjdbagyqwt.club^
+||0120999900.net^
 ||01fmovies.com/mmmasdfl-asd$xmlhttprequest,~third-party
 ||01net.com/telecharger/
 ||0281.jp^
@@ -175,6 +176,7 @@
 ||7zip.es^
 ||7zip.fr^
 ||7zip.it^
+||8219.mobi^
 ||86pmafno21mst.com^
 ||88btbtt.com^
 ||8jfbt5va3r.com^
@@ -247,6 +249,7 @@
 ||accbing.com^
 ||accept.bar^
 ||acceptguide.com^
+||accessaccent.com^
 ||acconsult.info/*/CHFINAL/
 ||accord-adoration.com^
 ||accordo.it/cloud-assets/x/sfondi/
@@ -528,7 +531,10 @@
 ||alwix.site^
 ||amaeex.one^
 ||amaenbo.jp^
+||amamorimo.com^
 ||amandes*.serv00.net^
+||amanerino.com^
+||amanolimo.com^
 ||amantssexy.com^
 ||amari-ama.com^
 ||amateurdough.com/promomaterials/*/banners/$image,domain=shegods.com
@@ -569,6 +575,7 @@
 ||amcnreil.pro^
 ||amcombank.co.com^
 ||amehuns.cc^
+||amemorino.com^
 ||amentsmodder.com^
 ||americanexpressempresas.com^
 ||americanoverlook.com^
@@ -616,6 +623,7 @@
 ||androidpctv.com^$image,domain=sportshub.stream|sportsbuff.stream
 ||ane102.net^
 ||aneurismuox.click^
+||angel-talk.jp^
 ||angelchance.com^
 ||anget-direct.info^
 ||angularpoppyrobbing.com^
@@ -819,6 +827,8 @@
 ||armpitgratitudecruelty.com^
 ||arousalx.com^
 ||arrakis2.com^
+||arrow-fortune.com^
+||ars73ars.com^
 ||artofxxx.net^$image,domain=watchjavonline.com
 ||artstation.paid-receipt.com^
 ||aruble.net^$third-party
@@ -1241,6 +1251,7 @@
 ||blearspellaea.shop^
 ||blender3d.es^
 ||blender3d.fr^
+||blenderbakery.com^
 ||blexad.shop^
 ||bleyeare.com^
 ||blfeiywbthjom.com^
@@ -1350,6 +1361,7 @@
 ||browsingcontredir.com^
 ||brs.bi09aso-yo.xyz^
 ||brs.hg-story.blue^
+||brs.miteau.com^
 ||brs.vacat81-best.tokyo^
 ||brvgov.com^
 ||brwasnlipggqq.com^
@@ -1374,6 +1386,7 @@
 ||build-exert.com^
 ||builder.hufs.ac.kr/goLink.jsp?url=xn-
 ||bulkagetufas.com^
+||bulkbreeding.com^
 ||bulksms.services/*/NetFlxinc/
 ||bulksms.services/NetFxs/
 ||bulletadopt.com^
@@ -1492,6 +1505,7 @@
 ||ccappu-ccinno.com^
 ||ccappuccinno.com^
 ||ccbcavn.cc^
+||ccd-15846.com^
 ||ccefactoring.com.br/ziujhyhtrer/
 ||cd7z7b.com^
 ||cda-online.pl/wp-content/uploads/*.js$script
@@ -1639,6 +1653,7 @@
 ||cham-soc-the-
 ||champagne.futurecdn.net/champagne.js
 ||champion-place77.com^
+||champion.kiitos-kiitoksia.com^
 ||chamsockhachang-
 ||chamsockhachhang-
 ||chamsocthe-
@@ -1720,6 +1735,7 @@
 ||checkpointviewzen.com^
 ||checkup08.biz^
 ||checkx.pages.dev^
+||cheerfulcharity.com^
 ||cheesydrinks.com^
 ||chemiclk.com^
 ||cheri-sh.jp^
@@ -1875,6 +1891,9 @@
 ||cnnamador.com/sw.js$script,~third-party
 ||cnzh-google-apps.hl.cn^
 ||coc-gov.com^
+||coco-dream.com^
+||coco-dream.net^
+||coco-yume.com^
 ||cocoro-liberty.com^
 ||cod-luxurybag-jp.shop^
 ||code.adclickppc.com^
@@ -1993,6 +2012,7 @@
 ||contributor.google.com/scripts/*/loader.js$script,domain=citationmachine.net
 ||convergepay.co.com^
 ||convertwithwave.com^
+||convey-pluck.com^
 ||conveyancingportal.com^
 ||cookiebot.com^$domain=nexusmods.com
 ||coolcast2.com/z-$script
@@ -2408,6 +2428,7 @@
 ||detranrapido.co^
 ||dev-7614646544.pantheonsite.io^
 ||dev.to/*/bb-2/$xmlhttprequest,~third-party
+||developdestiny.com^
 ||developseveralwebx.z9.web.core.windows.net^
 ||developsincelock.com^
 ||deviants.com/dv*/dv.js
@@ -2458,6 +2479,7 @@
 ||dirtyflirt9.com^
 ||dirtyfree.games^
 ||dirtyindianporn.info/js/friends.sv.js
+||disciplineavarice.com^
 ||discord*.gift^$domain=~discord.gift
 ||discord*.gifts^$domain=~discord.gifts
 ||discord-give.
@@ -2802,6 +2824,7 @@
 ||enigmaswhereas.com^
 ||enisaflower.com^
 ||enisaflowersaku.com^
+||enjoyepisode.com^
 ||enjoylife2001.net^
 ||ennatcaraposin.com^
 ||enraptureminims.com^
@@ -2848,6 +2871,7 @@
 ||etcher.download^$domain=~etcher.balena.io
 ||etcher.net^$domain=~etcher.balena.io
 ||etensiten.com^
+||eternal-love.net^
 ||eternal-station.jp^
 ||eternal.mobius-loop.net^
 ||eternalfame461.com^
@@ -3231,6 +3255,7 @@
 ||for20-coco.com^
 ||forcedgayporn.com/js/odWRPsjXZqsqsSkW.js
 ||forecast.lemonde.fr/p/action/
+||forestfortress.com^
 ||foretheure.jp^
 ||forever.luna-malina.com^
 ||forimg.net^
@@ -3307,6 +3332,7 @@
 ||freewebhostmost.com/consegna-pacchi/avviso/
 ||freex2line.online/dwcn/Assets/js/jquery.countdown360.min.js$script,~third-party
 ||freyr.futurecdn.net/freyr.js
+||friend-gather.com^
 ||friend-match.net^
 ||friends-connect.com^
 ||friendxroom.com^
@@ -3414,6 +3440,7 @@
 ||gamletaarnhuset.no^
 ||gamojinsegesegeas.com^
 ||gandestin0.jp^
+||gansenri.com^
 ||gaos.bio^
 ||gaoyinjiao.com^
 ||gapconnectionbridge.co.in^
@@ -3456,6 +3483,7 @@
 ||generationdissolvedplease.com^
 ||genetick4zwtf6c8mh5.jp^
 ||genoanime.tv/block-ads/
+||gensenli.com^
 ||gentete.com^
 ||genuinelyunfit.com^
 ||geoflix.me^
@@ -3507,6 +3535,7 @@
 ||giaohangtietkiemvn.website^
 ||gifhq.com/d2.js
 ||giftcardhero.net^
+||giftia.club^
 ||giga.de/special/gutscheine/*.png$script,~third-party
 ||gigachadlitics.b-cdn.net^
 ||gigaleecher.com/templates/plugmod/giga.js$script,~third-party
@@ -3632,6 +3661,7 @@
 ||gomabalerainc.top^
 ||gomovies.*/sw.js$script,~third-party
 ||gomoviescdn.online^
+||gomsanri.com^
 ||gonakedowing.com^
 ||goneleft.com^
 ||good.toll.trave-talk.jp^
@@ -3798,6 +3828,8 @@
 ||hapinet.net^
 ||happilyfreakishobedience.com^
 ||happiness-app.net^
+||happiness-cats.com^
+||happiness-cats.net^
 ||happiness-gate.com^
 ||happiness-road.net^
 ||happiness-sign.com^
@@ -3852,6 +3884,7 @@
 ||hdvideosnet.com^
 ||heading-towards.net^
 ||healthbeviva.com^
+||heart-1ink.com^
 ||heart-uranai.com^
 ||heartbeat.crackle.com/tp.png
 ||heartmatch.jp^
@@ -3867,6 +3900,7 @@
 ||helplive-ledger.com^
 ||helps-center-page-number-
 ||helpwithledgerdevice.com^
+||hentai-p.club^
 ||hentai-tube.me^
 ||hentai2read.com/ark/*.js^$script,~third-party
 ||hentai2w.com/templates/default/js/ab.functions.js
@@ -3888,6 +3922,7 @@
 ||heraldnet.com/wp-content/plugins/incognito_dectector/
 ||heraldnet.com/wp-content/plugins/incognito_dectector/js/incognito-detector.js$script,~third-party
 ||herconsequence.com^
+||hercules-progress.jp^
 ||herdethi.net^
 ||herebyintentionally.com^
 ||hergunavantaj.com.tr^
@@ -3981,6 +4016,7 @@
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|
 ||honeyline.co.jp^
 ||honeyline.net^
+||honeytalk.com^
 ||honeytalkgroup.com^
 ||hootbio.com/bellmail
 ||hope-for-shiningday.com^
@@ -4361,6 +4397,7 @@
 ||ixxx-blognew.com^
 ||iz682noju02ye5.com^$third-party
 ||izarc.fr^
+||izerokoi.jp^
 ||izmncdnboxuse*.b-cdn.net^
 ||izzuo.it.com^
 ||j-mxponyz.love^
@@ -4627,8 +4664,10 @@
 ||kino.de/mages/*.png$script,~third-party
 ||kinun-2023.com^
 ||kinun-777.com^
+||kinun-birthday.com^
 ||kio.ac/analytics/
 ||kira-kira.blue^
+||kiseki-hakoniwa.com^
 ||kiseki.com^
 ||kisekichikara.com^
 ||kissablepopsyv.click^
@@ -4694,6 +4733,7 @@
 ||kodiakfinance.net^
 ||kogaqmlci.com^
 ||koi-chat.net^
+||koi.koi-palette.com^
 ||koi2ru.com^
 ||koinik.net^
 ||koinssendspro.top^
@@ -4702,7 +4742,9 @@
 ||koiroomnotice.net^
 ||koitushinterneinnehmen.s3.eu-central-1.amazonaws.com^
 ||kokanjo.net^
+||kokoai-deai.com^
 ||kokocha.site^
+||kokokaradeai.com^
 ||kolorowey.bbvms.com^$script,domain=foodtechnos.in|gamesmain.xyz
 ||komiklokal.me/wp-content/uploads/*-1024x512.png
 ||kongtuke.com^
@@ -4711,6 +4753,7 @@
 ||kooolboomin.com^
 ||koreanpornmovie.xyz/cdn-cgi/trace$~third-party
 ||kostumn1.ilabserver.com^
+||kotoanata.jp^
 ||koubi.jp^
 ||koun-wa.com^
 ||koun-yogen.com^
@@ -4788,6 +4831,7 @@
 ||last-love.com^
 ||lastpassrecovery.com^
 ||latenightlovers.com^
+||latterantithesis.com^
 ||launcherleaks.net/*main_script.js$script,~third-party
 ||laurenmjackson.serv00.net^
 ||lavaboom.net^
@@ -4813,6 +4857,7 @@
 ||lebigdata.fr/wp-content/uploads/*/cote.png$image
 ||lectureolympics.com^
 ||ledger-apparaat.com^
+||ledger-lives-desktop.io^
 ||ledger-wallet.gitlab.io^
 ||ledger.limited^
 ||ledgerapp.created.app^
@@ -4821,6 +4866,7 @@
 ||ledgersso.created.app^
 ||leesaushoah.net^
 ||legamee.jp^
+||legder.*.us.com^
 ||legder.at^
 ||legderhealth.com^
 ||legiswoollen.shop^
@@ -4892,6 +4938,7 @@
 ||linemail.work^
 ||lines.fxmwjjeusmulsjf.com^
 ||lines.hdaprocqxmthax.com^
+||linesys.jp^
 ||linetv.tw/public/scripts/ads.js$~third-party
 ||linez7820.com^
 ||linguette.net^
@@ -4996,6 +5043,7 @@
 ||lot.luck-fortune.com^
 ||loto-4x.com^
 ||loto-chance.com^
+||loto-lab0.com^
 ||loto7-diamond-club.com^
 ||lotochance-vip.com^
 ||lotochance.hp.peraichi.com^
@@ -5051,6 +5099,7 @@
 ||lubuntu.net^
 ||lucksignpost0804.org^
 ||luckvote.top^
+||lucky-garden.net^
 ||lucky-gift-ph24new.online^
 ||lucky-letter.com^
 ||lucky-star8.com^
@@ -5059,6 +5108,7 @@
 ||luckypapa.xyz^
 ||luckypatcher.*^$domain=~luckypatchers.com
 ||luckypatcherwin.com^$domain=~luckypatchers.com
+||luckys-garden.com^
 ||luckywinner-web1.com^
 ||luluvid.com/js/new100.js
 ||lum-i0e0r0e.com^
@@ -5100,6 +5150,7 @@
 ||m-hentai.net/JS/exoclick%20popunder.js
 ||m-i4.cn^
 ||m-k-r-5.com^
+||m-lotosystems.com^
 ||m-todesk.com.cn^
 ||m.economictimes.com/mpetat/commons/images/rbc-red.png$image
 ||m.forgee.xyz/js/jquery.countdown360.min.js$script
@@ -5249,6 +5300,7 @@
 ||matching-search.jp^
 ||matching-searchh.jp^
 ||matching364.com^
+||matchingclub.jp^
 ||matchingitv.com^
 ||matchingsite.jp^
 ||matchmix.jp^
@@ -5454,13 +5506,16 @@
 ||mirai-jc.jp^
 ||miraiah.jp^
 ||miray-k.jp^
+||mirioea.com^
 ||mirrorace.org/*.gif$image
 ||mirthconfidence.com^
 ||mirtiat.com^
+||miruau.com^
 ||mirusiru.online^
 ||mirusiru.site^
 ||misdeedtucked.shop^
 ||misstooth456central.com^
+||miteau.net^
 ||mithu02s.com^
 ||mityneedn.com^
 ||mitzibradford.z13.web.core.windows.net^
@@ -5628,6 +5683,7 @@
 ||muskusa.com^
 ||mustersvyrnwy.top^
 ||mustwork.work^
+||musubi-net.com^
 ||muvmag.com/front.js
 ||mw19c3mi5a.com^$third-party
 ||mwcvu.com^$third-party
@@ -6059,6 +6115,7 @@
 ||on-forge.com/win*/alert-en.wav
 ||on-glamour.xyz^
 ||on-li-ne.net^
+||onceinalifetimemeeting.com^
 ||onchain-debank.com^
 ||ondigitalocean.app/*/?bcda=
 ||ondigitalocean.app/*/index.php?cezp=
@@ -6180,6 +6237,7 @@
 ||otonanojikan13579.net^
 ||otonanona.jp^
 ||otonatime.net^
+||otoromachat.com^
 ||ouchoamsulrey.com^
 ||oundhertobeconsist.org^
 ||ouo.*/js/jbitly.js$script,~third-party
@@ -6291,6 +6349,7 @@
 ||pairry.jp^
 ||pairs-jp.karakuri.ai^
 ||pairseat.net^
+||pairsvip.jp^
 ||pajalusta.club/cdn-cgi/trace^$xmlhttprequest
 ||pajamasslowingregistered.com^
 ||paketda.de/detect-ab.js
@@ -6343,6 +6402,7 @@
 ||pastelism02.jpn.com^
 ||pastemytxt.com/downloadad.jpg
 ||patchedfiles.com^
+||paters.club^
 ||paticableharent.com^
 ||paulssuitswholeshop-jp.shop^
 ||pawjfavraag.com^
@@ -6448,6 +6508,7 @@
 ||phncdn.com/pics/promobanners/
 ||phnto.com^
 ||phoenixvilla.rw/wp-about/*.html^
+||phonesex-maturelady.com^
 ||phoobsoo.net^
 ||photo-gallery-picture2398.com^
 ||photonlabs.app^
@@ -6459,6 +6520,7 @@
 ||pichk.myqcloud.com^
 ||pickedsarcasm.com^
 ||picocrypt.org^
+||pictomo.net^
 ||pictunoctette.com^
 ||pie.org/v1/experiments/view
 ||pik.opendesktop.org/pik.js
@@ -6509,6 +6571,7 @@
 ||play.aetv.com/vendor/conviva-thePlatform-plugin.js$script
 ||play.funfourmob.com^
 ||play.google.com/store/apps/details?id=com.juku_para^
+||play.google.com/store/apps/details?id=com.miruau^
 ||play.google.com/store/apps/details?id=com.ola.yoitoki^
 ||play.google.com/store/apps/details?id=com.tadamailmatching.app^
 ||play.google.com/store/apps/details?id=gift.tadaapo.tadadeai&
@@ -6685,6 +6748,7 @@
 ||prissyupland.qpon^
 ||privacyguides.io^
 ||privacyharbor.net^
+||privage.club^
 ||private-hide.com^
 ||privatedates.link^
 ||privatelife.jp^
@@ -6711,6 +6775,7 @@
 ||promos.investing.com^
 ||promotionsonlineusa.com^
 ||promotkc.cc^
+||prompt-abusive.com^
 ||promptconnectcouncilman.com^
 ||property-rental-seven.vercel.app^
 ||prophecy-of-fate.com^
@@ -7268,6 +7333,7 @@
 ||schedule-job-application.com^
 ||schneesommer.de^$third-party
 ||scnv.jp^
+||scolor.jp^
 ||scopateitaliane.it^$third-party
 ||scorchin.com*?realDomain
 ||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js$domain=glasgowlive.co.uk
@@ -7355,6 +7421,7 @@
 ||sendo1.com^
 ||sendotv.shop^
 ||sendovn.shop^
+||senganri.com^
 ||senmendai.net^
 ||senshinsu.com^
 ||sentinelbotcore.co.in^
@@ -7436,6 +7503,7 @@
 ||shemalestube.com/templates/dark/ads/
 ||shemalestube.com/templates/dark/js/pop/
 ||shengsizhanchang.com^
+||shiawase-cat.com^
 ||shield.knowt.com^
 ||shieldload.neoseeker.com^
 ||shimura-china.com^
@@ -7587,10 +7655,12 @@
 ||sm-heaven.com^
 ||sm-sl.net^
 ||sm8787.com^
+||sma-lita.site^
 ||sma-talk.com^
 ||smab.jp^
 ||smahxdfxxdc.com^
 ||smallencode.me/small.js
+||smalove.com^
 ||smart-ex-jp.top^
 ||smart-redirecting.com^
 ||smart-tds.com^
@@ -7920,6 +7990,7 @@
 ||stream.cz/*/v2/vast$xmlhttprequest
 ||stream.googleapiscdn.com/admin/api/ads/
 ||stream2watch.*/sw.js$script,~third-party
+||streamcash.to/embed/ping/
 ||streameast.*/*.gif$image
 ||streamex.sh/pop.js
 ||streamfree.app/analytics.js
@@ -8131,6 +8202,7 @@
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|sibreal.org|visible.com|yousee.dk
 ||tags.tiqcdn.com/utag/aaa/main/prod/utag.js$script,domain=aaa.com
 ||tags.tiqcdn.com^$domain=nickjr.com
+||taihoumon.com^
 ||taikhoanvps.com.vn^
 ||tairdalwaly.click^
 ||taitlastwebegan.com^
@@ -8228,6 +8300,7 @@
 ||templetoons.com/api/ads/
 ||ten-lp2025.com^
 ||ten-un.com^
+||ten-zaru.com^
 ||tender9041257836.jp^
 ||tenderlybatch.com^
 ||tendermeetonline.com^
@@ -8318,6 +8391,7 @@
 ||thorswap-v2.xyz^
 ||thqgxvs.com^$third-party
 ||threeneptuneboot.com^
+||thrive-invest.jp^
 ||thrive-one.jp^
 ||throb.fun^
 ||throww.fun^
@@ -8389,6 +8463,7 @@
 ||todeskk.com^
 ||todordigital.co.uk^
 ||todyrade.com^
+||togen-utopia.com^
 ||together.com^
 ||together2night.com^
 ||tokenp0ckht.click^
@@ -8663,6 +8738,7 @@
 ||uiporn.com/ai/*$script,~third-party
 ||uiporn.com/sw.js$script,~third-party
 ||uj6y5defg.jp^
+||ukacclmza.net^
 ||ukchat.co.uk/js/popunder.js
 ||ukokjxfbdqwffmuvsd.jp^
 ||ukylcim.top^
@@ -8719,6 +8795,7 @@
 ||unki-josho.com^
 ||unki-max.com^
 ||unknowncheats.me/forum/images/*ban$image
+||unlepre.jp^
 ||unlock-the-bg2.com^
 ||unmei-kaika.com^
 ||unmei2023.com^
@@ -8768,6 +8845,7 @@
 ||uranai-like.com^
 ||uranai-su-ki.com^
 ||uranai1111.base.shop^
+||uranaikan.com^
 ||urara02032023.com^
 ||urbharat.xyz^$third-party
 ||urealath.com^
@@ -9006,6 +9084,7 @@
 ||vnpttechnology.weebly.com^
 ||vnsendotv.vip^
 ||vodafonetopup.com^
+||voice-actress.jp^
 ||voice-ourtime.*.workers.dev^
 ||voicehp.com^
 ||voicesforsocialjustice.store/hotjar.php
@@ -9519,6 +9598,7 @@
 ||xxxwebdlxxx.org^$image,domain=imgdawgknuttz.com
 ||xy-z6goo-xyz.com^
 ||xy-z6x.com^
+||xy58.jp^
 ||xyg.application-sns.com^
 ||xylentura.su^
 ||xypthe.com^
@@ -9716,9 +9796,11 @@
 ||zerodayromance.com^
 ||zeroendeapo.com^
 ||zeroglamour.com^
+||zerokoi.jp
 ||zeroupload.info^
 ||zetadeo.com^
 ||zetporn.com/*/custom_vast/$xmlhttprequest
+||zettaiau.com^
 ||zh-googlle-chrome.hl.cn^
 ||zh-tenxun.com^
 ||zh-todesk-cn.hl.cn^
@@ -17626,7 +17708,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2339
+!<<<<<放行白名单>>>>>2340
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19950,6 +20032,7 @@ vuejs.org#@##special-sponsor
 vuejs.org#@##sponsors
 warszawawpigulce.pl#@#.code-block-5, .eklama, #undermenu-block, .code-block-6
 washingtonpost.com#@#.pb-md.pt-md
+weathernews.jp#@#article > section.block:has(> div[style] > div[id^="div-gpt-ad"])
 wiki.yjsnpi.nu#@##mw-content-text div[style] a[href*="contents.fc2.com"]
 winaero.com#@#.entry-content > div > div
 winaero.com#@#.windia:not(.thank-you-adguard)
