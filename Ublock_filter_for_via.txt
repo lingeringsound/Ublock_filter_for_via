@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TirVrqp76PCKw1ltBvI4mQ
-! Title: Ublock filter for Via(2026-06-25 01:46:58)
-! Version: 20260625014658
+! Checksum: SxWFW21Y+BF4uJZp87qPeQ
+! Title: Ublock filter for Via(2026-06-25 10:26:59)
+! Version: 20260625102659
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-25 01:46:58
-! Total Count: 19941
-! Blocked Filters: 19941
+! Last modified: 2026-06-25 10:26:59
+! Total Count: 19942
+! Blocked Filters: 19942
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9780,7 +9780,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5982
+!<<<<<网站单独规则>>>>>5983
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13286,6 +13286,7 @@ myabandonware.com##[id*="myabandonware_"][id$="tf"]
 myabandonware.com##[onclick*="aff"]
 myabandonware.com##a[href*="jeroud.com"]:has(img)
 myabandonware.com##a[target="_top"]:has(img)
+myanimelist.net##.ad-sas
 myanimelist.net##.bookstore-detail-right
 myanimelist.net##.left.bookstores-recommend-plugin-aK0oopie.widget
 myanimelist.net##[class*="-malside"]
