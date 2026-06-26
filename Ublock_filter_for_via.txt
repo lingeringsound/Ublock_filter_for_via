@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: BtpMY7M3u6qppeOYAV7mDQ
-! Title: Ublock filter for Via(2026-06-26 10:28:47)
-! Version: 20260626102847
+! Checksum: FReytalzB2Zgt4/o5CjDjw
+! Title: Ublock filter for Via(2026-06-27 01:29:26)
+! Version: 20260627012926
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-26 10:28:47
-! Total Count: 20025
-! Blocked Filters: 20025
+! Last modified: 2026-06-27 01:29:26
+! Total Count: 20029
+! Blocked Filters: 20029
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9848
+!<<<<<域名规则>>>>>9849
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3022,6 +3022,7 @@
 ||familysimulatorgame.com^
 ||familysimulators.
 ||fan-page-*.surge.sh^
+||fanbox.help^
 ||fanfande.net^
 ||fanforus.com^
 ||fans.91selfie.com^$domain=91porn.com
@@ -9862,7 +9863,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5983
+!<<<<<网站单独规则>>>>>5984
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12341,6 +12342,7 @@ hentaiworld.tv##.swiper-slide-visible:has(> a[target="_blank"])
 hentaiworld.tv##a[href^="https://hotplay-games.life/"]
 hentaiworld.tv##article > .entry-content.clear > div[style]
 hentaiworld.tv##article > .entry-content.clear > p
+hianime.ms###pi-step-ad
 hianime.to##[href="https://1flix.to/"]
 hieunguyenphoto.com###detect-adblock-zone
 highporn.net##.in-video-1
@@ -15848,7 +15850,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1506
+!<<<<<通配符规则>>>>>1508
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16152,6 +16154,7 @@ $script,domain=zdnet.fr,third-party
 .com/2?z=$script,third-party
 .com/SecurityPlugin.zip
 .com/add.php^$xmlhttprequest,third-party
+.com/af?o=
 .com/afu.php?zoneid=
 .com/api/users*^in=false&pii=
 .com/api/users*^in=false&token=
@@ -16261,6 +16264,7 @@ $script,domain=zdnet.fr,third-party
 .monster/?t=
 .net/1?z=$script,third-party
 .net/2?z=$script,third-party
+.net/?fl=m9&m=
 .net/?h=*&user=$script,third-party
 .netline.com%2Fltr1%2F$image
 .netline.com/ltr1/$image
@@ -19915,7 +19919,7 @@ meijer.com#@#.product-grid__product:has(.product-tile__sponsored)
 mmiyue.com#@#.google-ad:not(.testAd)
 money.pl#@##app > div[class^="sc-"] > div[class]:not([class*=" "]):has(:scope > div[class*=" "]:only-child > img[src^="https://v.wpimg.pl/"][src$="=="][alt])
 motherless.com#@#.media-linked
-motherless.com#@#iframe[style]
+motherless.com,motherless.xxx#@#iframe[style]
 msn.com#@#.intra-article-module
 music.amazon.*#@##overlay:has([href*="privacyprefs/"])
 musmus.main.jp,streetinsider.com#@##ad_space:not([style^="position: absolute; left: -5000px"])
