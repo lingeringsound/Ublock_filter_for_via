@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hDefu5QlBSK9se67phONRg
-! Title: Ublock filter for Via(2026-06-27 21:49:59)
-! Version: 20260627214959
+! Checksum: BCP7rwcuIOS1VHq70zgOBA
+! Title: Ublock filter for Via(2026-06-28 00:57:29)
+! Version: 20260628005729
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-27 21:49:59
-! Total Count: 20035
-! Blocked Filters: 20035
+! Last modified: 2026-06-28 00:57:29
+! Total Count: 20038
+! Blocked Filters: 20038
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9854
+!<<<<<域名规则>>>>>9856
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3739,6 +3739,7 @@
 ||great12.org^
 ||greedseed.world/vpaid/YtVpaid.php
 ||greekfun.net/assets/js/adblock-warning.js
+||greekfun.net/assets/js/managed-ads.js
 ||greenadblocker.com^
 ||greengoplatform.com^
 ||greenshot.fr^
@@ -4336,6 +4337,7 @@
 ||investing.com/gcode/
 ||investxai.pro^
 ||invisioncic.com/*.gif$image,domain=rmweb.co.uk
+||invite-track.click^
 ||invites-tracker-app.com^
 ||invoice-guide.com^
 ||inzerille.com^
@@ -9868,7 +9870,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5987
+!<<<<<网站单独规则>>>>>5988
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13301,6 +13303,7 @@ moovitapp.com##mv-ad-blocker-recovery
 moozpussy.com,zoompussy.com##[href^="/go/desire"]
 mopo.de##.dm_ta300x300_html
 more.tv##[class^=Banner_]
+morencius.com##body > div[style="position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01;height:437px;width:824px;cursor:pointer;"]
 moretvtime.*##.sc-banner
 motorantik.store,teknomuda.com##*:has(#wpsafe-wait1):not(:has(#wpsafe-snp))
 motoroids.com##div.AM_SINGLE_STORY_BETWEEN_CONTENT_SECOND_PARAGRAPH_RESPONSIVE
