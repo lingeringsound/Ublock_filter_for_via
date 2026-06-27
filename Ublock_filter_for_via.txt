@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: kdTp46JIcREneQ0HVCsv1A
-! Title: Ublock filter for Via(2026-06-27 10:13:23)
-! Version: 20260627101323
+! Checksum: hDefu5QlBSK9se67phONRg
+! Title: Ublock filter for Via(2026-06-27 21:49:59)
+! Version: 20260627214959
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-27 10:13:23
-! Total Count: 20032
-! Blocked Filters: 20032
+! Last modified: 2026-06-27 21:49:59
+! Total Count: 20035
+! Blocked Filters: 20035
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9850
+!<<<<<域名规则>>>>>9854
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3738,6 +3738,7 @@
 ||gre.green-g-r-ee-n.com^
 ||great12.org^
 ||greedseed.world/vpaid/YtVpaid.php
+||greekfun.net/assets/js/adblock-warning.js
 ||greenadblocker.com^
 ||greengoplatform.com^
 ||greenshot.fr^
@@ -7956,6 +7957,7 @@
 ||stellarium.es^
 ||stellarium.fr^
 ||stemcommunty.com^
+||stemsbargain.com^
 ||stereosfeet.com^
 ||stern.de/__assets/homad
 ||stewportfoliomeaning.com^
@@ -8440,6 +8442,7 @@
 ||tlauncher.ru^
 ||tm.jsuol.com.br/modules/external/admanager/noticias_ads.js$script,domain=uol.com.br
 ||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br|portugues.com.br
+||tm.jsuol.com.br^
 ||tmearn.com/*sw.js$script,~third-party
 ||tmh.io/wp-content/KU.png
 ||tmohentai.com/*.php
@@ -8622,6 +8625,7 @@
 ||tritondigital.com^$domain=accuradio.com
 ||trkabfbmedia.eu^
 ||trochiaz.top^
+||trolleyincreasingly.com^
 ||tron-free.com/banner/$image,~third-party
 ||tronexcheats.space^
 ||tronilnk.com^
@@ -9864,7 +9868,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5986
+!<<<<<网站单独规则>>>>>5987
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10198,7 +10202,7 @@ adhs-zentrum.de,bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,h
 adinsurance.xyz,insurglobal.xyz,prepostseo.com,work.ink##div[id^="bsa-zone_"]
 adshnk.com##a.item[href^="https://plarium.com/"]
 adshnk.com,mixrootmod.com##.custom-modal
-adshort.*##A[href$=".html"][rel="nofollow norefferer noopener"]
+adshort.*##a[href$=".html"][rel="nofollow norefferer noopener"]
 adshort.*,adsrt.*##[id*="frme"]
 adsrt.*##div[id^="SC_TBlock"]
 adtival.network##.z-0.overflow-hidden.relative.w-full.rounded-lg.to-primary-800.from-primary-500.bg-gradient-to-r.p-8.min-h-\[189px\]
@@ -11972,7 +11976,7 @@ fztvseries.ng##div[class="code-block code-block-6"][style="margin: 8px 0; clear:
 g-porno.com,g-streaming.com##.popup-overlay
 g-status.com##.topadv_placeholder
 g3g.*##.text-center.alert-danger.alert-dismissible.alert
-g5u.pw##A[href$=".html"][rel="nofollow norefferer noopener"]
+g5u.pw##a[href$=".html"][rel="nofollow norefferer noopener"]
 gadgetguideonline.com,volksliederarchiv.de##.ai-track
 gadgets.ndtv.com###ndtv-message-userss
 gainbtc.click##._hide
@@ -12346,6 +12350,7 @@ hentaiworld.tv##a[href^="https://hotplay-games.life/"]
 hentaiworld.tv##article > .entry-content.clear > div[style]
 hentaiworld.tv##article > .entry-content.clear > p
 hianime.ms###pi-step-ad
+hianime.ms##.pi-ads
 hianime.to##[href="https://1flix.to/"]
 hieunguyenphoto.com###detect-adblock-zone
 highporn.net##.in-video-1
@@ -13859,7 +13864,7 @@ plotaroute.com###RightPanelAds
 plutomovies.com##a[href][onclick^="window.open"]
 plutomovies.com##a[href^="https://go.wapdg.com/"]
 pnd.*##.banner-captcha
-pnd.*##A[href$=".html"][rel="nofollow norefferer noopener"]
+pnd.*##a[href$=".html"][rel="nofollow norefferer noopener"]
 pobre.*###bannerOverLay
 pobre.*###messageModal
 pobre.*##.generalModal
@@ -15311,7 +15316,7 @@ videzz.net##.asg-vjs-overlay
 videzz.net##.prevent-first-click
 vidfast.pro###Advert1
 vidlink.org##[target="_blank"]
-vidlox.*##A[href$=".html"][rel="nofollow norefferer noopener"]
+vidlox.*##a[href$=".html"][rel="nofollow norefferer noopener"]
 vidmoly.*###adsblock
 vidmoly.*###dos_vlock
 vidmoly.*###mg_vd
@@ -15616,59 +15621,59 @@ wuxia.click##.mantine-Center-root + br + div[class^="mantine-"]:has(> .adsbygoog
 wuxia.click##.mantine-Container-root + .mantine-Container-root + br + br + div[class^="mantine-"]:last-of-type:has([alt~="Ad"])
 wvt.free.nf##.tracking-btn
 wvv-fmovies.com##.movie-detail-banner > div[style*="z-index"]
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) .ar-1-1.bg-gray-l[style*="width"]:has(a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > :not(aside[class="mt-md cac"][role="complementary"]) + section[class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(> img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > [class]:not(.wrapper-safe) .Downloads-Alternative:has(a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:first-child .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(> img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:first-child:has(> h3:first-child + .Downloads-Alternative:last-child a img)
-www.chip.de###CR[class="Downloads-Detail"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > :not([class="wrapper-safe"] + .wrapper-safe.ft-alts) .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > :not([class="wrapper-safe"]) + [class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe mt-md ft-alts"]:first-child:has(.Downloads-Alternative a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > div[class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"]:has(table img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Getfile"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > :not([class="WidgetOutbrainFocus wrapper-safe mt-md is-loaded Focus ft-focus-ob"]) + [class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > :not(section[class^="WidgetOutbrainFocus wrapper-safe mt-"][class$="is-loaded Focus ft-focus-ob"] + [class="wrapper-safe mt-lg ft-alts"]) .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe mt-md ft-alts"]:first-child:has(.Downloads-Alternative a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > .mt-md > section [class]:has(> div > ul.is-separated a img[src^="data:image"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="Downloads-Select"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > div:not([class], [id]) > section > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-lg"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-xl"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-charts"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-listing"]  > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-listing"]  > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-md"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
-www.chip.de###CR[class="download-listing"] > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) .ar-1-1.bg-gray-l[style*="width"]:has(a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > :not(aside[class="mt-md cac"][role="complementary"]) + section[class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(> img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > *:has(img[src*="https://im.chip.de/ii/"]):not(section[class="mt-md"]:has(> h3:first-child + table:last-child))
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"] > h3 + table:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > [class]:not(.wrapper-safe) .Downloads-Alternative:has(a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class] > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class] [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> [class] > [class="ar-1-1 bg-gray-l"] > a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > div[class]:has(> div[class][style="min-height: 250px;"] > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:first-child .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(> img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:first-child:has(> h3:first-child + .Downloads-Alternative:last-child a img)
+www.chip.de###cr[class="Downloads-Detail"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > *:not(section[class="wrapper-safe mt-md ft-alts"]) a[href^="https://www.chip.de/downloads/"][title]:has(img[src*="https://im.chip.de/ii/"][alt][width][data-was-processed])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > :not([class="wrapper-safe"] + .wrapper-safe.ft-alts) .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > :not([class="wrapper-safe"]) + [class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe mt-md ft-alts"]:first-child:has(.Downloads-Alternative a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > div[class="wrapper-safe"] > [class="fb mt-xl"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > section[class="mt-md"]:has(table img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Getfile"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > :not([class="WidgetOutbrainFocus wrapper-safe mt-md is-loaded Focus ft-focus-ob"]) + [class="wrapper-safe mt-md ft-alts"] .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > :not(section[class^="WidgetOutbrainFocus wrapper-safe mt-"][class$="is-loaded Focus ft-focus-ob"] + [class="wrapper-safe mt-lg ft-alts"]) .Downloads-Alternative a[href*="https://www.chip.de/downloads/"]:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe mt-md ft-alts"]:first-child:has(.Downloads-Alternative a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > .mt-md > section [class]:has(> div > ul.is-separated a img[src^="data:image"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-lg"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > [class="fb-col-lg-4 is-hidden-sm is-hidden-md"] > [class]:has(img[src*="https://im.chip.de/ii/"] + div > span[style^="width: "])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class="fb mt-md"] > section > div[class]:has(> div:only-child > ul.is-separated a img)
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > [class="wrapper-safe"] > [class^="fb mt-"] > section[class="fb-col-12 fb-col-lg-8"] > [class]:not(.ButtonAuswahl):has(> a[href^="https://www.chip.de/downloads/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"]:has(> a[title^="Zum Download: "] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > div:not([class="wrapper-safe"]) [class="ar-1-1 bg-gray-l"][style]:has(a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > .bg-gray-l a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="Downloads-Select"] > #G32 > #M1 > section[class="wrapper-safe mt-md ft-alts"]:has(> div[class] > div:not([class], [id]) > section > [class="ar-1-1 bg-gray-l"] > a[href*="https://www.chip.de/downloads/"] > img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-lg"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-charts"] > #G32 > #M1 > .bg-white > [class="wrapper-safe mt-xl"] > .fb > aside[class="fb-col-md-4 fb-col-lg-4"] > *:has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-charts"] > #G32 > #M1 > div:not([class], [id]):has(> [class] > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-listing"]  > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-listing"]  > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-md"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-listing"] > #G32 > #M1 > [class="wrapper-safe mt-sm"] > .fb > .mt-md:not(.ft-charts-main):has(img[src*="https://im.chip.de/ii/"])
+www.chip.de###cr[class="download-listing"] > #G32 > #M1 > div:not([class], [id]):has(> div > section > ul.is-separated a img[src*="https://im.chip.de/ii/"])
 www.deeplol.gg###desktop-takeover
 www.deeplol.gg###summoner_content_box div[class^="sc-"]:not(.bigTooltip, .diamond, [class*="flex"], [class*="master"], [class*="wrapper"], [id], [disabled], [style], [height], [width], [size]):has(> a[id^="add_to_Banner"])
 www.deeplol.gg##a[id^="add_to_Banner"]
@@ -15853,7 +15858,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1508
+!<<<<<通配符规则>>>>>1509
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16431,6 +16436,7 @@ $script,domain=zdnet.fr,third-party
 /ads/*$domain=guessthemovie.name|guessthephrase.xyz
 /ads/creative/*
 /adsensebase.js$script
+/adspop.js
 /adus.js|$script,domain=metrolagu.cam|poop.*
 /advertisement/video/static/advantage.xml^$xmlhttprequest
 /advertising/ad-shield.js$script
@@ -17364,10 +17370,8 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>348
+!<<<<<通用Css规则>>>>>345
 ###TapatalkFooterDesktopAds
-###__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
-###__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
 ###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -17597,7 +17601,6 @@ voz.vn/b/image.gif?p=$image
 ##a[dontfo=""][style$="position: absolute; z-index: 2147483647;"]
 ##a[href*=".click/?z="][href*="&n"]
 ##a[href*="/go.php?a_aid="]
-##a[href="#"][title^="Scroll "] + div[id][class*=" "]
 ##a[href^="http://www.poweredbyliquidfire.mobi/"]
 ##a[href^="https://go.awdeliverynet.com/"]
 ##a[href^="https://syndication.exdynsrv.com/splash.php"]
