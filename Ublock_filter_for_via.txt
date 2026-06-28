@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: o/7riiln9E6S2htFPO9t9Q
-! Title: Ublock filter for Via(2026-06-28 10:34:35)
-! Version: 20260628103435
+! Checksum: eKb+bwCZdGIpVtkl3sspSw
+! Title: Ublock filter for Via(2026-06-29 00:58:26)
+! Version: 20260629005826
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-28 10:34:35
-! Total Count: 20039
-! Blocked Filters: 20039
+! Last modified: 2026-06-29 00:58:26
+! Total Count: 20059
+! Blocked Filters: 20059
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9856
+!<<<<<域名规则>>>>>9861
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -855,6 +855,7 @@
 ||askme4date.com^
 ||askozvar.sk/*/amendesgouv/
 ||asliceza.org^
+||asset-cdn.dev^
 ||asset.kompas.com/data/*/kgmedia/js/*notif$script
 ||assetmalnutrition.com^
 ||assets.adobedtm.com/*source.min.js$script,domain=accounts.o2.co.uk
@@ -3241,6 +3242,7 @@
 ||flusteredexam.com^
 ||fly.storage.tigris.dev/completing/default-page.html?X-Amz-Algorithm=
 ||fly.storage.tigris.dev/pass-this-security-check.html?X-Amz-Algorithm=
+||flybfree.ca/AdBlockDetect.js
 ||flymylife.info^
 ||flyshare.cfd^
 ||fmovies.co/sw.js
@@ -3317,6 +3319,7 @@
 ||freefiles-upload.com^
 ||freefilesync.com^
 ||freehardcore.com/player/html.php^
+||freemusiclessons4u.com/AdBlockDetect.js
 ||freepopnews.skin/advert
 ||freeporn.works/seven.aspx?
 ||freepornvideo.name/js/JTJIV6szTz6sdA4.js
@@ -4663,6 +4666,7 @@
 ||kind-lecture.com^
 ||king-sweepstakes.com^
 ||kingered-banctours.com^
+||kingmahali.xyz/js/adBlockDetect.js
 ||kinhako-m02.com^
 ||kinkbook.com/ad_media/
 ||kinkyu-desuku-27.com^
@@ -5704,6 +5708,7 @@
 ||my7love.xyz^
 ||myanalytic.net^$third-party
 ||myanimelist.net/ma/s
+||myanimelist.net/ux/
 ||myapiplay.top^
 ||mybach.xyz^
 ||mybestclick.net^$third-party
@@ -9870,7 +9875,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5989
+!<<<<<网站单独规则>>>>>6004
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11219,6 +11224,8 @@ dbsmanga.com,demonslayermanga.com,read7deadlysins.com,readdrstone.com,readfairyt
 dbsmanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.js-a-container
 dcode.fr,hindustantimes.com##div[id^="div-gpt-ad"]
 deadline.com##.ad-label
+decompiler.com###adblockWarning
+decompiler.com##body > div.container:has(#banner)
 deepfakeporn.net##.highlight ~ li > a[target="_blank"]
 deine-tierwelt.de##.header-leaderboard
 deine-tierwelt.de##.js-sticky-ad
@@ -12000,9 +12007,15 @@ gamcore.com##.wide.alphadelta_block
 gamcore.com##li.d-md-block
 gamcore.com,69games.xxx##[href*="/ads/"]
 game-repack.site##div > center > button[class][style][data-bound="true"]
+game-repack.site,koramaup.com,worldofpcgames.com,zpaste.net##div > center > button[class][style]
 game3rb.com###post-footer:has([href*="vpnatlas.com"])
 game3rb.com##[href^="http://pityhostngco2.xyz/"]
 gamearter.com##div[id^="ga_sp_"]
+gamedrive.*##.code-block a[href][target="_blank"] > img[data-recalc-dims]
+gamedrive.*##.hbo-banner
+gamedrive.*##.netflix-banner
+gamedrive.*##[id^="gridlove-module-"] > .gridlove-text-module-content > div:is(:has([data-format]), [onclick*='window.open'])
+gamedrive.*##a[href][target="_blank"][rel="noopener noreferrer"] > img
 gamedrive.org##.code-block a[href][target="_blank"] > img[data-recalc-dims]
 gamedrive.org##.hbo-banner
 gamedrive.org##.netflix-banner
@@ -13384,6 +13397,7 @@ myabandonware.com##a[href*="jeroud.com"]:has(img)
 myabandonware.com##a[target="_top"]:has(img)
 myanimelist.net##.ad-sas
 myanimelist.net##.bookstore-detail-right
+myanimelist.net##.js-scrollfix-bottom-rel.rightside > div[style]:has(.ad-sas)
 myanimelist.net##.left.bookstores-recommend-plugin-aK0oopie.widget
 myanimelist.net##[class*="-malside"]
 myanimelist.net##[class*="-pdatla"]
@@ -14066,6 +14080,9 @@ povaddict.com##.adv-square
 pradjadj.com##.ABD_display
 pradjadj.com##[href="/advertise"]
 praxistipps.chip.de##div[data-bc-data-trackvars]
+premierguitar.com##.home-ad-block
+premierguitar.com##.topbarplaceholder
+premierguitar.com##div#scomponentAdDiv_0_0_28_0_0_0_2_0
 premium-unlock.rajababucox.workers.dev###action-btn
 prepostseo.com###above_button_ad
 prepostseo.com###after_button_ad_desktop_2
@@ -15591,6 +15608,8 @@ work.ink##body > div:has(> a#link)
 world-sms.org##.promoBlock
 worldcupstream.pm##.m-1.fw-bold.btn-danger.btn 
 worldlivetv.stream##.link_overlay
+worldofpcgames.com##[href*="cfd"]
+worldofpcgames.com##[href][target="_blank"][style*="cursor: pointer;"]
 worldpopulationreview.com##.video-container
 worldsex.com###video_banner
 worldsex.com##div.da-by
@@ -15853,6 +15872,7 @@ zone-telechargement.*##a[href^="https://dl-protect.link/"] img
 zone-telechargement.*,wawacity.*##a[href^="https://dl-protect.link/req-direct-url"]
 zovo2.top##[href*="javascript:void"] > button
 zpaste.net##a[onclick*="window.open"]
+zpaste.net##center > center > button[class][style]
 zpaste.net,pixeldrain.com###sponsors
 zplayer.live##.user
 zshort.*###showContainer,.textfk
