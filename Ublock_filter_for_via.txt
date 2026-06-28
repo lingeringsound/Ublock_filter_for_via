@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BCP7rwcuIOS1VHq70zgOBA
-! Title: Ublock filter for Via(2026-06-28 00:57:29)
-! Version: 20260628005729
+! Checksum: o/7riiln9E6S2htFPO9t9Q
+! Title: Ublock filter for Via(2026-06-28 10:34:35)
+! Version: 20260628103435
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-28 00:57:29
-! Total Count: 20038
-! Blocked Filters: 20038
+! Last modified: 2026-06-28 10:34:35
+! Total Count: 20039
+! Blocked Filters: 20039
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9870,7 +9870,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>5988
+!<<<<<网站单独规则>>>>>5989
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11999,6 +11999,7 @@ gamcore.com##.side_flashes
 gamcore.com##.wide.alphadelta_block
 gamcore.com##li.d-md-block
 gamcore.com,69games.xxx##[href*="/ads/"]
+game-repack.site##div > center > button[class][style][data-bound="true"]
 game3rb.com###post-footer:has([href*="vpnatlas.com"])
 game3rb.com##[href^="http://pityhostngco2.xyz/"]
 gamearter.com##div[id^="ga_sp_"]
