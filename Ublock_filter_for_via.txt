@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: nD+0+BOSkvfBH8zfMnjauw
-! Title: Ublock filter for Via(2026-06-30 14:02:18)
-! Version: 20260630140218
+! Checksum: mIvpSHqsJw4/NpII05qqqg
+! Title: Ublock filter for Via(2026-07-01 01:46:20)
+! Version: 20260701014620
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-30 14:02:18
-! Total Count: 20074
-! Blocked Filters: 20074
+! Last modified: 2026-07-01 01:46:20
+! Total Count: 20078
+! Blocked Filters: 20078
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9867
+!<<<<<域名规则>>>>>9868
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5399,6 +5399,7 @@
 ||meetpie.net^
 ||meetshorny.link^
 ||meetsworldsm.link^
+||meetu.usd1.party^
 ||megadrive.solutions^
 ||megadropclaim.com^
 ||megatube.xxx/atrm/*$script,~third-party
@@ -9881,7 +9882,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6008
+!<<<<<网站单独规则>>>>>6011
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10753,6 +10754,7 @@ bloggingaro.com,clevercracks.com,cracka2zsoft.com,crackhub.org,crackkits.com,cra
 bloggingdaze.com##.locked-action-link
 bloggingguidance.com,dubznetwork.com,eegybest.xyz,go4kora.com,m4news.com,mcrypto.club###id-custom_banner
 blograffo.net##[href^="https://amzn.to/"]
+blogspot.com###sticky-bottom-widget
 blogspot.com##.my-responsive-banner-container
 blogspot.com##.widget.HTML > .widget-content > #floating-footer.floating-footer
 blogspot.com##.widget.HTML > .widget-content > .my-responsive-banner-container
@@ -12490,7 +12492,7 @@ hubu.cloud##.mn
 huffpost.com,huffingtonpost.jp##.advertisement-holder
 hulldailymail.co.uk##.react-loading-skeleton
 hulldailymail.co.uk##div[class^="sc-"]:has(> span[aria-live="polite"] > .react-loading-skeleton)
-hulldailymail.co.uk##div[data-testid^="commercial-"]
+hulldailymail.co.uk,mylondon.news##div[data-testid^="commercial-"]
 hulu.com###banner-ad-container
 hulu.com##.ad-choices
 hunter.fm##.pwby_hiper
@@ -13031,6 +13033,7 @@ lofi-nopixel.com##.font-semibold.hover\:underline.text-primary.cursor-pointer.gr
 lofi-nopixel.com##.nitro-ad-container
 logikfx.com##.wix-blog-print-in-full-width[data-testid="mesh-container-content"] > div[class^="_"] > div[style="padding-left: 30px;"]
 logikfx.com##div[style="width:740px"]
+lokerwfh.net,sfl.gl##.z-0.overflow-hidden.relative.w-full.rounded-lg.to-\[\#0948EA\].from-\[\#5597FF\].bg-gradient-to-r.p-8.min-h-\[189px\]
 longporn.xyz##[href="http://toplivesexcams.net"]
 lookcam.*##div.prefix-adlabel
 lookmovie.*###single.dtsingle > .content > .sheader > .poster > .extra > center > a[href] > img
@@ -13447,6 +13450,7 @@ mylink.*,my1ink.*,myl1nk.*,myli3k.*##html > iframe
 mylinkconverter.com##a[href^="https://go.nordvpn.net/aff"] > img
 mylivesignature.com##.topadscontainer
 mylivewallpapers.com##.group.posts > div.post
+mylondon.news##div[class^="Header_mastheadwebstrip-container"]
 mylust.com###main_video_fluid_html_on_pause
 mylust.com###wrapper > div[style*="height:18px"]
 mylust.com##.list_videos_ad
