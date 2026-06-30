@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MWUjcqeTgsBWP54ydyTEVw
-! Title: Ublock filter for Via(2026-06-30 10:29:13)
-! Version: 20260630102913
+! Checksum: nD+0+BOSkvfBH8zfMnjauw
+! Title: Ublock filter for Via(2026-06-30 14:02:18)
+! Version: 20260630140218
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-30 10:29:13
-! Total Count: 20068
-! Blocked Filters: 20068
+! Last modified: 2026-06-30 14:02:18
+! Total Count: 20074
+! Blocked Filters: 20074
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9865
+!<<<<<域名规则>>>>>9867
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3792,6 +3792,7 @@
 ||guj.jp^
 ||gumeminlogi.webflow.io^
 ||gupload.xyz/data/head/script.php^
+||gupload.xyz/data/player/adblock-detector
 ||gupload.xyz/data/player/adblock-detector.js^
 ||gurusmac.org^
 ||guw.jp^
@@ -3805,6 +3806,7 @@
 ||gyonlineng.com/sw.js$xmlhttprequest,~third-party
 ||gz-gmy.com^
 ||gz-plsl.web.app^
+||gzupload.com/api/direct/
 ||h-cdn.com/loader.js$script,domain=camwhores.tv
 ||h-flash.com/data/image/mcs/*.gif$image,~third-party
 ||h-flash.com/data/image/mcs/chat*$image,~third-party
@@ -9879,7 +9881,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6006
+!<<<<<网站单独规则>>>>>6008
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12230,6 +12232,7 @@ gulfnews.com##div[id*="-ad"]
 gulfnews.com##div[id^="div-gulfnews_sections_article_"]
 gumtree.com.au###leaderboard-header-banner
 gun-otaku.blogspot.com,shuajota.com###HTML16
+gupload.xyz##div[class^="custom-popup-overlay-"]
 h-flash.com###topzone
 h-flash.com##[href^="https://chaturbate.com/in/"]
 h-flash.com##[href^="https://t.aagm.link/"]
@@ -14127,6 +14130,7 @@ proviralhost.com##.inst > div.text-left
 proxer.me###stream_message_overlay
 proxybit.*##[id*="banner"]
 proxyserverlist24.top###HTML1, #HTML5, .Feed.widget, [href^="http://www.linkev.com/"], [href^="https://brave.com/"]
+prydwen.gg##div.custom-banner-header
 psprices.com##[href*=".smartadserver.com"]
 pstream.*##.bg-buttons-purple:has(> button[aria-label="Dismiss ad"])
 pstream.*##img[alt="ad banner"]
@@ -15888,7 +15892,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1511
+!<<<<<通配符规则>>>>>1512
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16514,6 +16518,7 @@ $script,domain=zdnet.fr,third-party
 /api/spots/*&kw=$xmlhttprequest
 /api/spots/*^fill=$xmlhttprequest
 /api/track$xmlhttprequest,~third-party,domain=filecrypt.cc|filecrypt.co
+/api/tracking-codes?type=ads_$xmlhttprequest,domain=oxxfile.*
 /api/trpc/event.tracking|$xmlhttprequest
 /api/users/*&ev=$script
 /api/users/*^fill=$xmlhttprequest
@@ -17402,7 +17407,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>346
+!<<<<<通用Css规则>>>>>347
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -17454,6 +17459,7 @@ voz.vn/b/image.gif?p=$image
 ###main-content a[href^="https://hub.buzzaffiliates.com/"]
 ###micast_ads
 ###midadd:not(:empty)
+###modern-player-root ~ div[id^="custom-invisible-overlay-"][class^="custom-popup-overlay-"]
 ###placeAds
 ###player div[style$="cursor: pointer; position: absolute; width: 100%; height: 100%; padding: 1rem; z-index: 2147483647;"]
 ###playerOverlay[style="position:absolute; z-index:3"]
