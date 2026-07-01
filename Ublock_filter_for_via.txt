@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: WQFoJbC0+TY6dvmWDbqQHA
-! Title: Ublock filter for Via(2026-07-01 10:35:29)
-! Version: 20260701103530
+! Checksum: 1goi6jL7ILyAQy4U+UKwzg
+! Title: Ublock filter for Via(2026-07-02 01:46:02)
+! Version: 20260702014602
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-01 10:35:30
-! Total Count: 20078
-! Blocked Filters: 20078
+! Last modified: 2026-07-02 01:46:02
+! Total Count: 20081
+! Blocked Filters: 20081
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9868
+!<<<<<域名规则>>>>>9870
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -271,6 +271,7 @@
 ||activexsportswear.com^
 ||activistpost.com^$script,~third-party
 ||acttas.com^
+||ad-blocker-*.workers.dev^
 ||ad-doge.com^$third-party
 ||ad-ipd.sxp.smartclip.net/select?type=vast$xmlhttprequest,domain=toggo.de
 ||ad-shield.cc^
@@ -5481,6 +5482,7 @@
 ||microchromejapan.b-cdn.net^
 ||microsoft*.dfautomotive.de^
 ||microsoft-notifcation.com^
+||microsoft-update.support^
 ||microsoft-verify.glitch.me^
 ||microsoft.account.dfautomotive.de^
 ||microsoft.dfautomotive.de^
@@ -9882,7 +9884,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6011
+!<<<<<网站单独规则>>>>>6012
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -12254,6 +12256,7 @@ haho.moe##[href^="//"][style*="position: fixed;"]
 haho.moe##div:has(> div[title="Click to Close the Ad"])
 hamakei.com###topBnr, #recBanner, .partner
 hancinema.net##.ad_300x600_300x250
+hanime.tv##.banner-ad
 hanime.tv##.htvad[style^="width: 300px; display: block"]
 hanime.tv##.htvnad
 hanime.tv##.htvnad1
