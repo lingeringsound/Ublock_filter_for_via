@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Y22yXdBavmCSBRTKlclikw
-! Title: Ublock filter for Via(2026-07-15 09:24:25)
-! Version: 20260715092425
+! Checksum: 8a7a5wN9YjT9Bej2X0xX4g
+! Title: Ublock filter for Via(2026-07-16 01:05:22)
+! Version: 20260716010522
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-15 09:24:25
-! Total Count: 20153
-! Blocked Filters: 20153
+! Last modified: 2026-07-16 01:05:22
+! Total Count: 20160
+! Blocked Filters: 20160
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9901
+!<<<<<域名规则>>>>>9904
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1953,6 +1953,7 @@
 ||colorfulromance.com^
 ||colorone.jp^
 ||colossal-extension.com^
+||com-softwares.com^
 ||com/$ipaddress=/^(172\.240\.(108\.(68|76|84)|127\.234|253\.132)|185\.246\.188\.125|192\.243\.(59\.(1[23]|20)|61.22[57]))$/
 ||com/*.js|$script,third-party,domain=pornhoarder.tv|pornhoarder.tw
 ||com/*/ModalEngage|$script,third-party
@@ -4885,6 +4886,7 @@
 ||lebigdata.fr/wp-content/uploads/*/cote.png$image
 ||lectureolympics.com^
 ||ledger-apparaat.com^
+||ledger-live*-*.io^
 ||ledger-lives-desktop.io^
 ||ledger-wallet.gitlab.io^
 ||ledger.limited^
@@ -4892,6 +4894,7 @@
 ||ledgercom.m-teach.com^
 ||ledgerr.us^
 ||ledgersso.created.app^
+||ledgertp.com^
 ||leesaushoah.net^
 ||legamee.jp^
 ||legder.*.us.com^
@@ -9915,7 +9918,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6032
+!<<<<<网站单独规则>>>>>6033
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11199,6 +11202,7 @@ crictracker.com##div[id^="div-ad-desk-"]
 crictracker.com##div[id^="div-ad-gpt-"]
 criptologico.com##[href^="https://dobywale.xyz"]
 criptologico.com##[src^="blob"]
+crm.urlwebsite.com,go.fakta.id,datapendidikan.com,app.cekresi.me,tempatwisata.pro##p, li, ul, td, tr, .lazyload, [id^="h_"], #teaser2
 crockotube.com##div[class*="vision"]
 crockotube.com##div[class^="vis-"]
 crunchyroll.com###template_skin_leaderboard
@@ -14847,6 +14851,7 @@ streamcash.to##.media-slot-bottom
 streamcash.to##a[href^="https://jerknut.com"]
 streamcash.to##div.banner-zone
 streamcash.to##div[id]:has(button[onclick*="location.reload()"])
+streamcash.to,theswagsports.com##a[rel*="sponsored"]
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"] img
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"]:has(img) + button.ring-offset-background
 streamfare.com##[id^="wb_AdText"]
@@ -15049,7 +15054,6 @@ thesquarshers.com##a:has(img[src*="/Banner"])
 thestar.com##.main-sidebar:has(> #sticky-side-secondary-spacer)
 thestar.com##.viafoura-engagement-starter
 theswagsports.com##.colombiaoneinvalid
-theswagsports.com##a[rel*="sponsored"]
 thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 thetimes.co.uk##[class*="responsive__NativeAd"]
 thetimes.com##.channel-header-ad
@@ -15950,7 +15954,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1523
+!<<<<<通配符规则>>>>>1524
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -16608,6 +16612,7 @@ $script,domain=zdnet.fr,third-party
 /assets/jquery/main100.js?v=$script,~third-party
 /assets/jquery/p2anime.js?v=
 /assets/jquery/static.js?type=mainstream^$script,~third-party
+/assets/js/anti-adblock.js|$script,~third-party
 /assets/js/anti-adblock.js|$script,~third-party,strict1p
 /assets/jwplayer-*/vast.js$script,~third-party
 /axad/?lpkey=
@@ -17833,7 +17838,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2343
+!<<<<<放行白名单>>>>>2345
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -17905,6 +17910,9 @@ voz.vn/b/image.gif?p=$image
 #@#div[id^="div-gpt-"]
 1cloudfile.com#@#.advert-wrapper
 1cloudfile.com,a-z-animals.com,abczdrowie.pl,adcrypto.net,addictinggames.com,admediaflex.com,aduzz.com,adyou.me,aman-dn.blogspot.com,app.involve.asia,autocentrum.pl,autokult.pl,backcar.fr,benchmark.pl,bild.de,bitcrypto.info,brewerfanatic.com,calgarysun.com,call2friends.com,canoe.com,cdrab.com,colonist.io,corsaires-paris.com,crictracker.com,damndelicious.net,datacheap.io,deliciousmagazine.pl,delta.com,dobreprogramy.pl,dpp.org.tw,dudestream.com,edmontonsun.com,elektroda.pl,ewahlen.eu,ewybory.eu,financialpost.com,fishonfirst.com,flat-ads.com,forbes.it,fotoblogia.pl,gadzetomania.pl,genialne.pl,getcoloringpages.com,gumtree.com.au,hbz.us,hentaidude.com,hintergrundbild.org,ilsole24ore.com,indiatimes.com,infogenyus.top,instapundit.com,inverse.com,itest.5ch.net,japan-webike.*,jastrzabpost.pl,jav68.net,job.inshokuten.com,kafeteria.pl,kiaclub.cz,komorkomania.pl,kontol.in,kunststoffe.de,kurukura.jp,lamire.jp,lightnovelpub.com,mediaite.com,meetdownload.com,money.pl,nationalpost.com,netmile.co.jp,nieru.net,northsidebaseball.com,o2.pl,oasport.it,okwave.jp,oogiri-chaya.com,ottawasun.com,outletarredamento.it,owsafe.com,parenting.pl,pgportal.gov.in,pimylifeup.com,pl,plutomovies.com,polygamia.pl,pudelek.pl,pysznosci.pl,reyada.com,saboroso.blog,savego.org,sextb.*,seznam.cz,soranews24.com,sport.bild.de,sportnews.to,sportweb.info,squirtplus.com,stateless.me,streambtw.com,surfline.com,tamin.ir,theprovince.com,tinhte.vn,torontosun.com,twinsdaily.com,uflash.tv,uploadmall.com,viefaucet.com,vindobona.org,wallpaperaccess.com,waploaded.com,watchhentai.net,web.de,webike-china.cn,webike.*,winnipegsun.com,winscreener.live,wp.pl#@#.ad
+7daystodie-servers.com#@##ad-banner-top
+7daystodie-servers.com#@#.ad-sidebar
+7daystodie-servers.com,meetdownload.com,plutomovies.com,waploaded.com#@#.ad-slot:not(.adsbox):not(.adsbygoogle)
 @@*$image,domain=a2zupload.com|cursomecanet.com|rtxkeeda.com
 @@*$image,xmlhttprequest,domain=bg-gledai.*|bg-gledai.video|cdn.bg-gledai.*|cdn.bg-gledai.video|cdn.gledaitv.*|cdn.gledaitv.fan|cdn.gledaitv.live|gledaitv.*|gledaitv.fan|gledaitv.live
 @@*$image,xmlhttprequest,script,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
@@ -20035,7 +20043,6 @@ mail.google.com#@#div[aria-label="Ads"]
 majorgeeks.com#@#.navigation-light
 majorgeeks.com#@#[style]:has([href*="&utm_source"])
 maps.walkingclub.org.uk#@#.sponsor-box
-meetdownload.com,plutomovies.com,waploaded.com#@#.ad-slot:not(.adsbox):not(.adsbygoogle)
 megacams.me,sexviacam.com#@#a[href^="https://chaturbate.com/affiliates/"]
 meijer.com#@#.product-grid__product:has(.product-tile__sponsored)
 mmiyue.com#@#.google-ad:not(.testAd)
