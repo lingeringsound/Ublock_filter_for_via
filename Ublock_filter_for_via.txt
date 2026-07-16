@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8a7a5wN9YjT9Bej2X0xX4g
-! Title: Ublock filter for Via(2026-07-16 01:05:22)
-! Version: 20260716010522
+! Checksum: MptWJETaCwPZt4X0jbeNOw
+! Title: Ublock filter for Via(2026-07-16 09:44:57)
+! Version: 20260716094457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-16 01:05:22
-! Total Count: 20160
-! Blocked Filters: 20160
+! Last modified: 2026-07-16 09:44:57
+! Total Count: 20162
+! Blocked Filters: 20162
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9918,7 +9918,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6033
+!<<<<<网站单独规则>>>>>6035
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14784,6 +14784,7 @@ sportlemons.*###happyDog
 sportlemons.*###lazyCat
 sportlemonx.com##.tallstreambanner
 sportnews.to,tapisa.online##.aoa_overlay
+sportowefakty.wp.pl###app > div[class*=" "]:has(> div:only-child > a[href^="https://sportowefakty.wp.pl/"]:only-child > img[src^="https://v.wpimg.pl/"]:only-child)
 sportowefakty.wp.pl##.article > .article__top + div:has(> div:last-child > div > div > div[id^="div-gpt-ad-"])
 sportowefakty.wp.pl##.article-footer + div:has(> div:last-child > div > div > div > div[id^="div-gpt-ad-"])
 sports-stream.*###reklama1
@@ -15696,6 +15697,7 @@ wp.pl##div[class]:not([class^="wp-content"]):has(> img + div:empty + div > [id^=
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl##body > div:has(> div:first-child > div:empty + img + div):has(> div:first-child + a:last-child > div:first-child + div:last-child:empty)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl,forum.kardiolo.pl##body > div[class]:has(> div:first-child:empty + div:last-child > svg[width="95"][height="95"]:only-child > path)
 wp.pl,o2.pl##.wp-comments-adv-wrapper:not(:has(> .wp-comments-moth-teaser-container)):has(> .wp-comments-adv[data-testid^="ad-slot-"])
+wp.pl,pudelek.pl##div[class]:has(> div:first-child > a[class]:only-child > img[src^="https://v.wpimg.pl/"]:only-child):has(> div:first-child + div:last-child:empty)
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[class] > div:not([class], [id]):only-child:has(> div[class]:only-child > div[class]:first-child > a > img[src^="https://v.wpimg.pl/"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[style="position: relative; top: 0px;"]:has(> a[target="_blank"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,jastrzabpost.pl,forum.kardiolo.pl##div:has(> div > iframe[src^="https://v.wpimg.pl/"][frameborder="0"][scrolling="no"]:first-child)
@@ -20069,7 +20071,7 @@ nypost.com,pagesix.com#@#.recirc
 offmoto.com#@#.reklama:not(.ads)
 omuzaani.me,strikeout.im,wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
-open.fm#@#style + div[class]
+open.fm,pudelek.pl#@#style + div[class]
 orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
 otakomu.jp#@#div[class^="article-body"] > blockquote:has(> a[target="_blank"] ~ div.amazlet-box)
