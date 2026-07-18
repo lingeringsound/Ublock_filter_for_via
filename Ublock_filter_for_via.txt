@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: CylgZ3dSVVhVTId5Vvwbpw
-! Title: Ublock filter for Via(2026-07-18 09:28:51)
-! Version: 20260718092851
+! Checksum: g7XWGSY7zk93X8CkUPpzFQ
+! Title: Ublock filter for Via(2026-07-19 00:43:51)
+! Version: 20260719004351
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-18 09:28:51
-! Total Count: 20174
-! Blocked Filters: 20174
+! Last modified: 2026-07-19 00:43:51
+! Total Count: 20181
+! Blocked Filters: 20181
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9909
+!<<<<<域名规则>>>>>9912
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5145,6 +5145,7 @@
 ||luckywinner-web1.com^
 ||luluvid.com/js/new100.js
 ||lum-i0e0r0e.com^
+||lumbering-motor.com^
 ||lumennex.pro^
 ||lumennix.xyz^
 ||lumhdco.mykitsch.com/*/js|$script
@@ -5551,6 +5552,7 @@
 ||mirusiru.online^
 ||mirusiru.site^
 ||misdeedtucked.shop^
+||miserly-wrap.com^
 ||misstooth456central.com^
 ||miteau.net^
 ||mithu02s.com^
@@ -5604,6 +5606,7 @@
 ||momentary.link^
 ||momoshopvip.com^
 ||momvids.com/mm*/mv.js
+||mon-mrlay-suivi.com^
 ||monad.network^$script,domain=shooshtime.com
 ||monamedia.net/CerticodePlus/DSP2/
 ||moncelork.com^
@@ -9923,7 +9926,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6038
+!<<<<<网站单独规则>>>>>6042
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10310,6 +10313,7 @@ alemannia-aachen.de##.b-error
 alexsports.*,btvsports.my,buffsports.me,buffstreams.*,cr7-soccer.store,cracksports.me,cricwatch.io,e2link.link,fbstream.*,fbstreams.*,fsportshd.xyz,kakarotfoot.ru,mlbbox.me,nbabox.co,nflstreams.me,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipbox.*,vipboxtv.*,viprow.*,vipstand.pm,worldcupstream.pm,worldsports.*,~vipbox.pl##.position-absolute
 alexsports.*,btvsports.my,cr7-soccer.store,cracksports.me,cricwatch.io,e2link.link,fsportshd.xyz,kakarotfoot.ru,nbabox.co,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipstand.pm,worldsports.*##.position-absolute.top-0
 alexsports.*,cr7-soccer.store,cracksports.me,cricwatch.io,e2link.link,fsportshd.xyz,kakarotfoot.ru,nbabox.co,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipstand.pm,worldsports.*##.position-absolute.top-0
+alexsports.*,cr7-soccer.store,cracksports.me,cricwatch.io,kakarotfoot.ru,nbabox.co,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipstand.pm,worldsports.*##.position-absolute.top-0
 alkas.lt###stpd-tablet-1
 alkas.lt##.vc_hidden-xs.vc_hidden-sm.vc_hidden-md.vc_col-sm-12.vc_column_container.wpb_column
 allafricangirls.net##[id^="exo_"]
@@ -11753,6 +11757,7 @@ faucetpot.me##.text-center.p-0.order-md-1.col-lg-3.col-md-2.col-6
 faupto.com##.shadow.bg-dark
 faupto.com##[href^="https://brave.com"]
 fautsy.com##.coinzilla
+fbstream.is##button[data-openuri][data-open="_blank"]
 fc-lc.*###iframe_id, .text-left, .py-4.text-center.footer-copyright
 fc-lc.com##.captcha-page .box-main > a[href][target="_blank"] > img
 fc-lc.com,gamezizo.com,oii.io,uploady.io###iframe_id
@@ -13639,7 +13644,7 @@ now.gg,now.us###div-ad-app-page-leaderboard-container
 now.gg,now.us##.jUWcJN.sc-978a7a9c-0:has(#div-ad-square-midroll-video-container)
 nowgoal.com##[href^="/ad/"]
 nrl.com##[id^="publift-ad-"]
-ntv.cx##.watch-ad-banner
+ntv.cx,ntvs.cx##.watch-ad-banner
 nude-teen-18.com##.cht6
 nude-teen-18.com##.rtrrtrlight-in-2
 nudecelebforum.com###floatingbar
@@ -15187,6 +15192,8 @@ tripadvisor.*###component_2 > div[class^="_"]:has(> div > div[class^="iab_"][sty
 tripadvisor.*##.ui_container > div[class] > div[class^="_"]:has(> .iab_medRec:only-child)
 trueachievements.com,truesteamachievements.com,truetrophies.com###pw_player
 trueachievements.com,truesteamachievements.com,truetrophies.com##.nn_player_w > .pro-upgrade
+trustnet.com##.fe_cmp_presetadvert
+trustnet.com##.header-fe-ad
 truthlion.com##.ad-banner-revcontent
 truthsocial.com###modal-overlay:has(+ div[data-testid="modal"] div[data-type="ad"])
 truthsocial.com##div[data-testid="modal"]:has(div[data-type="ad"])
