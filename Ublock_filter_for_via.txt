@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 77p7F+OyRGJ2qpEk3SVQLQ
-! Title: Ublock filter for Via(2026-07-18 01:00:04)
-! Version: 20260718010004
+! Checksum: CylgZ3dSVVhVTId5Vvwbpw
+! Title: Ublock filter for Via(2026-07-18 09:28:51)
+! Version: 20260718092851
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-18 01:00:04
-! Total Count: 20172
-! Blocked Filters: 20172
+! Last modified: 2026-07-18 09:28:51
+! Total Count: 20174
+! Blocked Filters: 20174
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9923,7 +9923,7 @@
 ||zykqk.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6036
+!<<<<<网站单独规则>>>>>6038
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15332,6 +15332,8 @@ uol.com.br##.bg-banner
 up-load.one##.iframe_id
 upfiles-urls.com,upfiles.app,upfilesgo.com,upfion.com##fieldset, .faqs, footer
 upfilesgo.com,upfion.com,upfiles.app,upfiles-urls.com###link-button-free > .spinner-border
+upfilesgo.com,upfion.com,upfiles.app,upfiles-urls.com##.content:has(h2)
+upfilesgo.com,upfion.com,upfiles.app,upfiles-urls.com##fieldset, .faqs, footer, .features
 uploadbank.com###container > div[style="width:970px; height:200px;"]
 uploadbox.cc##.hopa
 uploadbox.cc##.soundy
