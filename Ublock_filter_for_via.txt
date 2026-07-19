@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: g7XWGSY7zk93X8CkUPpzFQ
-! Title: Ublock filter for Via(2026-07-19 00:43:51)
-! Version: 20260719004351
+! Checksum: SWF8GK+OB2PiIkL0c82UyA
+! Title: Ublock filter for Via(2026-07-19 09:46:26)
+! Version: 20260719094626
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-19 00:43:51
-! Total Count: 20181
-! Blocked Filters: 20181
+! Last modified: 2026-07-19 09:46:26
+! Total Count: 20188
+! Blocked Filters: 20188
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9912
+!<<<<<域名规则>>>>>9914
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1828,6 +1828,7 @@
 ||cleverjumper.com^
 ||click-allow.top^
 ||clickcandy2.com^
+||clickgenee.com^
 ||clickhereecraigslist.tripod.com^
 ||clickmydown.xyz^
 ||clickrotate.net^
@@ -9924,9 +9925,10 @@
 ||zwuucugezzjhhi.com^
 ||zxcprogs.shop^
 ||zykqk.com^
+||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6042
+!<<<<<网站单独规则>>>>>6046
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10749,6 +10751,7 @@ bing.com##ol#b_results > li.b_algo:has(> .b_title > h2 > a[id][ads])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclick?"])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bingotingo.com###please-wait
+biovetro.net,dailyjobposting.xyz,digiztechno.com,financefernly.com,growgritly.com,guidetechly.com,jobnoid.net,napmap.net,shrtslug.biz,stfly.me,stly.link,technons.com,tournguide.com,yrtourguide.com##p, li, ul, ol, h2, h3
 biovetro.net,dailyjobposting.xyz,digiztechno.com,jobnoid.net,shrtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##.entry-header, hr, figure.wp-block-table, #right-sidebar, .inside-article > .entry-meta, .comments-area, .site-footer, .max-w-screen-lg.mt-6.prose-lg.prose.mx-auto > div:has(.clever-core-ads), div.w-full.flex.flex-wrap.items-center.justify-evenly.gap-3
 biovetro.net,dailyjobposting.xyz,digiztechno.com,shrtslug.biz,srtslug.biz,stfly.me,technons.com,tournguide.com,yrtourguide.com##p, .wp-block-heading, .wp-block-list, .lg\:leading-tight.mt-1.lg\:tracking-tight.font-bold.lg\:text-5xl.text-4xl, .font-medium.text-sm.tracking-wider.uppercase.text-blue-400, [href="https://t.me/shrtfly"], h2, .wp-block-embed__wrapper
 birdurls.com###bg_popup
@@ -11873,6 +11876,7 @@ fluttercampus.com##.widget > .card
 fluttercampus.com,ttsfree.com##div[id^="ezoic-pub-ad-"]
 flvto.biz,flv2mp3.by##.push-offer
 flvto.com.co##.add-block
+flycutlink.com##.box-main > .blog-item, .text-left
 fmovies.*###gift-middle
 fmovies.*###gift-top
 fmovies.*###modalshare
@@ -12208,6 +12212,9 @@ gmx.*##.ad-content
 gmx.*##.main [data-ac]:empty
 go.freetrx.fun##form center > div[id^="_"]
 go.gets4link.com##.mx-auto > center
+go.gociwidey.com,khaddavi.net,lokerwfh.net##[src*="blogger.googleusercontent.com"]
+go.gociwidey.com,khaddavi.net,lokerwfh.net##p
+go.gociwidey.com,lokerwfh.net,sfl.gl##.z-0.overflow-hidden.relative.w-full.rounded-lg.to-\[\#0948EA\].from-\[\#5597FF\].bg-gradient-to-r.p-8.min-h-\[189px\]
 go.publicearn.com##.page-header > h3, .banner, .bg-soft-primary
 go.zovo.ink###download-button
 go.zovo.ink###download-button, footer
@@ -12866,8 +12873,6 @@ kelasexcel.id##.sacret-share
 kelasexcel.id##.secret-share
 kenzo-flowertag.com,mdn.lol##.form-group > div[style^="width:"]
 keralatelecom.info##.ai-viewports
-khaddavi.net,lokerwfh.net##[src*="blogger.googleusercontent.com"]
-khaddavi.net,lokerwfh.net##p
 kiaclub.cz##.div_make_links
 kickass.*###notification-bar
 kickass.*##.alert
@@ -13088,7 +13093,6 @@ lofi-nopixel.com##.font-semibold.hover\:underline.text-primary.cursor-pointer.gr
 lofi-nopixel.com##.nitro-ad-container
 logikfx.com##.wix-blog-print-in-full-width[data-testid="mesh-container-content"] > div[class^="_"] > div[style="padding-left: 30px;"]
 logikfx.com##div[style="width:740px"]
-lokerwfh.net,sfl.gl##.z-0.overflow-hidden.relative.w-full.rounded-lg.to-\[\#0948EA\].from-\[\#5597FF\].bg-gradient-to-r.p-8.min-h-\[189px\]
 longporn.xyz##[href="http://toplivesexcams.net"]
 lookcam.*##div.prefix-adlabel
 lookmovie.*###single.dtsingle > .content > .sheader > .poster > .extra > center > a[href] > img
@@ -15267,7 +15271,9 @@ tw-calc.net##.vertical.container
 tw-calc.net##.vertical_large.container
 tw-calc.net##.vertical_large_2.container
 twi-fans.com##.fixed.data-\[state\=open\]\:animate-in
+twitch.tv##.chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])
 twitch.tv##.stream-display-ad__wrapper
+twitch.tv##.stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
 twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
 twitchnosub.com##section:nth-of-type(2) > .container > div:has(a[href^="https://kicknosub.com"])
 twitchnosub.com/static/js/runtime.mq.js
@@ -17856,7 +17862,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2348
+!<<<<<放行白名单>>>>>2349
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -18483,6 +18489,7 @@ voz.vn/b/image.gif?p=$image
 @@||clickiocmp.com^$script,domain=highlights.legaseriea.it
 @@||client.perimeterx.net/PXzYvFOXaC/main.min.js$script,domain=chegg.com
 @@||clouderrorreporting.googleapis.com^$domain=waze.com
+@@||cloudfam.io^$xmlhttprequest,script,image,~third-party
 @@||cloudflare.com/ajax/libs/*$script,domain=androidcentral.com
 @@||cloudflare.com/ajax/libs/*/fuckadblock.js$script,domain=depositfiles.org|dfiles.eu
 @@||cloudflare.com/cdn-cgi/trace$xmlhttprequest,domain=54647.io|mgnet.xyz
@@ -19393,7 +19400,7 @@ voz.vn/b/image.gif?p=$image
 @@||sa.etp-prod.com/analytics.js/v*/analytics.min.js$script,domain=vrv.co
 @@||saarbruecker-zeitung.de/assets/adsbygoogle.js$script,~third-party
 @@||safeframe.googlesyndication.com/safeframe/$domain=video-ac.com
-@@||safelinku.com^$script,domain=lokerwfh.net|khaddavi.net
+@@||safelinku.com^$script,domain=go.gociwidey.com|khaddavi.net|lokerwfh.net
 @@||sagicheck.jp/jp/check/
 @@||sampledrive.org/wp-content/plugins/wordpress-popup/assets/js/$script,~third-party
 @@||satoshilabs.net/$script,~third-party
