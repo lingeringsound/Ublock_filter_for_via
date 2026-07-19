@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: SWF8GK+OB2PiIkL0c82UyA
-! Title: Ublock filter for Via(2026-07-19 09:46:26)
-! Version: 20260719094626
+! Checksum: 0eRCmvFQdDb0gy+avS2tjA
+! Title: Ublock filter for Via(2026-07-20 00:44:31)
+! Version: 20260720004431
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-19 09:46:26
-! Total Count: 20188
-! Blocked Filters: 20188
+! Last modified: 2026-07-20 00:44:31
+! Total Count: 20207
+! Blocked Filters: 20207
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9914
+!<<<<<域名规则>>>>>9925
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -83,6 +83,7 @@
 ||2025*maintenance.weebly.com^
 ||2226wurpatw.tokyo^
 ||23.109.87.170^
+||232323.eu.org^
 ||2349.jp^
 ||2489may2024.com^
 ||24o.it/js/*/chkablockc.min.js
@@ -96,6 +97,7 @@
 ||2e-bureau.com^
 ||2h1.jp^
 ||2mydns.net/fr-impot-gouv^
+||2osb.com^
 ||2qpk150djf0ri.jp^
 ||2target.net^$third-party
 ||300mbmovies4u.*/sw.js$script,~third-party
@@ -466,6 +468,7 @@
 ||aj2403.online^
 ||ajmaboxanherulv*.b-cdn.net^
 ||ajv06.com^
+||ajvcu.cn^
 ||akaihentai.com/fro_
 ||akamaihd.net/*&affid
 ||akashopc.info^
@@ -2546,6 +2549,7 @@
 ||doathair.com^
 ||doc*-order*adobe.glitch.me^
 ||docs.speedtest-tracker.dev/|$~third-party,xmlhttprequest,method=post
+||docs163.com^
 ||doctopdftech.com^
 ||docusine.com^
 ||dodoexchange.live^
@@ -3686,6 +3690,7 @@
 ||gonakedowing.com^
 ||goneleft.com^
 ||good.toll.trave-talk.jp^
+||goodpics.net^
 ||goodstream.one/js2/noadblocker.js
 ||googgle-chrrome.hl.cn^
 ||googie-anaiytics.com^
@@ -4450,6 +4455,7 @@
 ||japanporn.tv/rg3y/*$script
 ||japansdates.com^
 ||japantimes.co.jp/wp-content/themes/jt_theme/library/css/piano.css
+||jarretelvankortrijk.be^
 ||jartibbinght.com^
 ||jasnathvibes.com^
 ||jav-xx.com/wp-content/uploads/*.gif$image
@@ -6533,6 +6539,7 @@
 ||pervclips.com/tube/js/customscript.js
 ||petametrics.com/*/__activity.
 ||petametrics.com^$~script
+||petbok.com^
 ||petri.com/wp-content/plugins/bww-wp-advertising^
 ||petri.com/wp-json/bww-advertising^
 ||pewgame.com/js/hre.js^
@@ -6623,6 +6630,7 @@
 ||play.google.com/store/apps/details?id=gift.tadaapo.tadadeai&
 ||play.turbommo.com^$third-party
 ||playbrain.io/analytics/
+||playcomla.com.ar^
 ||playedsophomore.com^
 ||player-api.s4c-cdn.co.uk/analytics/$domain=s4c.cymru
 ||player-feedback*.glomex.*^
@@ -8675,6 +8683,7 @@
 ||triangle123.com^
 ||tributeparticle.com^
 ||trifms.com^
+||triggersdelusion.com^
 ||tring-tring.com^
 ||tritinia.org/wp-content/plugins/from-grave-and-back-hidden/js/custom.js
 ||tritondigital.com^$domain=accuradio.com
@@ -9161,6 +9170,7 @@
 ||vpnk.net/?vpn
 ||vpnmentor.com/jssdk/track/
 ||vpntester.org/wp-json/m5/getCoupons
+||vpu.baby^
 ||vq4b0q.fun^
 ||vqsrz.ctwyrs2aki6zyggj.com^
 ||vqydliiyda.net^
@@ -9294,6 +9304,7 @@
 ||webexcelsior.org^
 ||webexodus.created.app^
 ||weblion777.github.io^$third-party
+||webls.net^
 ||webmailrupdatekorea.firebaseapp.com^
 ||webmailupdating.wixsite.com^
 ||webmo.fr/Fi/SP/PANKKI/*/auth/
@@ -9928,7 +9939,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6046
+!<<<<<网站单独规则>>>>>6048
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14237,6 +14248,8 @@ pvpoke-re.com##.nitro-any
 qashbits.com##.mx-auto
 qatarstreams.me##button[data-openuri*="/4/"]
 qmh.sex##.vip1-play-overlay
+qr1.me-qr.com###relevantEvent
+qr1.me-qr.com##.px-0.col-12:has(>[class="adsbygoogle"])
 qub.ca##.jss2
 quicksounds.com##.ad-head
 quizack.com##[class*="_mosori"]
@@ -15977,7 +15990,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1524
+!<<<<<通配符规则>>>>>1525
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -17122,6 +17135,7 @@ $script,domain=zdnet.fr,third-party
 /static/js/amvn.js
 /static/jwplayer/vast.js
 /static/players/*/vast.js$~third-party
+/static/verify-page.js?v=$script,~third-party
 /stats.php?*event=$image
 /stats/pixel.php?$image
 /store.steampowered.com/emi/*.gif$image
@@ -17504,7 +17518,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>355
+!<<<<<通用Css规则>>>>>360
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -17539,6 +17553,8 @@ voz.vn/b/image.gif?p=$image
 ###clickCatcher31
 ###clickCatcher32
 ###close-teaser
+###cmdTextDisplay
+###cmdTextDisplay ~ *
 ###donate > a[href][style][onclick="thank_you()"][target="_blank"][rel="nofollow"]
 ###dontfoid
 ###download a[download="Unicore.zip"]
@@ -17626,6 +17642,7 @@ voz.vn/b/image.gif?p=$image
 ##.blocker-overlay
 ##.bottom-hor-block
 ##.brs-block
+##.btn-primary[onclick="showVerification()"]
 ##.buttonautocl
 ##.close-btn2[onclick="closeAd2()"]
 ##.close-btn3[onclick="closeAd3()"]
@@ -17634,6 +17651,7 @@ voz.vn/b/image.gif?p=$image
 ##.container a[href^="https://go.mavrtracktor.com/"]
 ##.container a[href^="https://seduced.com"][href*="ref="]
 ##.container a[title="AI Jerk OFF"][href][target="_blank"]
+##.cta-button[onclick="openUpdateModal()"]
 ##.exo-horizontal
 ##.ez-sidebar-wall
 ##.fandom-ad-sticky-container
@@ -17753,6 +17771,7 @@ voz.vn/b/image.gif?p=$image
 ##a[id][href="https://toolkitspro.com"][rel^="noopener noreferrer"]
 ##a[onclick="openAuc();"]
 ##body > #mdl-register.modal.anm-e.regnow
+##body > .content-wrapper > .cf-wrap
 ##body > .page > #mainVerifyRow
 ##body > .page > .verify-row
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
