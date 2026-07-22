@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zwjlrUuwMy9FkvQ8N/3lqA
-! Title: Ublock filter for Via(2026-07-22 09:45:26)
-! Version: 20260722094526
+! Checksum: UXB52oboh/oOMptA+vBZlQ
+! Title: Ublock filter for Via(2026-07-23 01:07:06)
+! Version: 20260723010706
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-22 09:45:26
+! Last modified: 2026-07-23 01:07:06
 ! Total Count: 20218
 ! Blocked Filters: 20218
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -10624,6 +10624,7 @@ azarplus.com##.td-all-devices > [href][target="_blank"]
 azmen.com##.live-button-wrapper
 aznude.com##.single-video-ad
 aznude.com##[class*="ad-container"]
+azurefd.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 b2bhint.com##[id^="ad--"]
 babaktv.com##.vidoverlay
 babelwuxia.com,demonicscans.org,donghuaworld.com,enryumanga.com,javsubindo.one,kickassanime.ch,minioppai.org,pornve.com,varnascan.com###close-teaser
@@ -13732,7 +13733,6 @@ ondemandkorea.com##.banner_728x90
 ondemandkorea.com##.css-lvdiua
 ondemandkorea.com##.floatBanner
 ondemandkorea.com##.player_overlay.banner
-ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 onepace.co##.fake-player-overlay
 onepiece-tube.com##[href^="https://www.amazon.de/"]
 onet.pl##ad-default
@@ -17175,7 +17175,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|dev|fit|github.io|me|page|site
+/text_tel.js$domain=app|azurestaticapps.net|dev|fit|github.io|me|page|site
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tilda.link/tb/*$image
