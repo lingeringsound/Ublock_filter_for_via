@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XDiT3EyRkvrEJ0d4/dqCLQ
-! Title: Ublock filter for Via(2026-07-23 09:52:52)
-! Version: 20260723095252
+! Checksum: 5etCduEVs7uZQo04TegAiA
+! Title: Ublock filter for Via(2026-07-24 01:09:30)
+! Version: 20260724010930
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-23 09:52:52
-! Total Count: 20218
-! Blocked Filters: 20218
+! Last modified: 2026-07-24 01:09:30
+! Total Count: 20219
+! Blocked Filters: 20219
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -9944,7 +9944,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6050
+!<<<<<网站单独规则>>>>>6051
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11964,6 +11964,7 @@ freebnbcoin.com##.adsflex
 freechoice.co.za##.convert-iframe > center > a[href][target="_blank"]
 freecoursesites.com##.herald_adsense_widget
 freehdinterracialporn.in##.my-ad
+freemagazines.top##.widget:has(> .adsbygoogle)
 freeopenvpn.org##.ipspeed
 freeopenvpn.org##div[style^="display: block"][style*="width: 336px"]
 freep.com##.gnt_ar_xb
