@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 4O+k5uw8FdgockGabvkrCQ
-! Title: Ublock filter for Via(2026-07-24 09:48:39)
-! Version: 20260724094839
+! Checksum: a7hUgq5QVhgTDtLPdAhxWw
+! Title: Ublock filter for Via(2026-07-25 01:20:22)
+! Version: 20260725012022
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-24 09:48:39
-! Total Count: 20220
-! Blocked Filters: 20220
+! Last modified: 2026-07-25 01:20:22
+! Total Count: 20221
+! Blocked Filters: 20221
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9930
+!<<<<<域名规则>>>>>9931
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -998,6 +998,7 @@
 ||azureedge.net/*/esc.js
 ||azureedge.net/*/flscn.js
 ||azurefd.net/?bcda=
+||azurefd.net/Win20Errfb020/index.html
 ||azurefd.net/fullscreen.js
 ||azurefd.net/js/customone.js
 ||azurefd.net/js/customtwo.js
@@ -17176,7 +17177,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|azurestaticapps.net|dev|fit|github.io|me|page|site
+/text_tel.js$domain=app|azurestaticapps.net|dev|fit|github.io|herokuapp.com|me|page|site
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tilda.link/tb/*$image
