@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5etCduEVs7uZQo04TegAiA
-! Title: Ublock filter for Via(2026-07-24 01:09:30)
-! Version: 20260724010930
+! Checksum: 4O+k5uw8FdgockGabvkrCQ
+! Title: Ublock filter for Via(2026-07-24 09:48:39)
+! Version: 20260724094839
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-24 01:09:30
-! Total Count: 20219
-! Blocked Filters: 20219
+! Last modified: 2026-07-24 09:48:39
+! Total Count: 20220
+! Blocked Filters: 20220
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -17893,7 +17893,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2349
+!<<<<<放行白名单>>>>>2350
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19238,6 +19238,7 @@ voz.vn/b/image.gif?p=$image
 @@||oninet.ne.jp/sakigakesoft/s/leaf_main.js$script,~third-party,strict1p
 @@||onlinetvrecorder.com^$xmlhttprequest,~third-party
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
+@@||openlua.cloud/*.js?$~third-party,script
 @@||openlua.cloud/*.js?_=$~third-party
 @@||opentracker.net^$domain=jlaforums.com
 @@||openx.tv/embed/$domain=m4ufree.com
