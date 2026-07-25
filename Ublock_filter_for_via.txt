@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: a7hUgq5QVhgTDtLPdAhxWw
-! Title: Ublock filter for Via(2026-07-25 01:20:22)
-! Version: 20260725012022
+! Checksum: 1iLwAgs9QTpUUvoKMSrNDg
+! Title: Ublock filter for Via(2026-07-25 09:48:34)
+! Version: 20260725094834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-25 01:20:22
-! Total Count: 20221
-! Blocked Filters: 20221
+! Last modified: 2026-07-25 09:48:34
+! Total Count: 20222
+! Blocked Filters: 20222
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9931
+!<<<<<域名规则>>>>>9932
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -9102,6 +9102,7 @@
 ||view.mngusr.com^$domain=chapmanganato.to|manganato.com
 ||viewer-howdy.com^
 ||viewmypdf.com^
+||viiukuhe.com^
 ||vikistream.com/z-$script,~third-party
 ||viktoriadelenick.za.com^
 ||vilbuy.com^
@@ -10276,7 +10277,7 @@ adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz
 additudemag.com##.primary-sidebar-ad
 adhs-zentrum.de##div.box:has(.adsbygoogle)
 adhs-zentrum.de,appnee.com,arrowos.net,myuploadedpremium.de###babasbmsgx
-adhs-zentrum.de,bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,hax.co.id,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
+adhs-zentrum.de,bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,freex2line.online,hax.co.id,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
 adinsurance.xyz,insurglobal.xyz,prepostseo.com,work.ink##div[id^="bsa-zone_"]
 adshnk.com##a.item[href^="https://plarium.com/"]
 adshnk.com,mixrootmod.com##.custom-modal
