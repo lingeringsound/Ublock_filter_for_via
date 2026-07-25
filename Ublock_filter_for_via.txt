@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1iLwAgs9QTpUUvoKMSrNDg
-! Title: Ublock filter for Via(2026-07-25 09:48:34)
-! Version: 20260725094834
+! Checksum: axsOMdC0fodl0/+hPXM5lA
+! Title: Ublock filter for Via(2026-07-26 00:45:07)
+! Version: 20260726004507
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-25 09:48:34
-! Total Count: 20222
-! Blocked Filters: 20222
+! Last modified: 2026-07-26 00:45:07
+! Total Count: 20230
+! Blocked Filters: 20230
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9932
+!<<<<<域名规则>>>>>9935
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3604,6 +3604,7 @@
 ||gks-interiors.co.uk/js/ch.html
 ||gkxyifeulfpb.com^
 ||glad-uplifting.com^
+||glade-static.space^
 ||glaignoopty.net^
 ||glashanburg.com^
 ||glaters.com^
@@ -4494,6 +4495,8 @@
 ||jdownloader.fr^
 ||jeengweb.com^$third-party
 ||jejunalduets.cyou^
+||jelonka.com/reklamy/track/impressions/
+||jelonka.com/static/jelonka/js/news-ad-access-gate.js
 ||jemi.so/correo-24-ar^
 ||jersey-yupoo.com^
 ||jerseyyupoo.com^
@@ -9946,7 +9949,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6051
+!<<<<<网站单独规则>>>>>6056
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -11243,6 +11246,7 @@ cryptofaucet.club###lgl
 cryptofaucet.club##.op2
 cryptofaucet.club##div.cb[style="height: 50px;"]
 cryptonetos.ru##.carousel-inner
+cryptorank.io##tbody > tr:not(.init-scroll) a[target="_blank"][href*="?"]:has(button)
 cryptorank.io##tbody > tr:not(.init-scroll):has(a[href*="?"][target="_blank"])
 cryptorank.io##tr.sc-a321a998-0:not(.init-scroll)
 cryptowin.io##.hidden-xs
@@ -12825,6 +12829,7 @@ jaysndees.com###topshow
 jaysndees.com##center:nth-of-type(3)
 jaysndees.com##div[class][style^="width: 728px; height: 90px;"]
 jbpress.ismedia.jp##div.--wid:has(> div#taboola-below-article-thumbnails-bottom)
+jelonka.com##.ad-area
 jelonka.com##.kontener-reklam
 jetpunk.com##.banner-ad-outer
 jetpunk.com##.banner-x-outer
@@ -14918,6 +14923,8 @@ sunporno.com##.flirt-block
 sunporno.com##.flirt-footer
 sunporno.com##.safelink
 sunporno.com##.thumbs-container > .th-ba
+super.cz##.ogm-branding-advert
+super.cz##.ogm-branding-advert + div:has(.js-ad)
 superbgays.com###CloseAd
 supercomputingonline.com##[class^="ad_prev"]
 superembeds.com###adStop
@@ -15479,6 +15486,7 @@ vindobona.org##.adZoneM
 vindobona.org##.adZonePC
 vindobona.org##.sponsored
 vintageporntubes.com##.VPT_player_ads
+vinted.*##div[class^="_ads-module"]
 vipbox.*##.btn-lg.btn
 vipbox.*##.btn-success.btn
 vipbox.*##a[href^="https://s3.amazonaws.com/"]
