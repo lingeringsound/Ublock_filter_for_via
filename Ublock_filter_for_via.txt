@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Ic+zHdV/D59qBTzB+rFk/A
-! Title: Ublock filter for Via(2026-07-27 09:59:26)
-! Version: 20260727095926
+! Checksum: pXM6BQu4YvKdtAvIckPdzQ
+! Title: Ublock filter for Via(2026-07-28 01:29:42)
+! Version: 20260728012942
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-27 09:59:26
-! Total Count: 20232
-! Blocked Filters: 20232
+! Last modified: 2026-07-28 01:29:42
+! Total Count: 20235
+! Blocked Filters: 20235
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9937
+!<<<<<域名规则>>>>>9939
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6019,6 +6019,8 @@
 ||noohapou.com^
 ||noropianicnephrocytebites.com^
 ||northfacedeals.shop^
+||nosubapp.com/ad/push
+||nosubapp.com/api/heartbeat
 ||notepad2.com^
 ||nothingillegal.bond^
 ||nothingtoxic.com/aff/chaturbate/
@@ -9951,7 +9953,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6056
+!<<<<<网站单独规则>>>>>6057
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14508,6 +14510,7 @@ schnittberichte.com##.section__adbanner
 schnittberichte.com##[href^="/goto.php?ID="]
 schools.snap.app##div.ant-modal-root:has(img[alt="Advertisement"])
 scloud.ws##a[class*="download"]
+scloud.ws##a[href^="javascript:"]
 scloud.ws##article > div[class][style^="text-align:"] > a[href]:not([href*="/"])
 scotsman.com##[class*="AdContainer"]
 scotsman.com##[class*="AdLoading"]
