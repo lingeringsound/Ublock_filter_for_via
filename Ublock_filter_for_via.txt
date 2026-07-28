@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: bW8+uT5ohtlOkXcGg0Nozg
-! Title: Ublock filter for Via(2026-07-28 09:42:08)
-! Version: 20260728094208
+! Checksum: +zqTTWlF5/qTEVdaEJzP2A
+! Title: Ublock filter for Via(2026-07-29 01:18:34)
+! Version: 20260729011834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-28 09:42:08
-! Total Count: 20235
-! Blocked Filters: 20235
+! Last modified: 2026-07-29 01:18:34
+! Total Count: 20238
+! Blocked Filters: 20238
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9939
+!<<<<<域名规则>>>>>9940
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -8151,6 +8151,7 @@
 ||sunperp.icu^
 ||sunporno.com/*.php$script,~third-party
 ||sunswap.nexus^
+||supabase.co^$domain=eloshapes.com
 ||super-grander.jp^
 ||supercast2.com/z-$script,~third-party
 ||supersedeaccolade.com^
@@ -9953,7 +9954,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6057
+!<<<<<网站单独规则>>>>>6059
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14622,6 +14623,7 @@ seznam.cz,seznamzpravy.cz##[class*="advert"]
 sfirmware.com##.buy_on_amazon
 sfirmware.com##.cc-window
 sfirmware.com##.post-ads
+sgp1.cdn.digitaloceanspaces.com###frame[title="encrypted shop"][allowfullscreen][allow="fullscreen"][src^="blob"][style="display: block;"]
 shaalaa.com##div.zxc_wrap
 shameless.com##.active.pause-gift
 sharedisk.me,shrdsk.me##.download-play-buttons
@@ -15565,6 +15567,7 @@ vxxx.com##.video-page-content-left + div[class]:last-child
 vxxx.com##.videoplayer + div > div[class]
 vxxx.com##.wrapper-margin + div[class]:last-child
 w3schools.com###tryitLeaderboard
+walftech.com##[href^="https://walftech.com/walftechnoads/"]
 walletinvestor.com###bio_ep_bg
 wallpaperbetter.com##.lst_ads
 wallpapers.ispazio.net##.box-apples_single_reclame
