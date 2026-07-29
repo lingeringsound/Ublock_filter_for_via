@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 6MtQuG48rtCOv/MRWLwOsQ
-! Title: Ublock filter for Via(2026-07-29 09:43:55)
-! Version: 20260729094355
+! Checksum: RPCY5lLP0EjTFHl9tGUWZA
+! Title: Ublock filter for Via(2026-07-30 01:04:15)
+! Version: 20260730010415
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-29 09:43:55
-! Total Count: 20241
-! Blocked Filters: 20241
+! Last modified: 2026-07-30 01:04:15
+! Total Count: 20244
+! Blocked Filters: 20244
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9943
+!<<<<<域名规则>>>>>9946
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6625,6 +6625,7 @@
 ||platform.pubadx.one^$third-party
 ||plati-num.com^
 ||platinumpla2023.com^
+||plattformj.ch/tool/imp/dok_imp/
 ||play-lust.com^
 ||play-lustgoddess.com^
 ||play-quartz-sanctuary.xyz^
@@ -8153,6 +8154,7 @@
 ||sunperp.icu^
 ||sunporno.com/*.php$script,~third-party
 ||sunswap.nexus^
+||supabase.co/rest/v*/banners_$domain=eloshapes.com
 ||supabase.co^$domain=eloshapes.com
 ||super-grander.jp^
 ||supercast2.com/z-$script,~third-party
@@ -9277,6 +9279,7 @@
 ||weatherwx.com/*.php|$xmlhttprequest,~third-party
 ||web-instruction.team^
 ||web-interface.eu^
+||web-platform.bytebrew.io/api/game/logs/
 ||web-telegram.net^
 ||web-telegvm.org^
 ||web-todesk.com.cn^
