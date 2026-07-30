@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: RPCY5lLP0EjTFHl9tGUWZA
-! Title: Ublock filter for Via(2026-07-30 01:04:15)
-! Version: 20260730010415
+! Checksum: LVLnMWLWpMVuO0iNBVp2lA
+! Title: Ublock filter for Via(2026-07-30 09:26:35)
+! Version: 20260730092635
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-30 01:04:15
-! Total Count: 20244
-! Blocked Filters: 20244
+! Last modified: 2026-07-30 09:26:35
+! Total Count: 20246
+! Blocked Filters: 20246
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9946
+!<<<<<域名规则>>>>>9947
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5611,6 +5611,7 @@
 ||mobilerefreshpro.xyz^
 ||mobileverify.net^
 ||mobiltr-islemlerim.com.tr^
+||mocdftgstt.info^
 ||moddroid.com/static/js/pa-$script
 ||mode-claim.xyz^
 ||modesoft.org^
@@ -9960,7 +9961,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6059
+!<<<<<网站单独规则>>>>>6060
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -15748,6 +15749,7 @@ worldcupstream.pm##.m-1.fw-bold.btn-danger.btn
 worldlivetv.stream##.link_overlay
 worldofpcgames.com##[href*="cfd"]
 worldofpcgames.com##[href][target="_blank"][style*="cursor: pointer;"]
+worldofpcgames.com##[href][target="_blank"][style*="cursor: pointer;"], a[href="javascript:void(0)"] > button[style]
 worldpopulationreview.com##.video-container
 worldsex.com###video_banner
 worldsex.com##div.da-by
