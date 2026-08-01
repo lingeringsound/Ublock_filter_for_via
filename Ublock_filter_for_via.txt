@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: hgB9E0ieQkMxG79q4yy15Q
-! Title: Ublock filter for Via(2026-08-01 09:54:34)
-! Version: 20260801095434
+! Checksum: wHj2dxg7FnSqcyaWxyINeg
+! Title: Ublock filter for Via(2026-08-01 15:22:52)
+! Version: 20260801152252
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-01 09:54:34
-! Total Count: 20252
-! Blocked Filters: 20252
+! Last modified: 2026-08-01 15:22:52
+! Total Count: 20268
+! Blocked Filters: 20268
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>9950
+!<<<<<域名规则>>>>>9954
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2030,6 +2030,7 @@
 ||content-voilation-
 ||content.gorapidcdn.com^
 ||content.streamfastcdn.com^
+||contentsprinter.xyz^
 ||contextbar.ru^$third-party
 ||contoso-travel.com/login^
 ||contributor.google.com/scripts/*/loader.js$script,domain=citationmachine.net
@@ -5282,6 +5283,7 @@
 ||malatienukki.com^
 ||malaysianwireless.com/wp-content/banners/*$image,~third-party
 ||malenirt.site^
+||maletoks.pro^
 ||malluporno.com/red-sea-
 ||malurusoenone.top^
 ||mama-piece.com^
@@ -6326,6 +6328,7 @@
 ||outsoarpluteal.com^
 ||outwhirlipedeer.com^
 ||overplantovervaluetwine.com^
+||oversizedsixtieswiry.com^
 ||ovflixx.fun/ancient-frog-abc7/
 ||ovflixx.fun/rdLink
 ||ovgtt9j87tgh.world^
@@ -7832,6 +7835,7 @@
 ||soppe86.life^
 ||sorosehottie.com^
 ||sorteiosbrasil.netlify.app^
+||sortingautobiographylecture.com^
 ||sos-*.exo.io^
 ||sos-at-vie-*.exo.io^
 ||sos-bg-sof-*.exo.io^
@@ -9964,7 +9968,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6062
+!<<<<<网站单独规则>>>>>6066
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10429,10 +10433,12 @@ anghami.com##anghami-ads
 anhdep24.com##.popup-container, .text-center h2~*, .text-center h2, .site-logo
 animalia.bio##.s-ad-banner-horizontal
 animasu.club###lmd-iklan
+animationxpress.com##.fa-sticky-unit
 anime-drama.jp###block-11
 anime-loads.org###leaderwidget
 anime-loads.org##.skycontent
 anime-odcinki.pl##.size-full
+anime.nexus##div[data-vast-preroll]
 anime3rb.com##div[x-data*="countdown"]
 anime4i.vip##.a--d-wrapper
 anime4i.vip##div[class^="container-ads-"]
@@ -13161,6 +13167,8 @@ lowcygier.pl##.tile-container-small:has(> a[href*="/?utm_term=index&utm_source=m
 lowendbox.com##[href="https://vpsdime.com/"]
 lowendbox.com##a[href][rel=noreferrer] > img[height="250"][width="300"]
 lowendbox.com##div.block:has([id^="bsa"])
+lowendtalk.com###Foot > ul[style] ~ a[href*="?"]:has(img[style]:not([title]))
+lowendtalk.com###Panel > .BoxFilter ~ div:not([class], [id]):has(a[target="_blank"] img)
 lowfuelmotorsport.com##.mat-card[style] a[target="_blank"][href] > img
 lowfuelmotorsport.com##.topbanner-center
 lowfuelmotorsport.com##:is(elastic-toolbar-navigation, mat-card-content) div[style] > a[target="_blank"][href] > img
@@ -16029,7 +16037,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1525
+!<<<<<通配符规则>>>>>1532
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -17068,6 +17076,7 @@ $script,domain=zdnet.fr,third-party
 /player/jw8/vast.js?$domain=~autoembed.cc
 /player/jw8/vast.js|$script,~third-party
 /player/jwplayer-*/vast.js$script
+/player/plugins/vast-*.js$script
 /player/v*/vast-no-entitlements.js^
 /please-verify-z.html^
 /pmc-plugins/pmc-social-share-bar/*/tracking.js
@@ -17249,6 +17258,9 @@ $script,domain=zdnet.fr,third-party
 /vast.php?idzone=
 /vast/*.php?nocache=
 /vast/?zid=$xmlhttprequest,third-party
+/vast?$xmlhttprequest,domain=fullxh.com|megaxh.com|seexh.com|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.*|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhdate.world|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite5.com|xhwide5.com
+/vast?*&subid_$xmlhttprequest
+/vast?spot=$xmlhttprequest
 /vendor/widget/loader.js$script,domain=mangabats.com|mangakakalot.gg|mangakakalove.com|manganato.gg|natomanga.com|nelomanga.net
 /verify-captcha-v*.html^
 /verify-human-recaptcha.html^
@@ -17298,6 +17310,8 @@ $script,domain=zdnet.fr,third-party
 /wp-content/plugins/dynamic-sidebar-manager/dsm-script.js
 /wp-content/plugins/easy-themes-manager/script.js
 /wp-content/plugins/form-builder-pro/fbp-script.js
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-
 /wp-content/plugins/noti-blocker/*$script
 /wp-content/plugins/pixelyoursite-pro/*
 /wp-content/plugins/quick-cache-cleaner/qcc-script.js
@@ -17312,6 +17326,7 @@ $script,domain=zdnet.fr,third-party
 /wp-content/plugins/wp-hide-security-enhancer/assets/js/devtools-detect.js$script,~third-party
 /wp-content/plugins/zdn-adblock-detector/*
 /wp-content/themes/blogarise-child/check*.js^
+/wp-content/themes/spacex/assets/js/funx.js
 /wp-content/themes/twentynineteen/color/*/captcha.php?
 /wp-content/uploads/adb$script,domain=mhdsports.*|mhdsportstv.*|mhdtvsports.*|mhdtvworld.*|mhdtvmax.*|mhdstream.*|mhdtvmax.*
 /wp-content/uploads/play.webp$domain=techcyan.com|kiktu.com|upshrink.com|trangchu.news|banaraswap.in
@@ -17557,7 +17572,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>364
+!<<<<<通用Css规则>>>>>365
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -17745,6 +17760,7 @@ voz.vn/b/image.gif?p=$image
 ##.video-brs
 ##.wgAdBlockMessage
 ##.wp-block-savage-platform-primis-video
+##.wp-singular > div[data-sm][style*="2147483647"] > iframe[style*="100%"][allow*="clipboard-write"]
 ##.wps-player__happy-inside
 ##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
