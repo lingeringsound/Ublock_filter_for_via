@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: xpWcUmT6AiDNmLMmxnsxqw
-! Title: Ublock filter for Via(2026-08-02 09:50:54)
-! Version: 20260802095054
+! Checksum: 3WQHpMbWktolyABPK74b/A
+! Title: Ublock filter for Via(2026-08-03 00:47:22)
+! Version: 20260803004722
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-02 09:50:54
-! Total Count: 20349
-! Blocked Filters: 20349
+! Last modified: 2026-08-03 00:47:22
+! Total Count: 20354
+! Blocked Filters: 20354
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10035
+!<<<<<域名规则>>>>>10038
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -462,6 +462,7 @@
 ||aisi.nx.cn^
 ||aisiapp.com.cn^
 ||aisipc.net^
+||aisyncad.com^
 ||aitai.biz^
 ||aitimaforou.web.app^
 ||aitoolnet.com^$image,domain=novelhall.com
@@ -1297,6 +1298,7 @@
 ||blogspot.com/*/s336/Upshrink336x280.jpg
 ||blogtopsites.com^$third-party
 ||blondassignappear.com^
+||bloomnnu.it.com^
 ||bloxplay.com^
 ||bloxstrapmenu.com^$domain=~bloxstraplabs.com
 ||blozoo.info/js/inouttool/
@@ -5130,6 +5132,7 @@
 ||loseyourip.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
+||losslesscut.net^
 ||lot.luck-fortune.com^
 ||loto-4x.com^
 ||loto-chance.com^
@@ -10049,7 +10052,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6066
+!<<<<<网站单独规则>>>>>6068
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14769,6 +14772,8 @@ shuajota.com###HTML9
 siamblockchain.com##.ai-viewport-1
 siamblockchain.com##.headerad-desk
 sidereel.com###netaktion_ad
+simkl.com##.SimklTVDetailEpisodeTableWrapTr table > tbody > tr:has(> td[class^="SimklTVDetailEpisodeDescSearch"])
+simkl.com##.blockplace
 simpcity.*##.blockitsowereplaceit
 simpcity.*##.nav-bonga
 simpcity.*##.nav-dfake
