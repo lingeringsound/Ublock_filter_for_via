@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3WQHpMbWktolyABPK74b/A
-! Title: Ublock filter for Via(2026-08-03 00:47:22)
-! Version: 20260803004722
+! Checksum: VSMqteNqDRy2NVDTjAMzqw
+! Title: Ublock filter for Via(2026-08-03 09:53:17)
+! Version: 20260803095317
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-03 00:47:22
+! Last modified: 2026-08-03 09:53:17
 ! Total Count: 20354
 ! Blocked Filters: 20354
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -10339,7 +10339,7 @@ abcnews.com,abcnews.go.com##.StickyAdWrapper
 abcya.com##.a-prerollvideo-container
 abczdrowie.pl##body > div > div:only-child > div:only-child > a:first-child > div:only-child:empty
 abczdrowie.pl##div[data-element="s3-placeholder"]
-abczdrowie.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
+abczdrowie.pl,autokult.pl,domodi.pl,forum.kardiolo.pl##*:has(> div:first-child:has(> div:first-child > a > img[src^="https://v.wpimg.pl/"]):not([alt], [id], [width], [data-src]) + div:empty)
 abendzeitung-muenchen.de##.wtc-wg-plugilo-connector
 abs-cbn.com##.MuiGrid-root.MuiGrid-item:not([data-testid="test-grid-item"]):has(> div.MuiBox-root > div[style] > div > div[style] > div[class^="imp-adSlot"])
 abs-cbn.com##.css-15j76c0:has(> div[style*="z-index: 99999"])
