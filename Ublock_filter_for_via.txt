@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: x6S9r7QqrIt6cI/NnCEPiw
-! Title: Ublock filter for Via(2026-08-04 09:28:15)
-! Version: 20260804092815
+! Checksum: p3QsKySFugpAjgqzjjEyvA
+! Title: Ublock filter for Via(2026-08-05 01:28:41)
+! Version: 20260805012841
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-04 09:28:15
-! Total Count: 20354
-! Blocked Filters: 20354
+! Last modified: 2026-08-05 01:28:41
+! Total Count: 20365
+! Blocked Filters: 20365
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10038
+!<<<<<域名规则>>>>>10042
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4998,6 +4998,9 @@
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
 ||ligabenelux.com^
+||ligainsider.de/li-probe
+||ligainsider.de/public/desktop/js/li-probe
+||ligainsider.de/public/desktop/js/li-wall
 ||ligheechoagool.com^
 ||light678o.fun^
 ||lightboxcdn.com/*/digibox.gif?
@@ -5132,6 +5135,7 @@
 ||loseyourip.com^
 ||lossless-scaling.com^
 ||lossless-scaling.download-fast.com^
+||losslesscut.cn^
 ||losslesscut.net^
 ||lot.luck-fortune.com^
 ||loto-4x.com^
@@ -10052,7 +10056,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6068
+!<<<<<网站单独规则>>>>>6074
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10734,7 +10738,7 @@ azarplus.com##.td-all-devices > [href][target="_blank"]
 azmen.com##.live-button-wrapper
 aznude.com##.single-video-ad
 aznude.com##[class*="ad-container"]
-azurefd.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 b2bhint.com##[id^="ad--"]
 babaktv.com##.vidoverlay
 babelwuxia.com,demonicscans.org,donghuaworld.com,enryumanga.com,javsubindo.one,kickassanime.ch,minioppai.org,pornve.com,varnascan.com###close-teaser
@@ -12467,8 +12471,8 @@ hclips.com##.video-page__content > div.left + div:not([class])
 hclips.com##.video__wrapper > section[style]
 hclips.com##.wrapper + .partners-wrap + div[class]
 hclips.com,pornclassic.tube,privatehomeclips.com,tubepornclassic.com,upornia.*##span[style="display:flex !important"] > div:first-child
-hd-easyporn.com##[rel*="sponsored"]
 hd-easyporn.com,pornblade.com,pornfelix.com,pornohans.com###wrapper_content > aside[id]
+hd-easyporn.com,readcomicsonline.lol##[rel*="sponsored"]
 hd-pornos.*###spezial_column
 hd-pornos.*##div[id="wrapper_content"] > aside
 hd-xxx.me##.videoOverAdBig
@@ -13132,6 +13136,8 @@ lidovky.cz###selfart-box
 lidovky.cz##.s_nativ_advertorial
 lifehacker.jp###mainContent > div[class^="articles_pArticles_Title_"]:has(+ div[class^="displayhandler_"] > div > div[id^="cxMore"])
 lifestyle.bg,news.bg,topsport.bg,webcafe.bg##.mc-layout__bannerContent
+ligainsider.de##.mb-md.float-start:has(#ad-rectangle2)
+ligainsider.de##.new_add
 lightnovelcave.com###lnvidcontainer
 lightnovelcave.com##[data-defid]
 lightnovelpub.*##.sticky-body
@@ -14443,6 +14449,10 @@ rd.remove.bg%2FCI0%2F$image
 rd.remove.bg%2FCI0%2F*$image
 rd.remove.bg/CI0/$image
 readcomiconline.*##.divCloseBut
+readcomicsonline.lol###top-banner-ad-container
+readcomicsonline.lol##.justify-center.items-center.flex:has(div[style="min-height: 300px; min-width: 160px;"])
+readcomicsonline.lol##.justify-center.lg\:flex.hidden:has(div[style="min-height: 60px; min-width: 468px;"])
+readcomicsonline.lol##.mt-10.lg\:block.hidden:has(div[style="min-height:280px"])
 readmng.com##.desk
 readmng.com##.sideways
 readonepiece.com###vidazoo-player-div
@@ -16123,7 +16133,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1532
+!<<<<<通配符规则>>>>>1533
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -17242,6 +17252,7 @@ $script,domain=zdnet.fr,third-party
 /script/ndsu.js$third-party
 /script/su.js$script,third-party
 /scripts/delayed.js|$script,~third-party
+/scripts/delayed.js|$script,~third-party,domain=~lilly.com
 /scripts/monetag-special.js
 /security-challenge-captcha.html^
 /sendy.clyp.it/t/*$image
@@ -17302,7 +17313,7 @@ $script,domain=zdnet.fr,third-party
 /tds/ae?tds_campaign=
 /teo4.$script
 /teo7.$script,~third-party
-/text_tel.js$domain=app|azurestaticapps.net|dev|fit|github.io|herokuapp.com|me|page|site
+/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|github.io|herokuapp.com|me|page|site
 /tghr.js$script
 /thermostat.js$script,domain=royle.com
 /tilda.link/tb/*$image
