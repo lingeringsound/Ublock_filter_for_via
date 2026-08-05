@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 6OZfOasZFKnzI8GzMTU/Vg
-! Title: Ublock filter for Via(2026-08-05 09:42:21)
-! Version: 20260805094221
+! Checksum: 26J9EBdLAiXWTOFQJIaPiA
+! Title: Ublock filter for Via(2026-08-05 15:51:16)
+! Version: 20260805155116
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-05 09:42:21
-! Total Count: 20365
-! Blocked Filters: 20365
+! Last modified: 2026-08-05 15:51:16
+! Total Count: 20368
+! Blocked Filters: 20368
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10042
+!<<<<<域名规则>>>>>10044
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4999,6 +4999,8 @@
 ||lifeselector.com/banners/js/banner-controller.
 ||ligabenelux.com^
 ||ligainsider.de/li-probe
+||ligainsider.de/public/*/js/li-probe
+||ligainsider.de/public/*/js/li-wall
 ||ligainsider.de/public/desktop/js/li-probe
 ||ligainsider.de/public/desktop/js/li-wall
 ||ligheechoagool.com^
@@ -10056,7 +10058,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6074
+!<<<<<网站单独规则>>>>>6075
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -14968,6 +14970,7 @@ spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
 spycock.com###advertising
 spycock.com##.footer-banner-wrapper
 stagatv.com##.ad-banner
+startpage.com###main > div[data-bvs][data-identifier]
 startpage.com###main > div[style]:not([class]):has(path)
 startpage.com##.search-form-relative-container + div[class^="css-"]:has(div[data-identifier])
 startpage.com##div[data-identifier="exoclick-native-impression"]
