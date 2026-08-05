@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 26J9EBdLAiXWTOFQJIaPiA
-! Title: Ublock filter for Via(2026-08-05 15:51:16)
-! Version: 20260805155116
+! Checksum: vfaEy0XR5mDluDU5+ZxkVg
+! Title: Ublock filter for Via(2026-08-06 01:20:06)
+! Version: 20260806012006
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-05 15:51:16
-! Total Count: 20368
-! Blocked Filters: 20368
+! Last modified: 2026-08-06 01:20:06
+! Total Count: 20369
+! Blocked Filters: 20369
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10058,7 +10058,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6075
+!<<<<<网站单独规则>>>>>6076
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -10764,6 +10764,7 @@ background-color: #f1f1f1;
 badassoftcore.com,badassdownloader.com,badasshardcore.com,quickporn.net###ban-cont
 badjojo.com##.embed-overlay
 bakusai.com##.adSection
+balbums.st##[id^="__clb-spot_"]
 ballexclusives.com##body > div.adblock_subtitle
 ballexclusives.com##body > h4[class="adblock_title"]
 bandab.com.br##.widget_publicidade
