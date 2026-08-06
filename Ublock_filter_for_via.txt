@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vfaEy0XR5mDluDU5+ZxkVg
-! Title: Ublock filter for Via(2026-08-06 01:20:06)
-! Version: 20260806012006
+! Checksum: uC+2VT0++91re2/pHyJUJg
+! Title: Ublock filter for Via(2026-08-06 09:42:12)
+! Version: 20260806094212
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-06 01:20:06
-! Total Count: 20369
-! Blocked Filters: 20369
+! Last modified: 2026-08-06 09:42:12
+! Total Count: 20370
+! Blocked Filters: 20370
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10058,7 +10058,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6076
+!<<<<<网站单独规则>>>>>6077
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
 %2Fc.easyfundraising.org.uk%2F$image
@@ -13299,6 +13299,7 @@ m.timesofindia.com##.adsinview
 m.timesofindia.com##.asAffiliate
 m.timesofindia.com##[href*="app.goo.gl"]
 m.washingtontimes.com,thephoblographer.com##.mrf-adv__wrapper
+m1xdrop.*,m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,miixdrop.com,miixdrop.net,miiixdrop.com,miiixdrop.net,miiiixdrop.net,miiiiixdrop.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m1xdrop.*,m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,miixdrop.net,miiixdrop.net,miiiixdrop.net,miiiiixdrop.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m1xdrop.*,m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,miixdrop.net,miiixdrop.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
 m1xdrop.*,m1xdrop.com,m1xdrop.net,md3b0j6hj.com,mdbekjwqa.pw,mdfx9dc8n.net,mixdrop23.net,mixdroop.*,mixdrop.*,mixdrop21.net,mixdrop23.net,mixdropjmk.pw,mixdrp.*##body > div[style^="position: absolute;"][style*="z-index"]
