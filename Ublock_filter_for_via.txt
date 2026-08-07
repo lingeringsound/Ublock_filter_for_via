@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: uC+2VT0++91re2/pHyJUJg
-! Title: Ublock filter for Via(2026-08-06 09:42:12)
-! Version: 20260806094212
+! Checksum: 1S98rYD8KH9VpTqQLCSgVA
+! Title: Ublock filter for Via(2026-08-07 10:07:41)
+! Version: 20260807100741
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-06 09:42:12
-! Total Count: 20370
-! Blocked Filters: 20370
+! Last modified: 2026-08-07 10:07:41
+! Total Count: 20374
+! Blocked Filters: 20374
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10044
+!<<<<<域名规则>>>>>10047
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4655,6 +4655,7 @@
 ||kaguraserver.com/wp-content/uploads/*-Ad-300-
 ||kaguraserver.com/wp-content/uploads/*-Ad-728-
 ||kahimeyuki.jp^
+||kai-search.com^
 ||kaigan-kaiun-fortune.com^
 ||kaimiray-k.jp^
 ||kaiser-impact.pages.dev^
@@ -4978,6 +4979,8 @@
 ||letmejerk.com/*.php$script,~third-party
 ||letmessagenow.com^
 ||lets-tip315.com^
+||letsporn.com/abrk/
+||letsporn.com/npadm/
 ||lewdmilfh22y.com^
 ||lewdzone.com/wp-content/themes/lz/assets/affiliate/$image
 ||lexozfldkklgvc.com^$third-party
@@ -17674,7 +17677,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>365
+!<<<<<通用Css规则>>>>>366
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -17727,6 +17730,7 @@ voz.vn/b/image.gif?p=$image
 ###ipBar + .main
 ###kt_player #ads_iframe
 ###kt_player .fp-brand
+###kt_player ~ #sp-player
 ###leader_ad:not(:empty)
 ###main-content a[href^="https://hub.buzzaffiliates.com/"]
 ###mainBtn[onclick="startVerify()"]
