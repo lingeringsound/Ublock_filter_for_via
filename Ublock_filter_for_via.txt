@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 1S98rYD8KH9VpTqQLCSgVA
-! Title: Ublock filter for Via(2026-08-07 10:07:41)
-! Version: 20260807100741
+! Checksum: eVGtwDipFrmfQWj4xd/s1Q
+! Title: Ublock filter for Via(2026-08-08 00:41:38)
+! Version: 20260808004138
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-07 10:07:41
-! Total Count: 20374
-! Blocked Filters: 20374
+! Last modified: 2026-08-08 00:41:38
+! Total Count: 20376
+! Blocked Filters: 20376
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10047
+!<<<<<域名规则>>>>>10048
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -9582,6 +9582,7 @@
 ||wp.com*/banner$image,domain=komikmama.net
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
 ||wpenginepowered.com/usps/
+||wpenginepowered.com/wp-json/api/advanced_placement/
 ||wploits.com^
 ||wpp-wps.cn^
 ||wppanel.icu^
@@ -18046,7 +18047,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2351
+!<<<<<放行白名单>>>>>2352
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -20175,6 +20176,7 @@ exploader.net#@#a[style*="display:"][href^="https://al.dmm.co.jp"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 fapeza.com#@#.azz_div
+flipkart.com#@#div[data-id][style]:has([width][height][fill])
 fontyukle.net#@#div[class^="sag-ust"]
 forbes.it#@#.ad-row
 formulapassion.it#@##qc-cmp2-main
