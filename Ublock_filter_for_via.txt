@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eVGtwDipFrmfQWj4xd/s1Q
-! Title: Ublock filter for Via(2026-08-08 00:41:38)
-! Version: 20260808004138
+! Checksum: sjKElpttzdjbpUYZFhZ+qA
+! Title: Ublock filter for Via(2026-08-08 08:54:05)
+! Version: 20260808085405
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-08 00:41:38
+! Last modified: 2026-08-08 08:54:05
 ! Total Count: 20376
 ! Blocked Filters: 20376
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -12378,9 +12378,9 @@ goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
 google.com##.D1fz0e
 googleads.g.doubleclick.net###abgc
 googleads.g.doubleclick.net###google-center-div
-googleads.g.doubleclick.net###mys-wrapper
 googleads.g.doubleclick.net##.jar
 googleads.g.doubleclick.net##html[i-amphtml-no-boilerplate][amp4ads][class="i-amphtml-inabox"]
+googleads.g.doubleclick.net,safeframe.googlesyndication.com###mys-wrapper
 googleapis.com.de##body.swal2-shown > .swal2-container
 googleapis.com.de,googleapis.com.do,redecanais.*##body.swal2-shown > .swal2-container
 googleapis.com.de,googleapis.com.do,redecanais.*,redecanaistv.*##body.swal2-shown > .swal2-container
