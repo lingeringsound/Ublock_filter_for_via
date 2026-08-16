@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: A+4UHxr9apwXBWMdL3iWuA
-! Title: Ublock filter for Via(2026-08-16 08:41:41)
-! Version: 20260816084141
+! Checksum: QKvrEaNR+8n+53LBhaOQrQ
+! Title: Ublock filter for Via(2026-08-17 00:12:37)
+! Version: 20260817001237
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-16 08:41:41
-! Total Count: 20429
-! Blocked Filters: 20429
+! Last modified: 2026-08-17 00:12:37
+! Total Count: 20447
+! Blocked Filters: 20447
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10068
+!<<<<<域名规则>>>>>10071
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5973,6 +5973,7 @@
 ||natomanga.com/js/pu_
 ||natu.natural-natural-pure.com^
 ||naturalbd.com/sw.js$script,~third-party
+||naturalhistory2.si.edu/vt3/
 ||naturalnews.com^$script
 ||naturesucrefoot.fr^
 ||naughtydate.com^
@@ -7327,6 +7328,7 @@
 ||roblox.com/x0k461/e6c1b/xc9
 ||robloxt.cv^
 ||robtips50kj.blogspot.com^
+||robtipsyt50kli.blogspot.com^
 ||rochestertrend.com^
 ||rogueleader.org^
 ||rokuseikantei.com^
@@ -8022,6 +8024,7 @@
 ||square-direction.com^
 ||squirtpresented.com^
 ||srdo-acwv.com^
+||sreality.cz/api/v*/mortgage/offers
 ||srt.am/sw.js$script,~third-party
 ||srvclouds.com^
 ||srvgl.com^
@@ -10082,7 +10085,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6101
+!<<<<<网站单独规则>>>>>6114
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -11426,6 +11429,7 @@ cybermania.ws###zdn-adblock-overlay
 cybernews.com##aside[data-e="popupEvent"]
 cyclehack.jp,gogo-miyagi.com,izuhack.akao-hotel.co.jp,nap-camp.com,runhack.jp,tsurihack.com,yamahack.com###ad-overlay
 cyclingnews.com##.global-banner
+cyklobazar.cz##curtain-ad
 d3ward.github.io##.textads
 daddylive.*###html1
 daddylive.*##div > a.btn-outline-primary.btn
@@ -12289,6 +12293,13 @@ gamingbible.com,ladbible.com##[data-cypress="sticky-header"]
 gamingmode.pl,kociakolyska.pl,metropoliatorunska.pl,spotbox.pl,terazwloclawek.pl,xcook.pl##div[class]:has(> div > a + a[href^="https://adinfo.wp.pl/"])
 gamingvital.com###tdi_132
 gamovideo.com###po-pimp
+garaz.cz##.mol-advert__ad-info-paragraph
+garaz.cz##.ogm-advert-rectangle-inscreen
+garaz.cz##.ogm-branding-advert + div[class]:empty
+garaz.cz##.ogm-seznam-recommends
+garaz.cz##.placeholder-wrapper
+garaz.cz##div[data-advert]
+garaz.cz##header[data-dot="tpl-mainHeader"] ~ div:has(section[data-dot="tpl-bottomContent"])
 garrysmods.org##.blocker.jquery-modal
 gasngogeneralstores.com##[href="https://gasngogeneralstores.com/sexdating.php"]
 gatexplore.com###tie-block_640
@@ -13021,6 +13032,7 @@ kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
 kachelmannwetter.com,meteologix.com,weather.us##.dkpw-billboard-margin-fixed
 kachelmannwetter.com,meteologix.com,weather.us##.kw-ad-right
+kaembed.net##body > img[id]
 kalicrack.com##center > .button-container:has(> #directDownload)
 kalileaks.com##[href^="https://alexhost.com/"]
 kaotic.com##.track_outbound_post.grid-item
@@ -15011,6 +15023,10 @@ sportzonline.site###html1
 spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
 spycock.com###advertising
 spycock.com##.footer-banner-wrapper
+sreality.cz##div[data-e2e="banner.projektu-container"]
+sreality.cz##div[data-e2e="detail.banner.projektu-container"]
+sreality.cz##div[data-e2e="leaderboard-container"]
+sreality.cz##div[data-e2e="middle-container"]
 stagatv.com##.ad-banner
 startpage.com###main > div[data-bvs][data-identifier]
 startpage.com###main > div[style]:not([class]):has(path)
@@ -17726,7 +17742,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>368
+!<<<<<通用Css规则>>>>>370
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -17808,6 +17824,7 @@ voz.vn/b/image.gif?p=$image
 ###video-id_fluid_html_on_pause
 ###video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"]
 ###videojs ~ div[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;"]
+###vplayer ~ img[id][onclick]
 ###vstr ~ #overlay
 ###weatherad:not(:empty)
 ###wrapper ~ a[href][target="_blank"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
@@ -17990,6 +18007,7 @@ voz.vn/b/image.gif?p=$image
 ##body > .page > #mainVerifyRow
 ##body > .page > .verify-row
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
+##body > .wrapper > .card-box > #step-1
 ##body > div.captcha-container > div.captcha-card
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ##body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"]
