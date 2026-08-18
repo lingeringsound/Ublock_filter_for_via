@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: PrqtDyb6K1+v+U8MvwdIMg
-! Title: Ublock filter for Via(2026-08-18 00:15:30)
-! Version: 20260818001530
+! Checksum: V8tLIRqNa+kdXGAZP/K5wg
+! Title: Ublock filter for Via(2026-08-18 08:39:21)
+! Version: 20260818083921
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-18 00:15:30
-! Total Count: 20455
-! Blocked Filters: 20455
+! Last modified: 2026-08-18 08:39:21
+! Total Count: 20456
+! Blocked Filters: 20456
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10075
+!<<<<<域名规则>>>>>10076
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7872,6 +7872,7 @@
 ||smore91.net^
 ||smplayer.org^
 ||smrturl.co/o/*/53458494^
+||sms24.me/numbers/pixel
 ||smsiak.pl^
 ||smsmmsernorepls.wixsite.com^
 ||smsy24.pl^
