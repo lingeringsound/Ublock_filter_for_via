@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: V8tLIRqNa+kdXGAZP/K5wg
-! Title: Ublock filter for Via(2026-08-18 08:39:21)
-! Version: 20260818083921
+! Checksum: pyNlcU7UmfWusmoV/osdxw
+! Title: Ublock filter for Via(2026-08-19 00:19:14)
+! Version: 20260819001914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-18 08:39:21
-! Total Count: 20456
-! Blocked Filters: 20456
+! Last modified: 2026-08-19 00:19:14
+! Total Count: 20466
+! Blocked Filters: 20466
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10076
+!<<<<<域名规则>>>>>10083
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1476,6 +1476,7 @@
 ||camelot-ex.net^
 ||camelot-swap.com^
 ||camelot.exc-v3.run^
+||camelote.cn^
 ||camerica.co.com^
 ||camgirlbang.com/crimson-$script,~third-party
 ||camgirlbang.com/sparkling-$script,~third-party
@@ -1751,6 +1752,7 @@
 ||check-host.net/images/ypndguarg$image,~third-party
 ||check-host.net/images/ypndguarh$image,~third-party
 ||check-host.net/images/ypndguath$image,~third-party
+||check-host.net/rimages/$image,~third-party
 ||check-tl-
 ||checkfv.pages.dev^
 ||checking-your-browser.com^
@@ -3771,6 +3773,7 @@
 ||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 ||gooqlee.com^
 ||goryachie-foto.net^$third-party
+||gossipycompetitive.com^
 ||gotgayporn.com/sw.js$script,~third-party
 ||gotmylink.xyz^
 ||gotohouse2.cc^
@@ -4639,6 +4642,7 @@
 ||jump-hi-quality55.com^
 ||jump-hi-quality77.com^
 ||juneauempire.com/wp-content/plugins/incognito_dectector/
+||juneworewyjyna.com^
 ||juniorsvote.com^
 ||jup-dex.org^
 ||just-bet.net^
@@ -6863,6 +6867,7 @@
 ||pornzog.com/assets/inpage/banner.js
 ||pororin081.com^
 ||portal.librus.pl/ad^
+||portalridice.cz/data/banner-creative/
 ||possessedcrackinghart.com^
 ||post.nationalrent.ru^
 ||postimg.cc^$image,domain=uploadingsite.info|uploadraja.com
@@ -9356,6 +9361,7 @@
 ||wakabairo.net^
 ||wakayoyo.tokyo^
 ||wakealibis.com^
+||waldnet.nl/assets/js/abd.js
 ||wallochmm.shop^
 ||wallpaper-engine.pro^
 ||wambugureining.shop^
@@ -9487,6 +9493,7 @@
 ||whfdny.org^
 ||whilegadzooks-242.com^
 ||whimsicalrain.com^
+||whirlpoploaderfast.com^
 ||whirlwindincrease.com^
 ||whiteinflammablejaws.com^
 ||whitelist-memefi.com^
@@ -10090,7 +10097,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6114
+!<<<<<网站单独规则>>>>>6117
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10160,7 +10167,7 @@ $script,domain=zdnet.fr,third-party
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 103.70.114.35###idmuvi-popup
 10crack.com,activators4windows.com,allsoftwarekeys.com,cracklabel.com,crackpcsoft.net,crackproductkey.com,cracksole.com,crackwinz.com,datanodes.to,f4file.com,filedownloads.store,freecrackdownload.com,freelicensekey.org,fullcrackedpc.com,genuineactivator.com,goharpc.com,idmfullcrack.info,idmpatched.com,patchcracks.com,pccrackbox.com,pcsoftz.net,pcwarezbox.com,procrackhere.com,productkeyforfree.com,productkeyfree.org,proproductkey.com,rootscrack.com,serialkey360.com,softwar2crack.com,topcracked.com,wazusoft.com,zuketcreation.net##[onclick*="open"]
-10short.*,droplink.co,go.zovo.ink,lollty.pro,mamahawa.com,short-jambo.ink,solarchaine.com,techy.veganab.co,tfly.link,tinys.click,try2link.com,zovo2.top##.text-left
+10short.*,droplink.co,go.zovo.ink,link.snipcash.com,lollty.pro,mamahawa.com,short-jambo.ink,solarchaine.com,techy.veganab.co,tfly.link,tinys.click,try2link.com,zovo2.top##.text-left
 111.90.150.10###secondary > .widget_custom_html
 111.90.150.149##.idmuvi-topbanner-aftermenu
 111.90.150.149##[href*="buaksib.in"]
@@ -10491,7 +10498,7 @@ allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
 allporncomic.com##[href^="https://s.zlink0.com/"], [href^="https://s.zline0.com/"]
 allporncomic.com,anitube.*,av01.media,av01.tv,bamgosu.site,boobsrealm.com,chan.sankakucomplex.com,comic.pixiv.net,cpmlink.net,crazyblog.in,doomovie-hd.*,dragontea.ink,exactpay.online,fc-lc.*,fc-lc.com,fc-lc.xyz,fitdynamos.com,gamezizo.com,javhdporn.net,jpvhub.com,kiddyearner.com,labgame.io,lowendbox.com,luxuretv.com,mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*,mylust.com,netmovies.to,oii.io,ouo.*,pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*,redecanais.*,sharemods.com,shoppinglys.blogspot.com,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*,studyuo.com,uploadbank.com,uploady.io,uploadydl.com,urbharat.xyz,webhostingpost.com,ygosu.com,ylilauta.org,zuperdrive.my.id##iframe
-allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,spiele.spiegel.de,steamplay.*,steanplay.*,straemplay.org,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
+allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,penize.cz,spiele.spiegel.de,steamplay.*,steanplay.*,straemplay.org,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,novelcrow.com,readytechflip.com,romadd.com,sampledrive.org,soranews24.com,studydhaba.com,taoruseitai.com,taradinhos.com,thedigitaltheater.com,toursetlist.com,tousatu-ch.net,towelstretches.com##.widget_custom_html
 allround-pc.com##.inlineAd
 allround-pc.com##.singlePostAd
@@ -11188,6 +11195,7 @@ charbelnemnom.com,scubidu.eu###custom_html-16
 chat.deepseek.com##.ds-modal-overlay
 cheatsquad.gg##.tooltip::after
 cheatsquad.gg##.tooltip::before
+check-host.net###amdtveaytpuikprivatealps, .hostabe, [id^="amdtveay"], .ri-btive, [id^="amdtveaytpuikpp-liaryt"], .specjp, [href*="&utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"], a[href^="https://the.hosting"], a[href^="https://mhost.ee"], a[href^="https://waicore.net/"], a[href^="https://hostealo.es"]
 check-host.net###amspeaytpuikprivatealps, .hostabw, [id^="amspeay"], .ri-ctive, [id^="amspeaytpuikpp-liaryt"], .blockxs, [href*="&utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], [onclick*="https://u1host.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"], a[href^="https://the.hosting"], a[href^="https://mhost.ee"], a[href^="https://waicore.net/"]
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .relan, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], [onclick*="https://justhost.asia"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
 check-host.net###hostabq, .hostabq, #antpeayvraeaprivatealps, .specho, #antkeatvhaeaaeza-permnnt, #antpeayvraeaalexhost, #antpeayvraeapp-juiaryt, #antpeayvraeapp-juiaryt2, .ri-ative, a.cursor-pointer, a[onclick^="window.location"], [id^="antkeayvhaeap"], [class*="-elative"], [href*="?utm_"], a[href*="privatealps.net"], [onclick*="https://privatealps.net/"], [onclick*="https://aeza.net/"], [onclick*="https://alexhost.com"], a[href^="https://aeza.net/"], a[href^="https://alexhost.com/"]
@@ -14067,6 +14075,7 @@ pelisplus.*##[class^="smartadtags"]
 pelisplus.online##a.fasc-button
 pelisplus.online,watchtheofficeonline.net###custom_html-7
 pelisplus2.*##[style^="margin:-30px"] > [href][target="_blank"]
+penize.cz###article_content > div.toolBox:has(a[data-ga-hittype="ad"])
 perchance.org##div[style*="var"][style*="min-height"]:has([data-freestar-ad])
 pererecadoida.life,bullrun2024.online###bannerInCenter
 perfectgirls.*,perfektdamen.*##.promo
@@ -14349,6 +14358,7 @@ pornxs.com##[data-ad-index-parent]
 pornxs.com##[id^="div_theAd"]
 pornzog.com###ntv_a
 pornzog.com##.video-ntv-list
+portalridice.cz##.bz-branding
 portevergladeswebcam.com###partnerad1div
 positive-feedback.com##.ad-row-horizontal
 positive-feedback.com##.archive_ad_block
