@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rin6r4qO3bm0/Uf1lthoig
-! Title: Ublock filter for Via(2026-08-19 08:39:44)
-! Version: 20260819083944
+! Checksum: zqzvLi2zpuoRQkJS8qXH8w
+! Title: Ublock filter for Via(2026-08-20 00:19:19)
+! Version: 20260820001919
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-19 08:39:44
+! Last modified: 2026-08-20 00:19:19
 ! Total Count: 20466
 ! Blocked Filters: 20466
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -19222,7 +19222,7 @@ voz.vn/b/image.gif?p=$image
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=newgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,third-party,domain=barstoolsports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com|goplay.be|play.aetv.com|play.mylifetime.com|play.tv|recordplus.com|ted.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|america.cgtn.com|btvplus.bg|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|i24news.tv|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sbt.com.br|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10.com.au|10play.com.au|680thefan.com|airtelxstream.in|america.cgtn.com|btvplus.bg|cbs.com|cbsnews.com|click2houston.com|clickondetroit.com|clickorlando.com|cricbuzz.com|cuatro.com|etonline.com|gbnews.com|globoplay.globo.com|i24news.tv|kcra.com|ksat.com|local10.com|news4jax.com|news8000.com|paramountplus.com|rotana.net|sbt.com.br|sonyliv.com|southpark.*|southpark.cc.com|southpark.de|southpark.lat|southparkstudios.*|southparkstudios.com|southparkstudios.com.br|southparkstudios.de|telecinco.es|timesnownews.com|virginmediatelevision.ie|wcvb.com|winknews.com|wsls.com|yaktrinews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,third-party,domain=vix.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,xmlhttprequest,domain=zee5.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
