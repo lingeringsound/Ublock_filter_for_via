@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: enQVFv0FfeA5anRx5hLygg
-! Title: Ublock filter for Via(2026-08-20 08:39:22)
-! Version: 20260820083922
+! Checksum: h/wNG/8DNKa242ktb7HJ+A
+! Title: Ublock filter for Via(2026-08-21 00:22:01)
+! Version: 20260821002201
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-20 08:39:22
-! Total Count: 20467
-! Blocked Filters: 20467
+! Last modified: 2026-08-21 00:22:01
+! Total Count: 20469
+! Blocked Filters: 20469
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10083
+!<<<<<域名规则>>>>>10085
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -606,6 +606,7 @@
 ||amz-dropshipping.com^
 ||amz.boy.mybluehost.me^
 ||amzzcbe-cme.com^
+||analysis-id-lfg.info^
 ||analyticanoden.com^
 ||analytics-collect.karakuri.ai^
 ||analytics-service.api.linkme.global^
@@ -1773,6 +1774,7 @@
 ||chi-yo-1807chiyo.com^
 ||chicavora.com^
 ||chief-child.com^
+||chief-ignite.pro^
 ||childernplay.online^
 ||childrenoftheclouds.com^
 ||china-sister-hong-ty.blogspot.com^
