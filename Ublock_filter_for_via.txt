@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 2itfniMbILjdern7ZXAWrQ
-! Title: Ublock filter for Via(2026-08-22 08:39:39)
-! Version: 20260822083939
+! Checksum: AOWcT6JynyfFcOcFHpqy3A
+! Title: Ublock filter for Via(2026-08-23 00:12:10)
+! Version: 20260823001210
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-22 08:39:39
-! Total Count: 20482
-! Blocked Filters: 20482
+! Last modified: 2026-08-23 00:12:10
+! Total Count: 20491
+! Blocked Filters: 20491
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10087
+!<<<<<域名规则>>>>>10096
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3629,6 +3629,8 @@
 ||gitfrominstall.com^
 ||github.com/_private/browser/errors
 ||github.com/linarweloper/Blumfarmbot^
+||github.io/*/before.js
+||github.io/*/fullscreen.js
 ||github.io/*/js/esc.js
 ||github.io/*/js/flscn.js
 ||github.io/*/media/beep.mp3
@@ -6280,7 +6282,13 @@
 ||ondigitalocean.app/*/index.php?cezp=
 ||ondigitalocean.app/*^phone=+1-
 ||ondigitalocean.app/Win0codejInfouycinfcode/
+||ondigitalocean.app/b00p.mp3
+||ondigitalocean.app/esc.js
+||ondigitalocean.app/jupiter.js
+||ondigitalocean.app/noir.js
+||ondigitalocean.app/nvidia.js
 ||ondigitalocean.app/text_tel.js
+||ondigitalocean.app/webs.mp4
 ||one----talk.com^
 ||one-chan-love.love^
 ||one-click.cc^
@@ -9925,6 +9933,7 @@
 ||youtube.com^$domain=1link.vip|cinedesi.in|techishant.in|tejtime24.com|thevouz.in
 ||youtubee.com^
 ||youtuberevanced.*^$domain=~revanced.app
+||youtubetoolkit.com/js/adblock-
 ||youtubevanced.$domain=~revanced.app
 ||youtunbe.com^
 ||youutube.com^
@@ -10784,7 +10793,7 @@ azarplus.com##.td-all-devices > [href][target="_blank"]
 azmen.com##.live-button-wrapper
 aznude.com##.single-video-ad
 aznude.com##[class*="ad-container"]
-azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#mycanvas.map[style="cursor:none"]
 b2bhint.com##[id^="ad--"]
 babaktv.com##.vidoverlay
 babelwuxia.com,demonicscans.org,donghuaworld.com,enryumanga.com,javsubindo.one,kickassanime.ch,minioppai.org,pornve.com,varnascan.com###close-teaser
