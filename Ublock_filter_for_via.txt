@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: OAWv3pqX0115PQAgnocUkQ
-! Title: Ublock filter for Via(2026-08-23 08:42:54)
-! Version: 20260823084254
+! Checksum: 3qAwUHuQaZdFZ2tf9Fwjxw
+! Title: Ublock filter for Via(2026-08-24 00:13:38)
+! Version: 20260824001338
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-23 08:42:54
-! Total Count: 20492
-! Blocked Filters: 20492
+! Last modified: 2026-08-24 00:13:38
+! Total Count: 20497
+! Blocked Filters: 20497
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10097
+!<<<<<域名规则>>>>>10099
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2595,6 +2595,7 @@
 ||doivangfreefiregarena.io.vn^
 ||dojy0dg181308.cloudfront.net^
 ||dok47ws1.com^
+||dokiraw.wtf/public/assets/js/a.js
 ||dokopka.icu^
 ||domnovrek.com^$third-party
 ||donasi.lk21.de^
@@ -3739,6 +3740,7 @@
 ||gomovies.*/sw.js$script,~third-party
 ||gomoviescdn.online^
 ||gomsanri.com^
+||gomuraw.info/public/assets/js/a.js
 ||gonakedowing.com^
 ||goneleft.com^
 ||good.toll.trave-talk.jp^
@@ -10111,7 +10113,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6122
+!<<<<<网站单独规则>>>>>6125
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10891,6 +10893,8 @@ beta.xfreehd.com,cbc.ca,crosswordsolver.com,gecmisi.com.tr,getmodsapk.*,gfx-stat
 bettycrocker.com##.adhesiveAdSpacing
 beverfood.com###backy
 beverfood.com##.switchabig
+beverfood.com##.theiaStickySidebar > ul > li.widget:has(> .textwidget > div[align="center"] > a[target=_blank]:not([class]) img)
+beverfood.com##a#x1
 bezpolitickekorektnosti.cz,javfull.pro##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
@@ -12489,6 +12493,7 @@ greatandhra.com,~epaper.greatandhra.com##a:not([href*="greatandhra.com/"]):not([
 greensboro.com##.modal, .modal-backdrop
 greentumble.com##.cp-module
 gsm-solution.com###adblock-blocker-overlay
+gsmarena.com##div.align-center.justify-center.flex-column.d-flex:has(.ad-c-label)
 gsmware.com##.adtester-container
 gsmware.com##.kabaradd
 gtainside.com##div.col-sm-6:has(> div.ad)
