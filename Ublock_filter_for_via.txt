@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: Uz9kKFRB5wcoGNTY3s2i6g
-! Title: Ublock filter for Via(2026-08-24 08:41:29)
-! Version: 20260824084129
+! Checksum: ashJl1e1Dm61k8mYeWjM4g
+! Title: Ublock filter for Via(2026-08-25 00:23:33)
+! Version: 20260825002333
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-24 08:41:29
-! Total Count: 20500
-! Blocked Filters: 20500
+! Last modified: 2026-08-25 00:23:33
+! Total Count: 20506
+! Blocked Filters: 20506
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10099
+!<<<<<域名规则>>>>>10103
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -214,6 +214,7 @@
 ||a.magsrv.com/ad-provider.js$xmlhttprequest,domain=doods.to|poophq.com|veev.to
 ||a.orbsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
 ||a.pemsrv.com/ad-provider.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
+||a.pur.agency^
 ||a.slashdotmedia.com^
 ||a.stateless.me^
 ||a.streamoupload.$script
@@ -2423,6 +2424,7 @@
 ||deepfakeporn.net/contents/rest/player/deepswap_japanese
 ||deeplol.gg/images/ad/
 ||deepseek-aiassistant.com^
+||deepseek-en.com^
 ||deepseek.app^
 ||deepseek.top^
 ||deepseekapk.download^
@@ -7588,6 +7590,7 @@
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=athlonsports.com|autoblog.com|bikemag.com|dengarden.com|mensfitness.com|mensjournal.com|parade.com|paradehomeandgarden.com|paradepets.com|pethelpful.com|powder.com|shophq.com|surfer.com|thespun.com|thestreet.com|travelhost.com
 ||secureserver.net/myswisscom
 ||secureserver.net/ruckstantung907921/
+||securesweep.pro^
 ||securevault.top^
 ||securifyguard.com^
 ||security-process.pages.dev^
@@ -8748,6 +8751,7 @@
 ||touristbaconwrath.com^
 ||toxicwap.us/sw.js$script,~third-party
 ||toythieves.com^
+||tpb.*/static/custom_ads.js
 ||tpbankvn.workplace.com^
 ||tplinkextender.net^
 ||tpoint-sites.com^
@@ -10113,7 +10117,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6128
+!<<<<<网站单独规则>>>>>6129
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -15422,6 +15426,7 @@ totalcsgo.com##[alt="Ad"]
 touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,m.facebook.com,b-m.facebook.com,mobile.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,touch.beta.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
 tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
+tpb.*##a[href^="https://ultimatesurferprotector.com/"]
 tpi.li,oii.la##.td-post-template-default.td-container, .banner-inner
 tradingref.com##.sidebar:has(> div.ad-unit)
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
@@ -18167,7 +18172,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2356
+!<<<<<放行白名单>>>>>2357
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -20405,6 +20410,7 @@ nijie.info/ad_log.php#@#._banner_view
 nijimiss.moe#@#div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"]) > div[class]:not([tabindex="0"]):not([withhardmute])
 nybooks.com#@#.top-ad-wrapper
 nypost.com,pagesix.com#@#.recirc
+oferty.praca.gov.pl#@#.cdk-overlay-container
 offmoto.com#@#.reklama:not(.ads)
 omuzaani.me,strikeout.im,wavewalt.me#@#.Ad-Container:not(.adsbygoogle)
 op.gg#@#div[class^="css-"]:has(> div:not([class]):empty)
