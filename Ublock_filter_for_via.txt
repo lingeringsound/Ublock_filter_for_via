@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3qAwUHuQaZdFZ2tf9Fwjxw
-! Title: Ublock filter for Via(2026-08-24 00:13:38)
-! Version: 20260824001338
+! Checksum: Uz9kKFRB5wcoGNTY3s2i6g
+! Title: Ublock filter for Via(2026-08-24 08:41:29)
+! Version: 20260824084129
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-24 00:13:38
-! Total Count: 20497
-! Blocked Filters: 20497
+! Last modified: 2026-08-24 08:41:29
+! Total Count: 20500
+! Blocked Filters: 20500
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10113,7 +10113,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6125
+!<<<<<网站单独规则>>>>>6128
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10244,7 +10244,7 @@ $script,domain=zdnet.fr,third-party
 1movies.life##div[id^="___"][style="display: block;"]
 1movietv.com##[target="_blank"][href$=".html"]
 1primewire.com##[id]:has(> [class="close ico"])
-1shorten.com,4cash.me,7r6.com,adcorto.*,adfloz.*,adlinkweb.com,adultasianporn.com,amateur-twink.com,automodeler.com,bblink.com,best18porn.com,bestcash2020.com,blog.linksfire.co,bonedo.de,boundingintocomics.com,cblink.crazyblog.in,ccurl.net,celebritymovieblog.com,cenoteka.rs,charexempire.com,ckk.ai,cnnamador.com,coinlyhub.com,cookinggames.com,cryptolink.trxking.xyz,cryptosh.pro,cut-fly.com,cutdl.xyz,deutschekanale.com,domainwheel.com,donnaglamour.it,du-link.in,dz-linkk.com,dz4link.com,encurtandourl.com,ex-foary.com,exe.app,exee.io,fc.lc,femdomtb.com,fssquad.com,fuckedporno.com,gamesfrog.com,get.instantearn.in,go.gets4link.com,go.linkify.ru,gogoanime.*,gtlink.co,gyanlight.com,hdtube.porn,heavyfetish.com,hiddenobjectgames.com,highporn.net,icutlink.com,iir.la,imgtorrnt.in,indianshortner.com,jetpunk.com,jizzbunker.com,joomlabeginner.com,link.paid4file.com,link1s.*,linkfinal.com,linkjust.com,linkszia.co,lite-link.*,liveschauen.com,lnbz.la,mangaraw.org,marca.com,math-aids.com,miklpro.com,miniurl.*,mousecity.com,mtabrasil.com.br,myshrinker.com,newsbomb.gr,nightdreambabe.com,odisha-remix.com,oei.la,oii.la,oko.sh,oncehelp.com,ondemandkorea.com,paginadanoticia.com.br,paid4.link,pilotsglobal.com,pkr.pw,planhub.ca,pnd.*,pornexpanse.com,pornfd.com,pornoreino.com,pornstarsadvice.com,positive-feedback.com,pureshort.*,rawmanga.top,realgfporn.com,recipestutorials.com,rock.porn,satoshi-win.xyz,set.seturl.in,short-jambo.ink,short.croclix.me,shortearn.*,shorteet.com,shortenbuddy.com,shortzzy.*,shrink.*,shrink.icu,shrink.yt,shrtfly.*,solarchaine.com,spieleklassiker.com,themix.net,theporngod.com,tii.la,tmearn.*,tpi.li,tribuna.com,tvi.la,uii.io,uporno.xxx,upshrink.com,vanillatweaks.net,vidoo.org,viu.com,vklinks.com,vplink.in,vz.lt,xpshort.com,xxxdl.net,zplayer.live##.banner
+1shorten.com,4cash.me,7r6.com,adcorto.*,adfloz.*,adlinkweb.com,adultasianporn.com,amateur-twink.com,automodeler.com,bblink.com,best18porn.com,bestcash2020.com,blog.linksfire.co,bonedo.de,boundingintocomics.com,cblink.crazyblog.in,ccurl.net,celebritymovieblog.com,cenoteka.rs,charexempire.com,ckk.ai,cnnamador.com,coinlyhub.com,cookinggames.com,cryptolink.trxking.xyz,cryptosh.pro,cut-fly.com,cutdl.xyz,deutschekanale.com,domainwheel.com,donnaglamour.it,du-link.in,dz-linkk.com,dz4link.com,encurtandourl.com,ex-foary.com,exe.app,exee.io,fc.lc,femdomtb.com,fssquad.com,fuckedporno.com,gamesfrog.com,get.instantearn.in,go.gets4link.com,go.linkify.ru,gogoanime.*,gtlink.co,gyanlight.com,hdtube.porn,heavyfetish.com,hiddenobjectgames.com,highporn.net,icutlink.com,iir.la,imgtorrnt.in,indianshortner.com,jetpunk.com,jizzbunker.com,joomlabeginner.com,link.paid4file.com,link.snipcash.com,link1s.*,linkfinal.com,linkjust.com,linkszia.co,lite-link.*,liveschauen.com,lnbz.la,mangaraw.org,marca.com,math-aids.com,miklpro.com,miniurl.*,mousecity.com,mtabrasil.com.br,myshrinker.com,newsbomb.gr,nightdreambabe.com,odisha-remix.com,oei.la,oii.la,oko.sh,oncehelp.com,ondemandkorea.com,paginadanoticia.com.br,paid4.link,pilotsglobal.com,pkr.pw,planhub.ca,pnd.*,pornexpanse.com,pornfd.com,pornoreino.com,pornstarsadvice.com,positive-feedback.com,pureshort.*,rawmanga.top,realgfporn.com,recipestutorials.com,rock.porn,satoshi-win.xyz,set.seturl.in,short-jambo.ink,short.croclix.me,shortearn.*,shorteet.com,shortenbuddy.com,shortzzy.*,shrink.*,shrink.icu,shrink.yt,shrtfly.*,solarchaine.com,spieleklassiker.com,themix.net,theporngod.com,tii.la,tmearn.*,tpi.li,tribuna.com,tvi.la,uii.io,uporno.xxx,upshrink.com,vanillatweaks.net,vidoo.org,viu.com,vklinks.com,vplink.in,vz.lt,xpshort.com,xxxdl.net,zplayer.live##.banner
 1shortlink.com,duit.cc,dutchycorp.*,kissasian.*,kwamkidhen.com,leechpremium.link,linksly.co,masihbelajar.com,onbatch.my.id,ouo.*,putlocker.*,vidoza.net,watchonlyfoolsandhorses.com,webserver.one,webtvhd.com##[id*="ScriptRoot"]
 1todaypk.*,todaypk.*##[href="/watchnow.php"]
 1todaypk.*,todaypk.*,watchtodaypk.com##[href="/watchnow.php"]
@@ -14124,7 +14124,7 @@ photobucket.com##.swal2-container
 photooxy.com##.text-ads
 photopea.com##.app.flexrow > div[style]
 photopea.com##div[style]:has(> a[href*="photopea.com"][href*="ads"])
-phototrans.de,phototrans.eu,phototrans.hu,phototrans.pl##div.bus_content:first-child:has(.adsbygoogle)
+phototrans.de,phototrans.eu,phototrans.hu,phototrans.net,phototrans.pl##div.bus_content:first-child:has(.adsbygoogle)
 pianoencyclopedia.com%2Fen%2Femail%2Fimages%2F*%2Fpix.gif$image
 pianoencyclopedia.com%2Fen%2Femail%2Fimages%2F*%2Fpix.gif*$image
 pianoencyclopedia.com/en/email/images/*/pix.gif$image
@@ -15423,6 +15423,9 @@ touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta
 tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
 tpi.li,oii.la##.td-post-template-default.td-container, .banner-inner
+tradingref.com##.sidebar:has(> div.ad-unit)
+tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
+tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
 trakt.tv##.snigel
 trakt.tv##a[target="_blank"][style]:has(img[src])
 trakt.tv##div[id*="-wrapper"]:has(a[href="/vip/advertising"])
