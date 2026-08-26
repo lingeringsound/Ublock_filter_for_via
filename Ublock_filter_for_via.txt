@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OI3tSkCWkpeecthWfYWNdA
-! Title: Ublock filter for Via(2026-08-26 08:41:30)
-! Version: 20260826084130
+! Checksum: ZO39cXZgHGp4+6HgM+g5Fw
+! Title: Ublock filter for Via(2026-08-27 00:41:10)
+! Version: 20260827004110
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-26 08:41:30
-! Total Count: 20522
-! Blocked Filters: 20522
+! Last modified: 2026-08-27 00:41:10
+! Total Count: 20526
+! Blocked Filters: 20526
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -16264,7 +16264,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1546
+!<<<<<通配符规则>>>>>1547
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -16514,6 +16514,7 @@ $script,domain=zdnet.fr,third-party
 *preRoll$xmlhttprequest,domain=porngo.com
 *two-gun-volley.pages.dev^$third-party
 -->
+-Verify-Cloudflare-
 -chrome-chrome.com.cn^
 -dingding.com.cn^
 -ez-pass.com^
@@ -17813,7 +17814,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>372
+!<<<<<通用Css规则>>>>>375
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -17947,6 +17948,8 @@ voz.vn/b/image.gif?p=$image
 ##.btn-primary[onclick="showVerification()"]
 ##.buttonautocl
 ##.captcha-wrap
+##.cjs-container > #checkbox-window
+##.cjs-container > #verify-window
 ##.close-btn2[onclick="closeAd2()"]
 ##.close-btn3[onclick="closeAd3()"]
 ##.close-btn4[onclick="closeAd4()"]
@@ -18075,6 +18078,7 @@ voz.vn/b/image.gif?p=$image
 ##a[id][href="https://toolkitspro.com"][rel^="noopener noreferrer"]
 ##a[onclick="openAuc();"]
 ##body > #mdl-register.modal.anm-e.regnow
+##body > .cf-root
 ##body > .content-wrapper > .cf-wrap
 ##body > .main-wrapper > .main-content > .intro > #checkbox-window
 ##body > .page > #mainVerifyRow
@@ -19180,7 +19184,7 @@ voz.vn/b/image.gif?p=$image
 @@||googlesyndication.com^$xmlhttprequest,script,domain=manofadan.com
 @@||googletagmanager.com/gtag/*$script,domain=redx.com.bd
 @@||googletagmanager.com/gtag/js$script,domain=all.accor.com|autofaucet.dutchycorp.*|decrypt.day|freepik.com|independentespanol.com|isthischannelmonetized.com|login.accor.com|rekidai-info.github.io|reykjaviksailors.is|slack.com|the-independent.com
-@@||googletagmanager.com/gtag/js$script,redirect-rule,domain=contactpoints.org
+@@||googletagmanager.com/gtag/js$script,redirect-rule,domain=alltron.ch|contactpoints.org
 @@||googletagmanager.com/gtag/js$third-party,script,domain=trinket.io
 @@||googletagmanager.com/gtag/js$xmlhttprequest,domain=quackr.io|streamingcommunity.*
 @@||googletagmanager.com/gtag/js?id=G$script,domain=riteaid.com
