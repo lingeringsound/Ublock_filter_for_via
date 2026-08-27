@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZO39cXZgHGp4+6HgM+g5Fw
-! Title: Ublock filter for Via(2026-08-27 00:41:10)
-! Version: 20260827004110
+! Checksum: YfZ3RA20Z0OUJqpu5QKOIw
+! Title: Ublock filter for Via(2026-08-27 13:48:10)
+! Version: 20260827134810
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-27 00:41:10
-! Total Count: 20526
-! Blocked Filters: 20526
+! Last modified: 2026-08-27 13:48:10
+! Total Count: 20538
+! Blocked Filters: 20538
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10111
+!<<<<<域名规则>>>>>10117
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1219,6 +1219,7 @@
 ||birdconnection.site^
 ||biroads.com^$third-party
 ||birth-bravery.com^
+||biscottirbh.lol^
 ||bisque-bison-333202.hostingersite.com^
 ||biswap.org-earn.com^
 ||bit.ly/47P0Nvo
@@ -3055,6 +3056,7 @@
 ||facebook.com/security/hsts-pixel.gif
 ||facebook.net^$domain=foodtechnos.in|gamesmain.xyz
 ||facebooks-com.vn^
+||faceit-account.com^
 ||facesnotebook.com^
 ||facevideosc.com^
 ||faciet.client-ac.com^
@@ -3757,6 +3759,7 @@
 ||google-ch-chrome.com.cn^
 ||google-chrrome-zh.hl.cn^
 ||google-google-chrome-google-com.hl.cn^
+||google-meet-call.com^
 ||google-stare.com^
 ||google-zhcn-chrome.com.cn^
 ||google.com/recaptcha/api.js$script,domain=skiplink.me
@@ -4101,6 +4104,7 @@
 ||hodllane.com^
 ||hohshops.com^
 ||hoicksfq.xyz^
+||hoka-uk.com^
 ||holancha.com^
 ||hologramid.cn^
 ||hologydeno.info^
@@ -4867,6 +4871,7 @@
 ||kongtuke.com^
 ||konmm.com^
 ||konopslski.top/robot/
+||kook.bar^
 ||kooolboomin.com^
 ||koreanpornmovie.xyz/cdn-cgi/trace$~third-party
 ||kostumn1.ilabserver.com^
@@ -9496,6 +9501,7 @@
 ||webworks-plus.jp^
 ||weforads.com^
 ||wegameesport.com^
+||weibonews.com^
 ||welatera.com^
 ||welect.de^$third-party
 ||weledying-jessed.com^
@@ -10125,7 +10131,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6136
+!<<<<<网站单独规则>>>>>6141
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10526,7 +10532,7 @@ allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"]
 allporncomic.com##[href^="https://s.zlink0.com/"], [href^="https://s.zline0.com/"]
 allporncomic.com,anitube.*,av01.media,av01.tv,bamgosu.site,boobsrealm.com,chan.sankakucomplex.com,comic.pixiv.net,cpmlink.net,crazyblog.in,doomovie-hd.*,dragontea.ink,exactpay.online,fc-lc.*,fc-lc.com,fc-lc.xyz,fitdynamos.com,gamezizo.com,javhdporn.net,jpvhub.com,kiddyearner.com,labgame.io,lowendbox.com,luxuretv.com,mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*,mylust.com,netmovies.to,oii.io,ouo.*,pouvideo.*,povvideo.*,povw1deo.*,povwideo.*,powv1deo.*,powvibeo.*,powvideo.*,powvldeo.*,redecanais.*,sharemods.com,shoppinglys.blogspot.com,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*,studyuo.com,uploadbank.com,uploady.io,uploadydl.com,urbharat.xyz,webhostingpost.com,ygosu.com,ylilauta.org,zuperdrive.my.id##iframe
-allporncomic.com,barstoolsports.com,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,penize.cz,spiele.spiegel.de,steamplay.*,steanplay.*,straemplay.org,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
+allporncomic.com,barstoolsports.com,chip.de,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,penize.cz,spiele.spiegel.de,steamplay.*,steanplay.*,straemplay.org,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,voiranime.com,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,novelcrow.com,readytechflip.com,romadd.com,sampledrive.org,soranews24.com,studydhaba.com,taoruseitai.com,taradinhos.com,thedigitaltheater.com,toursetlist.com,tousatu-ch.net,towelstretches.com##.widget_custom_html
 allround-pc.com##.inlineAd
 allround-pc.com##.singlePostAd
@@ -11264,7 +11270,9 @@ chip.de##.ae-skyscraper
 chip.de##.app_nexus_banners_common
 chip.de##.js_download_button:has(> a.Download-Button--Free[href*="withinstaller"][href*="lastchanged"])
 chip.de##.ob-ad-carousel-layout
+chip.de##.product__top-aside
 chip.de##.product__top-aside > section.mt-md:has(> h3:empty:first-child + table:last-child img[src*="screen13.com"])
+chip.de##div[class*="ad-slot"]
 chip.de##div[id*="AdSlot"]
 chip.de##tr:has(> td[style][colspan] > a.js-antivirusclick[href])
 choosingnothing.com###cvad
@@ -15057,6 +15065,9 @@ spiele.bild.de##div[id^="ad-landingpage-"]
 spiele.spiegel.de###ad-gamepage-top
 spiele.spiegel.de##div#ad-gamepage-bottom
 sponsor=$domain=mcfucker.com
+sporcle.com##.DCDOr
+sporcle.com##.unit-container.box:has(.new-temp-unit)
+sporcle.com##div.row-unit-container.row:has(.new-temp-unit)
 sport1.de##.s1-ad
 sportlemons.*###happyDog
 sportlemons.*###lazyCat
@@ -17814,7 +17825,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>375
+!<<<<<通用Css规则>>>>>376
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -18086,6 +18097,7 @@ voz.vn/b/image.gif?p=$image
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
 ##body > .wrapper > .card-box > #step-1
 ##body > div.captcha-container > div.captcha-card
+##body > div.mw[role="main"] > .mc
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ##body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"]
 ##body.user-clicked[style="cursor: auto;"] > #root > .app-container
