@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: YfZ3RA20Z0OUJqpu5QKOIw
-! Title: Ublock filter for Via(2026-08-27 13:48:10)
-! Version: 20260827134810
+! Checksum: ZXBp0QwwqGXSk3/VK2/U+w
+! Title: Ublock filter for Via(2026-08-28 08:40:40)
+! Version: 20260828084040
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-27 13:48:10
-! Total Count: 20538
-! Blocked Filters: 20538
+! Last modified: 2026-08-28 08:40:40
+! Total Count: 20547
+! Blocked Filters: 20547
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10117
+!<<<<<域名规则>>>>>10118
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3751,6 +3751,7 @@
 ||goneleft.com^
 ||good.toll.trave-talk.jp^
 ||goodpics.net^
+||goodreads.com/weblab
 ||goodstream.one/js2/noadblocker.js
 ||googgle-chrrome.hl.cn^
 ||googie-anaiytics.com^
@@ -10131,7 +10132,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6141
+!<<<<<网站单独规则>>>>>6143
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -14007,6 +14008,8 @@ op.gg##main > .flex-col:has(div[style] > div[data-opgg-beer-id])
 open3dmodel.com##[style]:has(.adsbygoogle)
 open3dmodel.com##[style]:has(>.adsbygoogle),[style]:has(>.adsbygoogle)~.notranslate
 openculture.com##.no-framearound_ad_in_post
+openlua.cloud##a[href^="https://boostmania.gg/"]
+openlua.cloud##div.fixed.backdrop-blur-xl
 opentunnel.net##.mb-3.small.text-muted
 order-order.com###stickyfooterad
 orgasmatrix.com##.card.post:has([href*="landing."])
@@ -18204,7 +18207,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2357
+!<<<<<放行白名单>>>>>2363
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19552,8 +19555,14 @@ voz.vn/b/image.gif?p=$image
 @@||oninet.ne.jp/sakigakesoft/s/leaf_main.js$script,~third-party,strict1p
 @@||onlinetvrecorder.com^$xmlhttprequest,~third-party
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
+@@||openlua.cloud/*.gif$~third-party
 @@||openlua.cloud/*.js?$~third-party,script
 @@||openlua.cloud/*.js?_=$~third-party
+@@||openlua.cloud/admanager.js$~third-party
+@@||openlua.cloud/ads-common.js$~third-party
+@@||openlua.cloud/exitpopup.js$~third-party
+@@||openlua.cloud/gpt-prebid.js$~third-party
+@@||openlua.cloud/jquery.popunder.js$~third-party
 @@||opentracker.net^$domain=jlaforums.com
 @@||openx.tv/embed/$domain=m4ufree.com
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
