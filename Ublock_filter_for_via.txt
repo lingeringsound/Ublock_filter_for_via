@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7TvpLPZjfwBEH8vTOkszIw
-! Title: Ublock filter for Via(2026-08-29 08:15:00)
-! Version: 20260829081500
+! Checksum: FN/CFFyCsd9NJT6hYKfgxg
+! Title: Ublock filter for Via(2026-08-30 03:00:32)
+! Version: 20260830030032
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-29 08:15:00
-! Total Count: 20554
-! Blocked Filters: 20554
+! Last modified: 2026-08-30 03:00:32
+! Total Count: 20557
+! Blocked Filters: 20557
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10136,7 +10136,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6144
+!<<<<<网站单独规则>>>>>6146
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -12928,6 +12928,7 @@ instapornvideos.com##.container-sts-bl
 insurglobal.xyz##.yuidea-top
 interactivemap.app###streamers
 interactivemap.app##.footer
+intercelestial.com,teknoasian.com##.right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*="s0-greate"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments
 internetretailing.com.au##.textwidget:has(> div > div[id^="IRN_Homepage_300x250"])
 interracial.com##[src^="https://www.interracial.com/player/html.php"]
 inverse.com##article .adWrapper
@@ -14052,6 +14053,7 @@ pages.dev##html[lang="ja"] > body > .main-container > #landing.auth-container
 pages.dev##html[lang="ja"] > body.flex.items-center.min-h-screen > div.w-full.max-w-md.mx-auto > form#login-form
 pages.lazada.co.id##.lzd-call-app-download-popup
 paginadanoticia.com.br##.banner-img
+pahe.plus##footer, .text-left, #link-view > [href], .box-main > [href]
 paid4.link##.box > div[align="center"] > .card
 painaltube.com##.widget > div.widget
 palcomix.com##table[width="800"]:has(img[src^="../ads/"])
@@ -16283,7 +16285,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1547
+!<<<<<通配符规则>>>>>1548
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -16839,6 +16841,7 @@ $script,domain=zdnet.fr,third-party
 /Win08ShDMeEr0887x/*
 /Win0SecurityEr0CH0700Err0rSt/index.html
 /_a_ta/s/s/*
+/_ac/s/*.js|$script,~third-party
 /_dating\d\/index\.html\?aref=/
 /_static/delivery.js?nonce=$script,~third-party,header=server:/^openresty\//
 /_static/delivery.js?nonce=$script,~third-party,strict1p,ipaddress=23.239.3.104
