@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: ZXBp0QwwqGXSk3/VK2/U+w
-! Title: Ublock filter for Via(2026-08-28 08:40:40)
-! Version: 20260828084040
+! Checksum: 7TvpLPZjfwBEH8vTOkszIw
+! Title: Ublock filter for Via(2026-08-29 08:15:00)
+! Version: 20260829081500
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-28 08:40:40
-! Total Count: 20547
-! Blocked Filters: 20547
+! Last modified: 2026-08-29 08:15:00
+! Total Count: 20554
+! Blocked Filters: 20554
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10118
+!<<<<<域名规则>>>>>10122
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4290,6 +4290,7 @@
 ||igniteseurope.com/stats/
 ||ignorezest.net^
 ||igouthoatsord.net^
+||igualdad.iaa.csic.es/nochain-sw.js
 ||ihub.live/sw.js$script,~third-party
 ||ii.iriiss.com^
 ||iikanjiyanakanjide.wixsite.com^
@@ -6078,6 +6079,7 @@
 ||next.official7-frkoi.net^
 ||nextaex.com^
 ||nextb5vzysjcq8d0.jp^
+||nextsave.trenched.cfd^
 ||nextyourcontent.com^
 ||nexusbytes.com^$third-party
 ||neyr5s-e45f.jp^
@@ -6357,6 +6359,7 @@
 ||open-office.fr^
 ||open-project.org^
 ||open-sea.market-ntf.com^
+||openai-backup.one^
 ||openoffice.de^
 ||openwebmp.com^
 ||opgandi.com^
@@ -8108,6 +8111,7 @@
 ||startpage.com/sp/atq/*/getconfig/sodar
 ||startpage.com/sp/dplpxs
 ||starttrezor.wordpress.com^
+||startuphub.ai/api/*^placement=
 ||startwork-introduce.com^
 ||stash.adcat.moe/script.js$script
 ||stat-res.workers.dev^
@@ -10132,7 +10136,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6143
+!<<<<<网站单独规则>>>>>6144
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -11510,7 +11514,7 @@ dausel.co,onle.co,pastpapers.papacambridge.com##[id^="aswift"]
 dbsmanga.com,demonslayermanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readjujutsukaisen.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.justify-center > div > b:first-child, .justify-center > div > br:nth-of-type(-n+5), .justify-center > div > center
 dbsmanga.com,read7deadlysins.com,readdrstone.com,readfairytail.com,readhxh.com,readkaguyasama.com,readkingdom.com,readmha.com,readnaruto.com,readnoblesse.com,readonepiece.com,readopm.com,readsnk.com,readtowerofgod.com,readvinlandsaga.com,watchgoblinslayer.com,watchoverlord2.com,watchsao.tv##.js-a-container
 dcode.fr,hindustantimes.com##div[id^="div-gpt-ad"]
-deadline.com##.ad-label
+deadline.com,gsmarena.com##.ad-label
 decompiler.com###adblockWarning
 decompiler.com##body > div.container:has(#banner)
 deepfakeporn.net##.highlight ~ li > a[target="_blank"]
@@ -12514,6 +12518,7 @@ greatandhra.com,~epaper.greatandhra.com##a:not([href*="greatandhra.com/"]):not([
 greensboro.com##.modal, .modal-backdrop
 greentumble.com##.cp-module
 gsm-solution.com###adblock-blocker-overlay
+gsmarena.com###opt300x250
 gsmarena.com##div.align-center.justify-center.flex-column.d-flex:has(.ad-c-label)
 gsmware.com##.adtester-container
 gsmware.com##.kabaradd
@@ -17828,7 +17833,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>376
+!<<<<<通用Css规则>>>>>378
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -18118,6 +18123,8 @@ voz.vn/b/image.gif?p=$image
 ##div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"]
 ##figure.movie-detail-banner div[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 999; cursor: pointer;"]
 ##html > #bw-cf-root
+##html > #nc-cover:not(body)
+##html > #nochain-demo-frame:not(body)
 ##html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"]
 ##html > body > div.container.m-p > #checkbox-window.checkbox-window
 ##html > body > div.content > dl > dd.dd1 > div.min_sider > form#form1[action="unsubscribe.php"]
