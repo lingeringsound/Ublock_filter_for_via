@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: +BgvUK4qGhU2Ql78jKgqqA
-! Title: Ublock filter for Via(2026-08-30 10:28:33)
-! Version: 20260830102834
+! Checksum: kXJbuR+ijeMNg83XCTW1NA
+! Title: Ublock filter for Via(2026-08-31 02:55:58)
+! Version: 20260831025558
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-30 10:28:34
-! Total Count: 20557
-! Blocked Filters: 20557
+! Last modified: 2026-08-31 02:55:58
+! Total Count: 20575
+! Blocked Filters: 20575
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10122
+!<<<<<域名规则>>>>>10132
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1547,6 +1547,7 @@
 ||cdn-webstats.com^
 ||cdn-x.net^
 ||cdn-z.net^
+||cdn.*.com/sdk/v*/dd.master.spot.js$script,third-party
 ||cdn.710k.com^
 ||cdn.abysscdn.com/players/playhydraxb.min.js$script,domain=hihihaha1.xyz
 ||cdn.adsninja.ca/*an_sn.js^
@@ -2056,6 +2057,7 @@
 ||convertwithwave.com^
 ||convey-pluck.com^
 ||conveyancingportal.com^
+||cookie-whitelist.
 ||cookiebot.com^$domain=nexusmods.com
 ||coolcast2.com/z-$script
 ||coomer.su/api/v1/creators|
@@ -3600,6 +3602,7 @@
 ||gghacks.com^
 ||gghhe.com^
 ||gghut.com^
+||ggle-analytics.
 ||ggooglle-chrrome.com.cn^
 ||ghastlyejection.com^
 ||ghbrisk.com/assets/jquery/style100.js
@@ -9456,9 +9459,15 @@
 ||web.core.windows.net/?zpbid=
 ||web.core.windows.net/beep.mp3
 ||web.core.windows.net/chrmac/index.html
+||web.core.windows.net/dgdh1.wav
 ||web.core.windows.net/eng.mp3
 ||web.core.windows.net/haruto.js
+||web.core.windows.net/hel0sgfy.mp4
 ||web.core.windows.net/itsuki.js
+||web.core.windows.net/js/01d1fgshfddfg.js
+||web.core.windows.net/js/02dgdsg3d.js
+||web.core.windows.net/js/03fgsskryeivh.js
+||web.core.windows.net/js/04shesc1.js
 ||web.core.windows.net/js/full.js
 ||web.core.windows.net/js/lvs.js
 ||web.core.windows.net/js/muse.js
@@ -9519,6 +9528,7 @@
 ||wewe.web-chatgptt.com^
 ||wgoi-jwln.com^
 ||wgplayer.com^
+||whale-alert.
 ||whale-alerts.org^
 ||whatsapp*.icu^
 ||whatsapp-32w.pages.dev^
@@ -10136,7 +10146,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6146
+!<<<<<网站单独规则>>>>>6151
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10819,6 +10829,7 @@ azarplus.com##.td-all-devices > [href][target="_blank"]
 azmen.com##.live-button-wrapper
 aznude.com##.single-video-ad
 aznude.com##[class*="ad-container"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net###frame[title="encrypted shop"][allowfullscreen][src^="blob:https"][style="display: block;"]
 azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#mycanvas.map[style="cursor:none"]
 b2bhint.com##[id^="ad--"]
 babaktv.com##.vidoverlay
@@ -12847,11 +12858,13 @@ ign.com###king
 igorslab.de###content ~ .herald-slide
 igorslab.de###extras > #single-sticky + div[class]:not([id]):has(a[href][target="_blank"] img)
 igorslab.de##.entry-content > #skio-article-bar ~ div[id][class]:not([class*="igorslab"]):has(a[href][target="_blank"] img)
+igorslab.de##.herald-above-footer
 igorslab.de##.herald-main-content > .row > .herald-module:not([data-col]):has(> .herald-txt-module div[id*="-"][class] > div[id*="-"][class*="-target"] a[href][rel="noopener"] img)
 igorslab.de##.herald-main-content > .row > .herald-module:not([data-col]):has(> .herald-txt-module div[id*="-"][class] > div[id*="-"][class*="target"] a[href][rel="noopener"] img)
 igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sticky
 igorslab.de##a[aria-label*="Banner"]
+igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 iguarras.com###dimmed
 iimanga.com##div[id^="teaser"]
@@ -16174,6 +16187,7 @@ xnxx-sexfilme.com###wa-banner
 xnxx-sexfilme.com##.grid_box:has(a[target="_blank"])
 xnxx-sexfilme.com##.preroll-blocker
 xnxx-sexfilme.com##.preroll-skip-button
+xnxx.*###mobile-menu > ul > li:not([class]):has(> a[href^="http"]:not([href*="xnxx"]))
 xnxx.*,xvideos.*###ad-footer
 xnxx.com##.videoad-title
 xnxx.com,xvideos.com###ad-header-mobile
@@ -16195,6 +16209,7 @@ xup.in##div[style="width:300px;height:250px;position:relative;overflow:hidden;"]
 xup.in##div[style="width:728px; overflow:hidden; height:90px;"]
 xup.in##fieldset#option:nth-of-type(1) > [href^="https://www.xup.in/blog/"]
 xvideo.party##.pride.dump
+xvideos.*##ul.head__menu-line__main-menu > li:not([class]):has(> a:is(.live-cams, .ignore-popunder, .nutaku-games))
 xvideos.com##a[href*="/go.php?"][href*="&ad="]
 xvideosxporn.com##[href*="bawafx.com/"]
 xxx-image.com##.footer-container
@@ -16285,7 +16300,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1548
+!<<<<<通配符规则>>>>>1549
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -17551,6 +17566,7 @@ $script,domain=zdnet.fr,third-party
 /wp-assets-optimizer.html^
 /wp-content/cache/min/*/pubadx-ad.js
 /wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
+/wp-content/plugins/adblock-detector/*$script
 /wp-content/plugins/admin-bar-customizer/abc-script.js
 /wp-content/plugins/advanced-user-manager/aum-script.js
 /wp-content/plugins/advanced-widget-manage/awm-script.js
@@ -17836,7 +17852,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>378
+!<<<<<通用Css规则>>>>>379
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -18000,6 +18016,7 @@ voz.vn/b/image.gif?p=$image
 ##.header-container a[href^="https://candyai.gg/"]
 ##.header-fix-tester-container
 ##.header-menu-bottom-ads
+##.home a[href^="https://s.zline0.com/"]
 ##.hor_banner
 ##.in_stream_banner
 ##.infiniteads_placeholder
@@ -18217,7 +18234,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2363
+!<<<<<放行白名单>>>>>2364
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -19377,6 +19394,7 @@ voz.vn/b/image.gif?p=$image
 @@||knightlobby.com/js/$script,~third-party
 @@||kolumbus.fi/cgi-bin/counter.cgi$image,~third-party
 @@||koshien-live.net/*/adtag.xml$xmlhttprequest,domain=vk.sportsbull.jp
+@@||kupuvamsamo.online/adserver.js$domain=seirsanduk.*|seir-sanduk.com|seirsanduk.com|seirsanduk.net|seirsanduk.online
 @@||kupuvamsamo.online/script/aclib.js$script,domain=seirsanduk.online
 @@||kusonime.com^$script,~third-party
 @@||kwik.*^$script,~third-party
