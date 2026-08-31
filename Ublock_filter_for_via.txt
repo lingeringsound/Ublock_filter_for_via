@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kXJbuR+ijeMNg83XCTW1NA
-! Title: Ublock filter for Via(2026-08-31 02:55:58)
-! Version: 20260831025558
+! Checksum: zQ+6ZV4RdOmT69A1eQombQ
+! Title: Ublock filter for Via(2026-08-31 10:22:46)
+! Version: 20260831102246
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-31 02:55:58
-! Total Count: 20575
-! Blocked Filters: 20575
+! Last modified: 2026-08-31 10:22:46
+! Total Count: 20576
+! Blocked Filters: 20576
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10146,7 +10146,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6151
+!<<<<<网站单独规则>>>>>6152
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -12864,6 +12864,7 @@ igorslab.de##.herald-main-content > .row > .herald-module:not([data-col]):has(> 
 igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sticky
 igorslab.de##a[aria-label*="Banner"]
+igorslab.de##a[target*="-"]:has(img[src^="blob:"])
 igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 iguarras.com###dimmed
