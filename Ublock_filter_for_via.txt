@@ -1,21 +1,22 @@
 [Adblock Plus 2.0]
-! Checksum: XBjSpHFd3iLfg8cHb2Qr/w
-! Title: Ublock filter for Via(2026-09-01 10:39:18)
-! Version: 20260901103918
+! Checksum: yaIAXEPMpJhYLjx6xcMh5A
+! Title: Ublock filter for Via(2026-09-02 03:00:15)
+! Version: 20260902030015
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-01 10:39:18
-! Total Count: 20585
-! Blocked Filters: 20585
+! Last modified: 2026-09-02 03:00:15
+! Total Count: 20609
+! Blocked Filters: 20609
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10137
+!<<<<<域名规则>>>>>10153
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
 ||*ontent.steamplay.*^
+||.dev$third-party,xmlhttprequest,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net
 ||/api/tracking-codes?type=ads_$xmlhttprequest,domain=oxxfile.*
 ||0.gp/greece2^
 ||007itshop.com^
@@ -1096,6 +1097,7 @@
 ||bathtubabdomencoarse.com^
 ||bavaria-cup.ru^
 ||bb-delivery.icu^
+||bbcwebhosting.com^
 ||bblck.me^
 ||bbs-7.jp^
 ||bbsdx.jp^
@@ -2071,6 +2073,7 @@
 ||copyrights-*.surge.sh^
 ||coralnov.jp^
 ||cordialhoist.top^
+||core-ui.dev^
 ||core.windows.net*/js/fuscn.js
 ||core.windows.net*/js/leave.js
 ||core.windows.net*/js/mouse.js
@@ -3250,6 +3253,7 @@
 ||firebasestorage.googleapis.com/v0/b/gosyndication.appspot.com^
 ||firefaucet.win/*.gif$image
 ||firefox-zh.com.cn^
+||firestream.to/api/videos/*/view
 ||first-horizon.co.com^
 ||fishstrap.com^$domain=~fishstrap.app
 ||fitgirl-repack.*^$domain=~fitgirl-repacks.site
@@ -3318,6 +3322,7 @@
 ||flybfree.ca/AdBlockDetect.js
 ||flymylife.info^
 ||flyshare.cfd^
+||fmhyfxdijrmtf.site^
 ||fmovies.co/sw.js
 ||fmtp-nqyh.com^
 ||fnkbfrqhwmjzj.xyz^
@@ -4311,6 +4316,7 @@
 ||ilil.in^
 ||illinformed-imagination.com^
 ||ilovu.store^
+||ilyvo.com^
 ||im-excellent.com^
 ||ima55notice.biz^
 ||imacdn.com/apics/*.gif
@@ -4637,6 +4643,7 @@
 ||js-agent.newrelic.com^$third-party
 ||js.adsrvr.org/up_loader.$domain=sterkinekor.com
 ||js.allporncomic.com^
+||js.core-ui.dev^
 ||js.helltraffic.com/fluidplayer/scripts/webvtt.min.js$script,domain=tubewolf.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.
 ||js.ui-portal.de/uim/abd/live/abd.min.js
@@ -5033,11 +5040,13 @@
 ||lianashepard.autos^
 ||lianzl.xyz^
 ||lib-333-lib.com^
+||lib-net.dev^
 ||lib.csscloud.live/lib.js?$script,third-party
 ||lib.twnmm.com/admiral-remote-config.json
 ||libretubeapk.com^$domain=~libretube.dev
 ||lidarusa.com/*/Bpostale2022/
 ||lido-elhereum.net^
+||lieferanndo.de^
 ||lien-lienam.com^
 ||life-certain.jp^
 ||life-is-luminous.com^
@@ -6969,6 +6978,7 @@
 ||prod.studysmarter.de/joboffers/
 ||productkeyscanner.com^
 ||proeslgaming.com^
+||prof-noemie-sgzopjv.work^
 ||profile-ourtime.*.workers.dev^
 ||profileclub.info^
 ||profitableratecpmnetwork.com^
@@ -7101,6 +7111,7 @@
 ||qbittorrent.com^
 ||qbk1.com/1.gif?
 ||qeeyou.cn^
+||qemow.com^
 ||qeucuzpbv6jq.jp^
 ||qf6tm5ug.com^
 ||qh-qishuiyinyue.hl.cn^
@@ -8076,6 +8087,7 @@
 ||srdo-acwv.com^
 ||sreality.cz/api/v*/mortgage/offers
 ||srt.am/sw.js$script,~third-party
+||srv.ui-wp.dev^
 ||srvclouds.com^
 ||srvgl.com^
 ||srvtensz.com^
@@ -8128,6 +8140,7 @@
 ||static-cloudflare.workers.dev/?target=aHR0c*$script,third-party
 ||static-cloudflare.workers.dev^$third-party
 ||static-fonts.com^
+||static-lib.dev^
 ||static-rmr.reworldmediafactory.com^
 ||static.accesstrade.vn/js/atsmarttag.min.js
 ||static.accesstrade.vn^$third-party
@@ -8986,6 +8999,7 @@
 ||uggstore.online^
 ||uhdmovies.*/onewinpop.js
 ||uhsee.com^
+||ui-wp.dev^
 ||uicdn.com/uimag/*/assets/_sn_/vendor/homad.min.js
 ||uid.pmi4-g8sd.com^
 ||uii.io^$third-party
@@ -9653,6 +9667,7 @@
 ||wooqi.win^
 ||woowebtools.com/*.png$image
 ||wordsdelivery.com^
+||workers.dev/adblock.js
 ||workers.dev/index.js$script,third-party,requestheader=Cookie:*doubleclick.net*
 ||workers.dev^$domain=axiang.cc
 ||workerz1.com^
@@ -9666,6 +9681,7 @@
 ||worthwhile-draw.com^
 ||worthyboxersympathy.com^
 ||wow-site.site^
+||wp-lib.dev^
 ||wp.com*/banner$image,domain=komikmama.net
 ||wp.com/*.gif$image,domain=watchfreejavonline.co
 ||wpenginepowered.com/usps/
@@ -10151,7 +10167,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6153
+!<<<<<网站单独规则>>>>>6159
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10412,6 +10428,7 @@ Please, don't. https://github.com/styleguide/templates/2.0
 ^device_model=*&p1=https
 ^lpkey=*&uclickhash=
 ^mh=*&mmid=$script
+^ofv_id=*&aff_pub_id=*&click_id=*&subid1=*&subid2=
 ^s1=*&click_id=
 ^s=*&ssk=*&svar=*&z=
 ^s=*&z=*&svar=*&ssk=
@@ -10788,6 +10805,7 @@ autoembed.app,vidbox.dev,vidbox.vc##section[aria-label="Sponsored content"]
 autofaucet.dutchycorp.space##.show-on-medium
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space,pcgamestorrents.com##[href*="banner"]
+autokult.pl,benchmark.pl,o2.pl,wp.pl##.wp-comments-adv-wrapper:not(:has(> .wp-comments-moth-teaser-container)):has(> .wp-comments-adv[data-testid^="ad-slot-"])
 autokult.pl,komorkomania.pl,fotoblogia.pl,kafeteria.pl,smaczneblogi.pl##div[class]:has(> div[class]:empty + img[src^="https://i.wpimg.pl/"])
 automobiledimension.com##.avisdiv
 autoscout24.*##div[class^="AdContentBanner"]
@@ -12436,6 +12454,10 @@ girlsofdesire.org##div[data-width="600"]
 givee.club##.definetelynotanad
 givemeaporn.com,pornborne.com##.JoinChannel
 givemeaporn.com,pornborne.com,porner.tv##.sources
+gizguide.com###fixedbox
+gizguide.com###sidebar-wrapper .widget.HTML:has(a[href^="https://bit.ly/"])
+gizguide.com##.featured
+gizguide.com,mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net,sysnettechsolutions.com##a[href^="https://bit.ly/"]
 gjirafa.com##[id^="an-holder"]
 gjirafa.com##[id^="gjc"]
 gledajcrtace.xyz###header-wrap-reklama
@@ -13478,7 +13500,6 @@ mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelom
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##.owl-item:has(a[href^="https://bit.ly/"])
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##.pinned-ad-popular
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net,short.croclix.me##.banner-container
-mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net,sysnettechsolutions.com##a[href^="https://bit.ly/"]
 mangabuddy.com###chapter__content > div.container:nth-of-type(3)
 mangadex.org##a[href^="https://www.runoperagx.com/"]
 mangahere.onl##.container.ads-container
@@ -14649,6 +14670,7 @@ reidoplacar.com###divactioncheck > .mb-3
 rekogap.xyz###exclusive-content
 remodelista.com##[data-advert]
 rentry.co##article:has(#download-your-archive-file)
+repack-games.com##div > center > button[data-bound="true"]
 repack-games.com##div.game-cta-section
 repelisgoo.*,repelisgooo.*,repelisgt.*,repelisxd.*,pelisplusgo.*,pelisplusxd.*##div[class]:has(> div[class] > iframe[src*="/srv-pv/tag-"])
 repuls.io###partnerAd_letter
@@ -15132,6 +15154,7 @@ startpage.com##div[data-identifier="exoclick-native-impression"]
 static.adsugar.ch%2Fimg%3Ford%3D$image
 static.adsugar.ch%2Fimg%3Ford%3D*$image
 static.adsugar.ch/img?ord=$image
+steam-repacks.net##div > center > button[style*="border: 0px"][style*="cursor: pointer"]
 steamcrackedgames.com##[href^="https://startgaming.net/"]
 steanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
@@ -16043,7 +16066,6 @@ wp.pl##div:has(> div:first-child:has(> iframe:only-child) + div:last-child:empty
 wp.pl##div[class]:not([class^="wp-content"]):has(> img + div:empty + div > [id^="div-gpt-ad-"])
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl##body > div:has(> div:first-child > div:empty + img + div):has(> div:first-child + a:last-child > div:first-child + div:last-child:empty)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl,forum.kardiolo.pl##body > div[class]:has(> div:first-child:empty + div:last-child > svg[width="95"][height="95"]:only-child > path)
-wp.pl,o2.pl##.wp-comments-adv-wrapper:not(:has(> .wp-comments-moth-teaser-container)):has(> .wp-comments-adv[data-testid^="ad-slot-"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[class] > div:not([class], [id]):only-child:has(> div[class]:only-child > div[class]:first-child > a > img[src^="https://v.wpimg.pl/"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[style="position: relative; top: 0px;"]:has(> a[target="_blank"])
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,jastrzabpost.pl,forum.kardiolo.pl##div:has(> div > iframe[src^="https://v.wpimg.pl/"][frameborder="0"][scrolling="no"]:first-child)
@@ -16307,7 +16329,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1550
+!<<<<<通配符规则>>>>>1552
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -17155,6 +17177,7 @@ $script,domain=zdnet.fr,third-party
 /github.com/notifications/beacon/*$image
 /gm.mmstat.com/*$image
 /go.magoosh.com/e1t/o/*$image
+/go/*^ref=*&subid1=*&subid2=
 /gofd_fl.js
 /googleanalytics.js$third-party
 /gp/video/acquisition/utilities/monitoring|
@@ -17772,6 +17795,7 @@ Please, don't. https://github.com/styleguide/templates/2.0
 ^device_model=*&p1=https
 ^lpkey=*&uclickhash=
 ^mh=*&mmid=$script
+^ofv_id=*&aff_pub_id=*&click_id=*&subid1=*&subid2=
 ^s1=*&click_id=
 ^s=*&ssk=*&svar=*&z=
 ^s=*&z=*&svar=*&ssk=
