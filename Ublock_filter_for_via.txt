@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yaIAXEPMpJhYLjx6xcMh5A
-! Title: Ublock filter for Via(2026-09-02 03:00:15)
-! Version: 20260902030015
+! Checksum: c3WRiSm5vVE4UjtHS89z1w
+! Title: Ublock filter for Via(2026-09-02 10:00:26)
+! Version: 20260902100026
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-02 03:00:15
-! Total Count: 20609
-! Blocked Filters: 20609
+! Last modified: 2026-09-02 10:00:26
+! Total Count: 20610
+! Blocked Filters: 20610
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -18268,7 +18268,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2364
+!<<<<<放行白名单>>>>>2365
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -20626,6 +20626,7 @@ worldpopulationreview.com#@##top_ad_container
 wp.pl#@#[class^="css-"]
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl#@#[class^="advertisement"]
 www.google.*#@#div[data-async-context] [style]:has(a[href^="/aclk?sa="])
+wykop.pl#@#.pub-slot-wrapper
 xissmie.xfolio.jp,misskey.art#@#div[data-sticky-container-header-height] > div[refresher] div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"])
 yourmomdoesporn.com#@#[data-revive-zoneid]
 youtube.com#@##player-ads
