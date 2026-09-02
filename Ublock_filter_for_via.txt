@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: c3WRiSm5vVE4UjtHS89z1w
-! Title: Ublock filter for Via(2026-09-02 10:00:26)
-! Version: 20260902100026
+! Checksum: 0jlgp7Sg++7wpYRoYH12GA
+! Title: Ublock filter for Via(2026-09-03 03:06:15)
+! Version: 20260903030615
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-02 10:00:26
-! Total Count: 20610
-! Blocked Filters: 20610
+! Last modified: 2026-09-03 03:06:15
+! Total Count: 20614
+! Blocked Filters: 20614
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10153
+!<<<<<域名规则>>>>>10156
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1630,6 +1630,7 @@
 ||cdn.srxy.xyz^
 ||cdn.staticmoly.me/*.php
 ||cdn.staticmoly.me/*.php$domain=vidmoly.*
+||cdn.streameet.top^
 ||cdn.streamroot.io/dna-client/$script,domain=prod-player.tf1.fr
 ||cdn.stroeerdigitalgroup.de/metatag/live/$domain=~golem.de
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
@@ -6376,6 +6377,7 @@
 ||open-project.org^
 ||open-sea.market-ntf.com^
 ||openai-backup.one^
+||openlive.chat^
 ||openoffice.de^
 ||openwebmp.com^
 ||opgandi.com^
@@ -7829,6 +7831,7 @@
 ||sites.google.com/view/ai-image-3d^
 ||sites.google.com/view/awesome-themes-desktop^
 ||sites.google.com/view/blue-softs^
+||sites.google.com/view/brewapp
 ||sites.google.com/view/codex-desktop-app
 ||sites.google.com/view/drcheats6|
 ||sites.google.com/view/easylaunch|
@@ -18268,7 +18271,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2365
+!<<<<<放行白名单>>>>>2366
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -20589,6 +20592,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 spotifydown.com#@#.semi-transparent
 stamfordmercury.co.uk#@#.MPU
 startpage.com#@#[style]:has(path):has([href*="aff"])
+sugoren.com#@#.widget
 surfline.com#@#.ad-box:not(#ad-banner):not(:empty)
 tamin.ir#@#.ads2
 techradar.com#@#a[href^="https://amazon."][href*="tag="]
