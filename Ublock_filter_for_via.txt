@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GX5m1hcgN7LsO6uSBWaphw
-! Title: Ublock filter for Via(2026-09-03 10:05:26)
-! Version: 20260903100526
+! Checksum: L1x4b9Gg0lwZP5k7JFzZgA
+! Title: Ublock filter for Via(2026-09-04 02:58:46)
+! Version: 20260904025846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-03 10:05:26
-! Total Count: 20614
-! Blocked Filters: 20614
+! Last modified: 2026-09-04 02:58:46
+! Total Count: 20618
+! Blocked Filters: 20618
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10156
+!<<<<<域名规则>>>>>10159
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -615,7 +615,9 @@
 ||analytics.bitchute.com^
 ||analytics.dawg.network^
 ||analytics.fmovies4u.com^
+||analytics.freezehost.pro^
 ||analytics.google.com^$third-party
+||analytics.meaww.com^
 ||analytics.strapi.io^
 ||analytics.tiendaenoferta.com^
 ||analytics.yyggames.com^
@@ -8388,6 +8390,7 @@
 ||sweetmemo.net^
 ||sweetmemoryy.com^
 ||swetrix.com/log^
+||swewart.sbs^
 ||swiftflare.click^
 ||swiss-passapp.web.app^
 ||swisspost.web.app^
@@ -10949,7 +10952,7 @@ bestjavporn.com,mm9841.cc###flash
 besttwinkass.com##[class*="_Bns"]
 bestx.stream,boosterx.stream,forplayx.ink,mov18plus.cloud,moviesapi.club,sexempire.xyz,stream.anplay.in###video_player ~ div[id]:has(> div[style^="position:fixed;inset:0px;z-index"] > a[target="_blank"])
 beta.xfreehd.com##.col-md-12:has(a[href^="https://landing.brazzersnetwork.com/"])
-beta.xfreehd.com,cbc.ca,crosswordsolver.com,gecmisi.com.tr,getmodsapk.*,gfx-station.com,namemc.com,nathanmichaelphoto.com,netronline.com,news18.com,thetimes.com,torupload.com,updateroj24.com##.ad-container
+beta.xfreehd.com,cbc.ca,crosswordsolver.com,futbin.com,gecmisi.com.tr,getmodsapk.*,gfx-station.com,namemc.com,nathanmichaelphoto.com,netronline.com,news18.com,thetimes.com,torupload.com,updateroj24.com##.ad-container
 bettycrocker.com##.adhesiveAdSpacing
 beverfood.com###backy
 beverfood.com##.switchabig
@@ -16332,7 +16335,7 @@ zuperdrive.my.id###directAds
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1552
+!<<<<<通配符规则>>>>>1553
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -17462,6 +17465,7 @@ $script,domain=zdnet.fr,third-party
 /security-challenge-captcha.html^
 /sendy.clyp.it/t/*$image
 /sendy/t/*$image
+/services/*^ix=*&rt=$script,third-party
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
 /shadow/*adshield$domain=mail.yahoo.com
 /shopifycloud/media-analytics/v*/analytics.js
