@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Xx6wqICyXHjj8uYUqQf1tg
-! Title: Ublock filter for Via(2026-09-05 02:42:25)
-! Version: 20260905024225
+! Checksum: +8d56gxLlUuTEZgvhsPQDg
+! Title: Ublock filter for Via(2026-09-05 10:02:03)
+! Version: 20260905100203
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-05 02:42:25
-! Total Count: 20627
-! Blocked Filters: 20627
+! Last modified: 2026-09-05 10:02:03
+! Total Count: 20628
+! Blocked Filters: 20628
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10174,7 +10174,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6165
+!<<<<<网站单独规则>>>>>6166
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -16197,6 +16197,7 @@ www.youtube.com###page-manager:has(#player-error-message-container #subreason a.
 www.youtube.com###page-manager:has(#player-error-message-container) yt-playability-error-supported-renderers#error-screen
 www.youtube.com##.ytdMiniplayerPlayerContainerHost .ytdMiniplayerPlayerContainerPlayabilityError
 www.youtube.com##yt-playability-error-supported-renderers#error-screen
+wykop.pl##.stream-home:has(.recommend-label a[href^="/reklama"])
 x.com##a[href="https://twitter.undefined/"]
 x.com##article[data-testid="tweet"] a[href^="https://linkneverdiel.com"]
 x1337x.eu##.mgbox
