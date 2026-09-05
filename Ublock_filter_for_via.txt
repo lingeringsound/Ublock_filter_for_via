@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: +8d56gxLlUuTEZgvhsPQDg
-! Title: Ublock filter for Via(2026-09-05 10:02:03)
-! Version: 20260905100203
+! Checksum: Er2KuMMfchbZ0I+cWVEUww
+! Title: Ublock filter for Via(2026-09-06 01:48:25)
+! Version: 20260906014825
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-05 10:02:03
-! Total Count: 20628
-! Blocked Filters: 20628
+! Last modified: 2026-09-06 01:48:25
+! Total Count: 20630
+! Blocked Filters: 20630
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10160
+!<<<<<域名规则>>>>>10161
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -8080,6 +8080,7 @@
 ||spoti-safe-support*.codeanyapp.com^
 ||spotify*.ct.ws^
 ||spotify.com/gabo-receiver-service/public/v3/events
+||spotify.com/gabo-receiver-service/v3/events
 ||spotify.custmcssser.com^
 ||spotifyprimeszones-
 ||spotifyprimeszones-sl.ct.ws^
@@ -10174,7 +10175,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6166
+!<<<<<网站单独规则>>>>>6167
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -12900,6 +12901,7 @@ igorslab.de##.herald-sticky
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[target*="-"]:has(img[src^="blob:"])
 igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
+igorslab.de##a[target] img[src^="blob:"]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 iguarras.com###dimmed
 iimanga.com##div[id^="teaser"]
