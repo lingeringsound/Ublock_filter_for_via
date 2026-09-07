@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: YsD561/rY9XJQOLjcSTUdQ
-! Title: Ublock filter for Via(2026-09-07 09:54:57)
-! Version: 20260907095457
+! Checksum: o+drTiFwehusXp2+EEupAw
+! Title: Ublock filter for Via(2026-09-08 03:29:24)
+! Version: 20260908032924
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-07 09:54:57
-! Total Count: 20631
-! Blocked Filters: 20631
+! Last modified: 2026-09-08 03:29:24
+! Total Count: 20641
+! Blocked Filters: 20641
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10162
+!<<<<<域名规则>>>>>10167
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -990,6 +990,7 @@
 ||avjamak.net/data/by_banner/
 ||avocetriches.com^
 ||avsakrcapna.com^
+||aw-huorong.com.cn
 ||awagbbxlyqoys.com^
 ||awapp.store^
 ||awdeliverynet.com^$third-party
@@ -3149,6 +3150,7 @@
 ||fcukxxx.com^
 ||fd-2.shop^
 ||feacboolk.com^
+||featherswallet.org^
 ||febdd.info^
 ||fecebook.com^
 ||fedbuoy.com^
@@ -6077,6 +6079,7 @@
 ||new-twinks.com^
 ||new.deeper-start.com^
 ||new.hpk0fu9.jp^
+||new.point-youtools.com^
 ||newappmssg.ru^
 ||newencounter.pw^
 ||newgitgerto.xyz^
@@ -6444,6 +6447,8 @@
 ||otonanona.jp^
 ||otonatime.net^
 ||otoromachat.com^
+||otrium.*/measure/
+||otrium.*/static/newrelic.js
 ||ouchoamsulrey.com^
 ||oundhertobeconsist.org^
 ||ouo.*/js/jbitly.js$script,~third-party
@@ -10176,7 +10181,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6167
+!<<<<<网站单独规则>>>>>6171
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10653,7 +10658,7 @@ anime3rb.com##div[x-data*="countdown"]
 anime4i.vip##.a--d-wrapper
 anime4i.vip##div[class^="container-ads-"]
 anime7.download###sidebar > div.widget_custom_html
-anime7.download,babaktv.com,bigleaguepolitics.com,bitview.cloud,bolly4u.*,convallariaslibrary.com,cricfy.net,descarga.xyz,desiremovies.*,fast-dl.*,freetutorialsus.com,gamedrive.org,hentaihaven.xxx,howifx.com,jujmanga.com,kaystls.site,nexdrive.*,secondlifetranslations.com,vibehubs.com,vice.com,windowsreport.com##.code-block
+anime7.download,babaktv.com,bigleaguepolitics.com,bitview.cloud,bolly4u.*,convallariaslibrary.com,cricfy.net,descarga.xyz,desiremovies.*,fast-dl.*,freetutorialsus.com,gamedrive.org,hentaihaven.xxx,howifx.com,jpopsingles.eu,jujmanga.com,kaystls.site,nexdrive.*,secondlifetranslations.com,vibehubs.com,vice.com,windowsreport.com##.code-block
 animedao.*##.ab
 animedao.*##.gads
 animedao.*##hr
@@ -12904,6 +12909,8 @@ igorslab.de##a[target*="-"]:has(img[src^="blob:"])
 igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
 igorslab.de##a[target] img[src^="blob:"]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
+igorslab.de##span[aria-label][role="img"][style*="data:image"]
+igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 iguarras.com###dimmed
 iimanga.com##div[id^="teaser"]
 iir.ai###link-view > div[style] + p[style] + center > [href][target]
@@ -12980,6 +12987,7 @@ insurglobal.xyz##.yuidea-top
 interactivemap.app###streamers
 interactivemap.app##.footer
 intercelestial.com,teknoasian.com##.right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*="s0-greate"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments
+intercelestial.com,teknoasian.com##.right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*="s0-greate"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments, .post-share.tags-share-box, .alignleft.wp-caption
 internetretailing.com.au##.textwidget:has(> div > div[id^="IRN_Homepage_300x250"])
 interracial.com##[src^="https://www.interracial.com/player/html.php"]
 inverse.com##article .adWrapper
@@ -13135,6 +13143,7 @@ joomlabeginner.com##.bannergroup
 jotapov.com##.jconfirm
 journaldemontreal.com##.bigbox-container
 jovemnerd.com.br###ad-wallpaper
+jpopsingles.eu###start ~ div[align="center"]
 jpopsingles.eu##[src="/ddl/dl-get.png"]
 jpopsingles.eu##[src="/ddl/dl-link.png"]
 jprime.jp##.ad-overlay
@@ -17902,7 +17911,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>383
+!<<<<<通用Css规则>>>>>384
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -18044,6 +18053,7 @@ voz.vn/b/image.gif?p=$image
 ##.close-btn4[onclick="closeAd4()"]
 ##.close-btn[onclick="closeAd()"]
 ##.container a[href^="https://go.mavrtracktor.com/"]
+##.container a[href^="https://insensitiveshoweraudible.com/"]
 ##.container a[href^="https://seduced.com"][href*="ref="]
 ##.container a[title="AI Jerk OFF"][href][target="_blank"]
 ##.cta-button[onclick="openUpdateModal()"]
