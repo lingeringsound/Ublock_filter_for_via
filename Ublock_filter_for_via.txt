@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: WbhsH9EhNZy0uam62E0UDg
-! Title: Ublock filter for Via(2026-09-08 10:06:11)
-! Version: 20260908100611
+! Checksum: WBbKeAjkvcsKeIQtmgx/HQ
+! Title: Ublock filter for Via(2026-09-09 03:08:20)
+! Version: 20260909030820
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-08 10:06:11
-! Total Count: 20641
-! Blocked Filters: 20641
+! Last modified: 2026-09-09 03:08:20
+! Total Count: 20653
+! Blocked Filters: 20653
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10167
+!<<<<<域名规则>>>>>10171
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1688,6 +1688,7 @@
 ||ch3l.net^
 ||cha-nce.net^
 ||chairmanalienxanthopsia.com^
+||chalkedwhiningromance.com^
 ||cham-soc-the-
 ||champagne.futurecdn.net/champagne.js
 ||champion-place77.com^
@@ -2966,6 +2967,7 @@
 ||euphonefiar.com^
 ||euromaillinnk.com^
 ||europixhd.net/js/propadbl_epxhd.js$script,~third-party
+||eurostream.cfd/pmirror.js
 ||eurowebmonitortool.com^
 ||ev-upstart.com^
 ||ev.every-every-happy.com^
@@ -5666,6 +5668,7 @@
 ||minecraftskins.com/miscjs/as*.js
 ||minerva.devices.a2z.com^
 ||mingvip.com^
+||minhatela.xyz/mt-probe.js
 ||miniurl.*/sw.js$script,~third-party
 ||minochinos.com/assets/jquery/player.js
 ||minochinos.com/assets/jquery/static.js
@@ -7025,6 +7028,7 @@
 ||psh-static.b-cdn.net^
 ||pt.halhal.click^
 ||ptgt.monuone-present.com^
+||ptoszek.pl^
 ||ptron.net^
 ||pttavm.*.com.tr^
 ||ptube.pipio.site/adblock.js
@@ -10181,7 +10185,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6171
+!<<<<<网站单独规则>>>>>6179
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -12621,6 +12625,7 @@ haoweichi.com##.ad2
 hardcoreluv.com,imageweb.ws,pezporn.com,wildpictures.net##.box1[style^="height"]
 hardwarezone.com.sg###sponsored-links-alt
 hardwarezone.com.sg##.hwz-ad-outstream
+harpersbazaar.com##div[aria-labelledby="recirc-heading"]
 hastingsobserver.co.uk##.leaderboard-ad
 hatsukimanga.com##.cookies
 haxnode.net##[id^="haxno-"]
@@ -12909,8 +12914,10 @@ igorslab.de##a[target*="-"]:has(img[src^="blob:"])
 igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
 igorslab.de##a[target] img[src^="blob:"]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
+igorslab.de##img[src^="blob:http"][style*="display"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
+igorslab.de##svg image[href^="data:image/"]
 iguarras.com###dimmed
 iimanga.com##div[id^="teaser"]
 iir.ai###link-view > div[style] + p[style] + center > [href][target]
@@ -13800,6 +13807,8 @@ myabandonware.com##[id*="myabandonware_"][id$="tf"]
 myabandonware.com##[onclick*="aff"]
 myabandonware.com##a[href*="jeroud.com"]:has(img)
 myabandonware.com##a[target="_top"]:has(img)
+myanimelist.net###contentWrapper ~ div[class]:not([id]):has(a.ga-click img.ga-impression)
+myanimelist.net###headerSmall + div[class]:not([id]):has(a.ga-click img.ga-impression)
 myanimelist.net##.ad-sas
 myanimelist.net##.bookstore-detail-right
 myanimelist.net##.js-scrollfix-bottom-rel.rightside > div[style]:has(.ad-sas)
@@ -13812,6 +13821,8 @@ myanimelist.net##a[href^="https://mangamirai.com/"]
 myanimelist.net##div[class*="bookstores-recommend-plugin-"]:has(span[class="sponsored"])
 myanimelist.net##div[id$="_NXU_wrap"]
 myanimelist.net##div[id$="_NXU_wrap"], div[id$="_NXU_TITLE_wrap"]
+myanimelist.net##div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"]:has([data-ad-target])
+myanimelist.net##div[style="padding:16px 0px 0px 0px;"]
 myanimelist.net%2Fstatic%2Flogging.gif%3F$image
 myanimelist.net%2Fstatic%2Flogging.gif%3F*$image
 myanimelist.net/pixel?$image
@@ -15873,6 +15884,7 @@ vladan.fr##[href^="https://www.nakivo.com/"]
 vladan.fr##[href^="https://www.starwindsoftware.com/"]
 vlr.gg###wrapper > .col-container > .col > div[class]:has(> a.botd-n)
 vlr.gg##a.botd-n
+vnexpress.net##.wrap-hd-adblock
 vnjpclub.com##.vnjp-ad-slot
 voirfilms.*##.lefermeur
 voirseries.*###playerOver
