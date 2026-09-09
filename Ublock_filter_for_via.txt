@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: YhQrRUXJXmoIuWOSe7OXZg
-! Title: Ublock filter for Via(2026-09-09 10:10:36)
-! Version: 20260909101036
+! Checksum: MMDhnrlT3AzoR3gwybc/LA
+! Title: Ublock filter for Via(2026-09-10 02:55:57)
+! Version: 20260910025557
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-09 10:10:36
-! Total Count: 20654
-! Blocked Filters: 20654
+! Last modified: 2026-09-10 02:55:57
+! Total Count: 20658
+! Blocked Filters: 20658
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10172
+!<<<<<域名规则>>>>>10175
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4653,6 +4653,7 @@
 ||js.adsrvr.org/up_loader.$domain=sterkinekor.com
 ||js.allporncomic.com^
 ||js.core-ui.dev^
+||js.gay-torrents.net/cleanup.js
 ||js.helltraffic.com/fluidplayer/scripts/webvtt.min.js$script,domain=tubewolf.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.
 ||js.ui-portal.de/uim/abd/live/abd.min.js
@@ -9067,6 +9068,8 @@
 ||unicore.pw^
 ||uniformdating.com^
 ||uniguide.media^
+||unikey.edu.vn^$reason=Trang web chinh thuc: https://unikey.org
+||unikey.vn^$reason=Trang web chinh thuc: https://unikey.org
 ||union.macoms.la^
 ||unionplus-card.click^
 ||unionplus-card.click^$document
@@ -17924,7 +17927,7 @@ voz.vn/b/image.gif?p=$image
 ​/sw.js^$script,domain=animekai.*|anikai.*|animekai.to|anikai.to|animekai.pw|animekai.fi|animekai.fo|animekai.gs|animekai.la
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>384
+!<<<<<通用Css规则>>>>>385
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -18199,6 +18202,7 @@ voz.vn/b/image.gif?p=$image
 ##body > .page > .verify-row
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
 ##body > .wrapper > .card-box > #step-1
+##body > a.visible[id][href][target="_blank"]
 ##body > div.captcha-container > div.captcha-card
 ##body > div.mw[role="main"] > .mc
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
