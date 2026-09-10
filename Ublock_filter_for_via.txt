@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: QkC+tn0z7WIKUDE8gRaPXw
-! Title: Ublock filter for Via(2026-09-10 10:07:53)
-! Version: 20260910100753
+! Checksum: Xsic+aLpBl8Aw1WnhV5xSg
+! Title: Ublock filter for Via(2026-09-11 02:49:08)
+! Version: 20260911024908
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-10 10:07:53
-! Total Count: 20658
-! Blocked Filters: 20658
+! Last modified: 2026-09-11 02:49:08
+! Total Count: 20662
+! Blocked Filters: 20662
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10175
+!<<<<<域名规则>>>>>10177
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4309,6 +4309,7 @@
 ||igluumars.click^
 ||igniteseurope.com/stats/
 ||ignorezest.net^
+||igorslab.de/wp-content/plugins/igorslab-ads-suite/
 ||igouthoatsord.net^
 ||igualdad.iaa.csic.es/nochain-sw.js
 ||ihub.live/sw.js$script,~third-party
@@ -6234,6 +6235,7 @@
 ||ob.*.com/i/*.js|$script,third-party,domain=apothekenaratgeber.com|apothekenaratgeber.de|massagechairs.com
 ||obeseglobewimp.com^
 ||obiaheroid.top^
+||oblivioncertain.com^
 ||obs-software.cc^
 ||observe.runpod.io/static/web-vitals.js
 ||ocalam.com:8443/impact^
@@ -10189,7 +10191,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6179
+!<<<<<网站单独规则>>>>>6181
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -12918,9 +12920,11 @@ igorslab.de##a[target*="-"]:has(img[src^="blob:"])
 igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
 igorslab.de##a[target] img[src^="blob:"]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
+igorslab.de##img[src^="blob:http"]
 igorslab.de##img[src^="blob:http"][style*="display"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
+igorslab.de##span[style]:has(svg path)
 igorslab.de##svg image[href^="data:image/"]
 iguarras.com###dimmed
 iimanga.com##div[id^="teaser"]
