@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PLTz5ORrgGnai3xQ6sJPJg
-! Title: Ublock filter for Via(2026-09-13 01:58:45)
-! Version: 20260913015845
+! Checksum: uG18a9mNWAmUc3fqWvy7IQ
+! Title: Ublock filter for Via(2026-09-13 10:06:45)
+! Version: 20260913100645
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-13 01:58:45
-! Total Count: 20675
-! Blocked Filters: 20675
+! Last modified: 2026-09-13 10:06:45
+! Total Count: 20677
+! Blocked Filters: 20677
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -10197,7 +10197,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6188
+!<<<<<网站单独规则>>>>>6190
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -10705,6 +10705,8 @@ anitube.*##div[style^="pointer-events: none; position: absolute; "]
 anitube.site###protetorVideo
 aniwave.*##.adx
 aniwave.*##.text-center:has(script + a[target="_blank"])
+aniwixi.xyz###wixi-single-ad-overlay
+aniwixi.xyz##body > [style^="position: fixed; top: 0; left: 0;"][style*="z-index: 999999;"][target="_blank"]
 anoboy.*###popup_bawah
 anoboy.*###popup_box
 anoboy.*##[href^="http://click2go.me/"]
