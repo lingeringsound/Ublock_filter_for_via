@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oWooe6cMwRlUqgvZEheZEQ
-! Title: Ublock filter for Via(2026-09-15 22:49:47)
-! Version: 20260915224947
+! Checksum: sMAoJ2qbv5mZoNNtFKCmag
+! Title: Ublock filter for Via(2026-09-16 01:19:08)
+! Version: 20260916011908
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-15 22:49:47
-! Total Count: 20696
-! Blocked Filters: 20696
+! Last modified: 2026-09-16 01:19:08
+! Total Count: 20702
+! Blocked Filters: 20702
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10194
+!<<<<<域名规则>>>>>10197
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -601,6 +601,7 @@
 ||amplifyapp.com/*/js/esc.js
 ||amplifyapp.com/*/js/flscn.js
 ||amplifyapp.com/Win*/index.html
+||amplifyapp.com/support.js|$~third-party
 ||ams.cdn.arkadiumhosted.com/advertisement/
 ||amschat.top^
 ||amserva.com^
@@ -778,6 +779,7 @@
 ||app.plum375ap.com^
 ||app.solayer.bond^
 ||app.stocksj.xyz^
+||app.suckmongif.com^
 ||app.uniswaq.org^
 ||app.v2lido.bond^
 ||app.vision6.com/em/message/email/
@@ -2651,6 +2653,7 @@
 ||download-app.net^
 ||download-campaign.com^
 ||download-wetransfer-*.vercel.app^
+||download.guomeizuo.com^
 ||downloadpirate.com/sw.js$script
 ||downloadsbeta.com^
 ||downloadstep.com^
@@ -10208,7 +10211,7 @@
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>6193
+!<<<<<网站单独规则>>>>>6196
 $ipaddress=185.100.85.248
 $ipaddress=185.216.143.121
 $script,domain=zdnet.fr,third-party
@@ -12938,6 +12941,9 @@ igorslab.de##.herald-main-content > .row > .herald-module:not([data-col]):has(> 
 igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sticky
 igorslab.de##.ilgha-scale-frame:has(.ilgha-related-similar)
+igorslab.de##[aria-label="Advertisement" i]
+igorslab.de##[aria-label="Werbung" i]
+igorslab.de##[aria-label="广告"]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[target*="-"]:has(img[src^="blob:"])
 igorslab.de##a[target="_blank"]:has(img[src^="blob:"])
@@ -15542,7 +15548,7 @@ tokyomotion.com##.videos > .column:not([id])
 tonpornodujour.com###disclaimerId
 toonstream.*##.SH-Ads
 toonstream.*##.fake-player-overlay
-top##body > center + .A + .post
+top##body > center + .a + .post
 top-faucet.com##div[style]:has(> span[id^="ezoic"])
 top.gg###parent_nn_player
 top.gg###rewarded-video
