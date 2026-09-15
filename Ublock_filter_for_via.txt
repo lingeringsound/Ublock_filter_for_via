@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5HCbQLWXxSxyP63JQQE0MQ
-! Title: Ublock filter for Via(2026-09-16 02:58:42)
-! Version: 20260916025842
+! Checksum: WuuMRWtb38P5IqwUuhKUJQ
+! Title: Ublock filter for Via(2026-09-16 03:05:50)
+! Version: 20260916030550
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-16 02:58:42
-! Total Count: 20906
-! Blocked Filters: 20906
+! Last modified: 2026-09-16 03:05:50
+! Total Count: 20868
+! Blocked Filters: 20868
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -18434,7 +18434,7 @@ voz.vn/b/image.gif?p=$image
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>2495
+!<<<<<放行白名单>>>>>2457
 #@##__next > div.absolute.inset-0.w-full.h-screen.z-\[99999\]
 #@##__next > div[style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"]
 #@##adContext
@@ -20567,7 +20567,6 @@ abczdrowie.pl#@#.article__textbox
 abczdrowie.pl#@#[class^="content-aside__"], div[class^="article "], div[class^="article__textbox "]
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,bild.de,deliciousmagazine.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wirtualnemedia.pl,wp.pl#@#.ads
 abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,deliciousmagazine.pl,dobreprogramy.pl,docer.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,jastrzabpost.pl,kafeteria.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,vod.tvp.pl,wp.pl#@#[class^="ad-"]
-abczdrowie.pl,autokult.pl,film.wp.pl,fitness.wp.pl,fotoblogia.pl,gadzetomania.pl,gry.wp.pl,gwiazdy.wp.pl,horoskop.wp.pl,kobieta.wp.pl,komorkomania.pl,money.pl,pogoda.wp.pl,sportowefakty.wp.pl,tech.wp.pl,teleshow.wp.pl,tv.wp.pl,twojeip.wp.pl,wawalove.wp.pl,wiadomosci.wp.pl,wideo.wp.pl,wp.pl#@#+js(aost, WP.prebid, onLoad)
 abysscdn.com,emturbovid.com,hihihaha1.xyz,hihihehe01.xyz,player-cdn.com,playhydrax.com,playm4u.xyz#@#.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 adblockstreamtape.*,adblockstrtape.*,adblockstrtech.*,antiadtape.*,stape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info#@#.adb-top
@@ -20577,7 +20576,6 @@ ads.flytant.com,browser.lol,h-flash.com,rakuten.com#@#.google-ads
 ads.snapchat.com,cyfostreams.com,porntn.com#@#.banner_ad
 adsrt.*#@#div[id*="ScriptRoot"]
 advertisertape.com,tapeadsenjoyer.com,tapeadvertisement.com,tapeantiads.com,tapelovesads.org,tapenoads.com,watchadsontape.com#@#.skyscraper.ad
-akirabox.com,akirabox.to,bowfile.com,buzzheavier.com,bzzhr.co,bzzhr.to,datavaults.co,fuckingfast.*,multiup.io,rootz.so,usersdrive.com,vik1ngfile.site,zpaste.net#@#+js(set, Document.prototype.createElement.call, noopFunc)
 allporncomic.com#@#iframe
 allround-pc.com#@#a[rel="noopener external"] > img[src^="/"]
 alltransistors.com#@##reklama
@@ -20623,14 +20621,12 @@ bild.de#@#.servicelinks
 bild.de#@#.tea-rectangle
 bild.de#@#.txe
 bild.de#@#.yield
-bilibili.com#@#+js(json-prune-fetch-response, data.item.[-].business_info.ad_desc, '', /feed/rcmd)
 bing.com#@#.b_ad
 bing.com#@#.b_adLastChild
 bing.com#@#.pa_sb
 bing.com#@#a[href*="/aclick?ld="]
 bitzite.com#@#.banner-ad
 brasilescola.uol.com.br#@#.banner
-brew.sh,christitus.com,community-scripts.org,massgrave.dev,natfrp.com#@#+js(prevent-clipboard-write, /^mshta|^msiexec|^(bash <<<|curl -kfsSL) \$\(echo .+? base64 -d\b|^cmd \/c .*?\bcurl .+?(\.exe|\.bat)\b|^cmd .*?\bfor \/f .*?\bdelims .*?\bpow|(^|\\)powershell(\.exe)? .*?-w(indowStyle)? h(idden)?\b|(^|\\)powershell(\.exe)? .*?-w[a-z]* m[a-z]*|(^|\\)powershell(\.exe)? .*?-NoP\b|(^|\\)powershell(\.exe)? .*?-e(xecution)?p(olicy)? b(ypass)?\b|(^|\\)powershell(\.exe)? .*?-e(xecution)?p(olicy)? u(nrestricted)?\b|(^|\\)powershell(\.exe)? .*?\biex\(|(^|\\)powershell(\.exe)? .*?Invoke-Expression|(^|\\)powershell.+?Invoke-WebRequest|(^|\\)powershell.+?-UseBasicParsing|^cmd .*?\/c .+? -nop .+? iex\b|^(cmd|powershell)\b.+?recaptcha|^(cmd|powershell)\b.+?#(Verification|)|^(cmd|powershell)\b.+?     #|^osascript .+?\bcurl http|^curl -s\b.+?\|(bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c\b.+?\bcurl|^bash -c\b.+?\$\(curl|^python3? -c\b.+?\b(exec|urllib|subprocess)\b|^echo .+?base64 .+?\b(bash|osascript|z?sh)\b|openssl base64 -d|^curl\b .+?chmod \+x.+?&&|^(bash|sh|osascript)\b.+?recaptcha|^(bash|sh|osascript)\b.+?#(Verification|)|^(bash|sh|osascript)\b.+?     #|^wget .+?\|(bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|^\/tmp\/.+?chmod \+x.+?&&|^wget -q.+?\.(sh|py|bin|elf)\b|^cmd .+?\bcertutil .+?\b(\.exe|\.bat)\b|(^|\\)powershell(\.exe)? .+?\birm .+?\.[a-z]+\/.+?powershell|\bpcalua(\.exe)? .*?\b(curl|powershell|saps|cmd)\b|^cmd .+?\bcmdkey .+?\bschtasks|^Invoke-Command .+?Base64String|^c(onhost|md) .*?--headless|^iex\(i(rm|wr)|^irm .+? iex\b/msi, domAlert, 'Beware, uBlock Origin blocked a potential ClickFix attack: ${text}', excludeMatches, /Maintainer|Contributor|^\{|^http|^(git|import|require|use) /i)
 brewerfanatic.com,damndelicious.net,fishonfirst.com,mediaite.com,northsidebaseball.com,twinsdaily.com#@#.adthrive-video-player
 brewerfanatic.com,damndelicious.net,fishonfirst.com,northsidebaseball.com,twinsdaily.com#@#.adthrive
 bus-location.1507t.xyz#@#.ad-area:not(.text-ad)
@@ -20642,14 +20638,12 @@ cdn.m-78.jp#@#.ad-panel
 chavesnamao.com.br,dip-badajoz.es,xunta.gal#@##anuncio
 cinedesi.in,thevouz.in,tejtime24.com,techishant.in#@#.quads-location
 clarin.com#@#div[class^="sc-"]:has(> div[id^="div-gpt-ad"])
-cmp.tek.no,cmp.e24.no,minmote.no,cmp.vg.no#@#+js(trusted-click-element, .message-row > button[title="Avvis alle"], , 2000)
 cnx-software.com#@#div[class*=" "]:has(img[src*="webp"])
 codeproject.com#@#[style*="base64"]
 colonist.io#@#.adsbyvli
 comidoc.net#@#.googlead
 consali.com#@#a[href^="https://consali.com/"]
 crictracker.com,sita.sk#@#.ads-box
-daddylive.link#@#+js(aopr, require)
 decrypt.day#@#div[class*="content"] center.w-full
 delta.com#@#.adv-container
 dexterclearance.com,estudyme.com,fplstatistics.co.uk,hilites.today,karvitt.com,maps4heroes.com,mcoc-guide.com,onlineatlas.us,play.aidungeon.io,safe.elektroupdate.com,tamrieltradecentre.com#@#ins.adsbygoogle[data-ad-client]
@@ -20658,8 +20652,6 @@ doodle.com#@#.AdsLayout
 doodle.com#@#.AdsSlot
 dpp.org.tw#@#.ad_url
 druckerchannel.de#@##DCGA_CONTAINER
-dziennik.pl#@#+js(abort-current-script, parseInt, adblock)
-dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#@#+js(set-constant, pp_adblock_is_off, trueFunc)
 ekitan.com,kissanadu.com#@#.sidebar-ad:not(.adsbygoogle)
 elektroda.pl#@#.advert
 empflix.com#@##hideAd
@@ -20672,7 +20664,6 @@ exploader.net#@#a[style*="display:"][href^="https://al.dmm.co.jp"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 fapeza.com#@#.azz_div
-filmweb.pl#@#+js(acs, decodeURIComponent, newAdblockBoardDisplayed)
 flipkart.com#@#div[data-id][style]:has([width][height][fill])
 fontyukle.net#@#div[class^="sag-ust"]
 forbes.it#@#.ad-row
@@ -20690,11 +20681,9 @@ gamingbible.co.uk,ladbible.com,sportbible.com,tyla.com,unilad.co.uk#@#div[class*
 getcoloringpages.com#@#.adsBlock
 go.com#@#.has-ad
 gsmarena.com#@#[id][style="display: block;"]
-gumtree.com#@#+js(trusted-set, experimentOverrides, json:"%5B%7B%20defaultValue%3A%20%22OFF%22%7D%5D")
 gumtree.com.au#@#.ad-cnt
 gumtree.com.au#@#.header--is-new-sticky-behaviour
 gumtree.com.au#@#[data-ad-name]
-gunauc.net#@#+js(prevent-fetch, pagead2.googlesyndication.com)
 hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 hdblog.it#@#.box_flame
 hdblog.it#@#.box_grampa_shadow
@@ -20710,7 +20699,6 @@ hornoxe.com#@#div.post:has(a[href^="https://www.amazon.de/"])
 hubblespacetelescope.blogspot.com#@#.vertical-ads
 hwupgrade.it#@#.wrapper-xyz
 idlixofficial.co,idlixofficial.net,idlixofficials.com,idlixofficialx.net,idlixplus.com,idlixplus.net#@#.module_single_ads
-idnes.cz#@#+js(acis, HTMLIFrameElement.prototype.contentWindow)
 igg-games.co,igg-games.com,pcgamestorrents.com#@#img:not([class]):not([decoding])
 igg-games.com#@#.uk-panel.widget-text
 ilprimatonazionale.it#@#.td-ad-background-link
@@ -20720,7 +20708,6 @@ indiatimes.com#@#div:has(> div[id^="div-gpt-ad-"])
 indoxx1.center#@#.lazy
 infogenyus.top,saboroso.blog#@#.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 instapundit.com#@#.postad
-intercelestial.com#@#+js(adjust-setTimeout, '', *, 0.1)
 iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 iwin.com#@##sponsorText
 japan-webike.*,webike.*,webike-china.cn#@#.ad_box
@@ -20743,9 +20730,6 @@ japscan.lol#@#div.container > [href]
 jav68.net#@#.ads-header
 javcrave.com#@#.widget_custom_html
 javgg.co,javgg.net#@##AD_160
-job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
-jobzhub.store,fitdynamos.com,labgame.io#@#+js(nano-sib, tid, *, 0.02)
-jobzhub.store,fitdynamos.com,labgame.io#@#+js(rpnt, script, /initialTimeSeconds = \d+/, initialTimeSeconds = 7)
 kasei.ski,misskey.systems,mivatter.com,ikaskey.bktsk.com,sushi.ski,takusuki.com,oekakiskey.com,voskey.icalo.net,side.misskey.productions,gamelore.fun,misskey.niri.la#@#div[data-sticky-container-header-height] > div[refresher] div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"]) > div[class]:not([tabindex="0"]):not([class*=" "])
 kentonline.co.uk#@#.mpu
 kiaclub.cz#@#.adwords
@@ -20757,7 +20741,6 @@ laravel-news.com#@#.relative:has([wire\:key="article-ad-card"])
 lemonde.fr#@#.gdpr-lmd-wall
 lewdgames.to#@##fwdevpDiv0
 lightnovelpub.com#@#.lnadcontainer
-linkneverdie.net#@#+js(nostif, t)
 live-theater.net#@#div[data-sticky-container-header-height] div[tabindex="0"] ~ div:not([tabindex="0"])
 ma-bank.net,rxlife.net,video.tv-tokyo.co.jp#@##adspace:not([style^="position: absolute; left: -5000px"])
 mail.google.com#@#div[aria-label="Ads"]
@@ -20768,10 +20751,6 @@ megacams.me,sexviacam.com#@#a[href^="https://chaturbate.com/affiliates/"]
 meijer.com#@#.product-grid__product:has(.product-tile__sponsored)
 mmiyue.com#@#.google-ad:not(.testAd)
 money.pl#@##app > div[class^="sc-"] > div[class]:not([class*=" "]):has(:scope > div[class*=" "]:only-child > img[src^="https://v.wpimg.pl/"][src$="=="][alt])
-money.pl#@#+js(set, Object.prototype.advViewability, undefined)
-money.pl#@#+js(set, Object.prototype.gafSlot, undefined)
-money.pl#@#+js(set, Object.prototype.rekids, undefined)
-money.pl,kobieta.wp.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,wiadomosci.wp.pl,tech.wp.pl,dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,pogoda.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wideo.wp.pl,wawalove.wp.pl,autokult.pl#@#+js(nostif, detected, 300)
 motherless.com#@#.media-linked
 motherless.com,motherless.xxx#@#iframe[style]
 msn.com#@#.intra-article-module
@@ -20800,9 +20779,7 @@ orange.fr#@##o_carrepub
 order-order.com#@#.tag-sponsored
 otakomu.jp#@#div[class^="article-body"] > blockquote:has(> a[target="_blank"] ~ div.amazlet-box)
 outletarredamento.it#@#.ad-link:not(.adsbox)
-panel.freemcserver.net#@#+js(rpnt, script, 'G-1B4LC0KT6C');, 'G-1B4LC0KT6C'); window.setTimeout(function(){blockPing()}\,200);)
 pcgamer.com#@#.hawk-widget
-pcgames.de,t-online.de#@#+js(set, CustomEvent, noopFunc)
 pcwelt.de#@#a[href^="https://pvn.mediamarkt.de/"]
 pcwelt.de#@#a[href^="https://pvn.saturn.de/"]
 pelisplay.*#@#[href*="/afu.php"]
@@ -20811,7 +20788,6 @@ pesmodding.com#@#.button-ad
 pgportal.gov.in#@#.ad_image
 phineypet.com#@##adsiframe
 pl#@#[class$="-ads"]
-player.pl#@#+js(json-prune, movie.advertising.ad_server)
 player.tubia.com#@#.companion-ads
 plus.fm-p.jp#@#.ad_overlay
 pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
@@ -20840,7 +20816,6 @@ rpgbot.net,wnynewsnow.com#@#.ez-video-wrap
 saltspringexchange.com#@#.single-ad
 sankakucomplex.com#@#.scad
 saveinsta.cam#@#.aplvideo
-sayphotobooth.com#@#+js(adjust-setInterval, tp-time, *, 0.001)
 scan-manga.com#@##carouselTOPContainer
 search.crowdsearch.net#@##adslot1
 sextb.*#@#.ad-placeholder:not(#detect, #detect_ad_empire, #filter_ads_by_classname, .adsbox)
@@ -20852,7 +20827,6 @@ smartadserver.*#@#a[href*=".smartadserver.com"]
 smashkarts.io#@##AdBanner
 smashkarts.io#@##Adbanner
 sochi.camera#@##cams_top_block
-southpark.*,southpark.cc.com,southparkstudios.*#@#+js(google-ima)
 spartanien.de#@#.firstload
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 speedtest.net#@#.speedtest-container[style^="min-height:"] {min-height:unset !important;}
@@ -20867,8 +20841,6 @@ spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?
 sport.bild.de#@#.ad-wrapper
 sportbible.com#@#div[class*="Advert"]
 sportnews.to#@#.ads-by-google
-sportowefakty.wp.pl#@#+js(aopr, Object.prototype.bodyCode)
-sportowefakty.wp.pl#@#+js(set, Object.prototype.loadBunch, noopFunc)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 spotifydown.com#@#.semi-transparent
@@ -20882,27 +20854,22 @@ tek.no,e24.no,minmote.no,vg.no#@#div[id^="sp_message_container_"]
 teket.jp#@#div[aria-label="cookieconsent"]
 thequint.com#@#._4xQrn
 thespruceeats.com#@#[data-ad-width]
-titulky.com#@#+js(set-constant, xmxalr, '')
 tobys.dk#@#.abMessage
 tranimeizle.*#@#.video-ad-container
 tumblr.com#@#.Qrht9
 tumblr.com#@#.Yc2Sp
 tv.wp.pl,wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
-uii.io#@#+js(noeval)
 united.no#@#.page-ads
 unsplash.com#@#div:has(> div[data-affiliates-grid-container])
 uploadmall.com#@#.AdSense
 uploadmall.com#@#.advblock
-uqload.co#@#+js(abort-current-script, document.createElement, break;case $.)
 usmagazine.com#@#.ami-video-placeholder
 usmagazine.com#@#[class^="s2nPlayer"]
 veev.to#@#.avb-active
 vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
-vidsrc.cc#@#+js(acs, EventTarget.prototype.addEventListener, delete window)
 viefaucet.com#@#.ad-description
 vindobona.org#@#.ads_footer
 vook.vc#@#[class*="-spnsr"]
-vr.pornhat.*#@#+js(aopr, document.dispatchEvent)
 vuejs.org#@##special-sponsor
 vuejs.org#@##sponsors
 warszawawpigulce.pl#@#.code-block-5, .eklama, #undermenu-block, .code-block-6
@@ -20914,14 +20881,9 @@ winaero.com#@#.windia:not(.thank-you-adguard)
 windowspro.de#@##block-views-sponsoredpromo-block
 winscreener.live#@#.ad-block
 worldpopulationreview.com#@##top_ad_container
-wp.pl#@#+js(aopr, WP.inline)
-wp.pl#@#+js(nostif, /getComputedStyle[\s\S]*?style\.display="none"[\s\S]*?styleBlocked[\s\S]*?detected/)
 wp.pl#@#[class^="css-"]
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl#@#[class^="advertisement"]
 www.google.*#@#div[data-async-context] [style]:has(a[href^="/aclk?sa="])
-www.wp.pl#@#+js(aopr, __headpayload)
-www.wp.pl#@#+js(aost, WP, r https)
-www.wp.pl#@#+js(set, WP.gaf.loadBunch, noopFunc)
 wykop.pl#@#.pub-slot-wrapper
 xissmie.xfolio.jp,misskey.art#@#div[data-sticky-container-header-height] > div[refresher] div[data-scroll-anchor][tabindex="0"] ~ div[data-scroll-anchor]:not([tabindex="0"])
 yourmomdoesporn.com#@#[data-revive-zoneid]
