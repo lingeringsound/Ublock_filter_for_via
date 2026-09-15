@@ -24,7 +24,7 @@ Combine_adblock_original_file "`pwd`/Ublock_filter_for_via.txt" "${Download_Fold
 #去除badfilter
 wipe_badfilter "`pwd`/Ublock_filter_for_via.txt"
 #转换via规则
-Ublock_to_adblock "`pwd`/Ublock_filter_for_via.txt"
+lite_Adblock_Rules "`pwd`/Ublock_filter_for_via.txt"
 #净化去重规则
 modtify_adblock_original_file "`pwd`/Ublock_filter_for_via.txt"
 #剔除冲突的CSS规则
