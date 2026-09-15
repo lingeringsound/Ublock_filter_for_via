@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 18/+h+H06Hh40BkqkG2/aw
-! Title: Ublock filter for Via(2026-09-15 18:59:07)
-! Version: 20260915185907
+! Checksum: oWooe6cMwRlUqgvZEheZEQ
+! Title: Ublock filter for Via(2026-09-15 22:49:47)
+! Version: 20260915224947
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-15 18:59:07
-! Total Count: 20695
-! Blocked Filters: 20695
+! Last modified: 2026-09-15 22:49:47
+! Total Count: 20696
+! Blocked Filters: 20696
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<域名规则>>>>>10193
+!<<<<<域名规则>>>>>10194
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6207,6 +6207,7 @@
 ||nudepopsy71c.com^
 ||nudismteens.com/tensnuddy.js
 ||nuide.net^
+||nutmann.club^
 ||nuts.sugar1105.com^
 ||nuviatoon.com/nuvia-api/analytics/
 ||nuzostgcylun.com^
