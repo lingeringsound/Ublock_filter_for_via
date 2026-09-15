@@ -524,15 +524,19 @@ fi
 echo "${has_fiter}" > "${target_folder}/${file##*/}_has.txt"
 }
 
-#转换Ublock规则到via
-function Ublock_to_adblock(){
-local target_file="${1}"
-test ! -f "${target_file}" && return 0
-local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|#\?#|##\^|#\+js\(|#\%#\/\/scriptlet|redirect=|\,replace=|\$replace=|\$urlskip=|\,urlskip=|\$uritransform=|\,uritransform=|redirect-rule=|to=|^/(\^|\\|\[|\(\?)|^\*\$|\$badfilter|\$cname|\$css|\$empty|\$frame|\$generichide|\$ghide|\$match-case|\$media|\$object|\$object-subrequest|\$ping|\$popunder|\$popup|\$~badfilter|\$~cname|\$~css|\$~empty|\$~frame|\$~generichide|\$~ghide|\$~match-case|\$~media|\$~object|\$~object-subrequest|\$~ping|\$~popunder|\$~popup|\,badfilter$|\,badfilter\,|\,cname$|\,cname\,|\,css$|\,css\,|\,empty$|\,empty\,|\,frame$|\,frame\,|\,generichide$|\,generichide\,|\,ghide$|\,ghide\,|\,match-case$|\,match-case\,|\,media$|\,media\,|\,object$|\,object-subrequest$|\,object-subrequest\,|\,object\,|\,ping$|\,ping\,|\,popunder$|\,popunder\,|\,popup$|\,popup\,|\,~badfilter$|\,~badfilter\,|\,~cname$|\,~cname\,|\,~css$|\,~css\,|\,~empty$|\,~empty\,|\,~frame$|\,~frame\,|\,~generichide$|\,~generichide\,|\,~ghide$|\,~ghide\,|\,~match-case$|\,~match-case\,|\,~media$|\,~media\,|\,~object$|\,~object-subrequest$|\,~object-subrequest\,|\,~object\,|\,~ping$|\,~ping\,|\,~popunder$|\,~popunder\,|\,~popup$|\,~popup\,|\$csp|\,csp=|\,denyallow=|permissions=|removeparam=|\:matches-path|:remove\(\)|:-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|:others\(|:shadow\(' "${target_file}" | busybox sed -e '/^\!/d;/^[[:space:]]*$/d' \
- -e 's/\$3p/\$third-party/g' \
- -e 's/\$1p/\$~third-party/g' \
- -e 's/\$~3p/\$~third-party/g' \
- -e 's/\$~1p/\$third-party/g' \
+#精简规则，剔除Via不支持的规则
+function lite_Adblock_Rules(){
+local file="${1}"
+test ! -f "${file}" && return
+local lite_content="$(cat ${file} | grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|#\?#|##\+js\(|#\%#\/\/scriptlet|##\^|redirect=|removeparam=|\,replace=|redirect-rule=|\$removeparam|\$badfilter|\$empty|\$generichide|\$match-case|\$object|\$object-subrequest|\$~badfilter|\$~empty|\$~generichide|\$~removeparam|\$~match-case|\$~object|\$~object-subrequest|\,badfilter$|\,badfilter\,|\,empty$|\,empty\,|\,generichide$|\,generichide\,|\,match-case$|\,match-case\,|\,object$|\,object-subrequest$|\,object-subrequest\,|\,object\,|\,~badfilter$|\,~badfilter\,|\,~empty$|\,~empty\,|\,~generichide$|\,~generichide\,|\,~match-case$|\,~match-case\,|\,~object$|\,~object-subrequest$|\,~object-subrequest\,|\,~object\,|\$csp|\,csp=|\,denyallow=|permissions=|\:(matches-path|-abp-contains|-abp-properties|contains|has-text|matches-css|matches-css-before|matches-css-after|xpath|nth-ancestor|upward|remove|style|watch-attr)' | busybox sed -e '/^\!/d;/^[[:space:]]*$/d' \
+ -e 's/\$3p$/\$third-party/g' \
+ -e 's/\$3p\,/\$third-party\,/g' \
+ -e 's/\$1p$/\$~third-party/g' \
+ -e 's/\$1p\,/\$~third-party\,/g' \
+ -e 's/\$~3p$/\$~third-party/g' \
+ -e 's/\$~3p\,/\$~third-party\,/g' \
+ -e 's/\$~1p$/\$third-party/g' \
+ -e 's/\$~1p\,/\$third-party\,/g' \
  -e 's/\,1p$/\,~third-party/g' \
  -e 's/\,1p\,/\,~third-party\,/g' \
  -e 's/\,3p$/\,third-party/g' \
@@ -541,16 +545,22 @@ local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|
  -e 's/\,~1p\,/\,third-party\,/g' \
  -e 's/\,~3p$/\,~third-party/g' \
  -e 's/\,~3p\,/\,~third-party\,/g' \
- -e 's/\,strict3p/\,third-party/g' \
- -e 's/\$strict3p/\$third-party/g' \
- -e 's/\$xhr/\$xmlhttprequest/g' \
- -e 's/\$~xhr/\$~xmlhttprequest/g' \
+ -e 's/\,strict3p$/\,third-party/g' \
+ -e 's/\,strict3p\,/\,third-party\,/g' \
+ -e 's/\$strict3p$/\$third-party/g' \
+ -e 's/\$strict3p\,/\$third-party\,/g' \
+ -e 's/\$xhr$/\$xmlhttprequest/g' \
+ -e 's/\$xhr\,/\$xmlhttprequest\,/g' \
+ -e 's/\$~xhr$/\$~xmlhttprequest/g' \
+ -e 's/\$~xhr\,/\$~xmlhttprequest\,/g' \
  -e 's/\,xhr\,/\,xmlhttprequest\,/g' \
  -e 's/\,xhr$/\,xmlhttprequest/g' \
  -e 's/\,~xhr\,/\,~xmlhttprequest\,/g' \
  -e 's/\,~xhr$/\,~xmlhttprequest/g' \
- -e 's/\$css/\$stylesheet/g' \
- -e 's/\$~css/\$~stylesheet/g' \
+ -e 's/\$css$/\$stylesheet/g' \
+ -e 's/\$css\,/\$stylesheet\,/g' \
+ -e 's/\$~css$/\$~stylesheet/g' \
+ -e 's/\$~css\,/\$~stylesheet\,/g' \
  -e 's/\,css$/\,stylesheet/g' \
  -e 's/\,css\,/\,stylesheet\,/g' \
  -e 's/\,~css$/\,~stylesheet/g' \
@@ -563,6 +573,22 @@ local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|
  -e 's/\$~important,/\$/g' \
  -e 's/\,~important\,/\,/g' \
  -e 's/\,~important$//g' \
+ -e 's/\$popup$//g' \
+ -e 's/\$popup,/\$/g' \
+ -e 's/\,popup\,//g' \
+ -e 's/\,popup$//g' \
+ -e 's/\$~popup$//g' \
+ -e 's/\$~popup,/\$/g' \
+ -e 's/\,~popup\,//g' \
+ -e 's/\,~popup$//g' \
+ -e 's/\$document$//g' \
+ -e 's/\$document,/\$/g' \
+ -e 's/\,document\,//g' \
+ -e 's/\,document$//g' \
+ -e 's/\$~document$//g' \
+ -e 's/\$~document,/\$/g' \
+ -e 's/\,~document\,//g' \
+ -e 's/\,~document$//g' \
  -e 's/\$all$//g' \
  -e 's/\$all,/\$/g' \
  -e 's/\,all\,//g' \
@@ -579,9 +605,8 @@ local transfer_file="$(grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|
  -e 's/\$~doc,/\$/g' \
  -e 's/\,~doc\,//g' \
  -e 's/\,~doc$//g' | sort | uniq)"
- echo "${transfer_file}" > "${target_file}"
+echo "${lite_content}" > "${file}"
 }
-
 
 #更新README信息
 function update_README_info(){
