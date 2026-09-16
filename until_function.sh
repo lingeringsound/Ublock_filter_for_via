@@ -340,10 +340,10 @@ function Running_sort_Css_Combine(){
 local target_adblock_file="${1}"
 test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
 #记录通用的Css
-local css_common_record="$(cat ${target_adblock_file} 2>/dev/null | busybox sed '/^!/d;/^[[:space:]]*$/d' | grep -E '^#' )"
+#local css_common_record="$(cat ${target_adblock_file} 2>/dev/null | busybox sed '/^!/d;/^[[:space:]]*$/d' | grep -E '^#' )"
 sort_Css_Combine_python "${target_adblock_file}"
 #写入通用的Css
-echo "${css_common_record}" >> "${target_adblock_file}"
+#echo "${css_common_record}" >> "${target_adblock_file}"
 busybox sed -i 's/换行符正则表达式n/\\/g' "${target_adblock_file}"
 }
 
