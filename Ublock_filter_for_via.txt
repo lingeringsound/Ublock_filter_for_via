@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /2V9dXGK7Nj1hJdwYIQOYg
-! Title: Ublock filter for Via(2026-09-16 22:54:39)
-! Version: 20260916225439
+! Checksum: ZbxqGwcAyseB+eG3SK0n2g
+! Title: Ublock filter for Via(2026-09-17 03:12:38)
+! Version: 20260917031238
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-16 22:54:39
-! Total Count: 14549
-! Blocked Filters: 14549
+! Last modified: 2026-09-17 03:12:38
+! Total Count: 14550
+! Blocked Filters: 14550
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1258,7 +1258,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>6049
+!<<<<<域名规则>>>>>6050
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3191,6 +3191,7 @@ voz.vn/b/image.gif?p=$image
 ||flavamovie.com^
 ||flexytalk.net^
 ||flight-report.com/api/event
+||flingtrainer.io^
 ||flipkart.net/mapi/v1/tracker/eventBatch
 ||flirt.com^
 ||flirtanu.com^
