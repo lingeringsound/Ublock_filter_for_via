@@ -7,7 +7,7 @@ source "`pwd`/until_function.sh"
 Download_Folder="`pwd`/temple/download_Rules"
 
 #删除缓存?(也许)
-rm -rf "`pwd`/temple" 2>/dev/null
+rm -rf "`pwd`/Ublock_filter_for_via.txt" "`pwd`/temple" 2>/dev/null
 
 #创建目录
 mkdir -p "${Download_Folder}" && echo "※`date +'%F %T'` 创建临时目录成功！"
