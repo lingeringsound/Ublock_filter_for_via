@@ -177,10 +177,12 @@ function Combine_adblock_original_file(){
 local file="${1}"
 local target_folder="${2}"
 test "${target_folder}" = "" && echo "※`date +'%F %T'` 请指定合并目录……" && exit
-for i in "${target_folder}"/*.txt
+: > "${file}"
+for i in "${target_folder}"/*.txt "${target_folder}"/*.prop
 do
+	[ -f "${i}" ] || continue
 	dos2unix "${i}" >/dev/null 2>&1
-	echo "`cat "${i}"`" >> "${file}"
+	cat "${i}" >> "${file}"
 done
 }
 
