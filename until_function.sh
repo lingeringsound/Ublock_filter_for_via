@@ -132,7 +132,12 @@ cat << key > "${file}"
 key
 echo "${original_file}" >> "${file}"
 busybox sed -i 's/换行符正则表达式n/\\/g' "${file}"
-perl "`pwd`/addchecksum.pl" "${file}"
+local checksum_file="`pwd`/addchecksum.py"
+if command -v python >/dev/null 2>&1 && [ -f "${checksum_file}" ]; then 
+	python "${checksum_file}" "${file}"
+elif command -v perl >/dev/null 2>&1 && [ -f "${checksum_file%%.*}.pl" ]; then
+	perl "${checksum_file%%.*}.pl" "${file}"
+fi
 }
 
 #净化规则
@@ -341,10 +346,14 @@ busybox sed -i 's/换行符正则表达式n/\\/g' "${target_adblock_file}"
 }
 
 #规则分类
-function sort_and_optimum_adblock(){
+function sort_and_optimum_adblock_shell(){
 local file="${1}"
 test ! -f "${file}" && return 
 cat << key > "${file}"
+
+!<<<<<通配符规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq | wc -l `
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq `
+!<<<<<通配符规则 结束>>>>>
 
 !<<<<<域名规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort | uniq | wc -l `
 `cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort | uniq `
@@ -353,10 +362,6 @@ cat << key > "${file}"
 !<<<<<网站单独规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort | uniq | wc -l`
 `cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort | uniq `
 !<<<<<网站单独规则 结束>>>>>
-
-!<<<<<通配符规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq | wc -l `
-`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq `
-!<<<<<通配符规则 结束>>>>>
 
 !<<<<<通用Css规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort | uniq | wc -l`
 `cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort | uniq `
@@ -367,6 +372,17 @@ cat << key > "${file}"
 !<<<<<放行白名单 结束>>>>>
 
 key
+}
+
+function sort_and_optimum_adblock() {
+local file="${1}"
+test ! -f "${file}" && return 
+local python_file="`pwd`/sort_and_optimum_adblock.py"
+if command -v python3 >/dev/null 2>&1 && [ -f "${python_file}" ] ;then
+	python3 "${python_file}" "$file"
+else
+	sort_and_optimum_adblock_shell "$file"
+fi
 }
 
 #剔除css规则冲突规则
