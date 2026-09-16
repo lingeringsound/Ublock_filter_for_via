@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AyhdnmGrwvh7grqyPi7e8g
-! Title: Ublock filter for Via(2026-09-16 18:46:39)
-! Version: 20260916184639
+! Checksum: /2V9dXGK7Nj1hJdwYIQOYg
+! Title: Ublock filter for Via(2026-09-16 22:54:39)
+! Version: 20260916225439
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-16 18:46:39
-! Total Count: 14545
-! Blocked Filters: 14545
+! Last modified: 2026-09-16 22:54:39
+! Total Count: 14549
+! Blocked Filters: 14549
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1258,7 +1258,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>6048
+!<<<<<域名规则>>>>>6049
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6622,6 +6622,7 @@ voz.vn/b/image.gif?p=$image
 ||twitterr.com^
 ||twowife.com^
 ||txtx.jp^
+||txxx.*/static/tf/
 ||tyna.info.pl/pl/js/new-system.js
 ||typicallyuncovernull.com^
 ||u--to-u.com^
@@ -7309,7 +7310,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4938
+!<<<<<网站单独规则>>>>>4941
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -11686,7 +11687,10 @@ twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="L
 twitchnosub.com##section:nth-of-type(2) > .container > div:has(a[href^="https://kicknosub.com"])
 txxx.*##.index-page > .wrapper > .row + div[class]
 txxx.*##.jw-atitle.nopop:has(> [href*="g2fame.com"][href*="&campaign"])
+txxx.*##.jw-title-secondary
 txxx.*##.pwa-ad
+txxx.*##.sugggestio
+txxx.*##.video-conten > div:has(a[href="/signin/"])
 txxx.*##.video-content > div + div:last-child
 txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
 txxx.*##.video-videos-slider
