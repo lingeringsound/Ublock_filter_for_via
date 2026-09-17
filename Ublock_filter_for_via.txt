@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4Ab09epntFryEmQ6zJIqIw
-! Title: Ublock filter for Via(2026-09-17 22:58:04)
-! Version: 20260917225804
+! Checksum: Bf2oQlTFhwNxhCwonPqtqw
+! Title: Ublock filter for Via(2026-09-18 03:24:56)
+! Version: 20260918032456
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-17 22:58:04
-! Total Count: 14557
-! Blocked Filters: 14557
+! Last modified: 2026-09-18 03:24:56
+! Total Count: 14558
+! Blocked Filters: 14558
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1258,7 +1258,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>6053
+!<<<<<域名规则>>>>>6054
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1910,6 +1910,7 @@ voz.vn/b/image.gif?p=$image
 ||barlear.ru^
 ||base-dawgz.web.app^
 ||base-swap-frontend-*.vercel.app^
+||basednewsarticle.com^
 ||basesfiles.com^
 ||basic-bank.com^
 ||batchzoo.com^
