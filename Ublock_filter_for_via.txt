@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1JIpPvJf8Ym/NwAjmMy8zQ
-! Title: Ublock filter for Via(2026-09-17 10:27:37)
-! Version: 20260917102737
+! Checksum: 4Ab09epntFryEmQ6zJIqIw
+! Title: Ublock filter for Via(2026-09-17 22:58:04)
+! Version: 20260917225804
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-17 10:27:37
-! Total Count: 14550
-! Blocked Filters: 14550
+! Last modified: 2026-09-17 22:58:04
+! Total Count: 14557
+! Blocked Filters: 14557
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1258,7 +1258,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>6050
+!<<<<<域名规则>>>>>6053
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5616,6 +5616,7 @@ voz.vn/b/image.gif?p=$image
 ||rentry.co^frame,third-party
 ||report.case-referency.com^
 ||request-page-violation-*.surge.sh^
+||rerrioara.live^$third-party
 ||res.cloudinary.com/$image,domain=bellesa.co
 ||res.office365.com/footprint/v*/scripts/fp-min.js$script
 ||res.office365.com/footprint/v*/scripts/fpconfig.json$script
@@ -6277,6 +6278,8 @@ voz.vn/b/image.gif?p=$image
 ||suzuri.jp/kinunhado^
 ||svc.dynamics.com/f/m/
 ||svc.litv.tv/api/v*/unit
+||svetserialu.*/assets/js/ads.js
+||svetserialu.*/assets/js/popads.js
 ||sviluppo.host/*/CHFINAL/
 ||sviluppo.host/CHFINAL/
 ||sviluppo.host/df/pass.php^
@@ -7311,7 +7314,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>4941
+!<<<<<网站单独规则>>>>>4945
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -9402,11 +9405,15 @@ igorslab.de##.herald-main-content > .row > .herald-module:not([data-col]):has(> 
 igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sticky
 igorslab.de##[aria-label="Advertisement" i]
+igorslab.de##[aria-label="Advertisement" i] + svg
 igorslab.de##[aria-label="Werbung" i]
+igorslab.de##[aria-label="Werbung" i] + svg
 igorslab.de##[aria-label="广告"]
+igorslab.de##[aria-label="广告"] + svg
 igorslab.de##a[aria-label*="Banner"]
+igorslab.de##a[href^="/"][href$="/"][style][rel][target]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
-igorslab.de##div[style^="position:relative;display:block;width:100%;max-width:980px"]
+igorslab.de##div[style*="width:100%;max-width:980px"]
 igorslab.de##img[src^="blob:http"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
@@ -11367,7 +11374,7 @@ supercomputingonline.com##[class^="ad_prev"]
 superembeds.com###adStop
 superherohype.com##a.wp-block-button__link:is([href^="https://amzn.to/"], [href^="https://www.amazon.com/"])
 superporn.com##.intensive-add
-svetserialu.to##body > .loader ~ div[class][style]:not([id])
+svetserialu.*##body > .loader ~ div[class][style*="z-index"]:not([id])
 swift4claim.com##.overflow
 swift4claim.com##.overlay2
 swift4claim.com##div[style="width:300px; height: 250px;"]
