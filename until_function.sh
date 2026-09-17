@@ -563,6 +563,59 @@ local lite_content="$(cat ${file} | grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#
 echo "${lite_content}" > "${file}"
 }
 
+function count_filter_files() {
+local _cf_file _cf_n _cf_unit _cf_div _cf_int _cf_rem _cf_dec _cf_cunt_transfer
+for _cf_file in "$@"
+do
+	[ -f "$_cf_file" ] || continue
+	[ -r "$_cf_file" ] || continue
+
+	# 过滤后开销太大 所以放弃过滤
+	#	_cf_n=$(grep -vc -e '^!' -e '^[[:space:]]*$' -e '^\[' -e '^#[^#]' "$_cf_file" 2>/dev/null)
+	#	_cf_n=$(grep -Evc '^!|^\[|^[[:space:]]*$|^#[^#]' "$_cf_file" 2>/dev/null)
+	#	_cf_n=$(sed '/^!/d;/^[[:space:]]*$/d;/^\[/d;/^#[^#]/d' "$_cf_file" 2>/dev/null | sed -n '$=')
+	#	_cf_n=$(sed -n '$=' "$_cf_file" 2>/dev/null)
+	_cf_n=$(wc -l < "$_cf_file" 2>/dev/null)
+
+	case "$_cf_n" in ''|*[!0-9]*) continue ;; esac
+
+	[ "$_cf_n" = "0" ] && continue
+
+	if [ "$_cf_n" -ge "1000000" ]; then
+	    _cf_unit="m"
+	    _cf_div="1000000"
+	elif [ "$_cf_n" -ge "10000" ]; then
+	    _cf_unit="w"
+	    _cf_div="10000"
+	elif [ "$_cf_n" -ge "1000" ]; then
+	    _cf_unit="k"
+	    _cf_div="1000"
+	else
+	    _cf_unit=""
+	    _cf_div=1
+	fi
+
+	if [ -z "$_cf_unit" ]; then
+	    _cf_cunt_transfer="${_cf_n}"
+	else
+		_cf_int=$((_cf_n / _cf_div))
+		_cf_rem=$((_cf_n % _cf_div))
+	    if [ "$_cf_rem" -eq 0 ]; then
+			_cf_cunt_transfer="${_cf_int}${_cf_unit}"
+	    else
+			_cf_dec=$((_cf_rem * 10 / _cf_div))
+			_cf_cunt_transfer="${_cf_int}.${_cf_dec}${_cf_unit}"
+		fi
+	fi
+	if [ -n "${_cf_cunt_transfer}" ]; then
+		#echo -e "${_cf_file##*/}: ${_cf_cunt_transfer}"
+		echo "${_cf_cunt_transfer}"
+	else
+		echo "0"
+	fi
+done
+}
+
 #更新README信息
 function update_README_info(){
 local file="`pwd`/README.md"
@@ -571,6 +624,8 @@ cat << key > "${file}"
 # Ublock filter for Via
 > (`date +'%F %T'`)
 > 将Ublock规则转为Via可用的规则，每12小时更新一次。
+
+### 规则数: **$(count_filter_files "$(pwd)/Ublock_filter_for_via.txt")**
 
 ### 订阅规则
 - Raw原链接
@@ -587,8 +642,4 @@ https://cdn.jsdelivr.net/gh/lingeringsound/Ublock_filter_for_via@main/Ublock_fil
 - [ublockorigin.github.io](https://ublockorigin.github.io/uAssets)
 key
 }
-
-update_README_info
-
-
 
