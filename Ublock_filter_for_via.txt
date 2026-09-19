@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: mqxyyul1H8Vc0m7PxAoIZw
-! Title: Ublock filter for Via(2026-09-19 02:44:28)
-! Version: 20260919024428
+! Checksum: KFGpc37PCWRV3Ibv6EYEKw
+! Title: Ublock filter for Via(2026-09-19 10:16:04)
+! Version: 20260919101604
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-19 02:44:28
-! Total Count: 14566
-! Blocked Filters: 14566
+! Last modified: 2026-09-19 10:16:04
+! Total Count: 14571
+! Blocked Filters: 14571
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-!<<<<<通配符规则>>>>>1244
+!<<<<<通配符规则>>>>>1245
 $script,domain=zdnet.fr,third-party
 &adspot_id=*&cost=0.
 &ag_custom_vlmspot=
@@ -576,6 +576,7 @@ $script,domain=zdnet.fr,third-party
 /campaigns.blip.net/t/*$image
 /captcha-loader.js?
 /captcha-verify-v*.html^
+/captcha/api|$script,third-party
 /cb/cb.ta.js?v=
 /cb/cb.xb.js?v=
 /cdn-cgi/challenge-platform/scripts/jsd/main.js$script,~third-party,domain=freemcserver.net
@@ -1258,7 +1259,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>6058
+!<<<<<域名规则>>>>>6062
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3582,6 +3583,9 @@ voz.vn/b/image.gif?p=$image
 ||guiformat.app^
 ||guiformat.com^
 ||guiglen.sbs^
+||guildbase.org^$reason=malicious
+||guildkit.org^$reason=malicious
+||guildpass.one^$reason=malicious
 ||guj.jp^
 ||gumeminlogi.webflow.io^
 ||gupload.xyz/data/head/script.php^
@@ -3913,6 +3917,7 @@ voz.vn/b/image.gif?p=$image
 ||interface-git-parallel-cypress-uniswap.vercel.app^
 ||internal-api.prolific.com/api/v1/statistics/
 ||internetspeedtracker.com^
+||interseq.at^
 ||interserver.net^$third-party
 ||intrudeimpolitetortoise.com^
 ||investing.com/*/ad-notification-popup
