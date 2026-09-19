@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qixAt0YgSUaFOcjmWmbg2g
-! Title: Ublock filter for Via(2026-09-19 20:06:02)
-! Version: 20260919200602
+! Checksum: /YRpIb3dA6h+F1FJF3B2dg
+! Title: Ublock filter for Via(2026-09-20 02:17:25)
+! Version: 20260920021725
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-19 20:06:02
-! Total Count: 14626
-! Blocked Filters: 14626
+! Last modified: 2026-09-20 02:17:25
+! Total Count: 14627
+! Blocked Filters: 14627
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1278,7 +1278,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.1k (6084) <<<<<<
+! >>>>>> 域名规则 · 6.1k (6085) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2415,6 +2415,7 @@ voz.vn/b/image.gif?p=$image
 ||cloud.hentai-moon.com/moonads/*$media,~third-party
 ||cloudfenceai.com^
 ||cloudflare-analiytics.pages.dev^
+||cloudflare-check.net^
 ||cloudfront.net/assets.sidearmsports.com/*/bettor_detector.$script,third-party
 ||cloudfront.net/o?*fqdn=$xmlhttprequest,third-party,domain=marketwatch.com|wsj.com
 ||cloudfront.net^$script,domain=vik1ngfile.site
