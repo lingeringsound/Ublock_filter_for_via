@@ -80,11 +80,11 @@ function modtify_adblock_original_file() {
 local file="${1}"
 if test "${2}" = "" ;then
 	busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
-	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | busybox sed 's|^[[:space:]]@@|@@|g' | sort | uniq | busybox sed -E 's/^[[:space:]]+//g' | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
+	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | busybox sed 's|^[[:space:]]@@|@@|g' | sort -u | busybox sed -E 's/^[[:space:]]+//g' | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
 	echo "$new" > "${file}"
 else
 	busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
-	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | grep -Ev "${2}" | busybox sed 's|^[[:space:]]@@|@@|g' | sort | uniq | busybox sed -E 's/^[[:space:]]+//g' | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
+	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | grep -Ev "${2}" | busybox sed 's|^[[:space:]]@@|@@|g' | sort -u | busybox sed -E 's/^[[:space:]]+//g' | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
 	echo "$new" > "${file}"
 fi
 
@@ -159,7 +159,7 @@ key
 	fi
 else
 	busybox sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | busybox sed '/^[[:space:]]*$/d' | sort | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | busybox sed '/^[[:space:]]*$/d' | sort -u )
 	echo "${before_tmp}" > "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | busybox sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
 		busybox sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
@@ -196,10 +196,10 @@ transfer_content=$(escape_special_chars ${target_content} )
 grep -E "^${transfer_content}" "${target_file}" > "${target_file_tmp}" && echo "※处理重复作用域名规则( $count_Rules_all → $(($count_Rules_all - ${a} )) ): ^${transfer_content}"
 if test "$(cat "${target_file_tmp}" 2>/dev/null | busybox sed 's|.*domain=||g' | grep -E ',' )" != "" ;then
 	echo "※规则 ${target_content} 包含其他限定器！"
-	local fixed_tmp=$(cat "${target_file_tmp}" | busybox sed 's/[[:space:]]$//g' | grep -Ev ',(important|third-party|script|media|subdocument|document|xmlhttprequest|other|stealth|image|stylesheet|content|match-case|font|sitekey|popup|xhr|object|generichide|genericblock|elemhide|all|badfilter|websocket|~important|~third-party|~script|~media|~subdocument|~document|~xmlhttprequest|~other|~stealth|~image|~stylesheet|~content|~match-case|~font|~sitekey|~popup|~xhr|~object|~generichide|~genericblock|~elemhide|~all|~badfilter|~websocket)$' | busybox sed '/^[[:space:]]*$/d' | sort | uniq)
+	local fixed_tmp=$(cat "${target_file_tmp}" | busybox sed 's/[[:space:]]$//g' | grep -Ev ',(important|third-party|script|media|subdocument|document|xmlhttprequest|other|stealth|image|stylesheet|content|match-case|font|sitekey|popup|xhr|object|generichide|genericblock|elemhide|all|badfilter|websocket|~important|~third-party|~script|~media|~subdocument|~document|~xmlhttprequest|~other|~stealth|~image|~stylesheet|~content|~match-case|~font|~sitekey|~popup|~xhr|~object|~generichide|~genericblock|~elemhide|~all|~badfilter|~websocket)$' | busybox sed '/^[[:space:]]*$/d' | sort -u )
 	echo "${fixed_tmp}" > "${target_file_tmp}"
 	echo "※尝试修复中……"
-	local Rules_juggle=`cat "${target_file_tmp}" | sort | uniq | busybox sed '/^[[:space:]]*$/d' | wc -l`
+	local Rules_juggle=`cat "${target_file_tmp}" | sort -u | busybox sed '/^[[:space:]]*$/d' | wc -l`
 	test "${Rules_juggle}" -le "1" && echo "※无法合并，已跳过！" && continue
 fi
 if test "$(cat "${target_file_tmp}" 2>/dev/null | busybox sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
@@ -288,24 +288,24 @@ local file="${1}"
 test ! -f "${file}" && return 
 cat << key > "${file}"
 
-!<<<<<通配符规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq | wc -l `
-`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq `
+!<<<<<通配符规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort -u | wc -l `
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort -u `
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort | uniq | wc -l `
-`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort | uniq `
+!<<<<<域名规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort -u | wc -l `
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort -u `
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort | uniq | wc -l`
-`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort | uniq `
+!<<<<<网站单独规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort -u | wc -l`
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort -u `
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort | uniq | wc -l`
-`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort | uniq `
+!<<<<<通用Css规则>>>>>`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort -u | wc -l`
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort -u `
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>`cat "${file}" | busybox sed '/^!/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\@\@|#\@#' | sort | uniq | wc -l`
-`cat "${file}" | busybox sed '/^!/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\@\@|#\@#' | sort | uniq `
+!<<<<<放行白名单>>>>>`cat "${file}" | busybox sed '/^!/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\@\@|#\@#' | sort -u | wc -l`
+`cat "${file}" | busybox sed '/^!/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\@\@|#\@#' | sort -u `
 !<<<<<放行白名单 结束>>>>>
 
 key
@@ -470,9 +470,9 @@ local target_folder="${2}"
 local target_website="${3}"
 test ! -f "${file}" -o ! -d "${target_folder}" && return
 if test "${target_website}" = "" ;then
-	local has_fiter="$(grep -E ':-abp-has|:has' "${file}" | grep -Ev ":-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|[[:space:]]{[[:space:]]remove:[[:space:]]true;[[:space:]]}|^#|^\!|^\[|\*#" | sed 's/\#\?\#/\#\#/g;s/:-abp-has/:has/g' | sort | uniq )"
+	local has_fiter="$(grep -E ':-abp-has|:has' "${file}" | grep -Ev ":-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|[[:space:]]{[[:space:]]remove:[[:space:]]true;[[:space:]]}|^#|^\!|^\[|\*#" | sed 's/\#\?\#/\#\#/g;s/:-abp-has/:has/g' | sort -u )"
 else
-	local has_fiter="$(grep -E ':-abp-has|:has' "${file}" | grep -E "${target_website}" | grep -Ev ":-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|[[:space:]]{[[:space:]]remove:[[:space:]]true;[[:space:]]}|^#|^\!|^\[|\*#" | sed 's/\#\?\#/\#\#/g;s/:-abp-has/:has/g' | sort | uniq )"
+	local has_fiter="$(grep -E ':-abp-has|:has' "${file}" | grep -E "${target_website}" | grep -Ev ":-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|[[:space:]]{[[:space:]]remove:[[:space:]]true;[[:space:]]}|^#|^\!|^\[|\*#" | sed 's/\#\?\#/\#\#/g;s/:-abp-has/:has/g' | sort -u )"
 fi
 echo "${has_fiter}" > "${target_folder}/${file##*/}_has.txt"
 }
@@ -576,7 +576,7 @@ local lite_content="$(grep -Ev \
  -e 's/\$~doc$//g' \
  -e 's/\$~doc,/\$/g' \
  -e 's/\,~doc\,//g' \
- -e 's/\,~doc$//g' | sort | uniq)"
+ -e 's/\,~doc$//g' | sort -u )"
 echo "${lite_content}" > "${file}"
 }
 
