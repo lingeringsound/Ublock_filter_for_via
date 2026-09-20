@@ -78,16 +78,17 @@ fi
 #净化规则
 function modtify_adblock_original_file() {
 local file="${1}"
+local exclude_re='^#(@(\?|%|\$\?)#|(%|\$\?)#)|^\$@\$|^<<|<<1023<<'
+local new
+[ -f "$file" ] || return
+busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
 if test "${2}" = "" ;then
-	busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
-	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | busybox sed 's|^[[:space:]]@@|@@|g' | sort -u | busybox sed -E 's/^[[:space:]]+//g' | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
+	new=`grep -Ev "${exclude_re}" "${file}" | busybox sed 's|^[[:space:]]@@|@@|g;/^!/d;/^\[.*\]$/d;/^[[:space:]]*$/d' | sort -u `
 	echo "$new" > "${file}"
 else
-	busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
-	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | grep -Ev "${2}" | busybox sed 's|^[[:space:]]@@|@@|g' | sort -u | busybox sed -E 's/^[[:space:]]+//g' | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
+	new=`grep -Ev "${exclude_re}|${2}" "${file}" | busybox sed 's|^[[:space:]]@@|@@|g;/^!/d;/^\[.*\]$/d;/^[[:space:]]*$/d' | sort -u `
 	echo "$new" > "${file}"
 fi
-
 }
 
 function make_white_rules(){
