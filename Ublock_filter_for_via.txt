@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: a8xEhzpvzLJg4u6ZxfUsKg
-! Title: Ublock filter for Via(2026-09-20 12:41:02)
-! Version: 20260920124102
+! Checksum: lRRRxulXF51VJV39zYgH+w
+! Title: Ublock filter for Via(2026-09-20 14:27:33)
+! Version: 20260920142733
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-20 12:41:02
-! Total Count: 14599
-! Blocked Filters: 14599
+! Last modified: 2026-09-20 14:27:33
+! Total Count: 14600
+! Blocked Filters: 14600
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1264) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1263) <<<<<<
 $script,domain=zdnet.fr,third-party
 &adspot_id=*&cost=0.
 &ag_custom_vlmspot=
@@ -33,10 +33,9 @@ $script,domain=zdnet.fr,third-party
 *$script,xmlhttprequest,third-party,domain=lovelynudez.com
 *$script,~third-party,domain=bigkickass.*|kat.*|kat2.*|katbay.*|katfreak.*|kathydra.*|katkickass.*|kattracker.*|kick4ss.*|kickass-usa.*|kickass.*|kickass2.*|kickassaustralia.*|kickassbay.*|kickassdb.*|kickassfull.*|kickassgo.*|kickasshydra.*|kickassindia.*|kickasskat.*|kickassminds.*|kickassmovies.*|kickasspk.*|kickasst.*|kickasstorrents.*|kickasstorrents2.*|kickasstracker.*|kickasstrusty.*|kickassuk.*|kickassunlocked.*|kickassz.*|kkat.*|kkickass.*|thekat.*|thekickass.*|topkickass.*|torrentkat.*|torrentproject2.*|torrentskickass.*|~kat.ai|~kat.am|~kat.at|~kat.computer|~kat.directory|~kat.pink|~kat.rip|~kat.software|~kat.studio|~kickass.codes|~kickass.website
 *$script,~third-party,third-party,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
-*$third-party,domain=direct-cloud.*|goplay.su|sexvideos.host
+*$third-party,domain=babesxworld.com|direct-cloud.*|goplay.su|sexvideos.host
 *$third-party,script,domain=streamgoto.*
 *$third-party,xmlhttprequest,domain=ceesty.com|corneey.com|destyy.com|festyy.com|gestyy.com
-*$third-partydomain=babesxworld.com
 *$websocket,domain=linuxtracker.org
 *$xmlhttprequest,domain=streamblasters.pm,third-party
 *$xmlhttprequest,third-party,domain=hd-easyporn.com|nsfwyoutube.com|nxbrew.com
@@ -462,7 +461,7 @@ $script,domain=zdnet.fr,third-party
 /?pl=*&sm=
 /?pnoorg=1^
 /?r=dir&zoneid=
-/?rb=*&zoneid=$xmlhttprequestthird-party
+/?rb=*&zoneid=$xmlhttprequest,third-party
 /?referral=sythe
 /?srv_id=*#
 /?track=*&key=
@@ -1278,7 +1277,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.1k (6085) <<<<<<
+! >>>>>> 域名规则 · 6.1k (6087) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2777,6 +2776,8 @@ voz.vn/b/image.gif?p=$image
 ||dienlanhmayxanh.com^
 ||digiseller.ru^$third-party,domain=leechall.com
 ||digitalprocurements.com^
+||dilar.tube/ads-config.json
+||dilar.tube/api/ads_settings
 ||direct2hr.click^
 ||dirtyindianporn.info/js/friends.sv.js
 ||disciplineavarice.com^
@@ -12851,7 +12852,7 @@ zuketcreation.net##.cente-1
 @@||albuquerque.newzware.com/newzlib/js/common/fingerprint2.min.js$script,third-party,domain=abqjournal.com
 @@||alibaba.tanx.com^$domain=alidns.com
 @@||alicdn.com/*/tracker$script,domain=lazada.com.my
-@@||aliexpress.com^*?af=$third-partydomain=umidigi.com
+@@||aliexpress.com^*?af=$third-party,domain=umidigi.com
 @@||all3dp.com/gpt.min.js$script,~third-party
 @@||allgroups.online^$script,stylesheet,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 @@||alwingulla.com/88/tag.min.js$domain=darkino.*
