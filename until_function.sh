@@ -491,7 +491,7 @@ local lite_content="$(grep -Ev \
  -e '\$@\$' \
  -e '(\$|,)~?(badfilter|empty|generichide|match-case|object|object-subrequest|removeparam)(,|$)' \
  -e '(\$|,)~?(csp|redirect-rule)(,|=|$)' \
- -e '(\$|,)~?(cname|frame|genericblock|ghide|elemhide|ping|popunder)(,|$)' \
+ -e '(\$|,)~?(cname|genericblock|ghide|elemhide|ping|popunder)(,|$)' \
  -e '(\$|,)(redirect|removeparam|header|replace|urlskip|uritransform|ipaddress|method|csp|denyallow|permissions|to)=' \
  -e ':(matches-path|-abp-contains|-abp-properties|contains|has-text|matches-css|matches-css-before|matches-css-after|xpath|nth-ancestor|upward|remove|style|watch-attr|matches-attr|matches-property|min-text-length)' \
  -e ':others\(|:shadow\(' \
