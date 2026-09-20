@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Sdg/sXBOkVsr9O9Qc9x75w
-! Title: Ublock filter for Via(2026-09-20 14:42:23)
-! Version: 20260920144223
+! Checksum: n1yoCN436JimzTCZ+p0Ojw
+! Title: Ublock filter for Via(2026-09-20 21:22:39)
+! Version: 20260920212239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-20 14:42:23
-! Total Count: 14837
-! Blocked Filters: 14837
+! Last modified: 2026-09-20 21:22:39
+! Total Count: 14841
+! Blocked Filters: 14841
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1324,7 +1324,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.2k (6202) <<<<<<
+! >>>>>> 域名规则 · 6.2k (6205) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2406,6 +2406,7 @@ voz.vn/b/image.gif?p=$image
 ||chaturbate.com^$subdocument,domain=naughtymachinima.com
 ||cheaterboss.com^
 ||check-host.net/rimages/$image,~third-party
+||check-products.org^
 ||check-tl-
 ||checking-your-browser.com^
 ||checkisreal.com^
@@ -3063,6 +3064,7 @@ voz.vn/b/image.gif?p=$image
 ||embols.com^
 ||empirenovel.com/po.js
 ||emta-ee-authst.firebaseapp.com^
+||en-ledger.com^
 ||en-mu-su-bi.com^
 ||enbdev.com/_main.js$script,~third-party
 ||endingthefed.com^
@@ -6112,6 +6114,7 @@ voz.vn/b/image.gif?p=$image
 ||simpcity.*/smp/d.min.js
 ||simplebits.io/ads/
 ||simplebits.io/sh/ads/
+||simplemobgtnc.shop^$all! Title: uBlock₀ filters – Quick fixes
 ||simplestickynotes.app^
 ||simplesvvap.lol^
 ||simplesvvvap.cyou^
@@ -9626,16 +9629,16 @@ igorslab.de##[aria-label="Werbung" i] + svg
 igorslab.de##[aria-label="广告"]
 igorslab.de##[aria-label="广告"] + svg
 igorslab.de##a[aria-label*="Banner"]
-igorslab.de##a[href^="/"][href$="/"][style][rel][target]
-igorslab.de##a[href^="/"][href*="#"][style][rel][target]
-igorslab.de##a[href^="/"][href*="?"][style][rel][target]
+igorslab.de##a[href^="/"][style][rel][target]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
-igorslab.de##div[style*="width:100%;max-width:980px"]
+igorslab.de##div[style*="max-width:980px;"]
+igorslab.de##div[style^="display:block;position:relative;max-width:"]
 igorslab.de##img[src^="blob:http"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 igorslab.de##span[style]:has(svg path)
 igorslab.de##svg image[href^="data:image/"]
+igorslab.de##svg:has(~ * [aria-label])
 igorslab.de##svg:has(~ [aria-label])
 iimanga.com##div[id^="teaser"]
 iir.ai###link-view > div[style] + p[style] + center > [href][target]
@@ -12474,7 +12477,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 300 <<<<<<
+! >>>>>> 通用Css规则 · 301 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -12712,6 +12715,7 @@ zuketcreation.net##.cente-1
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ##body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"]
 ##body.user-clicked[style="cursor: auto;"] > #root > .app-container
+##body.wp-singular > div[id$="-overlay"] > div[id$="-container"] > div[class*="-container"] > div[id$="-checkbox-window"]
 ##body[data-clipboard-code] > .main-wrapper
 ##button.btn[data-openuri*="/4/"]
 ##div#spot-holder.spot-holder[style="display: block;"]
