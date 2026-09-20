@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: n1yoCN436JimzTCZ+p0Ojw
-! Title: Ublock filter for Via(2026-09-20 21:22:39)
-! Version: 20260920212239
+! Checksum: cYlBfjCj/zLd7F2hOaC7sA
+! Title: Ublock filter for Via(2026-09-21 02:22:59)
+! Version: 20260921022259
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-20 21:22:39
-! Total Count: 14841
-! Blocked Filters: 14841
+! Last modified: 2026-09-21 02:22:59
+! Total Count: 14917
+! Blocked Filters: 14917
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1324,7 +1324,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.2k (6205) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6281) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1456,6 +1456,7 @@ voz.vn/b/image.gif?p=$image
 ||abc.luxe5321.com^
 ||abcdserver.com^
 ||abeagle-public.buzzfeed.com/*-AdShield-
+||ability-acceptable.com^
 ||abjp6579.tokyo^
 ||abs-cbn.com/resources/$script,~third-party
 ||abs.twimg.com/responsive-web/client-web/loader.HomeTimelineAdblockNotice
@@ -1703,6 +1704,7 @@ voz.vn/b/image.gif?p=$image
 ||andreas-unterberger.at/includes/js/helperFunctions.js$script,~third-party
 ||androidauthority.com/api/locate/
 ||androidpctv.com^$image,domain=sportshub.stream|sportsbuff.stream
+||anemone.blue^
 ||angel-talk.jp^
 ||anget-direct.info^
 ||anime-jl.net^$third-party,script
@@ -1801,11 +1803,13 @@ voz.vn/b/image.gif?p=$image
 ||apps-google-hl.hl.cn^
 ||appsflyer.com^$third-party
 ||aprilads.online^
+||aquo.online^
 ||arabs.alarbda.com^
 ||arabseed.*/sw.js$script,~third-party
 ||aragontrack.com^$third-party
 ||aram.zone/pageview
 ||arclk.net^
+||arcticlobe.com^
 ||arduinodroid.com^
 ||areallrea.com^
 ||arealrea.com^
@@ -1907,12 +1911,14 @@ voz.vn/b/image.gif?p=$image
 ||auth-code-verif.beer^
 ||authsignonstaff*.softr.app^
 ||auto-bild.de/_static-assets/homad/homad.js
+||auto-run.info^
 ||auto.am/static/azd/
 ||autolocksmithpro.com/spt/
 ||autoscurt24.de^
 ||autotracer.org/cnc/?*=rightcol$xmlhttprequest,~third-party
 ||av-master.org^
 ||av.ageverify.co^$subdocument,third-party
+||availautomobile.com^
 ||avantajados.com^$third-party
 ||aviatorreproducesauciness.com^
 ||aw-huorong.com.cn
@@ -1988,6 +1994,7 @@ voz.vn/b/image.gif?p=$image
 ||basednewsarticle.com^
 ||basesfiles.com^
 ||basic-bank.com^
+||basically-balk.com^
 ||batchzoo.com^
 ||battleboats.io/menu-overlay.html^$subdocument
 ||bavaria-cup.ru^
@@ -2020,6 +2027,7 @@ voz.vn/b/image.gif?p=$image
 ||beluxrepm.followme.fr/FolloWMe
 ||benaughty.com^
 ||benbbs.net^
+||beneficial-blanket.com^
 ||benpsignin-portal.webflow.io^
 ||bepisdb.com^
 ||beqbox.com^
@@ -2149,8 +2157,10 @@ voz.vn/b/image.gif?p=$image
 ||bot-check-v*.b-cdn.net^
 ||boundarynight.com^
 ||boundhub.com/sab/$image
+||box-ben.com^
 ||boyfriendlive.com^$third-party
 ||boyfriendmeaningless.com^
+||brakenormally.com^
 ||brave.com/static-assets/js/analysis.js
 ||brawlify.com/js/core.js^$script,~third-party
 ||brazz-girls.com/chaturbate/
@@ -2164,6 +2174,7 @@ voz.vn/b/image.gif?p=$image
 ||brilliant.ohana-pilina.com^
 ||browser.events.data.microsoft.com^$domain=apps.microsoft.com
 ||browser9182.web.fc2.com^
+||browserbuilding.com^
 ||browsingcontredir.com^
 ||brs.bi09aso-yo.xyz^
 ||brs.hg-story.blue^
@@ -2214,6 +2225,7 @@ voz.vn/b/image.gif?p=$image
 ||caller-calculus.com^
 ||callofwar.com/clients/ww2-uber/ww2-uber_live/$image
 ||callyourdate.com^
+||calm-connect.blue^
 ||cam/secured/host/*.php|$xmlhttprequest,third-party,domain=r2.dev
 ||cambro.tv/contents/*/player/*$media,~third-party
 ||cambro.tv/player/html.php$subdocument,~third-party
@@ -2449,6 +2461,7 @@ voz.vn/b/image.gif?p=$image
 ||claimbits.net/promo/$image,~third-party
 ||claimspaace.pages.dev^
 ||clasicotas.org/themes/*/js/links.js$script,~third-party
+||classicalchurch.com^
 ||claude-ai.cyou^
 ||claudverification-id.beer/api.php
 ||clean-2-clean.club^
@@ -2458,6 +2471,7 @@ voz.vn/b/image.gif?p=$image
 ||cleardexchange.com^
 ||clearnetfab.net^
 ||clenchedyouthmatching.com^
+||click-pay.net^
 ||clickcandy2.com^
 ||clickgenee.com^
 ||clickrotate.net^
@@ -2799,6 +2813,7 @@ voz.vn/b/image.gif?p=$image
 ||declk.com^
 ||decorartealuminios.com.br/*/AZ-ULTIMATE-LINKEDIN/
 ||dedestin0.jp^
+||dedicate-decade.com^
 ||dedicloadpgeing*.b-cdn.net^
 ||deenveerww.wixsite.com^
 ||deep-dealings.com^
@@ -2821,6 +2836,7 @@ voz.vn/b/image.gif?p=$image
 ||demolishwrestconclusions.com^
 ||demonicscans.org/img/wsup.gif
 ||dendreonlawsuit.com^
+||departdelivery.com^
 ||deq.frt-87rtyt1.jp^
 ||descargaloaca.com^$third-party
 ||designrigoroso.com^$reason=malicious
@@ -2906,6 +2922,7 @@ voz.vn/b/image.gif?p=$image
 ||dogsprotectedfeed.info^
 ||dohggte.com^
 ||dokopka.icu^
+||dom-dom.info^
 ||domnovrek.com^$third-party
 ||donasi.showcdnx.com/seiklasnya.js
 ||dones9.wixsite.com^
@@ -2926,6 +2943,7 @@ voz.vn/b/image.gif?p=$image
 ||doubleclick.net^$xmlhttprequest,domain=discoveryplus.*
 ||doublepimpads.com^$third-party
 ||doubletag.run/tags/$script,domain=akirabox.to
+||doune41758.biz^
 ||douploads.*/*sw$script,~third-party
 ||douroweb.eu^
 ||douyucdn.cn/front-publish/stream-sdk-lib-master/dyp2pxp2p_*.js$script,domain=douyu.com
@@ -2941,7 +2959,10 @@ voz.vn/b/image.gif?p=$image
 ||drakecomic.*/wp-content/themes/mangareader/script.js
 ||drct-match.com^
 ||drct-match.net^
+||dream-catch.net^
 ||dreamatch.jp^
+||dreamer-story.com^
+||dreamy-catch.com^
 ||drectsearch.com^
 ||dressedunlessround.com^
 ||droci.buzz^
@@ -2958,6 +2979,7 @@ voz.vn/b/image.gif?p=$image
 ||dtioykqj1u8de.cloudfront.net^
 ||du0.jp^
 ||du5tgbgue65er.cloudfront.net/redecanais.js$script
+||dubiousserene.com^
 ||duckdns.org/FAMOUS/Gens/
 ||duckdns.org/security-check/
 ||dump.mewcdn.online^
@@ -3015,9 +3037,11 @@ voz.vn/b/image.gif?p=$image
 ||ebook-hell.to/jquery/jspololife.js
 ||ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com^
 ||echi-echi-time.org^
+||eco-splp.com^
 ||ecoedgeinnovations.xyz^
 ||ecommrce-web-amazon.netlify.app^
 ||economictimes.com/amazonsale_widget.cms$xmlhttprequest
+||ecosoc-gov.com^
 ||ecotrackings.com^$third-party
 ||ecsv2.roblox.com^$image
 ||ed-blissful.com^
@@ -3141,6 +3165,7 @@ voz.vn/b/image.gif?p=$image
 ||exceklcmicrosftprotection.pages.dev^
 ||exchange.add-solution.de^
 ||exe.io^$third-party
+||exilestrict.com^
 ||exo.io/cloudcask/
 ||exoclick.com^$third-party
 ||exodus-wallets.io^
@@ -3150,6 +3175,7 @@ voz.vn/b/image.gif?p=$image
 ||exoduwallet.io^
 ||experience.tinypass.com/xbuilder/experience/execute$xmlhttprequest,domain=fastcompany.com
 ||expleboted.com^
+||exploitenterprise.com^
 ||exponea.com^$third-party
 ||exposestrat.com/js/adcashexpo.js
 ||exs.pl/embed*.php$script,domain=~wgospodarce.pl|~szczecinek.com|~polityka.pl|~ototorun.pl|~natemat.pl|~plonszczak.pl|~24jgora.pl|~24wroclaw.pl|~brodnica-cbr.pl|~ciechanowinaczej.pl|~ddb24.pl|~e-wyszogrod.pl|~egarwolin.pl|~egorzow.pl|~ekspresjaroslawski.pl|~eprzasnysz.pl|~esiemiatycze.pl|~fakty.bialystok.pl|~galopuje.pl|~golub-cgd.pl|~gpr24.pl|~ibialoleka.pl|~ibielsk.pl|~ikampinos.pl|~imokotow.pl|~inowroclaw.info.pl|~iochota.pl|~iotwock.pl|~ipragapoludnie.pl|~iskierniewice.pl|~itvpiaseczno.pl|~izabelin24.pl|~izoliborz.pl|~izyrardow.pl|~kurierbytowski.com.pl|~kurierpodlaski.pl|~lipno-cli.pl|~lowicz24.eu|~mylomza.pl|~nolesnica.pl|~nowinynyskie.com.pl|~nswiecie.pl|~nwloclawek.pl|~olawa24.pl|~poluje.pl|~pultusk24.pl|~rypin-cry.pl|~sejny.net|~splendo.pl|~tp.com.pl|~tulegnica.pl|~twojradom.pl|~wabrzezno.pl|~wideoportal.tv|~wio.waw.pl|~wterenie.pl|~zambrow.org|~zlotowskie.pl|~zycie.pila.pl|~zyciekalisza.pl
@@ -3159,12 +3185,14 @@ voz.vn/b/image.gif?p=$image
 ||eyewondermedia.com^
 ||ezg-iy.com^
 ||ezjav.com/p.js
+||ezpay-service.com^
 ||f-fri.com^
 ||f-fri.net^
 ||f-i-n-d.onlyfuns.win^
 ||f.digital-*.com/igit/
 ||f1nancier.com^
 ||fab-inst.com^
+||fabbe6r.com^
 ||fable-smile.com^
 ||faceb00k.com.vn^
 ||facebooc.jp^
@@ -3177,8 +3205,10 @@ voz.vn/b/image.gif?p=$image
 ||facture-free.com/Adobeverapdf/
 ||facture-pdf-secure-*.vercel.app^
 ||faecbook.vn^
+||faeww8j.com^
 ||faintly-fairness.com^
 ||fairscrew.com^
+||fak1yt7.com^
 ||fake-square.com^
 ||fakeflashtest.com^
 ||fakeserhelpsreivew-
@@ -3190,6 +3220,7 @@ voz.vn/b/image.gif?p=$image
 ||familysimulator.
 ||familysimulatorgame.com^
 ||familysimulators.
+||famine-afeg.com^
 ||fan-page-*.surge.sh^
 ||fanbox.autos^
 ||fanbox.help^
@@ -3206,9 +3237,11 @@ voz.vn/b/image.gif?p=$image
 ||fapnado.*/bump/
 ||fapnow.xxx/bump/
 ||fapp.work^
+||fapr3i.com^
 ||faptitans.com^*/rc/logo.jpg
 ||farlad.com^
 ||farmersjournal.ie/js/detectIncognito.min.js
+||fast-mm.com^
 ||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com
 ||fast.quickcontentnetwork.com^
 ||fastandslut.com^
@@ -3218,6 +3251,7 @@ voz.vn/b/image.gif?p=$image
 ||fastpic.org/view/*.html|$script,~third-party
 ||fastporndelivery.hqporner.com/HQpornerJSP.js
 ||faucetcrypto.com/ads/$subdocument
+||fawl4vx.com^
 ||fbpbpmjjg-f.club^
 ||fbs.com^$third-party
 ||fc.lc/*.html$subdocument,~third-party
@@ -3279,6 +3313,7 @@ voz.vn/b/image.gif?p=$image
 ||findoutdate.com^
 ||fine-cloud.net^
 ||fine-days.net^
+||finefixation.com^
 ||finelucckyy.jp^
 ||fingerboarding.com^
 ||fingerprint.com/Vtu1bhY5s/
@@ -3302,6 +3337,7 @@ voz.vn/b/image.gif?p=$image
 ||fixedfloat.at^
 ||fixedfloat.ca^
 ||fixfloat.vip^
+||fizlee.jp^
 ||fl.floriittee.com^
 ||flaegrudad.com^
 ||flash.cn^
@@ -3421,6 +3457,7 @@ voz.vn/b/image.gif?p=$image
 ||fukura210317.com^
 ||fukuroou.jp^
 ||fukusenkan.com^
+||fukutema.com^
 ||fullcrack.vn^
 ||fullhd4k.com/*.gif$image
 ||fullhd4k.com/images/nivo/close.png$image
@@ -3428,6 +3465,7 @@ voz.vn/b/image.gif?p=$image
 ||fullsetup.pro^
 ||fullstory.com/s/fs.js$script
 ||fullstory.com^$third-party
+||fullth-loto.com^
 ||fulltv.video^$third-party
 ||fundingchoicesmessages.google.com/i/$script,domain=9to5google.com|9to5mac.com|globo.com
 ||fundingchoicesmessages.google.com^$third-party
@@ -3616,6 +3654,7 @@ voz.vn/b/image.gif?p=$image
 ||gomoviescdn.online^
 ||gomsanri.com^
 ||goneleft.com^
+||goo-riki.com
 ||goodpics.net^
 ||goodreads.com/weblab
 ||goodstream.one/js2/noadblocker.js
@@ -3671,6 +3710,7 @@ voz.vn/b/image.gif?p=$image
 ||granny.asia/partner.xhtml?
 ||great-fade.sbs^
 ||great12.org^
+||greatson1211.site^
 ||greedseed.world/vpaid/YtVpaid.php
 ||greekfun.net/assets/js/managed-ads.js
 ||greenadblocker.com^
@@ -3781,6 +3821,7 @@ voz.vn/b/image.gif?p=$image
 ||heart-1ink.com^
 ||heartmatch.jp^
 ||heisei-g.pink^
+||help-back.info^
 ||help-for-work-*.pages.dev^
 ||helpers.publisherdesk.com/main.js
 ||helps-center-page-number-
@@ -3825,12 +3866,14 @@ voz.vn/b/image.gif?p=$image
 ||himatalk77.net^
 ||himegoto-time.com^
 ||himegoto-time.jp^
+||himitumatch.com^
 ||hipercontas.com.br^$third-party
 ||hipma.jp^
 ||histats.com^$third-party
 ||hit.api.useinsider.com^$domain=akbank.com
 ||hitadsmedia.com^$third-party
 ||hitcashtag.com^$third-party
+||hitotsuma.net^
 ||hjr-wq.com^
 ||hk668.cc^
 ||hk6vdj4z.click^
@@ -3858,6 +3901,7 @@ voz.vn/b/image.gif?p=$image
 ||homebuying-guide.com^
 ||homemoviestube.com/b4b8.js
 ||honda-law-office.jp/wp-includes/70038/Earthcorejp/|
+||honem41147.biz^
 ||honeyline.co.jp^
 ||honeyline.net^
 ||honeytalk.com^
@@ -3911,6 +3955,8 @@ voz.vn/b/image.gif?p=$image
 ||huoronggh.com^
 ||huoronggk.com^
 ||huoronggw.org.cn^
+||huuba.jp^
+||huubm.jp^
 ||hxh.jp^
 ||hybridglobalnet.com^
 ||hypersonicmedia.workers.dev/proxy/
@@ -4026,6 +4072,7 @@ voz.vn/b/image.gif?p=$image
 ||info-meta-noreply.com^
 ||info-top-letter.com^
 ||info-tracking*.cc^
+||info777-6.com^
 ||infolkwitness.shop^
 ||infonium.org^$subdocument,third-party
 ||informed.delivery*.top^
@@ -4046,6 +4093,7 @@ voz.vn/b/image.gif?p=$image
 ||instagram.irancell-10g-free.rf.gd^
 ||instagram0639.blogspot.
 ||instant-gaming.com/api/banner/
+||int-minint.com^
 ||interactivemap.app/admin/api/sidebarframeleft/$subdocument,~third-party
 ||interest.co.nz/modules/custom/presspatron/js/pp-ablock-banner.js$script
 ||interface-git-parallel-cypress-uniswap.vercel.app^
@@ -4131,6 +4179,7 @@ voz.vn/b/image.gif?p=$image
 ||jfureai.com^
 ||jinshanduba.org.cn^
 ||jiosaavn.com/stats.php^
+||jipso.jp^
 ||jivo-ce.jp^
 ||jizz.us/loco/$script
 ||jizzberry.com/static/js/initsite.min.js
@@ -4199,6 +4248,7 @@ voz.vn/b/image.gif?p=$image
 ||kaiunraw.com^
 ||kakarotfoot.ru/player/lib.js
 ||kalkulyator.com^
+||kamiwatari.com^
 ||kanbbs.net^
 ||karconsulting.us^$third-party
 ||karedeutschland.com^
@@ -4310,6 +4360,7 @@ voz.vn/b/image.gif?p=$image
 ||kuaizip.com^
 ||kuhoot.it^
 ||kukaj.io/ooo/
+||kum.cloudpost-letter2185.com^
 ||kusikowski.sbs^
 ||kuyhaa.me/*.php
 ||kuyhaa.me/pmbut.js
@@ -4393,6 +4444,7 @@ voz.vn/b/image.gif?p=$image
 ||lightning0707.com^
 ||like-love.net^
 ||lilac-fortune.com^
+||lili-life-style.com^
 ||limetorrents.*/sw.js
 ||lin-link.net^
 ||linblog.info^
@@ -4461,12 +4513,14 @@ voz.vn/b/image.gif?p=$image
 ||lopfly.com^
 ||losslesscut.cn^
 ||losslesscut.net^
+||lot.love-linkage.com^
 ||lot.luck-fortune.com^
 ||loto-4x.com^
 ||loto-lab0.com^
 ||loto7-diamond-club.com^
 ||lotochance-vip.com^
 ||lotochance.hp.peraichi.com^
+||lotostics.com^
 ||lottery37-fct.com^
 ||love-fit.jp^
 ||love-letter-dm.com^
@@ -4479,6 +4533,7 @@ voz.vn/b/image.gif?p=$image
 ||loveju.net^
 ||lovely-lovely.com^
 ||loveri.net^
+||lovers-line.com^
 ||loveru.jp^
 ||lovespot.online^
 ||lovetwipaco.com^
@@ -4676,6 +4731,7 @@ voz.vn/b/image.gif?p=$image
 ||meltsweetbite.com^
 ||mem44.com^
 ||members.hanime.tv/*/preroll_ad_event$xmlhttprequest
+||menokurage.com^
 ||mercado-livre.produtos.usacomment.com^
 ||mercari.com/ko40/
 ||mercury.akamaized.net/cm/
@@ -5054,6 +5110,7 @@ voz.vn/b/image.gif?p=$image
 ||notificationbyfacebook.firebaseapp.com^
 ||notificationbyfacebook.web.app^
 ||notifyhubss.net^
+||nova-argo.com^
 ||novelgames.com/flashgames/*/banner_660x250.png
 ||novizer.org/api/send
 ||now.gg/oapi/6/play/v1/reportEvent
@@ -5121,6 +5178,7 @@ voz.vn/b/image.gif?p=$image
 ||oii.io/sw.js$script
 ||okai.work^
 ||okanekasegeru.com^
+||okanenokami.com^
 ||okdebrid.com^
 ||okean-qoj.com^
 ||olive-ft.jp^
@@ -5426,6 +5484,7 @@ voz.vn/b/image.gif?p=$image
 ||play.google.com/store/apps/details?id=com.miruau^
 ||play.google.com/store/apps/details?id=com.ola.yoitoki^
 ||play.google.com/store/apps/details?id=com.tadamailmatching.app^
+||play.google.com/store/apps/details?id=com.ureluv.pwa^
 ||play.google.com/store/apps/details?id=gift.tadaapo.tadadeai&
 ||play.turbommo.com^$third-party
 ||playbrain.io/analytics/
@@ -5552,11 +5611,14 @@ voz.vn/b/image.gif?p=$image
 ||preprod.exclusifparis.com/modules/deleteordersfree/
 ||press-continue.*.top^
 ||prf.hn^$reason=tracker
+||pri-vate.org^
+||prime-vp.com^
 ||primeleech.com^
 ||primeos.in/wp-content/uploads/*/Sidebar-Ad*$image
 ||primepropertynow.com^$domain=linkjust.com
 ||printablecreative.com/wp-content/uploads/pixel.gif
 ||privage.club^
+||private-offer.com^
 ||privatelife.jp^
 ||privatesinglesmeet.com^
 ||prizecloud.sa.com^
@@ -5644,8 +5706,6 @@ voz.vn/b/image.gif?p=$image
 ||pussy.org^$subdocument,~third-party
 ||pussyspace.$image
 ||pussyspace.*/js/all.js?v=gitcache_gulp_
-||pussyspace.*/lazyload.im
-||pussyspace.*/lazyload.io?ads=
 ||pussyspace.*/live/meet-and-fuck/
 ||putlocker.*/*.gif$image
 ||putlocker.*/sab_*.html$subdocument
@@ -5655,6 +5715,7 @@ voz.vn/b/image.gif?p=$image
 ||pyjwt.com^
 ||pzcwk-sfend.top^
 ||q.stripe.com/?domain=$image
+||q0-b5u.com^
 ||qaghoz.com^
 ||qbittorrent.com^
 ||qbk1.com/1.gif?
@@ -5675,6 +5736,7 @@ voz.vn/b/image.gif?p=$image
 ||qishuimusic-cn.hl.cn^
 ||qishuiq.com.cn^
 ||qishuui.com.cn^
+||qjmesdjrgznq.net^
 ||qjvksieybn.vip^
 ||ql-qishui.com.cn^
 ||qmh.*/assets/js/simpleblocker.js
@@ -5688,6 +5750,7 @@ voz.vn/b/image.gif?p=$image
 ||quebecormedia.com/infojdem/lib/cheezwhiz/$script
 ||qufu.com.cn^
 ||quickassistapp.com^
+||quickcheck-pay.com^
 ||quickflirt.com^
 ||quinporn.com^$third-party
 ||quiziizz.github.io/cdnjs.js
@@ -5874,7 +5937,6 @@ voz.vn/b/image.gif?p=$image
 ||runkit.com/wukong/black-myth-wukong-crack-pc^
 ||runningapplications-b7dae-default-rtdb.firebaseio.com^
 ||rusexclips.com^$third-party
-||rustdesk.co.nz^
 ||rustdesk.io^
 ||rustdesk.pl^
 ||rustdesk.secure-box.de^
@@ -6079,11 +6141,14 @@ voz.vn/b/image.gif?p=$image
 ||shemalestube.com/templates/dark/ads/
 ||shemalestube.com/templates/dark/js/pop/
 ||shengsizhanchang.com^
+||sherondeaau.com^
+||shiarondea.com^
 ||shiawase-cat.com^
 ||shidurlive.com/adz*.html$subdocument
 ||shimura-china.com^
 ||shinpisaido.com^
 ||shinqueen.com^
+||shirondeau.com^
 ||shockaholic.net/jgr/
 ||shop-bitboxswiss.de^
 ||shop/au/uqmobile^
@@ -6131,6 +6196,7 @@ voz.vn/b/image.gif?p=$image
 ||singles50.jp^
 ||singtelmyconnect.com^
 ||sirokataldea.com^
+||sirondeauu.com^
 ||site-config.com^$third-party
 ||sitefilme.com/*.php$script,~third-party
 ||sites.google.com/l0gin-microsoftwebonlne.app/
@@ -6410,6 +6476,7 @@ voz.vn/b/image.gif?p=$image
 ||stw.dl-protect.link^
 ||stw.zone-telechargement.
 ||stylexlab.ru^
+||su-hk.com^
 ||sub.astroline.today^
 ||subscriptionprocess.im^
 ||substack.com/api/v1/firehose/batch
@@ -6586,6 +6653,7 @@ voz.vn/b/image.gif?p=$image
 ||ten-zaru.com^
 ||tendermeetonline.com^
 ||tendermeets.com^
+||tendresse.shop^
 ||teninorashinban.com^
 ||tenkeifa.com^
 ||tenkeiya.com^
@@ -6877,6 +6945,7 @@ voz.vn/b/image.gif?p=$image
 ||uniswap.org.in^
 ||united-infos.net^$domain=gmx.*|web.de
 ||unlepre.jp^
+||unmei-shinpi.jp^
 ||unnajd.com^
 ||unpkg.com/redirect-*/beamglea.js$script
 ||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=peliculas8k.com|playfmovies.*|vtplayer.online|vvtplayer.*
@@ -6907,6 +6976,7 @@ voz.vn/b/image.gif?p=$image
 ||uranai1111.base.shop^
 ||uranaikan.com^
 ||urara02032023.com^
+||ureluv.com^
 ||urlaubscountdown.com^
 ||urlca.com^
 ||urlcod.com^
@@ -7332,6 +7402,7 @@ voz.vn/b/image.gif?p=$image
 ||xdgeslibgbim.icu^
 ||xdpiwrx7ub.net^
 ||xedo.me^$third-party
+||xexxngbeuz.net^
 ||xforce-cracks.com^
 ||xgal.jp^
 ||xgram.asia^
@@ -7410,6 +7481,7 @@ voz.vn/b/image.gif?p=$image
 ||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
 ||yifysearch.com^
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
+||yjeija5121.biz^
 ||ymovies.vip/sab_*.html$subdocument
 ||yoitoki.jp^
 ||yollamedia.com^
@@ -7422,6 +7494,7 @@ voz.vn/b/image.gif?p=$image
 ||younetu.co/cdn-cgi/trace$xmlhttprequest,~third-party
 ||young-porn-movie.com/adv.js
 ||youngasianporntube.net/js/cyc2Z5Gg0nwnQY2Gy.js
+||your-connect.blue^
 ||your-dates-tonight.com^
 ||your.happy-strike.com^
 ||youramateurtube.com/sw.js$script,~third-party
@@ -7449,12 +7522,14 @@ voz.vn/b/image.gif?p=$image
 ||youweepingt.org^
 ||youx.xxx/*.php|
 ||yr-root.com^
+||ytgfrgffgf.com^
 ||ytk.jra-ikkr.jp^
 ||ytmp3.*/ad/$subdocument
 ||ytrevanced.$domain=~revanced.app
 ||ytsubme.com/assets/adblock/
 ||ytvancedpro.com^$domain=~revanced.app
 ||yuktamedia.com^$third-party
+||yume-kanaee.com^
 ||yumemoba.jp^
 ||yunekon2taxiy.jp^
 ||yupoo.biz^
@@ -7528,6 +7603,7 @@ voz.vn/b/image.gif?p=$image
 ||zqvee2re50mr.com^
 ||zshorte.net/*.html$subdocument,third-party
 ||zsi4.com^
+||zuisaidou021926.com^
 ||zykqk.com^
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
