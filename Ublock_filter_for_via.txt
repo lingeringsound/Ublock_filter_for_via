@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bImFj4eCdpm+qpvGz5r2zg
-! Title: Ublock filter for Via(2026-09-22 10:26:31)
-! Version: 20260922102631
+! Checksum: AwVgGaKhMWupAFtNcOBH0g
+! Title: Ublock filter for Via(2026-09-23 03:23:24)
+! Version: 20260923032325
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-22 10:26:31
-! Total Count: 14919
-! Blocked Filters: 14919
+! Last modified: 2026-09-23 03:23:25
+! Total Count: 14931
+! Blocked Filters: 14931
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1324,12 +1324,12 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6283) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6295) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
 ||*ontent.steamplay.*^
-||.dev$third-party,xmlhttprequest,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net
+||.dev$third-party,xmlhttprequest,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net
 ||007itshop.com^
 ||0120999900.net^
 ||01fmovies.com/mmmasdfl-asd$xmlhttprequest,~third-party
@@ -2450,6 +2450,7 @@ voz.vn/b/image.gif?p=$image
 ||cineby.*/scripts/os.js
 ||cinehd.app/api/adcash
 ||cinemaxxl.de/js/adblock.js$script
+||cioudinary.net^
 ||citi.com/cbol-pre-login-static-assets/cbol-core-assets/cedric/cedric.js$script,~third-party
 ||citynow.it/wp-content/uploads/*/banner$image,~third-party
 ||civicscience.com^$third-party
@@ -2501,7 +2502,11 @@ voz.vn/b/image.gif?p=$image
 ||cloudfront.net/assets.sidearmsports.com/*/bettor_detector.$script,third-party
 ||cloudfront.net/o?*fqdn=$xmlhttprequest,third-party,domain=marketwatch.com|wsj.com
 ||cloudfront.net^$script,domain=vik1ngfile.site
+||cloudfronte.net^
+||cloudinery.net^
+||cloudiniry.net^
 ||cloudmax.jp^
+||cloudnairy.net^
 ||cloudproxy.digital^$third-party,xmlhttprequest
 ||cloudvideo.tv/sw.js$script,~third-party
 ||clover-seven.com^
@@ -3345,6 +3350,7 @@ voz.vn/b/image.gif?p=$image
 ||flatrelentlessperspective.com^
 ||flavamovie.com^
 ||flexytalk.net^
+||flickker.net^
 ||flight-report.com/api/event
 ||flingtrainer.io^
 ||flipkart.net/mapi/v1/tracker/eventBatch
@@ -5431,6 +5437,7 @@ voz.vn/b/image.gif?p=$image
 ||petri.com/wp-json/bww-advertising^
 ||pewgame.com/js/hre.js^
 ||pewgame.com/sw.js^
+||pexls.net^
 ||pfj.anbilip4.com^
 ||pgk.te1p-a4ir.com^
 ||pharmaceutical-technology.com/wp-content/*skin.jpg$image
@@ -5517,6 +5524,7 @@ voz.vn/b/image.gif?p=$image
 ||plum-binder-*.typedream.app^
 ||plus-x4-alpha.com^
 ||plus.rustfacepunch.com^
+||plxabay.net^
 ||pmew.jp^
 ||pmur.org/*_abChoice.
 ||pnav.jp^
@@ -6951,6 +6959,10 @@ voz.vn/b/image.gif?p=$image
 ||unnajd.com^
 ||unpkg.com/redirect-*/beamglea.js$script
 ||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=peliculas8k.com|playfmovies.*|vtplayer.online|vvtplayer.*
+||unsp1ash.net^
+||unsplach.net^
+||unsplasc.net^
+||unsplsh.net^
 ||unvan.az/$subdocument,domain=mp3.big.az
 ||uobretailcreditmanagement.
 ||uoutube.com^
@@ -8273,7 +8285,7 @@ box-manga.com###ads728x90top
 boyfriendtv.com##li[class]:has(a[href^="https://boyfriend.show/"][rel="sponsored"])
 boysfood.com,freeviewmovies.com###pause-container
 boysxclusive.com##[href^="https://tsyndicate.com/"]
-boysxclusive.com,camhub.cc,kissjav.*##.asside-link
+boysxclusive.com,camhub.cc,kissjav.*,yesporn.vip##.asside-link
 brainly.*##[class^="BrainlyAdsPlaceholder"]
 brainly.*,eodev.com##.brn-ads-box
 brainly.*,eodev.com##.js-scroll-to-unlock-section.brn-kodiak-answer-redesigned__unlock
@@ -8455,6 +8467,8 @@ client.pylexnodes.net##.ad-banner-square
 clik.pw,short.pe,uii.io##a[href^="https://href.li/"]
 clik.pw,short.pe,uii.io##body > div[style]:has(input[type="button"])
 clik.pw,short.pe,uii.io##div[style*="z-index:99999"] > div[style*="width:300px"]
+clksz.com,fusevideo.net,oii.la,srnky.com,tpi.li,twing.live##a[href][target="_blank"]
+clksz.com,tpi.li,oii.la,srnky.com##.td-post-template-default.td-container, .banner-inner
 cloubix.com##.d0a-upgrade-wrap, .cb-footer, .d0a-status-bar, .cb-hamburger, .d0a-card-head, .d0a-features-row, .d0a-speed-box, .d0a-btn-note, .d0a-ads-section, .dl1-report-btn, .dl1-actions, .dl1-codes
 club-opel.com##.side_ad_left_160
 club-opel.com##.side_ad_right_160
@@ -9218,7 +9232,6 @@ fullxh.com,megaxh.com,seexh.com,unlockxh4.com,xhaccess.com,xhadult2.com,xhadult3
 fullxh.com,megaxh.com,seexh.com,unlockxh4.com,xhaccess.com,xhadult2.com,xhadult3.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster42.*,xhamster46.*,xhamster5.*,xhamster7.*,xhamster8.*,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhlease.world,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhspot.com,xhtotal.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite5.com,xhwide5.com##ul.thumb-list-mobile > :not(.thumb-list-mobile-item--type-video)
 funnyand.com##.ad-unit-desktop
 fuqer.com##.right > .text
-fusevideo.net,oii.la,tpi.li,twing.live##a[href][target="_blank"]
 fux.com##.autonextAd
 fwcdn.pl###clickArea
 fwcdn.pl###link-container-all
@@ -11877,7 +11890,6 @@ touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta
 tousatu-ch.net##.widget_custom_html:has(> div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
 tpb.*##a[href^="https://ultimatesurferprotector.com/"]
-tpi.li,oii.la##.td-post-template-default.td-container, .banner-inner
 tradingref.com##.sidebar:has(> div.ad-unit)
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
