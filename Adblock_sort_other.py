@@ -44,21 +44,49 @@ def wipe_same_selector_fiter(file_path):
     )
     
     counts = {}
+    bare_rules = set()
     
     for line in lines:
-        if line.startswith('||'):
-            cleaned = strip_pat.sub('', line)
-            if 'domain=' in cleaned or cleaned.startswith('!') or not cleaned.strip():
+        sline = line.strip()
+        if not sline or sline.startswith('!'):
+            continue
+        if '$' not in sline:
+            bare_rules.add(sline)
+        if sline.startswith('||'):
+            if 'domain=' in sline:
                 continue
+            cleaned = strip_pat.sub('', sline)
+            if cleaned == sline and '$' not in sline:
+                bare_rules.add(cleaned)
             counts[cleaned] = counts.get(cleaned, 0) + 1
 
     duplicates = {k for k, v in counts.items() if v > 1}
-    
-    if not duplicates:
-        return
+    targets_prefix = tuple(f"{dup}$" for dup in duplicates) if duplicates else ()
 
-    targets_prefix = tuple(f"{dup}$" for dup in duplicates)
-    new_lines = [line for line in lines if not line.startswith(targets_prefix)]
+    new_lines = []
+    for line in lines:
+        sline = line.strip()
+        if not sline or sline.startswith('!'):
+            new_lines.append(line)
+            continue
+
+        if '$domain=' in sline and '$domain=~' not in sline:
+            prefix, opts = sline.split('$domain=', 1)
+            domain_val = opts.split(',')[0]
+            reconstructed = f"{prefix}$domain={domain_val}"
+            if reconstructed == sline and prefix in bare_rules:
+                continue
+
+        if targets_prefix and line.startswith(targets_prefix):
+            if 'redirect-rule=' in line or 'domain=' in line or 'redirect=' in line:
+                new_lines.append(line)
+                continue
+            cleaned = strip_pat.sub('', line)
+            if cleaned in bare_rules and cleaned in duplicates:
+                continue
+            new_lines.append(line)
+        else:
+            new_lines.append(line)
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(new_lines) + '\n')
@@ -99,10 +127,14 @@ def clear_domain_white_Rules(file_path):
     remove_set = set()
     for line in lines:
         if 'domain=~' in line and '#' not in line:
-            cleaned = line.split('$')[0]
-            remove_set.add(cleaned)
+            cleaned = line.split('$')[0].strip()
+            if cleaned:
+                remove_set.add(cleaned)
 
-    new_lines = [line for line in lines if line not in remove_set]
+    if not remove_set:
+        return
+
+    new_lines = [line for line in lines if line.strip() not in remove_set]
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(new_lines) + '\n')
