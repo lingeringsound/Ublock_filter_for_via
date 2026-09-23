@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uXO0RrrC6FSBO0WJUlDO+w
-! Title: Ublock filter for Via(2026-09-23 10:26:45)
-! Version: 20260923102645
+! Checksum: wlQRDNA2OvlUnXEoNXH/yA
+! Title: Ublock filter for Via(2026-09-23 23:04:59)
+! Version: 20260923230459
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-23 10:26:45
-! Total Count: 14931
-! Blocked Filters: 14931
+! Last modified: 2026-09-23 23:04:59
+! Total Count: 14941
+! Blocked Filters: 14941
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1324,12 +1324,11 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6295) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6300) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
 ||*ontent.steamplay.*^
-||.dev$third-party,xmlhttprequest,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net
 ||007itshop.com^
 ||0120999900.net^
 ||01fmovies.com/mmmasdfl-asd$xmlhttprequest,~third-party
@@ -2359,6 +2358,7 @@ voz.vn/b/image.gif?p=$image
 ||cdn.work.ink/js/redirect.js
 ||cdn.yahoomedia.net/creatives/*/BlackFriday
 ||cdn3x.com/*/js/*.vast.
+||cdn77.*/vast.min.js
 ||cdn77.org^$third-party,domain=pricebefore.com
 ||cdnandroadu.b-cdn.net/wp-content/uploads/*_720x480_$media
 ||cdnpk.net/sponsor/
@@ -2854,6 +2854,7 @@ voz.vn/b/image.gif?p=$image
 ||detect-ccd.creativecloud.adobe.com^
 ||dev-7614646544.pantheonsite.io^
 ||dev.to/*/bb-2/$xmlhttprequest,~third-party
+||dev^$third-party,xmlhttprequest,stylesheet,domain=1cloudfile.com|akirabox.com|akirabox.to|bowfile.com|buzzheavier.com|bzzhr.co|bzzhr.to|cg-gamespc.net|datavaults.co|devuploads.com|dodi-repacks.site|file-me.top|file-upload.org|filemirage.com|fuckingfast.*|game-repack.site|gamedrive.*|getfreegames.net|go.zovo.ink|koramaup.com|mirrored.to|multiup.io|nathanmichaelphoto.com|ranoz.gg|repack-games.com|reloadedsteam.com|rootz.so|steam-repacks.net|steamgg.net|steamunderground.net|swiftuploads.com|torupload.com|up-4ever.net|uploadrar.*|usersdrive.com|vik1ngfile.site|worldofpcgames.com|zeilink.net|zovo2.top|zpaste.net|fileq.net
 ||developdestiny.com^
 ||developsincelock.com^
 ||deviants.com/dv*/dv.js
@@ -3801,6 +3802,7 @@ voz.vn/b/image.gif?p=$image
 ||harzfriends.de^
 ||hashcat.app^
 ||hausbank-ssk-cuxhaven.de^
+||haveibeensold.app^
 ||havenworks.com^
 ||hawaktv.com/sw.js$script
 ||haxsoft.com^
@@ -5196,6 +5198,7 @@ voz.vn/b/image.gif?p=$image
 ||olympusbiblioteca.com/third-parties-ad-script.js
 ||ombrewa.space^
 ||omeda.com^$third-party
+||omegascans.org/*x*_*.gif^$image,~third-party
 ||omegascans.org/ads.js
 ||omegatoki.com^
 ||omgexplolts.com^
@@ -5722,6 +5725,7 @@ voz.vn/b/image.gif?p=$image
 ||putrans.com^
 ||pwndbg.com^
 ||pwrtds.com^
+||pxointr.com^
 ||pyjwt.com^
 ||pzcwk-sfend.top^
 ||q.stripe.com/?domain=$image
@@ -5793,6 +5797,7 @@ voz.vn/b/image.gif?p=$image
 ||ranch-1and.com^
 ||rapeporn.xyz/js/WBaV00YD0JTBSypXSc.js
 ||rapetube.me/js/2oWLXMqWrBJLr5kGnC.js
+||rapidfire.cc/s.js^
 ||rapidgator.net/images/pics/36_300%D1%85250_$third-party
 ||rapidsend.cfd^
 ||rat.xxx/xdman/*
@@ -7622,7 +7627,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 4.9k (4940) <<<<<<
+! >>>>>> 网站单独规则 · 4.9k (4942) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8031,7 +8036,7 @@ athlete-insurance.com##.text-center.sidebar-card:has(i[class*="fa-ad"])
 athlete-insurance.com##body > div[style="padding:15px 0;background:#f8f9fa;border-bottom:1px solid #e9ecef;min-height:120px;width:100%;display:flex;align-items:center;justify-content:center;overflow:visible;"]
 atozmath.com###vi-smartbanner
 atozmath.com##.videoDiscovery
-audinifer.com,vibuxer.com##body > div[style*="2147483647"]
+audinifer.com,mfw09.org,vibuxer.com##body > div[style*="2147483647"]
 audiobooks4soul.com##[href^="https://ezaudiobooks.com/"]
 audiostereo.pl##div[style="margin-bottom: 10px;"] > a[href][target="_blank"], [href^="https://salony.nautilus.net.pl/"]
 augsburger-allgemeine.de##div[id^="cx_"]
@@ -10311,6 +10316,7 @@ metro.co.uk##.ad-slot-container
 metro.co.uk##.metro__ad_area_left
 metro.co.uk##.metro__ad_area_right
 metro.style###adBlock-bottom-fix
+meuplayeronlinehd.com###popupOverlay
 mgeko.cc###hero-ad
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
@@ -10644,6 +10650,7 @@ okazuch.site###custom_html-30
 okstream.*##[id^="click"]
 okutta.net##.article__footer > div[style="height:500px; overflow-y:scroll;"]
 olx.in###main_content div[class]:has(> .baxter-style-dfp-default-default)
+omegascans.org##a[href*="?"][target="_blank"] img
 omuzaani.me##.abg-backdrop
 omuzaani.me##div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 oncehelp.com##[href*="?token"]
@@ -12565,7 +12572,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 302 <<<<<<
+! >>>>>> 通用Css规则 · 303 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -12672,6 +12679,7 @@ zuketcreation.net##.cente-1
 ##.aff-item-list
 ##.amp-ad-inner
 ##.ark-ad-message
+##.asside-link
 ##.ave-pl
 ##.bb ~ main#container .containerAds
 ##.bloc-pub
@@ -12870,7 +12878,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2084) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2086) <<<<<<
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -13816,6 +13824,7 @@ zuketcreation.net##.cente-1
 @@||hikmall.com/js/sensorsdata.min.js$script,~third-party
 @@||hit.stat24.com/$xmlhttprequest,domain=polsatnews.pl
 @@||holidaypark.de/sites/default/files/public/google_tag/*$script,~third-party
+@@||homedepot.com.ssl.d2.sc.omtrdc.net^$xmlhttprequest,domain=homedepot.com
 @@||homegrownfreaks.net/player/player_ads.html$subdocument,~third-party
 @@||honeybadger.io/*/honeybadger.min.js$script,domain=clark.de
 @@||honeyhunterworld.com/*/js/blockadblock.js$script,~third-party
@@ -14919,6 +14928,7 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 spotifydown.com#@#.semi-transparent
 stamfordmercury.co.uk#@#.MPU
 strikeout.im#@#.Ad-Container:not(.adsbygoogle)
+sulpanaro.net#@#div[class^="sulpa-"]
 surfline.com#@#.ad-box:not(#ad-banner):not(:empty)
 tamin.ir#@#.ads2
 techradar.com#@#a[href^="https://amazon."][href*="tag="]
