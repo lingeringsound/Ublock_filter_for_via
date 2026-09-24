@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MnqH7SWjoihhVnhkpyBAEw
-! Title: Ublock filter for Via(2026-09-24 03:19:21)
-! Version: 20260924031922
+! Checksum: QAaQJmNowhSs/XD4PFfdHw
+! Title: Ublock filter for Via(2026-09-24 10:15:26)
+! Version: 20260924101527
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-24 03:19:22
+! Last modified: 2026-09-24 10:15:27
 ! Total Count: 14939
 ! Blocked Filters: 14939
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -8847,7 +8847,7 @@ electomania.es##.td-pb-row.wpb_row.tdi_73.vc_row
 electricaltechnology.org###stream-item-widget-2
 electricaltechnology.org###stream-item-widget-7
 elektroda.de,elektroda.com##section[class]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
-elektroda.pl##div[class="col-lg-4 col-md-12 no-padd"]:has(> [id]:only-child > div[style^="height: "] > div + form[action][method="get"][onsubmit])
+elektroda.pl##div[class^="col-lg-4 col-md-12 no-padd"]:has(> [id]:only-child > div[style^="height: "] > div + form[action][method="get"][onsubmit])
 elektroda.pl,elektroda.com,elektroda.de##div[id]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elitepvpers.com##[href="https://skyredirect1.com/"]
 elitepvpers.com##[href="https://www.skycheats.com/"]
