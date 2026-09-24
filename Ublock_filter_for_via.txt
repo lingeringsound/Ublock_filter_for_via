@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QAaQJmNowhSs/XD4PFfdHw
-! Title: Ublock filter for Via(2026-09-24 10:15:26)
-! Version: 20260924101527
+! Checksum: ChESrL1IeNpoB7N+Wn+DTA
+! Title: Ublock filter for Via(2026-09-24 13:47:04)
+! Version: 20260924134704
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-24 10:15:27
-! Total Count: 14939
-! Blocked Filters: 14939
+! Last modified: 2026-09-24 13:47:04
+! Total Count: 14938
+! Blocked Filters: 14938
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1324,7 +1324,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6300) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6299) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -6269,7 +6269,6 @@ voz.vn/b/image.gif?p=$image
 ||smalove.com^
 ||smart-tds.com^
 ||smartaccess.biz^
-||smartadserver.com^$script,domain=metal-hammer.de|musikexpress.de|rollingstone.de|welt.de
 ||smartadserver.com^$third-party,domain=~smartadserver.fr|~smartadserver.de
 ||smartaromas.com/income-individual_service_tax-gg-check-hm/
 ||smartdefend.net^
