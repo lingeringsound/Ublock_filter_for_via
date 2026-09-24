@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DtttN4YqEPVMbxl1mbBf+w
-! Title: Ublock filter for Via(2026-09-24 14:25:54)
-! Version: 20260924142554
+! Checksum: CPpm9htlzaGZzMqeRioYcA
+! Title: Ublock filter for Via(2026-09-24 14:55:35)
+! Version: 20260924145535
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-24 14:25:54
+! Last modified: 2026-09-24 14:55:35
 ! Total Count: 14939
 ! Blocked Filters: 14939
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -36,7 +36,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *$script,domain=x-x-x.video,third-party
 *$script,third-party,domain=2filmy4web.com.in|aiblog.tv|airflix1.com|amateurblog.tv|classicpornbest.com|deltabit.co|dvdplay.*|easyvidplayer.com|embedseek.online|eromanga-show.com|gravureblog.tv|hentai-one.com|hentaipaw.com|imgdawgknuttz.com|imgsen.com|imgsto.*|javdoe.to|javtc.*|khatrimazafull.makeup|latinblog.tv|links.filmymeet.wiki|mangovideo.*|moviehaxx.pro|movietp.com|nukibooks.com|onlyjerk.net|pics4upload.com|player.videasy.net|player4me.online|pornxp.com|senmanga.com|silverblog.tv|socialblog.tv|songsio.com|starblog.tv|tanix.net|topwwnews.com|ukrainesmodels.com|uproxy2.biz|watchluna.com|xblog.tv|zinchanmanga.com
 *$script,xmlhttprequest,third-party,domain=lovelynudez.com
-*$script,~third-party,domain=~kat.ai|~kat.am|~kat.at|~kat.computer|~kat.directory|~kat.pink|~kat.rip|~kat.software|~kat.studio|~kickass.codes|~kickass.website
+*$script,~third-party,domain=bigkickass.*|kat.*|kat2.*|katbay.*|katfreak.*|kathydra.*|katkickass.*|kattracker.*|kick4ss.*|kickass-usa.*|kickass.*|kickass2.*|kickassaustralia.*|kickassbay.*|kickassdb.*|kickassfull.*|kickassgo.*|kickasshydra.*|kickassindia.*|kickasskat.*|kickassminds.*|kickassmovies.*|kickasspk.*|kickasst.*|kickasstorrents.*|kickasstorrents2.*|kickasstracker.*|kickasstrusty.*|kickassuk.*|kickassunlocked.*|kickassz.*|kkat.*|kkickass.*|thekat.*|thekickass.*|topkickass.*|torrentkat.*|torrentproject2.*|torrentskickass.*|~kat.ai|~kat.am|~kat.at|~kat.computer|~kat.directory|~kat.pink|~kat.rip|~kat.software|~kat.studio|~kickass.codes|~kickass.website
 *$script,~third-party,third-party,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
 *$subdocument,domain=1ink.cc|clik.pw|isohunt.*|isohunters.*|isohunthydra.*|isohunting.*|isohunts.*|isohuntx.*|isohuntz.*|myisohunt.*|picbaron.com|pornfay.*|torrentproject2.*
 *$subdocument,script,third-party,domain=dropmms.*|freeadultcomix.com|xxxwebdlxxx.top
@@ -243,7 +243,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 -chrome-chrome.com.cn^
 -dingding.com.cn^
 -ez-pass.com^
--google-analytics/$third-party,domain=~brookson.co.uk|~wordpress.org
+-google-analytics/$third-party,domain=~wordpress.org|~brookson.co.uk
 -ledger.live^
 -load.com/script/$xmlhttprequest,domain=smsonline.cloud
 -ndax-*.webflow.io^
@@ -3185,7 +3185,7 @@ voz.vn/b/image.gif?p=$image
 ||exploitenterprise.com^
 ||exponea.com^$third-party
 ||exposestrat.com/js/adcashexpo.js
-||exs.pl/embed*.php$script,domain=~24jgora.pl|~24wroclaw.pl|~brodnica-cbr.pl|~ciechanowinaczej.pl|~ddb24.pl|~e-wyszogrod.pl|~egarwolin.pl|~egorzow.pl|~ekspresjaroslawski.pl|~eprzasnysz.pl|~esiemiatycze.pl|~fakty.bialystok.pl|~galopuje.pl|~golub-cgd.pl|~gpr24.pl|~ibialoleka.pl|~ibielsk.pl|~ikampinos.pl|~imokotow.pl|~inowroclaw.info.pl|~iochota.pl|~iotwock.pl|~ipragapoludnie.pl|~iskierniewice.pl|~itvpiaseczno.pl|~izabelin24.pl|~izoliborz.pl|~izyrardow.pl|~kurierbytowski.com.pl|~kurierpodlaski.pl|~lipno-cli.pl|~lowicz24.eu|~mylomza.pl|~natemat.pl|~nolesnica.pl|~nowinynyskie.com.pl|~nswiecie.pl|~nwloclawek.pl|~olawa24.pl|~ototorun.pl|~plonszczak.pl|~polityka.pl|~poluje.pl|~pultusk24.pl|~rypin-cry.pl|~sejny.net|~splendo.pl|~szczecinek.com|~tp.com.pl|~tulegnica.pl|~twojradom.pl|~wabrzezno.pl|~wgospodarce.pl|~wideoportal.tv|~wio.waw.pl|~wterenie.pl|~zambrow.org|~zlotowskie.pl|~zycie.pila.pl|~zyciekalisza.pl
+||exs.pl/embed*.php$script,domain=~wgospodarce.pl|~szczecinek.com|~polityka.pl|~ototorun.pl|~natemat.pl|~plonszczak.pl|~24jgora.pl|~24wroclaw.pl|~brodnica-cbr.pl|~ciechanowinaczej.pl|~ddb24.pl|~e-wyszogrod.pl|~egarwolin.pl|~egorzow.pl|~ekspresjaroslawski.pl|~eprzasnysz.pl|~esiemiatycze.pl|~fakty.bialystok.pl|~galopuje.pl|~golub-cgd.pl|~gpr24.pl|~ibialoleka.pl|~ibielsk.pl|~ikampinos.pl|~imokotow.pl|~inowroclaw.info.pl|~iochota.pl|~iotwock.pl|~ipragapoludnie.pl|~iskierniewice.pl|~itvpiaseczno.pl|~izabelin24.pl|~izoliborz.pl|~izyrardow.pl|~kurierbytowski.com.pl|~kurierpodlaski.pl|~lipno-cli.pl|~lowicz24.eu|~mylomza.pl|~nolesnica.pl|~nowinynyskie.com.pl|~nswiecie.pl|~nwloclawek.pl|~olawa24.pl|~poluje.pl|~pultusk24.pl|~rypin-cry.pl|~sejny.net|~splendo.pl|~tp.com.pl|~tulegnica.pl|~twojradom.pl|~wabrzezno.pl|~wideoportal.tv|~wio.waw.pl|~wterenie.pl|~zambrow.org|~zlotowskie.pl|~zycie.pila.pl|~zyciekalisza.pl
 ||externalsuffice.com^
 ||extmatrix.com/ad/
 ||extra69.net^$third-party
@@ -3325,7 +3325,7 @@ voz.vn/b/image.gif?p=$image
 ||fingerboarding.com^
 ||fingerprint.com/Vtu1bhY5s/
 ||fingerprint.com/_mintlify/api/v1/e
-||fingerprint.com^$third-party,domain=~dashboard.fingerprint.com|~dev.fingerprint.com|~docs.fingerprint.com
+||fingerprint.com^$third-party,domain=fingerprint.com|~dev.fingerprint.com|~docs.fingerprint.com|~dashboard.fingerprint.com
 ||firebase.googleapis.com^$domain=hotmediahub.com
 ||firebaseapp.com/Autentimine^
 ||firebasestorage.googleapis.com/v0/b/gosyndication.appspot.com^
@@ -6270,7 +6270,7 @@ voz.vn/b/image.gif?p=$image
 ||smart-tds.com^
 ||smartaccess.biz^
 ||smartadserver.com^$script,domain=metal-hammer.de|musikexpress.de|rollingstone.de|welt.de
-||smartadserver.com^$third-party,domain=~smartadserver.de|~smartadserver.fr
+||smartadserver.com^$third-party,domain=~smartadserver.fr|~smartadserver.de
 ||smartaromas.com/income-individual_service_tax-gg-check-hm/
 ||smartdefend.net^
 ||smartklick.biz^
