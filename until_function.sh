@@ -288,6 +288,7 @@ sort_Css_Combine_python "${target_adblock_file}"
 #写入通用的Css
 #echo "${css_common_record}" >> "${target_adblock_file}"
 sed -i 's/换行符正则表达式n/\\/g' "${target_adblock_file}"
+fixed_css_selector_not_clean "${target_adblock_file}"
 }
 
 #规则分类
@@ -419,6 +420,15 @@ else
 fi
 }
 
+function fixed_css_selector_not_clean(){
+local file="${1}"
+test ! -f "${file}" && return
+local python_file="`pwd`/Adblock_sort_other.py"
+if command -v python3 >/dev/null 2>&1 && [ -f "${python_file}" ] ;then
+	python3 "${python_file}" "css_selector_not_clean" "${file}"
+fi
+}
+
 function wipe_same_selector_fiter(){
 local file="${1}"
 test ! -f "${file}" && return
@@ -471,17 +481,25 @@ do
 done
 }
 
-#转换成原生has规则
-function add_has_fiter(){
+# 转换成原生 has 规则
+function add_has_fiter() {
 local file="${1}"
 local target_folder="${2}"
 local target_website="${3}"
 test ! -f "${file}" -o ! -d "${target_folder}" && return
-if test "${target_website}" = "" ;then
-	local has_fiter="$(grep -E ':-abp-has|:has' "${file}" | grep -Ev ":-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|[[:space:]]{[[:space:]]remove:[[:space:]]true;[[:space:]]}|^#|^\!|^\[|\*#" | sed 's/\#\?\#/\#\#/g;s/:-abp-has/:has/g' | sort -u )"
-else
-	local has_fiter="$(grep -E ':-abp-has|:has' "${file}" | grep -E "${target_website}" | grep -Ev ":-abp-contains|:-abp-properties|:contains|:has-text|:matches-attr|:matches-css|:matches-css-after|:matches-css-before|:matches-path|:matches-property|:min-text-length|:nth-ancestor|:remove|:style|:upward|:watch-attr|:xpath|[[:space:]]{[[:space:]]remove:[[:space:]]true;[[:space:]]}|^#|^\!|^\[|\*#" | sed 's/\#\?\#/\#\#/g;s/:-abp-has/:has/g' | sort -u )"
-fi
+local exclude=':-abp-contains|:-abp-properties|:contains|:has-text'
+exclude="${exclude}|:matches-attr|:matches-css|:matches-css-after|:matches-css-before"
+exclude="${exclude}|:matches-path|:matches-property|:min-text-length|:nth-ancestor"
+exclude="${exclude}|:remove|:style|:upward|:watch-attr|:xpath"
+exclude="${exclude}|[[:space:]]\{[[:space:]]remove:[[:space:]]true;[[:space:]]\}"
+exclude="${exclude}|^#|^!|^\[|\*#"
+local site_filter='^'
+test -n "${target_website}" && site_filter="${target_website}"
+local has_fiter="$(grep -E ':-abp-has|:has' "${file}" \
+ | grep -E "${site_filter}" \
+ | grep -Ev "${exclude}" \
+ | sed -E 's/#(#|[@?]#)?/##/g;s/:-abp-has/:has/g' \
+ | sort -u)"
 echo "${has_fiter}" > "${target_folder}/${file##*/}_has.txt"
 }
 
