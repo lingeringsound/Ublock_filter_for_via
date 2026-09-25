@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 35pmoPEZHCC8hGv33HVChA
-! Title: Ublock filter for Via(2026-09-25 20:22:01)
-! Version: 20260925202201
+! Checksum: m4h/OqqENpwOxvI+XSUEtg
+! Title: Ublock filter for Via(2026-09-26 03:42:12)
+! Version: 20260926034212
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-25 20:22:01
-! Total Count: 14949
-! Blocked Filters: 14949
+! Last modified: 2026-09-26 03:42:12
+! Total Count: 14976
+! Blocked Filters: 14976
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1306,7 +1306,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6302) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6327) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1766,6 +1766,7 @@ voz.vn/b/image.gif?p=$image
 ||app-slash.co.com^
 ||app-wg.com^
 ||app.corn-staging.com^
+||app.ebrafoster.com^
 ||app.farmaciadelmonestironline.com/SER/dnkdl/
 ||app.gitbook.com/__session?proposed=
 ||app.kamlno.network^
@@ -3999,6 +4000,26 @@ voz.vn/b/image.gif?p=$image
 ||ignorezest.net^
 ||igorslab.de/?$image
 ||igorslab.de/wp-content/plugins/igorslab-ads-suite/
+||igorslab.de/wp-content/uploads/2020/03/980x120px_pure.jpg
+||igorslab.de/wp-content/uploads/2020/06/nv-rtx-pro-blackwell-display-300x300-1.jpg
+||igorslab.de/wp-content/uploads/2021/04/Optris_Final-2.jpg
+||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x251px.jpg
+||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x501px.jpg
+||igorslab.de/wp-content/uploads/2021/11/Fractal-Sep-launch.jpg
+||igorslab.de/wp-content/uploads/2022/12/View-600-Teal-300x400-1.jpg
+||igorslab.de/wp-content/uploads/2023/04/980x100_DAMN_Fruehlingsdeals_ARCTIC_MINDFACTORY.jpg
+||igorslab.de/wp-content/uploads/2023/11/980x125-2.png
+||igorslab.de/wp-content/uploads/2024/09/Igors_Lab_980x125.jpg
+||igorslab.de/wp-content/uploads/2025/03/DP_H_DE.png
+||igorslab.de/wp-content/uploads/2025/08/HATOR-Skyfall_80_MAG_ULTIMA_8K_Wireless.jpg
+||igorslab.de/wp-content/uploads/2025/10/Terminator-Air_300-x-400-1.jpg
+||igorslab.de/wp-content/uploads/2025/12/Halnziye.jpg
+||igorslab.de/wp-content/uploads/2026/01/Cooler-Master.png
+||igorslab.de/wp-content/uploads/2026/03/AT-120-K-300%C3%97250.jpg
+||igorslab.de/wp-content/uploads/2026/07/Terminator-Air_980-x-125-1.jpg
+||igorslab.de/wp-content/uploads/2026/08/DP_V_DE.png
+||igorslab.de/wp-content/uploads/2026/08/HK5-2026.jpg
+||igorslab.de/wp-content/uploads/2026/08/Vertical.jpg
 ||igorslab.de^$script,xmlhttprequest,~third-party
 ||igualdad.iaa.csic.es/nochain-sw.js
 ||ihub.live/sw.js$script,~third-party
@@ -5175,6 +5196,10 @@ voz.vn/b/image.gif?p=$image
 ||okanenokami.com^
 ||okdebrid.com^
 ||okean-qoj.com^
+||okteve.com/p/e
+||okteve.com/xplay/ad-click.php
+||okteve.com/xplay/ad-serve.php
+||okteve.com/xplay/embed-beacon.php
 ||olive-ft.jp^
 ||olive121407.studio.site^
 ||olt-nw.com^
@@ -7611,7 +7636,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 4.9k (4948) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4950) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8831,8 +8856,10 @@ electomania.es##.td-pb-row.wpb_row.tdi_73.vc_row
 electricaltechnology.org###stream-item-widget-2
 electricaltechnology.org###stream-item-widget-7
 elektroda.de,elektroda.com##section[class]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
-elektroda.pl##div[class^="col-lg-4 col-md-12 no-padd"]:has(> [id]:only-child > div[style^="height: "] > div + form[action][method="get"][onsubmit])
-elektroda.pl,elektroda.com,elektroda.de##.noblock-logo-ti > div[style="position: relative;"]:has(> a[onclick*="sendGAEvent"])
+elektroda.pl##.col-md-12 + section[class]:has(a[href*="dsa_info"])
+elektroda.pl##.no-padd:has(> [id]:only-child > div[style^="height: "] > div + form[action][onsubmit])
+elektroda.pl##ul.clearfix > li[class]:not(.post):has(a[href*="dsa_info"])
+elektroda.pl,elektroda.com,elektroda.de##[class*="col-sm-"] > div[style="position: relative;"]:has(> a[onclick*="sendGAEvent"])
 elektroda.pl,elektroda.com,elektroda.de##div[id]:has(> .text-center > div[id^="div-gpt-ad-"] > script:only-child)
 elitepvpers.com##[href="https://skyredirect1.com/"]
 elitepvpers.com##[href="https://www.skycheats.com/"]
@@ -9173,6 +9200,8 @@ friv5online.com##.bnr
 frprn.com##.footer-spot
 frprn.com,motherporno.com,prostoporno.*##.spot
 frustfrei-lernen.de##.noContentBannerArea
+fsicomics.com##[href^="https://www.e6ui8pc.com/"]
+fsicomics.com,novelcrow.com##[href="https://theporndude.com/"]
 fstream365.com###ol-ads
 fstream365.com###overlay-ads
 ft.com##.mod-header-ad
@@ -9712,7 +9741,6 @@ igorslab.de##[style*="background-image:url"]
 igorslab.de##[style*="min("]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="/"][rel][target]
-igorslab.de##a[href^="https://www.igorslab.de"][rel="noopener external"][target]
 igorslab.de##a[rel][target]:not([target="blank"],[target="_blank"])
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 igorslab.de##div[style*="max-width:980px;"]
@@ -10147,7 +10175,7 @@ los40.com##.estirar.envoltorio_publi
 los40.com##.publi_luto_vertical
 los40.com##[class^="advertising"]
 losmovies.*##.aPlaceHolder
-love4u.net,nicomanga.com,nihonkuni.com,rawinu.com,weloma.art###unlock_box
+love4u.net,nicomanga.com,nihonkuni.com,rawinu.com,weloma.*###unlock_box
 lovejav.net##div[style="text-align:center;min-height:100px;margin-top:10px"]
 loverugbyleague.com##.ps-block-a
 loverugbyleague.com##.ps-block-a-top
@@ -10579,7 +10607,6 @@ noticiascripto.site##.pb
 notunmovie.link##[href^="https://meantimesubside.com/"]
 notunmovie.link##[href^="https://tremblesyringeillusive.com/"]
 nova.cz##div.vjs-marker-ad
-novelcrow.com##[href="https://theporndude.com/"]
 novelcrow.com##[href^="https://landing.candynetwork.ai/"]
 novelfull.com##a[rel="nofollow noopener sponsored"]
 novelgames.com##.gamelistGame.commonEt
@@ -14644,8 +14671,8 @@ zuketcreation.net##.cente-1
 @@||www.googletagmanager.com/gtm.js$script,domain=www.petsbest.com
 @@||www.igorslab.de/cdn-cgi/challenge-platform/$script,xmlhttprequest
 @@||www.igorslab.de/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
-@@||www.igorslab.de/community/$script,xmlhttprequest,~third-party
-@@||www.igorslab.de/wp-admin/admin-ajax.php$xmlhttprequest
+@@||www.igorslab.de/community/$script,xmlhttprequest
+@@||www.igorslab.de/wp-admin/admin-ajax.php
 @@||www.igorslab.de/wp-content/plugins/XFWP/assets/js/xfwp-admin.js
 @@||www.igorslab.de/wp-content/plugins/ba-plus-before-after-image-slider/assets/s201-bai.js
 @@||www.igorslab.de/wp-content/plugins/igorslab-ai-seo-performance-suite/assets/js/consent.js
