@@ -88,6 +88,23 @@ def sort_domain_Combine(target_file):
             seen.add(line)
             unique_lines.append(line)
 
+    def normalize_prefix(prefix_str):
+        if '$' in prefix_str:
+            base, opts = prefix_str.split('$', 1)
+            sorted_opts = ",".join(sorted([o.strip() for o in opts.split(',') if o.strip()]))
+            return f"{base}${sorted_opts},"
+        return prefix_str
+
+    normalized_lines = []
+    for line in unique_lines:
+        if 'domain=' in line:
+            prefix, tail = line.split('domain=', 1)
+            norm_prefix = normalize_prefix(prefix)
+            normalized_lines.append(norm_prefix + "domain=" + tail)
+        else:
+            normalized_lines.append(line)
+    unique_lines = normalized_lines
+
     prefixes_pool = []
     for line in unique_lines:
         if 'domain=' in line:
@@ -155,7 +172,6 @@ def sort_domain_Combine(target_file):
 
     with open(target_file, 'w', encoding='utf-8') as f:
         f.write("\n".join(final_lines) + "\n")
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
