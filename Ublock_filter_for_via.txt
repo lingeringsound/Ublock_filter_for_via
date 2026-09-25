@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: pMyHyywBq/BztGwa42TOBw
-! Title: Ublock filter for Via(2026-09-25 13:01:28)
-! Version: 20260925130128
+! Checksum: zW1yOLW9Iqz3MyEaVX2dsw
+! Title: Ublock filter for Via(2026-09-25 16:32:09)
+! Version: 20260925163210
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-25 13:01:28
-! Total Count: 14960
-! Blocked Filters: 14960
+! Last modified: 2026-09-25 16:32:10
+! Total Count: 14949
+! Blocked Filters: 14949
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1308) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1292) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -33,20 +33,18 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *$image,third-party,domain=fc-lc.com|up-4ever.net
 *$image,~third-party,domain=biovetro.net|dailyjobposting.xyz|digiztechno.com|financefernly.com|growgritly.com|guidetechly.com|jobnoid.net|napmap.net|shrtslug.biz|stfly.me|stly.link|technons.com|tournguide.com|yrtourguide.com
 *$script,domain=c.newsnow.co.uk|c.newsnow.com
-*$script,domain=x-x-x.video,third-party
-*$script,third-party,domain=2filmy4web.com.in|aiblog.tv|airflix1.com|amateurblog.tv|classicpornbest.com|deltabit.co|dvdplay.*|easyvidplayer.com|embedseek.online|eromanga-show.com|gravureblog.tv|hentai-one.com|hentaipaw.com|imgdawgknuttz.com|imgsen.com|imgsto.*|javdoe.to|javtc.*|khatrimazafull.makeup|latinblog.tv|links.filmymeet.wiki|mangovideo.*|moviehaxx.pro|movietp.com|nukibooks.com|onlyjerk.net|pics4upload.com|player.videasy.net|player4me.online|pornxp.com|senmanga.com|silverblog.tv|socialblog.tv|songsio.com|starblog.tv|streamgoto.*|tanix.net|topwwnews.com|ukrainesmodels.com|uproxy2.biz|watchluna.com|xblog.tv|zinchanmanga.com
+*$script,subdocument,third-party,domain=dropmms.*|freeadultcomix.com|xxxwebdlxxx.top
+*$script,third-party,domain=2filmy4web.com.in|aiblog.tv|airflix1.com|amateurblog.tv|classicpornbest.com|deltabit.co|dvdplay.*|easyvidplayer.com|embedseek.online|eromanga-show.com|gravureblog.tv|hentai-one.com|hentaipaw.com|imgdawgknuttz.com|imgsen.com|imgsto.*|javdoe.to|javtc.*|khatrimazafull.makeup|latinblog.tv|links.filmymeet.wiki|mangovideo.*|moviehaxx.pro|movietp.com|nukibooks.com|onlyjerk.net|pics4upload.com|player.videasy.net|player4me.online|pornxp.com|senmanga.com|silverblog.tv|socialblog.tv|songsio.com|starblog.tv|streamgoto.*|tanix.net|topwwnews.com|ukrainesmodels.com|uproxy2.biz|watchluna.com|x-x-x.video|xblog.tv|zinchanmanga.com
 *$script,xmlhttprequest,third-party,domain=lovelynudez.com
 *$script,~third-party,domain=bigkickass.*|kat.*|kat2.*|katbay.*|katfreak.*|kathydra.*|katkickass.*|kattracker.*|kick4ss.*|kickass-usa.*|kickass.*|kickass2.*|kickassaustralia.*|kickassbay.*|kickassdb.*|kickassfull.*|kickassgo.*|kickasshydra.*|kickassindia.*|kickasskat.*|kickassminds.*|kickassmovies.*|kickasspk.*|kickasst.*|kickasstorrents.*|kickasstorrents2.*|kickasstracker.*|kickasstrusty.*|kickassuk.*|kickassunlocked.*|kickassz.*|kkat.*|kkickass.*|thekat.*|thekickass.*|topkickass.*|torrentkat.*|torrentproject2.*|torrentskickass.*|~kat.ai|~kat.am|~kat.at|~kat.computer|~kat.directory|~kat.pink|~kat.rip|~kat.software|~kat.studio|~kickass.codes|~kickass.website
 *$script,~third-party,third-party,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
 *$subdocument,domain=1ink.cc|clik.pw|isohunt.*|isohunters.*|isohunthydra.*|isohunting.*|isohunts.*|isohuntx.*|isohuntz.*|myisohunt.*|picbaron.com|pornfay.*|torrentproject2.*
-*$subdocument,script,third-party,domain=dropmms.*|freeadultcomix.com|xxxwebdlxxx.top
-*$subdocument,third-party,domain=bc.vc|cpmlink.net|curto.win|goto.com.np|imgdawgknuttz.com|imgtorrnt.in|pornclassic.tube|tubepornclassic.com|vev.red|vidop.icu|vidup.io
+*$subdocument,third-party,domain=9ig.de|bc.vc|cpmlink.net|curto.win|goto.com.np|imgdawgknuttz.com|imgtorrnt.in|lusthero.com|pornclassic.tube|tubepornclassic.com|vev.red|vidop.icu|vidup.io
 *$subdocument,xmlhttprequest,script,third-party,domain=bolly4umovies.*
 *$subdocument,~third-party,domain=sexrura.pl|sexrura.com
-*$third-party,domain=babesxworld.com|direct-cloud.*|goplay.su|sexvideos.host
-*$third-party,xmlhttprequest,domain=ceesty.com|corneey.com|destyy.com|festyy.com|gestyy.com|hd-easyporn.com|nsfwyoutube.com|nxbrew.com
+*$third-party,domain=babesxworld.com|clik.pw|direct-cloud.*|goplay.su|sexvideos.host|vipbox.*
+*$third-party,xmlhttprequest,domain=ceesty.com|corneey.com|destyy.com|festyy.com|gestyy.com|hd-easyporn.com|nsfwyoutube.com|nxbrew.com|streamblasters.pm
 *$websocket,domain=linuxtracker.org
-*$xmlhttprequest,domain=streamblasters.pm,third-party
 *$xmlhttprequest,subdocument,domain=sexvid.*
 *$xmlhttprequest,subdocument,third-party,domain=pcgamez-download.com
 *$~third-party,inline-script,script,domain=click.allkeyshop.com
@@ -189,20 +187,8 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *%2Fwl.spotify.com%2Fss%2Fo%2F*.gif$image
 *%3A%2F%2Fmucp.api.account.microsoft.com%2Fm%2Fv2%2Fv%3Fd%3D*$image
 *%3FeID%3Dpixel%26*$image
-*.gif$domain=037-hd.com,image
-*.gif$domain=cartoonth12.com,image
-*.gif$domain=daporn.com,image
-*.gif$domain=hanimesubth.com,image
-*.gif$domain=imgtorrnt.in,image
-*.gif$domain=javbobo.com,image
-*.gif$domain=leaklinks.com,image
-*.gif$domain=lebahmovie.com,image
-*.gif$domain=met.bz,image
-*.gif$domain=movieon21.*,image
-*.gif$domain=oploverz.*,image
-*.gif$domain=visionias.net,image
 *.gif$domain=ytlarge.com
-*.gif$image,domain=hentaifreak.org|stream1688.com
+*.gif$image,domain=037-hd.com|cartoonth12.com|daporn.com|hanimesubth.com|hentaifreak.org|imgtorrnt.in|javbobo.com|leaklinks.com|lebahmovie.com|met.bz|movieon21.*|oploverz.*|stream1688.com|visionias.net
 *.gif$image,third-party,domain=madoohd.com
 *.jpg$script,domain=clashdaily.com|madworldnews.com|reviveusa.com|sonsoflibertymedia.com|teltarif.de|themattwalshblog.com|videogamesblogger.com
 *.js|$script,~third-party,domain=isohuntz.*|isohunt.*|isohunts.*|isohuntx.*|isohunthydra.*|isohunters.*|isohunting.*|myisohunt.*
@@ -337,9 +323,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 .emltrk.com/$image
 .fiverr.com%2Fjs_event_tracking%2Fv1%2Ftrack_email_open%2F*$image
 .franzis.de/counter/gif.php?$image
-.gif$domain=enryucomics.com,image
-.gif$domain=nekopoi.*,image
-.gif$image,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|otakudesu.*|otakudesu.best|otakudesu.org|sadisflix.*|urlbluemedia.*
+.gif$image,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|enryucomics.com|nekopoi.*|otakudesu.*|otakudesu.best|otakudesu.org|sadisflix.*|urlbluemedia.*
 .gif$image,third-party,domain=doomovie-hd.*
 .gif^$image,domain=filmvitrini.net|idlixvip.*|idlixvip.asia|mangaku.*
 .go?pid=*&spaceid=*&ctrlid=
@@ -1322,7 +1306,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6301) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6302) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4013,6 +3997,7 @@ voz.vn/b/image.gif?p=$image
 ||igg-games.com/wp-content/uploads/2024/02/sss.jpg$image
 ||igniteseurope.com/stats/
 ||ignorezest.net^
+||igorslab.de/?$image
 ||igorslab.de/wp-content/plugins/igorslab-ads-suite/
 ||igorslab.de^$script,xmlhttprequest,~third-party
 ||igualdad.iaa.csic.es/nochain-sw.js
@@ -7626,7 +7611,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 4.9k (4945) <<<<<<
+! >>>>>> 网站单独规则 · 4.9k (4948) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -9721,11 +9706,14 @@ igorslab.de##[aria-label="Advertisement" i]
 igorslab.de##[aria-label="Werbung" i]
 igorslab.de##[aria-label="广告"]
 igorslab.de##[style*="!important"]
+igorslab.de##[style*="/"]
 igorslab.de##[style*="aspect-ratio"]
+igorslab.de##[style*="background-image:url"]
+igorslab.de##[style*="min("]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="/"][rel][target]
-igorslab.de##a[href^="https://www.igorslab.de"][href*="?"][rel]
-igorslab.de##a[rel][target]:not([target$="blank"])
+igorslab.de##a[href^="https://www.igorslab.de"][rel="noopener external"][target]
+igorslab.de##a[rel][target]:not([target="blank"],[target="_blank"])
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 igorslab.de##div[style*="max-width:980px;"]
 igorslab.de##div[style="height: 90 px; text-align: left;"]
@@ -12880,7 +12868,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2103) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2104) <<<<<<
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -12943,8 +12931,8 @@ zuketcreation.net##.cente-1
 7daystodie-servers.com#@#.ad-sidebar
 7daystodie-servers.com,meetdownload.com,plutomovies.com,waploaded.com#@#.ad-slot:not(.adsbox):not(.adsbygoogle)
 @@*$image,domain=a2zupload.com
+@@*$image,script,xmlhttprequest,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 @@*$image,xmlhttprequest,domain=bg-gledai.*|gledaitv.*|bg-gledai.video|gledaitv.fan|gledaitv.live
-@@*$image,xmlhttprequest,script,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 @@*$media,domain=camvideos.org|camwhores.tv
 @@*$script,domain=decompiler.com
 @@*$script,xmlhttprequest,image,subdocument,~third-party,domain=devuploads.com|smartfeecalculator.com
@@ -13481,7 +13469,7 @@ zuketcreation.net##.cente-1
 @@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid$script,domain=oggi.it
 @@||confirmit.com/api/$domain=lenovo.com
 @@||connatix.com/*.css$third-party,stylesheet
-@@||connatix.com/*connatix.player.$third-party,script,domain=accesousa.com|accuweather.com|adweek.com|app.kultivi.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|decider.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|interestingengineering.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|kultivi.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|nypost.com|pagesix.com|reuters.com|sacbee.com|sanluisobispo.com|sport-fm.gr|sport24.gr|sportal.gr|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|tvline.com|variety.com|w3schools.com
+@@||connatix.com/*connatix.player.$script,third-party,domain=accesousa.com|accuweather.com|adweek.com|app.kultivi.com|bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|decider.com|easternstandardtimes.com|elnuevoherald.com|flkeysnews.com|fresnobee.com|heraldonline.com|heraldsun.com|hollywoodreporter.com|huffpost.com|idahostatesman.com|indiewire.com|interestingengineering.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|kultivi.com|ledger-enquirer.com|loot.tv|macon.com|mahoningmatters.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|nypost.com|pagesix.com|reuters.com|sacbee.com|sanluisobispo.com|sport-fm.gr|sport24.gr|sportal.gr|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com|tvline.com|variety.com|w3schools.com
 @@||connatix.com/player.js$third-party,script,domain=decider.com|nypost.com|pagesix.com
 @@||connatix.com^$script,domain=accuweather.com|deadline.com
 @@||connect.facebook.*/*/AudienceNetworkPrebid.js$script,domain=cbssports.com
@@ -14654,6 +14642,7 @@ zuketcreation.net##.cente-1
 @@||www-league.nhlstatic.com/nhl.com/builds/site-core/*/scripts/*$script,domain=nhl.com
 @@||www-league.nhlstatic.com^$xmlhttprequest,domain=nhl.com
 @@||www.googletagmanager.com/gtm.js$script,domain=www.petsbest.com
+@@||www.igorslab.de/cdn-cgi/challenge-platform/$script,xmlhttprequest
 @@||www.igorslab.de/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
 @@||www.igorslab.de/community/$script,xmlhttprequest,~third-party
 @@||www.igorslab.de/wp-admin/admin-ajax.php$xmlhttprequest
