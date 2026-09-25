@@ -57,9 +57,9 @@ function write_head(){
 local file="${1}"
 local Description="${3}"
 test "${Description}" = "" && Description="${2}"
-local count=`cat "${file}" | sed '/^!/d;/^[[:space:]]*$/d' | wc -l ` 
+local count=`sed '/^!/d;/^[[:space:]]*$/d' "${file}" | wc -l ` 
 local original_file=`cat "${file}"`
-cat << key > "${file}"
+cat > "${file}" << key 
 [Adblock Plus 2.0]
 ! Title: ${2}
 ! Version: `date +'%Y%m%d%H%M%S'`
@@ -71,8 +71,8 @@ cat << key > "${file}"
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/${file##*/}
 
+${original_file}
 key
-echo "${original_file}" >> "${file}"
 sed -i 's/换行符正则表达式n/\\/g' "${file}"
 local checksum_file="`pwd`/addchecksum.py"
 if command -v python >/dev/null 2>&1 && [ -f "${checksum_file}" ]; then 
