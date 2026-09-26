@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HOA3wPS4d74cwVykZWIGcQ
-! Title: Ublock filter for Via(2026-09-26 10:34:57)
-! Version: 20260926103457
+! Checksum: GT3nRBporVKep8KABw7ABg
+! Title: Ublock filter for Via(2026-09-27 02:51:27)
+! Version: 20260927025127
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-26 10:34:57
+! Last modified: 2026-09-27 02:51:27
 ! Human Count: 1.4w
-! Blocked Filters: 14972
+! Blocked Filters: 14978
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1305,7 +1305,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6325) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6329) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1447,7 +1447,6 @@ voz.vn/b/image.gif?p=$image
 ||accordo.it/cloud-assets/x/sfondi/
 ||accuradio.com/sweeper/json/fetch/$xmlhttprequest
 ||accuradio.com/vast
-||accusationretrieval.com^
 ||achang-tw.github.io^
 ||acir.postofficeweb.com/grupoacir/
 ||acortalo.*^$third-party
@@ -2004,6 +2003,7 @@ voz.vn/b/image.gif?p=$image
 ||beinsports.com/*/adbw/
 ||beixisys.com^
 ||beixisys.com^$script,domain=tempatwisata.pro|datapendidikan.com|cekresi.me|go.fakta.id|crm.urlwebsite.com
+||bellnewyork.org^
 ||bellsecuredloginfom-net.vercel.app^
 ||beloved.noemi-mia.com^
 ||beluxrepm.followme.fr/FolloWMe
@@ -2225,6 +2225,7 @@ voz.vn/b/image.gif?p=$image
 ||candycandypop.com^
 ||canpost.id-
 ||cap3.*/api/ads
+||capitalhospitals.org^
 ||capricious-chosen.com^
 ||car-na.jp^
 ||caravanmagazine.in/iframes/flipkart-ad-$subdocument,~third-party
@@ -2570,7 +2571,6 @@ voz.vn/b/image.gif?p=$image
 ||community-flagged-
 ||compare-static.climate-data.org/tag.js$script,~third-party
 ||computer-bild.de/_static-assets/homad/homad.js
-||comradegoodsfloor.com^
 ||confiant-integrations.global.ssl.fastly.net/*/gpt_and_prebid$script,domain=seeitlive.co
 ||confidecross.com^
 ||config-factory.com^$third-party
@@ -2933,6 +2933,7 @@ voz.vn/b/image.gif?p=$image
 ||doubleclick.net^$xmlhttprequest,domain=discoveryplus.*
 ||doublepimpads.com^$third-party
 ||doubletag.run/tags/$script,domain=akirabox.to
+||doubtfulimpatient.com^
 ||doune41758.biz^
 ||douploads.*/*sw$script,~third-party
 ||douroweb.eu^
@@ -5516,6 +5517,7 @@ voz.vn/b/image.gif?p=$image
 ||player.pepsia.com/sdk.js^$script,third-party,domain=flibus.com
 ||player.tormalayalamhd.*/cdn-cgi/trace
 ||player.videasy.*/scripts/ab.js
+||player.vidlove.cc/rt.js
 ||playerembed-lb.blackboxsys.net/images/banners^$image,domain=dooball66s.com
 ||players.radioonlinehd.net/ads/
 ||players.radioonlinehd.net^$subdocument,third-party,domain=mgeko.cc
@@ -5945,6 +5947,7 @@ voz.vn/b/image.gif?p=$image
 ||rtouchingthewaterw.com^
 ||rule34.top/eroclick.js$script,~third-party
 ||rule34.us/ad.html$subdocument
+||rule34.world/api/v*/infrastructure/dynamic-meta/user|
 ||rule34.xxx/*/nutaku/
 ||rule34.xxx/images/clicker.png
 ||rule34.xxx/static/fp/$image,~third-party
@@ -6760,6 +6763,7 @@ voz.vn/b/image.gif?p=$image
 ||tnaflix.com/*.php$script,~third-party
 ||tncrun.net^
 ||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
+||todaytvseries1.com/ads/
 ||todesk-web.hl.cn^
 ||todesk-zh.cn^
 ||todesk-zh.hl.cn^
@@ -7633,7 +7637,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4950) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4952) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8991,6 +8995,8 @@ fapdrop.com##[href^="https://t.crdefault1.com/"]
 fapeza.com##.azz_iframe
 fapnado.*##.pause-ad-pullup
 fapnado.*##[class^="zpot"]
+fapnut.net##.rtsc-sponsored-card
+fapnut.net,fsicomics.com,novelcrow.com##[href="https://theporndude.com/"]
 fapomania.com##.menuraduo2
 faptitans.com##.cross-promo-bnr
 faqwiki.us##.rewarded-ad-card
@@ -9198,7 +9204,6 @@ frprn.com##.footer-spot
 frprn.com,motherporno.com,prostoporno.*##.spot
 frustfrei-lernen.de##.noContentBannerArea
 fsicomics.com##[href^="https://www.e6ui8pc.com/"]
-fsicomics.com,novelcrow.com##[href="https://theporndude.com/"]
 fstream365.com###ol-ads
 fstream365.com###overlay-ads
 ft.com##.mod-header-ad
@@ -11295,6 +11300,7 @@ rule34hentai.net##[href^="https://syndication.dynsrvtbg.com/splash.php"]
 rule34hentai.net##section[id$="left"]:has(> .blockbody > script[type])
 rule34hentai.net##section[id$="main"]:has(> .blockbody > .adsbyexoclick)
 s.response.jp##.aside-box-relation-arti
+s.response.jp##.sp-ifad
 sabervivirtv.com##.ad-item
 sabervivirtv.com##.ad-sidebar
 sabishare.com##.cmp-roll
@@ -12955,11 +12961,11 @@ zuketcreation.net##.cente-1
 7daystodie-servers.com#@#.ad-sidebar
 7daystodie-servers.com,meetdownload.com,plutomovies.com,waploaded.com#@#.ad-slot:not(.adsbox):not(.adsbygoogle)
 @@*$image,domain=a2zupload.com
+@@*$image,script,subdocument,xmlhttprequest,~third-party,domain=devuploads.com|intercelestial.com|smartfeecalculator.com|teknoasian.com
 @@*$image,script,xmlhttprequest,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 @@*$image,xmlhttprequest,domain=bg-gledai.*|gledaitv.*|bg-gledai.video|gledaitv.fan|gledaitv.live
 @@*$media,domain=camvideos.org|camwhores.tv
 @@*$script,domain=decompiler.com
-@@*$script,xmlhttprequest,image,subdocument,~third-party,domain=devuploads.com|smartfeecalculator.com
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=45er.de|antonimos.de|blackwoodacademy.org|btv.bg|btvnovinite.bg|btvplus.bg|btvsport.bg|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|kryptografie.de|mailtool.de|maxstream.video|net-tools.de|net-tours.de|photo-alben.de|promo-visits.site|quesignifi.ca|qul.de|satoshi-win.xyz|sinonimos.de|softwareengineer.de|starkroboticsfrc.com|such-maschine.de|svetatnazdraveto.bg|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|web-spiele.de|wetter-vorhersage.de
 @@*$stylesheet,other,domain=pilot.wp.pl
@@ -14121,7 +14127,7 @@ zuketcreation.net##.cente-1
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
 @@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
 @@||p04a.hs.eloqua.com^$subdocument,domain=agilent.com
-@@||pagead2.googlesyndication.com/getconfig/sodar$xmlhttprequest,domain=panel.freemcserver.net
+@@||pagead2.googlesyndication.com/getconfig/sodar$xmlhttprequest,domain=freemcserver.net
 @@||pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js$script,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/$script,domain=fplstatistics.com|safelinkunited.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=decrypt.day
