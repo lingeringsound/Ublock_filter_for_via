@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: m4h/OqqENpwOxvI+XSUEtg
-! Title: Ublock filter for Via(2026-09-26 03:42:12)
-! Version: 20260926034212
+! Checksum: HOA3wPS4d74cwVykZWIGcQ
+! Title: Ublock filter for Via(2026-09-26 10:34:57)
+! Version: 20260926103457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-26 03:42:12
-! Total Count: 14976
-! Blocked Filters: 14976
+! Last modified: 2026-09-26 10:34:57
+! Human Count: 1.4w
+! Blocked Filters: 14972
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1292) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1291) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -607,7 +607,6 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /captcha/api|$script,third-party
 /cb/cb.ta.js?v=
 /cb/cb.xb.js?v=
-/cdn-cgi/challenge-platform/scripts/jsd/main.js$script,~third-party,domain=freemcserver.net
 /cdn-cgi/trace$xmlhttprequest,domain=waaw.*|waaaw.*
 /cdn-cgi/trace$xmlhttprequest,~third-party,domain=0gomovies.*|abysscdn.com|cdn1.fastvid.co|movi.pk|netu.ac|player.msmini.*|player.sbnmp.*|playhydrax.com|vapley.*
 /cdn/linkvertise.js$script,~third-party
@@ -1306,7 +1305,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.3k (6327) <<<<<<
+! >>>>>> 域名规则 · 6.3k (6325) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5384,8 +5383,6 @@ voz.vn/b/image.gif?p=$image
 ||pancakeswap-*.vercel.app^
 ||pancakeswap.finance.expolorer.im^
 ||pandanetwork.club^$third-party,script
-||panel.freemcserver.net/*YouUblockAnd$script,~third-party
-||panel.freemcserver.net/bs4/bs4$script,~third-party
 ||panoramacharter.click^
 ||papamagic.net^
 ||parsely.com^$third-party
@@ -12895,7 +12892,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2104) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2103) <<<<<<
 #@##adContext
 #@##adSpecial
 #@##ad_300
@@ -14124,6 +14121,7 @@ zuketcreation.net##.cente-1
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
 @@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
 @@||p04a.hs.eloqua.com^$subdocument,domain=agilent.com
+@@||pagead2.googlesyndication.com/getconfig/sodar$xmlhttprequest,domain=panel.freemcserver.net
 @@||pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js$script,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/$script,domain=fplstatistics.com|safelinkunited.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=decrypt.day
@@ -14830,7 +14828,6 @@ ewrc-models.com,ewrc-results.com#@#.cardAd
 ewybory.eu#@#.advertisment
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
 fapeza.com#@#.azz_div
-flipkart.com#@#div[data-id][style]:has([width][height][fill])
 fontyukle.net#@#div[class^="sag-ust"]
 forbes.it#@#.ad-row
 formulapassion.it#@##qc-cmp2-main
@@ -14967,7 +14964,6 @@ sulpanaro.net#@#div[class^="sulpa-"]
 surfline.com#@#.ad-box:not(#ad-banner):not(:empty)
 tamin.ir#@#.ads2
 techradar.com#@#a[href^="https://amazon."][href*="tag="]
-tek.no,e24.no,minmote.no,vg.no#@#div[id^="sp_message_container_"]
 thequint.com#@#._4xQrn
 thespruceeats.com#@#[data-ad-width]
 tobys.dk#@#.abMessage
