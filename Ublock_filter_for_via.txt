@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: uf5OOu4dJilz+ttMsQw3Gw
-! Title: Ublock filter for Via(2026-10-05 11:03:57)
-! Version: 20261005110357
+! Checksum: r9KQNTL7zjt95k+d5L/4mA
+! Title: Ublock filter for Via(2026-10-06 06:15:12)
+! Version: 20261006061512
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-05 11:03:57
+! Last modified: 2026-10-06 06:15:12
 ! Human Count: 1.5w
-! Blocked Filters: 15068
+! Blocked Filters: 15085
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1292) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1293) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -1187,6 +1187,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /wp-content/uploads/adb$script,domain=mhdsports.*|mhdsportstv.*|mhdtvsports.*|mhdtvworld.*|mhdtvmax.*|mhdstream.*|mhdtvmax.*
 /wp-content/uploads/pum/pum-site-scripts.js^$domain=honghotduongpho.com
 /wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-0311104f6b606e1ad6e4eaeb8aa6336c.js$script
+/wp-json/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wp-json/api/advanced_placement/*
 /wp-json/navy/v*/tag?pid=$xmlhttprequest,~third-party
 /wpm@*/web-pixel-
@@ -1306,7 +1307,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6374) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6380) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2231,6 +2232,7 @@ voz.vn/b/image.gif?p=$image
 ||cancelaciondeseguros-*.azurewebsites.net^
 ||candycandypop.com^
 ||canpost.id-
+||canxe.cojoystreut.com^
 ||cap3.*/api/ads
 ||capitalhospitals.org^
 ||capricious-chosen.com^
@@ -2523,6 +2525,7 @@ voz.vn/b/image.gif?p=$image
 ||cocoro-liberty.com^
 ||code.adclickppc.com^
 ||code.jquery.com/jquery-$script,domain=mega-mkv.com
+||code.trygravity.ai^
 ||codeanyapp.com/*/DKB_new/
 ||codeanyapp.com/*/SWISSPASSC/
 ||codeanyapp.com/*/spoofi/
@@ -3379,6 +3382,7 @@ voz.vn/b/image.gif?p=$image
 ||forimg.net^
 ||formatch.co.jp^
 ||formspark.rongviet.com.vn^
+||formssternlystately.com^
 ||fortunatetransformation.com^
 ||fortune-crystal.com^
 ||fortune-dojo.com^
@@ -6330,6 +6334,7 @@ voz.vn/b/image.gif?p=$image
 ||smore91.net^
 ||smplayer.org^
 ||smrturl.co/o/*/53458494^
+||smry.ai/api/context|
 ||sms24.me/numbers/pixel
 ||smsiak.pl^
 ||smsmmsernorepls.wixsite.com^
@@ -6737,6 +6742,7 @@ voz.vn/b/image.gif?p=$image
 ||testra*-covid.weebly.com^
 ||testsieger.de/native-retail-media/pdp/brand-banner/
 ||testsieger.de/native-retail-media/pdp/brand-showcase/
+||textmatchcut.app/ad-gate.js
 ||texto.click^$third-party
 ||tfjg-rjgu-eeti-zjti-ordg-rfgj.netlify.app^
 ||tfjg-rjgu-egji-zjgi-orjg-rngj.netlify.app^
@@ -7188,6 +7194,7 @@ voz.vn/b/image.gif?p=$image
 ||vkorg.webservis.ru^
 ||vladan.fr/*skin$image
 ||vlc.de^
+||vlcapi.net^
 ||vliplatform.com^$third-party
 ||vlr.gg/img/bet/$image
 ||vmb.wvs.mybluehost.me^
@@ -7683,7 +7690,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4953) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4963) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -9388,6 +9395,10 @@ geinoukame.com##.ninja-recommend-block + hr
 gendai.media##.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 genialne.pl,jastrzabpost.pl##div[style="background: #ddd9d9; margin-bottom: 10px; width: 100%;"]
 geniussolutions.co###interstitial-container
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="-remote"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amazon.co.jp" i]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amzn.to" i]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="link.amazon" i]
 german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
 get-to.link###genesis-modal
@@ -9697,6 +9708,8 @@ hog.*##.player-block__square
 hog.*##.player__line
 hog.*##.player__side
 hog.*##.related-view > div.title--sm
+hogtiehub.com##.ad-bottom-grid
+hogtiehub.com##.ad-top-shell
 hollywoodpq.com##div.oboxads
 homeairquality.org##.ezo_ad
 homemoviestube.com##.film-aside-ads
@@ -9771,6 +9784,7 @@ idnes.cz,lidovky.cz###main > table
 iflscience.com###BillboardAd
 iflscience.com##.sidebar-item:has(> .ad-wrapper)
 iflscience.com##.sidebar-item[data-pid-resource]
+igay69.com##.unlock-box
 igay69.com##[href^="https://www.gclub-casino.com/daily-reload-bonus5/"]
 igg-games.com###tm-sidebar > div:not([class], [id]):has(a[rel] > img[src^="https://igg-games.com/wp-content/uploads/"])
 igg-games.com##.uk-margin-medium-top > *:first-child + a:has(img[src^="https://igg-games.com/wp-content/uploads/"])
@@ -10067,6 +10081,9 @@ knowt.com##div[class^="breakpoints_mdDownDisplayNone"]:has(#knowt_sticky_rightra
 kobe-np.co.jp##section.sec:has(> #piano_recs_inline_title)
 kobietyhistorii.pl,przezwieki.pl###bottom-sticky-container > #stickyEl
 kolagames.com##.slot
+komonews.com###deeper-dive-container-0
+komonews.com##.TaboolaHomepageFeed_taboolaWrapper__dtrdt
+komonews.com##[data-slot-label^="DisplayAd"]
 kompas.id##.relative:has(> [id^="div-gpt-ad"])
 koramaup.com##[href^="http://u87yuo9ojh.world/"]
 koramaup.com##div.text-center.col-md-12:has([href*="//gjxmcla.pro/"])
@@ -12639,7 +12656,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 305 <<<<<<
+! >>>>>> 通用Css规则 · 306 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -12726,6 +12743,7 @@ zuketcreation.net##.cente-1
 ##.aan_fake
 ##.aan_fake__video-units
 ##.ad-300x250:not(.ads)
+##.ad-banner-slot
 ##.ad-content:not(:empty)
 ##.ad-link:not(.adsbox)
 ##.ad-placeholder:not(#detect):not(#detect_ad_empire):not(#filter_ads_by_classname):not(.adsbox)
@@ -12947,7 +12965,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2144) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2143) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -15011,7 +15029,6 @@ pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
 polygon.com#@#.video
 pornhub.com#@#iframe[width][height*="px"]
 pornhub.com,recensionihot.com,torino2006.it#@#a[href^="https://www.moscarossa.biz/"]
-pornohexen.com#@##adsbox
 queerpride.de#@#.category-advertorial
 qwant.com#@#div[data-testid="pam.container"]
 raidrush.net#@##top_ga
