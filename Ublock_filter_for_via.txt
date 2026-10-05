@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sEqwvv31ilpiqUG64lF8KA
-! Title: Ublock filter for Via(2026-10-05 02:53:12)
-! Version: 20261005025312
+! Checksum: uf5OOu4dJilz+ttMsQw3Gw
+! Title: Ublock filter for Via(2026-10-05 11:03:57)
+! Version: 20261005110357
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-05 02:53:12
+! Last modified: 2026-10-05 11:03:57
 ! Human Count: 1.5w
-! Blocked Filters: 15067
+! Blocked Filters: 15068
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1306,7 +1306,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6373) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6374) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4471,6 +4471,7 @@ voz.vn/b/image.gif?p=$image
 ||life-is-luminous.com^
 ||lifeselector.com/banners/js/banner-controller.
 ||ligabenelux.com^
+||ligainsider.de/js/82563b61.js
 ||ligainsider.de/li-probe
 ||ligainsider.de/public/*/js/li-probe
 ||ligainsider.de/public/*/js/li-wall
