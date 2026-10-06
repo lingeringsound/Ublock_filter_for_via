@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: A+8/6XCZzCWpiRiYce/0Og
-! Title: Ublock filter for Via(2026-10-06 11:52:37)
-! Version: 20261006115237
+! Checksum: UKTBfQN8lYL/AXuz3j/KQQ
+! Title: Ublock filter for Via(2026-10-07 04:39:06)
+! Version: 20261007043906
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-06 11:52:37
+! Last modified: 2026-10-07 04:39:06
 ! Human Count: 1.5w
-! Blocked Filters: 15085
+! Blocked Filters: 15096
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1293) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1303) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -368,6 +368,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 .net/2?z=$script,third-party
 .net/?fl=m9&m=
 .net/?h=*&user=$script,third-party
+.net/dgdh1.wav$domain=azurefd.net|windows.net
 .netline.com%2Fltr1%2F$image
 .netline.com/ltr1/$image
 .ondemandmsg.sbs.com.au%2Fr%2F*$image
@@ -760,6 +761,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /gtrack?clientid=$image
 /hcaptcha-human-check.html^
 /header-banner$image,domain=domainwheel.com
+/hel0sgfy.mp4$domain=azurefd.net|windows.net
 /hello.heroku.com/r/*/open/*$image
 /heyboy/com/*.js$script
 /hillpop.php|$script,~third-party
@@ -805,6 +807,14 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /jquery.notify.js$script,~third-party,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*
 /jquery.watch.js|$script,~third-party,domain=~dekrantvantoen.nl
 /jr.php?gz=
+/js/01d1fgshfddfg.js$domain=azurefd.net|windows.net
+/js/02dgdsg3d.js$domain=azurefd.net|windows.net
+/js/03fgsskryeivh.js$domain=azurefd.net|windows.net
+/js/04shesc1.js$domain=azurefd.net|windows.net
+/js/05sdghdf.js$domain=azurefd.net|windows.net
+/js/08dgsg3d.js$domain=azurefd.net|windows.net
+/js/11gfdjuef.js$domain=azurefd.net|windows.net
+/js/12dgdur.js$domain=azurefd.net|windows.net
 /js/aclb.js^$script,~third-party,domain=anizle.com|anizm.net|puffytr.com
 /js/ads/*$script,domain=mangabats.com|mangakakalot.gg|mangakakalove.com|manganato.gg|natomanga.com|nelomanga.net
 /js/analytics/fdUserFingerprintToken.js$domain=tourbobit.com|tourbobit.net|turbobeet.net|turbobi.pw|turbobif.com|turbobit.net|turbobita.net|turbobits.cc|turbobits.net
@@ -1307,7 +1317,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6380) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6381) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1918,13 +1928,16 @@ voz.vn/b/image.gif?p=$image
 ||azureedge.net/*/esc.js
 ||azureedge.net/*/flscn.js
 ||azurefd.net/?bcda=
+||azurefd.net/?smash=
 ||azurefd.net/Win20Errfb020/index.html
 ||azurefd.net/fullscreen.js
 ||azurefd.net/js/customone.js
 ||azurefd.net/js/customtwo.js
 ||azurefd.net/js/esc.js
 ||azurefd.net/js/flscn.js
+||azurefd.net/media/audio.mp3
 ||azurefd.net/media/beep.mp3
+||azurefd.net/media/beepp.WAV
 ||azurefd.net/media/msc.mp3
 ||azureus.es^
 ||azurewebsites.net/alertmicrosoft.mp3
@@ -2855,6 +2868,7 @@ voz.vn/b/image.gif?p=$image
 ||deviants.com/player/html.php^
 ||devuploads.com/devfiles/js/devtools.js
 ||devuploads.com/next^
+||dezhou.hnambui01zs.com^
 ||dfiles.*/sw.js$script,~third-party
 ||dfr.bubu88yjt.jp^
 ||dfuybl-bclxb.love^
@@ -4025,6 +4039,7 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2021/04/Optris_Final-2.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x251px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x501px.jpg
+||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_1024x120px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x501px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x251px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x501px.jpg
@@ -4033,10 +4048,12 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2023/04/980x100_DAMN_Fruehlingsdeals_ARCTIC_MINDFACTORY.jpg
 ||igorslab.de/wp-content/uploads/2023/11/980x125-2.png
 ||igorslab.de/wp-content/uploads/2024/01/Palit_RTX50_300_250_en.jpg
+||igorslab.de/wp-content/uploads/2024/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x251px.jpg
 ||igorslab.de/wp-content/uploads/2024/09/Igors_Lab_980x125.jpg
 ||igorslab.de/wp-content/uploads/2025/03/DP_H_DE.png
 ||igorslab.de/wp-content/uploads/2025/08/HATOR-Skyfall_80_MAG_ULTIMA_8K_Wireless.jpg
 ||igorslab.de/wp-content/uploads/2025/10/Terminator-Air_300-x-400-1.jpg
+||igorslab.de/wp-content/uploads/2025/11/V2-Banner_V4_1-2.jpg
 ||igorslab.de/wp-content/uploads/2025/12/Halnziye.jpg
 ||igorslab.de/wp-content/uploads/2026/01/Cooler-Master.png
 ||igorslab.de/wp-content/uploads/2026/03/AT-120-K-300%C3%97250.jpg
@@ -7282,13 +7299,7 @@ voz.vn/b/image.gif?p=$image
 ||web.core.windows.net/?zpbid=
 ||web.core.windows.net/beep.mp3
 ||web.core.windows.net/chrmac/index.html
-||web.core.windows.net/dgdh1.wav
 ||web.core.windows.net/eng.mp3
-||web.core.windows.net/hel0sgfy.mp4
-||web.core.windows.net/js/01d1fgshfddfg.js
-||web.core.windows.net/js/02dgdsg3d.js
-||web.core.windows.net/js/03fgsskryeivh.js
-||web.core.windows.net/js/04shesc1.js
 ||web.core.windows.net/macx/index.html
 ||web.core.windows.net/media/ados.mp3
 ||web.core.windows.net/media/msc.mp3
