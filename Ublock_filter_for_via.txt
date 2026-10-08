@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sc2yxBO1EEFbS96fKIwT2w
-! Title: Ublock filter for Via(2026-10-08 04:54:17)
-! Version: 20261008045417
+! Checksum: pju4HzxBfHw7cPFDuetaVg
+! Title: Ublock filter for Via(2026-10-08 11:35:39)
+! Version: 20261008113539
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-08 04:54:17
+! Last modified: 2026-10-08 11:35:39
 ! Human Count: 1.5w
 ! Blocked Filters: 15101
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -1317,7 +1317,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6382) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6383) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2145,6 +2145,7 @@ voz.vn/b/image.gif?p=$image
 ||bobs-tube.com/sw$script,~third-party
 ||bohubrihi.com^$third-party
 ||bokarsolutions.co.uk^$third-party
+||bolighub.dk/tma/$script,~third-party
 ||bollywoodporn.name/js/PfV5GLKSF5S5md5LwPUPY.js
 ||bonzi.link^
 ||boobausauhipsa.net^
@@ -12979,7 +12980,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2145) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2144) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14573,7 +14574,6 @@ zuketcreation.net##.cente-1
 @@||statics.estadao.com.br/*/portal/js/comscore/$script,domain=estadao.com.br
 @@||statics.estadao.com.br/*/utils/publicidade/dfp.min.js$script,domain=estadao.com.br
 @@||stats.g.doubleclick.net/dc.js$script,domain=ticketfly.com
-@@||stats.g.doubleclick.net/g/$xmlhttprequest,domain=androidacy.com
 @@||storage.oraclecloud.com/*/smartclip-services/sc_player/$script,~third-party
 @@||stpd.cloud^$script,domain=dgb.lol
 @@||streamadblockplus.com^$subdocument,domain=streamtape.com
