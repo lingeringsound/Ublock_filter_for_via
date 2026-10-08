@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: pju4HzxBfHw7cPFDuetaVg
-! Title: Ublock filter for Via(2026-10-08 11:35:39)
-! Version: 20261008113539
+! Checksum: pZSSqA+q9z/8xpxZooPwhQ
+! Title: Ublock filter for Via(2026-10-09 04:54:59)
+! Version: 20261009045459
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-08 11:35:39
+! Last modified: 2026-10-09 04:54:59
 ! Human Count: 1.5w
-! Blocked Filters: 15101
+! Blocked Filters: 15109
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1303) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1304) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -506,6 +506,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /adblock.php$script,domain=daddylivehd.*|dlhd.sx
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adc-ads-lib|$script
+/admin-ajax.php?$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /admiral/script
 /adpia_click_popup_after.js
 /adpup/*.js$script,third-party
@@ -1317,7 +1318,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6383) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6384) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3679,7 +3680,6 @@ voz.vn/b/image.gif?p=$image
 ||goneleft.com^
 ||goo-riki.com
 ||goodpics.net^
-||goodreads.com/weblab
 ||goodstream.one/js2/noadblocker.js
 ||googgle-chrrome.hl.cn^
 ||googie-anaiytics.com^
@@ -5377,6 +5377,7 @@ voz.vn/b/image.gif?p=$image
 ||p67-kuku4e.xyz^
 ||padspms.com^
 ||padsthai.com^
+||page-kit.io^$script,xmlhttprequest,domain=neopets.com
 ||page-suspension.com^
 ||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=decrypt.day
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
@@ -6994,6 +6995,7 @@ voz.vn/b/image.gif?p=$image
 ||u.send.now/m.js$script,~third-party
 ||u3ig.com^
 ||u65erdf-gre.com^
+||ua.xstory-fr.com^
 ||ublockpop.com^
 ||ucast.pro^
 ||udc.yahoo.com^
@@ -7703,7 +7705,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4964) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4967) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -7881,7 +7883,7 @@ adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,sav
 additudemag.com##.primary-sidebar-ad
 adhs-zentrum.de##div.box:has(.adsbygoogle)
 adhs-zentrum.de,appnee.com,arrowos.net,myuploadedpremium.de###babasbmsgx
-adhs-zentrum.de,bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,freex2line.online,hax.co.id,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
+adhs-zentrum.de,bg-gledai.*,custommapposter.com,dirrty.remix.es,emailregex.com,freex2line.online,hax.co.id,iplookup.flagfox.net,jelonka.com,leechpremium.net,mnya.tw,rangerboard.com,wallpaperplay.com##.adsbygoogle
 adshnk.com##a.item[href^="https://plarium.com/"]
 adshnk.com,mixrootmod.com##.custom-modal
 adshort.*##a[href$=".html"][rel="nofollow norefferer noopener"]
@@ -8928,6 +8930,7 @@ eleconomista.es##[class^="DisplayAd"]
 electomania.es##.td-pb-row.wpb_row.tdi_73.vc_row
 electricaltechnology.org###stream-item-widget-2
 electricaltechnology.org###stream-item-widget-7
+elektroda.pl##.row > .col-md-12 > div:has(.adsbygoogle)
 elektroda.pl##.the-content > section:has(> div[id] > div > div > a[rel*="nofollow"])
 elektroda.pl##.the-discussion div:has(> a[href^="https://www.elektroda.pl/rtvforum/"] > picture > source)
 elektroda.pl##.topic-lists-wrap > ul > li:not(.post) a:has(source)
@@ -9408,10 +9411,12 @@ geinoukame.com##.ninja-recommend-block + hr
 gendai.media##.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 genialne.pl,jastrzabpost.pl##div[style="background: #ddd9d9; margin-bottom: 10px; width: 100%;"]
 geniussolutions.co###interstitial-container
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="-remote"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amazon.co.jp" i]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amzn.to" i]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="link.amazon" i]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.catalog-content
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="pdx-"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="aHR0"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-remote"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com"])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a[rel*="sponsored"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
 german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
 get-to.link###genesis-modal
@@ -12670,7 +12675,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 307 <<<<<<
+! >>>>>> 通用Css规则 · 309 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -12769,7 +12774,6 @@ zuketcreation.net##.cente-1
 ##.addthis_toolbox
 ##.ads-btns
 ##.ads-iframe:not([style="position: absolute; left: -10px; top: -10px;"])
-##.adsbygoogle[data-adsbygoogle-status="done"][data-ad-status="filled"]:not(ins)
 ##.adsbyrunactive
 ##.adslot_1:not(.text-ad)
 ##.adunit:not(.text-ad)
@@ -12833,6 +12837,8 @@ zuketcreation.net##.cente-1
 ##.ninja-recommend-block
 ##.overlay-advertising-new
 ##.player-bns-block
+##.post-template-default a[href^="https://go."][href*="/smartpop/"]
+##.post-template-default a[href^="https://www.ourdreamersai13.com/"]
 ##.pppx
 ##.preroll-blocker
 ##.reklama:not(.ads)
@@ -12913,6 +12919,7 @@ zuketcreation.net##.cente-1
 ##body > div.mw[role="main"] > .mc
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ##body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"]
+##body > div[style="position: fixed; inset: 0px; z-index: 2147483647; background: transparent; cursor: pointer;"]
 ##body.user-clicked[style="cursor: auto;"] > #root > .app-container
 ##body.wp-singular > div[id$="-overlay"] > div[id$="-container"] > div[class*="-container"] > div[id$="-checkbox-window"]
 ##body[data-clipboard-code] > .main-wrapper
@@ -12980,7 +12987,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2144) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2145) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -15024,6 +15031,7 @@ musmus.main.jp,streetinsider.com#@##ad_space:not([style^="position: absolute; le
 mytempsms.com#@##container-ad
 nathanmichaelphoto.com#@##gdpr-cookie-notice
 needgayporn.com#@#.is-ad-visible
+neopets.com#@##ad-overlay
 neos-easygames.com,synk-casualgames.com#@##ad_block
 nijie.info/ad_log.php#@#._banner_view
 nybooks.com#@#.top-ad-wrapper
