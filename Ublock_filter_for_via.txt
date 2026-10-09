@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: pZSSqA+q9z/8xpxZooPwhQ
-! Title: Ublock filter for Via(2026-10-09 04:54:59)
-! Version: 20261009045459
+! Checksum: GU5MtfW06DNSHpyivjd3Vg
+! Title: Ublock filter for Via(2026-10-09 11:41:16)
+! Version: 20261009114116
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-09 04:54:59
+! Last modified: 2026-10-09 11:41:16
 ! Human Count: 1.5w
-! Blocked Filters: 15109
+! Blocked Filters: 15110
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -12675,7 +12675,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 309 <<<<<<
+! >>>>>> 通用Css规则 · 310 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -12985,6 +12985,7 @@ zuketcreation.net##.cente-1
 ~lamire.jp,~tinhte.vn##.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 ~www.wp.pl,wp.pl##header + div[data-reactid]:has(> div:only-child > div:first-child > div:only-child > a > div:only-child:empty)
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
+~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
 ! >>>>>> 放行白名单 · 2.1k (2145) <<<<<<
