@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: GU5MtfW06DNSHpyivjd3Vg
-! Title: Ublock filter for Via(2026-10-09 11:41:16)
-! Version: 20261009114116
+! Checksum: z3LCrkp9uT8gtGUxiVmMsQ
+! Title: Ublock filter for Via(2026-10-10 04:24:04)
+! Version: 20261010042404
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-09 11:41:16
+! Last modified: 2026-10-10 04:24:04
 ! Human Count: 1.5w
-! Blocked Filters: 15110
+! Blocked Filters: 15127
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1304) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1305) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -545,6 +545,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /api/css.js^$third-party,script
 /api/events$xmlhttprequest,domain=miruro.*|miruro.to|miruro.bz|miruro.online|miruro.tv
 /api/model/feed?siteId=$xmlhttprequest,third-party
+/api/models/*^domain=xhamster$xmlhttprequest
 /api/models/vast?userId=*&adblocked=$xmlhttprequest,~third-party
 /api/models?userId=$xmlhttprequest,domain=fullxh.com|megaxh.com|seexh.com|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.*|xhamster5.*|xhamster7.*|xhamster8.*|xhamsterporno.mx|xhbig.com|xhbranch5.com|xhchannel.com|xhdate.world|xhlease.world|xhmoon5.com|xhofficial.com|xhopen.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhspot.com|xhtotal.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite5.com|xhwide5.com
 /api/popads-code
@@ -1318,7 +1319,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6384) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6391) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2153,6 +2154,7 @@ voz.vn/b/image.gif?p=$image
 ||boobsrealm.com/wp-content/uploads/*-banner$image,~third-party
 ||book234h.fun^
 ||bookofsex.com^
+||boomlify.com/banner-config.json
 ||bootcdn.net^
 ||bootcss.com^
 ||bot-check-v*.b-cdn.net^
@@ -2522,6 +2524,8 @@ voz.vn/b/image.gif?p=$image
 ||clprr.com^
 ||club-gagnant.online^
 ||club-house.link^
+||cluster.*^domain=xhamster$xmlhttprequest
+||cluster.xhamster.$xmlhttprequest
 ||clustrmaps.com^$third-party
 ||cm.bilibili.com/cm/api/$xmlhttprequest
 ||cmp.*.no^*/metrics/
@@ -4047,6 +4051,7 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2021/11/Fractal-Sep-launch.jpg
 ||igorslab.de/wp-content/uploads/2022/12/View-600-Teal-300x400-1.jpg
 ||igorslab.de/wp-content/uploads/2023/04/980x100_DAMN_Fruehlingsdeals_ARCTIC_MINDFACTORY.jpg
+||igorslab.de/wp-content/uploads/2023/04/Igors_Lab_ARCTIC_MX-7_980x100_
 ||igorslab.de/wp-content/uploads/2023/11/980x125-2.png
 ||igorslab.de/wp-content/uploads/2024/01/Palit_RTX50_300_250_en.jpg
 ||igorslab.de/wp-content/uploads/2024/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x251px.jpg
@@ -4064,6 +4069,8 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2026/08/HK5-2026.jpg
 ||igorslab.de/wp-content/uploads/2026/08/Horizontal.jpg
 ||igorslab.de/wp-content/uploads/2026/08/Vertical.jpg
+||igorslab.de/wp-content/uploads/2026/10/Solstice-H.png
+||igorslab.de/wp-content/uploads/2026/10/Solstice-V.png
 ||igorslab.de^$script,xmlhttprequest,~third-party
 ||igualdad.iaa.csic.es/nochain-sw.js
 ||ihub.live/sw.js$script,~third-party
@@ -6809,6 +6816,7 @@ voz.vn/b/image.gif?p=$image
 ||tiktok-svip*.com^
 ||tiktok18.porn/livewire/update
 ||tilersforums.com/js/xf/$script,~third-party
+||timbuk2.com.de^
 ||timeanddate.*/scripts/logperf.php
 ||tin-dung-
 ||tingtang.pages.dev^
@@ -7705,7 +7713,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4967) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4974) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8119,6 +8127,8 @@ audinifer.com,mfw09.org,vibuxer.com##body > div[style*="2147483647"]
 audiobooks4soul.com##[href^="https://ezaudiobooks.com/"]
 audiostereo.pl##div[style="margin-bottom: 10px;"] > a[href][target="_blank"], [href^="https://salony.nautilus.net.pl/"]
 augsburger-allgemeine.de##div[id^="cx_"]
+auto-swiat.pl,businessinsider.com.pl,doofree88.com,fakt.pl,forbes.pl,jakdojade.pl,komputerswiat.pl,lendi.pl,medonet.pl,moneteasy.pl,morizon-gratka.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,opineo.pl,plejada.pl,simplebits.io,skapiec.pl##.placeholder
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,jakdojade.pl,komputerswiat.pl,lendi.pl,medonet.pl,moneteasy.pl,morizon-gratka.pl,newsweek.pl,noizz.pl,ofeminin.pl,onet.pl,opineo.pl,plejada.pl,skapiec.pl##div[id^="onet-ad-"]
 auto.am##.azd-top
 auto.am##.bncont
 auto.am##.toggle-adv-search
@@ -8786,7 +8796,6 @@ donnaglamour.it##.banner_contest
 doodle.com##.AdsLayout__top-container
 doodss.*###video-container ~ a[href="#"]
 doofree88.com##.go-hard
-doofree88.com,simplebits.io##.placeholder
 doomovie-hd.*##.header-banana_container
 doomovie-hd.*##[class^="horizontal-ad"]
 doomovie-hd.*##[data-ultimate-banana-id]
@@ -9415,7 +9424,8 @@ genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.catalog-
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="pdx-"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="aHR0"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-remote"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com"])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-sale"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com" i])
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a[rel*="sponsored"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
 german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
@@ -9512,6 +9522,7 @@ gosexpod.com##.zzz-ddnotice
 gotxx.*##div[class][style^="position: absolute; cursor: pointer; z-index: 2147483646"]
 governing.com##.Page-body[data-header-hat="true"] .Page-header-hat
 govtech.com##.Enhancement:has(.GoogleDfpAd)
+gowatchseries.net###gw-ad-root
 gplinks.*##a.exclude-pop.smartlink, .exclude-pop.quiz-container, #PlayQuiz, #quiz-frame, .exclude-popad
 gpucheck.com###placeholder_top_middle
 gpxgenerator.com###adBlockDiv
@@ -11172,6 +11183,7 @@ promo-visits.site,shorterall.com###qc-cmp2-container + p
 proxer.me###stream_message_overlay
 proxybit.*##[id*="banner"]
 prydwen.gg##div.custom-banner-header
+przezwieki.pl##.wp-cockroach-teaser:has(> .size-full > [data-position] > a[data-before="REKLAMA"])
 przezwieki.pl##.wp-main-home > a:first-child[target="_blank"][rel="noopener noreferrer"]:has(> picture > img.wp-media-image)
 psprices.com##[href*=".smartadserver.com"]
 pstream.*##.bg-buttons-purple:has(> button[aria-label="Dismiss ad"])
@@ -11181,6 +11193,8 @@ pt.potwm.com##.shown.visible.onlineIndicator
 publicearn.*##.page-header > h3, .banner, .bg-soft-primary, [style="margin-top: 250px;"], .box-main > center > center > [href], video
 publicearn.*##[href*="t.me"]
 publish0x.com###registerModal, .show.fade.modal-backdrop
+pudelek.pl##.gallery-body-grid > aside[role="complementary"]:has(> .w-full > div > .h-0:empty)
+pudelek.pl##.wp-stream-box:has(> div > .h-0:empty)
 punters.com.au##.campaign-modal
 purposegames.com##.adlabel
 pussyspace.com,pussyspace.net##.left *:not(div):not(span):not(p):not(a):not(video):not(i):not(ul):not(li):not(b):not(button):not(svg):not(g):not(h1):not(h2):not(pjsdiv):not(noindex):not(select) img
@@ -11756,7 +11770,8 @@ streamcash.to###player-ui-layer[style="position:absolute;inset:0;z-index:99;curs
 streamcash.to##.media-slot-bottom
 streamcash.to##a[href^="https://jerknut.com"]
 streamcash.to##div.banner-zone
-streamcash.to##div[id]:has(button[onclick*="location.reload()"])
+streamcash.to##div[id][style*="40px"]
+streamcash.to##span[id][style*="z-index: 2147483647;"]
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"] img
 streamed.pk,streamed.st,streami.su##a[href^="https://duel.com/"]:has(img) + button.ring-offset-background
 streamhub.*##center > a[href][target="_blank"]
@@ -12675,7 +12690,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 310 <<<<<<
+! >>>>>> 通用Css规则 · 311 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -12985,10 +13000,11 @@ zuketcreation.net##.cente-1
 ~lamire.jp,~tinhte.vn##.ad-unit:not(.adsbox, .text-ad, .textads):not([style^="width: 1px; height: 1px; position: absolute;"])
 ~www.wp.pl,wp.pl##header + div[data-reactid]:has(> div:only-child > div:first-child > div:only-child > a > div:only-child:empty)
 ~www.wp.pl,wp.pl,komorkomania.pl,fotoblogia.pl,gadzetomania.pl##div:has(> div:not([class], [id]) > div > a[href*="utm_"])
+~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl##[class]:has(> [class]:only-child > img[role="presentation"].absolute:first-child + div):has(> [class] > .h-0:empty + script:last-child)
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2145) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2146) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14015,7 +14031,7 @@ zuketcreation.net##.cente-1
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,xmlhttprequest,domain=zee5.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$xmlhttprequest,domain=mtv.it|mtv.de|mtv.co.uk|mtvema.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai_debug.js$domain=cbsnews.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,domain=reuters.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,domain=o2.pl|reuters.com|vibez.pl
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$script,domain=lasexta.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=cbs.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$script,domain=13tv.co.il|pluto.tv|watch.motortrend.com
@@ -15025,6 +15041,7 @@ majorgeeks.com#@#.navigation-light
 majorgeeks.com#@#[style]:has([href*="&utm_source"])
 meijer.com#@#.product-grid__product:has(.product-tile__sponsored)
 money.pl#@##app > div[class^="sc-"] > div[class]:not([class*=" "]):has(:scope > div[class*=" "]:only-child > img[src^="https://v.wpimg.pl/"][src$="=="][alt])
+money.pl#@#div:has(> [src^="https://v.wpimg.pl/"]:not([alt], [loading]))
 motherless.com#@#.media-linked
 motherless.xxx#@#iframe[style]
 msn.com#@#.intra-article-module
