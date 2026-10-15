@@ -1,20 +1,21 @@
 [Adblock Plus 2.0]
-! Checksum: Y1kV9ZT6g4wovz96KoU/DA
-! Title: Ublock filter for Via(2026-10-15 10:22:58)
-! Version: 20261015102258
+! Checksum: QJ/knLoo9u7OLn0nxQXMBg
+! Title: Ublock filter for Via(2026-10-16 03:33:34)
+! Version: 20261016033334
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-15 10:22:58
+! Last modified: 2026-10-16 03:33:34
 ! Human Count: 1.5w
-! Blocked Filters: 15167
+! Blocked Filters: 15177
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1304) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1306) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
+&ag_custom_domain=
 &ag_custom_vlmspot=
 &click_price=0.*&click_id=
 &dci=*&tds_campaign=
@@ -583,6 +584,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /assets/jquery/p2anime.js?v=
 /assets/jquery/static.js?type=mainstream^$script,~third-party
 /assets/js/anti-adblock.js|$script,~third-party
+/assets/js/wynq.js|$script,third-party
 /assets/jwplayer-*/vast.js$script,~third-party
 /axad/?lpkey=
 /aymt/aa/?$image
@@ -1318,7 +1320,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6401) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6404) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3372,6 +3374,7 @@ voz.vn/b/image.gif?p=$image
 ||flexytalk.net^
 ||flickker.net^
 ||flight-report.com/api/event
+||flightview.com/shield.js
 ||flingtrainer.io^
 ||flipkart.net/mapi/v1/tracker/eventBatch
 ||flirt.com^
@@ -4197,6 +4200,7 @@ voz.vn/b/image.gif?p=$image
 ||itmustbetime.com/content/uploads/products/china/china/index.php^
 ||itrustcapitaalloginn.webflow.io^
 ||itsaol.com^
+||iugsbae.com^
 ||ivg.it/wp-content/plugins/edinet_giornali_swg_plugin/js/ackdet.js
 ||ivy2241u.jp^
 ||iwantu.com^
@@ -7517,6 +7521,7 @@ voz.vn/b/image.gif?p=$image
 ||xexxngbeuz.net^
 ||xforce-cracks.com^
 ||xgal.jp^
+||xgamehub.net/kaa/
 ||xgram.asia^
 ||xgroovy.com/static/js/initsite.min.js
 ||xhamster*/api/*/vast
@@ -7722,7 +7727,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4982) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4985) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8615,7 +8620,6 @@ convert2mp3.tv##[href="/banner.html"]
 cookinggames.com###addCentered > p
 cookinggames.com,wordgames.com###skyscrapper-container
 coolmathgames.com###block-adstop-otherpage-728x90
-coolmathgames.com,kiz10.com##[class*="-ads"]
 coolrom.com.au##font > table:has([href*="/offers/"])
 coolrom.com.au,win.gg###td-bottom-mpu-1
 coolrom.com.au,win.gg###td-top-leaderboard-1
@@ -8670,6 +8674,7 @@ cryptowin.io##.hidden-xs
 cryptowin.io##.panel-body > p[style=" color:#818181; background-color: #fffdc4; text-align: center; font-size: 14px; border-radius: 2px; width: 320px; max-width: 100%; margin: auto; margin-top: 15px; "]
 csrevo.com,escapegames24.com###HTML3
 csst.at##a[href^="https:"] > [alt*="banner"]
+csst.at##a[rel~="sponsored"]
 cstalking.tv##.blockhead
 ctrl.blog##.boxa
 cuevana8.com##.advpl
@@ -10051,6 +10056,7 @@ juazeiro.ba.gov.br###tie-block_3287
 jumpmanclubbrasil.com.br##.home-ad-con
 justlightnovels.com,thetruedefender.com,tvnation.me##.adsbyvli
 justwatch.com##.vpn-link
+kaa.lt##div.row > div[class^="col-"]:has(> .show-item > .native-ad-cover)
 kachelmannwetter.com###meteosafe
 kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
@@ -10111,6 +10117,7 @@ kisstvshow.*###hideAds
 kisstvshow.*##.ksAds
 kisstvshow.*##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]
 kiz10.com##.box-advertisement-down
+kiz10.com##[class*="-ads"]
 kleinanzeigen.de###liberty-vip-billboard
 klz9.com##center > center > a[target="_blank"][rel="noopener noreferrer"]
 klz9.com,sexgayplus.com##.float-ck
@@ -12574,6 +12581,7 @@ www.wp.pl##div[data-bdc="section-celebrities"] > .wp-inner-content > div:has(> d
 www.yahoo.com##.sticky[class*="top-"]:has(style)
 www.yahoo.com##div[id]:has(> div[id^="top_center-frontpage_"])
 www.youtube.com###toast:has(> #text-container > yt-formatted-string#text.yt-notification-action-renderer)
+www.youtube.com##.ytSnackbarContainerOpened:has(> .snackbarViewModelSwipeable > .snackbarViewModelEngagementBarWrapper .ytAttributedStringWhiteSpacePreWrap[style])
 x.com##article[data-testid="tweet"] a[href^="https://linkneverdiel.com"]
 xanimu.com##.alrt-ver2
 xbabe.com##.bnnrs-bottom
@@ -13020,7 +13028,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2170) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2172) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -13907,6 +13915,7 @@ zuketcreation.net##.cente-1
 @@||gemius.pl/xlgemius.js$script,domain=dn.pt|jn.pt|tsf.pt
 @@||gemius.pl^$script,xmlhttprequest,domain=polsatnews.pl
 @@||genshin-soku.com/wp-content/plugins/amazon-egift-donation/assets/front.js
+@@||genshin-soku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
 @@||genshin-soku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
 @@||genshin-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
 @@||genshin-soku.com/wp-includes/js/wp-emoji-release.min.js
@@ -14909,6 +14918,7 @@ zuketcreation.net##.cente-1
 @@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-child-master/javascript.js
 @@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/javascript.js
 @@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/js/group-link.js
+@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/plugins/baguettebox/dist/baguetteBox.min.js
 @@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/plugins/lozad.js-master/dist/lozad.min.js
 @@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/skins/skin-colors-blue/javascript.js
 @@||xn--gckdevd5myivf.site/wp-includes/js/comment-reply.min.js
