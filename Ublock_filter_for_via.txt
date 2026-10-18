@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NtDT8mdaCaUFJiB4drp8Yg
-! Title: Ublock filter for Via(2026-10-18 02:02:20)
-! Version: 20261018020221
+! Checksum: 27IIHhZi6q+e6Q2uslZsBw
+! Title: Ublock filter for Via(2026-10-18 10:08:49)
+! Version: 20261018100849
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-18 02:02:21
+! Last modified: 2026-10-18 10:08:49
 ! Human Count: 1.5w
-! Blocked Filters: 15180
+! Blocked Filters: 15182
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1320,7 +1320,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.4k (6406) <<<<<<
+! >>>>>> 域名规则 · 6.4k (6407) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3117,6 +3117,7 @@ voz.vn/b/image.gif?p=$image
 ||embols.com^
 ||empirenovel.com/po.js
 ||emta-ee-authst.firebaseapp.com^
+||emudesk.com/api/analytics/
 ||en-ledger.com^
 ||en-mu-su-bi.com^
 ||enbdev.com/_main.js$script,~third-party
@@ -9918,7 +9919,6 @@ insidemarketing.it##.homeBannerMax
 insider.com##.in-post-sticky:has(> .ad-wrapper)
 interactivemap.app###streamers
 interactivemap.app##.footer
-intercelestial.com,teknoasian.com##.right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*="s0-greate"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments, .post-share.tags-share-box, .alignleft.wp-caption
 internetretailing.com.au##.textwidget:has(> div > div[id^="IRN_Homepage_300x250"])
 interracial.com##[src^="https://www.interracial.com/player/html.php"]
 inverse.com##article .adWrapper
@@ -10214,6 +10214,7 @@ limerickleader.ie###abr_purchase_div
 limetorrents.*##[href^="/fast.php"]
 limetorrents.*##[href^="https://affiliate.rusvpn.com/"]
 limetorrents.*##div:has(> div > a[href^="/leet/?"])
+linegee.net,intercelestial.com,teknoasian.com##.right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*="s0-greate"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments, .post-share.tags-share-box, .alignleft.wp-caption
 linfoweb.com##ins.adsbygoogle-wrapper
 link-to.net##.ad-block-1
 link.paid4link.com##.card
@@ -13033,7 +13034,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2170) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2171) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -13138,16 +13139,17 @@ zuketcreation.net##.cente-1
 7daystodie-servers.com#@#.ad-sidebar
 7daystodie-servers.com,meetdownload.com,plutomovies.com,waploaded.com#@#.ad-slot:not(.adsbox):not(.adsbygoogle)
 @@*$image,domain=a2zupload.com
-@@*$image,script,subdocument,xmlhttprequest,~third-party,domain=devuploads.com|intercelestial.com|smartfeecalculator.com|teknoasian.com
 @@*$image,script,xmlhttprequest,domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
 @@*$image,xmlhttprequest,domain=bg-gledai.*|gledaitv.*|bg-gledai.video|gledaitv.fan|gledaitv.live
 @@*$media,domain=camvideos.org|camwhores.tv
 @@*$script,domain=decompiler.com
+@@*$script,xmlhttprequest,image,subdocument,~third-party,domain=devuploads.com|smartfeecalculator.com
 @@*$script,xmlhttprequest,~third-party,domain=digikey.co.za|digikey.cn|digikey.ee|digikey.at|digikey.be|digikey.bg|digikey.cz|digikey.dk|digikey.fi|digikey.fr|digikey.de|digikey.gr|digikey.hu|digikey.ie|digikey.it|digikey.lv|digikey.lt|digikey.lu|digikey.nl|digikey.no|digikey.pl|digikey.pt|digikey.ro|digikey.sk|digikey.si|digikey.es|digikey.se|digikey.ch|digikey.co.uk|digikey.co.il|digikey.com.mx|digikey.ca|digikey.com.br|digikey.co.nz|digikey.com.au|digikey.co.th|digikey.tw|digikey.kr|digikey.sg|digikey.ph|digikey.my|digikey.jp|digikey.in|digikey.hk|digikey.com
 @@*$script,~third-party,domain=45er.de|antonimos.de|blackwoodacademy.org|btv.bg|btvnovinite.bg|btvplus.bg|btvsport.bg|c-ix.de|cool-domains.de|cool-web.de|cooldns.de|coolsoftware.de|cryptednews.space|fun-seiten.de|gps-cache.de|hardware-entwicklung.de|hilfen.de|kryptografie.de|mailtool.de|maxstream.video|net-tools.de|net-tours.de|photo-alben.de|promo-visits.site|quesignifi.ca|qul.de|satoshi-win.xyz|sinonimos.de|softwareengineer.de|starkroboticsfrc.com|such-maschine.de|svetatnazdraveto.bg|tiktokcounter.net|tiktokrealtime.com|tpayr.xyz|web-spiele.de|wetter-vorhersage.de
 @@*$stylesheet,other,domain=pilot.wp.pl
 @@*$stylesheet,~third-party,domain=acortalo.*|acortar.*
 @@*$xmlhttprequest,domain=app.molotov.tv|designtagebuch.de|imagereviser.com|thehouseofportable.com|upshrink.com
+@@*$xmlhttprequest,image,script,subdocument,stylesheet,~third-party,domain=intercelestial.com|teknoasian.com|linegee.net|pahe.plus
 @@*$xmlhttprequest,third-party,domain=infinityscans.xyz|infinityscans.net|infinityscans.org
 @@*/assets/prebid/$script,xmlhttprequest,~third-party,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad2.$image,domain=sophiabushfan.net
