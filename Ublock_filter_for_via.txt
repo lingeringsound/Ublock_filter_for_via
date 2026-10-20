@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 35F+T4A7QVZ6DpOUfRk8ww
-! Title: Ublock filter for Via(2026-10-20 10:38:26)
-! Version: 20261020103826
+! Checksum: m87U12RJW46MUk+RlsxmVw
+! Title: Ublock filter for Via(2026-10-21 03:44:24)
+! Version: 20261021034424
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-20 10:38:26
+! Last modified: 2026-10-21 03:44:24
 ! Human Count: 1.5w
-! Blocked Filters: 15235
+! Blocked Filters: 15237
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -735,7 +735,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /facebook.com/aymt/aa/?$image
 /fag/js/lol.js$domain=comohoy.com|pornleaks.in|leak.sx|paste.bin.sx
 /fapp1.williamoneilindia.com/*$image
-/favicon.ico|$image,third-party,domain=abysscdn.com|fullfreeimage.com|hihihaha1.xyz|hihihaha2.xyz|hydraxcdn.biz|imagelovers.com|player-cdn.com|playermeow.com|playhydrax.com|rufiiguta.com
+/favicon.ico|$image,third-party,domain=ab.nanacdn.com|abysscdn.com|fullfreeimage.com|hihihaha1.xyz|hihihaha2.xyz|hydraxcdn.biz|imagelovers.com|player-cdn.com|playermeow.com|playhydrax.com|rufiiguta.com
 /fb_video_googleplay/*/index.html?
 /fhbdhf.jpg$image,~third-party,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|urlbluemedia.*
 /files/banners/*.gif$image,domain=bitcotasks.com
@@ -1478,7 +1478,6 @@ voz.vn/b/image.gif?p=$image
 ||ad.kissasian.*^$script,~third-party
 ||ad.kisscartoon.*^$script,~third-party
 ||ad.kisstvshow.*^
-||ad.mail.ru^$third-party
 ||ad.masteranime.tv^$script,~third-party
 ||ad.vietbao.vn^
 ||ad7mylo.com^
@@ -2867,6 +2866,7 @@ voz.vn/b/image.gif?p=$image
 ||dembuon.vn/lib/flies/flier.js$script,domain=vinaurl.*
 ||demeter-tr-core-collect.trendyol.com^
 ||demolishwrestconclusions.com^
+||demonhunterz.com^
 ||demonicscans.org/img/wsup.gif
 ||dendreonlawsuit.com^
 ||departdelivery.com^
@@ -3717,7 +3717,6 @@ voz.vn/b/image.gif?p=$image
 ||googleapiscdn.com/admin/api/ads/
 ||googleeplay.com^
 ||googleoptimize.com/optimize.js$domain=grasshopper.com
-||googles.video^
 ||googlesyndication.com/pagead/*$script,domain=wired.com
 ||googlesyndication.com^$domain=pccomponentes.com
 ||googlesyndication.com^$script,domain=autobild.de|incredibox.com|indiatoday.in|intoday.in|metal-hammer.de|musikexpress.de|mypapercraft.net|rollingstone.de|thefreedictionary.com
@@ -4077,6 +4076,7 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2023/11/980x125-2.png
 ||igorslab.de/wp-content/uploads/2024/01/Palit_RTX50_300_250_en.jpg
 ||igorslab.de/wp-content/uploads/2024/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x251px.jpg
+||igorslab.de/wp-content/uploads/2024/09/0926_VGA_Autumn-Pack_900x125.jpg
 ||igorslab.de/wp-content/uploads/2024/09/Igors_Lab_980x125.jpg
 ||igorslab.de/wp-content/uploads/2025/03/DP_H_DE.png
 ||igorslab.de/wp-content/uploads/2025/08/HATOR-Skyfall_80_MAG_ULTIMA_8K_Wireless.jpg
@@ -4850,6 +4850,7 @@ voz.vn/b/image.gif?p=$image
 ||mfcmapi.com^
 ||mfilecloud.com^
 ||mgirl.jp^
+||mgmylc.cc^
 ||mialifestyle.com^
 ||miaromance.com^
 ||micaesoft.com^
@@ -7634,7 +7635,6 @@ voz.vn/b/image.gif?p=$image
 ||yoloo-official.zendesk.com^
 ||you2ubeconverter.com^
 ||you4love.jp^
-||youku.tv^
 ||youkuhonor.com^
 ||younetu.co/cdn-cgi/trace$xmlhttprequest,~third-party
 ||young-porn-movie.com/adv.js
@@ -7893,6 +7893,8 @@ a8ix.*,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.*##.inner-floatbanner-bottom
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
+ab.nanacdn.com,abysscdn.com,abyssplayer.com,adsy.pw,allfeeds.*,aman-dn.blogspot.com,cloud.hownetwork.xyz,doooood.co,earnbee.xyz,ezeviral.com,fembedx.top,fullfreeimage.com,gleanster.com,hydraxcdn.biz,imagelovers.com,live-sport.duktek.pro,made-by.org,newdmn.*,oii.io,playembedapi.site,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,sharer.pw,streambtw.com,telerium.*,teleriumtv.*,videonode.de,viz.com###overlay
+ab.nanacdn.com,abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 abcnews.com,abcnews.go.com##.StickyAdWrapper
 abcya.com##.a-prerollvideo-container
 abczdrowie.pl##body > div > div:only-child > div:only-child > a:first-child > div:only-child:empty
@@ -7911,8 +7913,6 @@ abxxx.com##.video__wrapper > div.wrapper > section
 abxxx.com,in-porn.com,inporn.com##.video__wrapper > div.wrapper.headline
 abysscdn.com##.playover
 abysscdn.com##div[style*="z-index:100000"]
-abysscdn.com,abyssplayer.com,adsy.pw,allfeeds.*,aman-dn.blogspot.com,cloud.hownetwork.xyz,doooood.co,earnbee.xyz,ezeviral.com,fembedx.top,fullfreeimage.com,gleanster.com,hydraxcdn.biz,imagelovers.com,live-sport.duktek.pro,made-by.org,newdmn.*,oii.io,playembedapi.site,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,sharer.pw,streambtw.com,telerium.*,teleriumtv.*,videonode.de,viz.com###overlay
-abysscdn.com,fullfreeimage.com,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 ac-illust.com,bankbazaar.com,beautypackaging.com,coatingsworld.com,contractpharma.com,drydenwire.com,fmovies.*,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,photo-ac.com,printedelectronicsnow.com,thotpacks.xyz##.modal-backdrop
 ac-illust.com,photo-ac.com###eachDownloadedModal:has(.ac-btn[href^="https://premium."])
 accordo.it###bglink
@@ -9005,7 +9005,6 @@ eloshapes.com##header.v-toolbar--flat:has([id^="promo-slider-"])
 eltiempo.es##.cls-publi-height-city
 emailnator.com##.position-relative tr:has(a[href="https://tools-ai.online"])
 emailnator.com##[style^="width: 15px; height: 15px; overflow: scroll; visibility: hidden; color: rgb(calc(var(--x2)"]
-embed.nana2play.com##.click_block
 emojipedia.org##.items-center:has([class^="AdContainer_ad"])
 emojipedia.org##section[class^="Section_section__"] > aside:has(> div[class^="AdContainer"])
 empflix.com##.col-xs-6:not([data-vid])
@@ -10665,6 +10664,7 @@ nagpurtoday.in##aside[id^="custom_html-"][class*="widget"]:has(img + .popup)
 nagpurtoday.in##div[style^="text-align:"]:has(> video > source[src*="kukreja-video"])
 naijaray.com.ng##[href^="//ashoupsu.com/"]
 namethatporn.com##[data-flba^="https://landing.brazzersnetwork.com"]
+nanamovies.co##a[target="_blank"] > img
 nanoreview.net###gtfloats-sb-right
 nanoreview.net##.wisinad_only_desktop
 nationalgeographic.*##.ng-ad-banner
@@ -13061,7 +13061,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2197) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2199) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14905,6 +14905,7 @@ zuketcreation.net##.cente-1
 @@||www.igorslab.de/wp-admin/admin-ajax.php
 @@||www.igorslab.de/wp-content/plugins/XFWP/assets/js/xfwp-admin.js
 @@||www.igorslab.de/wp-content/plugins/ba-plus-before-after-image-slider/assets/s201-bai.js
+@@||www.igorslab.de/wp-content/plugins/igorslab-advanced-pdf-viewer/assets/viewer.js
 @@||www.igorslab.de/wp-content/plugins/igorslab-ai-seo-performance-suite/assets/js/consent.js
 @@||www.igorslab.de/wp-content/plugins/igorslab-geizhals-auto/assets/ilgha-frontend.js
 @@||www.igorslab.de/wp-content/plugins/igorslab-youtube-latest-shortcode/assets/frontend.js
@@ -14916,6 +14917,7 @@ zuketcreation.net##.cente-1
 @@||www.igorslab.de/wp-content/plugins/wonderplugin-slider/engine/wonderpluginsliderskins.js
 @@||www.igorslab.de/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js
 @@||www.igorslab.de/wp-content/themes/herald/assets/js/min.js
+@@||www.igorslab.de/wp-content/uploads/20*.pdf^$xmlhttprequest,~third-party
 @@||www.igorslab.de/wp-includes/js/imagesloaded.min.js
 @@||www.igorslab.de/wp-includes/js/utils.min.js
 @@||www.pussyspace.com/ajax/contact/exo-logo.png|
