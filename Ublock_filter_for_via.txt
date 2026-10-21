@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m87U12RJW46MUk+RlsxmVw
-! Title: Ublock filter for Via(2026-10-21 03:44:24)
-! Version: 20261021034424
+! Checksum: WrugxIp5Aio54j6zz57xcg
+! Title: Ublock filter for Via(2026-10-21 10:32:25)
+! Version: 20261021103226
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-21 03:44:24
+! Last modified: 2026-10-21 10:32:26
 ! Human Count: 1.5w
 ! Blocked Filters: 15237
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -14358,7 +14358,7 @@ zuketcreation.net##.cente-1
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|jlaforums.com|mrnussbaum.com|pasty.*|play.aidungeon.io|premid.app|sudoku-aktuell.de|tamrieltradecentre.com|terabox.fun|teraearn.com|teralink.me|terashare.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,third-party,domain=fplstatistics.co.uk
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10.com.au|10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|tremamnon.com|yhocdata.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10.com.au|10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|duden.de|guys01gaming.com|tremamnon.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ord=$xmlhttprequest,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|smsonline.cloud
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com|jlaforums.com
