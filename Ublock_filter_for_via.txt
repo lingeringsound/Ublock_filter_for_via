@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3oIg9ti9IUm8Rck8KSetVA
-! Title: Ublock filter for Via(2026-10-22 10:29:15)
-! Version: 20261022102915
+! Checksum: e8TNpjc81oBU8mSz7eyv6w
+! Title: Ublock filter for Via(2026-10-23 03:37:35)
+! Version: 20261023033735
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-22 10:29:15
+! Last modified: 2026-10-23 03:37:35
 ! Human Count: 1.5w
-! Blocked Filters: 15807
+! Blocked Filters: 15813
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -36,7 +36,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *$script,domain=c.newsnow.co.uk|c.newsnow.com
 *$script,subdocument,third-party,domain=dropmms.*|freeadultcomix.com|xxxwebdlxxx.top
 *$script,third-party,domain=2filmy4web.com.in|aiblog.tv|airflix1.com|amateurblog.tv|classicpornbest.com|deltabit.co|dvdplay.*|easyvidplayer.com|embedseek.online|eromanga-show.com|gravureblog.tv|hentai-one.com|hentaipaw.com|imgdawgknuttz.com|imgsen.com|imgsto.*|javdoe.to|javtc.*|khatrimazafull.makeup|latinblog.tv|links.filmymeet.wiki|mangovideo.*|moviehaxx.pro|movietp.com|nukibooks.com|onlyjerk.net|pics4upload.com|player.videasy.net|player4me.online|pornxp.com|senmanga.com|silverblog.tv|socialblog.tv|songsio.com|starblog.tv|streamgoto.*|tanix.net|topwwnews.com|ukrainesmodels.com|uproxy2.biz|watchluna.com|x-x-x.video|xblog.tv|zinchanmanga.com
-*$script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
+*$script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 *$script,xmlhttprequest,third-party,domain=lovelynudez.com
 *$script,~third-party,domain=bigkickass.*|kat.*|kat2.*|katbay.*|katfreak.*|kathydra.*|katkickass.*|kattracker.*|kick4ss.*|kickass-usa.*|kickass.*|kickass2.*|kickassaustralia.*|kickassbay.*|kickassdb.*|kickassfull.*|kickassgo.*|kickasshydra.*|kickassindia.*|kickasskat.*|kickassminds.*|kickassmovies.*|kickasspk.*|kickasst.*|kickasstorrents.*|kickasstorrents2.*|kickasstracker.*|kickasstrusty.*|kickassuk.*|kickassunlocked.*|kickassz.*|kkat.*|kkickass.*|thekat.*|thekickass.*|topkickass.*|torrentkat.*|torrentproject2.*|torrentskickass.*|~kat.ai|~kat.am|~kat.at|~kat.computer|~kat.directory|~kat.pink|~kat.rip|~kat.software|~kat.studio|~kickass.codes|~kickass.website
 *$script,~third-party,third-party,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
@@ -4427,7 +4427,7 @@ voz.vn/b/image.gif?p=$image
 ||imageweb.ws/*.gif$image
 ||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=html5.gamemonetize.co
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cnet.com|givemesport.com|rfi.fr
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rumble.com|sonyliv.com
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=foxnews.com
 ||imasdk.googleapis.com^$subdocument,domain=kotaku.com
 ||img-load.com^$~stylesheet,domain=dogdrip.net|smsonline.cloud
@@ -8324,7 +8324,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4990) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4992) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8878,6 +8878,7 @@ bezpolitickekorektnosti.cz##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
+bg-gledai.video###gledai-access-notice
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -10033,13 +10034,13 @@ geinoukame.com##.ninja-recommend-block + hr
 gendai.media##.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 genialne.pl,jastrzabpost.pl##div[style="background: #ddd9d9; margin-bottom: 10px; width: 100%;"]
 geniussolutions.co###interstitial-container
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.catalog-content
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="pdx-"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="aHR0"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-remote"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-sale"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com" i])
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a[rel*="sponsored"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com###yaab-overlay
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##.catalog-content
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##[class*="pdx-"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##[href*="aHR0"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##[id*="-sale"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com" i])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##a[rel*="sponsored"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
 german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
 get-to.link###genesis-modal
@@ -10687,6 +10688,7 @@ kickass.*##.alert
 kickassanime.*##.ka-axx-wr
 kickassanime.*##.latest-update > .row > div:has(.hide-button)
 kickassanime.*##.text-center:has(> .hide-button)
+kickasssubtitles.com##.js-app-external.app-external:has(#banner-placeholder)
 kiddyearner.com##iframe[src^="https://cryptocoinsad.com/ads/"]
 kiddyshort.com##div[style$="z-index:999999;"]
 kiemlua.com,link1s.*###baolink1s
@@ -13632,7 +13634,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2198) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2202) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14929,7 +14931,7 @@ zuketcreation.net##.cente-1
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=b00.tw|babygames.com|boo.tw|busuu.com|decrypt.day|exey.io|fansonlinehub.com|ff14angler.com|hotmediahub.com|jlaforums.com|mrnussbaum.com|pasty.*|play.aidungeon.io|premid.app|sudoku-aktuell.de|tamrieltradecentre.com|terabox.fun|teraearn.com|teralink.me|terashare.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,third-party,domain=fplstatistics.co.uk
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10.com.au|10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|duden.de|guys01gaming.com|tremamnon.com|yhocdata.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=10.com.au|10play.com.au|95news.com|chinhnhacoban.com|coin-free.com|comidoc.net|commentpicker.com|guys01gaming.com|tremamnon.com|yhocdata.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ord=$xmlhttprequest,domain=sbs.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,xmlhttprequest,domain=dogdrip.net|etoday.co.kr|smsonline.cloud
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io|ff14angler.com|jlaforums.com
@@ -14970,9 +14972,9 @@ zuketcreation.net##.cente-1
 @@||pix.spot.im/api/$xmlhttprequest,domain=allthingsvegas.com
 @@||pixel.adsafeprotected.com/services/pub$xmlhttprequest,domain=gentside.*|maxisciences.com|ohmymag.*|reuters.com
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=teleboy.ch
-@@||platform.twitter.com/js/tweet.$script,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
-@@||platform.twitter.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
-@@||platform.x.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
+@@||platform.twitter.com/js/tweet.$script,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
+@@||platform.twitter.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
+@@||platform.x.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 @@||play.*.com/vendor/VisitorAPI.js$script,~third-party,domain=play.aetv.com|play.mylifetime.com
 @@||play.history.com/vendor/VisitorAPI.js$~third-party
 @@||play.tv3.ee^$script,~third-party
@@ -15542,6 +15544,10 @@ zuketcreation.net##.cente-1
 @@||xn--gckdevd5myivf.site/wp-includes/js/comment-reply.min.js
 @@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery-migrate.min.js
 @@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery.min.js
+@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
+@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
+@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-content/themes/yamiisoku-matome-theme/assets/js/comment-more.js
+@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-includes/js/wp-emoji-release.min.js
 @@||xweb.instagram.com/ads/preferences/ad_topics/$subdocument,~third-party
 @@||yamiisoku.com/wp-content/plugins/antenna-portal/assets/portal.js
 @@||yamiisoku.com/wp-content/plugins/antenna-timeline/assets/timeline.js
