@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4I04APRbL3iU+j3QQj0hCw
-! Title: Ublock filter for Via(2026-10-23 10:34:06)
-! Version: 20261023103406
+! Checksum: cubRUU/US94xGBX3a3LKfA
+! Title: Ublock filter for Via(2026-10-23 17:27:54)
+! Version: 20261023172754
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-23 10:34:06
+! Last modified: 2026-10-23 17:27:54
 ! Human Count: 1.5w
-! Blocked Filters: 15813
+! Blocked Filters: 15818
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1321,7 +1321,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (7000) <<<<<<
+! >>>>>> 域名规则 · 7.0k (7001) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2380,7 +2380,7 @@ voz.vn/b/image.gif?p=$image
 ||bulksms.services/*/NetFlxinc/
 ||bulksms.services/NetFxs/
 ||bunkr-cache.se/js/script.js$script,domain=bunkr.*
-||bunkr.la/build/lv.js$script,~third-party
+||bunkr.*/lv.js$script,~third-party
 ||buoydeparturediscontent.com^
 ||business-facebook-*.pages.dev^
 ||business-help-temp-
@@ -4650,6 +4650,7 @@ voz.vn/b/image.gif?p=$image
 ||kaiun-dojo.com^
 ||kaiunnookite.com^
 ||kaiunraw.com^
+||kakamanga.com/vendor/widget/loader.js
 ||kakarotfoot.ru/player/lib.js
 ||kalkulyator.com^
 ||kamiwatari.com^
@@ -8324,7 +8325,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4992) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4994) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -10653,7 +10654,9 @@ juazeiro.ba.gov.br###tie-block_3287
 jumpmanclubbrasil.com.br##.home-ad-con
 justlightnovels.com,thetruedefender.com,tvnation.me##.adsbyvli
 justwatch.com##.vpn-link
-kaa.lt##div.row > div[class^="col-"]:has(> .show-item > .native-ad-cover)
+kaa.lt###premium-swipey-bar
+kaa.lt##div[class^="col-"]:has(> .show-item > .native-ad-card)
+kaa.lt##div[class^="col-"]:has(> .show-item > .native-ad-cover)
 kachelmannwetter.com###meteosafe
 kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
@@ -13319,7 +13322,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 312 <<<<<<
+! >>>>>> 通用Css规则 · 314 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -13343,6 +13346,8 @@ zuketcreation.net##.cente-1
 ###adyes
 ###adzerk:not(:empty)
 ###anuncio
+###app a[href^="https://s.smartfloralab.com/"]
+###app a[href^="https://t.nettrck.store/"]
 ###app-root ~ a[href][target="_blank"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
 ###banner468:not([style^="position: absolute; left: -5000px"])
 ###banner728x90:not([style^="position: absolute; left: -5000px"])
