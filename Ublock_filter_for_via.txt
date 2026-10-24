@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qOEol9aDSkD+2vutMy8bLw
-! Title: Ublock filter for Via(2026-10-24 03:38:09)
-! Version: 20261024033809
+! Checksum: jEagNWcJLR7C+0+zBldadA
+! Title: Ublock filter for Via(2026-10-24 10:32:02)
+! Version: 20261024103202
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-24 03:38:09
+! Last modified: 2026-10-24 10:32:02
 ! Human Count: 1.5w
-! Blocked Filters: 15833
+! Blocked Filters: 15835
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1321,7 +1321,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (7015) <<<<<<
+! >>>>>> 域名规则 · 7.0k (7016) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1586,6 +1586,7 @@ voz.vn/b/image.gif?p=$image
 ||aibeautia1.jp^
 ||aiclaude.jp^
 ||aii.sh/sw$script,~third-party
+||aii.sh/webroot/cloud_theme/img/downloadbaner.png
 ||aikatuz.jp^
 ||aikotoba2020.com^
 ||ainokotoba1515.com^
@@ -13654,7 +13655,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2202) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2203) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -13780,6 +13781,7 @@ zuketcreation.net##.cente-1
 @@-ad3.$domain=azure.com
 @@-ad4.$domain=azure.com
 @@-ad5.$domain=azure.com
+@@.js$xmlhttprequest,domain=aii.sh|clksz.com|linegee.net|lnbzi.com|pahe.plus|srnky.com
 @@/1.gif?$image,~third-party,domain=kanjiku.net
 @@/2.gif?$image,~third-party,domain=kanjiku.net
 @@/?scode=*&stream=$xmlhttprequest,domain=reliabletv.me
