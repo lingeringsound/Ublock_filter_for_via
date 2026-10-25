@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oUaUas/v/NHWVfxSu+4uZw
-! Title: Ublock filter for Via(2026-10-25 10:19:47)
-! Version: 20261025101947
+! Checksum: mkG5JGe3hoz9PuVb31NURw
+! Title: Ublock filter for Via(2026-10-26 02:37:03)
+! Version: 20261026023703
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-25 10:19:47
+! Last modified: 2026-10-26 02:37:03
 ! Human Count: 1.5w
-! Blocked Filters: 15841
+! Blocked Filters: 15849
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1307) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1308) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -505,6 +505,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /ab/thejsfile.js
 /ad-m.js$script,~third-party
 /ad.html|$subdocument,~third-party
+/ad?spotid=$subdocument
 /adblock.php$script,domain=daddylivehd.*|dlhd.sx
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adc-ads-lib|$script
@@ -1321,7 +1322,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (7020) <<<<<<
+! >>>>>> 域名规则 · 7.0k (7025) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2529,6 +2530,7 @@ voz.vn/b/image.gif?p=$image
 ||cdn.jsdelivr.net/*/detectIncognito$script
 ||cdn.jsdelivr.net/*/dist/js/wgd-core.min.js$script
 ||cdn.jsdelivr.net/gh/Akshat-h/propeller/btagantiadb.js^$script
+||cdn.jsdelivr.net/gh/JStivenCM/Aggressive-Anti-AdBlock/
 ||cdn.jsdelivr.net/gh/RockBlogger/Anti-AdBlocker$script
 ||cdn.jsdelivr.net/gh/RockBlogger/SpiderAdBlocker
 ||cdn.jsdelivr.net/gh/The-3Labs-Team/js-anti-adblock$script
@@ -2551,6 +2553,7 @@ voz.vn/b/image.gif?p=$image
 ||cdn.jsdelivr.net^*/arlinablock.js$script
 ||cdn.jwplayer.com/libraries/*.js$script,third-party,domain=www.ratemyprofessors.com
 ||cdn.kaching.eu.com/latest/play/kaching.js$domain=play.tv
+||cdn.kotocdn.site/ad.js^
 ||cdn.mekobre.com/ads^$image,domain=mekobre.com
 ||cdn.metricastats.com^
 ||cdn.mobalytics.gg/assets/common/prebid/
@@ -3135,6 +3138,7 @@ voz.vn/b/image.gif?p=$image
 ||desiremovies.*/sw.js$script,~third-party
 ||desk-dictionary.com^
 ||desktopnexus.com/pb-ads/
+||despegar.vercel.app^
 ||destined-meeting.com^
 ||destinyholy.net^
 ||detect-ccd.creativecloud.adobe.com^
@@ -5733,6 +5737,8 @@ voz.vn/b/image.gif?p=$image
 ||onlyfans.com/api2/v2/users/profile/visit^
 ||onlyfreelesbianporn.com^
 ||onlyhotdgirl.com^
+||onpointcu.portalaccess.app^
+||onpointfcu.com^
 ||onvid.*/sw.js$script
 ||oolontya.com^
 ||oortech.com/loginfromSignIn.pdf-shtml^
@@ -8344,7 +8350,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4996) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4997) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8620,6 +8626,7 @@ androidweblog.com##[class^="andro-random-paragraph"]
 androidweblog.com,concienciaradio.com,ispazio.net,kontasas.gr##.stream-item
 anghami.com##anghami-ads
 anhdep24.com##.popup-container, .text-center h2~*, .text-center h2, .site-logo
+anikoto.*,anikototv.to###networkloop-ad
 animalia.bio##.s-ad-banner-horizontal
 animationxpress.com##.fa-sticky-unit
 anime-drama.jp###block-11
@@ -13660,7 +13667,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2204) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2205) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14209,6 +14216,7 @@ zuketcreation.net##.cente-1
 @@||cdn.rawgit.com/*/jquery_lazyload/*$script,domain=javmost.com
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$script,domain=remixshop.com
 @@||cdn.segment.com/*/analytics.min.js$script,domain=app.pandadoc.com
+@@||cdn.snigelweb.com/adengine/aternos.org/loader.js$script,domain=aternos.org
 @@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$script,domain=client.falixnodes.net
 @@||cdn.snigelweb.com/adengine/w3schools.com/loader.js$script,third-party,domain=w3schools.com
 @@||cdn.sophi.io^$third-party,script,domain=abqjournal.com
