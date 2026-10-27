@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kULaJbmlkHYqmI9F5Pzc3w
-! Title: Ublock filter for Via(2026-10-27 10:55:24)
-! Version: 20261027105524
+! Checksum: FmeS1ZdJ46AtIMfTx2mWNg
+! Title: Ublock filter for Via(2026-10-28 04:18:15)
+! Version: 20261028041815
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-27 10:55:24
+! Last modified: 2026-10-28 04:18:15
 ! Human Count: 1.5w
-! Blocked Filters: 15847
+! Blocked Filters: 15853
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1322,7 +1322,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (7026) <<<<<<
+! >>>>>> 域名规则 · 7.0k (7028) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2846,6 +2846,7 @@ voz.vn/b/image.gif?p=$image
 ||com/p/jcod-ppsr/huasdirjdo^
 ||com/script/*.js|$script,third-party,domain=sparkchess.com
 ||com/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|rivestream.org|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
+||combatbaskstationery.com^
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
 ||comicspornow.com/*.php$script,~third-party
@@ -5827,7 +5828,7 @@ voz.vn/b/image.gif?p=$image
 ||p67-kuku4e.xyz^
 ||padspms.com^
 ||padsthai.com^
-||page-kit.io^$script,xmlhttprequest,domain=minecraftskins.com|murlok.io|neopets.com
+||page-kit.io^$script,xmlhttprequest,domain=bloxd.io|minecraftskins.com|murlok.io|neopets.com
 ||page-suspension.com^
 ||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=decrypt.day
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=poophq.com|veev.to|doods.to
@@ -7252,6 +7253,7 @@ voz.vn/b/image.gif?p=$image
 ||tapi2.jp^
 ||taradinhos.com^$third-party
 ||tarjetarojaenvivo.lat/lib.js^
+||tarnkappe.info/matABC.js
 ||tarto.net^
 ||tawenda-tech.net^$subdocument,third-party
 ||tb.fuckandcdn.com/tbstatic*/tryboobs/compiled/script.
@@ -8351,7 +8353,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4994) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4995) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -12481,6 +12483,7 @@ taming.io###left-bbb
 tapetus.pl##div[style="box-sizing: border-box; padding:0px 5px 0px 0px; text-align:center;"]
 taradinhos.com##.under-player-ad
 target.com##div[class*="overlay"]:has(a[href*="health-policy"])
+tarnkappe.info##.card:has(.around-desktop-ad)
 tattle.life##.visitorAdPost
 taufiqhdyt.com###big-ads
 taxi-point.co.uk##div[id^="comp-"]:has(> a[data-testid="linkElement"] > wix-image[data-src$="~mv2.gif"])
@@ -13348,7 +13351,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 314 <<<<<<
+! >>>>>> 通用Css规则 · 317 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -13474,6 +13477,7 @@ zuketcreation.net##.cente-1
 ##.close-btn3[onclick="closeAd3()"]
 ##.close-btn4[onclick="closeAd4()"]
 ##.close-btn[onclick="closeAd()"]
+##.code-block a[target="_blank"][href^="https://"][href*=".com/"][href*="?key="]
 ##.container a[href^="https://go.mavrtracktor.com/"]
 ##.container a[href^="https://insensitiveshoweraudible.com/"]
 ##.container a[href^="https://seduced.com"][href*="ref="]
@@ -13531,6 +13535,7 @@ zuketcreation.net##.cente-1
 ##.wp-block-savage-platform-primis-video
 ##.wp-singular > div[data-sm][style*="2147483647"] > iframe[style*="100%"][allow*="clipboard-write"]
 ##.wp-singular > iframe[srcdoc][allowfullscreen][allow*="clipboard-write"][style*="2147483647"]
+##.wrapper a[rel~="sponsored"][href^="https://"][href*=".com/"][href*="?key="]
 ##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
@@ -13601,6 +13606,7 @@ zuketcreation.net##.cente-1
 ##button.btn[data-openuri*="/4/"]
 ##div#spot-holder.spot-holder[style="display: block;"]
 ##div.card > div#cbRow.checkbox-row[onclick="startVerify()"]
+##div.grid[aria-hidden="true"]:not([id]):not([style]) + main:not([class]):not([id]):not([style]) ~ div[style="position: fixed; inset: 0px; z-index: 2147483647;"]:not([class]):not([id])
 ##div[class$="player-promo-col"]
 ##div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"]
 ##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
