@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ka5PdFDBdHDE8b3rZqQUHw
-! Title: Ublock filter for Via(2026-10-28 11:04:24)
-! Version: 20261028110424
+! Checksum: +87S4CHQe20He8S50DqZ4Q
+! Title: Ublock filter for Via(2026-10-29 04:41:04)
+! Version: 20261029044104
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-28 11:04:24
+! Last modified: 2026-10-29 04:41:04
 ! Human Count: 1.5w
-! Blocked Filters: 15853
+! Blocked Filters: 15858
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1322,7 +1322,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (7028) <<<<<<
+! >>>>>> 域名规则 · 7.0k (7029) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1519,6 +1519,7 @@ voz.vn/b/image.gif?p=$image
 ||adosiz.net^
 ||adpopblocker.com^
 ||ads-verification-for-pay.vercel.app^
+||ads.1mindrama.net^
 ||ads.adrise.tv^$third-party
 ||ads.adthrive.com/*/prebid.min.js$script,domain=laurelberninteriors.com
 ||ads.desustream.com^
@@ -6301,6 +6302,7 @@ voz.vn/b/image.gif?p=$image
 ||qty3e.pro^
 ||qualityhealth.com^
 ||qualzz.com/assets/trackingScript/webtracking.js
+||quarrelsomebitter.com^
 ||quarterbackchangeless.com^
 ||quebecormedia.com/infojdem/lib/cheezwhiz/$script
 ||qufu.com.cn^
@@ -6481,7 +6483,6 @@ voz.vn/b/image.gif?p=$image
 ||rosaca-nina.net^
 ||rosarios.cloud^
 ||roughhardsex.com/js/YxklHzfRQPifk0utgjMI7a.js
-||roughremove.com^
 ||roundopportunityunless.com^
 ||roundyearfun.com^
 ||roundyearfun.org^
@@ -8353,7 +8354,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4995) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4999) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8908,7 +8909,7 @@ bezpolitickekorektnosti.cz##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
-bg-gledai.video,gledaitv.*###gledai-access-notice
+bg-gledai.video,gledaitv.*###gledai-warning-notice
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -10981,6 +10982,7 @@ majorgeeks.com##b:has(a[target^="reimage"])
 malaysiastock.biz##.RightPanel_Rectangle1
 mamamia.com.au##.top-leaderboard-ad-container
 manga18fx.com##.kadx
+mangaball.com##div.w-full.flex-col.items-center:has(span.uppercase > span + svg)
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##.ads-contain
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##.ads-contain-v2
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##.owl-item:has(a[href^="https://bit.ly/"])
@@ -12240,6 +12242,8 @@ simply-hentai.com##.cam-container
 simply-hentai.com##.native + div
 simply-hentai.com##.page-leave
 simply-hentai.com##.reader > div.mb-3 > div.mt-3
+simpmusic.org##.ezoic-ad-slot
+simpmusic.org##[aria-label="Sponsored offers"]
 simsdom.com###ad860
 simsdom.com###adv840
 simsdom.com##._ad
@@ -12483,7 +12487,8 @@ taming.io###left-bbb
 tapetus.pl##div[style="box-sizing: border-box; padding:0px 5px 0px 0px; text-align:center;"]
 taradinhos.com##.under-player-ad
 target.com##div[class*="overlay"]:has(a[href*="health-policy"])
-tarnkappe.info##.card:has(.around-desktop-ad)
+tarnkappe.info##.card:has(> section > .around-desktop-ad)
+tarnkappe.info##.tarnads_general.desktop-only
 tattle.life##.visitorAdPost
 taufiqhdyt.com###big-ads
 taxi-point.co.uk##div[id^="comp-"]:has(> a[data-testid="linkElement"] > wix-image[data-src$="~mv2.gif"])
@@ -14172,7 +14177,7 @@ zuketcreation.net##.cente-1
 @@||cdn.dqst.pl/assets/ads.js$xmlhttprequest,domain=tko.pl
 @@||cdn.dynamicyield.com/api/$script,domain=washingtonexaminer.com
 @@||cdn.ex.co/content/$xmlhttprequest
-@@||cdn.ex.co^$image,media,domain=standard.co.uk
+@@||cdn.ex.co^$image,media,domain=independent.co.uk|standard.co.uk
 @@||cdn.frvr.com/fran/pubads_$script,domain=krunker.io
 @@||cdn.fuseplatform.net/publift/$third-party,script,xmlhttprequest,domain=quackr.io
 @@||cdn.gotraffic.net^$domain=bloomberg.*
@@ -14471,7 +14476,7 @@ zuketcreation.net##.cente-1
 @@||estaticos.*/elementosWeb/ew/js/multimedia/player/videojs-contrib-ads/videojs.ads.min.js$xmlhttprequest,domain=diaridegirona.cat|diariodeibiza.es|diariodemallorca.es|diarioinformacion.com|eldia.es|emporda.info|farodevigo.es|laopinioncoruna.es|laopiniondemalaga.es|laopiniondemurcia.es|laopiniondezamora.es|laprovincia.es|levante-emv.com|lne.es|mallorcazeitung.es|regio7.cat|superdeporte.es
 @@||europarl.europa.eu/website/webanalytics/*$script,~third-party
 @@||evidon.com/geo/*$script,domain=cnet.com|marieclaire.com|techrepublic.com|zdnet.com
-@@||ex.co/player/$script,domain=standard.co.uk
+@@||ex.co/player/$script,domain=independent.co.uk|standard.co.uk
 @@||exmarketplace.com^$domain=tvserial.it
 @@||exoclick.com/privacy-and-cookies-policy/*
 @@||exoclick.com^$xmlhttprequest,domain=hostingsgratis.com|infomania.space
