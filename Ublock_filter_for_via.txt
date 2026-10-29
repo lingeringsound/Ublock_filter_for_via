@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /DOgGiRZPHrRkVDkvgT/4Q
-! Title: Ublock filter for Via(2026-10-29 11:30:50)
-! Version: 20261029113050
+! Checksum: 9iPARMqoBUTGKEwQ4sx3VA
+! Title: Ublock filter for Via(2026-10-30 04:44:16)
+! Version: 20261030044416
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-29 11:30:50
+! Last modified: 2026-10-30 04:44:16
 ! Human Count: 1.5w
-! Blocked Filters: 15858
+! Blocked Filters: 15865
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1322,7 +1322,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (7029) <<<<<<
+! >>>>>> 域名规则 · 7.0k (7031) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4075,6 +4075,7 @@ voz.vn/b/image.gif?p=$image
 ||greenshot.org^
 ||gresrv.com^
 ||griffithdds.com/*/madeinchina.com/
+||gripping-table.com^
 ||grok.com/_data/v1/analytics/
 ||grok.com/api/statsig/log_event
 ||grokipedia.com/api/log
@@ -8004,6 +8005,7 @@ voz.vn/b/image.gif?p=$image
 ||wicket.pw/embeds/icc-cwc.png$image
 ||widgets.skyprivate.com/promo/$subdocument
 ||widgets.trustedshops.com/reviews/tsSticker/*.gif?
+||wielerflits.*/api/site-loader/
 ||wifekai.net^
 ||wifi4games.com/sw.js$script,~third-party
 ||wild-match.com^
@@ -8354,7 +8356,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (4999) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5004) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8909,7 +8911,9 @@ bezpolitickekorektnosti.cz##.SC_TBlock
 bg-gledai.*###casing > center
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
-bg-gledai.video,gledaitv.*###gledai-warning-notice
+bg-gledai.video,gledaitv.*###gledai-block-notice
+bg-gledai.video,gledaitv.*##[class*="gledai-"][class*="notice"]
+bg-gledai.video,gledaitv.*##[id^="gledai-"][id$="-notice"]
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -12052,6 +12056,9 @@ s.response.jp##.sp-ifad
 sabervivirtv.com##.ad-item
 sabervivirtv.com##.ad-sidebar
 sabishare.com##.cmp-roll
+sabnzbd.org##.banner-tall
+sabnzbd.org##.downloads-row > div:not([class*="download"]):has(> .downloads-tip)
+sabnzbd.org##.main-wrapper ~ aside
 saddlegirls.com##.image-link[href^="//www.zagvee.com"]
 sadeempc.com##[class^="buttonPress"]
 sadisflix.*##a[href^="https://shorturl.at/"]
@@ -12221,7 +12228,7 @@ shrib.com##[style="display: block;"]:has(.adsbygoogle)
 shrink.icu##h3, p
 shrinkforearn.in##[class*="wp-image"]
 shrinkforearn.in##[href*="waufooke.com"], .footer, .banner-inner, .w-nav.nav-rounded-center
-shrinkme.*,shrinke.*,mrproblogger.com,themezon.net##.expop, .blog-item, footer, [src*="shrinkme."], .box-main h3, [hight="250px"]
+shrinkme.*,shrinke.*,mrproblogger.com,themezon.net##.expop, .blog-item, footer, [src*="shrinkme."], .box-main h3, [hight="250px"], .text-left
 siamblockchain.com##.ai-viewport-1
 siamblockchain.com##.headerad-desk
 sidereel.com###netaktion_ad
