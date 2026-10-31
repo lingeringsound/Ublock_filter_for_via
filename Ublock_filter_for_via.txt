@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KV0wIhLHCbq0yUieEP1+Jg
-! Title: Ublock filter for Via(2026-10-31 11:18:03)
-! Version: 20261031111803
+! Checksum: t6w4I/xz4RSj6FjCwjU0gg
+! Title: Ublock filter for Via(2026-11-01 03:37:45)
+! Version: 20261101033745
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-31 11:18:03
+! Last modified: 2026-11-01 03:37:45
 ! Human Count: 1.5w
-! Blocked Filters: 15702
+! Blocked Filters: 15706
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -869,7 +869,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /log/*$xmlhttprequest,domain=vizcloud.*|vizcloud2.*
 /lp/?lID=*&zone=
 /lvesnk.html?zoneid=$third-party
-/ma.js^$script,domain=1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.*|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
+/ma.js^$script,domain=1337x.*|x1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
 /mail.*/e/o/*$image
 /mail.*/ostat.php?$image
 /mail.aquasoft.de/wm/ostat.php?$image
@@ -896,7 +896,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /mg.updates.ugg.com/o/*$image
 /mkt.kultivi.com/email/*$image
 /mkto-*.com/trk?$image
-/mm.js^$script,domain=1337x.*|x1337x.*|1337x.ninjaproxy1.com
+/mm.js^$script,domain=1337x.*|x1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
 /modi-cloudflare-update-new.html^
 /modi-cloudflare-update.html^
 /mpss/o/*$image
@@ -1322,7 +1322,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6868) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6871) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1532,6 +1532,7 @@ voz.vn/b/image.gif?p=$image
 ||adsg00gle-v3.vercel.app^
 ||adshrink.it^$third-party
 ||adsinteractive.com^
+||adslab.me^
 ||adslink.pw/*.php
 ||adsloboclick.com^
 ||adslop.com^$third-party
@@ -2472,6 +2473,7 @@ voz.vn/b/image.gif?p=$image
 ||ccleaner.lat^
 ||ccleaner.lol^
 ||ccleaner.mom^
+||ccnsad.com^
 ||cda-online.pl/wp-content/uploads/*.js$script
 ||cdclub.net^
 ||cdi.ofiii.com/*/video/ad_urls
@@ -4043,6 +4045,7 @@ voz.vn/b/image.gif?p=$image
 ||gupload.xyz/data/player/adblock-detector
 ||gupload.xyz/data/player/adblock-detector.js^
 ||gurusmac.org^
+||gusdocment.top^
 ||guw.jp^
 ||gxbs.cc/dog.js
 ||gxh1yqz2v.xyz^
@@ -8247,6 +8250,7 @@ voz.vn/b/image.gif?p=$image
 1primewire.com##[id]:has(> [class="close ico"])
 1shortlink.com,dutchycorp.*,kissasian.*,kwamkidhen.com,leechpremium.link,onbatch.my.id,ouo.*,putlocker.*,vidoza.net,watchonlyfoolsandhorses.com,webserver.one,webtvhd.com##[id*="ScriptRoot"]
 1todaypk.*,todaypk.*##[href="/watchnow.php"]
+1xfaucet.com,akwam.*,akwams.*,androjungle.com,apps2app.com,appvn.com,atomixhq.*,atomohd.*,bluedollar.net,cacfutures.org,claimsatoshi.xyz,claimtrx.com,coinpayz.xyz,comexlive.org,cryptonetos.ru,daxfutures.org,dollarindex.org,dowfutures.org,easyfun.gg,erome.com,feyorra.top,filerice.com,filmpertutti.*,food.ndtv.com,francoischarron.com,freetron.top,ftsefutures.org,gametop.com,geo.fr,harshfaucet.com,hdbraze.com,hdpicsx.com,jagran.com,laptrinhx.com,lared.cl,mcxlive.org,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,pctfenix.*,pctnew.*,sgxnifty.org,spfutures.org,up-load.io,upload.ac,uptomega.*,userupload.*,viewster.co,worder.cat##.ads
 1xxx-tube.com###invideo_3
 2-spyware.com,avirus.hu,bedynet.ru,dieviren.de,faravirus.ro,lesvirus.fr,losvirus.es,novirus.uk,odstranitvirus.cz,pcseguro.es,sauguspc.lt,semvirus.pt,senzavirus.it,sichernpc.de,tanpavirus.web.id,udenvirus.dk,ugetfix.com,uirusu.jp,usunwirusa.pl,utanvirus.se,viirused.ee,virukset.fi,virusai.lt,viruset.no,virusi.bg,virusi.hr,virusler.info.tr,wubingdu.cn,wyleczpc.pl,zondervirus.nl##.primary_download
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.automatic_removal_list
@@ -8410,7 +8414,6 @@ airlive.net##div[id^="airli-"] > .adsbygoogle
 aitoolsfree.org##font[style="font-size: 0.7rem; color: #bebebe"]
 akaihentai.com##.exc
 akirabox.com,akirabox.to##[href*="nordvpn.net"]
-akwam.*,akwams.*,androjungle.com,apps2app.com,appvn.com,atomixhq.*,atomohd.*,bluedollar.net,cacfutures.org,claimsatoshi.xyz,claimtrx.com,coinpayz.xyz,comexlive.org,cryptonetos.ru,daxfutures.org,dollarindex.org,dowfutures.org,easyfun.gg,erome.com,feyorra.top,filerice.com,filmpertutti.*,food.ndtv.com,francoischarron.com,freetron.top,ftsefutures.org,gametop.com,geo.fr,harshfaucet.com,hdbraze.com,hdpicsx.com,jagran.com,laptrinhx.com,lared.cl,mcxlive.org,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,pctfenix.*,pctnew.*,sgxnifty.org,spfutures.org,up-load.io,upload.ac,uptomega.*,userupload.*,viewster.co,worder.cat##.ads
 alemannia-aachen.de###grid-image-head
 alemannia-aachen.de##.b-error
 alexsports.*,cr7-soccer.store,cracksports.me,cricwatch.io,kakarotfoot.ru,nbabox.co,pelotalibrevivo.net,powerover.site,qatarstreams.me,redditsoccerstreams.name,soccerworldcup.me,sportstohfa.online,sportzonline.site,stream.nflbox.me,streamshunters.eu,totalsportek1000.com,vipstand.pm,worldsports.*##.position-absolute.top-0
@@ -10683,6 +10686,7 @@ limetorrents.*##[href^="/fast.php"]
 limetorrents.*##[href^="https://affiliate.rusvpn.com/"]
 limetorrents.*##div:has(> div > a[href^="/leet/?"])
 linegee.net,intercelestial.com,teknoasian.com##.right-sidebar.penci_sidebar.container,.penci-home-popular-posts.container,p,ul,li,[href*="s0-greate"],#sidebar,.post-pagination,.single-breadcrumb.penci-breadcrumb.container,.penci-move-title-above.post-image,#footer-section, .post-related, #comments, .post-share.tags-share-box, .alignleft.wp-caption
+linegee.net,intercelestial.com,teknoasian.com,pahe.*##div:has(a[href*="antiadblockcore.com"])
 linfoweb.com##ins.adsbygoogle-wrapper
 link-to.net##.ad-block-1
 link.paid4link.com##.card
@@ -12519,7 +12523,6 @@ tradingref.com##.sidebar:has(> div.ad-unit)
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
 trakt.tv##.snigel
-trakt.tv##a[target="_blank"][style]:has(img[src])
 trakt.tv##div[id*="-wrapper"]:has(a[href="/vip/advertising"])
 tralhasvarias.blogspot.com##.cellAd
 tranimeizle.*##a[href^="https://cutt.ly/"]
@@ -13200,7 +13203,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 317 <<<<<<
+! >>>>>> 通用Css规则 · 318 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -13499,6 +13502,7 @@ zuketcreation.net##.cente-1
 ##iframe.lazyloaded[data-src^="https://rcm-fe.amazon-adsystem.com/"]
 ##img[width="728"][height="90"]
 ~apkmirror.com,~tuxpi.com##.adslot:not(.text-ad)
+~bing.com,~dogdrip.net,~smsonline.cloud##.impfy-player
 ~bing.com,~dogdrip.net,~smsonline.cloud##amp-img[height="   120"]
 ~bing.com,~dogdrip.net,~smsonline.cloud##amp-img[width="   300"]
 ~bing.com,~dogdrip.net,~smsonline.cloud##amp-img[width="   336"]
