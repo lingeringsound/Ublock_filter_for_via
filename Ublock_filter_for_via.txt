@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: GS8x7k7GdkLTgX4Nr+sfDw
-! Title: Ublock filter for Via(2026-11-02 11:26:11)
-! Version: 20261102112611
+! Checksum: yUmGrQ+S8lnGI/xdG6lO0g
+! Title: Ublock filter for Via(2026-11-03 07:15:03)
+! Version: 20261103071503
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-02 11:26:11
+! Last modified: 2026-11-03 07:15:03
 ! Human Count: 1.5w
-! Blocked Filters: 15708
+! Blocked Filters: 15681
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -36,7 +36,6 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *$script,domain=c.newsnow.co.uk|c.newsnow.com
 *$script,subdocument,third-party,domain=dropmms.*|freeadultcomix.com|xxxwebdlxxx.top
 *$script,third-party,domain=2filmy4web.com.in|aiblog.tv|airflix1.com|amateurblog.tv|classicpornbest.com|deltabit.co|dvdplay.*|easyvidplayer.com|embedseek.online|eromanga-show.com|gravureblog.tv|hentai-one.com|hentaipaw.com|imgdawgknuttz.com|imgsen.com|imgsto.*|javdoe.to|javtc.*|khatrimazafull.makeup|latinblog.tv|links.filmymeet.wiki|mangovideo.*|moviehaxx.pro|movietp.com|nukibooks.com|onlyjerk.net|pics4upload.com|player.videasy.net|player4me.online|pornxp.com|senmanga.com|silverblog.tv|socialblog.tv|songsio.com|starblog.tv|streamgoto.*|tanix.net|topwwnews.com|ukrainesmodels.com|uproxy2.biz|watchluna.com|x-x-x.video|xblog.tv|zinchanmanga.com
-*$script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 *$script,xmlhttprequest,third-party,domain=lovelynudez.com
 *$script,~third-party,domain=bigkickass.*|kat.*|kat2.*|katbay.*|katfreak.*|kathydra.*|katkickass.*|kattracker.*|kick4ss.*|kickass-usa.*|kickass.*|kickass2.*|kickassaustralia.*|kickassbay.*|kickassdb.*|kickassfull.*|kickassgo.*|kickasshydra.*|kickassindia.*|kickasskat.*|kickassminds.*|kickassmovies.*|kickasspk.*|kickasst.*|kickasstorrents.*|kickasstorrents2.*|kickasstracker.*|kickasstrusty.*|kickassuk.*|kickassunlocked.*|kickassz.*|kkat.*|kkickass.*|thekat.*|thekickass.*|topkickass.*|torrentkat.*|torrentproject2.*|torrentskickass.*|~kat.ai|~kat.am|~kat.at|~kat.computer|~kat.directory|~kat.pink|~kat.rip|~kat.software|~kat.studio|~kickass.codes|~kickass.website
 *$script,~third-party,third-party,domain=bentomanga.top|brmangas.top|cmoa1.top|janime.top|jpraw.xyz|kakuyomu.in|kkraw.com|lectormanga.top|lermanga.top|manga1000.top|manga1001.win|manga1001.xyz|mangajp.top|mangakl.su|mangaraw.bid|mangavy.com|mangaz.win|scanita.top|shinigami-id.top|sushiscan.top|syosetu.gs
@@ -249,6 +248,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 .biz/sw/w1s.js|$script,third-party
 .bloomreach.co%2F*$image
 .bloomreach.co/$image
+.bundle.js|$script,~third-party,domain=fcportables.com|filecatchers.com
 .buyandship.com.sg%2Fopn%2F$image
 .buyandship.com.sg/opn/$image
 .cfd/*?p=*&pg=$script,third-party
@@ -1322,7 +1322,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6872) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6904) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1542,7 +1542,6 @@ voz.vn/b/image.gif?p=$image
 ||adsux.com^
 ||adsv.svc.litv.tv^
 ||adswip.com^
-||adswizz.com^$third-party
 ||adtracker.jiocinema.com^$xmlhttprequest
 ||adultasianporn.com^$subdocument
 ||adultconfessions.com/js/abdetectorpro.script.js
@@ -1579,6 +1578,8 @@ voz.vn/b/image.gif?p=$image
 ||ai3tu.com^
 ||aiai-talk.com^
 ||aiaitalk.com^
+||aiamiam.com^
+||aiamiiam.com^
 ||aibeautia1.jp^
 ||aiclaude.jp^
 ||aii.sh/sw$script,~third-party
@@ -1651,6 +1652,7 @@ voz.vn/b/image.gif?p=$image
 ||alwayslike.safestspot.jp^
 ||ama-whatsapp.com^
 ||amaenbo.jp^
+||amaiamiam.com^
 ||amamorimo.com^
 ||amandes*.serv00.net^
 ||amanerino.com^
@@ -2132,6 +2134,7 @@ voz.vn/b/image.gif?p=$image
 ||binpartner.com^$third-party
 ||bio.site/atttt^
 ||biqle.ru/swp.js$script,~third-party
+||birelopater.top^
 ||biroads.com^$third-party
 ||birth-bravery.com^
 ||biscottirbh.lol^
@@ -2521,6 +2524,7 @@ voz.vn/b/image.gif?p=$image
 ||cdn.jsdelivr.net/gh/lookatdons/gasak^
 ||cdn.jsdelivr.net/gh/magiclen/adblock-checker
 ||cdn.jsdelivr.net/gh/ourtecads/AntiAdblock$script
+||cdn.jsdelivr.net/gh/senbonzakura000/$script
 ||cdn.jsdelivr.net/gh/willthequeencome/adcsh/
 ||cdn.jsdelivr.net/npm/*/bulma.min.css$stylesheet,domain=fc.lc|fitdynamos.com|jobzhub.store|labgame.io
 ||cdn.jsdelivr.net/npm/@goodgamestudios/cxf-banners^$script,third-party,domain=goodgamestudios.com
@@ -2684,6 +2688,7 @@ voz.vn/b/image.gif?p=$image
 ||cj.dotomi.com^
 ||cjewz.com^
 ||cjok.net^
+||cla-fando.com^
 ||claimbits.net/promo/$image,~third-party
 ||claimspaace.pages.dev^
 ||clasicotas.org/themes/*/js/links.js$script,~third-party
@@ -3105,6 +3110,7 @@ voz.vn/b/image.gif?p=$image
 ||desiremovies.*/sw.js$script,~third-party
 ||desk-dictionary.com^
 ||desktopnexus.com/pb-ads/
+||desorantpola.top^
 ||despegar.vercel.app^
 ||destined-meeting.com^
 ||destinyholy.net^
@@ -3362,6 +3368,7 @@ voz.vn/b/image.gif?p=$image
 ||eika-akie220202.com^
 ||einthusan.io/promo/$media
 ||einthusan.tv/promo/$xmlhttprequest
+||ejpjeip.com^
 ||elamigosedition.com/templates/games/js/blocker.js^
 ||electrum-data.cc^
 ||elegance-love.net^
@@ -3787,6 +3794,7 @@ voz.vn/b/image.gif?p=$image
 ||gabriellalovecats.com^
 ||gainskins.com^$subdocument,domain=hltv.org
 ||gajinifreedomain.fun^
+||galanzmotzjp.com^
 ||galixwallet.co.com^
 ||game02-com.ru^
 ||game3rb.com/sw.js^$script,~third-party
@@ -4082,6 +4090,7 @@ voz.vn/b/image.gif?p=$image
 ||happylapp.com^
 ||happylife-partner.com^
 ||harambetok-eng.pages.dev^
+||hare-days.com^
 ||harzfriends.de^
 ||hashcat.app^
 ||hausbank-ssk-cuxhaven.de^
@@ -4542,6 +4551,7 @@ voz.vn/b/image.gif?p=$image
 ||jp.rian-rian.com^
 ||jp24tv.live^
 ||jp84434.com^
+||jpjeip.com^
 ||jqsweb-whatsapp.com^
 ||js-agent.newrelic.com^$third-party
 ||js.adsrvr.org/up_loader.$domain=sterkinekor.com
@@ -4700,6 +4710,7 @@ voz.vn/b/image.gif?p=$image
 ||kolorowey.bbvms.com^$script,domain=foodtechnos.in|gamesmain.xyz
 ||kook.bar^
 ||kooolboomin.com^
+||koostergop.top^
 ||kotoanata.jp^
 ||koubi.jp^
 ||koun-wa.com^
@@ -4893,6 +4904,7 @@ voz.vn/b/image.gif?p=$image
 ||loto7-diamond-club.com^
 ||lotochance-vip.com^
 ||lotochance.hp.peraichi.com^
+||lotosecond.com^
 ||lotostics.com^
 ||lottery37-fct.com^
 ||love-fit.jp^
@@ -4901,6 +4913,7 @@ voz.vn/b/image.gif?p=$image
 ||love2-mail.com^
 ||love7date.info^
 ||loveaholics.com^
+||lovean.jp^
 ||lovecatcher2025.com^
 ||lovee-idol.tokyo^
 ||loveju.net^
@@ -5220,6 +5233,7 @@ voz.vn/b/image.gif?p=$image
 ||monitor.*/test?rnd=$xmlhttprequest,third-party
 ||mono-whatsapp.com^
 ||monogonzalez.com^
+||montopera.top^
 ||moody-night.net^
 ||moonlightproshop.com^
 ||moonmov.pro/js/baf.js$script,~third-party
@@ -5455,6 +5469,7 @@ voz.vn/b/image.gif?p=$image
 ||netuse-whatsapp.com^
 ||network-jpn.com^
 ||network-loop.com/campaigns/banners/$domain=japscan.*|japscan.foo|japscan.lol|japscan.si|japscan.vip
+||new-platinum.tokyo^
 ||new-twinks.com^
 ||newgitgerto.xyz^
 ||newhoney.jp^
@@ -5469,6 +5484,7 @@ voz.vn/b/image.gif?p=$image
 ||nextaex.com^
 ||nextyourcontent.com^
 ||nexusbytes.com^$third-party
+||nezercert.top^
 ||nfdweb-whatsapp.com^
 ||ngazi.co.tz^
 ||nhantienquocte*.vercel.app^
@@ -5480,6 +5496,7 @@ voz.vn/b/image.gif?p=$image
 ||nikutjyjgchr*.b-cdn.net^
 ||nilousplaypen.com^
 ||nimble-synth.com^
+||nippleflix.com/p-*.js^$script
 ||nircmd.net^
 ||nitr5eur6fjhtsw.jpn.com^
 ||njkgrwk-37hgw.com^
@@ -5595,6 +5612,7 @@ voz.vn/b/image.gif?p=$image
 ||olive-ft.jp^
 ||olive121407.studio.site^
 ||olt-nw.com^
+||olvantrise.top^
 ||olymptrade.com^$third-party
 ||olympusbiblioteca.com/third-parties-ad-script.js
 ||ombrewa.space^
@@ -5796,6 +5814,7 @@ voz.vn/b/image.gif?p=$image
 ||part-ner01.jp^
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partners-tds.com^
+||pascal2417.com^
 ||pastebin.store/js.js
 ||pastelism02.jpn.com^
 ||pastemytxt.com/downloadad.jpg
@@ -5835,6 +5854,7 @@ voz.vn/b/image.gif?p=$image
 ||peetube.cc/*.php|$script
 ||pelispedia.*/*sw.js$script,~third-party
 ||pemesanan*.glowz.my.id^
+||pentomorinexolentokarodarimexotavo.digital^
 ||pepecoinsuper-airdrop.pages.dev^
 ||peraichi.com/landing_pages/view/s8j8k/
 ||perchance.org/api/count?key=abp$xmlhttprequest,~third-party
@@ -5899,6 +5919,7 @@ voz.vn/b/image.gif?p=$image
 ||pixabayy.net^
 ||pixeltrey.com^
 ||pixpal.chat/js/abp.js
+||pjpjeip.com^
 ||pktbuu.morau.top^
 ||plan-smlp.com^
 ||planetwealthbuilders.net^
@@ -6081,6 +6102,7 @@ voz.vn/b/image.gif?p=$image
 ||prompt-whatsapp.com^
 ||property-rental-seven.vercel.app^
 ||proset-whatsapp.com^
+||prostevision.top^
 ||protectsurf-a.akamaihd.net^
 ||protoawegw.com^$third-party
 ||protonge.com^
@@ -6302,6 +6324,7 @@ voz.vn/b/image.gif?p=$image
 ||rentry.co^frame,third-party
 ||repoapi-whatsapp.com^
 ||repocdn-whatsapp.com^
+||repolander.top^
 ||reponode-whatsapp.com^
 ||request-page-violation-*.surge.sh^
 ||rerrioara.live^$third-party
@@ -6872,7 +6895,6 @@ voz.vn/b/image.gif?p=$image
 ||startuphub.ai/api/*^placement=
 ||stash.adcat.moe/script.js$script
 ||stat-res.workers.dev^
-||statcounter.com^$third-party
 ||state-whatsapp.com^
 ||static-cloudflare.workers.dev^$third-party
 ||static-lib.dev^
@@ -7002,6 +7024,7 @@ voz.vn/b/image.gif?p=$image
 ||sumo.com^$third-party,domain=~beewits.com|~dante-ri.hr
 ||sumologic.stv.tv^
 ||sumsmsp.info^
+||sunnys-day.net^
 ||sunnysani.com/lb/
 ||suno.com/metrics/
 ||suno.com/monitoring
@@ -7172,6 +7195,7 @@ voz.vn/b/image.gif?p=$image
 ||tenkeiya.com^
 ||tenkeiza.com^
 ||tenmei-michibiki.com^
+||tennoito.jp^
 ||tenseikaiun.com^
 ||terabox.app/wfm/jnqp
 ||teraboxdownloader.in/assets/js/adblocker-detector.min.js^
@@ -7403,6 +7427,8 @@ voz.vn/b/image.gif?p=$image
 ||tutorial-whatsapp.com^
 ||tutvlive.ru/player/lib.js
 ||tvaplus.ca/api/log^
+||tvivu.com/api/channels/*/view
+||tvivu.com/api/t/view
 ||tvnow247.top/*.js?v=$script
 ||tvshows4mobile.org/antiadblock.php
 ||tw1.ru/Orange/
@@ -7444,6 +7470,7 @@ voz.vn/b/image.gif?p=$image
 ||uijarxbm.com^
 ||uiporn.com/ai/*$script,~third-party
 ||uiporn.com/sw.js$script,~third-party
+||uirolader.top^
 ||ukacclmza.net^
 ||ukchat.co.uk/js/popunder.js
 ||ukokjxfbdqwffmuvsd.jp^
@@ -7824,6 +7851,7 @@ voz.vn/b/image.gif?p=$image
 ||webtrace-whatsapp.com^
 ||webtracking.fe.union-investment.de^
 ||webuzz.me^
+||weclo-offer.online^
 ||weforads.com^
 ||weibonews.com^
 ||welatera.com^
@@ -8017,6 +8045,7 @@ voz.vn/b/image.gif?p=$image
 ||xozilla.xxx/player/html.php$subdocument,~third-party
 ||xpobbwxzhe-l.site^
 ||xrares.com/sw.js$script,~third-party
+||xrfg0dt.com^
 ||xrtweb-whatsapp.com^
 ||xs5rur1she7eyry.jpn.com^
 ||xsapd.19slot-ph.com^
@@ -8080,6 +8109,7 @@ voz.vn/b/image.gif?p=$image
 ||yollamedia.com^
 ||yoloo-jp.com^
 ||yoloo-official.zendesk.com^
+||yolopander.top^
 ||you2ubeconverter.com^
 ||you4love.jp^
 ||youkuhonor.com^
@@ -8087,6 +8117,7 @@ voz.vn/b/image.gif?p=$image
 ||young-porn-movie.com/adv.js
 ||young-whatsapp.com^
 ||youngasianporntube.net/js/cyc2Z5Gg0nwnQY2Gy.js
+||your-compass.jp^
 ||your-connect.blue^
 ||your-dates-tonight.com^
 ||your.happy-strike.com^
@@ -8131,6 +8162,7 @@ voz.vn/b/image.gif?p=$image
 ||yuriyuri-yurayura.com^
 ||yurizono.com^
 ||yus-air.com^
+||yx5s6.com^
 ||yy8j.com^
 ||z-lib.ai^
 ||z-lib.club^
@@ -8197,7 +8229,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5005) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (4998) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -9909,13 +9941,6 @@ geinoukame.com##.ninja-recommend-block + hr
 gendai.media##.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 genialne.pl,jastrzabpost.pl##div[style="background: #ddd9d9; margin-bottom: 10px; width: 100%;"]
 geniussolutions.co###interstitial-container
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com###yaab-overlay
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##.catalog-content
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##[class*="pdx-"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##[href*="aHR0"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##[id*="-sale"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com" i])
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,xn--o9j0bk1l6d1bnv1as45bb2j.com,yamiisoku.com##a[rel*="sponsored"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
 german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
 get-to.link###genesis-modal
@@ -10221,7 +10246,6 @@ hltv.org##.teamodds
 hltv.org##a[class*="odds"]
 hltv.org##a[href^="/matches/"][href*="~"]:has(div,img)
 hltv.org##a[href^="/matches/"][href*="~"][class*="cta"i]
-hobby-machinist.com##.samCodeUnit
 hochi.news###ohtani-pickup
 hog.*##.content__info--vis
 hog.*##.content__top
@@ -11117,6 +11141,7 @@ nagpurtoday.in##aside[id^="custom_html-"][class*="widget"]:has(img + .popup)
 nagpurtoday.in##div[style^="text-align:"]:has(> video > source[src*="kukreja-video"])
 naijaray.com.ng##[href^="//ashoupsu.com/"]
 namethatporn.com##[data-flba^="https://landing.brazzersnetwork.com"]
+namiko.net##.namiko-ad-band
 nanamovies.co##a[target="_blank"] > img
 nanoreview.net###gtfloats-sb-right
 nanoreview.net##.wisinad_only_desktop
@@ -13205,7 +13230,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 318 <<<<<<
+! >>>>>> 通用Css规则 · 320 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -13267,6 +13292,7 @@ zuketcreation.net##.cente-1
 ###player div[style$="cursor: pointer; position: absolute; width: 100%; height: 100%; padding: 1rem; z-index: 2147483647;"]
 ###playerOverlay[style="position:absolute; z-index:3"]
 ###plban
+###plcontent > #bw-cf-root
 ###sidearm-adblock-modal
 ###st-ami + div[id][class*=" "]
 ###stop_ad
@@ -13457,6 +13483,7 @@ zuketcreation.net##.cente-1
 ##body.user-clicked[style="cursor: auto;"] > #root > .app-container
 ##body.wp-singular > div[id$="-overlay"] > div[id$="-container"] > div[class*="-container"] > div[id$="-checkbox-window"]
 ##body[data-clipboard-code] > .main-wrapper
+##body[data-m][style] > footer ~ #plcontent > #plgate
 ##button.btn[data-openuri*="/4/"]
 ##div#spot-holder.spot-holder[style="display: block;"]
 ##div.card > div#cbRow.checkbox-row[onclick="startVerify()"]
@@ -13526,7 +13553,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2205) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2151) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -13802,7 +13829,6 @@ zuketcreation.net##.cente-1
 @@||afv.wgplayer.com/*/wgPlayer.js$script,domain=canvids.com
 @@||ai.hubtoday.app/*.js|$script,~third-party
 @@||ajax.googleapis.com/ajax/$script,domain=pch.com
-@@||ajax.googleapis.com/ajax/libs/jquery/*/jquery.min.js$domain=yamiisoku.com
 @@||ajax.googleapis.com^$script,domain=dailywire.com|ultrahorny.com|zdnet.fr
 @@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
 @@||ak.sail-horizon.com/scout/$script,domain=businessinsider.com
@@ -14098,7 +14124,6 @@ zuketcreation.net##.cente-1
 @@||cdnjs.cloudflare.com/ajax/libs/*$script,domain=warda.at
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/$script,third-party
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock$script
-@@||cdnjs.cloudflare.com/ajax/libs/jquery-migrate/*/jquery-migrate.min.js$domain=yamiisoku.com
 @@||cdnjs.cloudflare.com/ajax/libs/rollbar.js/$script,domain=rakuten.tv
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.css$stylesheet,domain=abcya.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.9.0/videojs-contrib-ads.min.js$script,domain=tv.okezone.com
@@ -14417,11 +14442,6 @@ zuketcreation.net##.cente-1
 @@||gemius.pl/gplayer.js$script,domain=play.tv3.lt
 @@||gemius.pl/xlgemius.js$script,domain=dn.pt|jn.pt|tsf.pt
 @@||gemius.pl^$script,xmlhttprequest,domain=polsatnews.pl
-@@||genshin-soku.com/wp-content/plugins/amazon-egift-donation/assets/front.js
-@@||genshin-soku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
-@@||genshin-soku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
-@@||genshin-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
-@@||genshin-soku.com/wp-includes/js/wp-emoji-release.min.js
 @@||genvideos.*/js/showads.js$xmlhttprequest,~third-party
 @@||geo-targetly.com/geolocation$third-party,script,domain=stache.com
 @@||geo.leadboxer.com/GeoIpEngine/$script,domain=opentracker.net
@@ -14717,16 +14737,6 @@ zuketcreation.net##.cente-1
 @@||monetate.net^$script,xmlhttprequest,domain=fingerhut.com
 @@||monetize-static.viralize.tv/*viralize_player_content.min.$script,domain=abs-cbn.com
 @@||monetize-static.viralize.tv/prebid.min.$domain=automoto.it|moto.it
-@@||monhan-soku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
-@@||monhan-soku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
-@@||monhan-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
-@@||monhan-soku.com/wp-includes/js/jquery/jquery-migrate.min.js
-@@||monhan-soku.com/wp-includes/js/jquery/jquery.min.js
-@@||monhan-soku.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js
-@@||monhan-soku.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js
-@@||monhan-soku.com/wp-includes/js/mediaelement/renderers/vimeo.min.js
-@@||monhan-soku.com/wp-includes/js/mediaelement/wp-mediaelement.min.js
-@@||monhan-soku.com/wp-includes/js/wp-emoji-release.min.js
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/$xmlhttprequest,~third-party
 @@||movie.momo-net.com/_embed/video.php$subdocument
 @@||moviesandtv.myvi.in/videojs/videojs-contrib-ads.min.js$script,domain=moviesandtv.myvi.in
@@ -14866,9 +14876,6 @@ zuketcreation.net##.cente-1
 @@||pix.spot.im/api/$xmlhttprequest,domain=allthingsvegas.com
 @@||pixel.adsafeprotected.com/services/pub$xmlhttprequest,domain=gentside.*|maxisciences.com|ohmymag.*|reuters.com
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=teleboy.ch
-@@||platform.twitter.com/js/tweet.$script,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
-@@||platform.twitter.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
-@@||platform.x.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 @@||play.*.com/vendor/VisitorAPI.js$script,~third-party,domain=play.aetv.com|play.mylifetime.com
 @@||play.history.com/vendor/VisitorAPI.js$~third-party
 @@||play.tv3.ee^$script,~third-party
@@ -15428,41 +15435,7 @@ zuketcreation.net##.cente-1
 @@||www.pussyspace.net/upload/no_img.jpg|
 @@||wzrkt.com^$script,domain=bmshosting.in
 @@||x.kinja-static.com/assets/packaged-js/trackers$script
-@@||xn--gckdevd5myivf.site/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
-@@||xn--gckdevd5myivf.site/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
-@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-child-master/javascript.js
-@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/javascript.js
-@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/js/group-link.js
-@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/plugins/baguettebox/dist/baguetteBox.min.js
-@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/plugins/lozad.js-master/dist/lozad.min.js
-@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/skins/skin-colors-blue/javascript.js
-@@||xn--gckdevd5myivf.site/wp-includes/js/comment-reply.min.js
-@@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery-migrate.min.js
-@@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery.min.js
-@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
-@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
-@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-content/themes/yamiisoku-matome-theme/assets/js/comment-more.js
-@@||xn--o9j0bk1l6d1bnv1as45bb2j.com/wp-includes/js/wp-emoji-release.min.js
 @@||xweb.instagram.com/ads/preferences/ad_topics/$subdocument,~third-party
-@@||yamiisoku.com/wp-content/plugins/antenna-portal/assets/portal.js
-@@||yamiisoku.com/wp-content/plugins/antenna-timeline/assets/timeline.js
-@@||yamiisoku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
-@@||yamiisoku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
-@@||yamiisoku.com/wp-content/themes/cocoon-child-master/javascript.js
-@@||yamiisoku.com/wp-content/themes/cocoon-master/javascript.js
-@@||yamiisoku.com/wp-content/themes/cocoon-master/js/group-link.js
-@@||yamiisoku.com/wp-content/themes/cocoon-master/plugins/baguettebox/dist/baguetteBox.min.js
-@@||yamiisoku.com/wp-content/themes/cocoon-master/plugins/lozad.js-master/dist/lozad.min.js
-@@||yamiisoku.com/wp-content/themes/cocoon-master/plugins/stickyfill/dist/stickyfill.min.js
-@@||yamiisoku.com/wp-content/themes/yamiisoku-matome-theme/assets/js/comment-more.js
-@@||yamiisoku.com/wp-includes/js/comment-reply.min.js
-@@||yamiisoku.com/wp-includes/js/jquery/jquery-migrate.min.js
-@@||yamiisoku.com/wp-includes/js/jquery/jquery.min.js
-@@||yamiisoku.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js
-@@||yamiisoku.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js
-@@||yamiisoku.com/wp-includes/js/mediaelement/renderers/vimeo.min.js
-@@||yamiisoku.com/wp-includes/js/mediaelement/wp-mediaelement.min.js
-@@||yamiisoku.com/wp-includes/js/wp-emoji-release.min.js
 @@||yandexcdn.com^$script,~third-party
 @@||yimg.com/ss/rapid$script,domain=aol.com
 @@||yolla-d.openx.net/|$script,domain=cdn.htmlgames.com
