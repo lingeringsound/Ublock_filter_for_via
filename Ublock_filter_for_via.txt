@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xoN/zzjtYtFSs+cZFUThvw
-! Title: Ublock filter for Via(2026-11-04 11:56:07)
-! Version: 20261104115607
+! Checksum: dJ7pzbCDzGVxmnrPGqOZmw
+! Title: Ublock filter for Via(2026-11-05 05:37:23)
+! Version: 20261105053723
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-04 11:56:07
+! Last modified: 2026-11-05 05:37:23
 ! Human Count: 1.5w
-! Blocked Filters: 15694
+! Blocked Filters: 15699
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1324,7 +1324,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6910) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6912) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -3245,6 +3245,7 @@ voz.vn/b/image.gif?p=$image
 ||douploads.*/*sw$script,~third-party
 ||douroweb.eu^
 ||douyucdn.cn/front-publish/stream-sdk-lib-master/dyp2pxp2p_*.js$script,domain=douyu.com
+||downioads-japan.com^
 ||download-app.net^
 ||download-campaign.com^
 ||download-wetransfer-*.vercel.app^
@@ -6371,6 +6372,7 @@ voz.vn/b/image.gif?p=$image
 ||ritz-club.net^
 ||riundoor.com^
 ||river-whatsapp.com^
+||rivo.vin/rivo-stealer/
 ||rjxweb-whatsapp.com^
 ||rken104.com^
 ||rkn71nkr.com^
@@ -8237,7 +8239,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5000) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5001) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8479,11 +8481,11 @@ alphaporno.com,hellmoms.com,hellporno.*,tubewolf.com,zedporn.com##.bnnrs-player
 alphaporno.com,katestube.com,pornwhite.com,zedporn.com##.bottom-banners
 alphaporno.com,zedporn.com##.block-banner
 alrakoba.net,ispazio.net,scrapywar.com##.stream-item-widget
+alternativeto.net##.border-official-partner
 alternativeto.net##[href*="aff_c?"]
 alternativeto.net##div[style]:has(> div[class^="Adsense"])
 alternativeto.net##li[data-testid]:has([href^="/outgoing/"])
 alternativeto.net##main > div.flex.justify-center > div.w-full.box-border.flex > div.w-full.container.wide-container
-alternativeto.net##main > section.container.wide-container > div.container > div.mt-10
 alternativeto.net##section#alternative-list > div:not([class]):has(> div[data-testid="adsense-wrapper"])
 alternativeto.net##section#alternative-list > ol > li:has(> .bannerLink)
 alternativeto.net##section#alternative-list > ol > li:has(div[data-testid="adsense-wrapper"])
@@ -9821,6 +9823,7 @@ fritidsmarkedet.dk,maskinbladet.dk##.skybanner, .megaboard-inner
 friv5online.com##.bnr
 frprn.com##.footer-spot
 frustfrei-lernen.de##.noContentBannerArea
+fsicomics.com##[href="/girlfriend-experience"]
 fsicomics.com##[href^="https://www.e6ui8pc.com/"]
 fstream365.com###ol-ads
 fstream365.com###overlay-ads
@@ -13240,7 +13243,7 @@ zshort.*###showContainer,.textfk
 zuketcreation.net##.cente-1
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 322 <<<<<<
+! >>>>>> 通用Css规则 · 324 <<<<<<
 ###TapatalkFooterDesktopAds
 ###adContext:not(:empty)
 ###adSpecial:not(:empty)
@@ -13367,6 +13370,7 @@ zuketcreation.net##.cente-1
 ##.close-btn3[onclick="closeAd3()"]
 ##.close-btn4[onclick="closeAd4()"]
 ##.close-btn[onclick="closeAd()"]
+##.code-block a[href^="https://ewxerd.site/"]
 ##.code-block a[target="_blank"][href^="https://"][href*=".com/"][href*="?key="]
 ##.container a[href^="https://go.mavrtracktor.com/"]
 ##.container a[href^="https://insensitiveshoweraudible.com/"]
@@ -13491,6 +13495,7 @@ zuketcreation.net##.cente-1
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ##body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"]
 ##body > div[style="position: fixed; inset: 0px; z-index: 2147483647; background: transparent; cursor: pointer;"]
+##body.glue-body > #cf-modal-overlay
 ##body.user-clicked[style="cursor: auto;"] > #root > .app-container
 ##body.wp-singular > div[id$="-overlay"] > div[id$="-container"] > div[class*="-container"] > div[id$="-checkbox-window"]
 ##body[data-clipboard-code] > .main-wrapper
