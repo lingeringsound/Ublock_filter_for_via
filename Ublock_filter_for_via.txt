@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MsL1pgmT0WRm3pK+4DVy9Q
-! Title: Ublock filter for Via(2026-11-06 05:41:15)
-! Version: 20261106054115
+! Checksum: QkCPNS663UUWtDoPXIqtCw
+! Title: Ublock filter for Via(2026-11-06 12:13:58)
+! Version: 20261106121358
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-06 05:41:15
+! Last modified: 2026-11-06 12:13:58
 ! Human Count: 1.5w
 ! Blocked Filters: 15699
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -1324,7 +1324,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6912) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6910) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1789,7 +1789,8 @@ voz.vn/b/image.gif?p=$image
 ||api.github.com/_private/browser/rum?
 ||api.gplinks.com/track/js/power-cdn.js$script,domain=djamix.net
 ||api.intelligems.io/v*/track|
-||api.leakgallery.com/r/z?
+||api.leakgallery.com/cfg/*/cpc?
+||api.leakgallery.com/cfg/*/z?
 ||api.lhkmedia.in^$third-party
 ||api.mintfunnel.co^$domain=animeshqip.org
 ||api.modrinth.com/analytics/
@@ -2491,9 +2492,7 @@ voz.vn/b/image.gif?p=$image
 ||cdn-surfline.com/*/preroll_$image,third-party,domain=surfline.com
 ||cdn-x.net^
 ||cdn-z.net^
-||cdn.*.com/sdk/v*/dd.*.js|$script,third-party
-||cdn.*.com/sdk/v*/dd.interstitial.ts.js$script,third-party
-||cdn.*.com/sdk/v*/dd.master.spot.js$script,third-party
+||cdn.*.com/sdk/v*/dd.*.js^$script,third-party
 ||cdn.*/sdk/p/?zid=$script,third-party
 ||cdn.710k.com^
 ||cdn.adsninja.ca/*an_sn.js^
@@ -4920,7 +4919,6 @@ voz.vn/b/image.gif?p=$image
 ||love2-mail.com^
 ||love7date.info^
 ||loveaholics.com^
-||lovean.jp^
 ||lovecatcher2025.com^
 ||lovee-idol.tokyo^
 ||loveju.net^
@@ -8239,7 +8237,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5001) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5002) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -10684,6 +10682,7 @@ lcpdfr.com##div.ipsMargin_bottom.ipsAreaBackground.ipsPadding\:half
 league-funny.com##[id^="div-gpt-ad-"]
 leagueofgraphs.com##.adbox
 leak.sx,paste.bin.sx##.tw_float_ads_main_Wrap_Both
+leakgallery.com##app-page-lead
 learn-cpp.org###google-ad-right > div.mt-3
 learn-cpp.org##a[href^="https://codingforkids.io"]
 lebahmovie.com##.idmuvi-topbanner-aftermenu
@@ -13570,7 +13569,7 @@ zuketcreation.net##.cente-1
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.2k (2152) <<<<<<
+! >>>>>> 放行白名单 · 2.2k (2153) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14540,6 +14539,7 @@ zuketcreation.net##.cente-1
 @@||gvl.ezodn.com/gvlcache/GVL.json$xmlhttprequest
 @@||h-microsoft.online-metrix.net^$xmlhttprequest,domain=ave9858.github.io|docs.atlasos.net|massgrave.dev|msdl.gravesoft.dev
 @@||h-usps.online-metrix.net^$script,domain=ips.usps.com
+@@||h-visa2.online-metrix.net^$subdocument,domain=src.visa.com
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||hanimesubth.com/assets/js/ads.core.js$script,~third-party
 @@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
