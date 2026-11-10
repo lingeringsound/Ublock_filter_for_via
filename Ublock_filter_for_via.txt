@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OZ2BmOQEWG8dFLDQu4wD1Q
-! Title: Ublock filter for Via(2026-11-10 13:15:13)
-! Version: 20261110131513
+! Checksum: MyTrRVPLulMg+ZJAWpgsHw
+! Title: Ublock filter for Via(2026-11-11 05:33:45)
+! Version: 20261111053345
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-10 13:15:13
+! Last modified: 2026-11-11 05:33:45
 ! Human Count: 1.5w
-! Blocked Filters: 15728
+! Blocked Filters: 15730
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1323,7 +1323,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6934) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6936) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -5746,6 +5746,7 @@ voz.vn/b/image.gif?p=$image
 ||overplantovervaluetwine.com^
 ||oversizedsixtieswiry.com^
 ||ovid.*/sw.js$script,~third-party
+||owo.lewd.ninja^$third-party
 ||owyweb-whatsapp.com^
 ||oyasu-mi.tokyo^
 ||oyohd.*/cdn-cgi/trace$xmlhttprequest,~third-party
@@ -6593,6 +6594,7 @@ voz.vn/b/image.gif?p=$image
 ||sentinelbotcore.co.in^
 ||sentry.efabrica.sk^
 ||senuti.org^
+||ser-*-host.store/v*/megamax-*-tag.js^
 ||sered.net^$third-party
 ||serev.net^
 ||serialsoft.org^
@@ -8456,7 +8458,7 @@ adultasianporn.com##[href^="http://adultasianporn.com/out.php"]
 adultasianporn.com##[src*=".php"]
 adultcomixxx.com##.adsnative
 adultcomixxx.com,apk-gamers.com,appsmodz.com,isekaipalace.com,skiplinks.xyz###timer
-advertape.net,strcloud.in,streamta.site,streamtape.*,tapepops.com,watchadsontape.com##.play-overlay
+advertape.net,advtpe.com,strcloud.in,streamta.site,streamtape.*,tapepops.com,watchadsontape.com##.play-overlay
 advertiserandtimes.co.uk###nagBG
 advertiserandtimes.co.uk##.TaboolaSide
 advertiserandtimes.co.uk,eurogamer.*,farsondigitalwatercams.com,ftopx.com,haaretz.com,meetdownload.com,mp4mania1.net,tmohentai.com,waploaded.com##.advert
