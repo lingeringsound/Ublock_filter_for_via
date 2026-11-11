@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PwxEI1EWanAUlwDZxK2e0g
-! Title: Ublock filter for Via(2026-11-11 11:47:03)
-! Version: 20261111114703
+! Checksum: 5o3hIlD5J8+0sMBJILARZw
+! Title: Ublock filter for Via(2026-11-12 06:22:08)
+! Version: 20261112062208
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-11 11:47:03
+! Last modified: 2026-11-12 06:22:08
 ! Human Count: 1.5w
-! Blocked Filters: 15730
+! Blocked Filters: 15736
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1323,7 +1323,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6936) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6940) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1399,6 +1399,7 @@ voz.vn/b/image.gif?p=$image
 ||4151.tv^
 ||45tu1c0.com^
 ||4gay.fans/fans.js
+||4kwallpapers.top^
 ||4shared.com/empty.js$script,~third-party
 ||4shared.com/sw.js$script
 ||4tube.com/*banner$image
@@ -4000,6 +4001,7 @@ voz.vn/b/image.gif?p=$image
 ||gov.*.qpon^
 ||goveanrs.org^
 ||govearali.org^
+||gover.top^
 ||govern-assessment-validation-*.vercel.app^
 ||govuk.*.top^
 ||gownslacken.com^
@@ -5116,6 +5118,7 @@ voz.vn/b/image.gif?p=$image
 ||media.toxtren.com^
 ||mediafire.com/folder/hh6g372sijmjr/
 ||mediafire.com/folder/ofa1qju50ffaz/
+||mediamarkt.be/api/v1/msg
 ||mediapass.com^$third-party
 ||mediasystems.am^$third-party
 ||meet-flirts.com^
@@ -5860,6 +5863,7 @@ voz.vn/b/image.gif?p=$image
 ||pcconelove.xyz^
 ||pcgamestorrents.com/*.gif$image
 ||pcoptimizedsettings.com/wp-json/caos/v1/proxy/stealth*page_view
+||pcsofts.site^
 ||pctnew.*/sw.js$script
 ||pdfsam.com^
 ||pdss3a1r.jp^
@@ -8262,7 +8266,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5006) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5008) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -10058,6 +10062,7 @@ gomoviz.*##.mobile-btn
 gomoviz.*##.mvic-btn
 gomoviz.*##div.content-kuss
 gooals.*###mo-ads-close
+goodreads.com##.AdspAdContainer
 goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
 google.com##.D1fz0e
 googleads.g.doubleclick.net###abgc
@@ -12224,6 +12229,7 @@ sms24.*##.ado-header
 sms24.*##body > div[style^="position: fixed; z-index: 1000"]
 snapinsta.to###dlModal
 so1.asia##.pietimer
+socialxup.com##a[target][href^="/"]
 socigames.com##.socig-target
 socks24.org##[href^="http://www.linkev.com/"]
 sofascore.com##.adUnitBox
