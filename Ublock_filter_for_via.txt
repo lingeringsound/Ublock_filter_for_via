@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: OBI1z3ZdTeUOczPgkcSSIw
-! Title: Ublock filter for Via(2026-11-16 04:39:46)
-! Version: 20261116043946
+! Checksum: 4E4tlzsqY3esw4yfO/Z0ww
+! Title: Ublock filter for Via(2026-11-16 11:51:08)
+! Version: 20261116115108
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-16 04:39:46
+! Last modified: 2026-11-16 11:51:08
 ! Human Count: 1.5w
-! Blocked Filters: 15781
+! Blocked Filters: 15785
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1312) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1315) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -972,6 +972,8 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /preferences.blackbull.com/r/*/open/*$image
 /prelanders/dating-survey/index.html?
 /preroll.engine?
+/prod/pni/fp.min.js?
+/prod/pni/g2i.min.js?
 /promo/*$image,domain=miruro.*|miruro.to|miruro.bz|miruro.online|miruro.tv
 /promo/next/adb/*
 /propeller-ads
@@ -1162,6 +1164,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /wl.spotify.com/ss/o/*.gif$image
 /wp-assets-optimizer.html^
 /wp-content/cache/min/*/pubadx-ad.js
+/wp-content/client-mu-plugins/pmd-ads/*
 /wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
 /wp-content/plugins/adblock-detector/*$script
 /wp-content/plugins/admin-bar-customizer/abc-script.js
@@ -8294,7 +8297,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5022) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5023) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -9016,6 +9019,7 @@ bydleni.cz###clickLeft
 bydleni.cz###rightClick
 cachevalleydaily.com,stgeorgeutah.com##.main-top-ad
 calculator-online.net##.sticky_ad
+calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal.com,edmontonsun.com,financialpost.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ontariofarmer.com,ottawacitizen.com,ottawasun.com,pembrokeobserver.com,recorder.ca,standard-freeholder.com,thegrowthop.com,theprovince.com,thestarphoenix.com,thewhig.com,timminspress.com,tj.news,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com##.pmd-ad-content-placeholder
 cambabe.*,camwhores.*,camwhorestv.*,cartoonvideos247.com,vibraporn.com##.topad
 cambb.xxx,nudecams.xxx###adb
 cambro.tv###kt_player > [href^="https://www.cambro.tv/"]
