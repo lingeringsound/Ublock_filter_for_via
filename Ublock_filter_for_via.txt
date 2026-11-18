@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NJEclPHHw8ByY6odzBok4g
-! Title: Ublock filter for Via(2026-11-18 13:09:04)
-! Version: 20261118130904
+! Checksum: O7gr5OneN/qZD2LvhZV3FQ
+! Title: Ublock filter for Via(2026-11-19 06:46:01)
+! Version: 20261119064601
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-18 13:09:04
+! Last modified: 2026-11-19 06:46:01
 ! Human Count: 1.5w
-! Blocked Filters: 15796
+! Blocked Filters: 15797
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1330,7 +1330,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (6972) <<<<<<
+! >>>>>> 域名规则 · 7.0k (6973) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -7072,6 +7072,7 @@ voz.vn/b/image.gif?p=$image
 ||sugulove.com^
 ||sugulove777.com^
 ||sugusagasu.com^
+||suikora.com/api/views
 ||suissscomee-correo*.codeanyapp.com^
 ||suite-trezor.click^
 ||suite.tem3.io^
