@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BNVT6sG0Z6/poHnIh/A6Mw
-! Title: Ublock filter for Via(2026-11-18 07:14:27)
-! Version: 20261118071427
+! Checksum: NJEclPHHw8ByY6odzBok4g
+! Title: Ublock filter for Via(2026-11-18 13:09:04)
+! Version: 20261118130904
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-18 07:14:27
+! Last modified: 2026-11-18 13:09:04
 ! Human Count: 1.5w
-! Blocked Filters: 15795
+! Blocked Filters: 15796
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1330,7 +1330,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (6971) <<<<<<
+! >>>>>> 域名规则 · 7.0k (6972) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2842,6 +2842,7 @@ voz.vn/b/image.gif?p=$image
 ||com/*/Sticky2,ModalEngage|$script,third-party
 ||com/*/Sticky2|$script,third-party
 ||com/cams-widget-ext/
+||com/ick.infonium.org^$subdocument,~third-party
 ||com/layout/*.js|$script,third-party,domain=index.hr
 ||com/on.js?var=$script,third-party
 ||com/p.js?uid=$script,third-party
@@ -8444,7 +8445,7 @@ a8ix.*,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.*##.inner-floatbanner-bottom
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
-ab.nanacdn.com,abysscdn.com,abyssplayer.com,fembedx.top,fullfreeimage.com,gogatv.net,hydraxcdn.biz,imagelovers.com,playembedapi.site,playermeow.com,playhydrax.com###overlay||com/ick.infonium.org^$subdocument,~third-party
+ab.nanacdn.com,abysscdn.com,abyssplayer.com,adsy.pw,allfeeds.*,aman-dn.blogspot.com,cloud.hownetwork.xyz,doooood.co,earnbee.xyz,ezeviral.com,fembedx.top,fullfreeimage.com,gleanster.com,gogatv.net,hydraxcdn.biz,imagelovers.com,live-sport.duktek.pro,made-by.org,newdmn.*,oii.io,playembedapi.site,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,sharer.pw,streambtw.com,telerium.*,teleriumtv.*,videonode.de,viz.com###overlay
 ab.nanacdn.com,abysscdn.com,abyssplayer.com,fullfreeimage.com,gogatv.net,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 abcnews.com,abcnews.go.com##.StickyAdWrapper
 abcya.com##.a-prerollvideo-container
@@ -8489,7 +8490,6 @@ adshnk.com,mixrootmod.com##.custom-modal
 adshort.*##a[href$=".html"][rel="nofollow norefferer noopener"]
 adshort.*,adsrt.*##[id*="frme"]
 adsrt.*##div[id^="SC_TBlock"]
-adsy.pw,allfeeds.*,aman-dn.blogspot.com,cloud.hownetwork.xyz,doooood.co,earnbee.xyz,ezeviral.com,gleanster.com,live-sport.duktek.pro,made-by.org,newdmn.*,oii.io,playstore.pw,pngreal.com,rufiiguta.com,sharer.pw,streambtw.com,telerium.*,teleriumtv.*,videonode.de,viz.com###overlay
 adtival.network##.z-0.overflow-hidden.relative.w-full.rounded-lg.to-primary-800.from-primary-500.bg-gradient-to-r.p-8.min-h-\[189px\]
 adtival.network##button.py-2.px-6.text-primary-600.rounded-lg.border-primary-600.border-2.bg-white.items-center.flex
 adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com###modalegames
@@ -12283,6 +12283,7 @@ sms24.*##.ado-header
 sms24.*##body > div[style^="position: fixed; z-index: 1000"]
 snapinsta.to###dlModal
 so1.asia##.pietimer
+socialxup.com##a[data-track="related_click"]:not([data-track-context="user_page_related"])
 socigames.com##.socig-target
 socks24.org##[href^="http://www.linkev.com/"]
 sofascore.com##.adUnitBox
