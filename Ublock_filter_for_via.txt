@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O7gr5OneN/qZD2LvhZV3FQ
-! Title: Ublock filter for Via(2026-11-19 06:46:01)
-! Version: 20261119064601
+! Checksum: ZPWs93HP/E/Ruwo6wyT+eQ
+! Title: Ublock filter for Via(2026-11-19 13:03:14)
+! Version: 20261119130314
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-19 06:46:01
+! Last modified: 2026-11-19 13:03:14
 ! Human Count: 1.5w
 ! Blocked Filters: 15797
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -9420,7 +9420,7 @@ down.mdiaload.com##div[style$="background-color:#ffffff; text-align:center"]
 down.mdiaload.com##div[style="width:336px; height:280px"]
 downloadrepack.com###footer-widgets > .container-inner > .group.hu-pad
 downsub.com##[href^="https://www.aiarty.com/ai-denoise-image/"]
-downsub.com##div[data-type="_mgwidget"]
+downsub.com,liddread.com##div[data-type="_mgwidget"]
 dozarte.com###banana
 dpstream.*##.movie-aye
 dr-farfar.com##.essb-sharebooster
