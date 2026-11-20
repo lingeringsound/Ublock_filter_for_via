@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: R5cpOhXg+WYqfVhqG0OefQ
-! Title: Ublock filter for Via(2026-11-20 12:53:49)
-! Version: 20261120125349
+! Checksum: QWPO/rJoRWbtrGJlK+6D7A
+! Title: Ublock filter for Via(2026-11-21 06:26:22)
+! Version: 20261121062622
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-20 12:53:49
+! Last modified: 2026-11-21 06:26:22
 ! Human Count: 1.5w
-! Blocked Filters: 15778
+! Blocked Filters: 15770
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -196,7 +196,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *.mp4$media,domain=crackle.com
 *.php$script,domain=webcamsdolls.com
 *.php$script,subdocument,domain=reamporn.com
-*.php$script,~third-party,domain=18teenporno.tv|3teentube.com|4gaycocks.com|50yearoldsluts.com|adult-home-videos.com|amateur-cougar.com|amateur-nude.com|amateurmaturewives.com|babeswp.com|bannedbdsm.com|bdsmaz.com|bdsmsecrets.net|bigtitsgallery.net|bizarre-club.com|bondage-club.net|bondagevideo.org|bondagewaytube.com|celebritytubeporn.com|celebxvideo.com|cidertube.com|crazygayporn.com|dailygayvideo.com|desimms.co|digisesso.com|dusktube.com|elmtube.com|enterfreegaysex.com|etitz.com|experiences-gay.com|femdomdaily.com|fieldstube.com|footfetish-slave.com|freebesttwinks.com|freegranny6.com|freematurelovers.com|freematureswomen.com|gay-place.com|gayfuckingtube.com|gaypornxxxtube.com|goodtgp.net|grannysfucking.net|hdbbwmovies.com|helloshemale.com|hiddencamsluts.com|homevoyeurvideo.net|hornygrannytube.net|hqvintagetube.net|hugeboobswomen.com|indiancunts.net|indianporndaily.com|indiansexfree.net|javbobo.com|kuboys.net|latinaxxxvideos.com|matures-loving-sex.com|maturesandnylon.com|meporno.com|momsfuckboys.com|moreasiansex.com|mybbwtube.com|mygrannyporn.com|myowntits.com|nakedolders.com|naughtyjapaneseteens.com|nicegrannys.com|nudeteenshub.com|nylonbabez.net|nyloncunts.com|nylonglamourlegs.com|nylonpornpictures.net|older-wives.com|pantyhoseminx.com|porncore.net|porngoeshd.com|pornoplum.com|pornvideoh.com|pornvideos.host|raventube.com|retropornzone.com|ritzyamateursex.com|sexrura.com|sexytwinkcock.com|stockingspornpics.com|teen18tube.com|teen-tube-18.com|teen-tube-19.com|teen-tube-21.com|teen-tube-porn.com|teenporn.ws|teenpornvideo.me|teensexvideos.xxx|teensonporn.com|teentube-18.com|thevintagemovies.com|timetoteens.com|tube-teen-18.com|tubebikini.com|tubehd.xxx|ultragranny.com|uniformcunts.com|videosexyteen.com|videosmadeathome.com|vintagesextapes.com|vipoldies.net|wildfemdom.com|wildretroporn.com|wowpornlist.xyz|xxx-hd-teens.com|xxx-hd-tube.com|xxxmegaboobs.com|yatranny.com|yourbdsmmovie.com|yourfreepantyhosegalleries.com|girlsfucking.net|hairy-amateurs.com|maturevideos.site|milfera.com|onlylesbianvids.com|teen-porn-tube.com
+*.php$script,~third-party,domain=18teenporno.tv|3teentube.com|4gaycocks.com|50yearoldsluts.com|adult-home-videos.com|amateur-cougar.com|amateur-nude.com|amateurmaturewives.com|babeswp.com|bannedbdsm.com|bdsmaz.com|bdsmsecrets.net|bigtitsgallery.net|bizarre-club.com|bondage-club.net|bondagevideo.org|bondagewaytube.com|celebritytubeporn.com|celebxvideo.com|cidertube.com|crazygayporn.com|dailygayvideo.com|desimms.co|digisesso.com|dusktube.com|elmtube.com|enterfreegaysex.com|etitz.com|experiences-gay.com|femdomdaily.com|fieldstube.com|footfetish-slave.com|freebesttwinks.com|freegranny6.com|freematurelovers.com|freematureswomen.com|gay-place.com|gayfuckingtube.com|gaypornxxxtube.com|goodtgp.net|grannysfucking.net|hdbbwmovies.com|helloshemale.com|hiddencamsluts.com|homevoyeurvideo.net|hornygrannytube.net|hqvintagetube.net|hugeboobswomen.com|indiancunts.net|indianporndaily.com|indiansexfree.net|javbobo.com|kuboys.net|latinaxxxvideos.com|matures-loving-sex.com|maturesandnylon.com|meporno.com|momsfuckboys.com|moreasiansex.com|mybbwtube.com|mygrannyporn.com|myowntits.com|nakedolders.com|naughtyjapaneseteens.com|nicegrannys.com|nudeteenshub.com|nylonbabez.net|nyloncunts.com|nylonglamourlegs.com|nylonpornpictures.net|older-wives.com|pantyhoseminx.com|porncore.net|porngoeshd.com|pornvideoh.com|pornvideos.host|raventube.com|retropornzone.com|ritzyamateursex.com|sexrura.com|sexytwinkcock.com|stockingspornpics.com|teen18tube.com|teen-tube-18.com|teen-tube-19.com|teen-tube-21.com|teen-tube-porn.com|teenporn.ws|teenpornvideo.me|teensexvideos.xxx|teensonporn.com|teentube-18.com|thevintagemovies.com|timetoteens.com|tube-teen-18.com|tubebikini.com|tubehd.xxx|ultragranny.com|uniformcunts.com|videosexyteen.com|videosmadeathome.com|vintagesextapes.com|vipoldies.net|wildfemdom.com|wildretroporn.com|wowpornlist.xyz|xxx-hd-teens.com|xxx-hd-tube.com|xxxmegaboobs.com|yatranny.com|yourbdsmmovie.com|yourfreepantyhosegalleries.com|girlsfucking.net|hairy-amateurs.com|maturevideos.site|milfera.com|onlylesbianvids.com|teen-porn-tube.com
 *.webp$domain=hanimesubth.com,image,third-party
 *.xml$xmlhttprequest,third-party,domain=eporner.com
 */?pu=$script
@@ -1330,7 +1330,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (6958) <<<<<<
+! >>>>>> 域名规则 · 7.0k (6957) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -2289,7 +2289,6 @@ voz.vn/b/image.gif?p=$image
 ||bny-whatsapp.com^
 ||boardband.univer.se^
 ||boarfishesquandangsunderdried.com^
-||bobs-tube.com/sw$script,~third-party
 ||boc-whatsapp.com^
 ||bod-whatsapp.com^
 ||boe-whatsapp.com^
@@ -2718,7 +2717,6 @@ voz.vn/b/image.gif?p=$image
 ||cleanmymacos.org^
 ||cleardexchange.com^
 ||clearnetfab.net^
-||clenchedyouthmatching.com^
 ||click-pay.net^
 ||clickcandy2.com^
 ||clickgenee.com^
@@ -2850,6 +2848,7 @@ voz.vn/b/image.gif?p=$image
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
 ||comicspornow.com/*.php$script,~third-party
+||comix.to/assets/gotaku-banner
 ||comixporn.net/js/nvrblck.js
 ||command-whatsapp.com^
 ||commit-whatsapp.com^
@@ -8291,7 +8290,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5029) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5023) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8518,7 +8517,7 @@ allafricangirls.net,beforeitsnews.com##[src*="/banner"]
 allbestiality.com,beastwomans.com,beastzoo.org,bestialitysexvideos.com,bestialitytaboo.tv,bestialityworld.org,bestialporn.net,bestialzoo.*,fakingszoo.com,hispajotes.com,portalzoo.com,videosbizarre.com,zoofiliak9.com,zoofilianet.com,zoofiliataboo.com,zookings.com,zoosexnet.com,zoosexsite.com,zootubex.tv,zootubex.us##[href^="https://www.skypeis"]
 allgemeine-zeitung.de,buerstaedter-zeitung.de,echo-online.de,lampertheimer-zeitung.de,lauterbacher-anzeiger.de,main-spitze.de,oberhessische-zeitung.de,wiesbadener-kurier.de,wormser-zeitung.de##.adSlot, .loadingBanner
 alliptvlinks.com###arlinablock
-allmusic.com,bobs-tube.com,katestube.com,tubsexer.*##.advertising
+allmusic.com,katestube.com,tubsexer.*##.advertising
 allporncomic.com##[href^="https://s.zlink0.com/"], [href^="https://s.zline0.com/"]
 allporncomic.com,barstoolsports.com,chip.de,eurosport.*,familyhandyman.com,hardwarezone.com.sg,heise.de,lovetoknow.com,manytoon.com,nhl.com,penize.cz,spiele.spiegel.de,steamplay.*,steanplay.*,straemplay.org,stre4mpay.one,stre4mplay.*,tio.ch,urlaubspartner.net,waploaded.com,xxmovz.com,zipi.com##.ad
 allporncomics.co,codesnail.com,comicsvalley.com,crunchyscan.fr,dvdgayporn.com,lewdstars.com,maxedtech.com,novelcrow.com,sampledrive.org,studydhaba.com,taradinhos.com,thedigitaltheater.com,toursetlist.com##.widget_custom_html
@@ -8943,10 +8942,6 @@ boardgameoracle.com##div[class^="js"]:has(> span.MuiTypography-subtitle2.MuiTypo
 boards.net,forum.gigabyte.us,forums.lostmediawiki.com,freeforums.net,proboards.com###remove_ads_link
 boards.net,forum.gigabyte.us,forums.lostmediawiki.com,freeforums.net,proboards.com,romspedia.com###ad1
 boards.net,forums.lostmediawiki.com,freeforums.net,proboards.com##[id^="ad-"]
-bobs-tube.com##.adv_nad_player
-bobs-tube.com##.player-related-videos
-bobs-tube.com##.sponsored_top
-bobs-tube.com,calciomercato.com,cartoonvideos247.com,familyporn.tv##.adv
 boerse-online.de##.center_top_bar
 bombuj.*##.ad_banner
 bombuj.*##[id*="ekla"]
@@ -9012,6 +9007,7 @@ buzzheavier.com##div.mx-auto.text-center > a[href][target="_blank"]
 bydleni.cz###clickLeft
 bydleni.cz###rightClick
 cachevalleydaily.com,stgeorgeutah.com##.main-top-ad
+calciomercato.com,cartoonvideos247.com,familyporn.tv##.adv
 calculator-online.net##.sticky_ad
 calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal.com,edmontonsun.com,financialpost.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ontariofarmer.com,ottawacitizen.com,ottawasun.com,pembrokeobserver.com,recorder.ca,standard-freeholder.com,thegrowthop.com,theprovince.com,thestarphoenix.com,thewhig.com,timminspress.com,tj.news,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com##.pmd-ad-content-placeholder
 cambabe.*,camwhores.*,camwhorestv.*,cartoonvideos247.com,vibraporn.com##.topad
@@ -9180,14 +9176,11 @@ comdotgame.com##[src^="https://a.adtng.com/"]
 comdotgame.com##div[style]:has(> a[href^="https://tm-offers.gamingadult.com/"])
 comic.pixiv.net##iframe.ad-content
 comichara.com,javhoho.com,movient.net,nekomeowmeow.com###text-6
-comicxxx.eu,dads-banging-teens.com,home-made-videos.com,home-xxx-videos.com,mature-chicks.com,pornocomics.*,sex-amateur-clips.com,sexmadeathome.com###dclm_modal_content
-comicxxx.eu,dads-banging-teens.com,home-made-videos.com,home-xxx-videos.com,mature-chicks.com,pornocomics.*,sex-amateur-clips.com,sexmadeathome.com###dclm_modal_screen
-comicxxx.eu,pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*,watchfreexxx.net###tracking-url
 comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: auto; min-height: 266px; max-width: 100vw;"]
 comidoc.net##div[style="text-align:center;margin-left:auto;margin-right:auto;min-height:266px;max-width:90vw"]
 comidoc.net,tricksplit.io##div:has(> .adsbygoogle)
-comix.to,idlixku.com,westmanga.*,westmanga.org##[src*=".gif"]
 comix.to,mangafire.to,ymix.to##a[href][target="_blank"][style*="z-index: 99999"]
+comix.to,robofight.io##.home-banner
 comousarzararadio.blogspot.com###HTML10, #HTML9
 compucalitv.com##.botondescarga
 compucalitv.com,crackllc.com,designmodo.com,hackstore.*,hitproversion.com,megawarez.org##.onp-sl-social-locker
@@ -9276,6 +9269,8 @@ cyklobazar.cz##curtain-ad
 daddylive.*###floatLayer1
 daddylive.*###html1
 daddylive.*##div > a.btn-outline-primary.btn
+dads-banging-teens.com,home-made-videos.com,home-xxx-videos.com,mature-chicks.com,pornocomics.*,sex-amateur-clips.com,sexmadeathome.com###dclm_modal_content
+dads-banging-teens.com,home-made-videos.com,home-xxx-videos.com,mature-chicks.com,pornocomics.*,sex-amateur-clips.com,sexmadeathome.com###dclm_modal_screen
 daftporn.com###lay2Blur
 daftsex.net##.videos > div:not([id])
 daihatsu-club.net##[class^="side_ad_left_"]
@@ -10400,6 +10395,7 @@ iconmonstr.com##.container-content-ad
 icyporno.com###embed-overlay
 icyporno.com###parrot
 idle-girl.com###custom_html-74
+idlixku.com,westmanga.*,westmanga.org##[src*=".gif"]
 idmextension.xyz##[id$="-Ads"], [id*="-gpt-ad"], center > h3, #skull, #content, #btnx, .mh-clearfix.mh-wrapper
 idnes.cz##.abchead
 idnes.cz##.s_widesquare:has(> div > #widesquare > a[rel="sponsored"])
@@ -11439,6 +11435,7 @@ palcomix.com##table[width="800"]:has(img[src^="../ads/"])
 pallabmobile.in##a[class][href="#"] img
 pallabmobile.in##div[style^="position: fixed; width: 100vw;"][style$="z-index: 999999;"]
 panda-novel.com##[class^="novel-ins"]
+pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*###tracking-url
 pandamovies.org,watchporn4k.com###video-overlay
 pandamovies.pw,pornwatch.ws,xxxparodyhd.net,xxxstream.me##.btn-lg.btn-block.btn
 pandaspor.live##[href^="https://go.aff."]
@@ -11956,7 +11953,6 @@ rjno1.com##body > style + div div[id][style]
 rlxoff.com##div[id^="ad-"]
 rmcmv.*##[class*="ads"]
 rmdown.com##.container td[bgcolor="white"] > a[target="_blank"]
-robofight.io##.home-banner
 robofight.io##div.side-loadout-item:nth-of-type(3)
 rock.porn##.banner-asd
 rock.porn##.banner-sasd
@@ -12270,10 +12266,6 @@ sms24.*##.ado-header
 sms24.*##body > div[style^="position: fixed; z-index: 1000"]
 snapinsta.to###dlModal
 so1.asia##.pietimer
-socialxup.com##a.bg-yellow-300
-socialxup.com##a.border-indigo-300
-socialxup.com##a[data-track="home_popular_tweet_profile_click"]:not( .bg-gray-100, .text-gray-500, [data-track-context="user_page_related"])
-socialxup.com##aside *:has(> a:not([href*="/tools/"], [href*="/genre/"], [data-track^="sidebar_"]))
 socigames.com##.socig-target
 socks24.org##[href^="http://www.linkev.com/"]
 sofascore.com##.adUnitBox
@@ -13031,6 +13023,7 @@ watchanime.video##.video_box
 watchcartoononline.bz##.BorderColorChangeElement
 watchfree.*###vpnvpn
 watchfreejavonline.co##[href*="affpa.top"]
+watchfreexxx.net###tracking-url
 watchfreexxx.net##.order-1:has(.video-block-happy-absolute)
 watchgameofthrones.*###keeper2
 watchhentai.net##.minlinks-links
@@ -13652,7 +13645,7 @@ zshort.*###showContainer,.textfk
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2149) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2148) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14080,7 +14073,6 @@ zshort.*###showContainer,.textfk
 @@||bloomberg.com/*/captcha/captcha.js$script,~third-party
 @@||bntech.io^$script,domain=buffalonews.com
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boattrader.com
-@@||bobs-tube.com/player/player_ads.html$~third-party
 @@||bom.gov.au/*/analytics.js$script,~third-party
 @@||bongacash.com/js/videojs/video.js
 @@||bonjourdefrance.com^$script,~third-party
