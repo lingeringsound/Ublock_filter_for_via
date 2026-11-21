@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fESCergzuL+mHOS6PmdX0A
-! Title: Ublock filter for Via(2026-11-21 12:49:03)
-! Version: 20261121124903
+! Checksum: VTRc2IYZB7sdoGm3jYOpFg
+! Title: Ublock filter for Via(2026-11-22 05:19:25)
+! Version: 20261122051925
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-21 12:49:03
+! Last modified: 2026-11-22 05:19:25
 ! Human Count: 1.5w
 ! Blocked Filters: 15770
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
@@ -42,7 +42,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *$subdocument,domain=1ink.cc|clik.pw|isohunt.*|isohunters.*|isohunthydra.*|isohunting.*|isohunts.*|isohuntx.*|isohuntz.*|myisohunt.*|picbaron.com|pornfay.*|torrentproject2.*
 *$subdocument,third-party,domain=9ig.de|bc.vc|cpmlink.net|curto.win|goto.com.np|imgdawgknuttz.com|imgtorrnt.in|lusthero.com|pornclassic.tube|tubepornclassic.com|vev.red|vidop.icu|vidup.io
 *$subdocument,xmlhttprequest,script,third-party,domain=bolly4umovies.*
-*$subdocument,~third-party,domain=sexrura.pl|sexrura.com
+*$subdocument,~third-party,domain=sexrura.pl
 *$third-party,domain=babesxworld.com|clik.pw|direct-cloud.*|goplay.su|sexvideos.host|vipbox.*
 *$third-party,xmlhttprequest,domain=ceesty.com|corneey.com|destyy.com|festyy.com|gestyy.com|hd-easyporn.com|nsfwyoutube.com|nxbrew.com|streamblasters.pm
 *$websocket,domain=linuxtracker.org
@@ -196,7 +196,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 *.mp4$media,domain=crackle.com
 *.php$script,domain=webcamsdolls.com
 *.php$script,subdocument,domain=reamporn.com
-*.php$script,~third-party,domain=18teenporno.tv|3teentube.com|4gaycocks.com|50yearoldsluts.com|adult-home-videos.com|amateur-cougar.com|amateur-nude.com|amateurmaturewives.com|babeswp.com|bannedbdsm.com|bdsmaz.com|bdsmsecrets.net|bigtitsgallery.net|bizarre-club.com|bondage-club.net|bondagevideo.org|bondagewaytube.com|celebritytubeporn.com|celebxvideo.com|cidertube.com|crazygayporn.com|dailygayvideo.com|desimms.co|digisesso.com|dusktube.com|elmtube.com|enterfreegaysex.com|etitz.com|experiences-gay.com|femdomdaily.com|fieldstube.com|footfetish-slave.com|freebesttwinks.com|freegranny6.com|freematurelovers.com|freematureswomen.com|gay-place.com|gayfuckingtube.com|gaypornxxxtube.com|goodtgp.net|grannysfucking.net|hdbbwmovies.com|helloshemale.com|hiddencamsluts.com|homevoyeurvideo.net|hornygrannytube.net|hqvintagetube.net|hugeboobswomen.com|indiancunts.net|indianporndaily.com|indiansexfree.net|javbobo.com|kuboys.net|latinaxxxvideos.com|matures-loving-sex.com|maturesandnylon.com|meporno.com|momsfuckboys.com|moreasiansex.com|mybbwtube.com|mygrannyporn.com|myowntits.com|nakedolders.com|naughtyjapaneseteens.com|nicegrannys.com|nudeteenshub.com|nylonbabez.net|nyloncunts.com|nylonglamourlegs.com|nylonpornpictures.net|older-wives.com|pantyhoseminx.com|porncore.net|porngoeshd.com|pornvideoh.com|pornvideos.host|raventube.com|retropornzone.com|ritzyamateursex.com|sexrura.com|sexytwinkcock.com|stockingspornpics.com|teen18tube.com|teen-tube-18.com|teen-tube-19.com|teen-tube-21.com|teen-tube-porn.com|teenporn.ws|teenpornvideo.me|teensexvideos.xxx|teensonporn.com|teentube-18.com|thevintagemovies.com|timetoteens.com|tube-teen-18.com|tubebikini.com|tubehd.xxx|ultragranny.com|uniformcunts.com|videosexyteen.com|videosmadeathome.com|vintagesextapes.com|vipoldies.net|wildfemdom.com|wildretroporn.com|wowpornlist.xyz|xxx-hd-teens.com|xxx-hd-tube.com|xxxmegaboobs.com|yatranny.com|yourbdsmmovie.com|yourfreepantyhosegalleries.com|girlsfucking.net|hairy-amateurs.com|maturevideos.site|milfera.com|onlylesbianvids.com|teen-porn-tube.com
+*.php$script,~third-party,domain=18teenporno.tv|3teentube.com|4gaycocks.com|50yearoldsluts.com|adult-home-videos.com|amateur-cougar.com|amateur-nude.com|amateurmaturewives.com|babeswp.com|bannedbdsm.com|bdsmaz.com|bdsmsecrets.net|bigtitsgallery.net|bizarre-club.com|bondage-club.net|bondagevideo.org|bondagewaytube.com|celebritytubeporn.com|celebxvideo.com|cidertube.com|crazygayporn.com|dailygayvideo.com|desimms.co|digisesso.com|dusktube.com|elmtube.com|enterfreegaysex.com|etitz.com|experiences-gay.com|femdomdaily.com|fieldstube.com|footfetish-slave.com|freebesttwinks.com|freegranny6.com|freematurelovers.com|freematureswomen.com|gay-place.com|gayfuckingtube.com|gaypornxxxtube.com|goodtgp.net|grannysfucking.net|hdbbwmovies.com|helloshemale.com|hiddencamsluts.com|homevoyeurvideo.net|hornygrannytube.net|hqvintagetube.net|hugeboobswomen.com|indiancunts.net|indianporndaily.com|indiansexfree.net|javbobo.com|kuboys.net|latinaxxxvideos.com|matures-loving-sex.com|maturesandnylon.com|meporno.com|momsfuckboys.com|moreasiansex.com|mybbwtube.com|mygrannyporn.com|myowntits.com|nakedolders.com|naughtyjapaneseteens.com|nicegrannys.com|nudeteenshub.com|nyloncunts.com|nylonglamourlegs.com|older-wives.com|pantyhoseminx.com|porncore.net|porngoeshd.com|pornvideoh.com|pornvideos.host|raventube.com|retropornzone.com|ritzyamateursex.com|sexytwinkcock.com|stockingspornpics.com|teen18tube.com|teen-tube-18.com|teen-tube-19.com|teen-tube-21.com|teen-tube-porn.com|teenporn.ws|teenpornvideo.me|teensexvideos.xxx|teensonporn.com|teentube-18.com|thevintagemovies.com|timetoteens.com|tube-teen-18.com|tubebikini.com|tubehd.xxx|ultragranny.com|uniformcunts.com|videosexyteen.com|videosmadeathome.com|vintagesextapes.com|vipoldies.net|wildfemdom.com|wildretroporn.com|wowpornlist.xyz|xxx-hd-teens.com|xxx-hd-tube.com|xxxmegaboobs.com|yatranny.com|yourbdsmmovie.com|yourfreepantyhosegalleries.com|girlsfucking.net|hairy-amateurs.com|maturevideos.site|milfera.com|onlylesbianvids.com|teen-porn-tube.com
 *.webp$domain=hanimesubth.com,image,third-party
 *.xml$xmlhttprequest,third-party,domain=eporner.com
 */?pu=$script
@@ -8838,7 +8838,6 @@ bestgames.com,yiv.com###LeftAdDiv
 bestgames.com,yiv.com###game_middle_ad
 bestjavporn.com,javhdporn.net,javxxx.me###player_3x2_container_inner
 bestjavporn.com,mm9841.cc###flash
-besttwinkass.com##[class*="_Bns"]
 beta.xfreehd.com##.col-md-12:has(a[href^="https://landing.brazzersnetwork.com/"])
 beta.xfreehd.com,cbc.ca,crosswordsolver.com,futbin.com,gecmisi.com.tr,getmodsapk.*,gfx-station.com,namemc.com,netronline.com,news18.com,thetimes.com,updateroj24.com##.ad-container
 beverfood.com###backy
@@ -11333,7 +11332,6 @@ nyaa.land##html > body > center
 nyaa.land##html > body > div:not([class="container"])
 nyaa.land##html > body > div:not([class="container"]) + br
 nybooks.com##.ad-spacing
-nylonbabez.net,nylonpornpictures.net,stockingspornpics.com##.preview:has(.nat-block)
 nypost.com##.entry-content > .nyp-video-player
 nysainfo.pl###mdp-deblocker-js-disabled
 nytimes.com###acm-wrapper
@@ -12366,6 +12364,7 @@ steam-repacks.net##div > center > button[style*="border: 0px"][style*="cursor: p
 steamcrackedgames.com##[href^="https://startgaming.net/"]
 steanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 stiflersmoms.com##.line3
+stockingspornpics.com##.preview:has(.nat-block)
 stocktwits.com###ad_sidebar_top_offset
 stocktwits.com##.LazyLoad.is-visible:has([data-aa-adunit])
 stocktwits.com##[class^="FooterAd_container"]
@@ -13084,6 +13083,7 @@ whathifi.com###ultimedia_wrapper
 whathifi.com##.dfp-leaderboard-container
 wheelofgold.com##span[style*="z-index:"][onclick$="fadeOut();"]
 whiskypreisvergleich.de,whiskyprices.co.uk,whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be,whiskyprix.fr##.blocker
+whispersinthecorridors.in##.wh-popad
 wiadomosci.wp.pl##div:has(> div:first-child > img[src^="https://v.wpimg.pl/"][height="45"][width="56"])
 wiadomosci.wp.pl##div:has(> div[data-native-adv] > a[href*="utm_"])
 wiadomosci.wp.pl,sportowefakty.wp.pl,pudelek.pl,abczdrowie.pl,kafeteria.pl##div[class]:has(> div:only-child > div:only-child > a:first-child:has(> div:only-child:empty) + div:empty)
