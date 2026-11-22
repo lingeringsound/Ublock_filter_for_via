@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VTRc2IYZB7sdoGm3jYOpFg
-! Title: Ublock filter for Via(2026-11-22 05:19:25)
-! Version: 20261122051925
+! Checksum: 9G0kH6SutbVVc73XnB85zw
+! Title: Ublock filter for Via(2026-11-22 12:04:40)
+! Version: 20261122120440
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-22 05:19:25
+! Last modified: 2026-11-22 12:04:40
 ! Human Count: 1.5w
-! Blocked Filters: 15770
+! Blocked Filters: 15759
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -843,7 +843,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /lemon7.$script,~third-party
 /leo7.$script,~third-party
 /lhzbsrfkjf/js/*$third-party
-/lib.js$domain=icelz.to|processbigger.com|tutvlive.ru
+/lib.js$domain=icelz.to|tutvlive.ru
 /lib/f_ad_code.js
 /link-mf.*/CI0/*$image
 /link.*/q/*$image
@@ -1330,7 +1330,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (6957) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6948) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1418,7 +1418,6 @@ voz.vn/b/image.gif?p=$image
 ||587.jp^
 ||59na.com^
 ||5dgja.com^
-||64gkf7zhlwqn6y4eutgq1hjjo9y.rest^
 ||6969-chat.tv^
 ||7-zip.com^
 ||71l0b.com^
@@ -2843,7 +2842,7 @@ voz.vn/b/image.gif?p=$image
 ||com/p.js?uid=$script,third-party
 ||com/p/jcod-ppsr/huasdirjdo^
 ||com/script/*.js|$script,third-party,domain=sparkchess.com
-||com/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|rivestream.org|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
+||com/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
 ||combatbaskstationery.com^
 ||comdotgame.com/static/ads/istripper/
 ||comfortablepossibilitycarlos.com^
@@ -3858,7 +3857,6 @@ voz.vn/b/image.gif?p=$image
 ||geh.jp^
 ||geheimerseitensprung.com^
 ||generating.link^
-||genishury.pro^
 ||gensenli.com^
 ||gentete.com^
 ||geofilms.net/rolls/
@@ -4258,7 +4256,6 @@ voz.vn/b/image.gif?p=$image
 ||hotrokhachhang-
 ||hotscope.tv/_next/static/chunks/pages/go-$script,~third-party
 ||hotsimulator.com^
-||hottracker.biz^
 ||hougen-talk.com^
 ||house.comikey.com/unw.gif?$image,~third-party
 ||hp-dy.net^
@@ -5478,7 +5475,7 @@ voz.vn/b/image.gif?p=$image
 ||neptunclicks.com^
 ||net.redroses.top^
 ||net/*/ModalEngage|$script,third-party
-||net/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|rivestream.org|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
+||net/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
 ||netaffiliation.com^$third-party
 ||netauth-whatsapp.com^
 ||netbot-whatsapp.com^
@@ -5585,7 +5582,6 @@ voz.vn/b/image.gif?p=$image
 ||nuvid.*/player_right_$subdocument
 ||nvcleanstal.
 ||nvcleanstall.
-||nvh1mgp8k77cu2935zwczqfezrr.cfd^
 ||nxbrew.com/sw.js$script,~third-party
 ||nxcli.io/pub/swissii/
 ||nxishctcjccry.com^
@@ -5989,7 +5985,6 @@ voz.vn/b/image.gif?p=$image
 ||player.pepsia.com/sdk.js^$script,third-party,domain=flibus.com
 ||player.tormalayalamhd.*/cdn-cgi/trace
 ||player.videasy.*/scripts/ab.js
-||player.vidlove.cc/rt.js
 ||playerembed-lb.blackboxsys.net/images/banners^$image,domain=dooball66s.com
 ||players.radioonlinehd.net/ads/
 ||players.radioonlinehd.net^$subdocument,third-party,domain=mgeko.cc
@@ -6402,7 +6397,6 @@ voz.vn/b/image.gif?p=$image
 ||rigidconcrete.ca^
 ||rilenews.com^
 ||ripiai.com^
-||riqhisfus.com^
 ||riseecore.site^
 ||ritz-club.net^
 ||riundoor.com^
@@ -6721,7 +6715,6 @@ voz.vn/b/image.gif?p=$image
 ||shurufa-sogou.org.cn^
 ||shush.se/loader/load.js$script
 ||shy-boat-90ce.jiko728928922.workers.dev^
-||shyvanas.top^
 ||sibergy.com^$third-party
 ||side-joblp.com^
 ||sideload.net^
@@ -6802,7 +6795,6 @@ voz.vn/b/image.gif?p=$image
 ||sm8787.com^
 ||sma-lita.site^
 ||smab.jp^
-||smahxdfxxdc.com^
 ||smallencode.me/small.js
 ||smalove.com^
 ||smart-tds.com^
@@ -6972,7 +6964,6 @@ voz.vn/b/image.gif?p=$image
 ||stats.index.hr^
 ||stats.pronouns.page^
 ||stats.webgames.io^
-||staukaptaicm.net^
 ||stay22.com/googleanalytics/
 ||stay22.com/thumbmark
 ||stb-media.xyz^
@@ -7027,6 +7018,7 @@ voz.vn/b/image.gif?p=$image
 ||streamvault.top/magic.js
 ||strimek.tv/apple.js$script,~third-party
 ||string-whatsapp.com^
+||strmfree.pk/analytics.js^
 ||strmfree.st/analytics.js^
 ||strpjmp.com^
 ||strumyk.net/assets/z-
@@ -8017,7 +8009,6 @@ voz.vn/b/image.gif?p=$image
 ||wps-cnzh.com^
 ||wps.ac.cn^
 ||wrc-gh.org/redelivery
-||wretchedclearance.com^
 ||wse.yts248ds.jp^
 ||wsimg.com/traffic-assets/$script,third-party
 ||wswsnews.net^
@@ -8142,7 +8133,7 @@ voz.vn/b/image.gif?p=$image
 ||xxxwebdlxxx.org^$image,domain=imgdawgknuttz.com
 ||xy58.jp^
 ||xyz/akbank/
-||xyz/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|capo5play.com|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dokoembed.pw|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|rivestream.org|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
+||xyz/|$xmlhttprequest,third-party,domain=398fitus.com|andyday.pe|anime3rb.com|animeflv.net|animez.org|bflix.sh|cardboardtranslation.com|cloudnestra.com|curiosidadtop.com|dlhd.click|dorawatch.net|ebook-hunter.org|embedcanais.com|embedhd.org|embedtv.net|eternalmangas.org|f16px.com|familypornhd.com|fbstreams.pm|fmoviesto.fi|fojik.com|freemoviesfull.com|futemais.net|giize.com|hoca6.com|htsport.org|instalker.org|jojolandsmanga.com|instalker.org|kaa.mx|luckypatchers.com|luluvdoo.com|mgread.io|mlbb.space|olympustaff.com|overtakefans.com|playerflixapi.com|reviewrate.net|souq-design.com|spotifylists.com|streamlord.com|summerhikarudied.com|telepisodes.org|tfp.is|tutvlive.ru|twstalker.com|up-4ever.net|ups2up.fun|vecloud.eu|vipbox.lc|watchf1full.com|webxzplay.cfd|weneverbeenfree.com|xoxocomic.com|yuppow.com
 ||xzo.jp^
 ||y-tradie.com^
 ||y2mate.*/themes/js/pn.js
@@ -8290,7 +8281,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5023) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5021) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -10450,13 +10441,13 @@ imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com##.sidebar > h3:first-child
 imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com,steamcrackedgames.com##.blink
 imgadult.com,imgdrive.net,imgwallet.com##.bottom_abs
 imgadult.com,imgdrive.net,imgwallet.com##.centered
-imgair.net,imgbbnhi.shop,imgblaze.net,imgbncvnv.sbs,imgbnwe.shop,imgbqb.sbs,imgbvdf.sbs,imgbyrev.sbs,imgfrost.net,imggune.shop,imghqqbg.shop,imgjajhe.sbs,imgjbxzjv.shop,imgjjtr.sbs,imgjmgfgm.shop,imgjvmbbm.shop,imgkkabm.shop,imgmffmv.sbs,imgmgf.sbs,imgmyqbm.shop,imgnbii.shop,imgnngr.sbs,imgnnnvbrf.sbs,imgoebn.sbs,imgolemn.sbs,imgouskel.sbs,imgpke.sbs,imgqbbds.sbs,imgqnnnebrf.sbs,imgthbm.shop,imguee.sbs,imgwwqbm.shop,imgxabm.shop,imgxxbdf.sbs,imgyhq.shop,picbcxvxa.sbs,picbqqa.sbs,picjbet.shop,picjgfjet.shop,picmsh.sbs,picnft.shop,picngt.shop,picnwqez.sbs,pictryhab.shop,picuenr.sbs,picxnkjkhdf.sbs,pixbkghxa.sbs,pixbnab.shop,pixbryexa.sbs,pixdfdj.shop,pixdfdjkkr.shop,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixlev.*,pixnbrqw.sbs,pixnbrqwg.sbs,pixrqqz.shop,pixsera.net,pixtryab.shop,vestimage.site##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgair.net,imgblaze.net,imgfrost.net,imgjjtr.sbs,imgouskel.sbs,imgthbm.shop,picngt.shop,pixlev.*,pixsera.net,vestimage.site##div[id][style^="position: fixed; display: block; width: 100%;"]
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
 imgbaron.com##div[style^="display: block; position: fixed; z-index"]
 imgbaron.com##p.newsbar_b
 imgbaron.com,picbaron.com###fadeinbox
-imgouskel.sbs,imgair.net,imgblaze.net,imgfrost.net,vestimage.site,pixlev.*,pixbryexa.sbs,picbqqa.sbs,pixbkghxa.sbs,imgmgf.sbs,picbcxvxa.sbs,imguee.sbs,imgmffmv.sbs,imgbqb.sbs,imgbyrev.sbs,imgbncvnv.sbs,pixtryab.shop,imggune.shop,pictryhab.shop,pixbnab.shop,imgbnwe.shop,imgbbnhi.shop,imgnbii.shop,imghqqbg.shop,imgyhq.shop,pixnbrqwg.sbs,pixnbrqw.sbs,picmsh.sbs,imgpke.sbs,picuenr.sbs,imgolemn.sbs,imgoebn.sbs,picnwqez.sbs,imgjajhe.sbs,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixdfdjkkr.shop,pixdfdj.shop,picnft.shop,pixrqqz.shop,picngt.shop,picjgfjet.shop,picjbet.shop,imgkkabm.shop,imgxabm.shop,imgthbm.shop,imgmyqbm.shop,imgwwqbm.shop,imgjvmbbm.shop,imgjbxzjv.shop,imgjmgfgm.shop,picxnkjkhdf.sbs,imgxxbdf.sbs,imgnngr.sbs,imgjjtr.sbs,imgqbbds.sbs,imgbvdf.sbs,imgqnnnebrf.sbs,imgnnnvbrf.sbs##div[class][style="display: block;"]
-imgouskel.sbs,imgair.net,imgblaze.net,imgfrost.net,vestimage.site,pixlev.*,pixbryexa.sbs,picbqqa.sbs,pixbkghxa.sbs,imgmgf.sbs,picbcxvxa.sbs,imguee.sbs,imgmffmv.sbs,imgbqb.sbs,imgbyrev.sbs,imgbncvnv.sbs,pixtryab.shop,imggune.shop,pictryhab.shop,pixbnab.shop,imgbnwe.shop,imgbbnhi.shop,imgnbii.shop,imghqqbg.shop,imgyhq.shop,pixnbrqwg.sbs,pixnbrqw.sbs,picmsh.sbs,imgpke.sbs,picuenr.sbs,imgolemn.sbs,imgoebn.sbs,picnwqez.sbs,imgjajhe.sbs,pixjnwe.sbs,pixkfjtrkf.shop,pixkfkf.shop,pixdfdjkkr.shop,pixdfdj.shop,picnft.shop,pixrqqz.shop,picngt.shop,picjgfjet.shop,picjbet.shop,imgkkabm.shop,imgxabm.shop,imgthbm.shop,imgmyqbm.shop,imgwwqbm.shop,imgjvmbbm.shop,imgjbxzjv.shop,imgjmgfgm.shop,picxnkjkhdf.sbs,imgxxbdf.sbs,imgnngr.sbs,imgjjtr.sbs,imgqbbds.sbs,imgbvdf.sbs,imgqnnnebrf.sbs,imgnnnvbrf.sbs##div[style="width:100%;height:110px"]
+imgouskel.sbs,imgair.net,imgblaze.net,imgfrost.net,vestimage.site,pixlev.*,picngt.shop,imgthbm.shop,imgjjtr.sbs##div[class][style="display: block;"]
+imgouskel.sbs,imgair.net,imgblaze.net,imgfrost.net,vestimage.site,pixlev.*,picngt.shop,imgthbm.shop,imgjjtr.sbs##div[style="width:100%;height:110px"]
 imgprime.com##.overlayBg
 imgshots.com###introOverlayBg
 imgtorrnt.in##[id*="Banner"]
@@ -11024,8 +11015,6 @@ meuplayeronlinehd.com###popupOverlay
 mgeko.cc###hero-ad
 mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
-mh.baxoi.buzz##.wp-manga.c-bottom-sidebar.c-sidebar[style="background-color:#ffffff; "]
-mh.baxoi.buzz##.wp-manga.c-top-sidebar.c-sidebar[style="background-color:#262626; "]
 mi-globe.com##.td-is-sticky
 miklpro.com##.box-main > .blog-item
 milfporn8.net##.vid-ave-pl:has([src^="//spyglass.reklon.net/"])
