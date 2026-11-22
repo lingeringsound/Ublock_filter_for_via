@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9G0kH6SutbVVc73XnB85zw
-! Title: Ublock filter for Via(2026-11-22 12:04:40)
-! Version: 20261122120440
+! Checksum: 83EpdOJMgIhlruRF2GRWQQ
+! Title: Ublock filter for Via(2026-11-23 05:24:14)
+! Version: 20261123052414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-22 12:04:40
+! Last modified: 2026-11-23 05:24:14
 ! Human Count: 1.5w
-! Blocked Filters: 15759
+! Blocked Filters: 15745
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
@@ -1330,7 +1330,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 6.9k (6948) <<<<<<
+! >>>>>> 域名规则 · 7.0k (6954) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -4341,7 +4341,6 @@ voz.vn/b/image.gif?p=$image
 ||igg-games.com/wp-content/uploads/2024/02/sss.jpg$image
 ||igniteseurope.com/stats/
 ||ignorezest.net^
-||igorslab.de/?$image
 ||igorslab.de/wp-content/*/ajax-handler.php$image
 ||igorslab.de/wp-content/plugins/igorslab-ads-suite/
 ||igorslab.de/wp-content/uploads/2020/03/980x120px_pure.jpg
@@ -4349,6 +4348,7 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2020/06/nv-rtx-pro-blackwell-980x125-1.jpg
 ||igorslab.de/wp-content/uploads/2020/06/nv-rtx-pro-blackwell-display-300x300-1.jpg
 ||igorslab.de/wp-content/uploads/2021/04/Optris_Final-2.jpg
+||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_1024x120px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x251px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGK50_S2_301x501px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_1024x120px.jpg
@@ -4357,6 +4357,7 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x251px.jpg
 ||igorslab.de/wp-content/uploads/2021/07/SHARKOON_Igors_Lab_SKILLER_SGP30_D1-D6_301x501px.jpg
 ||igorslab.de/wp-content/uploads/2021/11/Fractal-Sep-launch.jpg
+||igorslab.de/wp-content/uploads/2022/12/CAPO-X.png
 ||igorslab.de/wp-content/uploads/2022/12/View-600-Teal-300x400-1.jpg
 ||igorslab.de/wp-content/uploads/2023/04/980x100_DAMN_Fruehlingsdeals_ARCTIC_MINDFACTORY.jpg
 ||igorslab.de/wp-content/uploads/2023/04/Igors_Lab_ARCTIC_MX-7_980x100_
@@ -4365,6 +4366,7 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2024/07/SHARKOON_Igors_Lab_SKILLER_SGM50W_301x251px.jpg
 ||igorslab.de/wp-content/uploads/2024/09/0926_VGA_Autumn-Pack_900x125.jpg
 ||igorslab.de/wp-content/uploads/2024/09/Igors_Lab_980x125.jpg
+||igorslab.de/wp-content/uploads/2025/03/980_x_125px_-_PS_Pro.png
 ||igorslab.de/wp-content/uploads/2025/03/DP_H_DE.png
 ||igorslab.de/wp-content/uploads/2025/08/HATOR-Skyfall_80_MAG_ULTIMA_8K_Wireless.jpg
 ||igorslab.de/wp-content/uploads/2025/10/Terminator-Air_300-x-400-1.jpg
@@ -4374,6 +4376,9 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2026/03/AT-120-K-300%C3%97250.jpg
 ||igorslab.de/wp-content/uploads/2026/04/300-%D1%85-350-HATOR-Quasar-3-Ultima-3.jpg
 ||igorslab.de/wp-content/uploads/2026/07/Terminator-Air_980-x-125-1.jpg
+||igorslab.de/wp-content/uploads/2026/08/300_x_400px_-_PS_Pro-1.png
+||igorslab.de/wp-content/uploads/2026/08/300x400.png
+||igorslab.de/wp-content/uploads/2026/08/980x125.png
 ||igorslab.de/wp-content/uploads/2026/08/DP_V_DE.png
 ||igorslab.de/wp-content/uploads/2026/08/HK5-2026.jpg
 ||igorslab.de/wp-content/uploads/2026/08/Horizontal.jpg
@@ -4381,7 +4386,6 @@ voz.vn/b/image.gif?p=$image
 ||igorslab.de/wp-content/uploads/2026/10/HY2612-V2.jpg
 ||igorslab.de/wp-content/uploads/2026/10/Solstice-H.png
 ||igorslab.de/wp-content/uploads/2026/10/Solstice-V.png
-||igorslab.de^$script,xmlhttprequest,~third-party
 ||igualdad.iaa.csic.es/nochain-sw.js
 ||ihub.live/sw.js$script,~third-party
 ||iikanjiyanakanjide.wixsite.com^
@@ -4618,7 +4622,7 @@ voz.vn/b/image.gif?p=$image
 ||k1nk.co/videos/*/_.pagespeed.$script,~third-party
 ||k1wa.jp^
 ||ka73-urara.club^
-||kaa.lt/*x*.html^$subdocument,~third-party
+||kaa.lt/*.html^
 ||kaaairoo549kai.com^
 ||kadak.jp^
 ||kaguraserver.com/wp-content/uploads/*-Ad-300-
@@ -5127,6 +5131,7 @@ voz.vn/b/image.gif?p=$image
 ||media.ethicalads.io^$image,domain=decompiler.com
 ||media.ewrc-results.com/banners/
 ||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
+||media.h264.io/*/dash.mpd$xmlhttprequest,third-party,domain=play.discovery.com
 ||media.indiatimes.in/idthat/commons/images/rbc-gray.png$image
 ||media.toxtren.com^
 ||mediafire.com/folder/hh6g372sijmjr/
@@ -5513,6 +5518,7 @@ voz.vn/b/image.gif?p=$image
 ||next-whatsapp.com^
 ||nextaex.com^
 ||nextyourcontent.com^
+||nexuismods.com^
 ||nexusbytes.com^$third-party
 ||nexusmcds.com^
 ||nexusmops.com^
@@ -8281,7 +8287,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5021) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5022) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -10406,15 +10412,12 @@ igg-games.com##a[href^="https://igg-games.com/"][href*="flix"] > img
 igg-games.com##article > a:has(img[loading="lazy"][width][height])
 igg-games.com##aside > :not(:first-child) a[href] img
 ign.com###king
+igorslab.de###extras > div[class][id]:has(> a:only-child > img[src^="https://www.igorslab.de/wp-content/uploads/"]:only-child)
+igorslab.de##.entry-content > a:has(> img:only-child:not([class], [alt], [srcset]))
+igorslab.de##.entry-content > div > div > a:last-child:has(> img:only-child:not([class], [alt], [srcset]))
+igorslab.de##.entry-content > img[style*="max-width: 100%;"]
 igorslab.de##.herald-sticky
-igorslab.de##[style*="!important"]
-igorslab.de##[style*="aspect-ratio"]
-igorslab.de##[style*="background-image:url"]
 igorslab.de##a[aria-label*="Banner"]
-igorslab.de##a[rel][target]:not([target="blank"],[target="_blank"])
-igorslab.de##div[style="height: 90 px; text-align: left;"]
-igorslab.de##div[style^="display:block;position:relative;max-width:"]
-igorslab.de##img[src^="blob:http"]
 iimanga.com##div[id^="teaser"]
 iir.ai###link-view > div[style] + p[style] + center > [href][target]
 iir.ai##.box-main > a[href][target]
@@ -10450,6 +10453,8 @@ imgouskel.sbs,imgair.net,imgblaze.net,imgfrost.net,vestimage.site,pixlev.*,picng
 imgouskel.sbs,imgair.net,imgblaze.net,imgfrost.net,vestimage.site,pixlev.*,picngt.shop,imgthbm.shop,imgjjtr.sbs##div[style="width:100%;height:110px"]
 imgprime.com##.overlayBg
 imgshots.com###introOverlayBg
+imgtag.co.kr##.en-pt--ad
+imgtag.co.kr##.itgp-ad
 imgtorrnt.in##[id*="Banner"]
 imhentai.xxx,pics-x.com###slider
 immoweb.be##[id^="adims_"]
@@ -10624,8 +10629,10 @@ justlightnovels.com,thetruedefender.com,tvnation.me##.adsbyvli
 justwatch.com##.vpn-link
 kaa.lt###fullscreen-ad-trap
 kaa.lt###premium-swipey-bar
+kaa.lt##a[href*=".html"][target="_blank"]
 kaa.lt##div[class^="col-"]:has(> .show-item > .native-ad-card)
 kaa.lt##div[class^="col-"]:has(> .show-item > .native-ad-cover)
+kaa.lt##div[class^="col-"]:has(> .show-item > .v-card > .poster-frame)
 kachelmannwetter.com###meteosafe
 kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
@@ -13634,7 +13641,7 @@ zshort.*###showContainer,.textfk
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2148) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2127) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -15455,27 +15462,6 @@ zshort.*###showContainer,.textfk
 @@||www-league.nhlstatic.com/nhl.com/builds/site-core/*/scripts/*$script,domain=nhl.com
 @@||www-league.nhlstatic.com^$xmlhttprequest,domain=nhl.com
 @@||www.googletagmanager.com/gtm.js$script,domain=www.petsbest.com
-@@||www.igorslab.de/cdn-cgi/challenge-platform/$script,xmlhttprequest
-@@||www.igorslab.de/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js
-@@||www.igorslab.de/community/$script,xmlhttprequest
-@@||www.igorslab.de/wp-admin/admin-ajax.php
-@@||www.igorslab.de/wp-content/plugins/XFWP/assets/js/xfwp-admin.js
-@@||www.igorslab.de/wp-content/plugins/ba-plus-before-after-image-slider/assets/s201-bai.js
-@@||www.igorslab.de/wp-content/plugins/igorslab-advanced-pdf-viewer/assets/viewer.js
-@@||www.igorslab.de/wp-content/plugins/igorslab-ai-seo-performance-suite/assets/js/consent.js
-@@||www.igorslab.de/wp-content/plugins/igorslab-geizhals-auto/assets/ilgha-frontend.js
-@@||www.igorslab.de/wp-content/plugins/igorslab-youtube-latest-shortcode/assets/frontend.js
-@@||www.igorslab.de/wp-content/plugins/meks-flexible-shortcodes/js/main.js
-@@||www.igorslab.de/wp-content/plugins/wonderplugin-gallery/engine/wonderplugingallery.js
-@@||www.igorslab.de/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridgallery.js
-@@||www.igorslab.de/wp-content/plugins/wonderplugin-gridgallery/engine/wonderplugingridlightbox.js
-@@||www.igorslab.de/wp-content/plugins/wonderplugin-slider/engine/wonderpluginslider.js
-@@||www.igorslab.de/wp-content/plugins/wonderplugin-slider/engine/wonderpluginsliderskins.js
-@@||www.igorslab.de/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js
-@@||www.igorslab.de/wp-content/themes/herald/assets/js/min.js
-@@||www.igorslab.de/wp-content/uploads/20*.pdf^$xmlhttprequest,~third-party
-@@||www.igorslab.de/wp-includes/js/imagesloaded.min.js
-@@||www.igorslab.de/wp-includes/js/utils.min.js
 @@||www.pussyspace.com/ajax/contact/exo-logo.png|
 @@||www.pussyspace.com/class/captcha/arrow.png|
 @@||www.pussyspace.com/class/captcha/captcha.php|
