@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: oxc68glTIYoO+6X/mCVWfQ
-! Title: Ublock filter for Via(2026-11-24 10:40:26)
-! Version: 20261124104026
+! Checksum: 9HCILTAEQ5gfD8aokGR5eg
+! Title: Ublock filter for Via(2026-11-25 08:13:58)
+! Version: 20261125081358
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-24 10:40:26
+! Last modified: 2026-11-25 08:13:58
 ! Human Count: 1.5w
-! Blocked Filters: 15746
+! Blocked Filters: 15736
 ! Description: 合并Ublock自带的5个主规则，适用于移动端轻量的浏览器，例如 VIA
 ! Homepage: https://github.com/lingeringsound/Ublock_filter_for_via
 ! Github Raw Link: https://raw.githubusercontent.com/lingeringsound/Ublock_filter_for_via/main/Ublock_filter_for_via.txt
 
 
-! >>>>>> 通配符规则 · 1.3k (1316) <<<<<<
+! >>>>>> 通配符规则 · 1.3k (1317) <<<<<<
 $script,domain=zdnet.fr,third-party
 $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.com
 &adspot_id=*&cost=0.
@@ -595,6 +595,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /babia.to/b/image.gif$image
 /backend_loader$script
 /banner.go?spaceid=
+/banner/*$image,domain=geosaitebi.tv|televiziebi.tv
 /barbar7.$script,~third-party
 /bdv_rd.dbm?ownid=
 /binance-banner.jpg$domain=bg-gledai.*
@@ -736,7 +737,7 @@ $subdocument,~third-party,domain=pornhub-sexfilme.net|pornojenny.net|pornoleon.c
 /facebook.com/aymt/aa/?$image
 /fag/js/lol.js$domain=comohoy.com|pornleaks.in|leak.sx|paste.bin.sx
 /fapp1.williamoneilindia.com/*$image
-/favicon.ico|$image,third-party,domain=ab.nanacdn.com|abysscdn.com|abyssplayer.com|fullfreeimage.com|gogatv.net|hihihaha1.xyz|hihihaha2.xyz|hydraxcdn.biz|imagelovers.com|player-cdn.com|playermeow.com|playhydrax.com|rufiiguta.com
+/favicon.ico|$image,third-party,domain=ab.nanacdn.com|abysscdn.com|abyssplayer.com|gogatv.net|hihihaha1.xyz|imagelovers.com|player-cdn.com|playermeow.com|playhydrax.com|rufiiguta.com
 /fb_video_googleplay/*/index.html?
 /fhbdhf.jpg$image,~third-party,domain=bluemediadownload.*|bluemediafile.*|bluemedialink.*|bluemediastorage.*|bluemediaurls.*|urlbluemedia.*
 /files/banners/*.gif$image,domain=bitcotasks.com
@@ -1330,7 +1331,7 @@ voz.vn/b/image.gif?p=$image
 |about:blank$domain=satoshi-win.xyz
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 7.0k (6954) <<<<<<
+! >>>>>> 域名规则 · 6.9k (6946) <<<<<<
 |http://playing.io/?inviteCode=1000631|
 |http://playing.io/?inviteCode=1000632|
 |https://*.favoripirlanta.com^
@@ -1542,7 +1543,6 @@ voz.vn/b/image.gif?p=$image
 ||adsinteractive.com^
 ||adslab.me^
 ||adslink.pw/*.php
-||adsloboclick.com^
 ||adslop.com^$third-party
 ||adsok.co^$third-party
 ||adspy.javrank.com^
@@ -2307,7 +2307,6 @@ voz.vn/b/image.gif?p=$image
 ||bon-whatsapp.com^
 ||bonzi.link^
 ||boo-whatsapp.com^
-||boobausauhipsa.net^
 ||boobsrealm.com/wp-content/uploads/*-banner$image,~third-party
 ||bookofsex.com^
 ||boomlify.com/banner-config.json
@@ -3674,7 +3673,6 @@ voz.vn/b/image.gif?p=$image
 ||flirtanu.com^
 ||flirtmoms.com^
 ||flirttime.com^
-||flixbaba.net/utilsminhill.js
 ||flixhq.*/loadme/
 ||flixmomo.*/utilsmin*.js^
 ||flixsyndication.net/delivery/static/tracking/$script
@@ -4136,7 +4134,6 @@ voz.vn/b/image.gif?p=$image
 ||hddsentinel.com^
 ||hdfilmce.com/bt.webp$image
 ||hdfilmcehennemi1.net/rekla/$media
-||hdfilmizlesen.com/ponpis.js^
 ||hdmp4mania2.com/antiadblock.php
 ||hdpornup.com/*/js.php
 ||hdsex.org/agent.php
@@ -5801,6 +5798,7 @@ voz.vn/b/image.gif?p=$image
 ||pages.dev/account/js-reporting^
 ||pages.dev/ai2.mp3
 ||pages.dev/al1.mp3
+||pages.dev/assets/js/devtools-guard.js
 ||pages.dev/errors/validateCaptcha^
 ||pages.dev/esc.js
 ||pages.dev/fulls.js
@@ -6012,7 +6010,6 @@ voz.vn/b/image.gif?p=$image
 ||pmur.org/*_abChoice.
 ||pnav.jp^
 ||pnd.tl/*.gif$image
-||pndax.love^
 ||pngvnreward.pages.dev^
 ||pobierzgrepc.com/templates/games/js/blocker.js
 ||pobierzgrepc.com/templates/games/js/p0per.js
@@ -7229,7 +7226,6 @@ voz.vn/b/image.gif?p=$image
 ||telemetry*.transcend.io^
 ||telemetry.adsninja.ca^
 ||telet.me^
-||televiziebi.tv/*/banner/
 ||telezelm-*.icu^
 ||teltarif.de/img/$script,~third-party
 ||telus.signup.clik2pay.com^
@@ -7554,7 +7550,7 @@ voz.vn/b/image.gif?p=$image
 ||unmei-shinpi.jp^
 ||unnajd.com^
 ||unpkg.com/redirect-*/beamglea.js$script
-||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=peliculas8k.com|playfmovies.*|vtplayer.online|vvtplayer.*
+||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=peliculas8k.com|playfmovies.*|vvtplayer.*
 ||unsp1ash.net^
 ||unspalsh.net^
 ||unsplach.net^
@@ -7614,7 +7610,6 @@ voz.vn/b/image.gif?p=$image
 ||userun-whatsapp.com^
 ||usesec-whatsapp.com^
 ||useweb-whatsapp.com^
-||usheebainaut.com^
 ||uspost.*.cfd^
 ||usps-packages-*.com^
 ||usps.*.sbs^
@@ -7724,8 +7719,6 @@ voz.vn/b/image.gif?p=$image
 ||vip-salon.net^
 ||viper.to/clientscript/popcode_
 ||viper.to/clientscript/poptrigger_
-||vipifsa.com/api/ad
-||vipifsa.com/api/popup
 ||vipsunglassesindia.in^
 ||vironexta.com^
 ||virtualbox.es^
@@ -8287,7 +8280,7 @@ voz.vn/b/image.gif?p=$image
 ||zzlocalsquared.com^
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 5.0k (5023) <<<<<<
+! >>>>>> 网站单独规则 · 5.0k (5021) <<<<<<
 %3C?php%20echo%20substr(md5(microtime()),0,rand(10,30));?%3E&
 *###target.pk-page-ready > #sales-banner
 *##.ads_all > .ads_w
@@ -8394,7 +8387,7 @@ voz.vn/b/image.gif?p=$image
 7moviesrulz.com,movierulzfree.*,movierulzs.*##.hd-buttons
 85videos.com##.haha-body
 85videos.com,alphaporno.com,anon-v.com,cartoonvideos247.com,crazyporn.xxx,daporn.com,ebony8.com,familyporn.tv,heavyfetish.com,lesbian8.com,lolhentai.net,love4porn.com,mangovideo.*,maturetubehere.com,nudogram.com,pornfd.com,pornhits.com,shemalesin.com,thethothub.com,thothub.*,webcamsdolls.com,zedporn.com##.sponsor
-85videos.com,emturbovid.com,findjav.com,javggvideo.xyz,mmtv01.xyz,stbturbo.xyz,trailerhg.xyz,turbocloud.xyz,turboplayers.xyz,turbovid.vip,turbovidhls.com###pop
+85videos.com,emturbovid.com,javggvideo.xyz,mmtv01.xyz,trailerhg.xyz,turbocloud.xyz,turboplayers.xyz,turbovid.vip,turbovidhls.com###pop
 8muses.com###content > div > .gallery > a.t-hover.c-tile:has(iframe[src^="/banner/"])
 8muses.com##.a-image
 8muses.com##[href^="https://bit.ly/"]
@@ -8427,8 +8420,8 @@ a8ix.*,atishmkv.*##.idmuvi-topbanner-aftermenu
 a8ix.*,atishmkv.*##.inner-floatbanner-bottom
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-bannerplayer
 a8ix.*,atishmkv.*,mkv.*##.idmuvi-center-ads
-ab.nanacdn.com,abysscdn.com,abyssplayer.com,adsy.pw,allfeeds.*,aman-dn.blogspot.com,cloud.hownetwork.xyz,doooood.co,earnbee.xyz,ezeviral.com,fembedx.top,fullfreeimage.com,gleanster.com,gogatv.net,hydraxcdn.biz,imagelovers.com,live-sport.duktek.pro,made-by.org,newdmn.*,oii.io,playembedapi.site,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,sharer.pw,streambtw.com,telerium.*,teleriumtv.*,videonode.de,viz.com###overlay
-ab.nanacdn.com,abysscdn.com,abyssplayer.com,fullfreeimage.com,gogatv.net,hihihaha1.xyz,hihihaha2.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
+ab.nanacdn.com,abysscdn.com,abyssplayer.com,adsy.pw,allfeeds.*,aman-dn.blogspot.com,cloud.hownetwork.xyz,doooood.co,earnbee.xyz,ezeviral.com,fembedx.top,gleanster.com,gogatv.net,imagelovers.com,live-sport.duktek.pro,made-by.org,newdmn.*,oii.io,playembedapi.site,playermeow.com,playhydrax.com,playstore.pw,pngreal.com,rufiiguta.com,sharer.pw,streambtw.com,telerium.*,teleriumtv.*,videonode.de,viz.com###overlay
+ab.nanacdn.com,abysscdn.com,abyssplayer.com,gogatv.net,hihihaha1.xyz,playhydrax.com,rufiiguta.com##.loading-overlay ~ div[style^="position: relative;"]
 abcnews.com,abcnews.go.com##.StickyAdWrapper
 abcya.com##.a-prerollvideo-container
 abczdrowie.pl##body > div > div:only-child > div:only-child > a:first-child > div:only-child:empty
@@ -8846,7 +8839,6 @@ bg-gledai.*###casing > .adsbygoogle
 bg-gledai.*##.smallbanner
 bg-gledai.*##.squarebanner
 bg-gledai.*##center > .adsbygoogle
-bg-gledai.video,gledaitv.*,cdn.gledaitv.*##:is([id*="access"],[id*="warning"],[id*="gledai"],[class*="access"],[class*="warning"],[class*="gledai"])
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
 bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
@@ -9060,7 +9052,7 @@ cat3movie.org###ads-preload
 cat3movie.org##.float-ck-center-lt
 cbc.ca##.ad-risingstar-container
 cboard.net###left-ba
-cccam4sat.com,dipsnp.com,everydaytechvams.com,formyanime.com,gsm-solution.com,h-donghua.com,hindisubbedacademy.com,hm4tech.info,mydverse.*,panelprograms.blogspot.com,ripexbooster.xyz,serial4.com,set.seturl.in,tutorgaming.com,unblockedgamesgplus.gitlab.io##.popSc
+cccam4sat.com,everydaytechvams.com,formyanime.com,h-donghua.com,hindisubbedacademy.com,hm4tech.info,mydverse.*,panelprograms.blogspot.com,serial4.com,set.seturl.in,tutorgaming.com,unblockedgamesgplus.gitlab.io##.popSc
 cda.pl##.pb-ad-video-player
 cda.pl##.pb-video-click
 cdn.gamemonetize.com###imaContainer
@@ -9554,8 +9546,8 @@ empflix.com##.mewDv
 empflix.com##.padAdvx
 empflix.com,tnaflix.com##.lastLiAvx
 empire-anime.*,empire-streaming.*,empire-anime.com,empire-streamz.fr,empire-stream.*##.direct-lads
-emturbovid.com,findjav.com,javggvideo.xyz,mmtv01.xyz,stbturbo.xyz,trailerhg.xyz,turbocloud.xyz,turboplayers.xyz,turbovid.vip,turbovidhls.com###pop1
-emturbovid.com,findjav.com,javggvideo.xyz,mmtv01.xyz,stbturbo.xyz,trailerhg.xyz,turbocloud.xyz,turboplayers.xyz,turbovid.vip,turbovidhls.com###pop2
+emturbovid.com,javggvideo.xyz,mmtv01.xyz,trailerhg.xyz,turbocloud.xyz,turboplayers.xyz,turbovid.vip,turbovidhls.com###pop1
+emturbovid.com,javggvideo.xyz,mmtv01.xyz,trailerhg.xyz,turbocloud.xyz,turboplayers.xyz,turbovid.vip,turbovidhls.com###pop2
 emturbovid.com,turbocloud.xyz,turbovid.xyz##.div_pop
 emuenzen.de##a[href*="sjv.io"]
 emulatorgames.net##[class*="-label"]
@@ -10009,6 +10001,7 @@ geinoukame.com##.ninja-recommend-block + hr
 gendai.media##.elementSectionHeadingsWithSuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 genialne.pl,jastrzabpost.pl##div[style="background: #ddd9d9; margin-bottom: 10px; width: 100%;"]
 geniussolutions.co###interstitial-container
+geosaitebi.tv##.avc-asv
 german-porno-deutsch.info##[href="/acamateure.html"]
 get-digital-help.com,mediaite.com##.adthrive-ad
 get-to.link###genesis-modal
@@ -10671,7 +10664,6 @@ kickasssubtitles.com##.js-app-external.app-external:has(#banner-placeholder)
 kiddyearner.com##iframe[src^="https://cryptocoinsad.com/ads/"]
 kiddyshort.com##div[style$="z-index:999999;"]
 kiemlua.com,link1s.*###baolink1s
-kinofen.cc###popup-wrapper
 kinoger.to##a[href^="//fbmedia-ckl.com/get"]
 kio.ac##canvas[width="300"][height="150"]
 kio.ac,whoisnovel.com##[data-placement-id^="revbid-"]
@@ -11432,7 +11424,6 @@ panda-novel.com##[class^="novel-ins"]
 pandamovie.*,pandamovies.me,pornkino.cc,speedporn.*###tracking-url
 pandamovies.org,watchporn4k.com###video-overlay
 pandamovies.pw,pornwatch.ws,xxxparodyhd.net,xxxstream.me##.btn-lg.btn-block.btn
-pandaspor.live##[href^="https://go.aff."]
 panel.freemcserver.net##body > #main-wrapper > .page-wrapper > .container-fluid > .row > .col-md-10 > [class] > .row > .col > ul:first-child + [class="row justify-content-center mb-3 billboard_responsive text-center"]
 panel.freemcserver.net##body > #main-wrapper > .page-wrapper > .container-fluid > .row > .col-md-10 > [class] > .row > [class^="col-"] > [style*="min-height"][style*="flex"]:has(> [id^="stpd-"][style^="position:"]:first-child + div + div:last-child)
 paraphraser.io##.adsenbox:not(#detect)
@@ -13642,7 +13633,7 @@ zshort.*###showContainer,.textfk
 ~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 2.1k (2127) <<<<<<
+! >>>>>> 放行白名单 · 2.1k (2126) <<<<<<
 #@##adContext
 #@##adContext:not(:empty)
 #@##adSpecial
@@ -14812,7 +14803,6 @@ zshort.*###showContainer,.textfk
 @@||micro.rubiconproject.com/prebid/dynamic/$script,xmlhttprequest,domain=gamingbible.com
 @@||microcat-america.superservice.com/content/microcat-dist/js/$script,~third-party
 @@||microsoft.com/*/aria-web-telemetry$script,~third-party
-@@||midara.ink/api/$script,~third-party
 @@||mindbodygreen.com/ads-leaderboard-ad-$script,domain=mindbodygreen.com
 @@||minhatela.xyz/*.js|$script,~third-party
 @@||minnanokaigo.com/img/page/ad-navi/parts/$image,~third-party
